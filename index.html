@@ -8,10 +8,8 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2317301f'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23cbaa5d' font-family='Georgia,serif'%3EB%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" />
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap');
-
 :root {
   --bg: #f7f5ef;
   --panel: #ffffff;
@@ -97,9 +95,8 @@ input, select, textarea { font-family: inherit; }
   gap: 16px; padding-block: 14px;
 }
 .brand { display: flex; align-items: center; gap: 12px; min-width: 0; cursor: pointer; flex-shrink: 1; overflow: hidden; }
-.brand-mark { flex-shrink: 0; }
-.brand-text { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; overflow: hidden; }
-.brand-name { font-family: var(--serif); font-size: 21px; letter-spacing: 0.03em; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brand-mark { flex-shrink: 0; width: 108px; height: 45px; color: var(--text); }
+.brand-text { display: flex; flex-direction: column; justify-content: center; line-height: 1.15; min-width: 0; overflow: hidden; }
 .brand-sub { font-family: var(--sans); font-size: 9.5px; letter-spacing: 0.16em; color: var(--gold); text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .header-nav { display: flex; align-items: center; gap: 4px; }
@@ -126,8 +123,7 @@ input, select, textarea { font-family: inherit; }
 @media (max-width: 480px) {
   .header-inner { gap: 8px; padding-block: 10px; }
   .brand { gap: 8px; }
-  .brand-mark { width: 28px; height: 28px; }
-  .brand-name { font-size: 16px; }
+  .brand-mark { width: 78px; height: 33px; }
   .brand-sub { font-size: 7.5px; letter-spacing: 0.1em; }
   .header-nav { gap: 2px; }
   .nav-btn { padding: 7px 9px; font-size: 11.5px; }
@@ -299,12 +295,12 @@ table.schedule-table th { color: var(--text-faint); font-weight: 500; font-size:
 <header class="site-header">
   <div class="wrap header-inner">
     <div class="brand" id="brandHome" role="button" tabindex="0" aria-label="Go to collection">
-      <svg class="brand-mark" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <rect x="0.5" y="0.5" width="33" height="33" stroke="currentColor" stroke-opacity="0.25"/>
-        <text x="17" y="24" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="20" fill="var(--gold)">BM</text>
+      <svg class="brand-mark" viewBox="0 0 230 96" xmlns="http://www.w3.org/2000/svg" aria-label="Baker McGuire" role="img">
+        <text x="0" y="46" font-family="'Alex Brush', 'Brush Script MT', cursive" font-size="46" fill="currentColor">Baker<tspan font-family="Georgia, serif" font-size="13" dy="-25">&#174;</tspan></text>
+        <line x1="2" y1="58" x2="164" y2="58" stroke="currentColor" stroke-width="1.5"/>
+        <text x="0" y="84" font-family="'Cormorant Garamond', serif" font-size="22" letter-spacing="3.5" fill="currentColor"><tspan font-size="22">M</tspan><tspan font-size="16">c</tspan><tspan font-size="22">GUIRE</tspan></text>
       </svg>
       <div class="brand-text">
-        <span class="brand-name">Baker &middot; McGuire</span>
         <span class="brand-sub">Philippines / The Quote Book</span>
       </div>
     </div>
