@@ -177,7 +177,7 @@ function renderConfigurator() {
   const el = document.getElementById("configurator");
   const product = currentProduct();
   if (!product) {
-    el.innerHTML = `<div class="config-placeholder"><div class="ph-title">Select a piece</div><p>Choose a product from the list to configure its covering, view pricing, and add it to your quotation.</p></div>`;
+    el.innerHTML = `<div class="panel config-placeholder"><div class="ph-title">Select a piece</div><p>Choose a product above to configure its covering, view pricing, and add it to your quotation.</p></div>`;
     return;
   }
   const coverings = availableCoverings(product);
@@ -297,39 +297,47 @@ function renderConfigurator() {
   ].filter(([, v]) => v != null && v !== "").map(([k, v]) => `<div><span>${k}</span><span>${typeof v === "number" ? v + '"' : v}</span></div>`).join("");
 
   el.innerHTML = `
-    <div class="cf-header">
-      <p class="cf-kicker">${escapeHtml(product.collection)}${product.limited ? " · Limited" : ""}</p>
-      <h2 class="cf-title">${escapeHtml(product.name)}</h2>
-      <p class="cf-sub">SKU ${product.sku}</p>
-      <p class="cf-dims">${dimsSummary(d) || ""}</p>
+    <div class="configure-grid">
+      <div class="panel config-main">
+        <p class="section-label"><span class="section-badge">2</span> Configure</p>
+        <div class="cf-header">
+          <p class="cf-kicker">${escapeHtml(product.collection)}${product.limited ? " · Limited" : ""}</p>
+          <h2 class="cf-title">${escapeHtml(product.name)}</h2>
+          <p class="cf-sub">SKU ${product.sku}</p>
+          <p class="cf-dims">${dimsSummary(d) || ""}</p>
+        </div>
+
+        <p class="section-label">Covering</p>
+        <div class="covering-tabs">${tabsHtml}</div>
+        <div id="coveringBody">${coveringBodyHtml}</div>
+
+        <p class="section-label">Frame Finish</p>
+        ${finishHtml}
+
+        <details class="expand">
+          <summary>Frame details &amp; dimensions</summary>
+          <div class="expand-body">
+            <p style="margin-top:0;">${product.specs.map((s) => escapeHtml(s)).join("<br/>")}</p>
+            <div class="dims-grid">${dimsRows}</div>
+          </div>
+        </details>
+
+        <details class="expand">
+          <summary>Complete price schedule (before VAT)</summary>
+          <div class="expand-body schedule-table-wrap">
+            <table class="schedule-table">
+              <thead><tr><th>Covering</th><th>Price</th></tr></thead>
+              <tbody>${scheduleRows}${leatherRows}${riserRow}</tbody>
+            </table>
+          </div>
+        </details>
+      </div>
+
+      <div class="panel config-summary">
+        <p class="section-label"><span class="section-badge">3</span> Summary</p>
+        ${summaryHtml}
+      </div>
     </div>
-
-    <p class="section-label">Covering</p>
-    <div class="covering-tabs">${tabsHtml}</div>
-    <div id="coveringBody">${coveringBodyHtml}</div>
-
-    <p class="section-label">Frame Finish</p>
-    ${finishHtml}
-
-    <details class="expand">
-      <summary>Frame details &amp; dimensions</summary>
-      <div class="expand-body">
-        <p style="margin-top:0;">${product.specs.map((s) => escapeHtml(s)).join("<br/>")}</p>
-        <div class="dims-grid">${dimsRows}</div>
-      </div>
-    </details>
-
-    <details class="expand">
-      <summary>Complete price schedule (before VAT)</summary>
-      <div class="expand-body schedule-table-wrap">
-        <table class="schedule-table">
-          <thead><tr><th>Covering</th><th>Price</th></tr></thead>
-          <tbody>${scheduleRows}${leatherRows}${riserRow}</tbody>
-        </table>
-      </div>
-    </details>
-
-    ${summaryHtml}
   `;
 
   bindConfiguratorEvents(product);
