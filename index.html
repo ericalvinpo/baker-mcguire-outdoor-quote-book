@@ -6,7 +6,293 @@
 <title>Baker McGuire Outdoor — The Quote Book</title>
 <meta name="description" content="Baker McGuire Outdoor — Philippines Quote Book. Configure, price, and quote the Baker McGuire Outdoor collection." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2317301f'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23cbaa5d' font-family='Georgia,serif'%3EB%3C/text%3E%3C/svg%3E" />
-<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #f7f5ef;
+  --panel: #ffffff;
+  --panel-alt: #fbfaf5;
+  --text: #17301f;
+  --text-soft: #4a5d4f;
+  --text-faint: #7c8a7e;
+  --gold: #a6842f;
+  --gold-soft: #c9ab6a;
+  --border: #e2ddca;
+  --border-strong: #cfc7a8;
+  --danger: #a1362a;
+  --shadow: 0 8px 30px rgba(23, 48, 31, 0.07);
+  --active-bg: var(--text);
+  --active-fg: var(--bg);
+  --radius: 2px;
+  --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+:root:not([data-theme="light"]) {
+  @media (prefers-color-scheme: dark) {
+    --bg: #14211a;
+    --panel: #1b2b22;
+    --panel-alt: #1f3226;
+    --text: #ece7d8;
+    --text-soft: #b9c4b7;
+    --text-faint: #849085;
+    --gold: #cbaa5d;
+    --gold-soft: #a98c48;
+    --border: #2d4234;
+    --border-strong: #3a5140;
+    --danger: #d97a6c;
+    --shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    --active-bg: var(--gold);
+    --active-fg: #1b1204;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14211a;
+  --panel: #1b2b22;
+  --panel-alt: #1f3226;
+  --text: #ece7d8;
+  --text-soft: #b9c4b7;
+  --text-faint: #849085;
+  --gold: #cbaa5d;
+  --gold-soft: #a98c48;
+  --border: #2d4234;
+  --border-strong: #3a5140;
+  --danger: #d97a6c;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  --active-bg: var(--gold);
+  --active-fg: #1b1204;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+button { font-family: inherit; }
+input, select, textarea { font-family: inherit; }
+
+.wrap { max-width: 1320px; margin: 0 auto; padding-inline: clamp(16px, 3vw, 40px); }
+
+/* ---------- Header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 40;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.header-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding-block: 14px;
+}
+.brand { display: flex; align-items: center; gap: 12px; min-width: 0; cursor: pointer; flex-shrink: 1; overflow: hidden; }
+.brand-mark { flex-shrink: 0; }
+.brand-text { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; overflow: hidden; }
+.brand-name { font-family: var(--serif); font-size: 21px; letter-spacing: 0.03em; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brand-sub { font-family: var(--sans); font-size: 9.5px; letter-spacing: 0.16em; color: var(--gold); text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.header-nav { display: flex; align-items: center; gap: 4px; }
+.nav-btn {
+  background: none; border: 1px solid transparent; color: var(--text-soft);
+  font-size: 13px; letter-spacing: 0.04em; padding: 9px 16px; cursor: pointer;
+  border-radius: var(--radius); position: relative; white-space: nowrap;
+}
+.nav-btn:hover { color: var(--text); }
+.nav-btn.active { color: var(--text); border-color: var(--border-strong); background: var(--panel); }
+.cart-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 18px; height: 18px; padding: 0 5px; margin-left: 7px;
+  background: var(--gold); color: #fff; font-size: 10.5px; font-weight: 700;
+  border-radius: 999px; vertical-align: middle;
+}
+.theme-toggle {
+  width: 36px; height: 36px; border-radius: 999px; border: 1px solid var(--border-strong);
+  background: var(--panel); color: var(--text); cursor: pointer; display: flex;
+  align-items: center; justify-content: center; flex-shrink: 0;
+}
+.theme-toggle svg { width: 16px; height: 16px; }
+
+@media (max-width: 480px) {
+  .header-inner { gap: 8px; padding-block: 10px; }
+  .brand { gap: 8px; }
+  .brand-mark { width: 28px; height: 28px; }
+  .brand-name { font-size: 16px; }
+  .brand-sub { font-size: 7.5px; letter-spacing: 0.1em; }
+  .header-nav { gap: 2px; }
+  .nav-btn { padding: 7px 9px; font-size: 11.5px; }
+  .cart-badge { margin-left: 4px; }
+  .theme-toggle { width: 30px; height: 30px; }
+}
+
+/* ---------- Collection heading ---------- */
+.collection-heading { padding-block: 34px 22px; border-bottom: 1px solid var(--border); }
+.kicker { font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin: 0 0 10px; }
+.collection-title { font-family: var(--serif); font-size: clamp(30px, 5vw, 44px); margin: 0 0 6px; color: var(--text); font-weight: 500; }
+.collection-tagline { font-family: var(--serif); font-style: italic; font-size: 19px; color: var(--text-soft); margin: 0 0 14px; }
+.collection-meta { font-size: 12.5px; color: var(--text-faint); letter-spacing: 0.02em; }
+
+/* ---------- Controls ---------- */
+.controls-bar {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  padding-block: 18px; border-bottom: 1px solid var(--border);
+}
+.search-input {
+  flex: 1 1 220px; min-width: 0; padding: 10px 14px; border: 1px solid var(--border-strong);
+  border-radius: var(--radius); background: var(--panel); color: var(--text); font-size: 13.5px;
+}
+.search-input:focus { outline: none; border-color: var(--gold); }
+.filter-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  border: 1px solid var(--border-strong); background: var(--panel); color: var(--text-soft);
+  font-size: 12px; padding: 7px 12px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+}
+.chip.active { background: var(--active-bg); color: var(--active-fg); border-color: var(--active-bg); }
+.designer-select {
+  padding: 9px 12px; border: 1px solid var(--border-strong); border-radius: var(--radius);
+  background: var(--panel); color: var(--text); font-size: 12.5px; min-width: 170px;
+}
+
+/* ---------- Main layout ---------- */
+.main-grid { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 26px; padding-block: 24px 60px; align-items: start; }
+@media (max-width: 900px) { .main-grid { grid-template-columns: 1fr; } }
+
+.product-list { display: flex; flex-direction: column; gap: 10px; max-height: none; }
+@media (min-width: 901px) {
+  .product-list { max-height: calc(100vh - 260px); overflow-y: auto; padding-right: 6px; }
+}
+.product-card {
+  background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 14px 16px; cursor: pointer; transition: border-color .15s;
+}
+.product-card:hover { border-color: var(--border-strong); }
+.product-card.selected { border-color: var(--gold); background: var(--panel-alt); box-shadow: var(--shadow); }
+.pc-top { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+.pc-sku { font-size: 10.5px; letter-spacing: 0.08em; color: var(--text-faint); text-transform: uppercase; }
+.pc-limited {
+  font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold);
+  border: 1px solid var(--gold-soft); border-radius: 999px; padding: 1px 8px;
+}
+.pc-name { font-family: var(--serif); font-size: 20px; margin: 3px 0 2px; color: var(--text); }
+.pc-designer { font-size: 12px; color: var(--text-soft); margin-bottom: 8px; }
+.pc-price { font-size: 13.5px; color: var(--text); font-weight: 600; }
+.pc-price-label { font-size: 10.5px; color: var(--text-faint); display: block; margin-top: 1px; }
+.empty-state { padding: 40px 16px; text-align: center; color: var(--text-faint); font-size: 13.5px; }
+
+/* ---------- Configurator ---------- */
+.configurator { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: clamp(18px, 3vw, 30px); box-shadow: var(--shadow); }
+.config-placeholder { padding: 60px 20px; text-align: center; color: var(--text-faint); }
+.config-placeholder .ph-title { font-family: var(--serif); font-size: 24px; color: var(--text-soft); margin-bottom: 8px; }
+
+.cf-header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 18px; }
+.cf-kicker { font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+.cf-title { font-family: var(--serif); font-size: clamp(24px, 3vw, 30px); margin: 0 0 4px; }
+.cf-sub { font-size: 12.5px; color: var(--text-soft); }
+.cf-dims { font-size: 12px; color: var(--text-faint); margin-top: 6px; }
+
+.section-label { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-faint); margin: 22px 0 10px; }
+.section-label:first-of-type { margin-top: 0; }
+
+.covering-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.covering-tab {
+  border: 1px solid var(--border-strong); background: var(--panel); color: var(--text-soft);
+  padding: 8px 14px; border-radius: 999px; font-size: 12.5px; cursor: pointer;
+}
+.covering-tab.active { background: var(--active-bg); color: var(--active-fg); border-color: var(--active-bg); }
+
+.grade-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 7px; margin-bottom: 10px; }
+.grade-btn {
+  border: 1px solid var(--border-strong); background: var(--panel); color: var(--text);
+  padding: 9px 4px; border-radius: var(--radius); font-size: 12.5px; cursor: pointer; text-align: center;
+}
+.grade-btn.active { border-color: var(--gold); background: var(--panel-alt); box-shadow: inset 0 0 0 1px var(--gold); font-weight: 600; }
+.grade-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+.grade-price { font-size: 10px; color: var(--text-faint); display: block; margin-top: 2px; }
+
+.field-row { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+.field-row label { font-size: 12px; color: var(--text-soft); }
+.text-input, .number-input, select.text-input {
+  padding: 9px 12px; border: 1px solid var(--border-strong); border-radius: var(--radius);
+  background: var(--panel); color: var(--text); font-size: 13.5px; width: 100%;
+}
+.text-input:focus, .number-input:focus { outline: none; border-color: var(--gold); }
+.radio-row { display: flex; align-items: center; gap: 8px; font-size: 13px; margin-bottom: 8px; }
+.helper-text { font-size: 12px; color: var(--text-faint); margin-top: 4px; }
+.error-text { font-size: 12.5px; color: var(--danger); margin-top: 6px; }
+
+.finish-box { background: var(--panel-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; }
+.finish-box .ff-name { font-weight: 600; font-size: 13.5px; }
+.finish-box .ff-note { font-size: 12px; color: var(--text-faint); margin-top: 4px; }
+
+details.expand { border: 1px solid var(--border); border-radius: var(--radius); margin-top: 14px; }
+details.expand summary {
+  cursor: pointer; padding: 12px 14px; font-size: 12.5px; letter-spacing: 0.04em;
+  color: var(--text-soft); list-style: none; display: flex; justify-content: space-between; align-items: center;
+}
+details.expand summary::-webkit-details-marker { display: none; }
+details.expand summary::after { content: '+'; font-size: 16px; color: var(--gold); }
+details.expand[open] summary::after { content: '212'; }
+.expand-body { padding: 4px 14px 16px; font-size: 13px; }
+.dims-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px 16px; }
+.dims-grid div { display: flex; justify-content: space-between; border-bottom: 1px dotted var(--border); padding-bottom: 3px; font-size: 12.5px; }
+.dims-grid span:last-child { color: var(--text-soft); }
+
+.schedule-table-wrap { overflow-x: auto; }
+table.schedule-table { width: 100%; border-collapse: collapse; font-size: 12.5px; min-width: 360px; }
+table.schedule-table th, table.schedule-table td { padding: 6px 10px; text-align: right; border-bottom: 1px solid var(--border); }
+table.schedule-table th:first-child, table.schedule-table td:first-child { text-align: left; }
+table.schedule-table th { color: var(--text-faint); font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
+
+.summary-box { margin-top: 22px; border-top: 1px solid var(--border-strong); padding-top: 16px; }
+.summary-row { display: flex; justify-content: space-between; font-size: 13.5px; padding: 4px 0; color: var(--text-soft); }
+.summary-row.total { font-size: 17px; color: var(--text); font-weight: 600; border-top: 1px solid var(--border); margin-top: 8px; padding-top: 10px; }
+.qty-row { display: flex; align-items: center; justify-content: space-between; margin: 14px 0; }
+.qty-control { display: flex; align-items: center; border: 1px solid var(--border-strong); border-radius: var(--radius); overflow: hidden; }
+.qty-control button { width: 34px; height: 34px; border: none; background: var(--panel); color: var(--text); cursor: pointer; font-size: 16px; }
+.qty-control input { width: 48px; text-align: center; border: none; background: var(--panel); color: var(--text); font-size: 14px; height: 34px; }
+
+.btn { border: 1px solid var(--text); background: var(--text); color: var(--bg); padding: 13px 22px; border-radius: var(--radius); font-size: 13.5px; letter-spacing: 0.03em; cursor: pointer; width: 100%; }
+.btn:hover { opacity: 0.92; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-outline { background: transparent; color: var(--text); border: 1px solid var(--border-strong); }
+.btn-gold { background: var(--gold); border-color: var(--gold); color: #1b1204; }
+
+/* ---------- Quotation view ---------- */
+.quote-header-fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin: 22px 0 26px; }
+.quote-line {
+  background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px 18px; margin-bottom: 12px; display: grid; grid-template-columns: 1fr auto; gap: 12px;
+}
+.ql-name { font-family: var(--serif); font-size: 19px; margin: 0 0 2px; }
+.ql-sku { font-size: 11px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.05em; }
+.ql-detail { font-size: 12.5px; color: var(--text-soft); margin-top: 6px; line-height: 1.6; }
+.ql-right { display: flex; flex-direction: column; align-items: flex-end; justify-content: space-between; gap: 8px; min-width: 150px; }
+.ql-unit-price { font-size: 13px; color: var(--text-soft); }
+.ql-line-total { font-size: 16px; font-weight: 600; }
+.remove-btn { background: none; border: none; color: var(--danger); font-size: 12px; cursor: pointer; padding: 0; text-decoration: underline; }
+.quote-totals { max-width: 340px; margin-left: auto; margin-top: 20px; }
+.quote-actions { display: flex; gap: 12px; margin-top: 26px; flex-wrap: wrap; }
+.quote-actions .btn { width: auto; flex: 1 1 200px; }
+.notice-box { background: var(--panel-alt); border: 1px solid var(--gold-soft); border-radius: var(--radius); padding: 12px 16px; font-size: 12.5px; color: var(--text-soft); margin: 18px 0; }
+
+@media (max-width: 640px) {
+  .quote-line { grid-template-columns: 1fr; }
+  .ql-right { align-items: flex-start; flex-direction: row; justify-content: space-between; width: 100%; }
+}
+
+.footer-note { text-align: center; color: var(--text-faint); font-size: 11.5px; padding: 30px 0 50px; }
+
+</style>
 </head>
 <body>
 
@@ -108,9 +394,1300 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
-<script src="data.js"></script>
-<script src="pricing.js"></script>
-<script src="pdf.js"></script>
-<script src="app.js"></script>
+<script>
+/* Baker McGuire Outdoor — source price list data
+   Extracted and cross-checked from "Baker-McGuire Outdoor Price List" (pages 162-173, updated 06/23/26).
+   All monetary values below are RAW SOURCE PRICES IN USD. Conversion to PHP (x70) and VAT (12%)
+   are applied at render time in pricing.js — this file must never contain PHP or VAT-adjusted values.
+   A value of null means the source PDF shows a dash ("-") — i.e. NOT AVAILABLE. Never treat null as free/zero.
+*/
+
+const SOURCE_DATE = "06/23/26";
+
+// FABRIC_ORDER defines the 16 rows as they appear in the source "FABRIC PRICING" column.
+// grades: g1, comCol, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15
+function fab(vals) {
+  if (!vals) return null;
+  const [g1, comCol, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15] = vals;
+  return { g1, comCol, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15 };
+}
+function leather(vals, riser) {
+  if (!vals && riser == null) return { grades: null, riser: null };
+  return { grades: vals ? { A: vals[0], B: vals[1], C: vals[2], D: vals[3] } : null, riser: riser ?? null };
+}
+function dims(d) { return d; }
+
+const PRODUCTS = [
+  // ---------------- Page 162 ----------------
+  {
+    sku: "MCC171", name: "Loop Settee", collection: "Jamie Durie", category: "sofas", limited: true,
+    standardFinish: "Dark Tobacco", frameMaterial: null, basePrice: 3921,
+    specs: ["Tight seat", "(1) Loose back pillow", "Settee in Rattan and Honeycomb, with Greystone leather cord"],
+    dims: dims({ width: 53, depth: 27.5, height: 28, widthInside: null, seatHeight: 17.75, seatDepth: 23.75, armWidth: null, armHeight: 22.75, exposedLegHeight: null, volume: 78, weight: 65, fabricReq: 3.5, leatherReq: 60 }),
+    fabric: fab([3984, 4017, 4047, 4110, 4173, 4236, 4299, 4362, 4425, 4488, 4551, 4614, 4677, 4740, 4803, 4866]),
+    leather: leather([4803, 5118, 5370, 5622], 63),
+  },
+  {
+    sku: "MCLAO10", name: "Ottoman", collection: "McGuire Originals", category: "ottomans", limited: true,
+    standardFinish: "Pecan", frameMaterial: "Rawhide and rattan", basePrice: 4047,
+    specs: ["(1) Semi-attached cushion", "Rawhide and rattan frame"],
+    dims: dims({ width: 26, depth: 26, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 21, weight: 4, fabricReq: 3, leatherReq: 51 }),
+    fabric: fab([4101, 4128, 4155, 4209, 4263, 4317, 4371, 4425, 4479, 4533, 4587, 4641, 4695, 4749, 4803, 4857]),
+    leather: leather([4803, 5073, 5289, 5505], 54),
+  },
+  {
+    sku: "MCO3011L", name: "Gondola Outdoor Settee", collection: "Gondola", category: "sofas", limited: false,
+    standardFinish: "Moonstone", frameMaterial: "Powder coated aluminum", basePrice: 3276,
+    specs: ["(1) Loose bench seat", "(3) Loose throws (20\")", "Powder coated aluminum frame joined by a series of stretchers and x-braces", "Suitable Outdoor Cover: MCCV47"],
+    dims: dims({ width: 60, depth: 23, height: 32, widthInside: null, seatHeight: 19, seatDepth: 20.5, armWidth: null, armHeight: 28, exposedLegHeight: null, volume: 31, weight: 60, fabricReq: 5.75, leatherReq: null }),
+    fabric: fab([3381, 3435, 3486, 3591, 3696, 3801, 3906, 4011, 4116, 4221, 4326, 4431, 4536, 4641, 4746, 4851]),
+    leather: leather(null, 105),
+  },
+  {
+    sku: "MCO3211C", name: "Cuerda Slipper Chair", collection: "Laura Kirar", category: "chairs", limited: false,
+    standardFinish: "Bark Weave", frameMaterial: "Aluminum wrapped with acrylic rope", basePrice: 5541,
+    specs: ["Aluminum frame wrapped with acrylic rope", "Loose seat and back cushion", "Suitable Outdoor Cover: MCCV51"],
+    dims: dims({ width: 23, depth: 32.75, height: 32, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 45, weight: 23.5, fabricReq: 3, leatherReq: null }),
+    fabric: fab([5595, 5622, 5649, 5703, 5757, 5811, 5865, 5919, 5973, 6027, 6081, 6135, 6189, 6243, 6297, 6351]),
+    leather: leather(null, 54),
+  },
+  // ---------------- Page 163 ----------------
+  {
+    sku: "MCO3211CS", name: "Cuerda Chaise Lounge", collection: "Laura Kirar", category: "chairs", limited: false,
+    standardFinish: "Bark Weave", frameMaterial: "Aluminum wrapped with acrylic rope", basePrice: 8736,
+    specs: ["Aluminum frame wrapped with acrylic rope", "Loose seat and back cushion", "(1) 7\"x26\" bolster pillow", "Two wheels for easy mobility", "Suitable Outdoor Cover: MCCV52"],
+    dims: dims({ width: 31, depth: 74.5, height: 34.5, widthInside: null, seatHeight: 18, seatDepth: 63.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 43, weight: 66, fabricReq: 7, leatherReq: null }),
+    fabric: fab([8862, 8925, 8988, 9114, 9240, 9366, 9492, 9618, 9744, 9870, 9996, 10122, 10248, 10374, 10500, 10626]),
+    leather: leather(null, 126),
+  },
+  {
+    sku: "MCO3211O", name: "Cuerda Ottoman", collection: "Laura Kirar", category: "ottomans", limited: false,
+    standardFinish: "Bark Weave", frameMaterial: "Aluminum wrapped with acrylic rope", basePrice: 2790,
+    specs: ["Aluminum frame wrapped with acrylic rope", "Loose cushion", "Suitable Outdoor Cover: MCCV53"],
+    dims: dims({ width: 23, depth: 23, height: 17.5, widthInside: null, seatHeight: 17, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 14.5, weight: 17, fabricReq: 2, leatherReq: null }),
+    fabric: fab([2826, 2844, 2862, 2898, 2934, 2970, 3006, 3042, 3078, 3114, 3150, 3186, 3222, 3258, 3294, 3330]),
+    leather: leather(null, 36),
+  },
+  {
+    sku: "MCO3211S", name: "Cuerda Sofa", collection: "Laura Kirar", category: "sofas", limited: false,
+    standardFinish: "Bark Weave", frameMaterial: "Aluminum wrapped with acrylic rope", basePrice: 11511,
+    specs: ["Aluminum frame wrapped with acrylic rope", "Loose bench seat cushion", "Three (3) loose back cushions: two (2) 25.75\"x13\", one (1) 36.25\"x13\"", "Two (2) 7.5\" bolster pillows", "Suitable Outdoor Cover: MCCV54"],
+    dims: dims({ width: 90, depth: 32, height: 29.25, widthInside: 87, seatHeight: 18, seatDepth: 22, armWidth: null, armHeight: 29.25, exposedLegHeight: null, volume: 48.5, weight: 119.5, fabricReq: 8.5, leatherReq: null }),
+    fabric: fab([11664, 11742, 11817, 11970, 12123, 12276, 12429, 12582, 12735, 12888, 13041, 13194, 13347, 13500, 13653, 13806]),
+    leather: leather(null, 153),
+  },
+  {
+    sku: "MCO3212C", name: "Cuerda Lounge Chair", collection: "Laura Kirar", category: "chairs", limited: false,
+    standardFinish: "Bark Weave", frameMaterial: "Aluminum wrapped with acrylic rope", basePrice: 6141,
+    specs: ["Aluminum frame wrapped with acrylic rope", "Loose seat and back cushion", "Suitable Outdoor Cover: MCCV55"],
+    dims: dims({ width: 28.5, depth: 34.5, height: 34.5, widthInside: 25.5, seatHeight: 18, seatDepth: 22.5, armWidth: null, armHeight: 22.75, exposedLegHeight: null, volume: 45, weight: 32.5, fabricReq: 3, leatherReq: null }),
+    fabric: fab([6195, 6222, 6249, 6303, 6357, 6411, 6465, 6519, 6573, 6627, 6681, 6735, 6789, 6843, 6897, 6951]),
+    leather: leather(null, 54),
+  },
+  // ---------------- Page 164 ----------------
+  {
+    sku: "MCO3214CA", name: "Cuerda Armless Chair", collection: "Laura Kirar", category: "chairs", limited: false,
+    standardFinish: "Bark Weave", frameMaterial: "Aluminum wrapped with acrylic rope", basePrice: 6225,
+    specs: ["Aluminum frame wrapped with acrylic rope", "Loose seat and back cushion", "(1) 7\"x22\" bolster pillow", "Suitable Outdoor Cover: MCCV65"],
+    dims: dims({ width: 33.25, depth: 33.25, height: 30.5, widthInside: null, seatHeight: 18, seatDepth: 18.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 45, weight: 42, fabricReq: 4.75, leatherReq: null }),
+    fabric: fab([6312, 6357, 6399, 6486, 6573, 6660, 6747, 6834, 6921, 7008, 7095, 7182, 7269, 7356, 7443, 7530]),
+    leather: leather(null, 87),
+  },
+  {
+    sku: "MCO3214CC", name: "Cuerda Corner Chair", collection: "Laura Kirar", category: "chairs", limited: false,
+    standardFinish: "Bark Weave", frameMaterial: "Aluminum wrapped with acrylic rope", basePrice: 7755,
+    specs: ["Aluminum frame wrapped with acrylic rope", "Loose seat", "(2) loose back cushions", "(1) 7\"x22\" bolster pillow", "Suitable Outdoor Cover: MCCV66"],
+    dims: dims({ width: 33.25, depth: 33.25, height: 30.5, widthInside: 0, seatHeight: 18, seatDepth: 18.5, armWidth: null, armHeight: 26.5, exposedLegHeight: null, volume: 45, weight: 47.5, fabricReq: 5.25, leatherReq: null }),
+    fabric: fab([7851, 7899, 7947, 8043, 8139, 8235, 8331, 8427, 8523, 8619, 8715, 8811, 8907, 9003, 9099, 9195]),
+    leather: leather(null, 96),
+  },
+  {
+    sku: "MCO3341C", name: "Bow Outdoor Lounge Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+    standardFinish: "Gravel with Bark Weave, Gravel with Stone Weave", frameMaterial: "Cast aluminum with flat woven acrylic rope", basePrice: 1791,
+    specs: ["Cast aluminum dining chair with flat woven acrylic rope", "Suitable Outdoor Cover: MCCV01"],
+    dims: dims({ width: 29, depth: 28.5, height: 31.75, widthInside: null, seatHeight: 14.75, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 19, fabricReq: null, leatherReq: null }),
+    fabric: null,
+    leather: leather(null, null),
+  },
+  {
+    sku: "MCO3341O", name: "Bow Outdoor Ottoman", collection: "Barbara Barry", category: "ottomans", limited: false,
+    standardFinish: "Gravel with Bark Weave, Gravel with Stone Weave", frameMaterial: "Cast aluminum with flat woven acrylic rope", basePrice: 1191,
+    specs: ["Cast aluminum ottoman in Gravel finish with flat, woven acrylic rope", "Suitable Outdoor Cover: MCCV09"],
+    dims: dims({ width: 26.75, depth: 16, height: 14.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 12, fabricReq: null, leatherReq: null }),
+    fabric: null,
+    leather: leather(null, null),
+  },
+  // ---------------- Page 165 ----------------
+  {
+    sku: "MCO3361CA", name: "Catalina Outdoor Armless Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+    standardFinish: "Gravel", frameMaterial: "Recessed aluminum plinth base", basePrice: 7296,
+    specs: ["(1) Loose seat", "(1) loose back pillow", "Recessed aluminum plinth base", "Recommended Outdoor Cover: MCCV49"],
+    dims: dims({ width: 36, depth: 38.5, height: 31, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 46, weight: 65, fabricReq: 8.25, leatherReq: null }),
+    fabric: fab([7446, 7521, 7596, 7746, 7896, 8046, 8196, 8346, 8496, 8646, 8796, 8946, 9096, 9246, 9396, 9546]),
+    leather: leather(null, 150),
+  },
+  {
+    sku: "MCO3361CC", name: "Catalina Outdoor Corner Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+    standardFinish: "Gravel", frameMaterial: "Recessed aluminum plinth base", basePrice: 9480,
+    specs: ["(1) Loose seat", "(1) loose back pillow", "Recessed aluminum plinth base", "Recommended Outdoor Cover: MCCV48"],
+    dims: dims({ width: 38.5, depth: 38.5, height: 31, widthInside: 25, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: 46, weight: 80, fabricReq: 10, leatherReq: null }),
+    fabric: fab([9660, 9750, 9840, 10020, 10200, 10380, 10560, 10740, 10920, 11100, 11280, 11460, 11640, 11820, 12000, 12180]),
+    leather: leather(null, 180),
+  },
+  {
+    sku: "MCO3361O", name: "Catalina Outdoor Ottoman", collection: "Barbara Barry", category: "ottomans", limited: false,
+    standardFinish: "Gravel", frameMaterial: "Recessed aluminum plinth base", basePrice: 4725,
+    specs: ["Tight seat", "Recessed aluminum plinth base", "Recommended Outdoor Cover: MCCV50"],
+    dims: dims({ width: 36, depth: 36, height: 17, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 22, weight: 43, fabricReq: 4.75, leatherReq: null }),
+    fabric: fab([4812, 4857, 4899, 4986, 5073, 5160, 5247, 5334, 5421, 5508, 5595, 5682, 5769, 5856, 5943, 6030]),
+    leather: leather(null, 87),
+  },
+  {
+    sku: "MCO3500B", name: "Navagio Bench", collection: "Baker Resort® for McGuire", category: "ottomans", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 4011,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Outdoor grade strapping", "Loose bench cushion (non-reversible)", "Suitable Outdoor Cover: MCCV76"],
+    dims: dims({ width: 60, depth: 20, height: 22, widthInside: null, seatHeight: 21, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 44.5, fabricReq: 2.25, leatherReq: 38 }),
+    fabric: fab([4053, 4074, 4095, 4137, 4179, 4221, 4263, 4305, 4347, 4389, 4431, 4473, 4515, 4557, 4599, 4641]),
+    leather: leather([4599, 4809, 4977, 5145], 42),
+  },
+  // ---------------- Page 166 ----------------
+  {
+    sku: "MCO3500CS", name: "Phuket Chaise Lounge", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 7326,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Outdoor grade strapping", "Loose lounge pillow (non-reversible)", "Reclines to six (6) positions", "Casters on back legs", "Suitable Outdoor Cover: MCCV77"],
+    dims: dims({ width: 30, depth: 92, height: 19, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 33, weight: 76.5, fabricReq: 8.75, leatherReq: 149 }),
+    fabric: fab([7485, 7566, 7644, 7803, 7962, 8121, 8280, 8439, 8598, 8757, 8916, 9075, 9234, 9393, 9552, 9711]),
+    leather: leather([9552, 10347, 10983, 11619], 159),
+  },
+  {
+    sku: "MCO3502CA", name: "Abaco Armless Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 4671,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Loose seat and back cushion (non-reversible)", "Cushion toggles and sectional clamps", "Suitable Outdoor Cover: MCCV65"],
+    dims: dims({ width: 29, depth: 33.5, height: 34, widthInside: null, seatHeight: 17, seatDepth: 22.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 20, weight: 91.5, fabricReq: 3.5, leatherReq: 60 }),
+    fabric: fab([4734, 4767, 4797, 4860, 4923, 4986, 5049, 5112, 5175, 5238, 5301, 5364, 5427, 5490, 5553, 5616]),
+    leather: leather([5553, 5868, 6120, 6372], 63),
+  },
+  {
+    sku: "MCO3502CC", name: "Abaco Corner Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 5646,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Loose seat and back cushion (non-reversible)", "Cushion toggles and sectional clamps", "Suitable Outdoor Cover: MCCV32"],
+    dims: dims({ width: 33.5, depth: 33.5, height: 34, widthInside: 22.5, seatHeight: 17, seatDepth: 22.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 23, weight: 106, fabricReq: 5, leatherReq: 85 }),
+    fabric: fab([5736, 5781, 5826, 5916, 6006, 6096, 6186, 6276, 6366, 6456, 6546, 6636, 6726, 6816, 6906, 6996]),
+    leather: leather([6906, 7356, 7716, 8076], 90),
+  },
+  {
+    sku: "MCO3502CL", name: "Abaco Left Arm Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 4971,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Loose seat and back cushion (non-reversible)", "Cushion toggles and sectional clamps", "Suitable Outdoor Cover: MCCV83"],
+    dims: dims({ width: 30.5, depth: 33.5, height: 34, widthInside: 29, seatHeight: 17, seatDepth: 22.5, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 21, weight: 96, fabricReq: 3.5, leatherReq: 60 }),
+    fabric: fab([5034, 5067, 5097, 5160, 5223, 5286, 5349, 5412, 5475, 5538, 5601, 5664, 5727, 5790, 5853, 5916]),
+    leather: leather([5853, 6168, 6420, 6672], 63),
+  },
+  // ---------------- Page 167 ----------------
+  {
+    sku: "MCO3502CR", name: "Abaco Right Arm Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 4971,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Loose seat and back cushion (non-reversible)", "Cushion toggles and sectional clamps", "Suitable Outdoor Cover: MCCV83"],
+    dims: dims({ width: 30.5, depth: 33.5, height: 34, widthInside: 29, seatHeight: 17, seatDepth: 22.5, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 21, weight: 96, fabricReq: 3.5, leatherReq: 60 }),
+    fabric: fab([5034, 5067, 5097, 5160, 5223, 5286, 5349, 5412, 5475, 5538, 5601, 5664, 5727, 5790, 5853, 5916]),
+    leather: leather([5853, 6168, 6420, 6672], 63),
+  },
+  {
+    sku: "MCO3502O", name: "Abaco Ottoman — Large", collection: "Baker Resort® for McGuire", category: "ottomans", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 5607,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Loose cushion (non-reversible)", "Cushion toggles", "Suitable Outdoor Cover: MCCV78"],
+    dims: dims({ width: 54, depth: 40, height: 17, widthInside: null, seatHeight: 16, seatDepth: 22.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 18, weight: 139.5, fabricReq: 4.25, leatherReq: 72 }),
+    fabric: fab([5685, 5724, 5763, 5841, 5919, 5997, 6075, 6153, 6231, 6309, 6387, 6465, 6543, 6621, 6699, 6777]),
+    leather: leather([6699, 7089, 7401, 7713], 78),
+  },
+  {
+    sku: "MCO3503C", name: "Abaco Lounge Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 6771,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Loose seat and back cushion (non-reversible)", "Standard 360° swivel (included)", "Cushion toggles", "Suitable Outdoor Cover: MCCV83"],
+    dims: dims({ width: 32, depth: 33.5, height: 36, widthInside: 29, seatHeight: 20, seatDepth: 22.5, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 22, weight: 113, fabricReq: 3.5, leatherReq: 60 }),
+    fabric: fab([6834, 6867, 6897, 6960, 7023, 7086, 7149, 7212, 7275, 7338, 7401, 7464, 7527, 7590, 7653, 7716]),
+    leather: leather([7653, 7968, 8220, 8472], 63),
+  },
+  {
+    sku: "MCO3503O", name: "Abaco Ottoman — Small", collection: "Baker Resort® for McGuire", category: "ottomans", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 3411,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Loose cushion (non-reversible)", "Cushion toggles", "Suitable Outdoor Cover: MCCV30"],
+    dims: dims({ width: 29, depth: 20, height: 17, widthInside: null, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 51.5, fabricReq: 2.25, leatherReq: 38 }),
+    fabric: fab([3453, 3474, 3495, 3537, 3579, 3621, 3663, 3705, 3747, 3789, 3831, 3873, 3915, 3957, 3999, 4041]),
+    leather: leather([3999, 4209, 4377, 4545], 42),
+  },
+  // ---------------- Page 168 ----------------
+  {
+    sku: "MCO3504C", name: "Abaco Slipper Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 6171,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Loose seat and back cushion (non-reversible)", "Standard 360° swivel (included)", "Cushion toggles", "Suitable Outdoor Cover: MCCV65"],
+    dims: dims({ width: 29, depth: 33.5, height: 36, widthInside: null, seatHeight: 20, seatDepth: 22.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 21, weight: 100, fabricReq: 3.5, leatherReq: 60 }),
+    fabric: fab([6234, 6267, 6297, 6360, 6423, 6486, 6549, 6612, 6675, 6738, 6801, 6864, 6927, 6990, 7053, 7116]),
+    leather: leather([7053, 7368, 7620, 7872], 63),
+  },
+  {
+    sku: "MCO3507L", name: "Phuket Settee", collection: "Baker Resort® for McGuire", category: "sofas", limited: false,
+    standardFinish: "Sea Salt", frameMaterial: "Powder-coated cast and extruded aluminum", basePrice: 6231,
+    specs: ["Powder-coated cast and extruded aluminum frame", "Outdoor grade strapping", "Loose seat and back cushion (non-reversible)", "Suitable Outdoor Cover: MCCV79"],
+    dims: dims({ width: 60, depth: 25, height: 36, widthInside: 57, seatHeight: 21, seatDepth: 17, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 37, weight: 54, fabricReq: 4.75, leatherReq: 81 }),
+    fabric: fab([6318, 6363, 6405, 6492, 6579, 6666, 6753, 6840, 6927, 7014, 7101, 7188, 7275, 7362, 7449, 7536]),
+    leather: leather([7449, 7884, 8232, 8580], 87),
+  },
+  {
+    sku: "MCO3550B", name: "Cutter Bench", collection: "Baker Resort® for McGuire", category: "ottomans", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 2532,
+    specs: ["Loose cushion (non-reversible)", "Teak frame", "Suitable Outdoor Cover: MCCV76"],
+    dims: dims({ width: 60, depth: 20, height: 17, widthInside: null, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 49.5, fabricReq: 2.75, leatherReq: 47 }),
+    fabric: fab([2583, 2610, 2634, 2685, 2736, 2787, 2838, 2889, 2940, 2991, 3042, 3093, 3144, 3195, 3246, 3297]),
+    leather: leather([3246, 3501, 3705, 3909], 51),
+  },
+  {
+    sku: "MCO3552C", name: "Schooner Lounge Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 4317,
+    specs: ["Loose back cushion", "Loose seat cushion (non-reversible)", "Teak frame", "Suitable Outdoor Cover: MCCV83"],
+    dims: dims({ width: 30, depth: 31.5, height: 30.5, widthInside: 26.5, seatHeight: 17.5, seatDepth: 22, armWidth: null, armHeight: 24.5, exposedLegHeight: null, volume: 24, weight: 49, fabricReq: 8.5, leatherReq: 145 }),
+    fabric: fab([4470, 4548, 4623, 4776, 4929, 5082, 5235, 5388, 5541, 5694, 5847, 6000, 6153, 6306, 6459, 6612]),
+    leather: leather([6459, 7224, 7836, 8448], 153),
+  },
+  // ---------------- Page 169 ----------------
+  {
+    sku: "MCO3552O", name: "Schooner Ottoman", collection: "Baker Resort® for McGuire", category: "ottomans", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 1296,
+    specs: ["Loose cushion (non-reversible)", "Teak frame", "Suitable Outdoor Cover: MCCV08"],
+    dims: dims({ width: 27, depth: 27, height: 19, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 11, weight: 84.5, fabricReq: 2, leatherReq: 34 }),
+    fabric: fab([1332, 1350, 1368, 1404, 1440, 1476, 1512, 1548, 1584, 1620, 1656, 1692, 1728, 1764, 1800, 1836]),
+    leather: leather([1800, 1980, 2124, 2268], 36),
+  },
+  {
+    sku: "MCO3553C", name: "Schooner Swivel Lounge Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 5262,
+    specs: ["Loose back cushion", "Loose seat cushion (non-reversible)", "Teak frame", "Standard 360° swivel (included)", "Suitable Outdoor Cover: MCCV83"],
+    dims: dims({ width: 33, depth: 33, height: 36, widthInside: 29, seatHeight: 18, seatDepth: 22, armWidth: null, armHeight: 25.5, exposedLegHeight: null, volume: 29, weight: 90, fabricReq: 9.5, leatherReq: 162 }),
+    fabric: fab([5433, 5520, 5604, 5775, 5946, 6117, 6288, 6459, 6630, 6801, 6972, 7143, 7314, 7485, 7656, 7827]),
+    leather: leather([7656, 8511, 9195, 9879], 171),
+  },
+  {
+    sku: "MCO3553CA", name: "Schooner Armless Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 3687,
+    specs: ["Loose back cushion", "Loose seat cushion (non-reversible)", "Teak frame", "Suitable Outdoor Cover: MCCV65"],
+    dims: dims({ width: 30.5, depth: 33, height: 36, widthInside: null, seatHeight: 18.5, seatDepth: 22.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 28, weight: 61, fabricReq: 8, leatherReq: 136 }),
+    fabric: fab([3831, 3903, 3975, 4119, 4263, 4407, 4551, 4695, 4839, 4983, 5127, 5271, 5415, 5559, 5703, 5847]),
+    leather: leather([5703, 6423, 6999, 7575], 144),
+  },
+  {
+    sku: "MCO3553CC", name: "Schooner Corner Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 4962,
+    specs: ["Loose back cushion", "Loose seat cushion (non-reversible)", "Teak frame", "Suitable Outdoor Cover: MCCV83"],
+    dims: dims({ width: 33, depth: 33, height: 36, widthInside: 23.5, seatHeight: 18.5, seatDepth: 22.5, armWidth: null, armHeight: 0, exposedLegHeight: null, volume: 30, weight: 85, fabricReq: 9.5, leatherReq: 162 }),
+    fabric: fab([5133, 5220, 5304, 5475, 5646, 5817, 5988, 6159, 6330, 6501, 6672, 6843, 7014, 7185, 7356, 7527]),
+    leather: leather([7356, 8211, 8895, 9579], 171),
+  },
+  // ---------------- Page 170 ----------------
+  {
+    sku: "MCO3553CL", name: "Schooner Left Arm Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 4617,
+    specs: ["Loose back cushion", "Loose seat cushion (non-reversible)", "Teak frame", "Suitable Outdoor Cover: MCCV83"],
+    dims: dims({ width: 32.5, depth: 33, height: 36, widthInside: 30.5, seatHeight: 18.5, seatDepth: 22.5, armWidth: null, armHeight: 25.5, exposedLegHeight: null, volume: 28, weight: 63, fabricReq: 8.5, leatherReq: 145 }),
+    fabric: fab([4770, 4848, 4923, 5076, 5229, 5382, 5535, 5688, 5841, 5994, 6147, 6300, 6453, 6606, 6759, 6912]),
+    leather: leather([6759, 7524, 8136, 8748], 153),
+  },
+  {
+    sku: "MCO3553CR", name: "Schooner Right Arm Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 4617,
+    specs: ["Loose back cushion", "Loose seat cushion (non-reversible)", "Teak frame", "Suitable Outdoor Cover: MCCV83"],
+    dims: dims({ width: 32.5, depth: 33, height: 36, widthInside: 30.5, seatHeight: 18.5, seatDepth: 22.5, armWidth: null, armHeight: 25.5, exposedLegHeight: null, volume: 28, weight: 63, fabricReq: 8.5, leatherReq: 145 }),
+    fabric: fab([4770, 4848, 4923, 5076, 5229, 5382, 5535, 5688, 5841, 5994, 6147, 6300, 6453, 6606, 6759, 6912]),
+    leather: leather([6759, 7524, 8136, 8748], 153),
+  },
+  {
+    sku: "MCO3553O", name: "Schooner Cocktail Ottoman", collection: "Baker Resort® for McGuire", category: "ottomans", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 4461,
+    specs: ["Semi-attached cushion", "Teak frame", "Suitable Outdoor Cover: MCCV80"],
+    dims: dims({ width: 48, depth: 42, height: 18, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 28, weight: 75, fabricReq: 5.25, leatherReq: 90 }),
+    fabric: fab([4557, 4605, 4653, 4749, 4845, 4941, 5037, 5133, 5229, 5325, 5421, 5517, 5613, 5709, 5805, 5901]),
+    leather: leather([5805, 6285, 6669, 7053], 96),
+  },
+  {
+    sku: "MCO3553S", name: "Schooner Sofa", collection: "Baker Resort® for McGuire", category: "sofas", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 9732,
+    specs: ["Loose back cushion", "Loose seat cushion (non-reversible)", "Teak frame", "Suitable Outdoor Cover: MCCV81"],
+    dims: dims({ width: 95, depth: 33, height: 36, widthInside: 91, seatHeight: 18.5, seatDepth: 22.5, armWidth: null, armHeight: 25.5, exposedLegHeight: null, volume: 73, weight: 174, fabricReq: 15, leatherReq: 255 }),
+    fabric: fab([10002, 10137, 10272, 10542, 10812, 11082, 11352, 11622, 11892, 12162, 12432, 12702, 12972, 13242, 13512, 13782]),
+    leather: leather([13512, 14862, 15942, 17022], 270),
+  },
+  // ---------------- Page 171 ----------------
+  {
+    sku: "MCO3555CS", name: "Schooner Chaise Lounge", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+    standardFinish: "Natural Teak", frameMaterial: "Teak", basePrice: 4962,
+    specs: ["Loose lounge pillow (non-reversible)", "Teak frame", "Reclines to four (4) positions", "Casters on back legs", "Suitable Outdoor Cover: MCCV52"],
+    dims: dims({ width: 74, depth: 28, height: 19, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 27, weight: 67.5, fabricReq: 9.5, leatherReq: 162 }),
+    fabric: fab([5133, 5220, 5304, 5475, 5646, 5817, 5988, 6159, 6330, 6501, 6672, 6843, 7014, 7185, 7356, 7527]),
+    leather: leather([7356, 8211, 8895, 9579], 171),
+  },
+  {
+    sku: "MCO3702C", name: "Naxos Club Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 7500,
+    specs: ["One (1) non-reversible loose seat cushion", "One (1) non-reversible back pillow", "One (1) lumbar pillow (26\" x 10\")", "Two (2) throw pillows (27.5\" x 10\")", "Blackened Stainless Steel frame"],
+    dims: dims({ width: 42, depth: 36, height: 32, widthInside: 29, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: 26, exposedLegHeight: null, volume: 28, weight: 85, fabricReq: 7.25, leatherReq: 124 }),
+    fabric: fab([7632, 7698, 7764, 7896, 8028, 8160, 8292, 8424, 8556, 8688, 8820, 8952, 9084, 9216, 9348, 9480]),
+    leather: leather([9348, 10008, 10536, 11064], 132),
+  },
+  {
+    sku: "MCO3704C", name: "Naxos Lounge Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 5100,
+    specs: ["One (1) non-reversible loose seat cushion", "One (1) non-reversible back pillow", "One (1) lumbar pillow (23\" x 10\")", "Blackened Stainless Steel frame"],
+    dims: dims({ width: 30, depth: 34, height: 30, widthInside: 28.5, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 18, weight: 58.5, fabricReq: 4.5, leatherReq: 77 }),
+    fabric: fab([5181, 5223, 5262, 5343, 5424, 5505, 5586, 5667, 5748, 5829, 5910, 5991, 6072, 6153, 6234, 6315]),
+    leather: leather([6234, 6639, 6963, 7287], 81),
+  },
+  {
+    sku: "MCO3704O", name: "Naxos Ottoman", collection: "Thomas Pheasant", category: "ottomans", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 2850,
+    specs: ["One (1) non-reversible loose seat cushion", "Blackened Stainless Steel frame"],
+    dims: dims({ width: 28, depth: 20, height: 17, widthInside: null, seatHeight: 15.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 26.5, fabricReq: 1.75, leatherReq: 30 }),
+    fabric: fab([2883, 2901, 2916, 2949, 2982, 3015, 3048, 3081, 3114, 3147, 3180, 3213, 3246, 3279, 3312, 3345]),
+    leather: leather([3312, 3477, 3609, 3741], 33),
+  },
+  // ---------------- Page 172 ----------------
+  {
+    sku: "MCO3710L", name: "Naxos Loveseat", collection: "Thomas Pheasant", category: "sofas", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 9600,
+    specs: ["Two (2) non-reversible loose seat cushions", "Two (2) non-reversible back pillows", "Two (2) lumbar pillows (24\" x 10\")", "Blackened Stainless Steel frame"],
+    dims: dims({ width: 64.5, depth: 34, height: 30, widthInside: 63, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 39, weight: 119.5, fabricReq: 9, leatherReq: 153 }),
+    fabric: fab([9762, 9843, 9924, 10086, 10248, 10410, 10572, 10734, 10896, 11058, 11220, 11382, 11544, 11706, 11868, 12030]),
+    leather: leather([11868, 12678, 13326, 13974], 162),
+  },
+  {
+    sku: "MCO3710S", name: "Naxos Sofa", collection: "Thomas Pheasant", category: "sofas", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 14550,
+    specs: ["Three (3) non-reversible loose seat cushions", "Three (3) non-reversible back pillows", "Three (3) lumbar pillows (24\" x 10\")", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV81"],
+    dims: dims({ width: 96, depth: 34, height: 30, widthInside: 94.5, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 57, weight: 175, fabricReq: 13.25, leatherReq: 226 }),
+    fabric: fab([14790, 14910, 15030, 15270, 15510, 15750, 15990, 16230, 16470, 16710, 16950, 17190, 17430, 17670, 17910, 18150]),
+    leather: leather([17910, 19110, 20070, 21030], 240),
+  },
+  {
+    sku: "MCO3712CS", name: "Naxos Slim Chaise", collection: "Thomas Pheasant", category: "chairs", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 7500,
+    specs: ["Non-reversible bench seat and angled arms", "Two (2) bolster pillows (6\" x 22\")", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV05"],
+    dims: dims({ width: 80.5, depth: 25, height: 21, widthInside: 52, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 98, weight: 86.5, fabricReq: 5.25, leatherReq: 90 }),
+    fabric: fab([7596, 7644, 7692, 7788, 7884, 7980, 8076, 8172, 8268, 8364, 8460, 8556, 8652, 8748, 8844, 8940]),
+    leather: leather([8844, 9324, 9708, 10092], 96),
+  },
+  {
+    sku: "MCO3714CA", name: "Naxos Slipper Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 4050,
+    specs: ["One (1) non-reversible loose seat cushion", "One (1) non-reversible back pillow", "One (1) lumbar pillow (17.5\" x 7\")", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV51"],
+    dims: dims({ width: 24, depth: 30, height: 25, widthInside: null, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 11, weight: 35.5, fabricReq: 2.75, leatherReq: 47 }),
+    fabric: fab([4101, 4128, 4152, 4203, 4254, 4305, 4356, 4407, 4458, 4509, 4560, 4611, 4662, 4713, 4764, 4815]),
+    leather: leather([4764, 5019, 5223, 5427], 51),
+  },
+  // ---------------- Page 173 ----------------
+  {
+    sku: "MCO3716CS", name: "Naxos Chaise Lounge", collection: "Thomas Pheasant", category: "chairs", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 8700,
+    specs: ["Non-reversible loose bench seat and back", "One (1) removable round bolster headrest", "Reclines to four (4) positions", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV05"],
+    dims: dims({ width: 78, depth: 30, height: 16.5, widthInside: null, seatHeight: 15.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 98, weight: 104, fabricReq: 7.75, leatherReq: 132 }),
+    fabric: fab([8841, 8913, 8982, 9123, 9264, 9405, 9546, 9687, 9828, 9969, 10110, 10251, 10392, 10533, 10674, 10815]),
+    leather: leather([10674, 11379, 11943, 12507], 141),
+  },
+  {
+    sku: "MCO3718B", name: "Naxos Oval Bench", collection: "Thomas Pheasant", category: "ottomans", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 3000,
+    specs: ["Non-reversible loose seat cushion", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV09"],
+    dims: dims({ width: 30, depth: 18, height: 16, widthInside: null, seatHeight: 15, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 23.5, fabricReq: 1.5, leatherReq: 26 }),
+    fabric: fab([3027, 3042, 3054, 3081, 3108, 3135, 3162, 3189, 3216, 3243, 3270, 3297, 3324, 3351, 3378, 3405]),
+    leather: leather([3378, 3513, 3621, 3729], 27),
+  },
+  {
+    sku: "MCO3720B", name: "Naxos Slim Bench", collection: "Thomas Pheasant", category: "ottomans", limited: false,
+    standardFinish: null, frameMaterial: "Blackened Stainless Steel", basePrice: 3000,
+    specs: ["Non-reversible loose seat cushion", "Blackened Stainless Steel frame"],
+    dims: dims({ width: 24, depth: 17, height: 16, widthInside: null, seatHeight: 15, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 23.5, fabricReq: 1.25, leatherReq: 22 }),
+    fabric: fab([3024, 3036, 3048, 3072, 3096, 3120, 3144, 3168, 3192, 3216, 3240, 3264, 3288, 3312, 3336, 3360]),
+    leather: leather([3336, 3456, 3552, 3648], 24),
+  },
+  {
+    sku: "MCTP50", name: "Outdoor Lounge Chair", collection: "Thomas Pheasant", category: "chairs", limited: true,
+    standardFinish: "Java resin with Bronze frame", frameMaterial: "Woven resin over powder-coated aluminum", basePrice: 3165,
+    specs: ["(1) Loose seat", "(1) Loose back pillow", "(1) Lumbar throw", "Contrasting yardage for lumbar pillow: 0.75 yards", "Woven resin over powder-coated aluminum frame", "Suitable Outdoor Cover: MCCV01"],
+    dims: dims({ width: 30, depth: 33, height: 30, widthInside: null, seatHeight: 16.5, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 27, weight: null, fabricReq: 3.5, leatherReq: null }),
+    fabric: fab([3228, 3261, 3291, 3354, 3417, 3480, 3543, 3606, 3669, 3732, 3795, 3858, 3921, 3984, 4047, 4110]),
+    leather: leather(null, 63),
+  },
+];
+
+// Sanity check total = 48 products
+if (typeof console !== "undefined" && PRODUCTS.length !== 48) {
+  console.warn("Expected 48 products, found", PRODUCTS.length);
+}
+
+</script>
+<script>
+/* Pricing engine — all customer-facing amounts are PHP, precise to the centavo.
+   Internal-only: USD source values are converted at a fixed multiplier and never shown. */
+
+const USD_TO_PHP = 70;
+const VAT_RATE = 0.12;
+
+function usdToPhpCentavos(usd) {
+  if (usd == null) return null;
+  return Math.round(usd * USD_TO_PHP * 100);
+}
+function pesoToCentavos(peso) {
+  if (peso == null || isNaN(peso)) return null;
+  return Math.round(peso * 100);
+}
+function centavosToPeso(c) {
+  return c / 100;
+}
+function formatPHP(centavosOrPeso, isCentavos = true) {
+  const peso = isCentavos ? centavosToPeso(centavosOrPeso) : centavosOrPeso;
+  return "₱" + peso.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+// Determines which covering types are selectable for a product.
+function availableCoverings(product) {
+  const list = [];
+  if (product.fabric) list.push("fabric");
+  if (product.leather && product.leather.grades) list.push("leather");
+  if (product.fabric) list.push("com"); // COM/COL price lives in the fabric pricing row
+  if (list.length === 0) list.push("standard");
+  return list;
+}
+
+function fabricGradeAvailable(product, grade) {
+  if (!product.fabric) return false;
+  return grade >= 1 && grade <= 15;
+}
+
+function grade16PlusAvailable(product) {
+  return !!(product.fabric && product.leather && product.leather.riser != null);
+}
+
+/**
+ * config = {
+ *   coveringType: 'fabric' | 'leather' | 'com' | 'standard',
+ *   fabricGrade: 1-15 | null,
+ *   fabricGradeCustom: integer >=16 | null,
+ *   leatherGrade: 'A'|'B'|'C'|'D' | null,
+ *   comCustomPricePhp: number | null   // pesos, before VAT — replaces listed COM/COL price
+ * }
+ * Returns { ok: true, coveringCentavos, coveringLabel } or { ok: false, error }
+ */
+function computeCoveringCentavos(product, config) {
+  const type = config.coveringType;
+
+  if (type === "standard") {
+    if (product.fabric || (product.leather && product.leather.grades)) {
+      return { ok: false, error: "This model requires a covering selection." };
+    }
+    return { ok: true, coveringCentavos: usdToPhpCentavos(product.basePrice), coveringLabel: "Standard specification" };
+  }
+
+  if (type === "fabric") {
+    if (!product.fabric) return { ok: false, error: "Fabric pricing is not available for this model." };
+    if (config.fabricGrade === "g16plus") {
+      if (!grade16PlusAvailable(product)) {
+        return { ok: false, error: "Grade 16+ pricing is not available for this model (no grade riser listed)." };
+      }
+      const g = Number(config.fabricGradeCustom);
+      if (!Number.isInteger(g) || g < 16) {
+        return { ok: false, error: "Enter a whole-number fabric grade of 16 or higher." };
+      }
+      const usd = product.basePrice + g * product.leather.riser;
+      return { ok: true, coveringCentavos: usdToPhpCentavos(usd), coveringLabel: `Fabric — Grade ${g}` };
+    }
+    const grade = Number(config.fabricGrade);
+    if (!fabricGradeAvailable(product, grade)) {
+      return { ok: false, error: "That fabric grade is not available for this model." };
+    }
+    const usd = product.fabric["g" + grade];
+    if (usd == null) return { ok: false, error: "That fabric grade is not priced for this model." };
+    return { ok: true, coveringCentavos: usdToPhpCentavos(usd), coveringLabel: `Fabric — Grade ${grade}` };
+  }
+
+  if (type === "leather") {
+    if (!product.leather || !product.leather.grades) {
+      return { ok: false, error: "Leather pricing is not available for this model." };
+    }
+    const g = config.leatherGrade;
+    const usd = product.leather.grades[g];
+    if (usd == null) return { ok: false, error: `Leather Grade ${g} is not available for this model.` };
+    return { ok: true, coveringCentavos: usdToPhpCentavos(usd), coveringLabel: `Leather — Grade ${g}` };
+  }
+
+  if (type === "com") {
+    if (!product.fabric) return { ok: false, error: "COM/COL pricing is not available for this model." };
+    if (config.comCustomPricePhp != null && config.comCustomPricePhp !== "") {
+      const val = Number(config.comCustomPricePhp);
+      if (!(val > 0)) return { ok: false, error: "Enter a valid custom COM/COL price greater than ₱0.00." };
+      return { ok: true, coveringCentavos: pesoToCentavos(val), coveringLabel: "COM/COL — custom price" };
+    }
+    const usd = product.fabric.comCol;
+    if (usd == null) return { ok: false, error: "Listed COM/COL pricing is not available for this model." };
+    return { ok: true, coveringCentavos: usdToPhpCentavos(usd), coveringLabel: "COM/COL — listed price" };
+  }
+
+  return { ok: false, error: "Select a covering." };
+}
+
+// No finish tiers or optional upgrades are priced anywhere in this catalogue (verified against source).
+// These remain as explicit zero/"Included" line items so the summary structure matches the spec.
+function computeUnitBreakdown(product, config) {
+  const covering = computeCoveringCentavos(product, config);
+  if (!covering.ok) return covering;
+
+  const finishSurchargeCentavos = 0; // no product in this catalogue has a priced finish tier
+  const extrasCentavos = 0; // no product in this catalogue has priced optional upgrades
+
+  const subtotalCentavos = covering.coveringCentavos + finishSurchargeCentavos + extrasCentavos;
+  const vatCentavos = Math.round(subtotalCentavos * VAT_RATE);
+  const unitInclVatCentavos = subtotalCentavos + vatCentavos;
+
+  return {
+    ok: true,
+    coveringCentavos: covering.coveringCentavos,
+    coveringLabel: covering.coveringLabel,
+    finishSurchargeCentavos,
+    extrasCentavos,
+    subtotalCentavos,
+    vatCentavos,
+    unitInclVatCentavos,
+  };
+}
+
+function computeLineTotal(unitInclVatCentavos, quantity) {
+  return unitInclVatCentavos * quantity;
+}
+
+</script>
+<script>
+/* PDF quotation generator — jsPDF + AutoTable (loaded from CDN in index.html). */
+
+function formatDateLong(isoDate) {
+  const d = isoDate ? new Date(isoDate + "T00:00:00") : new Date();
+  return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+}
+function addDays(isoDate, days) {
+  const d = isoDate ? new Date(isoDate + "T00:00:00") : new Date();
+  d.setDate(d.getDate() + days);
+  return d;
+}
+
+const FOREST = [23, 48, 31];
+const GOLD = [166, 132, 47];
+const SOFT = [90, 100, 92];
+const BORDER = [222, 216, 192];
+
+function generateQuotationPdf(quotation, lines, totals) {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ unit: "pt", format: "a4" });
+  const pageWidth = doc.internal.pageSize.getWidth();
+  const margin = 40;
+  const headerHeight = 96;
+
+  function drawHeader() {
+    doc.setFillColor(...FOREST);
+    doc.rect(0, 0, pageWidth, headerHeight, "F");
+    doc.setTextColor(255, 255, 255);
+    doc.setFont("times", "bold");
+    doc.setFontSize(20);
+    doc.text("BAKER · McGUIRE", margin, 38);
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(9);
+    doc.setTextColor(...GOLD.map((c) => Math.min(255, c + 60)));
+    doc.text("PHILIPPINES", margin, 54);
+    doc.setTextColor(230, 230, 220);
+    doc.setFontSize(11);
+    doc.setFont("helvetica", "bold");
+    doc.text("OUTDOOR QUOTATION", margin, 76);
+
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(9);
+    doc.setTextColor(230, 230, 220);
+    const rightX = pageWidth - margin;
+    const validThroughDate = addDays(quotation.date, 30);
+    doc.text(`Quotation No: ${quotation.number}`, rightX, 38, { align: "right" });
+    doc.text(`Date: ${formatDateLong(quotation.date)}`, rightX, 52, { align: "right" });
+    doc.text(`Valid through: ${validThroughDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}`, rightX, 66, { align: "right" });
+  }
+
+  // --- Header (first render, also re-drawn per page via autoTable hook) ---
+  drawHeader();
+
+  let y = headerHeight + 30;
+  doc.setTextColor(...FOREST);
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(10);
+  doc.text("PREPARED FOR", margin, y);
+  doc.text("PREPARED BY", pageWidth / 2 + 10, y);
+  doc.setFont("helvetica", "normal");
+  doc.setFontSize(11);
+  doc.setTextColor(40, 40, 40);
+  doc.text(quotation.preparedFor || "—", margin, y + 16);
+  doc.text(quotation.preparedBy || "—", pageWidth / 2 + 10, y + 16);
+
+  y += 40;
+  doc.setDrawColor(...BORDER);
+  doc.line(margin, y, pageWidth - margin, y);
+
+  const body = lines.map((line) => {
+    const configParts = [line.coveringLabel];
+    if (line.fabricRef) configParts.push(`Ref: ${line.fabricRef}`);
+    if (line.finishLabel) configParts.push(`Finish: ${line.finishLabel}`);
+    const dimStr = line.dimsText || "";
+    return [
+      `${line.name}\n${line.sku}`,
+      configParts.join("\n"),
+      dimStr,
+      String(line.quantity),
+      formatPHP(line.unitPriceBeforeVatCentavos),
+      formatPHP(line.unitPriceBeforeVatCentavos * line.quantity),
+    ];
+  });
+
+  doc.autoTable({
+    startY: y + 14,
+    margin: { top: headerHeight + 20, left: margin, right: margin, bottom: 90 },
+    head: [["Product", "Configuration", "Dimensions", "Qty", "Unit Price (excl. VAT)", "Line Total (excl. VAT)"]],
+    body,
+    styles: { font: "helvetica", fontSize: 8.5, cellPadding: 6, textColor: [40, 40, 40], overflow: "linebreak", valign: "top" },
+    headStyles: { fillColor: FOREST, textColor: 255, fontStyle: "bold", fontSize: 8.5 },
+    alternateRowStyles: { fillColor: [247, 245, 239] },
+    columnStyles: {
+      0: { cellWidth: 105 },
+      1: { cellWidth: 125 },
+      2: { cellWidth: 75 },
+      3: { cellWidth: 26, halign: "center" },
+      4: { cellWidth: 82, halign: "right" },
+      5: { cellWidth: 82, halign: "right" },
+    },
+    tableWidth: 495,
+    didDrawPage: function () {
+      drawHeader();
+    },
+  });
+
+  let finalY = doc.lastAutoTable.finalY + 20;
+  const pageHeight = doc.internal.pageSize.getHeight();
+  if (finalY > pageHeight - 160) {
+    doc.addPage();
+    drawHeader();
+    finalY = headerHeight + 30;
+  }
+
+  const totalsX = pageWidth - margin - 200;
+  doc.setFontSize(10);
+  doc.setTextColor(60, 60, 60);
+  doc.setFont("helvetica", "normal");
+  doc.text("Subtotal (excl. VAT)", totalsX, finalY);
+  doc.text(formatPHP(totals.subtotalCentavos), pageWidth - margin, finalY, { align: "right" });
+  doc.text("VAT (12%)", totalsX, finalY + 16);
+  doc.text(formatPHP(totals.vatCentavos), pageWidth - margin, finalY + 16, { align: "right" });
+  doc.setDrawColor(...BORDER);
+  doc.line(totalsX, finalY + 24, pageWidth - margin, finalY + 24);
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(12.5);
+  doc.setTextColor(...FOREST);
+  doc.text("Grand Total (incl. VAT)", totalsX, finalY + 42);
+  doc.text(formatPHP(totals.grandTotalCentavos), pageWidth - margin, finalY + 42, { align: "right" });
+
+  finalY += 70;
+  if (finalY > pageHeight - 110) {
+    doc.addPage();
+    drawHeader();
+    finalY = headerHeight + 30;
+  }
+  doc.setFont("helvetica", "italic");
+  doc.setFontSize(8.5);
+  doc.setTextColor(110, 110, 100);
+  const terms = "Valid for 30 days from the quotation date. Prices are indicative and subject to confirmation at time of order.";
+  const wrapped = doc.splitTextToSize(terms, pageWidth - margin * 2);
+  doc.text(wrapped, margin, finalY);
+
+  // Footer: page numbers + repeating byline on every page
+  const pageCount = doc.internal.getNumberOfPages();
+  for (let i = 1; i <= pageCount; i++) {
+    doc.setPage(i);
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(8);
+    doc.setTextColor(140, 140, 130);
+    doc.text(`Baker · McGuire Outdoor — Philippines`, margin, pageHeight - 24);
+    doc.text(`Page ${i} of ${pageCount}`, pageWidth - margin, pageHeight - 24, { align: "right" });
+  }
+
+  const fileName = `BakerMcGuire-Outdoor-Quotation-${quotation.number}.pdf`;
+  doc.save(fileName);
+}
+
+</script>
+<script>
+/* Baker McGuire Outdoor — The Quote Book. Client-only SPA, no build step. */
+
+const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches" };
+
+function escapeHtml(str) {
+  if (str == null) return "";
+  return String(str).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function todayIso() {
+  return new Date().toISOString().slice(0, 10);
+}
+function genQuoteNumber() {
+  const d = new Date();
+  const ymd = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, "0")}${String(d.getDate()).padStart(2, "0")}`;
+  const rand = Math.floor(1000 + Math.random() * 9000);
+  return `BM-OUT-${ymd}-${rand}`;
+}
+function uid() {
+  return "l" + Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
+}
+function dimsSummary(d) {
+  const parts = [];
+  if (d.width) parts.push(`${d.width}"W`);
+  if (d.depth) parts.push(`${d.depth}"D`);
+  if (d.height) parts.push(`${d.height}"H`);
+  return parts.join(" x ");
+}
+
+const state = {
+  products: PRODUCTS,
+  search: "",
+  category: "all",
+  designer: "all",
+  selectedSku: null,
+  config: {},
+  cart: [],
+  quotation: { preparedFor: "", preparedBy: "", number: genQuoteNumber(), date: todayIso() },
+  view: "collection",
+};
+
+// ---------------- Theme ----------------
+function initTheme() {
+  let saved = null;
+  try { saved = localStorage.getItem("bakermcguire_theme"); } catch (e) {}
+  if (saved === "dark" || saved === "light") {
+    document.documentElement.setAttribute("data-theme", saved);
+  }
+  updateThemeIcons();
+}
+function toggleTheme() {
+  const current = document.documentElement.getAttribute("data-theme");
+  const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const effectiveCurrent = current || (prefersDark ? "dark" : "light");
+  const next = effectiveCurrent === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  try { localStorage.setItem("bakermcguire_theme", next); } catch (e) {}
+  updateThemeIcons();
+}
+function updateThemeIcons() {
+  const current = document.documentElement.getAttribute("data-theme");
+  const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const isDark = current ? current === "dark" : prefersDark;
+  document.getElementById("themeIconSun").hidden = isDark;
+  document.getElementById("themeIconMoon").hidden = !isDark;
+}
+
+// ---------------- Category counts / filtering ----------------
+function categoryCounts() {
+  const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0 };
+  state.products.forEach((p) => { counts[p.category]++; });
+  return counts;
+}
+function designerList() {
+  const set = new Set(state.products.map((p) => p.collection));
+  return Array.from(set).sort();
+}
+function filteredProducts() {
+  const q = state.search.trim().toLowerCase();
+  return state.products.filter((p) => {
+    if (state.category !== "all" && p.category !== state.category) return false;
+    if (state.designer !== "all" && p.collection !== state.designer) return false;
+    if (q) {
+      const hay = `${p.name} ${p.sku} ${p.collection}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function displayPriceForProduct(product) {
+  if (product.fabric) {
+    const centavos = usdToPhpCentavos(product.fabric.g1);
+    const beforeVat = centavos;
+    const withVat = Math.round(beforeVat * (1 + VAT_RATE));
+    return { price: formatPHP(withVat), label: "Fabric Grade 1, incl. VAT" };
+  }
+  const centavos = usdToPhpCentavos(product.basePrice);
+  const withVat = Math.round(centavos * (1 + VAT_RATE));
+  return { price: formatPHP(withVat), label: "Standard specification, incl. VAT" };
+}
+
+// ---------------- Rendering: controls ----------------
+function renderControls() {
+  const counts = categoryCounts();
+  const chipsEl = document.getElementById("filterChips");
+  chipsEl.innerHTML = Object.keys(CATEGORY_LABELS)
+    .map((key) => `<button class="chip ${state.category === key ? "active" : ""}" data-cat="${key}" type="button">${CATEGORY_LABELS[key]} (${counts[key]})</button>`)
+    .join("");
+  chipsEl.querySelectorAll(".chip").forEach((btn) => {
+    btn.addEventListener("click", () => { state.category = btn.dataset.cat; renderAll(); });
+  });
+
+  const designerSelect = document.getElementById("designerSelect");
+  const designers = designerList();
+  designerSelect.innerHTML = `<option value="all">All designers &amp; collections</option>` + designers.map((d) => `<option value="${escapeHtml(d)}" ${state.designer === d ? "selected" : ""}>${escapeHtml(d)}</option>`).join("");
+  designerSelect.onchange = () => { state.designer = designerSelect.value; renderAll(); };
+
+  document.getElementById("collectionMeta").textContent = `${state.products.length} products · Source price list updated ${SOURCE_DATE}`;
+}
+
+// ---------------- Rendering: product list ----------------
+function renderProductList() {
+  const list = filteredProducts();
+  const el = document.getElementById("productList");
+  if (list.length === 0) {
+    el.innerHTML = `<div class="empty-state">No pieces match your search or filters.</div>`;
+    return;
+  }
+  el.innerHTML = list.map((p) => {
+    const { price, label } = displayPriceForProduct(p);
+    return `
+      <div class="product-card ${state.selectedSku === p.sku ? "selected" : ""}" data-sku="${p.sku}">
+        <div class="pc-top">
+          <span class="pc-sku">${p.sku}</span>
+          ${p.limited ? '<span class="pc-limited">Limited</span>' : ""}
+        </div>
+        <div class="pc-name">${escapeHtml(p.name)}</div>
+        <div class="pc-designer">${escapeHtml(p.collection)}</div>
+        <div class="pc-price">${price}<span class="pc-price-label">${label}</span></div>
+      </div>`;
+  }).join("");
+  el.querySelectorAll(".product-card").forEach((card) => {
+    card.addEventListener("click", () => selectProduct(card.dataset.sku));
+  });
+}
+
+// ---------------- Configurator ----------------
+function defaultConfigForProduct(product) {
+  const coverings = availableCoverings(product);
+  const type = coverings[0];
+  const cfg = { coveringType: type, fabricGrade: 1, fabricGradeCustom: 16, leatherGrade: null, comCustomPricePhp: null, fabricRef: "", quantity: 1 };
+  if (type === "fabric") cfg.fabricGrade = 1;
+  if (type === "leather") {
+    const grades = Object.keys(product.leather.grades).filter((g) => product.leather.grades[g] != null);
+    cfg.leatherGrade = grades[0] || null;
+  }
+  return cfg;
+}
+
+function selectProduct(sku) {
+  state.selectedSku = sku;
+  const product = state.products.find((p) => p.sku === sku);
+  state.config = defaultConfigForProduct(product);
+  renderProductList();
+  renderConfigurator();
+  // scroll configurator into view on mobile
+  if (window.innerWidth <= 900) {
+    document.getElementById("configurator").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
+function currentProduct() {
+  return state.products.find((p) => p.sku === state.selectedSku) || null;
+}
+
+function renderConfigurator() {
+  const el = document.getElementById("configurator");
+  const product = currentProduct();
+  if (!product) {
+    el.innerHTML = `<div class="config-placeholder"><div class="ph-title">Select a piece</div><p>Choose a product from the list to configure its covering, view pricing, and add it to your quotation.</p></div>`;
+    return;
+  }
+  const coverings = availableCoverings(product);
+  const cfg = state.config;
+
+  const tabsHtml = coverings.map((c) => {
+    const labels = { fabric: "Fabric", leather: "Leather", com: "COM / COL", standard: "Standard specification" };
+    return `<button type="button" class="covering-tab ${cfg.coveringType === c ? "active" : ""}" data-covering="${c}">${labels[c]}</button>`;
+  }).join("");
+
+  let coveringBodyHtml = "";
+  if (cfg.coveringType === "fabric") {
+    const gradeBtns = Array.from({ length: 15 }, (_, i) => i + 1).map((g) => {
+      const usd = product.fabric["g" + g];
+      const price = formatPHP(Math.round(usdToPhpCentavos(usd) * (1 + VAT_RATE)));
+      return `<button type="button" class="grade-btn ${cfg.fabricGrade === g ? "active" : ""}" data-grade="${g}">${g}<span class="grade-price">${price}</span></button>`;
+    }).join("");
+    const g16ok = grade16PlusAvailable(product);
+    coveringBodyHtml = `
+      <div class="grade-grid">${gradeBtns}</div>
+      ${g16ok ? `
+      <button type="button" class="grade-btn ${cfg.fabricGrade === "g16plus" ? "active" : ""}" id="grade16Btn" style="width:100%;text-align:left;padding:10px 12px;margin-bottom:10px;">Grade 16 and above</button>
+      ${cfg.fabricGrade === "g16plus" ? `
+      <div class="field-row">
+        <label for="customGradeInput">Fabric grade (whole number, 16 or higher)</label>
+        <input type="number" min="16" step="1" class="number-input" id="customGradeInput" value="${cfg.fabricGradeCustom}" />
+        <p class="helper-text">Grade price = Base price + (grade &times; grade riser), converted to pesos.</p>
+      </div>` : ""}` : ""}
+      <div class="field-row">
+        <label for="fabricRefInput">Fabric reference (optional)</label>
+        <input type="text" class="text-input" id="fabricRefInput" placeholder="e.g. supplier / pattern name" value="${escapeHtml(cfg.fabricRef)}" />
+      </div>`;
+  } else if (cfg.coveringType === "leather") {
+    const grades = ["A", "B", "C", "D"].filter((g) => product.leather.grades && product.leather.grades[g] != null);
+    const gradeBtns = grades.map((g) => {
+      const price = formatPHP(Math.round(usdToPhpCentavos(product.leather.grades[g]) * (1 + VAT_RATE)));
+      return `<button type="button" class="grade-btn" style="min-width:90px;flex:0 0 auto;" data-leather="${g}">Grade ${g}<span class="grade-price">${price}</span></button>`;
+    }).join("");
+    coveringBodyHtml = `
+      <div class="grade-grid" style="grid-template-columns:repeat(auto-fill,minmax(90px,1fr));">${gradeBtns}</div>
+      <div class="field-row">
+        <label for="leatherRefInput">Leather reference (optional)</label>
+        <input type="text" class="text-input" id="leatherRefInput" placeholder="e.g. supplier / hide name" value="${escapeHtml(cfg.fabricRef)}" />
+      </div>`;
+    // re-mark active after render (need product context in closure below)
+  } else if (cfg.coveringType === "com") {
+    const listedUsd = product.fabric.comCol;
+    const listedPhp = formatPHP(Math.round(usdToPhpCentavos(listedUsd) * (1 + VAT_RATE)));
+    const useCustom = cfg.comCustomPricePhp != null;
+    coveringBodyHtml = `
+      <div class="radio-row"><label><input type="radio" name="comMode" value="listed" ${!useCustom ? "checked" : ""}> Use listed COM/COL price (${listedPhp} incl. VAT)</label></div>
+      <div class="radio-row"><label><input type="radio" name="comMode" value="custom" ${useCustom ? "checked" : ""}> Enter custom whole-piece price</label></div>
+      ${useCustom ? `
+      <div class="field-row">
+        <label for="customComInput">Custom price, in pesos, before VAT</label>
+        <input type="number" min="0" step="0.01" class="number-input" id="customComInput" value="${cfg.comCustomPricePhp ?? ""}" placeholder="0.00" />
+        <p class="helper-text">This replaces the listed COM/COL price &mdash; it is not an additional charge.</p>
+      </div>` : ""}
+      <div class="field-row">
+        <label for="fabricRefInput">Material reference (optional)</label>
+        <input type="text" class="text-input" id="fabricRefInput" placeholder="e.g. customer-supplied fabric name" value="${escapeHtml(cfg.fabricRef)}" />
+      </div>`;
+  } else {
+    coveringBodyHtml = `<div class="finish-box"><span class="ff-name">Standard specification</span><p class="ff-note">This model is priced as a complete standard piece &mdash; no fabric, leather, or COM/COL selection applies.</p></div>`;
+  }
+
+  const finishName = product.standardFinish || product.frameMaterial || "Standard";
+  const finishHtml = `
+    <div class="finish-box">
+      <span class="ff-name">${escapeHtml(finishName)}</span>
+      <p class="ff-note">Standard finish is included. No additional finish tiers are listed for this model in the source price list.</p>
+    </div>`;
+
+  const breakdown = computeUnitBreakdown(product, cfg);
+  const qty = cfg.quantity || 1;
+
+  let summaryHtml = "";
+  if (breakdown.ok) {
+    const lineTotal = computeLineTotal(breakdown.unitInclVatCentavos, qty);
+    summaryHtml = `
+      <div class="summary-box">
+        <div class="summary-row"><span>${escapeHtml(breakdown.coveringLabel)}</span><span>${formatPHP(breakdown.coveringCentavos)}</span></div>
+        <div class="summary-row"><span>Finish surcharge</span><span>Included</span></div>
+        <div class="summary-row"><span>VAT (12%)</span><span>${formatPHP(breakdown.vatCentavos)}</span></div>
+        <div class="summary-row total"><span>Unit price, incl. VAT</span><span>${formatPHP(breakdown.unitInclVatCentavos)}</span></div>
+        <div class="qty-row">
+          <label for="qtyInput">Quantity</label>
+          <div class="qty-control">
+            <button type="button" id="qtyMinus">&minus;</button>
+            <input type="number" id="qtyInput" min="1" step="1" value="${qty}" />
+            <button type="button" id="qtyPlus">+</button>
+          </div>
+        </div>
+        <div class="summary-row total"><span>Total for quantity</span><span>${formatPHP(lineTotal)}</span></div>
+        <button class="btn btn-gold" id="addToQuoteBtn" type="button" style="margin-top:14px;">Add to quotation</button>
+      </div>`;
+  } else {
+    summaryHtml = `<div class="summary-box"><p class="error-text">${escapeHtml(breakdown.error)}</p><button class="btn" id="addToQuoteBtn" type="button" disabled style="margin-top:10px;">Add to quotation</button></div>`;
+  }
+
+  const scheduleRows = product.fabric
+    ? [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].map((g) => `<tr><td>Grade ${g}</td><td>${formatPHP(usdToPhpCentavos(product.fabric["g" + g]))}</td></tr>`).join("") +
+      `<tr><td>COM/COL</td><td>${formatPHP(usdToPhpCentavos(product.fabric.comCol))}</td></tr>`
+    : `<tr><td>Base price</td><td>${formatPHP(usdToPhpCentavos(product.basePrice))}</td></tr>`;
+  const leatherRows = product.leather && product.leather.grades
+    ? Object.entries(product.leather.grades).filter(([, v]) => v != null).map(([g, usd]) => `<tr><td>Leather Grade ${g}</td><td>${formatPHP(usdToPhpCentavos(usd))}</td></tr>`).join("")
+    : "";
+  const riserRow = product.leather && product.leather.riser != null ? `<tr><td>Grade riser (grade 16+)</td><td>${formatPHP(usdToPhpCentavos(product.leather.riser))}</td></tr>` : "";
+
+  const d = product.dims;
+  const dimsRows = [
+    ["Width", d.width], ["Depth", d.depth], ["Height", d.height], ["Width inside", d.widthInside],
+    ["Seat height", d.seatHeight], ["Seat depth", d.seatDepth], ["Arm width", d.armWidth], ["Arm height", d.armHeight],
+    ["Exposed leg height", d.exposedLegHeight], ["Volume", d.volume ? d.volume + " ft³" : null],
+    ["Weight", d.weight ? d.weight + " lb" : null], ["Fabric requirement", d.fabricReq ? d.fabricReq + " yd" : null],
+    ["Leather requirement", d.leatherReq ? d.leatherReq + " ft²" : null],
+  ].filter(([, v]) => v != null && v !== "").map(([k, v]) => `<div><span>${k}</span><span>${typeof v === "number" ? v + '"' : v}</span></div>`).join("");
+
+  el.innerHTML = `
+    <div class="cf-header">
+      <p class="cf-kicker">${escapeHtml(product.collection)}${product.limited ? " · Limited" : ""}</p>
+      <h2 class="cf-title">${escapeHtml(product.name)}</h2>
+      <p class="cf-sub">SKU ${product.sku}</p>
+      <p class="cf-dims">${dimsSummary(d) || ""}</p>
+    </div>
+
+    <p class="section-label">Covering</p>
+    <div class="covering-tabs">${tabsHtml}</div>
+    <div id="coveringBody">${coveringBodyHtml}</div>
+
+    <p class="section-label">Frame Finish</p>
+    ${finishHtml}
+
+    <details class="expand">
+      <summary>Frame details &amp; dimensions</summary>
+      <div class="expand-body">
+        <p style="margin-top:0;">${product.specs.map((s) => escapeHtml(s)).join("<br/>")}</p>
+        <div class="dims-grid">${dimsRows}</div>
+      </div>
+    </details>
+
+    <details class="expand">
+      <summary>Complete price schedule (before VAT)</summary>
+      <div class="expand-body schedule-table-wrap">
+        <table class="schedule-table">
+          <thead><tr><th>Covering</th><th>Price</th></tr></thead>
+          <tbody>${scheduleRows}${leatherRows}${riserRow}</tbody>
+        </table>
+      </div>
+    </details>
+
+    ${summaryHtml}
+  `;
+
+  bindConfiguratorEvents(product);
+}
+
+function bindConfiguratorEvents(product) {
+  const el = document.getElementById("configurator");
+  el.querySelectorAll(".covering-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.config.coveringType = btn.dataset.covering;
+      if (state.config.coveringType === "leather" && !state.config.leatherGrade) {
+        const grades = Object.keys(product.leather.grades || {}).filter((g) => product.leather.grades[g] != null);
+        state.config.leatherGrade = grades[0] || null;
+      }
+      renderConfigurator();
+    });
+  });
+
+  if (state.config.coveringType === "fabric") {
+    el.querySelectorAll(".grade-btn[data-grade]").forEach((btn) => {
+      btn.addEventListener("click", () => { state.config.fabricGrade = Number(btn.dataset.grade); renderConfigurator(); });
+    });
+    const g16Btn = document.getElementById("grade16Btn");
+    if (g16Btn) g16Btn.addEventListener("click", () => { state.config.fabricGrade = "g16plus"; renderConfigurator(); });
+    const customGradeInput = document.getElementById("customGradeInput");
+    if (customGradeInput) customGradeInput.addEventListener("input", () => { state.config.fabricGradeCustom = customGradeInput.value; renderConfigurator(); });
+    const fabricRefInput = document.getElementById("fabricRefInput");
+    if (fabricRefInput) fabricRefInput.addEventListener("input", () => { state.config.fabricRef = fabricRefInput.value; });
+  }
+
+  if (state.config.coveringType === "leather") {
+    el.querySelectorAll(".grade-btn[data-leather]").forEach((btn) => {
+      if (btn.dataset.leather === state.config.leatherGrade) btn.classList.add("active");
+      btn.addEventListener("click", () => { state.config.leatherGrade = btn.dataset.leather; renderConfigurator(); });
+    });
+    const leatherRefInput = document.getElementById("leatherRefInput");
+    if (leatherRefInput) leatherRefInput.addEventListener("input", () => { state.config.fabricRef = leatherRefInput.value; });
+  }
+
+  if (state.config.coveringType === "com") {
+    el.querySelectorAll('input[name="comMode"]').forEach((radio) => {
+      radio.addEventListener("change", () => {
+        state.config.comCustomPricePhp = radio.value === "custom" ? (state.config.comCustomPricePhp ?? "") : null;
+        renderConfigurator();
+      });
+    });
+    const customComInput = document.getElementById("customComInput");
+    if (customComInput) customComInput.addEventListener("input", () => { state.config.comCustomPricePhp = customComInput.value; renderConfigurator(); });
+    const fabricRefInput = document.getElementById("fabricRefInput");
+    if (fabricRefInput) fabricRefInput.addEventListener("input", () => { state.config.fabricRef = fabricRefInput.value; });
+  }
+
+  const qtyInput = document.getElementById("qtyInput");
+  if (qtyInput) {
+    qtyInput.addEventListener("change", () => {
+      const v = Math.max(1, Math.floor(Number(qtyInput.value) || 1));
+      state.config.quantity = v;
+      renderConfigurator();
+    });
+  }
+  const qtyMinus = document.getElementById("qtyMinus");
+  const qtyPlus = document.getElementById("qtyPlus");
+  if (qtyMinus) qtyMinus.addEventListener("click", () => { state.config.quantity = Math.max(1, (state.config.quantity || 1) - 1); renderConfigurator(); });
+  if (qtyPlus) qtyPlus.addEventListener("click", () => { state.config.quantity = (state.config.quantity || 1) + 1; renderConfigurator(); });
+
+  const addBtn = document.getElementById("addToQuoteBtn");
+  if (addBtn && !addBtn.disabled) addBtn.addEventListener("click", () => addToQuotation(product));
+}
+
+// ---------------- Cart / Quotation ----------------
+function configSignature(sku, cfg, breakdown) {
+  return [sku, cfg.coveringType, cfg.fabricGrade, cfg.fabricGradeCustom, cfg.leatherGrade, cfg.comCustomPricePhp, (cfg.fabricRef || "").trim().toLowerCase(), breakdown.coveringCentavos].join("|");
+}
+
+function addToQuotation(product) {
+  const cfg = state.config;
+  const breakdown = computeUnitBreakdown(product, cfg);
+  if (!breakdown.ok) return;
+  const qty = Math.max(1, Math.floor(cfg.quantity || 1));
+  const sig = configSignature(product.sku, cfg, breakdown);
+  const existing = state.cart.find((l) => l.signature === sig);
+  if (existing) {
+    existing.quantity += qty;
+  } else {
+    state.cart.push({
+      id: uid(),
+      signature: sig,
+      sku: product.sku,
+      name: product.name,
+      collection: product.collection,
+      coveringLabel: breakdown.coveringLabel,
+      fabricRef: cfg.fabricRef || "",
+      finishLabel: product.standardFinish || product.frameMaterial || "Standard",
+      dimsText: dimsSummary(product.dims),
+      quantity: qty,
+      unitPriceBeforeVatCentavos: breakdown.subtotalCentavos,
+      unitInclVatCentavos: breakdown.unitInclVatCentavos,
+    });
+  }
+  renderCartBadge();
+  flashAdded();
+}
+function flashAdded() {
+  const btn = document.getElementById("addToQuoteBtn");
+  if (!btn) return;
+  const original = btn.textContent;
+  btn.textContent = "Added ✓";
+  setTimeout(() => { if (btn) btn.textContent = original; }, 1100);
+}
+function renderCartBadge() {
+  const totalQty = state.cart.reduce((s, l) => s + l.quantity, 0);
+  const badge = document.getElementById("cartBadge");
+  badge.textContent = String(totalQty);
+  badge.hidden = totalQty === 0;
+}
+
+function computeQuotationTotals() {
+  const subtotalCentavos = state.cart.reduce((s, l) => s + l.unitPriceBeforeVatCentavos * l.quantity, 0);
+  const vatCentavos = Math.round(subtotalCentavos * VAT_RATE);
+  const grandTotalCentavos = subtotalCentavos + vatCentavos;
+  return { subtotalCentavos, vatCentavos, grandTotalCentavos };
+}
+
+function renderQuotationView() {
+  document.getElementById("qPreparedFor").value = state.quotation.preparedFor;
+  document.getElementById("qPreparedBy").value = state.quotation.preparedBy;
+  document.getElementById("qNumber").value = state.quotation.number;
+  document.getElementById("qDate").value = state.quotation.date;
+
+  const linesEl = document.getElementById("quoteLines");
+  const emptyEl = document.getElementById("quoteEmpty");
+  if (state.cart.length === 0) {
+    linesEl.innerHTML = "";
+    emptyEl.hidden = false;
+  } else {
+    emptyEl.hidden = true;
+    linesEl.innerHTML = state.cart.map((l) => `
+      <div class="quote-line" data-id="${l.id}">
+        <div>
+          <div class="ql-sku">${l.sku}</div>
+          <h3 class="ql-name">${escapeHtml(l.name)}</h3>
+          <div class="ql-detail">
+            ${escapeHtml(l.collection)}<br/>
+            ${escapeHtml(l.coveringLabel)}${l.fabricRef ? " &mdash; " + escapeHtml(l.fabricRef) : ""}<br/>
+            Finish: ${escapeHtml(l.finishLabel)}<br/>
+            ${escapeHtml(l.dimsText)}
+          </div>
+        </div>
+        <div class="ql-right">
+          <div class="qty-control">
+            <button type="button" class="qMinus">&minus;</button>
+            <input type="number" class="qInput" min="1" step="1" value="${l.quantity}" />
+            <button type="button" class="qPlus">+</button>
+          </div>
+          <div class="ql-unit-price">${formatPHP(l.unitPriceBeforeVatCentavos)} / unit, excl. VAT</div>
+          <div class="ql-line-total">${formatPHP(l.unitPriceBeforeVatCentavos * l.quantity)}</div>
+          <button type="button" class="remove-btn">Remove</button>
+        </div>
+      </div>`).join("");
+
+    linesEl.querySelectorAll(".quote-line").forEach((row) => {
+      const id = row.dataset.id;
+      const line = state.cart.find((l) => l.id === id);
+      row.querySelector(".remove-btn").addEventListener("click", () => {
+        state.cart = state.cart.filter((l) => l.id !== id);
+        renderQuotationView();
+        renderCartBadge();
+      });
+      const qInput = row.querySelector(".qInput");
+      qInput.addEventListener("change", () => {
+        const v = Math.max(1, Math.floor(Number(qInput.value) || 1));
+        line.quantity = v;
+        renderQuotationView();
+        renderCartBadge();
+      });
+      row.querySelector(".qMinus").addEventListener("click", () => { line.quantity = Math.max(1, line.quantity - 1); renderQuotationView(); renderCartBadge(); });
+      row.querySelector(".qPlus").addEventListener("click", () => { line.quantity += 1; renderQuotationView(); renderCartBadge(); });
+    });
+  }
+
+  const totals = computeQuotationTotals();
+  document.getElementById("quoteTotals").innerHTML = `
+    <div class="summary-row"><span>Subtotal (excl. VAT)</span><span>${formatPHP(totals.subtotalCentavos)}</span></div>
+    <div class="summary-row"><span>VAT (12%)</span><span>${formatPHP(totals.vatCentavos)}</span></div>
+    <div class="summary-row total"><span>Grand total (incl. VAT)</span><span>${formatPHP(totals.grandTotalCentavos)}</span></div>`;
+}
+
+function bindQuotationFields() {
+  document.getElementById("qPreparedFor").addEventListener("input", (e) => { state.quotation.preparedFor = e.target.value; });
+  document.getElementById("qPreparedBy").addEventListener("input", (e) => { state.quotation.preparedBy = e.target.value; });
+  document.getElementById("qNumber").addEventListener("input", (e) => { state.quotation.number = e.target.value; });
+  document.getElementById("qDate").addEventListener("change", (e) => { state.quotation.date = e.target.value; });
+  document.getElementById("continueBrowsing").addEventListener("click", () => switchView("collection"));
+  document.getElementById("downloadPdf").addEventListener("click", () => {
+    if (state.cart.length === 0) { alert("Your quotation is empty. Add at least one piece before downloading."); return; }
+    const totals = computeQuotationTotals();
+    generateQuotationPdf(state.quotation, state.cart, totals);
+  });
+}
+
+// ---------------- View switching ----------------
+function switchView(view) {
+  state.view = view;
+  document.getElementById("viewCollection").hidden = view !== "collection";
+  document.getElementById("viewQuotation").hidden = view !== "quotation";
+  document.getElementById("navCollection").classList.toggle("active", view === "collection");
+  document.getElementById("navQuotation").classList.toggle("active", view === "quotation");
+  if (view === "quotation") renderQuotationView();
+  window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+}
+
+function renderAll() {
+  renderControls();
+  renderProductList();
+}
+
+// ---------------- Init ----------------
+function init() {
+  initTheme();
+  document.getElementById("themeToggle").addEventListener("click", toggleTheme);
+  document.getElementById("navCollection").addEventListener("click", () => switchView("collection"));
+  document.getElementById("navQuotation").addEventListener("click", () => switchView("quotation"));
+  document.getElementById("brandHome").addEventListener("click", () => switchView("collection"));
+  document.getElementById("searchInput").addEventListener("input", (e) => { state.search = e.target.value; renderProductList(); });
+
+  bindQuotationFields();
+  renderAll();
+  window.addEventListener("beforeunload", (e) => {
+    if (state.cart.length > 0) { e.preventDefault(); e.returnValue = ""; }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", init);
+
+</script>
 </body>
 </html>
