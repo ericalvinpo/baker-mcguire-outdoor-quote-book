@@ -39,6 +39,25 @@ function grade16PlusAvailable(product) {
   return !!(product.fabric && product.leather && product.leather.riser != null);
 }
 
+// Returns [{ key, label, usd }] for every finish tier/rattan option this product has a real price for.
+function availableFinishOptions(product) {
+  const ft = product.finishTiers;
+  if (!ft) return [];
+  const defs = [
+    ["tier1", "Tier 1"], ["tier2", "Tier 2"], ["tier3", "Tier 3"], ["tier4", "Tier 4"],
+    ["type1Rattan", "Type 1 Rattan"], ["type2Rattan", "Type 2 Rattan"], ["specialtyRattan", "Specialty Rattan"],
+  ];
+  return defs
+    .filter(([key]) => ft[key] != null)
+    .map(([key, label]) => ({ key, label, usd: ft[key] }));
+}
+function finishSurchargeUsd(product, finishKey) {
+  if (!finishKey || finishKey === "standard") return 0;
+  const ft = product.finishTiers;
+  if (!ft || ft[finishKey] == null) return 0;
+  return ft[finishKey];
+}
+
 /**
  * config = {
  *   coveringType: 'fabric' | 'leather' | 'com' | 'standard',
@@ -106,13 +125,22 @@ function computeCoveringCentavos(product, config) {
   return { ok: false, error: "Select a covering." };
 }
 
-// No finish tiers or optional upgrades are priced anywhere in this catalogue (verified against source).
-// These remain as explicit zero/"Included" line items so the summary structure matches the spec.
+// Optional upgrades (seat cushion/back pillow/throw pillow/swivel) are not priced anywhere in this
+// catalogue's outdoor collection (verified against source), so extrasCentavos stays 0 for now.
 function computeUnitBreakdown(product, config) {
   const covering = computeCoveringCentavos(product, config);
   if (!covering.ok) return covering;
 
-  const finishSurchargeCentavos = 0; // no product in this catalogue has a priced finish tier
+  const finishOptions = availableFinishOptions(product);
+  let finishKey = config.finishKey || "standard";
+  let finishLabel = "Standard finish";
+  let finishSurchargeCentavos = 0;
+  if (finishKey !== "standard") {
+    const opt = finishOptions.find((o) => o.key === finishKey);
+    if (!opt) return { ok: false, error: "Select a valid frame finish option." };
+    finishLabel = opt.label;
+    finishSurchargeCentavos = usdToPhpCentavos(opt.usd);
+  }
   const extrasCentavos = 0; // no product in this catalogue has priced optional upgrades
 
   const subtotalCentavos = covering.coveringCentavos + finishSurchargeCentavos + extrasCentavos;
@@ -123,6 +151,7 @@ function computeUnitBreakdown(product, config) {
     ok: true,
     coveringCentavos: covering.coveringCentavos,
     coveringLabel: covering.coveringLabel,
+    finishLabel,
     finishSurchargeCentavos,
     extrasCentavos,
     subtotalCentavos,
