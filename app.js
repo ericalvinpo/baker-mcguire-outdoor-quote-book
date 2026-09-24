@@ -1,6 +1,7 @@
 /* Baker McGuire — The Quote Book. Client-only SPA, no build step. */
 
 const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches", tables: "Tables & Consoles", casegoods: "Casegoods", beds: "Beds", lighting: "Lighting", mirrors: "Mirrors" };
+const COVERING_LABELS = { fabric: "Fabric", leather: "Leather", com: "COM / COL", standard: "Standard specification" };
 
 function escapeHtml(str) {
   if (str == null) return "";
@@ -13,7 +14,7 @@ function genQuoteNumber() {
   const d = new Date();
   const ymd = `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, "0")}${String(d.getDate()).padStart(2, "0")}`;
   const rand = Math.floor(1000 + Math.random() * 9000);
-  return `BM-OUT-${ymd}-${rand}`;
+  return `BM-${ymd}-${rand}`;
 }
 function uid() {
   return "l" + Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
@@ -35,7 +36,7 @@ const state = {
   config: {},
   cart: [],
   quotation: { preparedFor: "", preparedBy: "", number: genQuoteNumber(), date: todayIso() },
-  view: "collection",
+  view: "shop",
 };
 
 // ---------------- Theme ----------------
@@ -64,6 +65,19 @@ function updateThemeIcons() {
   document.getElementById("themeIconMoon").hidden = !isDark;
 }
 
+// ---------------- Toast ----------------
+let toastTimer = null;
+function showToast(msg) {
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.hidden = false;
+  el.classList.remove("show");
+  void el.offsetWidth;
+  el.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.hidden = true; el.classList.remove("show"); }, 2450);
+}
+
 // ---------------- Category counts / filtering ----------------
 function categoryCounts() {
   const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0, tables: 0, casegoods: 0, beds: 0, lighting: 0, mirrors: 0 };
@@ -89,36 +103,37 @@ function filteredProducts() {
 
 function displayPriceForProduct(product) {
   if (product.fabric) {
-    const centavos = usdToPhpCentavos(product.fabric.g1);
-    const beforeVat = centavos;
-    const withVat = Math.round(beforeVat * (1 + VAT_RATE));
-    return { price: formatPHP(withVat), label: "Fabric Grade 1, incl. VAT" };
+    const firstAvailable = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].find((g) => product.fabric["g" + g] != null);
+    if (firstAvailable != null) {
+      const withVat = Math.round(usdToPhpCentavos(product.fabric["g" + firstAvailable]) * (1 + VAT_RATE));
+      return { price: formatPHP(withVat), label: `Grade ${firstAvailable}` };
+    }
   }
   const centavos = usdToPhpCentavos(product.basePrice);
   const withVat = Math.round(centavos * (1 + VAT_RATE));
-  return { price: formatPHP(withVat), label: "Standard specification, incl. VAT" };
+  return { price: formatPHP(withVat), label: "Standard" };
 }
 
-// ---------------- Rendering: controls ----------------
-function renderControls() {
+// ---------------- Rendering: browse controls ----------------
+function renderCatTabs() {
   const counts = categoryCounts();
-  const chipsEl = document.getElementById("filterChips");
-  chipsEl.innerHTML = Object.keys(CATEGORY_LABELS)
-    .map((key) => `<button class="chip ${state.category === key ? "active" : ""}" data-cat="${key}" type="button">${CATEGORY_LABELS[key]} (${counts[key]})</button>`)
+  const el = document.getElementById("catTabs");
+  el.innerHTML = Object.keys(CATEGORY_LABELS)
+    .map((key) => `<button type="button" class="cat-tab" data-cat="${key}" aria-pressed="${state.category === key}">${CATEGORY_LABELS[key]} (${counts[key]})</button>`)
     .join("");
-  chipsEl.querySelectorAll(".chip").forEach((btn) => {
-    btn.addEventListener("click", () => { state.category = btn.dataset.cat; renderAll(); });
+  el.querySelectorAll(".cat-tab").forEach((btn) => {
+    btn.addEventListener("click", () => { state.category = btn.dataset.cat; renderProductList(); renderCatTabs(); });
   });
 
   const designerSelect = document.getElementById("designerSelect");
   const designers = designerList();
   designerSelect.innerHTML = `<option value="all">All designers &amp; collections</option>` + designers.map((d) => `<option value="${escapeHtml(d)}" ${state.designer === d ? "selected" : ""}>${escapeHtml(d)}</option>`).join("");
-  designerSelect.onchange = () => { state.designer = designerSelect.value; renderAll(); };
+  designerSelect.onchange = () => { state.designer = designerSelect.value; renderProductList(); };
 
-  document.getElementById("collectionMeta").textContent = `${state.products.length} products · Source price list updated ${SOURCE_DATE}`;
+  document.getElementById("itemCount").textContent = `${state.products.length} pieces · Source updated ${SOURCE_DATE}`;
 }
 
-// ---------------- Rendering: product list ----------------
+// ---------------- Rendering: model list + detail ----------------
 function renderProductList() {
   const list = filteredProducts();
   const el = document.getElementById("productList");
@@ -129,19 +144,36 @@ function renderProductList() {
   el.innerHTML = list.map((p) => {
     const { price, label } = displayPriceForProduct(p);
     return `
-      <div class="product-card ${state.selectedSku === p.sku ? "selected" : ""}" data-sku="${p.sku}">
-        <div class="pc-top">
-          <span class="pc-sku">${p.sku}</span>
-          ${p.limited ? '<span class="pc-limited">Limited</span>' : ""}
-        </div>
-        <div class="pc-name">${escapeHtml(p.name)}</div>
-        <div class="pc-designer">${escapeHtml(p.collection)}</div>
-        <div class="pc-price">${price}<span class="pc-price-label">${label}</span></div>
-      </div>`;
+      <button type="button" class="model-row" role="option" aria-pressed="${state.selectedSku === p.sku}" data-sku="${p.sku}">
+        <span>
+          <span class="mname">${escapeHtml(p.name)}${p.limited ? " · Limited" : ""}</span><br/>
+          <span class="msku">${p.sku}</span> &middot; <span class="mdesigner">${escapeHtml(p.collection)}</span>
+        </span>
+        <span class="mfrom">${price}<span class="mfrom-label">from, ${label}, incl. VAT</span></span>
+      </button>`;
   }).join("");
-  el.querySelectorAll(".product-card").forEach((card) => {
-    card.addEventListener("click", () => selectProduct(card.dataset.sku));
+  el.querySelectorAll(".model-row").forEach((row) => {
+    row.addEventListener("click", () => selectProduct(row.dataset.sku));
   });
+}
+
+function renderProductDetail() {
+  const el = document.getElementById("productDetail");
+  const product = currentProduct();
+  if (!product) { el.innerHTML = ""; return; }
+  const d = product.dims;
+  const dimEntries = [
+    ["Width", d.width], ["Depth", d.depth], ["Height", d.height], ["Width inside", d.widthInside],
+    ["Seat height", d.seatHeight], ["Seat depth", d.seatDepth], ["Arm width", d.armWidth], ["Arm height", d.armHeight],
+    ["Exposed leg", d.exposedLegHeight], ["Volume", d.volume ? d.volume + " ft³" : null],
+    ["Weight", d.weight ? d.weight + " lb" : null], ["Fabric req.", d.fabricReq ? d.fabricReq + " yd" : null],
+    ["Leather req.", d.leatherReq ? d.leatherReq + " ft²" : null],
+  ].filter(([, v]) => v != null && v !== "");
+  el.innerHTML = `
+    <h2>${escapeHtml(product.name)}</h2>
+    <div class="sku">${product.sku} &middot; ${escapeHtml(product.collection)}</div>
+    <ul>${product.specs.map((s) => `<li>${escapeHtml(s)}</li>`).join("")}</ul>
+    <div class="dims-grid">${dimEntries.map(([l, v]) => `<div class="dim"><span class="dl">${l}</span><span class="dv">${typeof v === "number" ? v + '"' : v}</span></div>`).join("")}</div>`;
 }
 
 // ---------------- Configurator ----------------
@@ -149,7 +181,10 @@ function defaultConfigForProduct(product) {
   const coverings = availableCoverings(product);
   const type = coverings[0];
   const cfg = { coveringType: type, fabricGrade: 1, fabricGradeCustom: 16, leatherGrade: null, comCustomPricePhp: null, fabricRef: "", quantity: 1, finishKey: "standard" };
-  if (type === "fabric") cfg.fabricGrade = 1;
+  if (type === "fabric") {
+    const firstAvailable = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].find((g) => product.fabric["g" + g] != null);
+    cfg.fabricGrade = firstAvailable || 1;
+  }
   if (type === "leather") {
     const grades = Object.keys(product.leather.grades).filter((g) => product.leather.grades[g] != null);
     cfg.leatherGrade = grades[0] || null;
@@ -162,266 +197,220 @@ function selectProduct(sku) {
   const product = state.products.find((p) => p.sku === sku);
   state.config = defaultConfigForProduct(product);
   renderProductList();
-  renderConfigurator();
-  // scroll configurator into view on mobile
-  if (window.innerWidth <= 900) {
-    document.getElementById("configurator").scrollIntoView({ behavior: "smooth", block: "start" });
-  }
+  renderProductDetail();
+  document.getElementById("coveringPanel").hidden = false;
+  document.getElementById("finishPanel").hidden = false;
+  document.getElementById("scheduleWrap").hidden = false;
+  renderCoveringPanel();
+  renderFinishPanel();
+  renderSchedulePanel();
+  renderSummary();
 }
 
 function currentProduct() {
   return state.products.find((p) => p.sku === state.selectedSku) || null;
 }
 
-function renderConfigurator() {
-  const el = document.getElementById("configurator");
+// ---- Covering panel ----
+function renderCoveringPanel() {
   const product = currentProduct();
-  if (!product) {
-    el.innerHTML = `<div class="panel config-placeholder"><div class="ph-title">Select a piece</div><p>Choose a product above to configure its covering, view pricing, and add it to your quotation.</p></div>`;
-    return;
-  }
-  const coverings = availableCoverings(product);
   const cfg = state.config;
+  const coverings = availableCoverings(product);
 
-  const tabsHtml = coverings.map((c) => {
-    const labels = { fabric: "Fabric", leather: "Leather", com: "COM / COL", standard: "Standard specification" };
-    return `<button type="button" class="covering-tab ${cfg.coveringType === c ? "active" : ""}" data-covering="${c}">${labels[c]}</button>`;
-  }).join("");
+  const seg = document.getElementById("coveringSeg");
+  seg.innerHTML = coverings.map((c) => `<button type="button" data-cover="${c}" aria-pressed="${cfg.coveringType === c}">${COVERING_LABELS[c]}</button>`).join("");
+  seg.querySelectorAll("button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.config.coveringType = btn.dataset.cover;
+      if (state.config.coveringType === "leather" && !state.config.leatherGrade) {
+        const grades = Object.keys(product.leather.grades || {}).filter((g) => product.leather.grades[g] != null);
+        state.config.leatherGrade = grades[0] || null;
+      }
+      renderCoveringPanel();
+      renderSummary();
+    });
+  });
 
-  let coveringBodyHtml = "";
+  const body = document.getElementById("coveringBody");
   if (cfg.coveringType === "fabric") {
-    const gradeBtns = Array.from({ length: 15 }, (_, i) => i + 1).map((g) => {
+    const gradeChips = Array.from({ length: 15 }, (_, i) => i + 1).map((g) => {
       const usd = product.fabric["g" + g];
-      const price = formatPHP(Math.round(usdToPhpCentavos(usd) * (1 + VAT_RATE)));
-      return `<button type="button" class="grade-btn ${cfg.fabricGrade === g ? "active" : ""}" data-grade="${g}">${g}<span class="grade-price">${price}</span></button>`;
+      const price = usd != null ? formatPHP(Math.round(usdToPhpCentavos(usd) * (1 + VAT_RATE))) : null;
+      return `<button type="button" class="grade-chip" data-grade="${g}" aria-pressed="${cfg.fabricGrade === g}" ${usd == null ? "disabled" : ""}>${g}${price ? `<span class="gc-price">${price}</span>` : ""}</button>`;
     }).join("");
     const g16ok = grade16PlusAvailable(product);
-    coveringBodyHtml = `
-      <div class="grade-grid">${gradeBtns}</div>
-      ${g16ok ? `
-      <button type="button" class="grade-btn ${cfg.fabricGrade === "g16plus" ? "active" : ""}" id="grade16Btn" style="width:100%;text-align:left;padding:10px 12px;margin-bottom:10px;">Grade 16 and above</button>
+    body.innerHTML = `
+      <div class="grade-grid">${gradeChips}${g16ok ? `<button type="button" class="grade-chip" id="grade16Btn" aria-pressed="${cfg.fabricGrade === "g16plus"}">16+</button>` : ""}</div>
       ${cfg.fabricGrade === "g16plus" ? `
       <div class="field-row">
         <label for="customGradeInput">Fabric grade (whole number, 16 or higher)</label>
-        <input type="number" min="16" step="1" class="number-input" id="customGradeInput" value="${cfg.fabricGradeCustom}" />
-        <p class="helper-text">Grade price = Base price + (grade &times; grade riser), converted to pesos.</p>
-      </div>` : ""}` : ""}
+        <input type="number" min="16" step="1" id="customGradeInput" value="${cfg.fabricGradeCustom}" style="width:90px;" />
+        <span class="helper-text">Grade price = Base price + (grade &times; grade riser), converted to pesos.</span>
+      </div>` : ""}
       <div class="field-row">
         <label for="fabricRefInput">Fabric reference (optional)</label>
-        <input type="text" class="text-input" id="fabricRefInput" placeholder="e.g. supplier / pattern name" value="${escapeHtml(cfg.fabricRef)}" />
+        <input type="text" id="fabricRefInput" placeholder="e.g. supplier / pattern name" value="${escapeHtml(cfg.fabricRef)}" style="flex:1;min-width:180px;" />
       </div>`;
+    body.querySelectorAll(".grade-chip[data-grade]").forEach((btn) => {
+      btn.addEventListener("click", () => { state.config.fabricGrade = Number(btn.dataset.grade); renderCoveringPanel(); renderSummary(); });
+    });
+    const g16Btn = document.getElementById("grade16Btn");
+    if (g16Btn) g16Btn.addEventListener("click", () => { state.config.fabricGrade = "g16plus"; renderCoveringPanel(); renderSummary(); });
+    const customGradeInput = document.getElementById("customGradeInput");
+    if (customGradeInput) customGradeInput.addEventListener("input", () => { state.config.fabricGradeCustom = customGradeInput.value; renderSummary(); });
+    const fabricRefInput = document.getElementById("fabricRefInput");
+    if (fabricRefInput) fabricRefInput.addEventListener("input", () => { state.config.fabricRef = fabricRefInput.value; });
   } else if (cfg.coveringType === "leather") {
     const grades = ["A", "B", "C", "D"].filter((g) => product.leather.grades && product.leather.grades[g] != null);
-    const gradeBtns = grades.map((g) => {
+    const chips = grades.map((g) => {
       const price = formatPHP(Math.round(usdToPhpCentavos(product.leather.grades[g]) * (1 + VAT_RATE)));
-      return `<button type="button" class="grade-btn" style="min-width:90px;flex:0 0 auto;" data-leather="${g}">Grade ${g}<span class="grade-price">${price}</span></button>`;
+      return `<button type="button" class="grade-chip" style="min-width:84px;" data-leather="${g}" aria-pressed="${cfg.leatherGrade === g}">Grade ${g}<span class="gc-price">${price}</span></button>`;
     }).join("");
-    coveringBodyHtml = `
-      <div class="grade-grid" style="grid-template-columns:repeat(auto-fill,minmax(90px,1fr));">${gradeBtns}</div>
+    body.innerHTML = `
+      <div class="grade-grid">${chips}</div>
       <div class="field-row">
         <label for="leatherRefInput">Leather reference (optional)</label>
-        <input type="text" class="text-input" id="leatherRefInput" placeholder="e.g. supplier / hide name" value="${escapeHtml(cfg.fabricRef)}" />
+        <input type="text" id="leatherRefInput" placeholder="e.g. supplier / hide name" value="${escapeHtml(cfg.fabricRef)}" style="flex:1;min-width:180px;" />
       </div>`;
-    // re-mark active after render (need product context in closure below)
+    body.querySelectorAll(".grade-chip[data-leather]").forEach((btn) => {
+      btn.addEventListener("click", () => { state.config.leatherGrade = btn.dataset.leather; renderCoveringPanel(); renderSummary(); });
+    });
+    const leatherRefInput = document.getElementById("leatherRefInput");
+    if (leatherRefInput) leatherRefInput.addEventListener("input", () => { state.config.fabricRef = leatherRefInput.value; });
   } else if (cfg.coveringType === "com") {
     const listedUsd = product.fabric.comCol;
-    const listedPhp = formatPHP(Math.round(usdToPhpCentavos(listedUsd) * (1 + VAT_RATE)));
-    const useCustom = cfg.comCustomPricePhp != null;
-    coveringBodyHtml = `
-      <div class="radio-row"><label><input type="radio" name="comMode" value="listed" ${!useCustom ? "checked" : ""}> Use listed COM/COL price (${listedPhp} incl. VAT)</label></div>
-      <div class="radio-row"><label><input type="radio" name="comMode" value="custom" ${useCustom ? "checked" : ""}> Enter custom whole-piece price</label></div>
+    const listedAvailable = listedUsd != null;
+    const listedPhp = listedAvailable ? formatPHP(Math.round(usdToPhpCentavos(listedUsd) * (1 + VAT_RATE))) : null;
+    const useCustom = cfg.comCustomPricePhp != null || !listedAvailable;
+    body.innerHTML = `
+      ${listedAvailable ? `<div class="radio-row"><label><input type="radio" name="comMode" value="listed" ${!useCustom ? "checked" : ""}> Use listed COM/COL price (${listedPhp} incl. VAT)</label></div>` : `<p class="helper-text">No listed COM/COL price for this model &mdash; enter a custom price below.</p>`}
+      <div class="radio-row"><label><input type="radio" name="comMode" value="custom" ${useCustom ? "checked" : ""} ${listedAvailable ? "" : "disabled checked"}> Enter custom whole-piece price</label></div>
       ${useCustom ? `
       <div class="field-row">
         <label for="customComInput">Custom price, in pesos, before VAT</label>
-        <input type="number" min="0" step="0.01" class="number-input" id="customComInput" value="${cfg.comCustomPricePhp ?? ""}" placeholder="0.00" />
-        <p class="helper-text">This replaces the listed COM/COL price &mdash; it is not an additional charge.</p>
+        <input type="number" min="0" step="0.01" id="customComInput" value="${cfg.comCustomPricePhp ?? ""}" placeholder="0.00" style="width:140px;" />
+        <span class="helper-text">This replaces the listed COM/COL price &mdash; it is not an additional charge.</span>
       </div>` : ""}
       <div class="field-row">
         <label for="fabricRefInput">Material reference (optional)</label>
-        <input type="text" class="text-input" id="fabricRefInput" placeholder="e.g. customer-supplied fabric name" value="${escapeHtml(cfg.fabricRef)}" />
+        <input type="text" id="fabricRefInput" placeholder="e.g. customer-supplied fabric name" value="${escapeHtml(cfg.fabricRef)}" style="flex:1;min-width:180px;" />
       </div>`;
+    body.querySelectorAll('input[name="comMode"]').forEach((radio) => {
+      radio.addEventListener("change", () => {
+        state.config.comCustomPricePhp = radio.value === "custom" ? (state.config.comCustomPricePhp ?? "") : null;
+        renderCoveringPanel();
+        renderSummary();
+      });
+    });
+    const customComInput = document.getElementById("customComInput");
+    if (customComInput) customComInput.addEventListener("input", () => { state.config.comCustomPricePhp = customComInput.value; renderSummary(); });
+    const fabricRefInput = document.getElementById("fabricRefInput");
+    if (fabricRefInput) fabricRefInput.addEventListener("input", () => { state.config.fabricRef = fabricRefInput.value; });
   } else {
-    coveringBodyHtml = `<div class="finish-box"><span class="ff-name">Standard specification</span><p class="ff-note">This model is priced as a complete standard piece &mdash; no fabric, leather, or COM/COL selection applies.</p></div>`;
+    body.innerHTML = `<p class="finish-note">This model is priced as a complete standard piece &mdash; no fabric, leather, or COM/COL selection applies.</p>`;
   }
+}
 
+// ---- Finish panel ----
+function renderFinishPanel() {
+  const product = currentProduct();
+  const cfg = state.config;
   const finishName = product.standardFinish || product.frameMaterial || "Standard";
   const finishOptions = availableFinishOptions(product);
-  let finishHtml;
+  const grid = document.getElementById("tierGrid");
+
+  const standardBtn = `<button type="button" class="tier-btn" data-finish="standard" aria-pressed="${cfg.finishKey === "standard"}"><span class="tn">${escapeHtml(finishName)}</span><span class="tp">included</span></button>`;
+  const optionBtns = finishOptions.map((o) => {
+    const surchargePhp = formatPHP(Math.round(usdToPhpCentavos(o.usd) * (1 + VAT_RATE)));
+    return `<button type="button" class="tier-btn" data-finish="${o.key}" aria-pressed="${cfg.finishKey === o.key}"><span class="tn">${escapeHtml(o.label)}</span><span class="tp">${o.usd === 0 ? "included" : "+" + surchargePhp}</span></button>`;
+  }).join("");
+  grid.innerHTML = standardBtn + optionBtns;
   if (finishOptions.length === 0) {
-    finishHtml = `
-      <div class="finish-box">
-        <span class="ff-name">${escapeHtml(finishName)}</span>
-        <p class="ff-note">Standard finish is included. No additional finish tiers are listed for this model in the source price list.</p>
-      </div>`;
-  } else {
-    const standardPriceRow = `<label class="radio-row"><input type="radio" name="finishKey" value="standard" ${cfg.finishKey === "standard" ? "checked" : ""}> ${escapeHtml(finishName)} <span class="helper-text">&mdash; included</span></label>`;
-    const optionRows = finishOptions.map((o) => {
-      const surchargePhp = formatPHP(Math.round(usdToPhpCentavos(o.usd) * (1 + VAT_RATE)));
-      const label = o.usd === 0 ? "included" : `+${surchargePhp} incl. VAT`;
-      return `<label class="radio-row"><input type="radio" name="finishKey" value="${o.key}" ${cfg.finishKey === o.key ? "checked" : ""}> ${escapeHtml(o.label)} <span class="helper-text">&mdash; ${label}</span></label>`;
-    }).join("");
-    finishHtml = `<div class="finish-box">${standardPriceRow}${optionRows}</div>`;
+    grid.insertAdjacentHTML("beforeend", `<span class="helper-text">No additional finish tiers are listed for this model in the source price list.</span>`);
   }
+  grid.querySelectorAll(".tier-btn").forEach((btn) => {
+    btn.addEventListener("click", () => { state.config.finishKey = btn.dataset.finish; renderFinishPanel(); renderSummary(); });
+  });
+}
 
-  const breakdown = computeUnitBreakdown(product, cfg);
-  const qty = cfg.quantity || 1;
-
-  let summaryHtml = "";
-  if (breakdown.ok) {
-    const lineTotal = computeLineTotal(breakdown.unitInclVatCentavos, qty);
-    summaryHtml = `
-      <div class="summary-box">
-        <div class="summary-row"><span>${escapeHtml(breakdown.coveringLabel)}</span><span>${formatPHP(breakdown.coveringCentavos)}</span></div>
-        <div class="summary-row"><span>Finish surcharge${breakdown.finishSurchargeCentavos > 0 ? " (" + escapeHtml(breakdown.finishLabel) + ")" : ""}</span><span>${breakdown.finishSurchargeCentavos > 0 ? formatPHP(breakdown.finishSurchargeCentavos) : "Included"}</span></div>
-        <div class="summary-row"><span>VAT (12%)</span><span>${formatPHP(breakdown.vatCentavos)}</span></div>
-        <div class="summary-row total"><span>Unit price, incl. VAT</span><span>${formatPHP(breakdown.unitInclVatCentavos)}</span></div>
-        <div class="qty-row">
-          <label for="qtyInput">Quantity</label>
-          <div class="qty-control">
-            <button type="button" id="qtyMinus">&minus;</button>
-            <input type="number" id="qtyInput" min="1" step="1" value="${qty}" />
-            <button type="button" id="qtyPlus">+</button>
-          </div>
-        </div>
-        <div class="summary-row total"><span>Total for quantity</span><span>${formatPHP(lineTotal)}</span></div>
-        <button class="btn btn-gold" id="addToQuoteBtn" type="button" style="margin-top:14px;">Add to quotation</button>
-      </div>`;
-  } else {
-    summaryHtml = `<div class="summary-box"><p class="error-text">${escapeHtml(breakdown.error)}</p><button class="btn" id="addToQuoteBtn" type="button" disabled style="margin-top:10px;">Add to quotation</button></div>`;
-  }
-
+// ---- Price schedule ----
+function renderSchedulePanel() {
+  const product = currentProduct();
+  const scheduleCell = (usd) => (usd == null ? "Not available" : formatPHP(usdToPhpCentavos(usd)));
   const scheduleRows = product.fabric
-    ? [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].map((g) => `<tr><td>Grade ${g}</td><td>${formatPHP(usdToPhpCentavos(product.fabric["g" + g]))}</td></tr>`).join("") +
-      `<tr><td>COM/COL</td><td>${formatPHP(usdToPhpCentavos(product.fabric.comCol))}</td></tr>`
-    : `<tr><td>Base price</td><td>${formatPHP(usdToPhpCentavos(product.basePrice))}</td></tr>`;
+    ? [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].map((g) => `<tr><td>Grade ${g}</td><td>${scheduleCell(product.fabric["g" + g])}</td></tr>`).join("") +
+      `<tr><td>COM/COL</td><td>${scheduleCell(product.fabric.comCol)}</td></tr>`
+    : `<tr><td>Base price</td><td>${scheduleCell(product.basePrice)}</td></tr>`;
   const leatherRows = product.leather && product.leather.grades
     ? Object.entries(product.leather.grades).filter(([, v]) => v != null).map(([g, usd]) => `<tr><td>Leather Grade ${g}</td><td>${formatPHP(usdToPhpCentavos(usd))}</td></tr>`).join("")
     : "";
   const riserRow = product.leather && product.leather.riser != null ? `<tr><td>Grade riser (grade 16+)</td><td>${formatPHP(usdToPhpCentavos(product.leather.riser))}</td></tr>` : "";
   const finishRows = availableFinishOptions(product).map((o) => `<tr><td>${escapeHtml(o.label)} surcharge</td><td>${formatPHP(usdToPhpCentavos(o.usd))}</td></tr>`).join("");
-
-  const d = product.dims;
-  const dimsRows = [
-    ["Width", d.width], ["Depth", d.depth], ["Height", d.height], ["Width inside", d.widthInside],
-    ["Seat height", d.seatHeight], ["Seat depth", d.seatDepth], ["Arm width", d.armWidth], ["Arm height", d.armHeight],
-    ["Exposed leg height", d.exposedLegHeight], ["Volume", d.volume ? d.volume + " ft³" : null],
-    ["Weight", d.weight ? d.weight + " lb" : null], ["Fabric requirement", d.fabricReq ? d.fabricReq + " yd" : null],
-    ["Leather requirement", d.leatherReq ? d.leatherReq + " ft²" : null],
-  ].filter(([, v]) => v != null && v !== "").map(([k, v]) => `<div><span>${k}</span><span>${typeof v === "number" ? v + '"' : v}</span></div>`).join("");
-
-  el.innerHTML = `
-    <div class="configure-grid">
-      <div class="panel config-main">
-        <p class="section-label"><span class="section-badge">2</span> Configure</p>
-        <div class="cf-header">
-          <p class="cf-kicker">${escapeHtml(product.collection)}${product.limited ? " · Limited" : ""}</p>
-          <h2 class="cf-title">${escapeHtml(product.name)}</h2>
-          <p class="cf-sub">SKU ${product.sku}</p>
-          <p class="cf-dims">${dimsSummary(d) || ""}</p>
-        </div>
-
-        <p class="section-label">Covering</p>
-        <div class="covering-tabs">${tabsHtml}</div>
-        <div id="coveringBody">${coveringBodyHtml}</div>
-
-        <p class="section-label">Frame Finish</p>
-        ${finishHtml}
-
-        <details class="expand">
-          <summary>Frame details &amp; dimensions</summary>
-          <div class="expand-body">
-            <p style="margin-top:0;">${product.specs.map((s) => escapeHtml(s)).join("<br/>")}</p>
-            <div class="dims-grid">${dimsRows}</div>
-          </div>
-        </details>
-
-        <details class="expand">
-          <summary>Complete price schedule (before VAT)</summary>
-          <div class="expand-body schedule-table-wrap">
-            <table class="schedule-table">
-              <thead><tr><th>Covering</th><th>Price</th></tr></thead>
-              <tbody>${scheduleRows}${leatherRows}${riserRow}${finishRows}</tbody>
-            </table>
-          </div>
-        </details>
-      </div>
-
-      <div class="panel config-summary">
-        <p class="section-label"><span class="section-badge">3</span> Summary</p>
-        ${summaryHtml}
-      </div>
-    </div>
-  `;
-
-  bindConfiguratorEvents(product);
+  document.getElementById("scheduleBody").innerHTML = `
+    <table class="schedule-table">
+      <thead><tr><th>Covering</th><th>Price</th></tr></thead>
+      <tbody>${scheduleRows}${leatherRows}${riserRow}${finishRows}</tbody>
+    </table>`;
 }
 
-function bindConfiguratorEvents(product) {
-  const el = document.getElementById("configurator");
-  el.querySelectorAll(".covering-tab").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      state.config.coveringType = btn.dataset.covering;
-      if (state.config.coveringType === "leather" && !state.config.leatherGrade) {
-        const grades = Object.keys(product.leather.grades || {}).filter((g) => product.leather.grades[g] != null);
-        state.config.leatherGrade = grades[0] || null;
-      }
-      renderConfigurator();
-    });
+// ---- Summary panel ----
+function renderSummary() {
+  const product = currentProduct();
+  document.getElementById("summaryEmpty").hidden = !!product;
+  document.getElementById("summaryFull").hidden = !product;
+  if (!product) return;
+
+  document.getElementById("sumModel").textContent = product.name;
+  document.getElementById("sumSku").textContent = `${product.sku} · ${product.collection}`;
+  const tag = document.getElementById("sumTag");
+  if (product.limited) { tag.hidden = false; tag.textContent = "Limited"; } else { tag.hidden = true; }
+
+  const cfg = state.config;
+  const breakdown = computeUnitBreakdown(product, cfg);
+  const errorEl = document.getElementById("summaryError");
+  const addBtn = document.getElementById("addToCartBtn");
+  const qtyRow = document.getElementById("qtyRow");
+
+  if (!breakdown.ok) {
+    document.getElementById("lineItems").innerHTML = "";
+    qtyRow.hidden = true;
+    document.getElementById("totalPhp").textContent = "—";
+    document.getElementById("vatPhp").textContent = "—";
+    document.getElementById("totalPhpVat").textContent = "—";
+    errorEl.hidden = false;
+    errorEl.textContent = breakdown.error;
+    addBtn.disabled = true;
+    return;
+  }
+  errorEl.hidden = true;
+  addBtn.disabled = false;
+  qtyRow.hidden = false;
+
+  const qty = cfg.quantity || 1;
+  document.getElementById("qtyDisplay").textContent = qty;
+
+  const lines = [
+    { label: breakdown.coveringLabel, value: breakdown.coveringCentavos },
+    { label: breakdown.finishSurchargeCentavos > 0 ? `Finish — ${breakdown.finishLabel}` : "Frame finish", value: breakdown.finishSurchargeCentavos, muted: breakdown.finishSurchargeCentavos === 0 },
+  ];
+  document.getElementById("lineItems").innerHTML = lines.map((l) =>
+    `<div class="line-item${l.muted ? " muted" : ""}"><span class="li-label">${escapeHtml(l.label)}</span><span class="li-val">${l.muted ? "Included" : formatPHP(l.value)}</span></div>`
+  ).join("");
+
+  document.getElementById("totalPhp").textContent = formatPHP(breakdown.subtotalCentavos * qty);
+  document.getElementById("vatPhp").textContent = formatPHP(breakdown.vatCentavos * qty);
+  document.getElementById("totalPhpVat").textContent = formatPHP(breakdown.unitInclVatCentavos * qty);
+}
+
+function bindQtyStepper() {
+  document.getElementById("qtyMinus").addEventListener("click", () => {
+    state.config.quantity = Math.max(1, (state.config.quantity || 1) - 1);
+    renderSummary();
   });
-
-  if (state.config.coveringType === "fabric") {
-    el.querySelectorAll(".grade-btn[data-grade]").forEach((btn) => {
-      btn.addEventListener("click", () => { state.config.fabricGrade = Number(btn.dataset.grade); renderConfigurator(); });
-    });
-    const g16Btn = document.getElementById("grade16Btn");
-    if (g16Btn) g16Btn.addEventListener("click", () => { state.config.fabricGrade = "g16plus"; renderConfigurator(); });
-    const customGradeInput = document.getElementById("customGradeInput");
-    if (customGradeInput) customGradeInput.addEventListener("input", () => { state.config.fabricGradeCustom = customGradeInput.value; renderConfigurator(); });
-    const fabricRefInput = document.getElementById("fabricRefInput");
-    if (fabricRefInput) fabricRefInput.addEventListener("input", () => { state.config.fabricRef = fabricRefInput.value; });
-  }
-
-  if (state.config.coveringType === "leather") {
-    el.querySelectorAll(".grade-btn[data-leather]").forEach((btn) => {
-      if (btn.dataset.leather === state.config.leatherGrade) btn.classList.add("active");
-      btn.addEventListener("click", () => { state.config.leatherGrade = btn.dataset.leather; renderConfigurator(); });
-    });
-    const leatherRefInput = document.getElementById("leatherRefInput");
-    if (leatherRefInput) leatherRefInput.addEventListener("input", () => { state.config.fabricRef = leatherRefInput.value; });
-  }
-
-  if (state.config.coveringType === "com") {
-    el.querySelectorAll('input[name="comMode"]').forEach((radio) => {
-      radio.addEventListener("change", () => {
-        state.config.comCustomPricePhp = radio.value === "custom" ? (state.config.comCustomPricePhp ?? "") : null;
-        renderConfigurator();
-      });
-    });
-    const customComInput = document.getElementById("customComInput");
-    if (customComInput) customComInput.addEventListener("input", () => { state.config.comCustomPricePhp = customComInput.value; renderConfigurator(); });
-    const fabricRefInput = document.getElementById("fabricRefInput");
-    if (fabricRefInput) fabricRefInput.addEventListener("input", () => { state.config.fabricRef = fabricRefInput.value; });
-  }
-
-  el.querySelectorAll('input[name="finishKey"]').forEach((radio) => {
-    radio.addEventListener("change", () => { state.config.finishKey = radio.value; renderConfigurator(); });
+  document.getElementById("qtyPlus").addEventListener("click", () => {
+    state.config.quantity = (state.config.quantity || 1) + 1;
+    renderSummary();
   });
-
-  const qtyInput = document.getElementById("qtyInput");
-  if (qtyInput) {
-    qtyInput.addEventListener("change", () => {
-      const v = Math.max(1, Math.floor(Number(qtyInput.value) || 1));
-      state.config.quantity = v;
-      renderConfigurator();
-    });
-  }
-  const qtyMinus = document.getElementById("qtyMinus");
-  const qtyPlus = document.getElementById("qtyPlus");
-  if (qtyMinus) qtyMinus.addEventListener("click", () => { state.config.quantity = Math.max(1, (state.config.quantity || 1) - 1); renderConfigurator(); });
-  if (qtyPlus) qtyPlus.addEventListener("click", () => { state.config.quantity = (state.config.quantity || 1) + 1; renderConfigurator(); });
-
-  const addBtn = document.getElementById("addToQuoteBtn");
-  if (addBtn && !addBtn.disabled) addBtn.addEventListener("click", () => addToQuotation(product));
 }
 
 // ---------------- Cart / Quotation ----------------
@@ -429,7 +418,9 @@ function configSignature(sku, cfg, breakdown) {
   return [sku, cfg.coveringType, cfg.fabricGrade, cfg.fabricGradeCustom, cfg.leatherGrade, cfg.comCustomPricePhp, (cfg.fabricRef || "").trim().toLowerCase(), breakdown.coveringCentavos, cfg.finishKey || "standard"].join("|");
 }
 
-function addToQuotation(product) {
+function addToQuotation() {
+  const product = currentProduct();
+  if (!product) return;
   const cfg = state.config;
   const breakdown = computeUnitBreakdown(product, cfg);
   if (!breakdown.ok) return;
@@ -457,14 +448,7 @@ function addToQuotation(product) {
     });
   }
   renderCartBadge();
-  flashAdded();
-}
-function flashAdded() {
-  const btn = document.getElementById("addToQuoteBtn");
-  if (!btn) return;
-  const original = btn.textContent;
-  btn.textContent = "Added ✓";
-  setTimeout(() => { if (btn) btn.textContent = original; }, 1100);
+  showToast(`Added "${product.name}" to your quotation cart`);
 }
 function renderCartBadge() {
   const totalQty = state.cart.reduce((s, l) => s + l.quantity, 0);
@@ -480,68 +464,71 @@ function computeQuotationTotals() {
   return { subtotalCentavos, vatCentavos, grandTotalCentavos };
 }
 
-function renderQuotationView() {
+function renderCheckout() {
   document.getElementById("qPreparedFor").value = state.quotation.preparedFor;
   document.getElementById("qPreparedBy").value = state.quotation.preparedBy;
   document.getElementById("qNumber").value = state.quotation.number;
   document.getElementById("qDate").value = state.quotation.date;
 
-  const linesEl = document.getElementById("quoteLines");
-  const emptyEl = document.getElementById("quoteEmpty");
+  const listEl = document.getElementById("cartList");
+  const emptyEl = document.getElementById("cartEmpty");
+  const footerEl = document.getElementById("cartListFooter");
+  const downloadBtn = document.getElementById("downloadPdfBtn");
+
   if (state.cart.length === 0) {
-    linesEl.innerHTML = "";
+    listEl.innerHTML = "";
     emptyEl.hidden = false;
+    footerEl.hidden = true;
+    downloadBtn.disabled = true;
   } else {
     emptyEl.hidden = true;
-    linesEl.innerHTML = state.cart.map((l) => `
-      <div class="quote-line" data-id="${l.id}">
-        <div>
-          <div class="ql-sku">${l.sku}</div>
-          <h3 class="ql-name">${escapeHtml(l.name)}</h3>
-          <div class="ql-detail">
-            ${escapeHtml(l.collection)}<br/>
-            ${escapeHtml(l.coveringLabel)}${l.fabricRef ? " &mdash; " + escapeHtml(l.fabricRef) : ""}<br/>
-            Finish: ${escapeHtml(l.finishLabel)}<br/>
-            ${escapeHtml(l.dimsText)}
+    footerEl.hidden = false;
+    downloadBtn.disabled = false;
+
+    listEl.innerHTML = state.cart.map((l) => `
+      <div class="cart-item" data-id="${l.id}">
+        <div class="cart-item-top">
+          <div>
+            <div class="cart-item-name">${escapeHtml(l.name)}</div>
+            <div class="cart-item-sku">${l.sku} &middot; ${escapeHtml(l.collection)}</div>
           </div>
+          <button type="button" class="cart-item-remove" aria-label="Remove ${escapeHtml(l.name)}"><span>&#128465;</span> Remove</button>
         </div>
-        <div class="ql-right">
-          <div class="qty-control">
-            <button type="button" class="qMinus">&minus;</button>
-            <input type="number" class="qInput" min="1" step="1" value="${l.quantity}" />
-            <button type="button" class="qPlus">+</button>
+        <div class="cart-item-config">
+          ${escapeHtml(l.coveringLabel)}${l.fabricRef ? " &mdash; " + escapeHtml(l.fabricRef) : ""}<br/>
+          Finish: ${escapeHtml(l.finishLabel)}${l.dimsText ? " · " + escapeHtml(l.dimsText) : ""}
+        </div>
+        <div class="cart-item-bottom">
+          <div class="stepper">
+            <button type="button" class="qty-minus">&minus;</button>
+            <span>${l.quantity}</span>
+            <button type="button" class="qty-plus">+</button>
           </div>
-          <div class="ql-unit-price">${formatPHP(l.unitPriceBeforeVatCentavos)} / unit, excl. VAT</div>
-          <div class="ql-line-total">${formatPHP(l.unitPriceBeforeVatCentavos * l.quantity)}</div>
-          <button type="button" class="remove-btn">Remove</button>
+          <div class="cart-item-price">${formatPHP(l.unitPriceBeforeVatCentavos * l.quantity)} <span class="cart-item-unit">(${formatPHP(l.unitPriceBeforeVatCentavos)} ea., excl. VAT)</span></div>
         </div>
       </div>`).join("");
 
-    linesEl.querySelectorAll(".quote-line").forEach((row) => {
+    listEl.querySelectorAll(".cart-item").forEach((row) => {
       const id = row.dataset.id;
       const line = state.cart.find((l) => l.id === id);
-      row.querySelector(".remove-btn").addEventListener("click", () => {
+      row.querySelector(".cart-item-remove").addEventListener("click", () => {
         state.cart = state.cart.filter((l) => l.id !== id);
-        renderQuotationView();
         renderCartBadge();
+        renderCheckout();
+        showToast(`Removed "${line.name}" from the quotation cart`);
       });
-      const qInput = row.querySelector(".qInput");
-      qInput.addEventListener("change", () => {
-        const v = Math.max(1, Math.floor(Number(qInput.value) || 1));
-        line.quantity = v;
-        renderQuotationView();
-        renderCartBadge();
-      });
-      row.querySelector(".qMinus").addEventListener("click", () => { line.quantity = Math.max(1, line.quantity - 1); renderQuotationView(); renderCartBadge(); });
-      row.querySelector(".qPlus").addEventListener("click", () => { line.quantity += 1; renderQuotationView(); renderCartBadge(); });
+      row.querySelector(".qty-minus").addEventListener("click", () => { line.quantity = Math.max(1, line.quantity - 1); renderCheckout(); renderCartBadge(); });
+      row.querySelector(".qty-plus").addEventListener("click", () => { line.quantity += 1; renderCheckout(); renderCartBadge(); });
     });
   }
 
   const totals = computeQuotationTotals();
-  document.getElementById("quoteTotals").innerHTML = `
-    <div class="summary-row"><span>Subtotal (excl. VAT)</span><span>${formatPHP(totals.subtotalCentavos)}</span></div>
-    <div class="summary-row"><span>VAT (12%)</span><span>${formatPHP(totals.vatCentavos)}</span></div>
-    <div class="summary-row total"><span>Grand total (incl. VAT)</span><span>${formatPHP(totals.grandTotalCentavos)}</span></div>`;
+  document.getElementById("coLineItems").innerHTML = state.cart.length
+    ? state.cart.map((l) => `<div class="line-item"><span class="li-label">${escapeHtml(l.name)}${l.quantity > 1 ? " &times;" + l.quantity : ""}</span><span class="li-val">${formatPHP(l.unitPriceBeforeVatCentavos * l.quantity)}</span></div>`).join("")
+    : `<div class="line-item muted"><span class="li-label">No items yet</span><span class="li-val">₱0.00</span></div>`;
+  document.getElementById("coTotalPhp").textContent = formatPHP(totals.subtotalCentavos);
+  document.getElementById("coVatPhp").textContent = formatPHP(totals.vatCentavos);
+  document.getElementById("coTotalPhpVat").textContent = formatPHP(totals.grandTotalCentavos);
 }
 
 function bindQuotationFields() {
@@ -549,8 +536,17 @@ function bindQuotationFields() {
   document.getElementById("qPreparedBy").addEventListener("input", (e) => { state.quotation.preparedBy = e.target.value; });
   document.getElementById("qNumber").addEventListener("input", (e) => { state.quotation.number = e.target.value; });
   document.getElementById("qDate").addEventListener("change", (e) => { state.quotation.date = e.target.value; });
-  document.getElementById("continueBrowsing").addEventListener("click", () => switchView("collection"));
-  document.getElementById("downloadPdf").addEventListener("click", () => {
+  document.getElementById("emptyBackBtn").addEventListener("click", () => switchView("shop"));
+  document.getElementById("backToShopBtn").addEventListener("click", () => switchView("shop"));
+  document.getElementById("clearCartBtn").addEventListener("click", () => {
+    if (state.cart.length === 0) return;
+    if (confirm("Remove all items from the quotation cart?")) {
+      state.cart = [];
+      renderCartBadge();
+      renderCheckout();
+    }
+  });
+  document.getElementById("downloadPdfBtn").addEventListener("click", () => {
     if (state.cart.length === 0) { alert("Your quotation is empty. Add at least one piece before downloading."); return; }
     const totals = computeQuotationTotals();
     generateQuotationPdf(state.quotation, state.cart, totals);
@@ -560,30 +556,27 @@ function bindQuotationFields() {
 // ---------------- View switching ----------------
 function switchView(view) {
   state.view = view;
-  document.getElementById("viewCollection").hidden = view !== "collection";
-  document.getElementById("viewQuotation").hidden = view !== "quotation";
-  document.getElementById("navCollection").classList.toggle("active", view === "collection");
-  document.getElementById("navQuotation").classList.toggle("active", view === "quotation");
-  if (view === "quotation") renderQuotationView();
+  document.getElementById("shopView").hidden = view !== "shop";
+  document.getElementById("checkoutView").hidden = view !== "checkout";
+  if (view === "checkout") renderCheckout();
   window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
-}
-
-function renderAll() {
-  renderControls();
-  renderProductList();
 }
 
 // ---------------- Init ----------------
 function init() {
   initTheme();
   document.getElementById("themeToggle").addEventListener("click", toggleTheme);
-  document.getElementById("navCollection").addEventListener("click", () => switchView("collection"));
-  document.getElementById("navQuotation").addEventListener("click", () => switchView("quotation"));
-  document.getElementById("brandHome").addEventListener("click", () => switchView("collection"));
+  document.getElementById("cartBtn").addEventListener("click", () => switchView("checkout"));
+  document.getElementById("brandHome").addEventListener("click", () => switchView("shop"));
   document.getElementById("searchInput").addEventListener("input", (e) => { state.search = e.target.value; renderProductList(); });
-
+  document.getElementById("addToCartBtn").addEventListener("click", addToQuotation);
+  bindQtyStepper();
   bindQuotationFields();
-  renderAll();
+
+  renderCatTabs();
+  renderProductList();
+  renderSummary();
+
   window.addEventListener("beforeunload", (e) => {
     if (state.cart.length > 0) { e.preventDefault(); e.returnValue = ""; }
   });
