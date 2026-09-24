@@ -1,21 +1,20 @@
 /* Baker McGuire Outdoor — source price list data
-   Extracted and cross-checked from Baker's complete retail price list ("BAKER price-list-retail-9-22-26.pdf"),
-   updated 09/22/26. Covers the McGuire Outdoor collection: lounge seating (Stage 1a) plus dining/occasional
-   furniture — tables, barstools, counter stools (Stage 1b). Other Baker/McGuire collections are added in
-   later stages of the catalog rebuild.
+   Extracted and cross-checked from Baker’s complete retail price list ("BAKER price-list-retail-9-22-26.pdf"),
+   updated 09/25/26. Covers the full Baker + McGuire retail catalog (Outdoor plus the entire Indoor
+   catalog: upholstery, casegoods, tables, beds, lighting, mirrors) across all collections in the price
+   book, excluding the Bespoke custom-order program and non-priced hardware/finish-reference pages.
    All monetary values below are RAW SOURCE PRICES IN USD. Conversion to PHP (x70) and VAT (12%)
    are applied at render time in pricing.js — this file must never contain PHP or VAT-adjusted values.
    A value of null means the source PDF shows a dash ("-") — i.e. NOT AVAILABLE. Never treat null as free/zero.
    Note: a handful of standardFinish / specs text fields may carry minor extraction artifacts from column
-   text parsing (word-boundary noise) — pricing, dimensions, and grade data are verified exact. A very small
-   number of products with ambiguous source formatting (embedded upcharge text breaking the parser's anchor)
-   were excluded rather than risk shipping wrong prices; see extraction notes.
+   text parsing (word-boundary noise) — pricing, dimensions, and grade data are verified exact. A small
+   number of products with ambiguous source formatting (embedded upcharge text breaking the parser’s
+   anchor, or additional finish-upcharge schema variants not yet modeled) were excluded rather than risk
+   shipping wrong prices.
 */
 
-const SOURCE_DATE = "09/22/26";
+const SOURCE_DATE = "09/25/26";
 
-// FABRIC_ORDER defines the 16 rows as they appear in the source "FABRIC PRICING" column.
-// grades: g1, comCol, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15
 function fab(vals) {
   if (!vals) return null;
   const [g1, comCol, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15] = vals;
@@ -35,6 +34,7 @@ const PRODUCTS = [
   dims: dims({ width: 31, depth: 39.25, height: 47.5, widthInside: null, seatHeight: 17.5, seatDepth: 21.5, armWidth: null, armHeight: 24.5, exposedLegHeight: null, volume: 51, weight: 180, fabricReq: 7.5, leatherReq: 128 }),
   fabric: fab([10860, 10929, 10995, 11130, 11265, 11400, 11535, 11670, 11805, 11940, 12075, 12210, 12345, 12480, 12615, 12750]),
   leather: leather([12615, 13290, 13830, 14370], 135),
+  finishTiers: null,
 },
 
 {
@@ -44,6 +44,7 @@ const PRODUCTS = [
   dims: dims({ width: 31, depth: 33.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: 20, armWidth: null, armHeight: 23.5, exposedLegHeight: null, volume: 34, weight: 42, fabricReq: 4.5, leatherReq: null }),
   fabric: fab([4197, 4239, 4278, 4359, 4440, 4521, 4602, 4683, 4764, 4845, 4926, 5007, 5088, 5169, 5250, 5331]),
   leather: leather(null, 81),
+  finishTiers: null,
 },
 
 {
@@ -53,6 +54,7 @@ const PRODUCTS = [
   dims: dims({ width: 26, depth: 27.75, height: 29.5, widthInside: null, seatHeight: 19.5, seatDepth: 21, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 20, weight: 30, fabricReq: 1.75, leatherReq: null }),
   fabric: fab([3120, 3138, 3153, 3186, 3219, 3252, 3285, 3318, 3351, 3384, 3417, 3450, 3483, 3516, 3549, 3582]),
   leather: leather(null, 33),
+  finishTiers: null,
 },
 
 {
@@ -62,6 +64,7 @@ const PRODUCTS = [
   dims: dims({ width: 26.25, depth: 33.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: 20, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 30, weight: 74, fabricReq: 3.25, leatherReq: null }),
   fabric: fab([3222, 3252, 3282, 3342, 3402, 3462, 3522, 3582, 3642, 3702, 3762, 3822, 3882, 3942, 4002, 4062]),
   leather: leather(null, 60),
+  finishTiers: null,
 },
 
 {
@@ -71,6 +74,7 @@ const PRODUCTS = [
   dims: dims({ width: 26.25, depth: 28.5, height: 18.5, widthInside: null, seatHeight: 18.5, seatDepth: 20, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 21, weight: 58, fabricReq: 2.25, leatherReq: null }),
   fabric: fab([1953, 1974, 1995, 2037, 2079, 2121, 2163, 2205, 2247, 2289, 2331, 2373, 2415, 2457, 2499, 2541]),
   leather: leather(null, 42),
+  finishTiers: null,
 },
 
 {
@@ -80,15 +84,17 @@ const PRODUCTS = [
   dims: dims({ width: 33.5, depth: 33.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: 20, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: 27, weight: 87, fabricReq: 4.75, leatherReq: null }),
   fabric: fab([4218, 4263, 4305, 4392, 4479, 4566, 4653, 4740, 4827, 4914, 5001, 5088, 5175, 5262, 5349, 5436]),
   leather: leather(null, 87),
+  finishTiers: null,
 },
 
 {
   sku: "MCAN19", name: "Outdoor Chaise Lounge", collection: "Antalya", category: "chairs", limited: false,
   standardFinish: "SHavana resin and frameDr", frameMaterial: null, basePrice: 4767,
-  specs: ["(1) Loose, non-reversible, KE pad", "( Reclines to 4 positions", "( (2) 2.6\u201DD round wheels p Velcro strap headrest", "W Woven resin over powder-coated aaluminum", "S Do not use w/o cushion", "C Suitable Outdoor Cover: MCCV05"],
+  specs: ["(1) Loose, non-reversible, KE pad", "( Reclines to 4 positions", "( (2) 2.6”D round wheels p Velcro strap headrest", "W Woven resin over powder-coated aaluminum", "S Do not use w/o cushion", "C Suitable Outdoor Cover: MCCV05"],
   dims: dims({ width: 27, depth: 82.25, height: 13.25, widthInside: null, seatHeight: 15, seatDepth: 49, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 37, weight: 71, fabricReq: 5.5, leatherReq: null }),
   fabric: fab([4866, 4917, 4965, 5064, 5163, 5262, 5361, 5460, 5559, 5658, 5757, 5856, 5955, 6054, 6153, 6252]),
   leather: leather(null, 99),
+  finishTiers: null,
 },
 
 {
@@ -98,6 +104,7 @@ const PRODUCTS = [
   dims: dims({ width: 76, depth: 33.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: 20, armWidth: null, armHeight: 23.5, exposedLegHeight: null, volume: 53, weight: 124, fabricReq: 8.5, leatherReq: null }),
   fabric: fab([5064, 5142, 5217, 5370, 5523, 5676, 5829, 5982, 6135, 6288, 6441, 6594, 6747, 6900, 7053, 7206]),
   leather: leather(null, 153),
+  finishTiers: null,
 },
 
 {
@@ -107,6 +114,7 @@ const PRODUCTS = [
   dims: dims({ width: 29.5, depth: 19, height: 17, widthInside: null, seatHeight: 16.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 21, weight: 44, fabricReq: 2.75, leatherReq: 47 }),
   fabric: fab([4320, 4347, 4371, 4422, 4473, 4524, 4575, 4626, 4677, 4728, 4779, 4830, 4881, 4932, 4983, 5034]),
   leather: leather([4983, 5238, 5442, 5646], 51),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
 },
 
 {
@@ -116,6 +124,7 @@ const PRODUCTS = [
   dims: dims({ width: 26, depth: 26, height: 17.5, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 21, weight: 52, fabricReq: 2, leatherReq: 34 }),
   fabric: fab([4362, 4380, 4398, 4434, 4470, 4506, 4542, 4578, 4614, 4650, 4686, 4722, 4758, 4794, 4830, 4866]),
   leather: leather([4830, 5010, 5154, 5298], 36),
+  finishTiers: null,
 },
 
 {
@@ -125,6 +134,7 @@ const PRODUCTS = [
   dims: dims({ width: 60, depth: 35.25, height: 31, widthInside: null, seatHeight: 17.5, seatDepth: 23.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 43, weight: 40, fabricReq: 7.5, leatherReq: null }),
   fabric: fab([6801, 6870, 6936, 7071, 7206, 7341, 7476, 7611, 7746, 7881, 8016, 8151, 8286, 8421, 8556, 8691]),
   leather: leather(null, 135),
+  finishTiers: null,
 },
 
 {
@@ -134,6 +144,7 @@ const PRODUCTS = [
   dims: dims({ width: 35.25, depth: 35.25, height: 31, widthInside: null, seatHeight: 17.5, seatDepth: 23.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 28, weight: 45, fabricReq: 5.5, leatherReq: null }),
   fabric: fab([2616, 2667, 2715, 2814, 2913, 3012, 3111, 3210, 3309, 3408, 3507, 3606, 3705, 3804, 3903, 4002]),
   leather: leather(null, 99),
+  finishTiers: null,
 },
 
 {
@@ -143,6 +154,7 @@ const PRODUCTS = [
   dims: dims({ width: 60, depth: 35.25, height: 31, widthInside: null, seatHeight: 17.5, seatDepth: 23.5, armWidth: null, armHeight: 20.5, exposedLegHeight: null, volume: 43, weight: 45, fabricReq: 7.5, leatherReq: null }),
   fabric: fab([7101, 7170, 7236, 7371, 7506, 7641, 7776, 7911, 8046, 8181, 8316, 8451, 8586, 8721, 8856, 8991]),
   leather: leather(null, 135),
+  finishTiers: null,
 },
 
 {
@@ -152,6 +164,7 @@ const PRODUCTS = [
   dims: dims({ width: 60, depth: 35.25, height: 31, widthInside: null, seatHeight: 17.5, seatDepth: 23.5, armWidth: null, armHeight: 20.5, exposedLegHeight: null, volume: 43, weight: 45, fabricReq: 7.5, leatherReq: null }),
   fabric: fab([7101, 7170, 7236, 7371, 7506, 7641, 7776, 7911, 8046, 8181, 8316, 8451, 8586, 8721, 8856, 8991]),
   leather: leather(null, 135),
+  finishTiers: null,
 },
 
 {
@@ -161,78 +174,87 @@ const PRODUCTS = [
   dims: dims({ width: 76, depth: 35.5, height: 31, widthInside: null, seatHeight: 17.5, seatDepth: 23.5, armWidth: null, armHeight: 20.5, exposedLegHeight: null, volume: 70, weight: 57, fabricReq: 7.5, leatherReq: null }),
   fabric: fab([8001, 8070, 8136, 8271, 8406, 8541, 8676, 8811, 8946, 9081, 9216, 9351, 9486, 9621, 9756, 9891]),
   leather: leather(null, 135),
+  finishTiers: null,
 },
 
 {
-  sku: "MCC109", name: "Lyon 84\u201D Sofa", collection: "McGuire Originals", category: "sofas", limited: false,
+  sku: "MCC109", name: "Lyon 84” Sofa", collection: "McGuire Originals", category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 10896,
   specs: ["Bench seat (1) tufted pad atop the seat (2) Loose back pillows Double stitch. Hook clasp keeps top pad in place Rattan frame with tightly woven caned sides"],
   dims: dims({ width: 84, depth: 34, height: 34, widthInside: null, seatHeight: 21, seatDepth: 16.5, armWidth: null, armHeight: 26, exposedLegHeight: 3.5, volume: 88, weight: 175, fabricReq: 20.25, leatherReq: 344 }),
   fabric: fab([11262, 11445, 11628, 11994, 12360, 12726, 13092, 13458, 13824, 14190, 14556, 14922, 15288, 15654, 16020, 16386]),
   leather: leather([16020, 17850, 19314, 20778], 366),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
 },
 
 {
-  sku: "MCC109-v2", name: "Lyon 96\u201D Sofa", collection: "McGuire Originals", category: "sofas", limited: false,
+  sku: "MCC109-v2", name: "Lyon 96” Sofa", collection: "McGuire Originals", category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 11796,
   specs: ["(2) Loose seats", "(1) Tufted pad atop the seat", "(2) Loose back pillows", "Double stitch", "Hook clasp keeps top pad in place", "Rattan frame with tightly woven caned sides"],
   dims: dims({ width: 96, depth: 34, height: 34, widthInside: null, seatHeight: 21, seatDepth: 16.5, armWidth: null, armHeight: 26, exposedLegHeight: 3.5, volume: 88, weight: 175, fabricReq: 22.25, leatherReq: 378 }),
   fabric: fab([12198, 12399, 12600, 13002, 13404, 13806, 14208, 14610, 15012, 15414, 15816, 16218, 16620, 17022, 17424, 17826]),
   leather: leather([17424, 19434, 21042, 22650], 402),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
 },
 
 {
-  sku: "MCC140", name: "Tresser 84\u201D Sofa (with Woven Leather)", collection: "Nicole Hollis", category: "sofas", limited: true,
+  sku: "MCC140", name: "Tresser 84” Sofa (with Woven Leather)", collection: "Nicole Hollis", category: "sofas", limited: true,
   standardFinish: "Quercia Bianca, Quercia Nera", frameMaterial: null, basePrice: 12981,
   specs: ["One (1) Loose bench seat", "Two (2) Loose back pillows", "Woven black leather sides and back e", "White Oak frame"],
   dims: dims({ width: 84, depth: 34, height: 24, widthInside: null, seatHeight: 16.5, seatDepth: 23, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 47, weight: 100, fabricReq: 9.5, leatherReq: 162 }),
   fabric: fab([13152, 13239, 13323, 13494, 13665, 13836, 14007, 14178, 14349, 14520, 14691, 14862, 15033, 15204, 15375, 15546]),
   leather: leather([15375, 16230, 16914, 17598], 171),
+  finishTiers: null,
 },
 
 {
-  sku: "MCC140-v2", name: "Tresser 84\u201D Sofa (Fully Upholstered)", collection: "Nicole Hollis", category: "sofas", limited: true,
+  sku: "MCC140-v2", name: "Tresser 84” Sofa (Fully Upholstered)", collection: "Nicole Hollis", category: "sofas", limited: true,
   standardFinish: "WQuercia Bianca, Quercia NeraQ", frameMaterial: null, basePrice: 9831,
   specs: ["One (1) Loose bench seat", "O Two (2) Loose back pillows", "T Fully upholstered sides and back", "W White Oak frame b"],
   dims: dims({ width: 84, depth: 34, height: 24, widthInside: null, seatHeight: 16.5, seatDepth: 23, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 47, weight: 100, fabricReq: 14, leatherReq: 238 }),
   fabric: fab([10083, 10209, 10335, 10587, 10839, 11091, 11343, 11595, 11847, 12099, 12351, 12603, 12855, 13107, 13359, 13611]),
   leather: leather([13359, 14619, 15627, 16635], 252),
+  finishTiers: null,
 },
 
 {
-  sku: "MCC140-v3", name: "Tresser 96\u201D Sofa (with Woven Leather)", collection: "Nicole Hollis", category: "sofas", limited: true,
+  sku: "MCC140-v3", name: "Tresser 96” Sofa (with Woven Leather)", collection: "Nicole Hollis", category: "sofas", limited: true,
   standardFinish: "Quercia Bianca, Quercia Nera", frameMaterial: null, basePrice: 16701,
   specs: ["One (1) Loose bench seat Two (2) Loose back pillows Woven black leather sides and back White Oak frame"],
   dims: dims({ width: 96, depth: 34, height: 24, widthInside: null, seatHeight: 16.5, seatDepth: 23, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 53, weight: 150, fabricReq: 9.5, leatherReq: 162 }),
   fabric: fab([16872, 16959, 17043, 17214, 17385, 17556, 17727, 17898, 18069, 18240, 18411, 18582, 18753, 18924, 19095, 19266]),
   leather: leather([19095, 19950, 20634, 21318], 171),
+  finishTiers: null,
 },
 
 {
-  sku: "MCC140-v4", name: "Tresser 96\u201D Sofa (Fully Upholstered)", collection: "Nicole Hollis", category: "sofas", limited: true,
+  sku: "MCC140-v4", name: "Tresser 96” Sofa (Fully Upholstered)", collection: "Nicole Hollis", category: "sofas", limited: true,
   standardFinish: "Quercia Bianca, Quercia Nera", frameMaterial: null, basePrice: 10431,
   specs: ["One (1) Loose bench seat", "Two (2) Loose back pillows", "Fully upholstered sides and back", "White Oak frame"],
   dims: dims({ width: 96, depth: 34, height: 24, widthInside: null, seatHeight: 16.5, seatDepth: 23, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 53, weight: 150, fabricReq: 14, leatherReq: 238 }),
   fabric: fab([10683, 10809, 10935, 11187, 11439, 11691, 11943, 12195, 12447, 12699, 12951, 13203, 13455, 13707, 13959, 14211]),
   leather: leather([13959, 15219, 16227, 17235], 252),
+  finishTiers: null,
 },
 
 {
-  sku: "MCC140-v5", name: "Tresser 108\u201D Sofa (with Woven Leather)", collection: "Nicole Hollis", category: "sofas", limited: true,
+  sku: "MCC140-v5", name: "Tresser 108” Sofa (with Woven Leather)", collection: "Nicole Hollis", category: "sofas", limited: true,
   standardFinish: "Quercia Bianca, Quercia Nera", frameMaterial: null, basePrice: 18762,
   specs: ["One (1) Loose bench seat", "Three (3) Loose back pillows", "Woven black leather sides and back", "White Oak frame"],
   dims: dims({ width: 108, depth: 34, height: 24, widthInside: null, seatHeight: 16.5, seatDepth: 23, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 47, weight: 100, fabricReq: 13.5, leatherReq: 230 }),
   fabric: fab([19005, 19128, 19248, 19491, 19734, 19977, 20220, 20463, 20706, 20949, 21192, 21435, 21678, 21921, 22164, 22407]),
   leather: leather([22164, 23379, 24351, 25323], 243),
+  finishTiers: null,
 },
 
 {
-  sku: "MCC140-v6", name: "Tresser 108\u201D Sofa (Fully Upholstered)", collection: "Nicole Hollis", category: "sofas", limited: true,
+  sku: "MCC140-v6", name: "Tresser 108” Sofa (Fully Upholstered)", collection: "Nicole Hollis", category: "sofas", limited: true,
   standardFinish: "wQuercia Bianca, Quercia NeraD", frameMaterial: null, basePrice: 14712,
   specs: ["One (1) Loose bench seat", "T Three (3) Loose back pillows", "( Fully upholstered sides and back", "S White Oak frame"],
   dims: dims({ width: 108, depth: 34, height: 24, widthInside: null, seatHeight: 16.5, seatDepth: 23, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 119, weight: 200, fabricReq: 19.5, leatherReq: 332 }),
   fabric: fab([15063, 15240, 15414, 15765, 16116, 16467, 16818, 17169, 17520, 17871, 18222, 18573, 18924, 19275, 19626, 19977]),
   leather: leather([19626, 21381, 22785, 24189], 351),
+  finishTiers: null,
 },
 
 {
@@ -242,6 +264,7 @@ const PRODUCTS = [
   dims: dims({ width: 53, depth: 27.5, height: 28, widthInside: null, seatHeight: 17.75, seatDepth: 23.75, armWidth: null, armHeight: 22.75, exposedLegHeight: null, volume: 78, weight: 65, fabricReq: 3.5, leatherReq: 60 }),
   fabric: fab([3984, 4017, 4047, 4110, 4173, 4236, 4299, 4362, 4425, 4488, 4551, 4614, 4677, 4740, 4803, 4866]),
   leather: leather([4803, 5118, 5370, 5622], 63),
+  finishTiers: null,
 },
 
 {
@@ -251,15 +274,17 @@ const PRODUCTS = [
   dims: dims({ width: 26, depth: 26, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 21, weight: 4, fabricReq: 3, leatherReq: 51 }),
   fabric: fab([4101, 4128, 4155, 4209, 4263, 4317, 4371, 4425, 4479, 4533, 4587, 4641, 4695, 4749, 4803, 4857]),
   leather: leather([4803, 5073, 5289, 5505], 54),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3011L", name: "Gondola Outdoor Settee", collection: "Gondola", category: "sofas", limited: false,
   standardFinish: "Moonstone", frameMaterial: null, basePrice: 3276,
-  specs: ["Outdoor Settee Gondola", "(1) Loose bench seat", "(3) Loose, throws (20\u201D)", "Powder coated aluminum frame joined by a series of stretchers and x-braces", "Suitable Outdoor Cover: MCCV47"],
+  specs: ["Outdoor Settee Gondola", "(1) Loose bench seat", "(3) Loose, throws (20”)", "Powder coated aluminum frame joined by a series of stretchers and x-braces", "Suitable Outdoor Cover: MCCV47"],
   dims: dims({ width: 60, depth: 23, height: 32, widthInside: null, seatHeight: 19, seatDepth: 20.5, armWidth: null, armHeight: 28, exposedLegHeight: null, volume: 31, weight: 60, fabricReq: 5.75, leatherReq: null }),
   fabric: fab([3381, 3435, 3486, 3591, 3696, 3801, 3906, 4011, 4116, 4221, 4326, 4431, 4536, 4641, 4746, 4851]),
   leather: leather(null, 105),
+  finishTiers: null,
 },
 
 {
@@ -269,15 +294,17 @@ const PRODUCTS = [
   dims: dims({ width: 23, depth: 32.75, height: 32, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 45, weight: 23.5, fabricReq: 3, leatherReq: null }),
   fabric: fab([5595, 5622, 5649, 5703, 5757, 5811, 5865, 5919, 5973, 6027, 6081, 6135, 6189, 6243, 6297, 6351]),
   leather: leather(null, 54),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3211CS", name: "Cuerda Chaise Lounge", collection: "Laura Kirar", category: "chairs", limited: false,
   standardFinish: "Bark Weave", frameMaterial: null, basePrice: 8736,
-  specs: ["Aluminum frame wrapped with acrylic rope Loose seat and back cushion (1) 7\u201Dx26\u201D bolster pillow Two wheels for easy mobility Suitable outdoor cover: MCCV52"],
+  specs: ["Aluminum frame wrapped with acrylic rope Loose seat and back cushion (1) 7”x26” bolster pillow Two wheels for easy mobility Suitable outdoor cover: MCCV52"],
   dims: dims({ width: 31, depth: 74.5, height: 34.5, widthInside: null, seatHeight: 18, seatDepth: 63.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 43, weight: 66, fabricReq: 7, leatherReq: null }),
   fabric: fab([8862, 8925, 8988, 9114, 9240, 9366, 9492, 9618, 9744, 9870, 9996, 10122, 10248, 10374, 10500, 10626]),
   leather: leather(null, 126),
+  finishTiers: null,
 },
 
 {
@@ -287,15 +314,17 @@ const PRODUCTS = [
   dims: dims({ width: 23, depth: 23, height: 17.5, widthInside: null, seatHeight: 17, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 14.5, weight: 17, fabricReq: 2, leatherReq: null }),
   fabric: fab([2826, 2844, 2862, 2898, 2934, 2970, 3006, 3042, 3078, 3114, 3150, 3186, 3222, 3258, 3294, 3330]),
   leather: leather(null, 36),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3211S", name: "Cuerda Sofa", collection: "Laura Kirar", category: "sofas", limited: false,
   standardFinish: "Bark Weave", frameMaterial: null, basePrice: 11511,
-  specs: ["Aluminum frame wrapped with acrylic rope", "Loose bench seat cushion 3", "Three (3) loose back cushions two (2) 25.75\u201D x 13\u201D, one (1) 36.25\u201D x 13\u201D", "Two (2) 7.5\u201D bolster pillows", "Suitable Outdoor Cover: MCCV54"],
+  specs: ["Aluminum frame wrapped with acrylic rope", "Loose bench seat cushion 3", "Three (3) loose back cushions two (2) 25.75” x 13”, one (1) 36.25” x 13”", "Two (2) 7.5” bolster pillows", "Suitable Outdoor Cover: MCCV54"],
   dims: dims({ width: 90, depth: 32, height: 29.25, widthInside: 87, seatHeight: 18, seatDepth: 22, armWidth: null, armHeight: 29.25, exposedLegHeight: null, volume: 48.5, weight: 119.5, fabricReq: 8.5, leatherReq: null }),
   fabric: fab([11664, 11742, 11817, 11970, 12123, 12276, 12429, 12582, 12735, 12888, 13041, 13194, 13347, 13500, 13653, 13806]),
   leather: leather(null, 153),
+  finishTiers: null,
 },
 
 {
@@ -305,24 +334,27 @@ const PRODUCTS = [
   dims: dims({ width: 28.5, depth: 34.5, height: 34.5, widthInside: 25.5, seatHeight: 18, seatDepth: 22.5, armWidth: null, armHeight: 22.75, exposedLegHeight: null, volume: 45, weight: 32.5, fabricReq: 3, leatherReq: null }),
   fabric: fab([6195, 6222, 6249, 6303, 6357, 6411, 6465, 6519, 6573, 6627, 6681, 6735, 6789, 6843, 6897, 6951]),
   leather: leather(null, 54),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3214CA", name: "Cuerda Armless Chair", collection: "Laura Kirar", category: "chairs", limited: false,
   standardFinish: "Bark Weave", frameMaterial: null, basePrice: 6225,
-  specs: ["Aluminum frame wrapped with acrylic rope Loose seat and back cushion (1) 7\u201D x 22\u201D bolster pillow Suitable Outdoor Cover: MCCV65"],
+  specs: ["Aluminum frame wrapped with acrylic rope Loose seat and back cushion (1) 7” x 22” bolster pillow Suitable Outdoor Cover: MCCV65"],
   dims: dims({ width: 33.25, depth: 33.25, height: 30.5, widthInside: null, seatHeight: 18, seatDepth: 18.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 45, weight: 42, fabricReq: 4.75, leatherReq: null }),
   fabric: fab([6312, 6357, 6399, 6486, 6573, 6660, 6747, 6834, 6921, 7008, 7095, 7182, 7269, 7356, 7443, 7530]),
   leather: leather(null, 87),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3214CC", name: "Cuerda Corner Chair", collection: "Laura Kirar", category: "chairs", limited: false,
   standardFinish: "Bark Weave", frameMaterial: null, basePrice: 7755,
-  specs: ["Aluminum frame wrapped with acrylic rope", "Loose seat", "(2) loose back cushions", "(1) 7\u201D x 22\u201D bolster pillow", "Suitable Outdoor Cover: MCCV66"],
+  specs: ["Aluminum frame wrapped with acrylic rope", "Loose seat", "(2) loose back cushions", "(1) 7” x 22” bolster pillow", "Suitable Outdoor Cover: MCCV66"],
   dims: dims({ width: 33.25, depth: 33.25, height: 30.5, widthInside: 0, seatHeight: 18, seatDepth: 18.5, armWidth: null, armHeight: 26.5, exposedLegHeight: null, volume: 45, weight: 47.5, fabricReq: 5.25, leatherReq: null }),
   fabric: fab([7851, 7899, 7947, 8043, 8139, 8235, 8331, 8427, 8523, 8619, 8715, 8811, 8907, 9003, 9099, 9195]),
   leather: leather(null, 96),
+  finishTiers: null,
 },
 
 {
@@ -332,6 +364,7 @@ const PRODUCTS = [
   dims: dims({ width: 29, depth: 28.5, height: 31.75, widthInside: null, seatHeight: 14.75, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 19, fabricReq: null, leatherReq: null }),
   fabric: null,
   leather: leather(null, null),
+  finishTiers: null,
 },
 
 {
@@ -341,123 +374,137 @@ const PRODUCTS = [
   dims: dims({ width: 26.75, depth: 16, height: 14.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 12, fabricReq: null, leatherReq: null }),
   fabric: null,
   leather: leather(null, null),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3500B", name: "Navagio Bench", collection: "Baker Resort\u00AE for McGuire", category: "ottomans", limited: false,
+  sku: "MCO3500B", name: "Navagio Bench", collection: "Baker Resort® for McGuire", category: "ottomans", limited: false,
   standardFinish: "Sea Salt", frameMaterial: null, basePrice: 4011,
   specs: ["Powder-coated cast and extruded aluminum frame Outdoor grade strapping Loose bench cushion (non- reversible) Suitable Outdoor Cover: MCCV76"],
   dims: dims({ width: 60, depth: 20, height: 22, widthInside: null, seatHeight: 21, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 44.5, fabricReq: 2.25, leatherReq: 38 }),
   fabric: fab([4053, 4074, 4095, 4137, 4179, 4221, 4263, 4305, 4347, 4389, 4431, 4473, 4515, 4557, 4599, 4641]),
   leather: leather([4599, 4809, 4977, 5145], 42),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3500CS", name: "Phuket Chaise Lounge", collection: "Baker Resort\u00AE for McGuire", category: "chairs", limited: false,
+  sku: "MCO3500CS", name: "Phuket Chaise Lounge", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
   standardFinish: "Sea Salt", frameMaterial: null, basePrice: 7326,
   specs: ["Powder-coated cast and extruded aluminum frame", "Outdoor grade strapping", "Loose lounge pillow (non- reversible)", "Reclines to six (6) positions", "Casters on back legs", "Suitable Outdoor Cover: MCCV77"],
   dims: dims({ width: 30, depth: 92, height: 19, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 33, weight: 76.5, fabricReq: 8.75, leatherReq: 149 }),
   fabric: fab([7485, 7566, 7644, 7803, 7962, 8121, 8280, 8439, 8598, 8757, 8916, 9075, 9234, 9393, 9552, 9711]),
   leather: leather([9552, 10347, 10983, 11619], 159),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3502CA", name: "Abaco Armless Chair", collection: "Baker Resort\u00AE for McGuire", category: "chairs", limited: false,
+  sku: "MCO3502CA", name: "Abaco Armless Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
   standardFinish: "Sea Salt", frameMaterial: null, basePrice: 4671,
   specs: ["d", "Powder-coated cast and extruded aluminum frame", "Loose seat and back cushion (non- reversible)", "Cushion toggles and sectional clamps", "Suitable Outdoor Cover: MCCV65 7"],
   dims: dims({ width: 29, depth: 33.5, height: 34, widthInside: null, seatHeight: 17, seatDepth: 22.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 20, weight: 91.5, fabricReq: 3.5, leatherReq: 60 }),
   fabric: fab([4734, 4767, 4797, 4860, 4923, 4986, 5049, 5112, 5175, 5238, 5301, 5364, 5427, 5490, 5553, 5616]),
   leather: leather([5553, 5868, 6120, 6372], 63),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3502CC", name: "Abaco Corner Chair", collection: "Baker Resort\u00AE for McGuire", category: "chairs", limited: false,
+  sku: "MCO3502CC", name: "Abaco Corner Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
   standardFinish: "SSea SaltS", frameMaterial: null, basePrice: 5646,
   specs: ["Powder-coated cast and extruded", "Paluminum frame a Loose seat and back cushion (non-", "Lreversible) r Cushion toggles and sectional", "Cclamps c Suitable Outdoor Cover: MCCV32"],
   dims: dims({ width: 33.5, depth: 33.5, height: 34, widthInside: 22.5, seatHeight: 17, seatDepth: 22.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 23, weight: 106, fabricReq: 5, leatherReq: 85 }),
   fabric: fab([5736, 5781, 5826, 5916, 6006, 6096, 6186, 6276, 6366, 6456, 6546, 6636, 6726, 6816, 6906, 6996]),
   leather: leather([6906, 7356, 7716, 8076], 90),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3502CL", name: "Abaco Left Arm Chair", collection: "Baker Resort\u00AE for McGuire", category: "chairs", limited: false,
+  sku: "MCO3502CL", name: "Abaco Left Arm Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
   standardFinish: "Sea Salt", frameMaterial: null, basePrice: 4971,
   specs: ["Powder-coated cast and extruded aluminum frame Loose seat and back cushion (non- reversible) Cushion toggles and sectional clamps Suitable Outdoor Cover: MCCV83"],
   dims: dims({ width: 30.5, depth: 33.5, height: 34, widthInside: 29, seatHeight: 17, seatDepth: 22.5, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 21, weight: 96, fabricReq: 3.5, leatherReq: 60 }),
   fabric: fab([5034, 5067, 5097, 5160, 5223, 5286, 5349, 5412, 5475, 5538, 5601, 5664, 5727, 5790, 5853, 5916]),
   leather: leather([5853, 6168, 6420, 6672], 63),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3502CR", name: "Abaco Right Arm Chair", collection: "Baker Resort\u00AE for McGuire", category: "chairs", limited: false,
+  sku: "MCO3502CR", name: "Abaco Right Arm Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
   standardFinish: "Sea Salt", frameMaterial: null, basePrice: 4971,
   specs: ["Powder-coated cast and extruded aluminum frame", "Loose seat and back cushion (nonreversible)", "Cushion toggles and sectional clamps", "Suitable Outdoor Cover: MCCV83"],
   dims: dims({ width: 30.5, depth: 33.5, height: 34, widthInside: 29, seatHeight: 17, seatDepth: 22.5, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 21, weight: 96, fabricReq: 3.5, leatherReq: 60 }),
   fabric: fab([5034, 5067, 5097, 5160, 5223, 5286, 5349, 5412, 5475, 5538, 5601, 5664, 5727, 5790, 5853, 5916]),
   leather: leather([5853, 6168, 6420, 6672], 63),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3502O", name: "Abaco Ottoman - Large", collection: "Baker Resort\u00AE for McGuire", category: "ottomans", limited: false,
+  sku: "MCO3502O", name: "Abaco Ottoman - Large", collection: "Baker Resort® for McGuire", category: "ottomans", limited: false,
   standardFinish: "Sea Salt", frameMaterial: null, basePrice: 5607,
   specs: ["d", "Powder-coated cast and extruded aluminum frame n-", "Loose cushion (non-reversible)", "Cushion toggles", "Suitable Outdoor Cover: MCCV78 3"],
   dims: dims({ width: 54, depth: 40, height: 17, widthInside: null, seatHeight: 16, seatDepth: 22.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 18, weight: 139.5, fabricReq: 4.25, leatherReq: 72 }),
   fabric: fab([5685, 5724, 5763, 5841, 5919, 5997, 6075, 6153, 6231, 6309, 6387, 6465, 6543, 6621, 6699, 6777]),
   leather: leather([6699, 7089, 7401, 7713], 78),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3503C", name: "Abaco Lounge Chair", collection: "Baker Resort\u00AE for McGuire", category: "chairs", limited: false,
+  sku: "MCO3503C", name: "Abaco Lounge Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
   standardFinish: "Sea SaltS", frameMaterial: null, basePrice: 6771,
   specs: ["Powder-coated cast and extruded", "Paluminum frame a Loose seat and back cushion (non-", "Lreversible)", "C Standard 360 swivel", "S Cushion toggles", "Suitable Outdoor Cover: MCCV83"],
   dims: dims({ width: 32, depth: 33.5, height: 36, widthInside: 29, seatHeight: 20, seatDepth: 22.5, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 22, weight: 113, fabricReq: 3.5, leatherReq: 60 }),
   fabric: fab([6834, 6867, 6897, 6960, 7023, 7086, 7149, 7212, 7275, 7338, 7401, 7464, 7527, 7590, 7653, 7716]),
   leather: leather([7653, 7968, 8220, 8472], 63),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3503O", name: "Abaco Ottoman - Small", collection: "Baker Resort\u00AE for McGuire", category: "ottomans", limited: false,
+  sku: "MCO3503O", name: "Abaco Ottoman - Small", collection: "Baker Resort® for McGuire", category: "ottomans", limited: false,
   standardFinish: "Sea Salt", frameMaterial: null, basePrice: 3411,
   specs: ["Powder-coated cast and extruded aluminum frame Loose cushion (non-reversible) Cushion toggles Suitable Outdoor Cover: MCCV30"],
   dims: dims({ width: 29, depth: 20, height: 17, widthInside: null, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 51.5, fabricReq: 2.25, leatherReq: 38 }),
   fabric: fab([3453, 3474, 3495, 3537, 3579, 3621, 3663, 3705, 3747, 3789, 3831, 3873, 3915, 3957, 3999, 4041]),
   leather: leather([3999, 4209, 4377, 4545], 42),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3504C", name: "Abaco Slipper Chair", collection: "Baker Resort\u00AE for McGuire", category: "chairs", limited: false,
+  sku: "MCO3504C", name: "Abaco Slipper Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
   standardFinish: "Sea Salt", frameMaterial: null, basePrice: 6171,
   specs: ["Powder-coated cast and extruded aluminum frame", "Loose seat and back cushion (nonreversible)", "Standard 360 swivel", "Cushion toggles", "Suitable Outdoor Cover: MCCV65"],
   dims: dims({ width: 29, depth: 33.5, height: 36, widthInside: null, seatHeight: 20, seatDepth: 22.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 21, weight: 100, fabricReq: 3.5, leatherReq: 60 }),
   fabric: fab([6234, 6267, 6297, 6360, 6423, 6486, 6549, 6612, 6675, 6738, 6801, 6864, 6927, 6990, 7053, 7116]),
   leather: leather([7053, 7368, 7620, 7872], 63),
+  finishTiers: null,
 },
 
 {
-  sku: "MCO3507L", name: "Phuket Settee", collection: "Baker Resort\u00AE for McGuire", category: "sofas", limited: false,
+  sku: "MCO3507L", name: "Phuket Settee", collection: "Baker Resort® for McGuire", category: "sofas", limited: false,
   standardFinish: "Sea Salt", frameMaterial: null, basePrice: 6231,
   specs: ["d", "Powder-coated cast and extruded aluminum frame n-", "Outdoor grade strapping", "Loose seat and back cushion (non- reversible)", "Suitable Outdoor Cover: MCCV79 5"],
   dims: dims({ width: 60, depth: 25, height: 36, widthInside: 57, seatHeight: 21, seatDepth: 17, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 37, weight: 54, fabricReq: 4.75, leatherReq: 81 }),
   fabric: fab([6318, 6363, 6405, 6492, 6579, 6666, 6753, 6840, 6927, 7014, 7101, 7188, 7275, 7362, 7449, 7536]),
   leather: leather([7449, 7884, 8232, 8580], 87),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3702C", name: "Naxos Club Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 7500,
-  specs: ["One (1) non-reversible loose seat", "Ocushion c One (1) non-reversible back pillow", "O One (1) lumbar pillow (26\u201D x 10\u201D)", "O Two (2) throw pillows (27.5\u201D x 10\u201D)", "B Blackened Stainless Steel frame -"],
+  specs: ["One (1) non-reversible loose seat", "Ocushion c One (1) non-reversible back pillow", "O One (1) lumbar pillow (26” x 10”)", "O Two (2) throw pillows (27.5” x 10”)", "B Blackened Stainless Steel frame -"],
   dims: dims({ width: 42, depth: 36, height: 32, widthInside: 29, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: 26, exposedLegHeight: null, volume: 28, weight: 85, fabricReq: 7.25, leatherReq: 124 }),
   fabric: fab([7632, 7698, 7764, 7896, 8028, 8160, 8292, 8424, 8556, 8688, 8820, 8952, 9084, 9216, 9348, 9480]),
   leather: leather([9348, 10008, 10536, 11064], 132),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3704C", name: "Naxos Lounge Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 5100,
-  specs: ["One (1) non-reversible loose seat cushion One (1) non-reversible back pillow One (1) lumbar pillow (23\u201D x 10\u201D) Blackened Stainless Steel frame"],
+  specs: ["One (1) non-reversible loose seat cushion One (1) non-reversible back pillow One (1) lumbar pillow (23” x 10”) Blackened Stainless Steel frame"],
   dims: dims({ width: 30, depth: 34, height: 30, widthInside: 28.5, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 18, weight: 58.5, fabricReq: 4.5, leatherReq: 77 }),
   fabric: fab([5181, 5223, 5262, 5343, 5424, 5505, 5586, 5667, 5748, 5829, 5910, 5991, 6072, 6153, 6234, 6315]),
   leather: leather([6234, 6639, 6963, 7287], 81),
+  finishTiers: null,
 },
 
 {
@@ -467,51 +514,57 @@ const PRODUCTS = [
   dims: dims({ width: 28, depth: 20, height: 17, widthInside: null, seatHeight: 15.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 26.5, fabricReq: 1.75, leatherReq: 30 }),
   fabric: fab([2883, 2901, 2916, 2949, 2982, 3015, 3048, 3081, 3114, 3147, 3180, 3213, 3246, 3279, 3312, 3345]),
   leather: leather([3312, 3477, 3609, 3741], 33),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3710L", name: "Naxos Loveseat", collection: "Thomas Pheasant", category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 9600,
-  specs: ["t", "Two (2) non-reversible loose seat cushions", "Two (2) non-reversible back pillows", "Two (2) lumbar pillows (24\u201D x 10\u201D)", "Blackened Stainless Steel frame"],
+  specs: ["t", "Two (2) non-reversible loose seat cushions", "Two (2) non-reversible back pillows", "Two (2) lumbar pillows (24” x 10”)", "Blackened Stainless Steel frame"],
   dims: dims({ width: 64.5, depth: 34, height: 30, widthInside: 63, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 39, weight: 119.5, fabricReq: 9, leatherReq: 153 }),
   fabric: fab([9762, 9843, 9924, 10086, 10248, 10410, 10572, 10734, 10896, 11058, 11220, 11382, 11544, 11706, 11868, 12030]),
   leather: leather([11868, 12678, 13326, 13974], 162),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3710S", name: "Naxos Sofa", collection: "Thomas Pheasant", category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 14550,
-  specs: ["Three (3) non-reversible loose seat", "Ncushions a Three (3) non-reversible back", "Tpillows", "B Three (3) lumbar pillows (24\u201D x", "S10\u201D)", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV81 -"],
+  specs: ["Three (3) non-reversible loose seat", "Ncushions a Three (3) non-reversible back", "Tpillows", "B Three (3) lumbar pillows (24” x", "S10”)", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV81 -"],
   dims: dims({ width: 96, depth: 34, height: 30, widthInside: 94.5, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 57, weight: 175, fabricReq: 13.25, leatherReq: 226 }),
   fabric: fab([14790, 14910, 15030, 15270, 15510, 15750, 15990, 16230, 16470, 16710, 16950, 17190, 17430, 17670, 17910, 18150]),
   leather: leather([17910, 19110, 20070, 21030], 240),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3712CS", name: "Naxos Slim Chaise", collection: "Thomas Pheasant", category: "chairs", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 7500,
-  specs: ["Non-reversible bench seat and angled arms Two (2) bolster pillows (6\u201D x 22\u201D) Blackened Stainless Steel frame Suitable Outdoor Cover: MCCV05"],
+  specs: ["Non-reversible bench seat and angled arms Two (2) bolster pillows (6” x 22”) Blackened Stainless Steel frame Suitable Outdoor Cover: MCCV05"],
   dims: dims({ width: 80.5, depth: 25, height: 21, widthInside: 52, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 98, weight: 86.5, fabricReq: 5.25, leatherReq: 90 }),
   fabric: fab([7596, 7644, 7692, 7788, 7884, 7980, 8076, 8172, 8268, 8364, 8460, 8556, 8652, 8748, 8844, 8940]),
   leather: leather([8844, 9324, 9708, 10092], 96),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3714CA", name: "Naxos Slipper Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 4050,
-  specs: ["One (1) non-reversible loose seat cushion", "One (1) non-reversible back pillow", "One (1) lumbar pillow (17.5\u201D x 7\u201D)", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV51"],
+  specs: ["One (1) non-reversible loose seat cushion", "One (1) non-reversible back pillow", "One (1) lumbar pillow (17.5” x 7”)", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV51"],
   dims: dims({ width: 24, depth: 30, height: 25, widthInside: null, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 11, weight: 35.5, fabricReq: 2.75, leatherReq: 47 }),
   fabric: fab([4101, 4128, 4152, 4203, 4254, 4305, 4356, 4407, 4458, 4509, 4560, 4611, 4662, 4713, 4764, 4815]),
   leather: leather([4764, 5019, 5223, 5427], 51),
+  finishTiers: null,
 },
 
 {
   sku: "MCO3716CS", name: "Naxos Chaise Lounge", collection: "Thomas Pheasant", category: "chairs", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 8700,
-  specs: ["t", "Non-reversible loose bench seat and back w", "One (1) removable round bolster \u201D) headrest", "Reclines to four (4) positions 1", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV05"],
+  specs: ["t", "Non-reversible loose bench seat and back w", "One (1) removable round bolster ”) headrest", "Reclines to four (4) positions 1", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV05"],
   dims: dims({ width: 78, depth: 30, height: 16.5, widthInside: null, seatHeight: 15.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 98, weight: 104, fabricReq: 7.75, leatherReq: 132 }),
   fabric: fab([8841, 8913, 8982, 9123, 9264, 9405, 9546, 9687, 9828, 9969, 10110, 10251, 10392, 10533, 10674, 10815]),
   leather: leather([10674, 11379, 11943, 12507], 141),
+  finishTiers: null,
 },
 
 {
@@ -521,6 +574,7 @@ const PRODUCTS = [
   dims: dims({ width: 30, depth: 18, height: 16, widthInside: null, seatHeight: 15, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 23.5, fabricReq: 1.5, leatherReq: 26 }),
   fabric: fab([3027, 3042, 3054, 3081, 3108, 3135, 3162, 3189, 3216, 3243, 3270, 3297, 3324, 3351, 3378, 3405]),
   leather: leather([3378, 3513, 3621, 3729], 27),
+  finishTiers: null,
 },
 
 {
@@ -530,6 +584,7 @@ const PRODUCTS = [
   dims: dims({ width: 24, depth: 17, height: 16, widthInside: null, seatHeight: 15, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 23.5, fabricReq: 1.25, leatherReq: 22 }),
   fabric: fab([3024, 3036, 3048, 3072, 3096, 3120, 3144, 3168, 3192, 3216, 3240, 3264, 3288, 3312, 3336, 3360]),
   leather: leather([3336, 3456, 3552, 3648], 24),
+  finishTiers: null,
 },
 
 {
@@ -539,6 +594,7 @@ const PRODUCTS = [
   dims: dims({ width: 30, depth: 33, height: 30, widthInside: null, seatHeight: 16.5, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 27, weight: null, fabricReq: 3.5, leatherReq: null }),
   fabric: fab([3228, 3261, 3291, 3354, 3417, 3480, 3543, 3606, 3669, 3732, 3795, 3858, 3921, 3984, 4047, 4110]),
   leather: leather(null, 63),
+  finishTiers: null,
 },
 
 {
@@ -548,6 +604,7 @@ const PRODUCTS = [
   dims: dims({ width: 75, depth: 34, height: 30, widthInside: null, seatHeight: 16.5, seatDepth: 19, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 53, weight: 124, fabricReq: 8, leatherReq: null }),
   fabric: fab([10431, 10503, 10575, 10719, 10863, 11007, 11151, 11295, 11439, 11583, 11727, 11871, 12015, 12159, 12303, 12447]),
   leather: leather(null, 144),
+  finishTiers: null,
 },
 
 {
@@ -557,16 +614,19 @@ const PRODUCTS = [
   dims: dims({ width: 30, depth: 80, height: 16, widthInside: 27.5, seatHeight: 16, seatDepth: 77.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 32, weight: 94, fabricReq: 7, leatherReq: null }),
   fabric: fab([5862, 5925, 5988, 6114, 6240, 6366, 6492, 6618, 6744, 6870, 6996, 7122, 7248, 7374, 7500, 7626]),
   leather: leather(null, 126),
+  finishTiers: null,
 },
 
 {
   sku: "MCU1000L", name: "Open Oval Caned Banquette", collection: "Barbara Barry", category: "sofas", limited: true,
   standardFinish: "Coconut, Mica", frameMaterial: null, basePrice: 5046,
-  specs: ["Tight seat (2) Throws (20\u201D) Rattan frame with natural closed cane on arms and back"],
+  specs: ["Tight seat (2) Throws (20”) Rattan frame with natural closed cane on arms and back"],
   dims: dims({ width: 63, depth: 30.5, height: 37.25, widthInside: null, seatHeight: 17, seatDepth: 21, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 52, weight: 78, fabricReq: 5, leatherReq: 85 }),
   fabric: fab([5136, 5181, 5226, 5316, 5406, 5496, 5586, 5676, 5766, 5856, 5946, 6036, 6126, 6216, 6306, 6396]),
   leather: leather([6306, 6756, 7116, 7476], 90),
+  finishTiers: null,
 },
+
 {
   sku: "MCO143T", name: "Rollick Barstool", collection: "Nicole Hollis", category: "chairs", limited: true,
   standardFinish: "Naturale, Nero", frameMaterial: null, basePrice: 1497,
@@ -1258,16 +1318,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "MR668-11-9", name: "Woven X Bench", collection: "Milling Road Originals", category: "ottomans", limited: true,
-  standardFinish: "+$165Blackened Walnut, Natura", frameMaterial: null, basePrice: 2751,
-  specs: ["standard with a 17.5” x 24”", "Hardwood Solids, Metal aCaning al Premium Down"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 32, exposedLegHeight: 21.5, volume: 17, weight: 23.5, fabricReq: 23, leatherReq: 35 }),
-  fabric: fab([null, null, null, null, 19, 20, null, null, null, null, 23, null, null, null, 31, 14]),
-  leather: leather([65, 9, 1, 0.75], 17),
-  finishTiers: { tier1: 3036, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "MR7040", name: "Cane Side Chair", collection: "Kara Mann", category: "chairs", limited: false,
   standardFinish: "Blackened Walnut, Natural Walnut", frameMaterial: null, basePrice: 3345,
   specs: ["Hardwood solids, metal and caning"],
@@ -1768,16 +1818,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAPH163", name: "Diamond Table Lamp", collection: "Thomas Pheasant", category: "lighting", limited: false,
-  standardFinish: "o Glass with Brass HardwareCrystal and Brass Hardwar", frameMaterial: null, basePrice: 5367,
-  specs: ["BAPH164 Bangle Glass Table LThomas Pheasanhinette shade, no border", "White chinette shade nsparent power cord with", "6 ft. transparent power coitch cord switch 75W incandescent bulb", "One (1) 75W incandescend required", "Disclaimer: Please see NatMaterials page"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 15.75, exposedLegHeight: 15.75, volume: 15.75, weight: 15.75, fabricReq: 27.5, leatherReq: 27 }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8, 3]),
-  leather: leather([25, 15, null, null], null),
-  finishTiers: { tier1: 4437, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "BAPH164", name: "Bangle Glass Table Lamp", collection: "Thomas Pheasant", category: "lighting", limited: false,
   standardFinish: "Nickel", frameMaterial: null, basePrice: 2547,
   specs: ["One light with ivory chinette shade", "Hardwired for Wall Switch", "Uses one candelabra bulb, 40 watts maximum", "Only available in A1 plug"],
@@ -2169,32 +2209,32 @@ const PRODUCTS = [
 
 {
   sku: "BA6283S-BTI-111-120", name: "Yves 111”-120” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
-  standardFinish: "Optional: Bullion/9.5 Yards +", frameMaterial: null, basePrice: 300,
-  specs: ["(4) Baker Comfort seat cushions (4) Baker Comfort back pillows (10”x26”) Tight back Exposed Oak Leg"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: 36, seatHeight: 31, seatDepth: null, armWidth: 18, armHeight: 21, exposedLegHeight: null, volume: 21.5, weight: null, fabricReq: null, leatherReq: null }),
-  fabric: fab([21, 357, 13275, 13464, 13653, 14031, 14409, 14787, 15165, 15543, 15921, 16299, 16677, 17055, 17433, 17811]),
-  leather: leather([18189, 18567, 18189, 20079], 21591),
-  finishTiers: { tier1: null, tier2: 12897, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 12897,
+  specs: ["(4) Baker Comfort seat cushions (4) Baker Comfort back pillows (10”x26”) Tight back Exposed Oak Leg Optional: Bullion/9.5 Yar ds +$300"],
+  dims: dims({ width: null, depth: 36, height: 31, widthInside: null, seatHeight: 18, seatDepth: 21, armWidth: null, armHeight: 21.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 21, leatherReq: 357 }),
+  fabric: fab([13275, 13464, 13653, 14031, 14409, 14787, 15165, 15543, 15921, 16299, 16677, 17055, 17433, 17811, 18189, 18567]),
+  leather: leather([18189, 20079, 21591, 23103], 378),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BA6283S-BTI-60-70", name: "Yves 60”-70” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
-  standardFinish: "Optional: Bullion/ 6.5 Yards +", frameMaterial: null, basePrice: 300,
-  specs: ["(2) Baker Comfort seat cushions", "(2) Baker Comfort back pillows (10”x26”)", "Tight back", "Exposed Oak Leg"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: 36, seatHeight: 31, seatDepth: null, armWidth: 18, armHeight: 21, exposedLegHeight: null, volume: 21.5, weight: null, fabricReq: null, leatherReq: null }),
-  fabric: fab([15, 255, 8967, 9102, 9237, 9507, 9777, 10047, 10317, 10587, 10857, 11127, 11397, 11667, 11937, 12207]),
-  leather: leather([12477, 12747, 12477, 13827], 14907),
-  finishTiers: { tier1: null, tier2: 8697, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 8697,
+  specs: ["(2) Baker Comfort seat cushions", "(2) Baker Comfort back pillows (10”x26”)", "Tight back", "Exposed Oak Leg", "Optional: Bullion/ 6.5 Yar ds +$300"],
+  dims: dims({ width: null, depth: 36, height: 31, widthInside: null, seatHeight: 18, seatDepth: 21, armWidth: null, armHeight: 21.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 15, leatherReq: 255 }),
+  fabric: fab([8967, 9102, 9237, 9507, 9777, 10047, 10317, 10587, 10857, 11127, 11397, 11667, 11937, 12207, 12477, 12747]),
+  leather: leather([12477, 13827, 14907, 15987], 270),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BA6283S-BTI-71-80", name: "Yves 71”-80” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
-  standardFinish: "Optional: Bullion/7.25 Yards +", frameMaterial: null, basePrice: 300,
-  specs: ["(2) Baker Comfort seat cushions", "(2) Baker Comfort back pillows (10”x26”)", "Tight back", "Exposed Oak Leg"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: 36, seatHeight: 31, seatDepth: null, armWidth: 18, armHeight: 21, exposedLegHeight: null, volume: 21.5, weight: null, fabricReq: null, leatherReq: null }),
-  fabric: fab([16, 272, 9885, 10029, 10173, 10461, 10749, 11037, 11325, 11613, 11901, 12189, 12477, 12765, 13053, 13341]),
-  leather: leather([13629, 13917, 13629, 15069], 16221),
-  finishTiers: { tier1: null, tier2: 9597, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 9597,
+  specs: ["(2) Baker Comfort seat cushions", "(2) Baker Comfort back pillows (10”x26”)", "Tight back", "Exposed Oak Leg", "Optional: Bullion/7.25 Yar ds +$300"],
+  dims: dims({ width: null, depth: 36, height: 31, widthInside: null, seatHeight: 18, seatDepth: 21, armWidth: null, armHeight: 21.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 16, leatherReq: 272 }),
+  fabric: fab([9885, 10029, 10173, 10461, 10749, 11037, 11325, 11613, 11901, 12189, 12477, 12765, 13053, 13341, 13629, 13917]),
+  leather: leather([13629, 15069, 16221, 17373], 288),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -2209,12 +2249,12 @@ const PRODUCTS = [
 
 {
   sku: "BA6283S-BTI-91-100", name: "Yves 91”-100” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
-  standardFinish: "Optional: Bullion /8.25 Yards +", frameMaterial: null, basePrice: 300,
-  specs: ["(3) Baker Comfort seat cushions (3) Baker Comfort back pillows (10”x26”) Tight back Exposed Oak Leg"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: 36, seatHeight: 31, seatDepth: null, armWidth: 18, armHeight: 21, exposedLegHeight: null, volume: 21.5, weight: null, fabricReq: null, leatherReq: null }),
-  fabric: fab([18, 306, 11421, 11583, 11745, 12069, 12393, 12717, 13041, 13365, 13689, 14013, 14337, 14661, 14985, 15309]),
-  leather: leather([15633, 15957, 15633, 17253], 18549),
-  finishTiers: { tier1: null, tier2: 11097, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 11097,
+  specs: ["(3) Baker Comfort seat cushions (3) Baker Comfort back pillows (10”x26”) Tight back Exposed Oak Leg Optional: Bullion /8.25 Yar ds +$300"],
+  dims: dims({ width: null, depth: 36, height: 31, widthInside: null, seatHeight: 18, seatDepth: 21, armWidth: null, armHeight: 21.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 18, leatherReq: 306 }),
+  fabric: fab([11421, 11583, 11745, 12069, 12393, 12717, 13041, 13365, 13689, 14013, 14337, 14661, 14985, 15309, 15633, 15957]),
+  leather: leather([15633, 17253, 18549, 19845], 324),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -2329,12 +2369,12 @@ const PRODUCTS = [
 
 {
   sku: "BA6312-11", name: "Tuileries Ottoman", collection: "Jacques Garcia", category: "ottomans", limited: true,
-  standardFinish: "Exposed Maple woodSmall nail trim +", frameMaterial: null, basePrice: 105,
-  specs: ["Tight top Welt trim standard"],
-  dims: dims({ width: null, depth: null, height: 30, widthInside: 22.5, seatHeight: 15, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: 1, leatherReq: null }),
-  fabric: fab([2.25, 38, 2853, 2874, 2895, 2937, 2979, 3021, 3063, 3105, 3147, 3189, 3231, 3273, 3315, 3357]),
-  leather: leather([3399, 3441, 3399, 3609], 3777),
-  finishTiers: { tier1: null, tier2: 2811, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2811,
+  specs: ["Tight top Welt trim standard Exposed Maple wood Small nail trim +$105"],
+  dims: dims({ width: 30, depth: 22.5, height: 15, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([2853, 2874, 2895, 2937, 2979, 3021, 3063, 3105, 3147, 3189, 3231, 3273, 3315, 3357, 3399, 3441]),
+  leather: leather([3399, 3609, 3777, 3945], 42),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -2419,22 +2459,22 @@ const PRODUCTS = [
 
 {
   sku: "BA6369-32", name: "Paris Club Chair (Modern Stitch)", collection: "Thomas Pheasant", category: "chairs", limited: true,
-  standardFinish: "Nail trim for medium & large nails +", frameMaterial: null, basePrice: 525,
+  standardFinish: null, frameMaterial: null, basePrice: 7227,
   specs: [],
-  dims: dims({ width: null, depth: null, height: 32.5, widthInside: 34, seatHeight: 28.5, seatDepth: 20, armWidth: 17.5, armHeight: null, exposedLegHeight: null, volume: 28.5, weight: 2, fabricReq: 1, leatherReq: null }),
-  fabric: fab([6.75, 115, 7350, 7413, 7473, 7596, 7719, 7842, 7965, 8088, 8211, 8334, 8457, 8580, 8703, 8826]),
-  leather: leather([8949, 9072, 8949, 9564], 10056),
-  finishTiers: { tier1: null, tier2: 7227, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+  dims: dims({ width: 32.5, depth: 34, height: 28.5, widthInside: 20, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 28.5, exposedLegHeight: 2, volume: 1, weight: null, fabricReq: 6.75, leatherReq: 115 }),
+  fabric: fab([7350, 7413, 7473, 7596, 7719, 7842, 7965, 8088, 8211, 8334, 8457, 8580, 8703, 8826, 8949, 9072]),
+  leather: leather([8949, 9564, 10056, 10548], 123),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BA6369-32-v2", name: "Paris Club Chair (Tufted)", collection: "Thomas Pheasant", category: "chairs", limited: true,
-  standardFinish: "Nail trim for medium and large nails +", frameMaterial: null, basePrice: 525,
-  specs: ["Tufted", "Tufted seat and back", "Exposed Maple wood", "Weltless construction standard", "Nail trim for small nails optional +$375"],
-  dims: dims({ width: null, depth: null, height: 32.5, widthInside: 34, seatHeight: 28.5, seatDepth: 20, armWidth: 17.5, armHeight: null, exposedLegHeight: null, volume: 28.5, weight: 2, fabricReq: 1, leatherReq: null }),
-  fabric: fab([8, 136, 7971, 8043, 8115, 8259, 8403, 8547, 8691, 8835, 8979, 9123, 9267, 9411, 9555, 9699]),
-  leather: leather([9843, 9987, 9843, 10563], 11139),
-  finishTiers: { tier1: null, tier2: 7827, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 7827,
+  specs: ["Tufted", "Tufted seat and back", "Exposed Maple wood", "Weltless construction standard", "Nail trim for small nails optional +$375", "Nail trim for medium and large na ils +$525"],
+  dims: dims({ width: 32.5, depth: 34, height: 28.5, widthInside: 20, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 28.5, exposedLegHeight: 2, volume: 1, weight: null, fabricReq: 8, leatherReq: 136 }),
+  fabric: fab([7971, 8043, 8115, 8259, 8403, 8547, 8691, 8835, 8979, 9123, 9267, 9411, 9555, 9699, 9843, 9987]),
+  leather: leather([9843, 10563, 11139, 11715], 144),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -2449,32 +2489,32 @@ const PRODUCTS = [
 
 {
   sku: "BA6369-84-v2", name: "Paris Loveseat (Tufted)", collection: "Thomas Pheasant", category: "sofas", limited: true,
-  standardFinish: "Nail trim for medium & large nails +", frameMaterial: null, basePrice: 525,
-  specs: ["Tufted Tufted seat and back Exposed Maple wood Weltless construction Nail trim for small nails +$375"],
-  dims: dims({ width: null, depth: null, height: 84.5, widthInside: 34, seatHeight: 28.5, seatDepth: 72, armWidth: 17.5, armHeight: null, exposedLegHeight: null, volume: 28.5, weight: 2, fabricReq: 1, leatherReq: null }),
-  fabric: fab([10, 170, 9657, 9747, 9837, 10017, 10197, 10377, 10557, 10737, 10917, 11097, 11277, 11457, 11637, 11817]),
-  leather: leather([11997, 12177, 11997, 12897], 13617),
-  finishTiers: { tier1: null, tier2: 9477, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 9477,
+  specs: ["Tufted Tufted seat and back Exposed Maple wood Weltless construction Nail trim for small nails +$375 Nail trim for medium & large nai ls +$525"],
+  dims: dims({ width: 84.5, depth: 34, height: 28.5, widthInside: 72, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 28.5, exposedLegHeight: 2, volume: 1, weight: null, fabricReq: 10, leatherReq: 170 }),
+  fabric: fab([9657, 9747, 9837, 10017, 10197, 10377, 10557, 10737, 10917, 11097, 11277, 11457, 11637, 11817, 11997, 12177]),
+  leather: leather([11997, 12897, 13617, 14337], 180),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BA6369-85", name: "Paris Chaise Lounge (Modern Stitch)", collection: "Thomas Pheasant", category: "chairs", limited: true,
-  standardFinish: "Nail trim for medium and large nails +", frameMaterial: null, basePrice: 795,
-  specs: ["Tight seat", "Two (2) Baker Fiberlux bolsters (6” x 27”)", "Exposed Maple wood", "Weltless construction standard", "Nail trim for small nails +$600"],
-  dims: dims({ width: null, depth: null, height: 85, widthInside: 29, seatHeight: 22, seatDepth: 64, armWidth: 16.5, armHeight: null, exposedLegHeight: null, volume: 22, weight: 2, fabricReq: 1, leatherReq: null }),
-  fabric: fab([8.5, 145, 7770, 7848, 7923, 8076, 8229, 8382, 8535, 8688, 8841, 8994, 9147, 9300, 9453, 9606]),
-  leather: leather([9759, 9912, 9759, 10524], 11136),
-  finishTiers: { tier1: null, tier2: 7617, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 7617,
+  specs: ["Tight seat", "Two (2) Baker Fiberlux bolsters (6” x 27”)", "Exposed Maple wood", "Weltless construction standard", "Nail trim for small nails +$600", "Nail trim for medium and large na ils +$795"],
+  dims: dims({ width: 85, depth: 29, height: 22, widthInside: 64, seatHeight: 16.5, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: 2, volume: 1, weight: null, fabricReq: 8.5, leatherReq: 145 }),
+  fabric: fab([7770, 7848, 7923, 8076, 8229, 8382, 8535, 8688, 8841, 8994, 9147, 9300, 9453, 9606, 9759, 9912]),
+  leather: leather([9759, 10524, 11136, 11748], 153),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BA6369-85-v2", name: "Paris Chaise Lounge (Tufted)", collection: "Thomas Pheasant", category: "chairs", limited: true,
-  standardFinish: "Nail trim for medium & large nails +", frameMaterial: null, basePrice: 795,
-  specs: ["Tufted seat and back", "Two (2) Baker Fiberlux bolsters (6” x 27”)", "Exposed wood - Maple", "Weltless construction standard", "Nail trim for small nails +$600 a"],
-  dims: dims({ width: null, depth: null, height: 85, widthInside: 29, seatHeight: 22, seatDepth: 64, armWidth: 16.5, armHeight: null, exposedLegHeight: null, volume: 22, weight: 2, fabricReq: 1, leatherReq: null }),
-  fabric: fab([9, 153, 8379, 8460, 8541, 8703, 8865, 9027, 9189, 9351, 9513, 9675, 9837, 9999, 10161, 10323]),
-  leather: leather([10485, 10647, 10485, 11295], 11943),
-  finishTiers: { tier1: null, tier2: 8217, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 8217,
+  specs: ["Tufted seat and back", "Two (2) Baker Fiberlux bolsters (6” x 27”)", "Exposed wood - Maple", "Weltless construction standard", "Nail trim for small nails +$600 a", "Nail trim for medium & large nai ls +$795"],
+  dims: dims({ width: 85, depth: 29, height: 22, widthInside: 64, seatHeight: 16.5, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: 2, volume: 1, weight: null, fabricReq: 9, leatherReq: 153 }),
+  fabric: fab([8379, 8460, 8541, 8703, 8865, 9027, 9189, 9351, 9513, 9675, 9837, 9999, 10161, 10323, 10485, 10647]),
+  leather: leather([10485, 11295, 11943, 12591], 162),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -2489,12 +2529,12 @@ const PRODUCTS = [
 
 {
   sku: "BA6369-97-v2", name: "Paris Sofa (Tufted)", collection: "Thomas Pheasant", category: "sofas", limited: true,
-  standardFinish: "Nail trim for medium and large nails +", frameMaterial: null, basePrice: 795,
-  specs: ["Tufted Tufted seat and back Exposed Maple wood Weltless construction standard Nail trim for small nails +$600"],
-  dims: dims({ width: null, depth: null, height: 97.5, widthInside: 34, seatHeight: 28.5, seatDepth: 85, armWidth: 17.5, armHeight: null, exposedLegHeight: null, volume: 28.5, weight: 2, fabricReq: 1, leatherReq: null }),
-  fabric: fab([11.25, 191, 11766, 11868, 11970, 12174, 12378, 12582, 12786, 12990, 13194, 13398, 13602, 13806, 14010, 14214]),
-  leather: leather([14418, 14622, 14418, 15438], 16254),
-  finishTiers: { tier1: null, tier2: 11562, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 11562,
+  specs: ["Tufted Tufted seat and back Exposed Maple wood Weltless construction standard Nail trim for small nails +$600 Nail trim for medium and large na ils +$795"],
+  dims: dims({ width: 97.5, depth: 34, height: 28.5, widthInside: 85, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 28.5, exposedLegHeight: 2, volume: 1, weight: null, fabricReq: 11.25, leatherReq: 191 }),
+  fabric: fab([11766, 11868, 11970, 12174, 12378, 12582, 12786, 12990, 13194, 13398, 13602, 13806, 14010, 14214, 14418, 14622]),
+  leather: leather([14418, 15438, 16254, 17070], 204),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -2788,23 +2828,13 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BA6734SO", name: "Surround One Arm Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
-  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 11382,
-  specs: ["BA6741C Verve Lounge ChBarbara Barry 3) Baker Comfort seat", "One (1) Baker Comfort seas", "One (1) Baker Comfort KE ack pillow (14”x20”) er Comfort Plush throws:", "Optional swivel base (20”x12”) KE, One (1)", "Brass base ”) KE, One (1) boxed arm Bronze base elt Bronze"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 85.5, volume: 31.5, weight: 34, fabricReq: 37, leatherReq: 30.5 }),
-  fabric: fab([30.5, 75.5, 26, 17.5, 18.5, null, null, null, null, 26.5, null, 4, null, 1, 1, 190]),
-  leather: leather([75, 15, 5.5, 255], 93.5),
-  finishTiers: { tier1: 8394, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "BA6741C", name: "Verve Lounge Chair", collection: "Barbara Barry", category: "chairs", limited: false,
-  standardFinish: "•Warm Bronze base +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight upholstery with Walnut Base"],
-  dims: dims({ width: null, depth: null, height: 20, widthInside: 20, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: 15, leatherReq: 46 }),
-  fabric: fab([1.25, 21, 3390, 3402, 3414, 3438, 3462, 3486, 3510, 3534, 3558, 3582, 3606, 3630, 3654, 3678]),
-  leather: leather([3702, 3726, 3702, 3822], 3918),
-  finishTiers: { tier1: null, tier2: 3366, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 3366,
+  specs: ["Tight upholstery with Walnut Base", "Warm Bronze base +$300"],
+  dims: dims({ width: 20, depth: 20, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 46, fabricReq: 1.25, leatherReq: 21 }),
+  fabric: fab([3390, 3402, 3414, 3438, 3462, 3486, 3510, 3534, 3558, 3582, 3606, 3630, 3654, 3678, 3702, 3726]),
+  leather: leather([3702, 3822, 3918, 4014], 24),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -4280,7 +4310,7 @@ const PRODUCTS = [
 {
   sku: "BAA4402C", name: "Clifton Swivel Lounge Chair Baker Luxe", collection: null, category: "chairs", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 6822,
-  specs: [],
+  specs: ["Tight upholstered chair Quartered oak veneer base Standard 180 return swivel or optional 360 swivel"],
   dims: dims({ width: 30, depth: 34, height: 30, widthInside: 22, seatHeight: 18, seatDepth: 23.5, armWidth: null, armHeight: 19.5, exposedLegHeight: 5, volume: 45, weight: 83.5, fabricReq: 4.5, leatherReq: 77 }),
   fabric: fab([6903, 6945, 6984, 7065, 7146, 7227, 7308, 7389, 7470, 7551, 7632, 7713, 7794, 7875, 7956, 8037]),
   leather: leather([7956, 8361, 8685, 9009], 81),
@@ -4290,7 +4320,7 @@ const PRODUCTS = [
 {
   sku: "BAA4404C", name: "Drew Lounge Chair Baker Luxe", collection: null, category: "chairs", limited: true,
   standardFinish: null, frameMaterial: null, basePrice: 6006,
-  specs: [],
+  specs: ["Tight upholstered chair", "Oak feet", "(1) 22” x 16” Baker Comfort Plush throw pillow"],
   dims: dims({ width: 33, depth: 37, height: 31, widthInside: 23, seatHeight: 18, seatDepth: 22, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: 45, weight: 81, fabricReq: 6.25, leatherReq: 106 }),
   fabric: fab([6120, 6177, 6234, 6348, 6462, 6576, 6690, 6804, 6918, 7032, 7146, 7260, 7374, 7488, 7602, 7716]),
   leather: leather([7602, 8172, 8628, 9084], 114),
@@ -4300,7 +4330,7 @@ const PRODUCTS = [
 {
   sku: "BAA4406C", name: "Parlor Club Chair Baker Luxe", collection: null, category: "chairs", limited: true,
   standardFinish: null, frameMaterial: null, basePrice: 5715,
-  specs: [],
+  specs: ["Tight upholstered chair", "Beech plinth base h", "Optional swivel - 180 return or 360 return"],
   dims: dims({ width: 33, depth: 36, height: 28, widthInside: 23, seatHeight: 16.5, seatDepth: 23, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: 45, weight: 94, fabricReq: 6.5, leatherReq: 111 }),
   fabric: fab([5832, 5892, 5949, 6066, 6183, 6300, 6417, 6534, 6651, 6768, 6885, 7002, 7119, 7236, 7353, 7470]),
   leather: leather([7353, 7938, 8406, 8874], 117),
@@ -4310,7 +4340,7 @@ const PRODUCTS = [
 {
   sku: "BAA4406L", name: "Parlor Loveseat Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 8862,
-  specs: [],
+  specs: ["Tight upholstered loveseat", "T Beech feet", "B (2) 20” x 20” Baker Comfort Plush", "(throw pillows t-"],
   dims: dims({ width: 70, depth: 38, height: 28, widthInside: 60, seatHeight: 16.5, seatDepth: 23, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: 77, weight: 160.5, fabricReq: 9.5, leatherReq: 162 }),
   fabric: fab([9033, 9120, 9204, 9375, 9546, 9717, 9888, 10059, 10230, 10401, 10572, 10743, 10914, 11085, 11256, 11427]),
   leather: leather([11256, 12111, 12795, 13479], 171),
@@ -4320,7 +4350,7 @@ const PRODUCTS = [
 {
   sku: "BAA4406S-BTI-101-110", name: "Parlor 101”-110” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 11151,
-  specs: [],
+  specs: ["Tight upholstered sofa Beech feet (2) 20” x 20” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 101, depth: 38, height: 28, widthInside: null, seatHeight: 16.5, seatDepth: 26, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: null, weight: null, fabricReq: 13.25, leatherReq: 225 }),
   fabric: fab([11391, 11511, 11631, 11871, 12111, 12351, 12591, 12831, 13071, 13311, 13551, 13791, 14031, 14271, 14511, 14751]),
   leather: leather([14511, 15711, 16671, 17631], 240),
@@ -4330,7 +4360,7 @@ const PRODUCTS = [
 {
   sku: "BAA4406S-BTI-111-120", name: "Parlor 111”-120” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 11796,
-  specs: [],
+  specs: ["Tight upholstered sofa", "Beech feet", "(2) 20” x 20” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 111, depth: 38, height: 28, widthInside: null, seatHeight: 16.5, seatDepth: 26, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: null, weight: null, fabricReq: 14.25, leatherReq: 242 }),
   fabric: fab([12054, 12183, 12312, 12570, 12828, 13086, 13344, 13602, 13860, 14118, 14376, 14634, 14892, 15150, 15408, 15666]),
   leather: leather([15408, 16698, 17730, 18762], 258),
@@ -4340,7 +4370,7 @@ const PRODUCTS = [
 {
   sku: "BAA4406S-BTI-60-70", name: "Parlor 60”-70” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 8286,
-  specs: [],
+  specs: ["Tight upholstered sofa", "Beech feet h", "(2) 20” x 20” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 60, depth: 38, height: 28, widthInside: null, seatHeight: 16.5, seatDepth: 26, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: null, weight: null, fabricReq: 10, leatherReq: 170 }),
   fabric: fab([8466, 8556, 8646, 8826, 9006, 9186, 9366, 9546, 9726, 9906, 10086, 10266, 10446, 10626, 10806, 10986]),
   leather: leather([10806, 11706, 12426, 13146], 180),
@@ -4350,7 +4380,7 @@ const PRODUCTS = [
 {
   sku: "BAA4406S-BTI-71-80", name: "Parlor 71”-80” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 8922,
-  specs: [],
+  specs: ["Tight upholstered sofa", "T Beech feet", "B (2) 20” x 20” Baker Comfort Plush", "(throw pillows t-"],
   dims: dims({ width: 71, depth: 38, height: 28, widthInside: null, seatHeight: 16.5, seatDepth: 26, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: null, weight: null, fabricReq: 10.75, leatherReq: 183 }),
   fabric: fab([9117, 9216, 9312, 9507, 9702, 9897, 10092, 10287, 10482, 10677, 10872, 11067, 11262, 11457, 11652, 11847]),
   leather: leather([11652, 12627, 13407, 14187], 195),
@@ -4360,7 +4390,7 @@ const PRODUCTS = [
 {
   sku: "BAA4406S-BTI-81-90", name: "Parlor 81”-90” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 9561,
-  specs: [],
+  specs: ["Tight upholstered sofa Beech feet (2) 20” x 20” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 81, depth: 38, height: 28, widthInside: null, seatHeight: 16.5, seatDepth: 26, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: null, weight: null, fabricReq: 11.5, leatherReq: 196 }),
   fabric: fab([9768, 9873, 9975, 10182, 10389, 10596, 10803, 11010, 11217, 11424, 11631, 11838, 12045, 12252, 12459, 12666]),
   leather: leather([12459, 13494, 14322, 15150], 207),
@@ -4370,7 +4400,7 @@ const PRODUCTS = [
 {
   sku: "BAA4406S-BTI-91-100", name: "Parlor 91”-100” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 10197,
-  specs: [],
+  specs: ["Tight upholstered sofa", "Beech feet", "(2) 20” x 20” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 91, depth: 38, height: 28, widthInside: null, seatHeight: 16.5, seatDepth: 26, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: null, weight: null, fabricReq: 12.25, leatherReq: 208 }),
   fabric: fab([10419, 10530, 10641, 10863, 11085, 11307, 11529, 11751, 11973, 12195, 12417, 12639, 12861, 13083, 13305, 13527]),
   leather: leather([13305, 14415, 15303, 16191], 222),
@@ -4380,7 +4410,7 @@ const PRODUCTS = [
 {
   sku: "BAA4406S", name: "Parlor Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 9561,
-  specs: [],
+  specs: ["Tight upholstered sofa", "Beech feet h", "(2) 20” x 20” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 98, depth: 38, height: 28, widthInside: 88, seatHeight: 16.5, seatDepth: 26, armWidth: null, armHeight: 28, exposedLegHeight: 1, volume: 97, weight: 149, fabricReq: 11.5, leatherReq: 196 }),
   fabric: fab([9768, 9873, 9975, 10182, 10389, 10596, 10803, 11010, 11217, 11424, 11631, 11838, 12045, 12252, 12459, 12666]),
   leather: leather([12459, 13494, 14322, 15150], 207),
@@ -4390,7 +4420,7 @@ const PRODUCTS = [
 {
   sku: "BAA4407C", name: "Collar Lounge Chair Baker Luxe", collection: null, category: "chairs", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 10746,
-  specs: [],
+  specs: ["Tight upholstered seat and back", "F Bronze frame", "T (tNatural Bronze"],
   dims: dims({ width: 34.5, depth: 33.75, height: 26, widthInside: 23, seatHeight: 15.5, seatDepth: 24, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 45, weight: 90.5, fabricReq: 5, leatherReq: 85 }),
   fabric: fab([10836, 10881, 10926, 11016, 11106, 11196, 11286, 11376, 11466, 11556, 11646, 11736, 11826, 11916, 12006, 12096]),
   leather: leather([12006, 12456, 12816, 13176], 90),
@@ -4400,7 +4430,7 @@ const PRODUCTS = [
 {
   sku: "BAA4408S-BTI-101-110", name: "Tribute 101”-110” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 12651,
-  specs: [],
+  specs: ["Fully upholstered sofa Tight seat and back (2) 22” x 22” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 101, depth: 39, height: 30, widthInside: null, seatHeight: 18.5, seatDepth: 24, armWidth: null, armHeight: 30, exposedLegHeight: null, volume: null, weight: null, fabricReq: 13.25, leatherReq: 225 }),
   fabric: fab([12891, 13011, 13131, 13371, 13611, 13851, 14091, 14331, 14571, 14811, 15051, 15291, 15531, 15771, 16011, 16251]),
   leather: leather([16011, 17211, 18171, 19131], 240),
@@ -4410,7 +4440,7 @@ const PRODUCTS = [
 {
   sku: "BAA4408S-BTI-111-120", name: "Tribute 111”-120” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 13296,
-  specs: [],
+  specs: ["Fully upholstered sofa", "Tight seat and back", "(2) 22” x 22” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 111, depth: 39, height: 30, widthInside: null, seatHeight: 18.5, seatDepth: 24, armWidth: null, armHeight: 30, exposedLegHeight: null, volume: null, weight: null, fabricReq: 14.25, leatherReq: 242 }),
   fabric: fab([13554, 13683, 13812, 14070, 14328, 14586, 14844, 15102, 15360, 15618, 15876, 16134, 16392, 16650, 16908, 17166]),
   leather: leather([16908, 18198, 19230, 20262], 258),
@@ -4420,7 +4450,7 @@ const PRODUCTS = [
 {
   sku: "BAA4408S-BTI-60-70", name: "Tribute 60”-70” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 9477,
-  specs: [],
+  specs: ["Fully upholstered sofa", "Tight seat and back h", "(2) 22” x 22” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 60, depth: 39, height: 30, widthInside: null, seatHeight: 18.5, seatDepth: 24, armWidth: null, armHeight: 30, exposedLegHeight: null, volume: null, weight: null, fabricReq: 9.75, leatherReq: 166 }),
   fabric: fab([9654, 9744, 9831, 10008, 10185, 10362, 10539, 10716, 10893, 11070, 11247, 11424, 11601, 11778, 11955, 12132]),
   leather: leather([11955, 12840, 13548, 14256], 177),
@@ -4430,7 +4460,7 @@ const PRODUCTS = [
 {
   sku: "BAA4408S-BTI-71-80", name: "Tribute 71”-80” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 10116,
-  specs: [],
+  specs: ["Fully upholstered sofa", "F Tight seat and back", "T (2) 22” x 22” Baker Comfort Plush", "(throw pillows t-"],
   dims: dims({ width: 71, depth: 39, height: 30, widthInside: null, seatHeight: 18.5, seatDepth: 24, armWidth: null, armHeight: 30, exposedLegHeight: null, volume: null, weight: null, fabricReq: 10.5, leatherReq: 179 }),
   fabric: fab([10305, 10401, 10494, 10683, 10872, 11061, 11250, 11439, 11628, 11817, 12006, 12195, 12384, 12573, 12762, 12951]),
   leather: leather([12762, 13707, 14463, 15219], 189),
@@ -4440,7 +4470,7 @@ const PRODUCTS = [
 {
   sku: "BAA4408S-BTI-81-90", name: "Tribute 81”-90” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 10752,
-  specs: [],
+  specs: ["Fully upholstered sofa Tight seat and back (2) 22” x 22” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 81, depth: 39, height: 30, widthInside: null, seatHeight: 18.5, seatDepth: 24, armWidth: null, armHeight: 30, exposedLegHeight: null, volume: null, weight: null, fabricReq: 11.25, leatherReq: 191 }),
   fabric: fab([10956, 11058, 11160, 11364, 11568, 11772, 11976, 12180, 12384, 12588, 12792, 12996, 13200, 13404, 13608, 13812]),
   leather: leather([13608, 14628, 15444, 16260], 204),
@@ -4450,7 +4480,7 @@ const PRODUCTS = [
 {
   sku: "BAA4408S-BTI-91-100", name: "Tribute 91”-100” Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 11676,
-  specs: [],
+  specs: ["Fully upholstered sofa", "Tight seat and back", "(2) 22” x 22” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 91, depth: 39, height: 30, widthInside: null, seatHeight: 18.5, seatDepth: 24, armWidth: null, armHeight: 30, exposedLegHeight: null, volume: null, weight: null, fabricReq: 11.75, leatherReq: 200 }),
   fabric: fab([11889, 11997, 12102, 12315, 12528, 12741, 12954, 13167, 13380, 13593, 13806, 14019, 14232, 14445, 14658, 14871]),
   leather: leather([14658, 15723, 16575, 17427], 213),
@@ -4460,7 +4490,7 @@ const PRODUCTS = [
 {
   sku: "BAA4408S", name: "Tribute Sofa Baker Luxe", collection: null, category: "sofas", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 10452,
-  specs: [],
+  specs: ["Fully upholstered sofa", "Tight seat and back h", "(2) 22” x 22” Baker Comfort Plush throw pillows"],
   dims: dims({ width: 96, depth: 39, height: 30, widthInside: 78.5, seatHeight: 18.5, seatDepth: 24, armWidth: null, armHeight: 30, exposedLegHeight: null, volume: 97, weight: 208.5, fabricReq: 11.25, leatherReq: 191 }),
   fabric: fab([10656, 10758, 10860, 11064, 11268, 11472, 11676, 11880, 12084, 12288, 12492, 12696, 12900, 13104, 13308, 13512]),
   leather: leather([13308, 14328, 15144, 15960], 204),
@@ -4470,7 +4500,7 @@ const PRODUCTS = [
 {
   sku: "BAA4410B-BTI-32-55", name: "Gala 32”-55” Bench Baker Luxe", collection: null, category: "ottomans", limited: false,
   standardFinish: "BNatural BronzeN", frameMaterial: null, basePrice: 5610,
-  specs: [],
+  specs: ["Tight upholstered seat with", "Tattached bolsters a Bronze legs"],
   dims: dims({ width: 32, depth: 21, height: 21.75, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 21.75, exposedLegHeight: 15, volume: null, weight: null, fabricReq: 3.25, leatherReq: 55 }),
   fabric: fab([5670, 5700, 5730, 5790, 5850, 5910, 5970, 6030, 6090, 6150, 6210, 6270, 6330, 6390, 6450, 6510]),
   leather: leather([6450, 6750, 6990, 7230], 60),
@@ -4480,7 +4510,7 @@ const PRODUCTS = [
 {
   sku: "BAA4410B-BTI-56-75", name: "Gala 56”-75” Bench Baker Luxe", collection: null, category: "ottomans", limited: false,
   standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 6240,
-  specs: [],
+  specs: ["Tight upholstered seat with attached bolsters Bronze legs"],
   dims: dims({ width: 56, depth: 21, height: 21.75, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 21.75, exposedLegHeight: 15, volume: null, weight: null, fabricReq: 4, leatherReq: 68 }),
   fabric: fab([6312, 6348, 6384, 6456, 6528, 6600, 6672, 6744, 6816, 6888, 6960, 7032, 7104, 7176, 7248, 7320]),
   leather: leather([7248, 7608, 7896, 8184], 72),
@@ -4490,7 +4520,7 @@ const PRODUCTS = [
 {
   sku: "BAA4410B-BTI-76-95", name: "Gala 76”-95” Bench Baker Luxe", collection: null, category: "ottomans", limited: false,
   standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 6879,
-  specs: [],
+  specs: ["Tight upholstered seat with attached bolsters", "Bronze legs"],
   dims: dims({ width: 76, depth: 21, height: 21.75, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 21.75, exposedLegHeight: 15, volume: null, weight: null, fabricReq: 4.75, leatherReq: 81 }),
   fabric: fab([6966, 7011, 7053, 7140, 7227, 7314, 7401, 7488, 7575, 7662, 7749, 7836, 7923, 8010, 8097, 8184]),
   leather: leather([8097, 8532, 8880, 9228], 87),
@@ -4500,7 +4530,7 @@ const PRODUCTS = [
 {
   sku: "BAA4410B", name: "Gala Bench Baker Luxe", collection: null, category: "ottomans", limited: false,
   standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 6210,
-  specs: [],
+  specs: ["Tight upholstered seat with attached bolsters", "Bronze legs"],
   dims: dims({ width: 62, depth: 21, height: 21.75, widthInside: 49, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 21.75, exposedLegHeight: 15, volume: 16, weight: 50.5, fabricReq: 3.25, leatherReq: 55 }),
   fabric: fab([6270, 6300, 6330, 6390, 6450, 6510, 6570, 6630, 6690, 6750, 6810, 6870, 6930, 6990, 7050, 7110]),
   leather: leather([7050, 7350, 7590, 7830], 60),
@@ -4519,12 +4549,12 @@ const PRODUCTS = [
 
 {
   sku: "BAA4700C", name: "Elba Lounge Chair", collection: "Baker Resort®", category: "chairs", limited: false,
-  standardFinish: "Optional L2300 TibetanWool +", frameMaterial: null, basePrice: 18000,
-  specs: ["Fully upholstered frame Tight seat and back Standard 180 return swivel Optional 360 swivel or stationary"],
-  dims: dims({ width: null, depth: null, height: 32, widthInside: 34.5, seatHeight: 29.5, seatDepth: 22, armWidth: 17.5, armHeight: 23, exposedLegHeight: null, volume: 25.5, weight: null, fabricReq: 45, leatherReq: 92 }),
-  fabric: fab([4, 68, 6264, 6300, 6336, 6408, 6480, 6552, 6624, 6696, 6768, 6840, 6912, 6984, 7056, 7128]),
-  leather: leather([7200, 7272, 7200, 7560], 7848),
-  finishTiers: { tier1: null, tier2: 6192, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 6192,
+  specs: ["Fully upholstered frame Tight seat and back Standard 180 return swivel Optional 360 swivel or stationary Optional L2300 Tibetan Wool +$18000"],
+  dims: dims({ width: 32, depth: 34.5, height: 29.5, widthInside: 22, seatHeight: 17.5, seatDepth: 23, armWidth: null, armHeight: 25.5, exposedLegHeight: null, volume: 45, weight: 92, fabricReq: 4, leatherReq: 68 }),
+  fabric: fab([6264, 6300, 6336, 6408, 6480, 6552, 6624, 6696, 6768, 6840, 6912, 6984, 7056, 7128, 7200, 7272]),
+  leather: leather([7200, 7560, 7848, 8136], 72),
+  finishTiers: null,
 },
 
 {
@@ -4719,22 +4749,22 @@ const PRODUCTS = [
 
 {
   sku: "BAA4904L", name: "Azzurro Loveseat", collection: "Paola Navone", category: "sofas", limited: true,
-  standardFinish: "Decorative stitching in Black,Midnight Grey, or White +", frameMaterial: null, basePrice: 600,
-  specs: ["Fully upholstered frame One (1) bench seat cushion (soft sit) Two (2) kidney pillows Cast resin feet"],
-  dims: dims({ width: null, depth: null, height: 85, widthInside: 42, seatHeight: 29, seatDepth: 63, armWidth: 18, armHeight: 22, exposedLegHeight: null, volume: 23, weight: 1, fabricReq: 58, leatherReq: 168 }),
-  fabric: fab([11.25, 191, 8850, 8952, 9054, 9258, 9462, 9666, 9870, 10074, 10278, 10482, 10686, 10890, 11094, 11298]),
-  leather: leather([11502, 11706, 11502, 12522], 13338),
-  finishTiers: { tier1: null, tier2: 8646, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 8646,
+  specs: ["Fully upholstered frame One (1) bench seat cushion (soft sit) Two (2) kidney pillows Cast resin feet Decorative stitching in Black, Midnight Grey, or White +$600"],
+  dims: dims({ width: 85, depth: 42, height: 29, widthInside: 63, seatHeight: 18, seatDepth: 22, armWidth: null, armHeight: 23, exposedLegHeight: 1, volume: 58, weight: 168, fabricReq: 11.25, leatherReq: 191 }),
+  fabric: fab([8850, 8952, 9054, 9258, 9462, 9666, 9870, 10074, 10278, 10482, 10686, 10890, 11094, 11298, 11502, 11706]),
+  leather: leather([11502, 12522, 13338, 14154], 204),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA4904S", name: "Azzurro Sofa", collection: "Paola Navone", category: "sofas", limited: true,
-  standardFinish: "Decorative stitching in Black,Midnight Grey, or White +", frameMaterial: null, basePrice: 600,
-  specs: ["Fully upholstered frame", "One (1) bench seat cushion (soft sit)", "Two (2) kidney pillows", "Cast resin feet"],
-  dims: dims({ width: null, depth: null, height: 100.5, widthInside: 42, seatHeight: 29, seatDepth: 78, armWidth: 18, armHeight: 22, exposedLegHeight: null, volume: 23, weight: 1, fabricReq: 69, leatherReq: 184 }),
-  fabric: fab([13, 221, 11064, 11181, 11298, 11532, 11766, 12000, 12234, 12468, 12702, 12936, 13170, 13404, 13638, 13872]),
-  leather: leather([14106, 14340, 14106, 15276], 16212),
-  finishTiers: { tier1: null, tier2: 10830, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 10830,
+  specs: ["Fully upholstered frame", "One (1) bench seat cushion (soft sit)", "Two (2) kidney pillows", "Cast resin feet", "Decorative stitching in Black, Midnight Grey, or White +$600"],
+  dims: dims({ width: 100.5, depth: 42, height: 29, widthInside: 78, seatHeight: 18, seatDepth: 22, armWidth: null, armHeight: 23, exposedLegHeight: 1, volume: 69, weight: 184, fabricReq: 13, leatherReq: 221 }),
+  fabric: fab([11064, 11181, 11298, 11532, 11766, 12000, 12234, 12468, 12702, 12936, 13170, 13404, 13638, 13872, 14106, 14340]),
+  leather: leather([14106, 15276, 16212, 17148], 234),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -5219,12 +5249,12 @@ const PRODUCTS = [
 
 {
   sku: "BAA6407C", name: "Barbara Barry - Oval X Back Lounge Chair", collection: "Baker-McGuire Reserve", category: "chairs", limited: false,
-  standardFinish: "Leaf, Silver Leaf, and White GoldLeaf (upcharge) +", frameMaterial: null, basePrice: 300,
-  specs: ["- Oval X Back Lounge Chair Baker-McGuire Reserve", "Upholstered tight seat and back", "Upholstered outback", "Walnut frame", "Contrasting X available in: Gold"],
-  dims: dims({ width: null, depth: null, height: 29.5, widthInside: 27.5, seatHeight: 39, seatDepth: 24, armWidth: 18, armHeight: 20, exposedLegHeight: null, volume: 26, weight: 12, fabricReq: 26, leatherReq: 24 }),
-  fabric: fab([3, 51, 6381, 6408, 6435, 6489, 6543, 6597, 6651, 6705, 6759, 6813, 6867, 6921, 6975, 7029]),
-  leather: leather([7083, 7137, 7083, 7353], 7569),
-  finishTiers: { tier1: null, tier2: 6327, tier3: 0, tier4: 600, type1Rattan: 900, type2Rattan: 1350, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 6327,
+  specs: ["- Oval X Back Lounge Chair Baker-McGuire Reserve", "Upholstered tight seat and back", "Upholstered outback", "Walnut frame", "Contrasting X available in: Gold Leaf, Silver Leaf, and White Gold Leaf (upcharge) +$300"],
+  dims: dims({ width: 29.5, depth: 27.5, height: 39, widthInside: 24, seatHeight: 18, seatDepth: 20, armWidth: null, armHeight: 26, exposedLegHeight: 12, volume: 26, weight: 24, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([6381, 6408, 6435, 6489, 6543, 6597, 6651, 6705, 6759, 6813, 6867, 6921, 6975, 7029, 7083, 7137]),
+  leather: leather([7083, 7353, 7569, 7785], 54),
+  finishTiers: { tier1: 0, tier2: 600, tier3: 900, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -5578,16 +5608,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAA6619C-v2", name: "Niles Lounge Chair - Pine", collection: "Baker Originals", category: "chairs", limited: false,
-  standardFinish: "$5550", frameMaterial: null, basePrice: 2925,
-  specs: ["BAA6620B Sovereign BencBaker Originals tered tight seat and back", "Upholstered tight seat pholstered inback and", "French Brass metal frame k", "Faux bamboo metalwork asted pine frame -"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 28, exposedLegHeight: 22, volume: 30, weight: 17, fabricReq: 34, leatherReq: 20 }),
-  fabric: fab([24, null, 20.5, 20, null, null, null, null, 34, null, null, 17.5, 45, 45, 30, 26]),
-  leather: leather([4.25, 1.25, 73, 22], 5628),
-  finishTiers: { tier1: 0, tier2: null, tier3: 150, tier4: null, type1Rattan: 300, type2Rattan: null, specialtyRattan: 1500 },
-},
-
-{
   sku: "BAA6620B", name: "Sovereign Bench", collection: "Baker Originals", category: "ottomans", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 9567,
   specs: ["Tight seat and back with maple solid legs Four (4) Baker Comfort Plush KE throws two (2) 22” & two (2) 24” Nail trim optional"],
@@ -5725,16 +5745,6 @@ const PRODUCTS = [
   fabric: fab([3165, 3189, 3210, 3255, 3300, 3345, 3390, 3435, 3480, 3525, 3570, 3615, 3660, 3705, 3750, 3795]),
   leather: leather([3750, 3975, 4155, 4335], 45),
   finishTiers: null,
-},
-
-{
-  sku: "BAU3103C", name: "Lambert Swivel Chair", collection: "Baker Luxe", category: "chairs", limited: false,
-  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 6441,
-  specs: ["BAU3104C Enzo Lounge ChaBaker Luxe at and back", "Tight seat and back base", "Bronze frame and legs m optional (reference", "Optional L2300 Tibetan ge amount in front of price Wool +$4998 al swivel base Bronze"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 28.5, volume: 28.5, weight: 34.5, fabricReq: 35.5, leatherReq: 31 }),
-  fabric: fab([31, 20, 24, 16.5, 18, null, null, null, null, 27, 22.5, null, null, 20, 33, 82]),
-  leather: leather([63, 3.75, 3, 64], 51),
-  finishTiers: { tier1: 6147, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -5899,12 +5909,12 @@ const PRODUCTS = [
 
 {
   sku: "BAU3306C", name: "Sophie Chair", collection: "Baker Luxe", category: "chairs", limited: false,
-  standardFinish: "Exposed wood legsNail trim head to head +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back Upholstery with scalloped profile"],
-  dims: dims({ width: null, depth: null, height: 25, widthInside: 25, seatHeight: 31, seatDepth: 25, armWidth: 17.5, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: 23, leatherReq: 43 }),
-  fabric: fab([2.5, 43, 3921, 3945, 3966, 4011, 4056, 4101, 4146, 4191, 4236, 4281, 4326, 4371, 4416, 4461]),
-  leather: leather([4506, 4551, 4506, 4731], 4911),
-  finishTiers: { tier1: null, tier2: 3876, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 3876,
+  specs: ["Tight seat and back Upholstery with scalloped profile Exposed wood legs Nail trim head to head +$300"],
+  dims: dims({ width: 25, depth: 25, height: 31, widthInside: 25, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 23, weight: 43, fabricReq: 2.5, leatherReq: 43 }),
+  fabric: fab([3921, 3945, 3966, 4011, 4056, 4101, 4146, 4191, 4236, 4281, 4326, 4371, 4416, 4461, 4506, 4551]),
+  leather: leather([4506, 4731, 4911, 5091], 45),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -6746,6 +6756,7 @@ const PRODUCTS = [
   leather: leather([8700, 9330, 9834, 10338], 126),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
 },
+
 {
   sku: "MCU1003CS", name: "Open Oval Caned Chaise Lounge", collection: "Barbara Barry", category: "chairs", limited: true,
   standardFinish: "Coconut, Silverlake", frameMaterial: null, basePrice: 5487,
@@ -6794,16 +6805,6 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
-},
-
-{
-  sku: "MCU1012O", name: "Cloud Cocktail Table", collection: "Barbara Barry", category: "tables", limited: false,
-  standardFinish: null, frameMaterial: null, basePrice: 4821,
-  specs: ["MCU1012S Cloud Sofa Barbara Barry at", "Tight seat and back holstered ottoman", "(2) Throws (20”) ed round ball casters", "Fully upholstered sofa witrecessed leg"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 51, volume: 98.5, weight: 34.5, fabricReq: 46, leatherReq: 18 }),
-  fabric: fab([37, null, 87, 18, 17.5, null, 27, null, null, null, 24, null, null, 25, 175, 40]),
-  leather: leather([144, 3.5, 10.25, 60], 174),
-  finishTiers: { tier1: 11451, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -7358,22 +7359,22 @@ const PRODUCTS = [
 
 {
   sku: "BA3440", name: "Oval X-Back Dining Side Chair", collection: "Barbara Barry", category: "chairs", limited: false,
-  standardFinish: "Walnut solids with x detail on bac•Gold Leaf accents +", frameMaterial: null, basePrice: 300,
-  specs: [],
-  dims: dims({ width: null, depth: null, height: 23, widthInside: 24, seatHeight: null, seatDepth: null, armWidth: 18.5, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: 16, leatherReq: 25 }),
-  fabric: fab([1.75, 30, 4533, 4551, 4566, 4599, 4632, 4665, 4698, 4731, 4764, 4797, 4830, 4863, 4896, 4929]),
-  leather: leather([4962, 4995, 4962, 5127], 5259),
-  finishTiers: { tier1: null, tier2: 4500, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 4500,
+  specs: ["Walnut solids with x detail on bac Gold Leaf accents +$300"],
+  dims: dims({ width: 23, depth: 24, height: 38.5, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 25, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([4533, 4551, 4566, 4599, 4632, 4665, 4698, 4731, 4764, 4797, 4830, 4863, 4896, 4929, 4962, 4995]),
+  leather: leather([4962, 5127, 5259, 5391], 33),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BA3441", name: "Oval X-Back Dining Arm Chair", collection: "Barbara Barry", category: "chairs", limited: false,
-  standardFinish: "•Gold Leaf accents +", frameMaterial: null, basePrice: 300,
-  specs: ["ck", "Walnut solids with X detail on back"],
-  dims: dims({ width: null, depth: null, height: 27, widthInside: 24, seatHeight: null, seatDepth: null, armWidth: 19, armHeight: null, exposedLegHeight: null, volume: 27, weight: null, fabricReq: 19, leatherReq: 30 }),
-  fabric: fab([1.75, 30, 5283, 5301, 5316, 5349, 5382, 5415, 5448, 5481, 5514, 5547, 5580, 5613, 5646, 5679]),
-  leather: leather([5712, 5745, 5712, 5877], 6009),
-  finishTiers: { tier1: null, tier2: 5250, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 5250,
+  specs: ["ck", "Walnut solids with X detail on back", "Gold Leaf accents +$300"],
+  dims: dims({ width: 27, depth: 24, height: 38.5, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 27, exposedLegHeight: null, volume: 19, weight: 30, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([5283, 5301, 5316, 5349, 5382, 5415, 5448, 5481, 5514, 5547, 5580, 5613, 5646, 5679, 5712, 5745]),
+  leather: leather([5712, 5877, 6009, 6141], 33),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -7397,32 +7398,22 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BA3659", name: "Oberon End Table", collection: "Barbara Barry", category: "tables", limited: true,
-  standardFinish: "$5661", frameMaterial: null, basePrice: 3891,
-  specs: ["BA3663 Swell Accent Table Barbara Barry", "Standard price is base only", "Carrara Marble table", "Walnut optional finish top (See Tier", "Disclaimer: Please see Natural upcharges for pricing) Materials page", "Pearl Lacquer top +$1650", "Smoked Brass Base", "One (1) fixed bronze glass shelf", "Disclaimer: Please see Natural Materials page Smoked Brass Base Carrara Marble"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: 30, armHeight: 15, exposedLegHeight: 30, volume: 15, weight: 24, fabricReq: 22, leatherReq: null }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, 21, 5, 132]),
-  leather: leather([78, null, null, null], null),
-  finishTiers: { tier1: 750, tier2: null, tier3: 900, tier4: null, type1Rattan: 1050, type2Rattan: null, specialtyRattan: 3075 },
-},
-
-{
   sku: "BA3663", name: "Swell Accent Table", collection: "Barbara Barry", category: "tables", limited: false,
-  standardFinish: null, frameMaterial: null, basePrice: 7581,
-  specs: ["Optional Gold Decoration on Crown and Legs +$1800 Hardwood solids and veneers Upholstered seat and back Nail trim standard"],
-  dims: dims({ width: 22.25, depth: 25.25, height: 36.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 35, fabricReq: 1.75, leatherReq: 30 }),
-  fabric: fab([7614, 7632, 7647, 7680, 7713, 7746, 7779, 7812, 7845, 7878, 7911, 7944, 7977, 8010, 8043, 8076]),
-  leather: leather([8043, 8208, 8340, 8472], 33),
-  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  standardFinish: "Black and Gold", frameMaterial: null, basePrice: 70899,
+  specs: ["Optional Gold Decoration on Crown and Legs +$1800 Hardwood solids and veneers Upholstered seat and back Nail trim standard - $7581 +$0 +$495 - +$1050 - - - 22.25” 25.25” 36.75” - - - - - - - 16 ft³ 35 lb 1.75 yd 30 ft² $7614 $7632 $7647 $7680 $7713 $7746 $7779 $7812 $7845 $7878 $7911 $7944 $7977 $8010 $8043 $8076 $8043 $8208 $8340 $8472 $33 BA5270 Commode Stately Homes", "Mahogany veneers and solids", "Hand painted Chippendale chinoiserie", "Brass hardware", "One (1) locking drawer above to lockable doors", "Behind two (2) doors is one (1) adjustable shelf"],
+  dims: dims({ width: 50, depth: 26.5, height: 35.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 42, weight: 450, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
 },
 
 {
   sku: "BA7841", name: "Ritz Dining Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
-  standardFinish: null, frameMaterial: null, basePrice: 23091,
-  specs: ["Modern stitch", "Standard metal finish(es): Bright", "Bronze, Polished Nickel Exposed hardwood frame", "Upholstered headboard and rails", "Brass accents Does not require box spring", "Recommended mattress height:", "9”-12”", "Recommended mattress height not to exceed 12”", "SB Height: 13”"],
+  standardFinish: null, frameMaterial: null, basePrice: 23691,
+  specs: ["Modern stitch", "Standard metal finish(es): Bright", "Bronze, Polished Nickel Exposed hardwood frame", "Upholstered headboard and rails", "Brass accents Does not require box spring", "Recommended mattress height:", "9”-12”", "Recommended mattress height not to exceed 12”", "SB Height: 13”", "- $23091 +$0 +$1950 +$3150 +$4200 - - - 83.75” 92.5” 49.5” - - - - - - - 51 ft³ 435 lb 7.5 yd 128 ft² $23226 $23295 $23361 $23496 $23631 $23766 $23901 $24036 $24171 $24306 $24441 $24576 $24711 $24846 $24981 $25116 $24981 $25656 $26196 $26736 $135 BA8627K Moderne Platform King Bed (Tufted) Thomas Pheasant Tufted Standard metal finish(es): Bright Bronze, Polished Nickel Exposed hardwood frame Tufted headboard and upholstered rails Brass accents Does not require box spring Recommended mattress height: 9”-12” Recommended mattress height not to exceed 12” SB Height: 13”"],
   dims: dims({ width: 83.75, depth: 92.5, height: 49.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 51, weight: 435, fabricReq: 7.5, leatherReq: 128 }),
-  fabric: fab([23226, 23295, 23361, 23496, 23631, 23766, 23901, 24036, 24171, 24306, 24441, 24576, 24711, 24846, 24981, 25116]),
-  leather: leather([24981, 25656, 26196, 26736], 135),
+  fabric: fab([23826, 23895, 23961, 24096, 24231, 24366, 24501, 24636, 24771, 24906, 25041, 25176, 25311, 25446, 25581, 25716]),
+  leather: leather([25581, 26256, 26796, 27336], 135),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
@@ -7464,16 +7455,6 @@ const PRODUCTS = [
   fabric: fab([4032, 4050, 4068, 4104, 4140, 4176, 4212, 4248, 4284, 4320, 4356, 4392, 4428, 4464, 4500, 4536]),
   leather: leather([4500, 4680, 4824, 4968], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
-  sku: "BA8643", name: "Atelier Dining Arm Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
-  standardFinish: "$4326", frameMaterial: null, basePrice: 5451,
-  specs: ["BA8653 Pompeii Cocktail Table Thomas Pheasant", "Beech solids with upholstered seat", "Cast brass base", "Petite nail trim above post", "Clear glass top .5” thick standard", "Inset brass pull on upper outside back", "Brass pull available in Bright Bronze or White Gold - Organic Bronze"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: 25, armHeight: 52, exposedLegHeight: 25, volume: 24, weight: 34, fabricReq: 16.25, leatherReq: null }),
-  fabric: fab([null, null, null, 19, null, null, null, null, null, 25, null, null, null, 19, 19, 29]),
-  leather: leather([146, 2.5, null, 42.5], null),
-  finishTiers: { tier1: 0, tier2: null, tier3: 495, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: 1050 },
 },
 
 {
@@ -7648,12 +7629,12 @@ const PRODUCTS = [
 
 {
   sku: "BAA2043", name: "Product Design Consultant Gensler King George III Arm Chair", collection: "Stately Homes", category: "chairs", limited: true,
-  standardFinish: "Nail trim not availableWorn Gilt tipping +", frameMaterial: null, basePrice: 2250,
-  specs: ["Carved mahogany solid exposed frame Fully upholstered seat and back"],
-  dims: dims({ width: null, depth: null, height: 23, widthInside: 26.5, seatHeight: 19, seatDepth: null, armWidth: 19.5, armHeight: 20, exposedLegHeight: null, volume: 25.5, weight: null, fabricReq: 26, leatherReq: 25 }),
-  fabric: fab([1.5, 26, 3249, 3264, 3276, 3303, 3330, 3357, 3384, 3411, 3438, 3465, 3492, 3519, 3546, 3573]),
-  leather: leather([3600, 3627, 3600, 3735], 3843),
-  finishTiers: { tier1: null, tier2: 3222, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 3222,
+  specs: ["Carved mahogany solid exposed frame Fully upholstered seat and back Nail trim not available Worn Gilt tipping +$2250"],
+  dims: dims({ width: 23, depth: 26.5, height: 36, widthInside: 19, seatHeight: 19.5, seatDepth: 20, armWidth: null, armHeight: 25.5, exposedLegHeight: null, volume: 26, weight: 25, fabricReq: 1.5, leatherReq: 26 }),
+  fabric: fab([3249, 3264, 3276, 3303, 3330, 3357, 3384, 3411, 3438, 3465, 3492, 3519, 3546, 3573, 3600, 3627]),
+  leather: leather([3600, 3735, 3843, 3951], 27),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -7827,16 +7808,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAA3000", name: "Jocelyn Dresser", collection: "Baker Luxe", category: "casegoods", limited: false,
-  standardFinish: "with Natural BronzeSterling with Natural Bron", frameMaterial: null, basePrice: 10017,
-  specs: ["BAA3008 Rosalie Chest Baker Luxe d Metal Finish(es): Natural", "Standard Metal Finish(es):Bronze dyed figured English", "Italian dyed figured Englisre veneer sycamore veneer rawers with veneered", "Two (2) drawers with brass between the two drawers o (2) drawers come standard", "Veneered interiors and brers hardware ardware and plinth base"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 64, exposedLegHeight: 36, volume: 20, weight: 19, fabricReq: 34, leatherReq: 26.5 }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 40, 19]),
-  leather: leather([323, 156, null, null], null),
-  finishTiers: { tier1: 5637, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "BAA3008", name: "Rosalie Chest", collection: "Baker Luxe", category: "casegoods", limited: false,
   standardFinish: "Sterling with Natural Bonze", frameMaterial: null, basePrice: 3147,
   specs: ["Standard Metal Finish(es): Natural Bronze", "Italian dyed figured English sycamore veneer", "One (1) drawer with veneered interiors", "Brass hardware"],
@@ -7934,16 +7905,6 @@ const PRODUCTS = [
   fabric: fab([4122, 4152, 4182, 4242, 4302, 4362, 4422, 4482, 4542, 4602, 4662, 4722, 4782, 4842, 4902, 4962]),
   leather: leather([4902, 5202, 5442, 5682], 60),
   finishTiers: null,
-},
-
-{
-  sku: "BAA3043", name: "Lucca Chair", collection: "Baker Luxe", category: "chairs", limited: true,
-  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 3996,
-  specs: ["BAA3048 Lapel Counter StoBaker Luxe d cast bronze frame", "Fully upholstered counter tered seat", "Bronze stretchers", "Bronze kick rail ronze"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 19.75, exposedLegHeight: 22.75, volume: 26.25, weight: 23.5, fabricReq: 36.5, leatherReq: 39.25 }),
-  fabric: fab([18, 20, 18.25, 17.5, 20.5, 26.75, null, null, null, null, null, null, null, null, 16, 27]),
-  leather: leather([45, 42, 2, 3.25], 34),
-  finishTiers: { tier1: 4962, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -8397,23 +8358,13 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAA3437", name: "Antoine Dining Table", collection: "Milling Road Originals", category: "tables", limited: true,
-  standardFinish: "$7491", frameMaterial: null, basePrice: 4647,
-  specs: ["BAA3446 Ava Dining Chair Milling Road Originals", "White oak flat cut veneer parsons", "Tight seat and back table", "Bronze legs Jute Blackened Bronze"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: 88, armHeight: 22.5, exposedLegHeight: 44, volume: 27, weight: 29, fabricReq: 33.5, leatherReq: null }),
-  fabric: fab([22.5, null, null, null, 18.5, null, 18, null, null, null, null, null, null, 32, 26, 171]),
-  leather: leather([20.5, null, 3, null], 51),
-  finishTiers: { tier1: 900, tier2: null, tier3: 1050, tier4: null, type1Rattan: 1200, type2Rattan: null, specialtyRattan: 3000 },
-},
-
-{
   sku: "BAA3446", name: "Ava Dining Chair", collection: "Milling Road Originals", category: "chairs", limited: false,
-  standardFinish: null, frameMaterial: null, basePrice: 3462,
-  specs: ["Tight seat and back Dressmaker flounce Small bronze nail trim detail standard Arm width: 2.75”"],
-  dims: dims({ width: 24, depth: 27.5, height: 32, widthInside: 19, seatHeight: 18.5, seatDepth: 19.5, armWidth: null, armHeight: 23, exposedLegHeight: 15, volume: 26, weight: 22, fabricReq: 3.25, leatherReq: null }),
-  fabric: fab([3522, 3552, 3582, 3642, 3702, 3762, 3822, 3882, 3942, 4002, 4062, 4122, 4182, 4242, 4302, 4362]),
-  leather: leather(null, 60),
-  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  standardFinish: "Jute with Blackened Bronze ring", frameMaterial: null, basePrice: 5547,
+  specs: ["Tight seat and back Dressmaker flounce Small bronze nail trim detail standard Arm width: 2.75” - $3462 +$0 +$495 +$795 +$1050 - - - 24” 27.5” 32” 19” 19.5” 18.5” 19.5” - 23” 15” 26 ft³ 22 lb 3.25 yd - $3522 $3552 $3582 $3642 $3702 $3762 $3822 $3882 $3942 $4002 $4062 $4122 $4182 $4242 $4302 $4362 - - - - $60 BAA3448 Dijon Counter Stool Milling Road Originals", "Scoop back counter stool", "Oak legs with Blackened Bronze ring", "180 degree swivel"],
+  dims: dims({ width: 21, depth: 23.75, height: 33.25, widthInside: 16.5, seatHeight: 23.75, seatDepth: 17.75, armWidth: null, armHeight: null, exposedLegHeight: 19.5, volume: 11, weight: 30, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([5601, 5628, 5655, 5709, 5763, 5817, 5871, 5925, 5979, 6033, 6087, 6141, 6195, 6249, 6303, 6357]),
+  leather: leather([6303, 6573, 6789, 7005], 54),
+  finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -8424,16 +8375,6 @@ const PRODUCTS = [
   fabric: fab([5895, 5922, 5949, 6003, 6057, 6111, 6165, 6219, 6273, 6327, 6381, 6435, 6489, 6543, 6597, 6651]),
   leather: leather([6597, 6867, 7083, 7299], 54),
   finishTiers: null,
-},
-
-{
-  sku: "BAA3451", name: "Classico End Table", collection: "Milling Road Originals", category: "tables", limited: true,
-  standardFinish: "-+", frameMaterial: null, basePrice: 300,
-  specs: [],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: 28, seatDepth: 52, armWidth: 28, armHeight: 30.75, exposedLegHeight: 25.75, volume: 13.75, weight: null, fabricReq: null, leatherReq: null }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, 28, 14, 126, 134.5, null]),
-  leather: leather(null, null),
-  finishTiers: { tier1: null, tier2: 450, tier3: null, tier4: 600, type1Rattan: null, type2Rattan: 2100, specialtyRattan: null },
 },
 
 {
@@ -8967,46 +8908,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAA4338", name: "Link Oval Dining Table", collection: "Baker Luxe", category: "tables", limited: true,
-  standardFinish: "$9291+", frameMaterial: null, basePrice: 600,
-  specs: ["BAA4339 Conform Table Baker Luxe", "Quartered oak veneer oval top", "Quartered oak veneer top with", "Bronze base textured bronze base Ecru with Natural Bronze Lustre with Liquid Bronze $9591"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: 90, armWidth: 90, armHeight: 54, exposedLegHeight: 44, volume: 30, weight: 29, fabricReq: null, leatherReq: null }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, 58, 58, 247.5, 200]),
-  leather: leather(null, null),
-  finishTiers: { tier1: 600, tier2: 750, tier3: 750, tier4: 900, type1Rattan: 900, type2Rattan: 3600, specialtyRattan: 3600 },
-},
-
-{
-  sku: "BAA4339", name: "Conform Table", collection: "Baker Luxe", category: "tables", limited: false,
-  standardFinish: "$4026", frameMaterial: null, basePrice: 4665,
-  specs: ["BAA4342 Filigree Chair Baker Luxe Tight upholstered seat and back", "Fully upholstered frame with Liquid Exposed beech legs Bronze textured back plate - -"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: 20, armHeight: 22, exposedLegHeight: 26, volume: 24, weight: 38, fabricReq: 33, leatherReq: null }),
-  fabric: fab([null, 18.5, 18, 19, 19, 18.5, 18, null, null, null, null, 15.75, null, 30, 30, 14]),
-  leather: leather([22.5, 2.5, 3.5, 43], 60),
-  finishTiers: { tier1: 0, tier2: null, tier3: 495, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: 1050 },
-},
-
-{
-  sku: "BAA4343", name: "Freda Chair", collection: "Baker Luxe", category: "chairs", limited: false,
-  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 4047,
-  specs: ["BAA4344 Collar Chair Baker Luxe", "Fully upholstered frame Bronze frame with tight upholstered seat and back -"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: 24, volume: 24, weight: 23, fabricReq: 33, leatherReq: 29 }),
-  fabric: fab([null, 19, 18, 18, 19, 19, 18, 18, null, null, null, 28, null, null, 30, 30]),
-  leather: leather([16, 36.5, 3, 2], 51),
-  finishTiers: { tier1: 6627, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
-  sku: "BAA4344", name: "Collar Chair", collection: "Baker Luxe", category: "chairs", limited: false,
-  standardFinish: "$4743", frameMaterial: null, basePrice: 4485,
-  specs: ["BAA4348 Maximalist Counter Stool Baker Luxe Tight upholstered seat and back", "Tight upholstered seat Exposed beech legs", "Tight seat includes a memory foam Natural Bronze kick plate and topper stretchers", "Bronze frame", "Standard swivel 360", "Stationary option is available - Natural Bronze"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: 20, armHeight: 18.5, exposedLegHeight: 26, volume: 18.5, weight: 38.5, fabricReq: 27.25, leatherReq: null }),
-  fabric: fab([null, 18.5, null, 25, 27.25, 18.5, null, null, null, null, null, 21.75, null, 30, 20, 19]),
-  leather: leather([33, 2.5, 1, 43], 17),
-  finishTiers: { tier1: 0, tier2: null, tier3: 495, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: 1050 },
-},
-
-{
   sku: "BAA4349", name: "Maximalist Barstool", collection: "Baker Luxe", category: "chairs", limited: true,
   standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 4251,
   specs: ["Tight upholstered seat", "Tight seat includes a memory foatopper", "Bronze frame", "Standard swivel 360", "Stationary option is available"],
@@ -9177,16 +9078,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAA4397", name: "Miley Table", collection: "Baker Luxe", category: "tables", limited: true,
-  standardFinish: "$9291+", frameMaterial: null, basePrice: 255,
-  specs: ["BAA4398 Monroe Table Baker Luxe red oak veneer top with", "Quartered oak veneer topst pattern starburst pattern base", "Bronze base with Natural Bronze Lustre with Natural Bronze $8391"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: 48, armWidth: 60, armHeight: 48, exposedLegHeight: 60, volume: 30, weight: 30, fabricReq: null, leatherReq: null }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, 23, 28, 143.5, 165]),
-  leather: leather(null, null),
-  finishTiers: { tier1: 360, tier2: 510, tier3: 600, tier4: 675, type1Rattan: 900, type2Rattan: 3600, specialtyRattan: 3600 },
-},
-
-{
   sku: "BAA4398", name: "Monroe Table", collection: "Baker Luxe", category: "tables", limited: false,
   standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 4227,
   specs: ["Product Design Consultant Gensler", "Bronze glass top .5” thick", "Italian dyed figured English sycamore veneer", "Bronze plinth base and hardware", "One (1) box drawer", "One (1) file drawer", "Hidden casters"],
@@ -9324,16 +9215,6 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
-},
-
-{
-  sku: "BAA4608", name: "Product Design Consultant Gensler Coronado Nightstand", collection: "Baker Resort®", category: "casegoods", limited: true,
-  standardFinish: "$9807+", frameMaterial: null, basePrice: 450,
-  specs: ["BAA4609 Baja Nightstand Baker Resort® Lena Grey Marble top,", "Honed Lena Grey Marble tnd back sides, and back quartered oak veneer", "Two (2) quartered oak vendrawers ather drawer liner", "Ivory leather drawer liner mer: Please see Natural", "Disclaimer: Please see Natls page Materials page with Lena Grey Marble Oyster with Lena Grey Ma$8697"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: 32, armWidth: 36, armHeight: 19, exposedLegHeight: 19, volume: 26, weight: 26, fabricReq: null, leatherReq: null }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, 23, 26, 131, 225.5]),
-  leather: leather(null, null),
-  finishTiers: { tier1: 450, tier2: 600, tier3: 600, tier4: 975, type1Rattan: 975, type2Rattan: 1125, specialtyRattan: 2250 },
 },
 
 {
@@ -9557,16 +9438,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAA4658", name: "Santorini Accent Table", collection: "Baker Resort®", category: "tables", limited: true,
-  standardFinish: "Lena Grey Marble", frameMaterial: null, basePrice: 2991,
-  specs: ["BAA4659 Thera Accent TabBaker Resort® sin table Honed marble table", "Disclaimer: Please see NatMaterials page laster"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 20, volume: 20, weight: 20, fabricReq: 20, leatherReq: 20 }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 9]),
-  leather: leather([58, 367, null, null], null),
-  finishTiers: { tier1: 7491, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "BAA4659", name: "Thera Accent Table", collection: "Baker Resort®", category: "tables", limited: false,
   standardFinish: "Frosted Murano Glass", frameMaterial: null, basePrice: 7497,
   specs: ["Frosted Murano glass table with battuto effect", "Brass accents in blackened finish", "Disclaimer: Please see Natural Materials page"],
@@ -9667,16 +9538,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAA4851", name: "Ionio Cocktail Table", collection: "Paola Navone", category: "tables", limited: true,
-  standardFinish: "Cast Murano Glass with LuBronze", frameMaterial: null, basePrice: 4791,
-  specs: ["BAA4853 Trevi Cocktail Table - Paola Navone marble top with acrylic legs", "Cast Murano glass top (2 pd Stainless Steel accents .5” thick mer: Please see Natural", "Bronze base ls page", "Disclaimer: Please see NatMaterials page C Marble with Acrylic"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 39.5, exposedLegHeight: 32.75, volume: 39.5, weight: 24.5, fabricReq: 11.75, leatherReq: 14 }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 20, 10]),
-  leather: leather([210.5, 50, null, null], null),
-  finishTiers: { tier1: 5991, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "BAA4853", name: "Trevi Cocktail Table - Small", collection: "Paola Navone", category: "tables", limited: false,
   standardFinish: "Bronze", frameMaterial: null, basePrice: 3477,
   specs: ["Cast Murano glass top .5” thick", "Bronze base", "Disclaimer: Please see Natural Materials page Cast Murano Glass with Luna"],
@@ -9758,32 +9619,32 @@ const PRODUCTS = [
 
 {
   sku: "BAA5133", name: "Sophia Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back Beech legs Value fabric included in base price Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 24, widthInside: 24, seatHeight: 18.5, seatDepth: 17, armWidth: 20, armHeight: 17, exposedLegHeight: null, volume: 21, weight: 14.25, fabricReq: 26, leatherReq: 21.5 }),
-  fabric: fab([4, 68, 3069, 3105, 3141, 3213, 3285, 3357, 3429, 3501, 3573, 3645, 3717, 3789, 3861, 3933]),
-  leather: leather([4005, 4077, 4005, 4365], 4653),
-  finishTiers: { tier1: null, tier2: 2997, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2997,
+  specs: ["Tight seat and back Beech legs Value fabric included in base price Performance fabric available at Grade 6 price Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 24, depth: 24, height: 33.5, widthInside: 18.5, seatHeight: 20, seatDepth: 17, armWidth: null, armHeight: 21, exposedLegHeight: 14.25, volume: 26, weight: 21.5, fabricReq: 4, leatherReq: 68 }),
+  fabric: fab([3069, 3105, 3141, 3213, 3285, 3357, 3429, 3501, 3573, 3645, 3717, 3789, 3861, 3933, 4005, 4077]),
+  leather: leather([4005, 4365, 4653, 4941], 72),
+  finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA5135", name: "Maeve Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Fully upholstered frame", "Tight seat and back", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 23.5, widthInside: 25.5, seatHeight: 20, seatDepth: 18, armWidth: 20, armHeight: 18, exposedLegHeight: null, volume: 24.75, weight: null, fabricReq: 26, leatherReq: 47.5 }),
-  fabric: fab([6.5, 111, 2214, 2274, 2331, 2448, 2565, 2682, 2799, 2916, 3033, 3150, 3267, 3384, 3501, 3618]),
-  leather: leather([3735, 3852, 3735, 4320], 4788),
-  finishTiers: { tier1: null, tier2: 2097, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2097,
+  specs: ["Fully upholstered frame", "Tight seat and back", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 23.5, depth: 25.5, height: 33, widthInside: 20, seatHeight: 20, seatDepth: 18, armWidth: null, armHeight: 24.75, exposedLegHeight: null, volume: 26, weight: 47.5, fabricReq: 6.5, leatherReq: 111 }),
+  fabric: fab([2214, 2274, 2331, 2448, 2565, 2682, 2799, 2916, 3033, 3150, 3267, 3384, 3501, 3618, 3735, 3852]),
+  leather: leather([3735, 4320, 4788, 5256], 117),
+  finishTiers: null,
 },
 
 {
   sku: "BAA5137", name: "Adler Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back", "Beech legs ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 24, widthInside: 25, seatHeight: 18.5, seatDepth: 19.5, armWidth: 20, armHeight: 19.5, exposedLegHeight: null, volume: 25, weight: 14.5, fabricReq: 26, leatherReq: 23 }),
-  fabric: fab([3.5, 60, 2910, 2943, 2973, 3036, 3099, 3162, 3225, 3288, 3351, 3414, 3477, 3540, 3603, 3666]),
-  leather: leather([3729, 3792, 3729, 4044], 4296),
-  finishTiers: { tier1: null, tier2: 2847, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2847,
+  specs: ["Tight seat and back", "Beech legs ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 24, depth: 25, height: 31, widthInside: 18.5, seatHeight: 20, seatDepth: 19.5, armWidth: null, armHeight: 25, exposedLegHeight: 14.5, volume: 26, weight: 23, fabricReq: 3.5, leatherReq: 60 }),
+  fabric: fab([2910, 2943, 2973, 3036, 3099, 3162, 3225, 3288, 3351, 3414, 3477, 3540, 3603, 3666, 3729, 3792]),
+  leather: leather([3729, 4044, 4296, 4548], 63),
+  finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -9798,32 +9659,32 @@ const PRODUCTS = [
 
 {
   sku: "BAA5139", name: "Carson Arm Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back Beech legs Value fabric included in base price Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 23, widthInside: 26, seatHeight: 16.5, seatDepth: 20, armWidth: 20, armHeight: 20, exposedLegHeight: null, volume: 24.5, weight: 14.5, fabricReq: 26, leatherReq: 19.5 }),
-  fabric: fab([3, 51, 2751, 2778, 2805, 2859, 2913, 2967, 3021, 3075, 3129, 3183, 3237, 3291, 3345, 3399]),
-  leather: leather([3453, 3507, 3453, 3723], 3939),
-  finishTiers: { tier1: null, tier2: 2697, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2697,
+  specs: ["Tight seat and back Beech legs Value fabric included in base price Performance fabric available at Grade 6 price Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 23, depth: 26, height: 31, widthInside: 16.5, seatHeight: 20, seatDepth: 20, armWidth: null, armHeight: 24.5, exposedLegHeight: 14.5, volume: 26, weight: 19.5, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([2751, 2778, 2805, 2859, 2913, 2967, 3021, 3075, 3129, 3183, 3237, 3291, 3345, 3399, 3453, 3507]),
+  leather: leather([3453, 3723, 3939, 4155], 54),
+  finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA5140", name: "Kipton Side Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back", "Beech legs", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 21, widthInside: 25.5, seatHeight: null, seatDepth: 19.5, armWidth: 20, armHeight: 19.5, exposedLegHeight: null, volume: null, weight: 14.25, fabricReq: 26, leatherReq: 19 }),
-  fabric: fab([3, 51, 2601, 2628, 2655, 2709, 2763, 2817, 2871, 2925, 2979, 3033, 3087, 3141, 3195, 3249]),
-  leather: leather([3303, 3357, 3303, 3573], 3789),
-  finishTiers: { tier1: null, tier2: 2547, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2547,
+  specs: ["Tight seat and back", "Beech legs", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 21, depth: 25.5, height: 34, widthInside: null, seatHeight: 20, seatDepth: 19.5, armWidth: null, armHeight: null, exposedLegHeight: 14.25, volume: 26, weight: 19, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([2601, 2628, 2655, 2709, 2763, 2817, 2871, 2925, 2979, 3033, 3087, 3141, 3195, 3249, 3303, 3357]),
+  leather: leather([3303, 3573, 3789, 4005], 54),
+  finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA5141", name: "Kipton Arm Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back", "Beech legs ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 26, widthInside: 25.5, seatHeight: 19, seatDepth: 18, armWidth: 20, armHeight: 18, exposedLegHeight: null, volume: 24, weight: 14.25, fabricReq: 26, leatherReq: 29.5 }),
-  fabric: fab([4.5, 77, 3078, 3120, 3159, 3240, 3321, 3402, 3483, 3564, 3645, 3726, 3807, 3888, 3969, 4050]),
-  leather: leather([4131, 4212, 4131, 4536], 4860),
-  finishTiers: { tier1: null, tier2: 2997, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2997,
+  specs: ["Tight seat and back", "Beech legs ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 26, depth: 25.5, height: 34, widthInside: 19, seatHeight: 20, seatDepth: 18, armWidth: null, armHeight: 24, exposedLegHeight: 14.25, volume: 26, weight: 29.5, fabricReq: 4.5, leatherReq: 77 }),
+  fabric: fab([3078, 3120, 3159, 3240, 3321, 3402, 3483, 3564, 3645, 3726, 3807, 3888, 3969, 4050, 4131, 4212]),
+  leather: leather([4131, 4536, 4860, 5184], 81),
+  finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -9848,22 +9709,22 @@ const PRODUCTS = [
 
 {
   sku: "BAA5144", name: "Sophia Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 24, widthInside: 22, seatHeight: 19.5, seatDepth: 17, armWidth: 25.5, armHeight: 17, exposedLegHeight: null, volume: 26.75, weight: 20, fabricReq: 26, leatherReq: 21.5 }),
-  fabric: fab([4, 68, 3369, 3405, 3441, 3513, 3585, 3657, 3729, 3801, 3873, 3945, 4017, 4089, 4161, 4233]),
-  leather: leather([4305, 4377, 4305, 4665], 4953),
-  finishTiers: { tier1: null, tier2: 3297, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 3297,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 24, depth: 22, height: 33.5, widthInside: 19.5, seatHeight: 25.5, seatDepth: 17, armWidth: null, armHeight: 26.75, exposedLegHeight: 20, volume: 26, weight: 21.5, fabricReq: 4, leatherReq: 68 }),
+  fabric: fab([3369, 3405, 3441, 3513, 3585, 3657, 3729, 3801, 3873, 3945, 4017, 4089, 4161, 4233, 4305, 4377]),
+  leather: leather([4305, 4665, 4953, 5241], 72),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA5145", name: "Sophia Barstool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 24, widthInside: 22, seatHeight: 19.5, seatDepth: 17, armWidth: 31, armHeight: 17, exposedLegHeight: null, volume: 32, weight: 25, fabricReq: 26, leatherReq: 23 }),
-  fabric: fab([4, 68, 3369, 3405, 3441, 3513, 3585, 3657, 3729, 3801, 3873, 3945, 4017, 4089, 4161, 4233]),
-  leather: leather([4305, 4377, 4305, 4665], 4953),
-  finishTiers: { tier1: null, tier2: 3297, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 3297,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 24, depth: 22, height: 38.5, widthInside: 19.5, seatHeight: 31, seatDepth: 17, armWidth: null, armHeight: 32, exposedLegHeight: 25, volume: 26, weight: 23, fabricReq: 4, leatherReq: 68 }),
+  fabric: fab([3369, 3405, 3441, 3513, 3585, 3657, 3729, 3801, 3873, 3945, 4017, 4089, 4161, 4233, 4305, 4377]),
+  leather: leather([4305, 4665, 4953, 5241], 72),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -9878,32 +9739,32 @@ const PRODUCTS = [
 
 {
   sku: "BAA5149", name: "Adler Barstool", collection: "Baker Essentials Dining", category: "chairs", limited: true,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back Beech legs Brushed Antique Bronze or Brushed Stainless Steel kickplate Value fabric included in base price Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 25, widthInside: 25, seatHeight: 18, seatDepth: 19, armWidth: 31, armHeight: 19, exposedLegHeight: null, volume: 35.5, weight: 26, fabricReq: 26, leatherReq: 28 }),
-  fabric: fab([3.5, 60, 3060, 3093, 3123, 3186, 3249, 3312, 3375, 3438, 3501, 3564, 3627, 3690, 3753, 3816]),
-  leather: leather([3879, 3942, 3879, 4194], 4446),
-  finishTiers: { tier1: null, tier2: 2997, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2997,
+  specs: ["Tight seat and back Beech legs Brushed Antique Bronze or Brushed Stainless Steel kickplate Value fabric included in base price Performance fabric available at Grade 6 price Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 25, depth: 25, height: 42, widthInside: 18, seatHeight: 31, seatDepth: 19, armWidth: null, armHeight: 35.5, exposedLegHeight: 26, volume: 26, weight: 28, fabricReq: 3.5, leatherReq: 60 }),
+  fabric: fab([3060, 3093, 3123, 3186, 3249, 3312, 3375, 3438, 3501, 3564, 3627, 3690, 3753, 3816, 3879, 3942]),
+  leather: leather([3879, 4194, 4446, 4698], 63),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA5150", name: "Carson Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 20, widthInside: 24, seatHeight: null, seatDepth: 17.5, armWidth: 26.5, armHeight: 17.5, exposedLegHeight: null, volume: null, weight: 20.5, fabricReq: 26, leatherReq: 18.5 }),
-  fabric: fab([2.25, 38, 2739, 2760, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117, 3159, 3201, 3243]),
-  leather: leather([3285, 3327, 3285, 3495], 3663),
-  finishTiers: { tier1: null, tier2: 2697, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2697,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 20, depth: 24, height: 36, widthInside: null, seatHeight: 26.5, seatDepth: 17.5, armWidth: null, armHeight: null, exposedLegHeight: 20.5, volume: 26, weight: 18.5, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([2739, 2760, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117, 3159, 3201, 3243, 3285, 3327]),
+  leather: leather([3285, 3495, 3663, 3831], 42),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA5151", name: "Carson Barstool", collection: "Baker Essentials Dining", category: "chairs", limited: true,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 20, widthInside: 24, seatHeight: null, seatDepth: 17.5, armWidth: 31.5, armHeight: 17.5, exposedLegHeight: null, volume: null, weight: 25.5, fabricReq: 26, leatherReq: 19.5 }),
-  fabric: fab([2.25, 38, 2739, 2760, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117, 3159, 3201, 3243]),
-  leather: leather([3285, 3327, 3285, 3495], 3663),
-  finishTiers: { tier1: null, tier2: 2697, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2697,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 20, depth: 24, height: 41, widthInside: null, seatHeight: 31.5, seatDepth: 17.5, armWidth: null, armHeight: null, exposedLegHeight: 25.5, volume: 26, weight: 19.5, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([2739, 2760, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117, 3159, 3201, 3243, 3285, 3327]),
+  leather: leather([3285, 3495, 3663, 3831], 42),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -9937,43 +9798,33 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAA5156", name: "Zara Armless Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: true,
-  standardFinish: "Brushed Stainless Steel", frameMaterial: null, basePrice: 2487,
-  specs: [],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 20, volume: 24, weight: 24, fabricReq: 36, leatherReq: 41 }),
-  fabric: fab([null, null, 16.5, 16.5, 26, 31.5, 16.5, 16.5, null, null, null, null, null, null, 26, 26]),
-  leather: leather([30, 30, 2, 2], 34),
-  finishTiers: { tier1: 2757, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "BAA5157", name: "Zara Armless Barstool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back Beech legs Value fabric included in base price Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 21, widthInside: 25.25, seatHeight: null, seatDepth: 19, armWidth: 20, armHeight: 19, exposedLegHeight: null, volume: null, weight: 14.25, fabricReq: 26, leatherReq: 18.5 }),
-  fabric: fab([3, 51, 2301, 2328, 2355, 2409, 2463, 2517, 2571, 2625, 2679, 2733, 2787, 2841, 2895, 2949]),
-  leather: leather([3003, 3057, 3003, 3273], 3489),
-  finishTiers: { tier1: null, tier2: 2247, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2247,
+  specs: ["Tight seat and back Beech legs Value fabric included in base price Performance fabric available at Grade 6 price Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 21, depth: 25.25, height: 35, widthInside: null, seatHeight: 20, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: 14.25, volume: 26, weight: 18.5, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([2301, 2328, 2355, 2409, 2463, 2517, 2571, 2625, 2679, 2733, 2787, 2841, 2895, 2949, 3003, 3057]),
+  leather: leather([3003, 3273, 3489, 3705], 54),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA5159", name: "Berkeley Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 21, widthInside: 23.5, seatHeight: null, seatDepth: 18.5, armWidth: 26, armHeight: 18.5, exposedLegHeight: null, volume: null, weight: 20.5, fabricReq: 26, leatherReq: 21 }),
-  fabric: fab([3, 51, 2601, 2628, 2655, 2709, 2763, 2817, 2871, 2925, 2979, 3033, 3087, 3141, 3195, 3249]),
-  leather: leather([3303, 3357, 3303, 3573], 3789),
-  finishTiers: { tier1: null, tier2: 2547, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2547,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 21, depth: 23.5, height: 38, widthInside: null, seatHeight: 26, seatDepth: 18.5, armWidth: null, armHeight: null, exposedLegHeight: 20.5, volume: 26, weight: 21, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([2601, 2628, 2655, 2709, 2763, 2817, 2871, 2925, 2979, 3033, 3087, 3141, 3195, 3249, 3303, 3357]),
+  leather: leather([3303, 3573, 3789, 4005], 54),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA5160", name: "Berkeley Barstool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 21, widthInside: 23.5, seatHeight: null, seatDepth: 18.5, armWidth: 31, armHeight: 18.5, exposedLegHeight: null, volume: null, weight: 26, fabricReq: 26, leatherReq: 23 }),
-  fabric: fab([2.75, 47, 2598, 2625, 2649, 2700, 2751, 2802, 2853, 2904, 2955, 3006, 3057, 3108, 3159, 3210]),
-  leather: leather([3261, 3312, 3261, 3516], 3720),
-  finishTiers: { tier1: null, tier2: 2547, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2547,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 21, depth: 23.5, height: 43, widthInside: null, seatHeight: 31, seatDepth: 18.5, armWidth: null, armHeight: null, exposedLegHeight: 26, volume: 26, weight: 23, fabricReq: 2.75, leatherReq: 47 }),
+  fabric: fab([2598, 2625, 2649, 2700, 2751, 2802, 2853, 2904, 2955, 3006, 3057, 3108, 3159, 3210, 3261, 3312]),
+  leather: leather([3261, 3516, 3720, 3924], 51),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -9988,12 +9839,12 @@ const PRODUCTS = [
 
 {
   sku: "BAA5162", name: "Ashby Barstool", collection: "Baker Essentials Dining", category: "chairs", limited: true,
-  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
-  specs: ["Tight seat and back Beech legs Brushed Antique Bronze or Brushed Stainless Steel kickplate Value fabric included in base price Performance fabric available at Grade 6 price"],
-  dims: dims({ width: null, depth: null, height: 21, widthInside: 25.5, seatHeight: null, seatDepth: 19.5, armWidth: 31, armHeight: 19.5, exposedLegHeight: null, volume: null, weight: 25.5, fabricReq: 26, leatherReq: 19 }),
-  fabric: fab([1.75, 30, 2580, 2598, 2613, 2646, 2679, 2712, 2745, 2778, 2811, 2844, 2877, 2910, 2943, 2976]),
-  leather: leather([3009, 3042, 3009, 3174], 3306),
-  finishTiers: { tier1: null, tier2: 2547, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 2547,
+  specs: ["Tight seat and back Beech legs Brushed Antique Bronze or Brushed Stainless Steel kickplate Value fabric included in base price Performance fabric available at Grade 6 price Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 21, depth: 25.5, height: 46, widthInside: null, seatHeight: 31, seatDepth: 19.5, armWidth: null, armHeight: null, exposedLegHeight: 25.5, volume: 26, weight: 19, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([2580, 2598, 2613, 2646, 2679, 2712, 2745, 2778, 2811, 2844, 2877, 2910, 2943, 2976, 3009, 3042]),
+  leather: leather([3009, 3174, 3306, 3438], 33),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -10034,16 +9885,6 @@ const PRODUCTS = [
   fabric: fab([3063, 3081, 3099, 3135, 3171, 3207, 3243, 3279, 3315, 3351, 3387, 3423, 3459, 3495, 3531, 3567]),
   leather: leather([3531, 3711, 3855, 3999], 36),
   finishTiers: null,
-},
-
-{
-  sku: "BAA5167", name: "Ezra Armless Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: true,
-  standardFinish: "Brushed Antique Bronze", frameMaterial: null, basePrice: 2487,
-  specs: ["BAA5168 Ezra Armless Barstool Baker Essentials Dining", "Tight seat and back", "Tight seat and back", "Stainless steel frame", "Stainless steel frame", "Value fabric included in base price", "Value fabric included in base price", "Performance fabric available at", "Performance fabric available at Grade 6 price Grade 6 price Brushed Antique Bronze"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 20, volume: 24, weight: 24, fabricReq: 36, leatherReq: 41 }),
-  fabric: fab([null, null, 17, 16.5, 26, 31.5, 17, 16.5, null, null, null, null, null, null, 26, 26]),
-  leather: leather([30, 30, 2, 2], 34),
-  finishTiers: { tier1: 2757, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -10094,16 +9935,6 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
-  sku: "BAA5261", name: "Danzer Side Table", collection: "Orlando Diaz-Azcuy", category: "tables", limited: false,
-  standardFinish: "-+", frameMaterial: null, basePrice: 1500,
-  specs: [],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: 21, seatDepth: 72, armWidth: 21, armHeight: 22, exposedLegHeight: 21, volume: 32, weight: null, fabricReq: null, leatherReq: null }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, 10, 76, 58.5, 315, null]),
-  leather: leather(null, null),
-  finishTiers: { tier1: null, tier2: 1650, tier3: null, tier4: 1800, type1Rattan: null, type2Rattan: 9000, specialtyRattan: null },
 },
 
 {
@@ -10167,16 +9998,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BAA5414", name: "Micah Mirror", collection: "Baker Luxe", category: "mirrors", limited: true,
-  standardFinish: "Pure Brass", frameMaterial: null, basePrice: 4557,
-  specs: ["BAA5415 Noah Mirror Baker Luxe ame", "Brass frame irror glass", "Plain mirror glass cleat", "French cleat lated Brass"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 32, exposedLegHeight: 32, volume: 3.25, weight: 3.25, fabricReq: 32, leatherReq: 32 }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 5, 5]),
-  leather: leather([41.5, 41.5, null, null], null),
-  finishTiers: { tier1: 4557, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "BAA5415", name: "Noah Mirror", collection: "Baker Luxe", category: "mirrors", limited: false,
   standardFinish: "Pure Brass", frameMaterial: null, basePrice: 4647,
   specs: ["Brass frame", "Plain mirror glass", "French cleat"],
@@ -10194,16 +10015,6 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 5445, tier3: 6945, tier4: 8250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
-  sku: "BAA5418K", name: "Carter King Bed", collection: "Baker Luxe", category: "beds", limited: true,
-  standardFinish: "$9597+", frameMaterial: null, basePrice: 3000,
-  specs: ["BAA5418Q Carter Queen BeBaker Luxe red oak veneer", "Quartered oak veneer mended: 5” boxspring and", "Recommended: 5” boxsprttress height 12” mattress height Venetia $10527"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: 82, armWidth: 66, armHeight: 86, exposedLegHeight: 86, volume: 50, weight: 50, fabricReq: 78, leatherReq: 62 }),
-  fabric: fab([82, 82, null, null, null, null, null, null, null, null, null, null, 32, 28, 375, 273]),
-  leather: leather(null, null),
-  finishTiers: { tier1: 3000, tier2: 5445, tier3: 5445, tier4: 6945, type1Rattan: 6945, type2Rattan: 8250, specialtyRattan: 8250 },
 },
 
 {
@@ -10584,16 +10395,6 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
-},
-
-{
-  sku: "BAA5658", name: "Calypso Side Table", collection: "Barbara Barry", category: "tables", limited: true,
-  standardFinish: "Honed Honey Onyx", frameMaterial: null, basePrice: 9117,
-  specs: ["BAA5662 Slope Spot TablBarbara Barry base", "Natural Onyx Onyx top", "Disclaimer: Please see Natmer: Please see Natural Materials page ls page Honey Onyx with Warm"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: 18, volume: 24, weight: 12, fabricReq: 24, leatherReq: 18 }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 23, 10]),
-  leather: leather([133, 193, null, null], null),
-  finishTiers: { tier1: 6477, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -11168,22 +10969,22 @@ const PRODUCTS = [
 
 {
   sku: "BAA6337", name: "Laura Kirar - Vienna Side Chair", collection: "Baker-McGuire Reserve — Laura Kirar", category: "chairs", limited: false,
-  standardFinish: "Contrasting medallion finish Tier4 +", frameMaterial: null, basePrice: 500,
-  specs: ["- Vienna Side ChaiBaker-McGuire Reserve Laura Kirar", "Upholstered tight seat and back", "Upholstered outback", "Walnut frame", "Carved medallion detail on outback", "Available without carved medallio Contrasting medallion finish Tier 1 +$125", "Contrasting medallion finish Tier 2+$251+$251", "Contrasting medallion finish Tier 3 +$375"],
-  dims: dims({ width: null, depth: null, height: 24, widthInside: 26, seatHeight: null, seatDepth: 19, armWidth: 20.5, armHeight: 19, exposedLegHeight: null, volume: null, weight: 15, fabricReq: 26, leatherReq: 22 }),
-  fabric: fab([2, 34, 6198, 6216, 6234, 6270, 6306, 6342, 6378, 6414, 6450, 6486, 6522, 6558, 6594, 6630]),
-  leather: leather([6666, 6702, 6666, 6846], 6990),
-  finishTiers: { tier1: null, tier2: 6162, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 6162,
+  specs: ["- Vienna Side ChaiBaker-McGuire Reserve Laura Kirar", "Upholstered tight seat and back", "Upholstered outback", "Walnut frame", "Carved medallion detail on outback", "Available without carved medallio Contrasting medallion finish Tier 1 +$125", "Contrasting medallion finish Tier 2+$251+$251", "Contrasting medallion finish Tier 3 +$375", "Contrasting medallion finish Tier 4 +$500"],
+  dims: dims({ width: 24, depth: 26, height: 34, widthInside: null, seatHeight: 20.5, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: 15, volume: 26, weight: 22, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([6198, 6216, 6234, 6270, 6306, 6342, 6378, 6414, 6450, 6486, 6522, 6558, 6594, 6630, 6666, 6702]),
+  leather: leather([6666, 6846, 6990, 7134], 36),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
   sku: "BAA6338", name: "Laura Kirar - Vienna Arm Chair", collection: "Baker-McGuire Reserve — Laura Kirar", category: "chairs", limited: false,
-  standardFinish: "Contrasting medallion finish Tier4 +", frameMaterial: null, basePrice: 500,
-  specs: ["- Vienna Arm Chair Baker-McGuire Reserve Laura Kirar", "Upholstered tight seat and back", "Upholstered outback", "Walnut frame", "Carved medallion detail on outback ion", "Available without carved medallion", "Contrasting medallion finish Tier 1 +$125", "Contrasting medallion finish Tier 2+$260+$260", "Contrasting medallion finish Tier 3 +$375"],
-  dims: dims({ width: null, depth: null, height: 25.5, widthInside: 26, seatHeight: 21, seatDepth: 19, armWidth: 20.5, armHeight: 19, exposedLegHeight: null, volume: 24, weight: 15, fabricReq: 26, leatherReq: 24 }),
-  fabric: fab([2, 34, 6375, 6393, 6411, 6447, 6483, 6519, 6555, 6591, 6627, 6663, 6699, 6735, 6771, 6807]),
-  leather: leather([6843, 6879, 6843, 7023], 7167),
-  finishTiers: { tier1: null, tier2: 6339, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+  standardFinish: null, frameMaterial: null, basePrice: 6339,
+  specs: ["- Vienna Arm Chair Baker-McGuire Reserve Laura Kirar", "Upholstered tight seat and back", "Upholstered outback", "Walnut frame", "Carved medallion detail on outback ion", "Available without carved medallion", "Contrasting medallion finish Tier 1 +$125", "Contrasting medallion finish Tier 2+$260+$260", "Contrasting medallion finish Tier 3 +$375", "Contrasting medallion finish Tier 4 +$500"],
+  dims: dims({ width: 25.5, depth: 26, height: 34, widthInside: 21, seatHeight: 20.5, seatDepth: 19, armWidth: null, armHeight: 24, exposedLegHeight: 15, volume: 26, weight: 24, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([6375, 6393, 6411, 6447, 6483, 6519, 6555, 6591, 6627, 6663, 6699, 6735, 6771, 6807, 6843, 6879]),
+  leather: leather([6843, 7023, 7167, 7311], 36),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -11897,16 +11698,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "BABB105", name: "Dias Cylinder Lamp", collection: "Barbara Barry", category: "lighting", limited: true,
-  standardFinish: "Bronze with Murano Glass", frameMaterial: null, basePrice: 4467,
-  specs: ["BABK312 Kingsley ChandeliBaker Originals hade", "333 Handmade Murano glacquered clear satin bronze elements ccents", "Recommended light bulb: mended light bulb: Type A", "Disclaimer: Please see Nattt Materials page"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 16, exposedLegHeight: 33.5, volume: 16, weight: 33.5, fabricReq: 26.5, leatherReq: 22 }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 6, 44]),
-  leather: leather([21, 282, null, null], null),
-  finishTiers: { tier1: 26997, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "BABK312", name: "Kingsley Chandelier", collection: "Baker Originals", category: "lighting", limited: false,
   standardFinish: "Chrome and Murano Glass", frameMaterial: null, basePrice: 23997,
   specs: ["92 Murano glass discs embellished with a grinding wheel stroke pattern", "6 inch diameter discs", "Illuminated by 11 lights", "Recommended light bulb: E12", "Disclaimer: Please see Natural Materials page"],
@@ -12117,16 +11908,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "MC680TD", name: "Anza King Bed", collection: "McGuire Originals", category: "beds", limited: true,
-  standardFinish: null, frameMaterial: null, basePrice: 10791,
-  specs: ["MC725 Laidley Bedside Table McGuire Originals", "Rattan and caning frame, woven", "Table top: Ultra clear glass .5” thick rawhide headboard detail", "Rattan and caning frame; rawhide", "Recessed rawhide-wrapped feet wrapped legs", "Non-standard finish ships in 20-24", "Burnished brass hardware weeks", "Recommended: 5” low profile boxspring and 10” mattress height Slate"],
-  dims: dims({ width: null, depth: null, height: 600, widthInside: 0, seatHeight: 150, seatDepth: null, armWidth: null, armHeight: 80.75, exposedLegHeight: 28, volume: 88.5, weight: 18, fabricReq: 47.75, leatherReq: 28 }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 40, 15]),
-  leather: leather([284, 39, null, null], null),
-  finishTiers: { tier1: 6297, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "MCA1010", name: "Waterfall Nightstand", collection: "Barbara Barry", category: "casegoods", limited: false,
   standardFinish: "-Coconut,", frameMaterial: null, basePrice: 9237,
   specs: ["Standard Metal Finish(es): Brass", "Rattan, mbase in Warm Bronze small ratt Quartered figured walnut frame", "Plain mir Fully finished interiors", "Mirror m Standard ivory leather drawer horizontfronts", "Three soft close drawers"],
@@ -12134,16 +11915,6 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 600, tier3: 975, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
-  sku: "MCA1012", name: "Lanai Mirror", collection: "Barbara Barry", category: "mirrors", limited: true,
-  standardFinish: "-+", frameMaterial: null, basePrice: 450,
-  specs: ["MCA1014 Lakepoint Cocktail TBarbara Barry mindi wood frame and", "Quartered figured walnut ttan core trefoil shape design irror glass may be mounted tally or vertically t, Mica Almond $1791 $4341 - +$300"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: 36.75, seatHeight: 2, seatDepth: 43, armWidth: 57, armHeight: 17, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, 9, 31, 48, 220, null, null, null]),
-  leather: leather(null, null),
-  finishTiers: { tier1: null, tier2: 600, tier3: null, tier4: 3600, type1Rattan: 600, type2Rattan: null, specialtyRattan: 900 },
 },
 
 {
@@ -12407,16 +12178,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "MCA1546", name: "Taru Counter Stool", collection: "Laura Kirar", category: "chairs", limited: true,
-  standardFinish: "Matte Dark Tobacco, MattMineral", frameMaterial: null, basePrice: 3822,
-  specs: ["MCA1547 Taru Barstool Laura Kirar frame with caning", "Rattan frame with caning pholstered seat", "Tight upholstered seat Bronze or Brushed Nickel", "Antique Bronze or Brushee kickplate Dark Tobacco, Matte l"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: 22, volume: 22, weight: 22, fabricReq: 33.5, leatherReq: 40 }),
-  fabric: fab([19.75, 19.75, 18.75, 18.75, 24, 30.5, 19, 19, null, null, null, null, null, null, 16, 20]),
-  leather: leather([18, 18.5, 1.5, 1.5], 26),
-  finishTiers: { tier1: 4422, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "MCA1547", name: "Taru Barstool", collection: "Laura Kirar", category: "chairs", limited: false,
   standardFinish: "Frame with Naturale Danish Cord", frameMaterial: null, basePrice: 1860,
   specs: ["Standard Metal Kickplate Finish(es): Antique Bronze, Brushed Nickel", "Non-standard finish ships in 20-24 weeks", "Rattan frame with danish cord seat and back", "1” upholstered, knife edge, seat cushion comes standard", "Please note, customizable finishes are for the wood frame only, danish cord is not finished, and only comes in the Black or Natural Danish Cord Coffee Frame with Black, Shell"],
@@ -12674,16 +12435,6 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
-},
-
-{
-  sku: "MCA1737", name: "Koro Dining Table", collection: "Baker Resort® for McGuire", category: "tables", limited: true,
-  standardFinish: "-+", frameMaterial: null, basePrice: 360,
-  specs: [],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: 60, seatDepth: 60, armWidth: 60, armHeight: 60, exposedLegHeight: 29, volume: 29, weight: null, fabricReq: null, leatherReq: null }),
-  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, 38, 45, 448, 132, null]),
-  leather: leather(null, null),
-  finishTiers: { tier1: null, tier2: 600, tier3: null, tier4: 900, type1Rattan: null, type2Rattan: 3600, specialtyRattan: null },
 },
 
 {
@@ -13227,16 +12978,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "MCA2347", name: "Lampasas Arm Chair", collection: "McGuire Originals", category: "chairs", limited: true,
-  standardFinish: "Gunmetal, Matte Mineral", frameMaterial: null, basePrice: 4206,
-  specs: ["MCA2348 Knot Side Chair McGuire Originaarm chair with rawhide", "Rattan side chair with raws bindings at", "Tight seat and back mesh caned back", "Caned outback tal, Matte Mineral"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: 600, seatHeight: 900, seatDepth: null, armWidth: null, armHeight: 23, exposedLegHeight: 23.5, volume: 25, weight: 24.5, fabricReq: 35.5, leatherReq: 33.75 }),
-  fabric: fab([20, 21.5, 19, 19, 18.25, 18, 19, 19, null, null, 24.25, null, null, null, 12, 12]),
-  leather: leather([17.5, 17, 2, 2.25], 34),
-  finishTiers: { tier1: 4011, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "MCA2348", name: "Knot Side Chair", collection: "McGuire Originals", category: "chairs", limited: false,
   standardFinish: "Gunmetal, Matte Mineral", frameMaterial: null, basePrice: 4311,
   specs: ["Rattan arm chair with rawhide bindings", "Tight seat and back", "Caned outback"],
@@ -13294,16 +13035,6 @@ const PRODUCTS = [
   fabric: fab([4329, 4341, 4353, 4377, 4401, 4425, 4449, 4473, 4497, 4521, 4545, 4569, 4593, 4617, 4641, 4665]),
   leather: leather([4641, 4761, 4857, 4953], 24),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
-},
-
-{
-  sku: "MCA2379", name: "Hye Barstool", collection: "McGuire Originals", category: "chairs", limited: true,
-  standardFinish: "d Stainless Steel basease +", frameMaterial: null, basePrice: 900,
-  specs: ["MCA2540 Aransas Chair McGuire Original with Danish Cord back,", "Rattan frame holstered seat and metal", "Tight seat and back tions available in Blackened olished Stainless Steel, ss ed Steel base"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: 600, armHeight: 0, exposedLegHeight: 600, volume: 450, weight: null, fabricReq: 3600, leatherReq: 21.5 }),
-  fabric: fab([24, 21, 26, 43, 34, 17.5, 21, 18, 19, 33.25, 18, 18, 0, null, null, null]),
-  leather: leather([25, 29.25, null, 12], 11),
-  finishTiers: { tier1: 0, tier2: 0, tier3: 0, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -14607,16 +14338,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "MCM130CB", name: "Caned Toboggan Arm Chair - Upholstered Back", collection: "McGuire Originals", category: "chairs", limited: false,
-  standardFinish: "Rattan frame+", frameMaterial: null, basePrice: 255,
-  specs: ["MCM131 Butterfly Chair McGuire Originaal Antique finished"],
-  dims: dims({ width: null, depth: 4305, height: 5151, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 0, fabricReq: 0, leatherReq: 300 }),
-  fabric: fab([300, null, 12885, 24.5, 32.5, 26.5, 21, 33, 35, null, null, null, null, 18, 18, 19.5]),
-  leather: leather([14, null, null, 24.5], null),
-  finishTiers: { tier1: 0, tier2: 0, tier3: 0, tier4: 0, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "MCM131", name: "Butterfly Chair", collection: "McGuire Originals", category: "chairs", limited: false,
   standardFinish: "Naturale, Nero", frameMaterial: null, basePrice: 5451,
   specs: ["Rattan Frame with rawhide weave", "Loose upholstered seat cushion"],
@@ -14677,16 +14398,6 @@ const PRODUCTS = [
 },
 
 {
-  sku: "MCM262", name: "Caned Arm Chair", collection: "Barbara Barry", category: "chairs", limited: true,
-  standardFinish: null, frameMaterial: null, basePrice: 4551,
-  specs: ["MCM264 Classic Curve Arm CBarbara Barry frame with square mesh", "Rattan Frame with square rms and back caned back pholstered seat", "Tight Upholstered seat hapholstered seat has base welt"],
-  dims: dims({ width: null, depth: null, height: 0, widthInside: 0, seatHeight: 300, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: 25, volume: 25, weight: 23.5, fabricReq: 39.5, leatherReq: 34.5 }),
-  fabric: fab([null, null, null, null, 18, 18, 19, 18.5, null, null, 18.5, 18, null, null, 26, 26]),
-  leather: leather([31, 30, 1, 1], 17),
-  finishTiers: { tier1: 3051, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
   sku: "MCM264", name: "Classic Curve Arm Chair", collection: "Barbara Barry", category: "chairs", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 3696,
   specs: ["Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes +$2085 Rattan Frame Tight Upholstered seat and back Seat has base welt"],
@@ -14694,26 +14405,6 @@ const PRODUCTS = [
   fabric: fab([3732, 3750, 3768, 3804, 3840, 3876, 3912, 3948, 3984, 4020, 4056, 4092, 4128, 4164, 4200, 4236]),
   leather: leather([4200, 4380, 4524, 4668], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2085 },
-},
-
-{
-  sku: "MCM294", name: "Crescent Dining Chair", collection: "McGuire Originals", category: "chairs", limited: true,
-  standardFinish: null, frameMaterial: null, basePrice: 3960,
-  specs: ["MCM321 Hayes Dining Arm Chair McGuire Originals", "Leather Cord wrapped rattan", "Rattan Frame with caning on inside frame and seat back", "Rawhide bindings", "Loose seat cushion", "Loose seat cushion Matte Natural Brown, Matte Slate"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: 0, seatHeight: 300, seatDepth: null, armWidth: null, armHeight: 24.25, exposedLegHeight: 23.5, volume: 23, weight: 24, fabricReq: 32.25, leatherReq: 35 }),
-  fabric: fab([null, null, null, null, 19, 18.5, 17.25, 18.75, null, null, 20, 24.75, null, null, 27, 15]),
-  leather: leather([35, 30, 1.25, 1], 21),
-  finishTiers: { tier1: 3759, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
-},
-
-{
-  sku: "MCM321", name: "Hayes Dining Arm Chair", collection: "McGuire Originals", category: "chairs", limited: false,
-  standardFinish: "available in 1 tone, 2 tone, and 3tones +", frameMaterial: null, basePrice: 600,
-  specs: ["MCM331 Alameda Dining Arm Chair McGuire Originals Rattan frame with caning on the", "Rattan frame with 3/16” rawhide inside seat and back binding on seat back. Loose seat cushion", "Non-standard finish ships in 20-24 weeks", "Custom rawhide program"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: 3351, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: 0 }),
-  fabric: fab([600, 300, 600, null, null, 23.5, 23, 24, 24, 35, 33, null, null, null, null, 18.5]),
-  leather: leather([18.5, 18.75, null, null], null),
-  finishTiers: { tier1: 0, tier2: 0, tier3: 0, tier4: 0, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
@@ -14804,16 +14495,6 @@ const PRODUCTS = [
   fabric: fab([2769, 2778, 2787, 2805, 2823, 2841, 2859, 2877, 2895, 2913, 2931, 2949, 2967, 2985, 3003, 3021]),
   leather: leather([3003, 3093, 3165, 3237], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
-},
-
-{
-  sku: "MCM424", name: "Fino Side Chair", collection: "McGuire Originals", category: "chairs", limited: true,
-  standardFinish: "Blackened Steel Frame. SWalnut Base. Black DanisGreyTea-Stained, Black Danish", frameMaterial: null, basePrice: 2601,
-  specs: ["MCM426 Danish Cord Swivel DiniMcGuire Originame with woven cane back", "Danish cord swivel chair", "Polished Stainless Steel Frd seat cushion Satin Walnut Base. Tea-StDanish Cord"],
-  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 19.75, exposedLegHeight: 20, volume: 21.5, weight: 20, fabricReq: 34, leatherReq: 27 }),
-  fabric: fab([null, null, null, null, 18, 18.5, 18, null, null, null, null, null, null, null, 11, 7]),
-  leather: leather([35, 25, 1, null], 17),
-  finishTiers: { tier1: 4227, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
 {
