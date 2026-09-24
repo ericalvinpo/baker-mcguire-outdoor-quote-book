@@ -36,7 +36,7 @@ function generateQuotationPdf(quotation, lines, totals) {
     doc.setTextColor(230, 230, 220);
     doc.setFontSize(11);
     doc.setFont("helvetica", "bold");
-    doc.text("OUTDOOR QUOTATION", margin, 76);
+    doc.text("QUOTATION", margin, 76);
 
     doc.setFont("helvetica", "normal");
     doc.setFontSize(9);
@@ -148,10 +148,10 @@ function generateQuotationPdf(quotation, lines, totals) {
     doc.setFont("helvetica", "normal");
     doc.setFontSize(8);
     doc.setTextColor(140, 140, 130);
-    doc.text(`Baker · McGuire Outdoor — Philippines`, margin, pageHeight - 24);
+    doc.text(`Baker · McGuire — Philippines`, margin, pageHeight - 24);
     doc.text(`Page ${i} of ${pageCount}`, pageWidth - margin, pageHeight - 24, { align: "right" });
   }
 
-  const fileName = `BakerMcGuire-Outdoor-Quotation-${quotation.number}.pdf`;
+  const fileName = `BakerMcGuire-Quotation-${quotation.number}.pdf`;
   doc.save(fileName);
 }
