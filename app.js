@@ -1,6 +1,6 @@
 /* Baker McGuire Outdoor — The Quote Book. Client-only SPA, no build step. */
 
-const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches" };
+const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches", tables: "Tables & Consoles" };
 
 function escapeHtml(str) {
   if (str == null) return "";
@@ -66,7 +66,7 @@ function updateThemeIcons() {
 
 // ---------------- Category counts / filtering ----------------
 function categoryCounts() {
-  const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0 };
+  const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0, tables: 0 };
   state.products.forEach((p) => { counts[p.category]++; });
   return counts;
 }
@@ -148,7 +148,7 @@ function renderProductList() {
 function defaultConfigForProduct(product) {
   const coverings = availableCoverings(product);
   const type = coverings[0];
-  const cfg = { coveringType: type, fabricGrade: 1, fabricGradeCustom: 16, leatherGrade: null, comCustomPricePhp: null, fabricRef: "", quantity: 1 };
+  const cfg = { coveringType: type, fabricGrade: 1, fabricGradeCustom: 16, leatherGrade: null, comCustomPricePhp: null, fabricRef: "", quantity: 1, finishKey: "standard" };
   if (type === "fabric") cfg.fabricGrade = 1;
   if (type === "leather") {
     const grades = Object.keys(product.leather.grades).filter((g) => product.leather.grades[g] != null);
@@ -245,11 +245,23 @@ function renderConfigurator() {
   }
 
   const finishName = product.standardFinish || product.frameMaterial || "Standard";
-  const finishHtml = `
-    <div class="finish-box">
-      <span class="ff-name">${escapeHtml(finishName)}</span>
-      <p class="ff-note">Standard finish is included. No additional finish tiers are listed for this model in the source price list.</p>
-    </div>`;
+  const finishOptions = availableFinishOptions(product);
+  let finishHtml;
+  if (finishOptions.length === 0) {
+    finishHtml = `
+      <div class="finish-box">
+        <span class="ff-name">${escapeHtml(finishName)}</span>
+        <p class="ff-note">Standard finish is included. No additional finish tiers are listed for this model in the source price list.</p>
+      </div>`;
+  } else {
+    const standardPriceRow = `<label class="radio-row"><input type="radio" name="finishKey" value="standard" ${cfg.finishKey === "standard" ? "checked" : ""}> ${escapeHtml(finishName)} <span class="helper-text">&mdash; included</span></label>`;
+    const optionRows = finishOptions.map((o) => {
+      const surchargePhp = formatPHP(Math.round(usdToPhpCentavos(o.usd) * (1 + VAT_RATE)));
+      const label = o.usd === 0 ? "included" : `+${surchargePhp} incl. VAT`;
+      return `<label class="radio-row"><input type="radio" name="finishKey" value="${o.key}" ${cfg.finishKey === o.key ? "checked" : ""}> ${escapeHtml(o.label)} <span class="helper-text">&mdash; ${label}</span></label>`;
+    }).join("");
+    finishHtml = `<div class="finish-box">${standardPriceRow}${optionRows}</div>`;
+  }
 
   const breakdown = computeUnitBreakdown(product, cfg);
   const qty = cfg.quantity || 1;
@@ -260,7 +272,7 @@ function renderConfigurator() {
     summaryHtml = `
       <div class="summary-box">
         <div class="summary-row"><span>${escapeHtml(breakdown.coveringLabel)}</span><span>${formatPHP(breakdown.coveringCentavos)}</span></div>
-        <div class="summary-row"><span>Finish surcharge</span><span>Included</span></div>
+        <div class="summary-row"><span>Finish surcharge${breakdown.finishSurchargeCentavos > 0 ? " (" + escapeHtml(breakdown.finishLabel) + ")" : ""}</span><span>${breakdown.finishSurchargeCentavos > 0 ? formatPHP(breakdown.finishSurchargeCentavos) : "Included"}</span></div>
         <div class="summary-row"><span>VAT (12%)</span><span>${formatPHP(breakdown.vatCentavos)}</span></div>
         <div class="summary-row total"><span>Unit price, incl. VAT</span><span>${formatPHP(breakdown.unitInclVatCentavos)}</span></div>
         <div class="qty-row">
@@ -286,6 +298,7 @@ function renderConfigurator() {
     ? Object.entries(product.leather.grades).filter(([, v]) => v != null).map(([g, usd]) => `<tr><td>Leather Grade ${g}</td><td>${formatPHP(usdToPhpCentavos(usd))}</td></tr>`).join("")
     : "";
   const riserRow = product.leather && product.leather.riser != null ? `<tr><td>Grade riser (grade 16+)</td><td>${formatPHP(usdToPhpCentavos(product.leather.riser))}</td></tr>` : "";
+  const finishRows = availableFinishOptions(product).map((o) => `<tr><td>${escapeHtml(o.label)} surcharge</td><td>${formatPHP(usdToPhpCentavos(o.usd))}</td></tr>`).join("");
 
   const d = product.dims;
   const dimsRows = [
@@ -327,7 +340,7 @@ function renderConfigurator() {
           <div class="expand-body schedule-table-wrap">
             <table class="schedule-table">
               <thead><tr><th>Covering</th><th>Price</th></tr></thead>
-              <tbody>${scheduleRows}${leatherRows}${riserRow}</tbody>
+              <tbody>${scheduleRows}${leatherRows}${riserRow}${finishRows}</tbody>
             </table>
           </div>
         </details>
@@ -390,6 +403,10 @@ function bindConfiguratorEvents(product) {
     if (fabricRefInput) fabricRefInput.addEventListener("input", () => { state.config.fabricRef = fabricRefInput.value; });
   }
 
+  el.querySelectorAll('input[name="finishKey"]').forEach((radio) => {
+    radio.addEventListener("change", () => { state.config.finishKey = radio.value; renderConfigurator(); });
+  });
+
   const qtyInput = document.getElementById("qtyInput");
   if (qtyInput) {
     qtyInput.addEventListener("change", () => {
@@ -409,7 +426,7 @@ function bindConfiguratorEvents(product) {
 
 // ---------------- Cart / Quotation ----------------
 function configSignature(sku, cfg, breakdown) {
-  return [sku, cfg.coveringType, cfg.fabricGrade, cfg.fabricGradeCustom, cfg.leatherGrade, cfg.comCustomPricePhp, (cfg.fabricRef || "").trim().toLowerCase(), breakdown.coveringCentavos].join("|");
+  return [sku, cfg.coveringType, cfg.fabricGrade, cfg.fabricGradeCustom, cfg.leatherGrade, cfg.comCustomPricePhp, (cfg.fabricRef || "").trim().toLowerCase(), breakdown.coveringCentavos, cfg.finishKey || "standard"].join("|");
 }
 
 function addToQuotation(product) {
@@ -430,7 +447,9 @@ function addToQuotation(product) {
       collection: product.collection,
       coveringLabel: breakdown.coveringLabel,
       fabricRef: cfg.fabricRef || "",
-      finishLabel: product.standardFinish || product.frameMaterial || "Standard",
+      finishLabel: breakdown.finishSurchargeCentavos > 0
+        ? `${product.standardFinish || product.frameMaterial || "Standard"} + ${breakdown.finishLabel} (+${formatPHP(breakdown.finishSurchargeCentavos)})`
+        : (product.standardFinish || product.frameMaterial || "Standard"),
       dimsText: dimsSummary(product.dims),
       quantity: qty,
       unitPriceBeforeVatCentavos: breakdown.subtotalCentavos,
