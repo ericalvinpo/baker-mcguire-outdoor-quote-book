@@ -1,6 +1,6 @@
-/* Baker McGuire Outdoor — The Quote Book. Client-only SPA, no build step. */
+/* Baker McGuire — The Quote Book. Client-only SPA, no build step. */
 
-const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches", tables: "Tables & Consoles" };
+const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches", tables: "Tables & Consoles", casegoods: "Casegoods", beds: "Beds", lighting: "Lighting", mirrors: "Mirrors" };
 
 function escapeHtml(str) {
   if (str == null) return "";
@@ -66,7 +66,7 @@ function updateThemeIcons() {
 
 // ---------------- Category counts / filtering ----------------
 function categoryCounts() {
-  const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0, tables: 0 };
+  const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0, tables: 0, casegoods: 0, beds: 0, lighting: 0, mirrors: 0 };
   state.products.forEach((p) => { counts[p.category]++; });
   return counts;
 }
