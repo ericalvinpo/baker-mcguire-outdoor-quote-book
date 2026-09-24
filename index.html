@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Baker McGuire Outdoor — The Quote Book</title>
-<meta name="description" content="Baker McGuire Outdoor — Philippines Quote Book. Configure, price, and quote the Baker McGuire Outdoor collection." />
+<title>Baker McGuire — The Quote Book</title>
+<meta name="description" content="Baker McGuire — Philippines Quote Book. Configure, price, and quote the full Baker McGuire collection." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23241d17'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23dd8a56' font-family='Georgia,serif'%3EB%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -373,7 +373,7 @@ table.schedule-table th { color: var(--muted-2); font-weight: 500; font-size: 11
   <!-- ============ COLLECTION VIEW ============ -->
   <section id="viewCollection" class="wrap">
     <div class="collection-heading">
-      <p class="kicker">Baker &middot; McGuire / Outdoor</p>
+      <p class="kicker">Baker &middot; McGuire / The Collection</p>
       <h1 class="collection-title">A considered collection.</h1>
       <p class="collection-tagline">Choose a piece. Make it yours. Prepare a quotation.</p>
       <p class="collection-meta" id="collectionMeta"></p>
@@ -401,7 +401,7 @@ table.schedule-table th { color: var(--muted-2); font-weight: 500; font-size: 11
   <!-- ============ QUOTATION VIEW ============ -->
   <section id="viewQuotation" class="wrap" hidden>
     <div class="collection-heading">
-      <p class="kicker">Baker &middot; McGuire / Outdoor</p>
+      <p class="kicker">Baker &middot; McGuire / The Collection</p>
       <h1 class="collection-title">Quotation</h1>
       <p class="collection-tagline">Review your selections and prepare a formal quotation.</p>
     </div>
@@ -451,7 +451,7 @@ table.schedule-table th { color: var(--muted-2); font-weight: 500; font-size: 11
   </section>
 </main>
 
-<p class="footer-note">Baker &middot; McGuire Outdoor &mdash; Philippines. All prices shown in Philippine pesos (&#8369;), inclusive of 12% VAT unless noted. For trade use.</p>
+<p class="footer-note">Baker &middot; McGuire &mdash; Philippines. All prices shown in Philippine pesos (&#8369;), inclusive of 12% VAT unless noted. For trade use.</p>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
@@ -1705,6 +1705,636 @@ const PRODUCTS = [
   finishTiers: null,
 },
 
+{
+  sku: "MR4548", name: "Wayne Counter Stool", collection: "Milling Road Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3072,
+  specs: ["Mil Metal base and frame", "Comes s Upholstered tight seat and back cushion", "Optional Blackened Steel", "Optionalfinish +$1650 cushionWhite Powdercoat"],
+  dims: dims({ width: 20.5, depth: 21.25, height: 29.75, widthInside: null, seatHeight: 24, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 35, weight: 28, fabricReq: 1.5, leatherReq: 26 }),
+  fabric: fab([3099, 3114, 3126, 3153, 3180, 3207, 3234, 3261, 3288, 3315, 3342, 3369, 3396, 3423, 3450, 3477]),
+  leather: leather([3450, 3585, 3693, 3801], 27),
+  finishTiers: null,
+},
+
+{
+  sku: "MR668-11-9", name: "Woven X Bench", collection: "Milling Road Originals", category: "ottomans", limited: true,
+  standardFinish: "+$165Blackened Walnut, Natura", frameMaterial: null, basePrice: 2751,
+  specs: ["standard with a 17.5” x 24”", "Hardwood Solids, Metal aCaning al Premium Down"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 32, exposedLegHeight: 21.5, volume: 17, weight: 23.5, fabricReq: 23, leatherReq: 35 }),
+  fabric: fab([null, null, null, null, 19, 20, null, null, null, null, 23, null, null, null, 31, 14]),
+  leather: leather([65, 9, 1, 0.75], 17),
+  finishTiers: { tier1: 3036, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MR7040", name: "Cane Side Chair", collection: "Kara Mann", category: "chairs", limited: false,
+  standardFinish: "Blackened Walnut, Natural Walnut", frameMaterial: null, basePrice: 3345,
+  specs: ["Hardwood solids, metal and caning"],
+  dims: dims({ width: 21.5, depth: 23.5, height: 35, widthInside: null, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 25.5, exposedLegHeight: null, volume: 15, weight: 11, fabricReq: 0.75, leatherReq: 13 }),
+  fabric: fab([3360, 3369, 3375, 3390, 3405, 3420, 3435, 3450, 3465, 3480, 3495, 3510, 3525, 3540, 3555, 3570]),
+  leather: leather([3555, 3630, 3690, 3750], 15),
+  finishTiers: null,
+},
+
+{
+  sku: "MR7148", name: "Cane Counter Stool", collection: "Kara Mann", category: "chairs", limited: true,
+  standardFinish: "Natural Walnut", frameMaterial: null, basePrice: 2586,
+  specs: ["Hardwood solids, metal and canin Natural Caning", "Antique Bronze, Oil Rubbed BronzHardware"],
+  dims: dims({ width: 17.25, depth: 21, height: 36, widthInside: null, seatHeight: 24, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 28, fabricReq: 0.75, leatherReq: 12.8 }),
+  fabric: fab([2601, 2610, 2616, 2631, 2646, 2661, 2676, 2691, 2706, 2721, 2736, 2751, 2766, 2781, 2796, 2811]),
+  leather: leather([2796, 2871, 2931, 2991], 15),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8401", name: "Dacian Dressing Chest", collection: "Milling Road Originals", category: "casegoods", limited: true,
+  standardFinish: "Moonlight with Blackened Bronze", frameMaterial: null, basePrice: 6831,
+  specs: ["ing", "Standard Metal Finish(es): Blackened Bronze, Sculptural nze Bronze", "Oak Solids and Veneer Case", "Soft Close Drawers", "Cast Bronze Hardware", "Seven Drawers"],
+  dims: dims({ width: 66, depth: 20, height: 34, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 295, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8409", name: "Pierre Nightstand", collection: "Milling Road Originals", category: "casegoods", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 2097,
+  specs: ["Standard Metal Finish(es):", "CBlackened Bronze", "I Oak Solids and Veneer Case", "Resin Reeding", "Cast Bronze Hardware", "One soft close drawer", "One faux escutcheon with blackened bronze key Moonlight"],
+  dims: dims({ width: 27, depth: 20, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8414", name: "Olympus Looking Glass Mirror", collection: "Milling Road Originals", category: "mirrors", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 2847,
+  specs: ["Curved Laurel Leaf Motif Inset Mirrored Glass"],
+  dims: dims({ width: 42, depth: 2.5, height: 43.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 72, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MR8416", name: "Petit Thanos Bench", collection: "Milling Road Originals", category: "ottomans", limited: true,
+  standardFinish: "Bronze", frameMaterial: null, basePrice: 3732,
+  specs: ["Saber Tooth Bench with Cast Bronze Legs Blackened Bronze, Sculptural"],
+  dims: dims({ width: 32, depth: 18.75, height: 19, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 40, fabricReq: 2.75, leatherReq: 47 }),
+  fabric: fab([3783, 3810, 3834, 3885, 3936, 3987, 4038, 4089, 4140, 4191, 4242, 4293, 4344, 4395, 4446, 4497]),
+  leather: leather([4446, 4701, 4905, 5109], 51),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8417", name: "Thanos Bench", collection: "Milling Road Originals", category: "ottomans", limited: true,
+  standardFinish: "Bronze", frameMaterial: null, basePrice: 4242,
+  specs: ["Saber Tooth Bench with Cast Bronze Legs", "Tight Seat Cushion Blackened Bronze, Sculptural"],
+  dims: dims({ width: 60, depth: 18.75, height: 19, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 40, fabricReq: 4, leatherReq: 68 }),
+  fabric: fab([4314, 4350, 4386, 4458, 4530, 4602, 4674, 4746, 4818, 4890, 4962, 5034, 5106, 5178, 5250, 5322]),
+  leather: leather([5250, 5610, 5898, 6186], 72),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8421CK", name: "Aurelia California King Bed", collection: "Milling Road Originals", category: "beds", limited: true,
+  standardFinish: "bSculptural BronzeS", frameMaterial: null, basePrice: 8472,
+  specs: ["Upholstered headboard, footboard", "Uand sideboard with box pleated sskirt application a Recommended: 5” low profile", "Rboxspring and 10” mattress height"],
+  dims: dims({ width: 78, depth: 91, height: 72, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 320, fabricReq: 10.75, leatherReq: 183 }),
+  fabric: fab([8667, 8766, 8862, 9057, 9252, 9447, 9642, 9837, 10032, 10227, 10422, 10617, 10812, 11007, 11202, 11397]),
+  leather: leather([11202, 12177, 12957, 13737], 195),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8421K", name: "Aurelia King Bed", collection: "Milling Road Originals", category: "beds", limited: true,
+  standardFinish: "Sculptural Bronze", frameMaterial: null, basePrice: 7872,
+  specs: ["Upholstered headboard, foot and sideboard with box pleated skirt application Recommended: 5” low profile boxspring and 10” mattress height"],
+  dims: dims({ width: 82, depth: 87, height: 72, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 300, fabricReq: 10.75, leatherReq: 183 }),
+  fabric: fab([8067, 8166, 8262, 8457, 8652, 8847, 9042, 9237, 9432, 9627, 9822, 10017, 10212, 10407, 10602, 10797]),
+  leather: leather([10602, 11577, 12357, 13137], 195),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8421Q", name: "Aurelia Queen Bed", collection: "Milling Road Originals", category: "beds", limited: true,
+  standardFinish: "boxspring and 10” mattress heighSculptural Bronze", frameMaterial: null, basePrice: 7527,
+  specs: ["Upholstered headboard, foot and sideboard with box pleated skirt application", "Four Cast Bronze Posters", "Recommended: 5” low profile"],
+  dims: dims({ width: 66, depth: 87, height: 66, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 300, fabricReq: 9.75, leatherReq: 166 }),
+  fabric: fab([7704, 7794, 7881, 8058, 8235, 8412, 8589, 8766, 8943, 9120, 9297, 9474, 9651, 9828, 10005, 10182]),
+  leather: leather([10005, 10890, 11598, 12306], 177),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8422Q", name: "Francois Queen Bed", collection: "Milling Road Originals", category: "beds", limited: true,
+  standardFinish: "Daybreak", frameMaterial: null, basePrice: 8637,
+  specs: ["d", "Upholstered headboard, footboard and siderails ht"],
+  dims: dims({ width: 66.5, depth: 93, height: 68.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 300, fabricReq: 11, leatherReq: 187 }),
+  fabric: fab([8835, 8934, 9033, 9231, 9429, 9627, 9825, 10023, 10221, 10419, 10617, 10815, 11013, 11211, 11409, 11607]),
+  leather: leather([11409, 12399, 13191, 13983], 198),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8429", name: "Thea Credenza", collection: "Milling Road Originals", category: "casegoods", limited: true,
+  standardFinish: "Evening with Blackened BronzeE", frameMaterial: null, basePrice: 5547,
+  specs: ["Optional Metal Finish(es):", "OSculptural Bronze", "S Eglomise Door Fronts on Three", "ADoors S Cast Bronze Hardware", "O Sterling Silver Drawer liner in one Smiddle drawer Q One Faux Escutcheon with Blackened Bronze Key and Tassel"],
+  dims: dims({ width: 62.5, depth: 18, height: 35, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 133, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8437", name: "Hemingway Dining Table", collection: "Milling Road Originals", category: "tables", limited: true,
+  standardFinish: "Evening", frameMaterial: null, basePrice: 5097,
+  specs: ["Oak Solids and Veneers Starburst pattern and circular motif Additional 24” Leaf Comes Standard Optional Contrast Decorative Striping: Black, Dove, Ivory, Linen, Quill"],
+  dims: dims({ width: 96, depth: 45.5, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 355, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8438", name: "Grand Concorde Oval Table", collection: "Milling Road Originals", category: "tables", limited: true,
+  standardFinish: "Twilight", frameMaterial: null, basePrice: 4497,
+  specs: ["Oak Solids and Veneer Top and Base", "Starburst pattern and circular mo Optional Contrast Decorative Striping: Black, Dove, Ivory, Linen, Quill"],
+  dims: dims({ width: 88, depth: 45.5, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 165, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8440", name: "Josephine Chair", collection: "Milling Road Originals", category: "chairs", limited: false,
+  standardFinish: "Ancient Gilt", frameMaterial: null, basePrice: 2826,
+  specs: ["Leafing on the Legs", "Upholstered Tight Seat and Back otif n,"],
+  dims: dims({ width: 23, depth: 28, height: 34.5, widthInside: null, seatHeight: 19, seatDepth: 19.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 63, fabricReq: 2.5, leatherReq: 38 }),
+  fabric: fab([2871, 2895, 2916, 2961, 3006, 3051, 3096, 3141, 3186, 3231, 3276, 3321, 3366, 3411, 3456, 3501]),
+  leather: leather([3456, 3681, 3861, 4041], 45),
+  finishTiers: { tier1: 300, tier2: 795, tier3: 1095, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MR8441", name: "Napoleon Chair", collection: "Milling Road Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3126,
+  specs: ["Leafing on the Legs", "U Nailhead Trim Accent on Arms", "Upholstered Tight Seat Back Ancient Gilt"],
+  dims: dims({ width: 25, depth: 27, height: 35, widthInside: null, seatHeight: 20, seatDepth: 20, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 35, weight: 35, fabricReq: 2.5, leatherReq: 43 }),
+  fabric: fab([3171, 3195, 3216, 3261, 3306, 3351, 3396, 3441, 3486, 3531, 3576, 3621, 3666, 3711, 3756, 3801]),
+  leather: leather([3756, 3981, 4161, 4341], 45),
+  finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MR8443", name: "Atticus Arm Chair", collection: "Milling Road Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3147,
+  specs: ["Upholstered Tight Seat and Back"],
+  dims: dims({ width: 24, depth: 29.5, height: 38, widthInside: null, seatHeight: 20, seatDepth: 20.25, armWidth: null, armHeight: 23.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([3201, 3228, 3255, 3309, 3363, 3417, 3471, 3525, 3579, 3633, 3687, 3741, 3795, 3849, 3903, 3957]),
+  leather: leather([3903, 4173, 4389, 4605], 54),
+  finishTiers: { tier1: 0, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MR8444", name: "Grande Aegean Chair", collection: "Milling Road Originals", category: "chairs", limited: false,
+  standardFinish: "Daybreak", frameMaterial: null, basePrice: 3282,
+  specs: ["Oak Solids with saber leg", "Upholstered Tight Seat and Back"],
+  dims: dims({ width: 22.75, depth: 24, height: 33, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 30, fabricReq: 2.75, leatherReq: 47 }),
+  fabric: fab([3333, 3360, 3384, 3435, 3486, 3537, 3588, 3639, 3690, 3741, 3792, 3843, 3894, 3945, 3996, 4047]),
+  leather: leather([3996, 4251, 4455, 4659], 51),
+  finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MR8446", name: "Dillin Counter Stool", collection: "Milling Road Originals", category: "chairs", limited: false,
+  standardFinish: "Daybreak", frameMaterial: null, basePrice: 2841,
+  specs: ["Oak Solids frame with four stretchers", "Upholstered Tight seat and back", "One Blackened Bronze kick plate standard"],
+  dims: dims({ width: 18, depth: 21.75, height: 33, widthInside: null, seatHeight: 24.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 28, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([2895, 2922, 2949, 3003, 3057, 3111, 3165, 3219, 3273, 3327, 3381, 3435, 3489, 3543, 3597, 3651]),
+  leather: leather([3597, 3867, 4083, 4299], 54),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8447", name: "Dillin Barstool", collection: "Milling Road Originals", category: "chairs", limited: true,
+  standardFinish: "DaybreakB", frameMaterial: null, basePrice: 3147,
+  specs: ["Upholstered Tight seat and back", "U One Blackened Bronze kickplate standard"],
+  dims: dims({ width: 18, depth: 21.75, height: 39, widthInside: null, seatHeight: 30.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 70, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([3201, 3228, 3255, 3309, 3363, 3417, 3471, 3525, 3579, 3633, 3687, 3741, 3795, 3849, 3903, 3957]),
+  leather: leather([3903, 4173, 4389, 4605], 54),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8448", name: "Vere Counter Stool with Back", collection: "Milling Road Originals", category: "chairs", limited: true,
+  standardFinish: "Blackened Bronze", frameMaterial: null, basePrice: 3732,
+  specs: ["Upholstered Seat and Back"],
+  dims: dims({ width: 23.5, depth: 21, height: 38.5, widthInside: null, seatHeight: 25.65, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 57, fabricReq: 2.75, leatherReq: 47 }),
+  fabric: fab([3783, 3810, 3834, 3885, 3936, 3987, 4038, 4089, 4140, 4191, 4242, 4293, 4344, 4395, 4446, 4497]),
+  leather: leather([4446, 4701, 4905, 5109], 51),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8449", name: "Vere Barstool with Back", collection: "Milling Road Originals", category: "chairs", limited: true,
+  standardFinish: "Sculptural Bronze", frameMaterial: null, basePrice: 3732,
+  specs: ["Cast Bronze Frame", "Upholstered Seat and Back"],
+  dims: dims({ width: 23.5, depth: 21, height: 42.5, widthInside: null, seatHeight: 29, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 59, fabricReq: 2.75, leatherReq: 47 }),
+  fabric: fab([3783, 3810, 3834, 3885, 3936, 3987, 4038, 4089, 4140, 4191, 4242, 4293, 4344, 4395, 4446, 4497]),
+  leather: leather([4446, 4701, 4905, 5109], 51),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8463", name: "Makiko Console", collection: "Milling Road Originals", category: "tables", limited: true,
+  standardFinish: "Oak Solids and Veneer frame -", frameMaterial: null, basePrice: 2847,
+  specs: [],
+  dims: dims({ width: 72, depth: 16, height: 33.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 2850, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MR8464", name: "Estelle Console", collection: "Milling Road Originals", category: "tables", limited: true,
+  standardFinish: "EveningBB", frameMaterial: null, basePrice: 3747,
+  specs: ["Oak Solids and Veneer Frame", "Inset Honed Carrara Marble Top", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 59, depth: 16, height: 34, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 133, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8466", name: "Noble Console", collection: "Milling Road Originals", category: "tables", limited: false,
+  standardFinish: "Bronze", frameMaterial: null, basePrice: 9987,
+  specs: ["Blackened Bronze, Sculptural"],
+  dims: dims({ width: 73, depth: 13, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 133, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8475", name: "Roman Chest", collection: "Milling Road Originals", category: "casegoods", limited: false,
+  standardFinish: "Moonlight", frameMaterial: null, basePrice: 4971,
+  specs: ["Three Soft Close, Pull to Open Drawers"],
+  dims: dims({ width: 39, depth: 19, height: 34, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 188, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 4350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MR8488", name: "Hemingway Desk", collection: "Milling Road Originals", category: "casegoods", limited: true,
+  standardFinish: "Twilight with Sculptural Bronze", frameMaterial: null, basePrice: 5697,
+  specs: ["Standard Metal Finish(es): Blackened Bronze, Sculptural Bronze", "Oak solids, veneers and composite top and base", "Cast Bronze Hardware", "Three drawers"],
+  dims: dims({ width: 59.5, depth: 29.5, height: 30.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 255, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8497", name: "Vere Barstool", collection: "Milling Road Originals", category: "chairs", limited: true,
+  standardFinish: "BronzeBB", frameMaterial: null, basePrice: 3096,
+  specs: ["Cast Bronze frame", "C Front foot rest", "F Tight, upholstered seat", "TBlackened Bronze, Sculptural"],
+  dims: dims({ width: 21, depth: 19.5, height: 29.5, widthInside: null, seatHeight: 29.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 28, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([3132, 3150, 3168, 3204, 3240, 3276, 3312, 3348, 3384, 3420, 3456, 3492, 3528, 3564, 3600, 3636]),
+  leather: leather([3600, 3780, 3924, 4068], 36),
+  finishTiers: null,
+},
+
+{
+  sku: "MR8498", name: "Vere Counter Stool", collection: "Milling Road Originals", category: "chairs", limited: true,
+  standardFinish: "Bronze", frameMaterial: null, basePrice: 2946,
+  specs: ["Cast Bronze frame Front Foot rest Tight, Upholstered seat Blackened Bronze, Sculptural"],
+  dims: dims({ width: 20.5, depth: 19.5, height: 25.5, widthInside: null, seatHeight: 25.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 28, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([2982, 3000, 3018, 3054, 3090, 3126, 3162, 3198, 3234, 3270, 3306, 3342, 3378, 3414, 3450, 3486]),
+  leather: leather([3450, 3630, 3774, 3918], 36),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4611", name: "Nautica Wall Mirror", collection: "Baker Resort®", category: "mirrors", limited: true,
+  standardFinish: "Bronze frame with clear mirrorBlackened Bronze", frameMaterial: null, basePrice: 5997,
+  specs: [],
+  dims: dims({ width: 40, depth: 4, height: 52, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 135, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4612", name: "Pacifica Wall Mirror", collection: "Baker Resort®", category: "mirrors", limited: true,
+  standardFinish: "Bronze frame with clear mirror Natural Bronze", frameMaterial: null, basePrice: 5997,
+  specs: [],
+  dims: dims({ width: 40, depth: 4, height: 52, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 135, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4613", name: "Nautica Floor Mirror", collection: "Baker Resort®", category: "mirrors", limited: false,
+  standardFinish: "BBlackened BronzeN", frameMaterial: null, basePrice: 7497,
+  specs: ["Bronze frame with clear mirror"],
+  dims: dims({ width: 36, depth: 4, height: 84, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 23, weight: 180, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4614", name: "Pacifica Floor Mirror", collection: "Baker Resort®", category: "mirrors", limited: true,
+  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 7497,
+  specs: ["Bronze frame with clear mirror"],
+  dims: dims({ width: 36, depth: 4, height: 84, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 23, weight: 180, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABB134", name: "Gemstone Large Table Lamp", collection: "Barbara Barry", category: "lighting", limited: true,
+  standardFinish: "Citrine Murano Glass", frameMaterial: null, basePrice: 4497,
+  specs: ["White linen shade with diffuser", "Two (2) sockets with pull chains", "Accept 60W E26 type A CFL or incandescent bulbs", "White fabric cord", "Only available in 110V", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 16.5, depth: 16.5, height: 30.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 40, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABB138", name: "Magritte Table Lamp", collection: "Barbara Barry", category: "lighting", limited: false,
+  standardFinish: "with Satin", frameMaterial: null, basePrice: 3891,
+  specs: ["Murano glass or frosted glass with brass details", "White linen shade with diffuser", "Two (2) sockets with pull chains", "Accepts 60W E26 type A CFL or incandescent bulbs", "Brown fabric cord", "Rose Quartz only available in 110", "Amber Champagne only available in 220", "Disclaimer: Please see Natural Materials page Rose Quartz, Amber Champagne"],
+  dims: dims({ width: 18, depth: 18, height: 26, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 35, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABB142", name: "Prism Table Lamp", collection: "Barbara Barry", category: "lighting", limited: true,
+  standardFinish: "BlushF", frameMaterial: null, basePrice: 4197,
+  specs: ["Standard Metal Finish(es): Deep", "MBronze t Linen shade with large weave and", "Ediffuser", "Two (2) sockets with pull chains", "Accepts 60W E26 type A CFL or incandescent bulbs", "Brown fabric cord", "Only available in C plug"],
+  dims: dims({ width: 14.25, depth: 14.25, height: 33.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 9, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABB150", name: "Aura Table Lamp", collection: "Barbara Barry", category: "lighting", limited: true,
+  standardFinish: "Frosted Smokey Green", frameMaterial: null, basePrice: 5247,
+  specs: ["Murano glass with organic etching technique E26 bulb"],
+  dims: dims({ width: 16, depth: 16, height: 27, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 35, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABB301", name: "Lens Chandelier", collection: "Barbara Barry", category: "lighting", limited: false,
+  standardFinish: "Ivory Enamel", frameMaterial: null, basePrice: 9627,
+  specs: ["Standard Metal Finish(es): Stain Brass", "Natural white Onyx", "Three (3) sockets accept 60W E12 type B CFL or incandescent bulbs"],
+  dims: dims({ width: 34, depth: 34, height: 4.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 4, weight: 33, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABB404", name: "Opus Sconce", collection: "Barbara Barry", category: "lighting", limited: true,
+  standardFinish: "Deep Bronze", frameMaterial: null, basePrice: 3297,
+  specs: ["Brass body", "Natural white onyx diffuser", "22 Watt LED strip 2 s"],
+  dims: dims({ width: 9.75, depth: 2.75, height: 13.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 3, weight: 33, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABK101", name: "Frille Table Lamp", collection: "Baker Originals", category: "lighting", limited: true,
+  standardFinish: "DCCast IronD", frameMaterial: null, basePrice: 597,
+  specs: ["Cast Iron", "S Black cotton pleated shade with", "Oblack fabric cord", "O One (1) 75W, E26 type A CFL or iincandescent bulb required", "D One (1) socket with turnkey switch P Only available in A1 Plug"],
+  dims: dims({ width: 8.5, depth: 7.25, height: 31, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 6, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABK102", name: "Firenze Table Lamp", collection: "Baker Originals", category: "lighting", limited: true,
+  standardFinish: "De Bois Noir, De Bois Blanc", frameMaterial: null, basePrice: 1047,
+  specs: ["Silk barrel shade One (1) socket with turnkey switch One (1) 75W, E26 type A CFL or incandescent bulb required De Bois Noir only available in A1 Plug De Bois Blanc only available in C Plug"],
+  dims: dims({ width: 8.5, depth: 7.5, height: 33, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 11, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABK201", name: "Frille Floor Lamp", collection: "Baker Originals", category: "lighting", limited: true,
+  standardFinish: "Cast Iron", frameMaterial: null, basePrice: 3600,
+  specs: ["Black cotton pleated shade", "Black fabric cord", "One (1) socket with pull chain switches", "Two (2) 60W type A CFL or incandescent bulbs required", "Only available in A1 Plug"],
+  dims: dims({ width: 17.75, depth: 15.5, height: 69, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 2, weight: 15, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABK303", name: "Briolette Chandelier", collection: "Baker Originals", category: "lighting", limited: true,
+  standardFinish: "Satin Brass", frameMaterial: null, basePrice: 13485,
+  specs: ["Five (5) faceted alabaster blocks", "Hardwired for wall switch", "Five (5) 4W LED discs", "Only available in 220V", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 34.5, depth: 34.5, height: 52.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 33, weight: 45, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABK310", name: "Stella Chandelier", collection: "Baker Originals", category: "lighting", limited: true,
+  standardFinish: "MCrystal Murano GlassC", frameMaterial: null, basePrice: 23991,
+  specs: ["Murano glass with brass frame", "M Only available in 220", "O Disclaimer: Please see Natural", "DMaterials page"],
+  dims: dims({ width: 35.5, depth: 35.5, height: 35.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 33, weight: 170, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BABK410", name: "Stella Sconce", collection: "Baker Originals", category: "lighting", limited: true,
+  standardFinish: "Crystal Murano Glass", frameMaterial: null, basePrice: 3291,
+  specs: ["Murano glass with brass frame Only available in 220V Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 17, depth: 8.75, height: 21.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 4, weight: 23.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAJLD107", name: "Azurite Table Lamp", collection: "Jean Louis Deniot", category: "lighting", limited: false,
+  standardFinish: "Alabaster with Satin Brass Accents", frameMaterial: null, basePrice: 5277,
+  specs: ["Sand cotton shade", "Silver fabric power cord with cord switch", "Two (2) 60W medium base bulbs required", "Disclaimer: Please see Natural Materials page", "Only available in 110 Volt"],
+  dims: dims({ width: 17, depth: 17, height: 27, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 17, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAJLD400", name: "Iolite Sconce", collection: "Jean Louis Deniot", category: "lighting", limited: true,
+  standardFinish: "Antique Bronze with Polished Brass", frameMaterial: null, basePrice: 2991,
+  specs: ["Hardwired for wall switch d", "One (1) 7W candelabra base bulb required s", "Only available in 220 Volt ts"],
+  dims: dims({ width: 10.25, depth: 4, height: 15, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 3, weight: 26, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAJLD401", name: "Sodalite Sconce", collection: "Jean Louis Deniot", category: "lighting", limited: true,
+  standardFinish: "Satin Nickel with Alabaster ShadeW", frameMaterial: null, basePrice: 3297,
+  specs: ["Brass and glass or alabaster", "P Hardwired for wall switch", "H Two (2) 25W candelabra base", "Abulbs required for alabaster shades i Two (2) 40W candelabra base", "Obulbs required for glass shades", "Only available in E12", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 11.5, depth: 7, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 3, weight: 26, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BALK303", name: "Compañas Pendant", collection: "Laura Kirar", category: "lighting", limited: true,
+  standardFinish: "White Frosted Glass", frameMaterial: null, basePrice: 10947,
+  specs: ["Polished Brass ceiling plate Hardwired for wall switch Accepts three (3) 60W type B incandescent bulbs Only available in 110V"],
+  dims: dims({ width: 12, depth: 12, height: 25.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 11, weight: 49, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAPH126", name: "Cloak Table Lamp", collection: "Thomas Pheasant", category: "lighting", limited: false,
+  standardFinish: "Textured BrassMurano", frameMaterial: null, basePrice: 7617,
+  specs: ["DiaT White linen shade with diffuser", "White ch Two (2) sockets with pull chains", "6 ft. tran Accepts 60W E26 type A CFL or cord switincandescent bulb", "One (1) 7required Oil Rubbed and Bright Bronze with"],
+  dims: dims({ width: 18, depth: 12, height: 26.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 18, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAPH163", name: "Diamond Table Lamp", collection: "Thomas Pheasant", category: "lighting", limited: false,
+  standardFinish: "o Glass with Brass HardwareCrystal and Brass Hardwar", frameMaterial: null, basePrice: 5367,
+  specs: ["BAPH164 Bangle Glass Table LThomas Pheasanhinette shade, no border", "White chinette shade nsparent power cord with", "6 ft. transparent power coitch cord switch 75W incandescent bulb", "One (1) 75W incandescend required", "Disclaimer: Please see NatMaterials page"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 15.75, exposedLegHeight: 15.75, volume: 15.75, weight: 15.75, fabricReq: 27.5, leatherReq: 27 }),
+  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8, 3]),
+  leather: leather([25, 15, null, null], null),
+  finishTiers: { tier1: 4437, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAPH164", name: "Bangle Glass Table Lamp", collection: "Thomas Pheasant", category: "lighting", limited: false,
+  standardFinish: "Nickel", frameMaterial: null, basePrice: 2547,
+  specs: ["One light with ivory chinette shade", "Hardwired for Wall Switch", "Uses one candelabra bulb, 40 watts maximum", "Only available in A1 plug"],
+  dims: dims({ width: 9, depth: 9, height: 11.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 11, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAPH316", name: "Amanda Pendant", collection: "Thomas Pheasant", category: "lighting", limited: false,
+  standardFinish: "Bright Bronze", frameMaterial: null, basePrice: 7047,
+  specs: ["Hardwired for wall switch", "One (1) 60W type B bulb required"],
+  dims: dims({ width: 8, depth: 8, height: 78, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 17, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAPN100", name: "Volare Table Lamp", collection: "Paola Navone", category: "lighting", limited: false,
+  standardFinish: "Cast Murano Glass with Solid Brass", frameMaterial: null, basePrice: 5397,
+  specs: ["Textured Cast Murano glass lamp d", "White linen shade", "One (1) socket", "Recommended light bulb: E26", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 14, depth: 14, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 12, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAPN101", name: "Vela Table Lamp - Small", collection: "Paola Navone", category: "lighting", limited: true,
+  standardFinish: "MCast Murano Glass with Cast BrassC", frameMaterial: null, basePrice: 4191,
+  specs: ["Murano glass with brass details", "M Recommended light bulb: E26", "R Only available in C plug", "O Disclaimer: Please see Natural", "DMaterials page"],
+  dims: dims({ width: 6.25, depth: 6.25, height: 19, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 3, weight: 12, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAPN102", name: "Vela Table Lamp - Large", collection: "Paola Navone", category: "lighting", limited: true,
+  standardFinish: "Cast Murano Glass with Cast Brass", frameMaterial: null, basePrice: 4491,
+  specs: ["Murano glass with brass details Recommended light bulb: E26 Only available in C Plug Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 6.25, depth: 6.25, height: 25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 3, weight: 15, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAPN200", name: "Volare Floor Lamp", collection: "Paola Navone", category: "lighting", limited: true,
+  standardFinish: "Materials pageCast Murano Glass with Solid Bras", frameMaterial: null, basePrice: 5391,
+  specs: ["Murano glass with brass details", "Recommended light bulb: E26", "Only available in C Plug", "Disclaimer: Please see Natural"],
+  dims: dims({ width: 18, depth: 20, height: 55, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 10.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAPN305", name: "Volare Pendant - Small", collection: "Paola Navone", category: "lighting", limited: true,
+  standardFinish: "Solid Brass", frameMaterial: null, basePrice: 10497,
+  specs: ["Murano glass with brass details", "Three 3” diameter pendants", "One 25” tall pendant and two 18” tall pendants", "Wires adjustable up to 79”", "Recommended light bulb: GU10 40W dimmable", "Disclaimer: Please see Natural Materials page ass Cast Murano Glass with Cast and"],
+  dims: dims({ width: 12, depth: 12, height: 104, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 31, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAPN306", name: "Volare Pendant - Large", collection: "Paola Navone", category: "lighting", limited: true,
+  standardFinish: "Solid BrassO", frameMaterial: null, basePrice: 16497,
+  specs: ["Murano glass with brass details", "L Five 3” diameter pendants i Two 25” tall pendants and three 18” tall pendants", "Wires adjustable up to 79”", "Recommended light bulb: GU10 40W dimmable", "Disclaimer: Please see Natural Materials page Cast Murano Glass with Cast and"],
+  dims: dims({ width: 17.75, depth: 17.75, height: 104, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 58, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA1712", name: "Spinnaker Mirror", collection: "Baker Resort® for McGuire", category: "mirrors", limited: true,
+  standardFinish: "Oyster Leather Cord", frameMaterial: null, basePrice: 8997,
+  specs: ["Leather cord wrapped frame with inset clear mirror 20.5” DIA"],
+  dims: dims({ width: 48, depth: 2, height: 48, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 7, weight: 34.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA1713", name: "Tidal Mirror", collection: "Baker Resort® for McGuire", category: "mirrors", limited: true,
+  standardFinish: "Madeira Leather Cord", frameMaterial: null, basePrice: 8997,
+  specs: ["Leather cord wrapped frame with inset clear mirror 20.5” DIA"],
+  dims: dims({ width: 48, depth: 2, height: 48, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 7, weight: 34.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
 ];
 
 </script>
@@ -1915,7 +2545,7 @@ function generateQuotationPdf(quotation, lines, totals) {
     doc.setTextColor(230, 230, 220);
     doc.setFontSize(11);
     doc.setFont("helvetica", "bold");
-    doc.text("OUTDOOR QUOTATION", margin, 76);
+    doc.text("QUOTATION", margin, 76);
 
     doc.setFont("helvetica", "normal");
     doc.setFontSize(9);
@@ -2027,19 +2657,19 @@ function generateQuotationPdf(quotation, lines, totals) {
     doc.setFont("helvetica", "normal");
     doc.setFontSize(8);
     doc.setTextColor(140, 140, 130);
-    doc.text(`Baker · McGuire Outdoor — Philippines`, margin, pageHeight - 24);
+    doc.text(`Baker · McGuire — Philippines`, margin, pageHeight - 24);
     doc.text(`Page ${i} of ${pageCount}`, pageWidth - margin, pageHeight - 24, { align: "right" });
   }
 
-  const fileName = `BakerMcGuire-Outdoor-Quotation-${quotation.number}.pdf`;
+  const fileName = `BakerMcGuire-Quotation-${quotation.number}.pdf`;
   doc.save(fileName);
 }
 
 </script>
 <script>
-/* Baker McGuire Outdoor — The Quote Book. Client-only SPA, no build step. */
+/* Baker McGuire — The Quote Book. Client-only SPA, no build step. */
 
-const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches", tables: "Tables & Consoles" };
+const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches", tables: "Tables & Consoles", casegoods: "Casegoods", beds: "Beds", lighting: "Lighting", mirrors: "Mirrors" };
 
 function escapeHtml(str) {
   if (str == null) return "";
@@ -2105,7 +2735,7 @@ function updateThemeIcons() {
 
 // ---------------- Category counts / filtering ----------------
 function categoryCounts() {
-  const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0, tables: 0 };
+  const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0, tables: 0, casegoods: 0, beds: 0, lighting: 0, mirrors: 0 };
   state.products.forEach((p) => { counts[p.category]++; });
   return counts;
 }
