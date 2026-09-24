@@ -13176,4 +13176,1814 @@ const PRODUCTS = [
   finishTiers: null,
 },
 
+{
+  sku: "MCA2340", name: "Lantana Side Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Gunmetal, Matte Mineral", frameMaterial: null, basePrice: 4146,
+  specs: ["Rattan side chair with rawhide bindings", "Tight upholstered inback and outback", "Tight seat"],
+  dims: dims({ width: 21.25, depth: 23, height: 31.25, widthInside: 21, seatHeight: 17.75, seatDepth: 18.25, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 16, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([4182, 4200, 4218, 4254, 4290, 4326, 4362, 4398, 4434, 4470, 4506, 4542, 4578, 4614, 4650, 4686]),
+  leather: leather([4650, 4830, 4974, 5118], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: 1650 },
+},
+
+{
+  sku: "MCA2341", name: "Lantana Arm Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Gunmetal, Matte Mineral", frameMaterial: null, basePrice: 4620,
+  specs: ["Rattan arm chair with rawhide bindings", "Tight upholstered inback and outback", "Tight seat"],
+  dims: dims({ width: 24, depth: 23, height: 31.25, widthInside: 21.5, seatHeight: 17.75, seatDepth: 17.75, armWidth: null, armHeight: 24.5, exposedLegHeight: null, volume: 10, weight: 20.5, fabricReq: 2.5, leatherReq: 43 }),
+  fabric: fab([4665, 4689, 4710, 4755, 4800, 4845, 4890, 4935, 4980, 5025, 5070, 5115, 5160, 5205, 5250, 5295]),
+  leather: leather([5250, 5475, 5655, 5835], 45),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: 1650 },
+},
+
+{
+  sku: "MCA2344", name: "Reyes Side Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "SGunmetal, Matte MineralG", frameMaterial: null, basePrice: 4053,
+  specs: ["Rattan side chair with rawhide", "Rbindings b Tight seat", "T Square mesh caned back"],
+  dims: dims({ width: 23, depth: 24, height: 38, widthInside: 22.5, seatHeight: 19, seatDepth: 20, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 20, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([4089, 4107, 4125, 4161, 4197, 4233, 4269, 4305, 4341, 4377, 4413, 4449, 4485, 4521, 4557, 4593]),
+  leather: leather([4557, 4737, 4881, 5025], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 450, type2Rattan: 750, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2345", name: "Reyes Arm Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Gunmetal, Matte Mineral", frameMaterial: null, basePrice: 4146,
+  specs: ["Rattan arm chair with rawhide bindings Tight seat Square mesh caned back"],
+  dims: dims({ width: 23, depth: 24, height: 38, widthInside: 20.25, seatHeight: 19, seatDepth: 20, armWidth: null, armHeight: 26, exposedLegHeight: null, volume: 13, weight: 21, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([4182, 4200, 4218, 4254, 4290, 4326, 4362, 4398, 4434, 4470, 4506, 4542, 4578, 4614, 4650, 4686]),
+  leather: leather([4650, 4830, 4974, 5118], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 750, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2346", name: "Lampasas Side Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Square mGunmetal, Matte MineralGunmet", frameMaterial: null, basePrice: 3837,
+  specs: ["LaM Rattan side chair with rawhide", "Rattan arbindings bindings", "Tight seat", "Tight sea Square mesh caned back"],
+  dims: dims({ width: 23, depth: 24, height: 35.75, widthInside: 22, seatHeight: 18.25, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 16.5, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([3870, 3888, 3903, 3936, 3969, 4002, 4035, 4068, 4101, 4134, 4167, 4200, 4233, 4266, 4299, 4332]),
+  leather: leather([4299, 4464, 4596, 4728], 33),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA2347", name: "Lampasas Arm Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Gunmetal, Matte Mineral", frameMaterial: null, basePrice: 4206,
+  specs: ["MCA2348 Knot Side Chair McGuire Originaarm chair with rawhide", "Rattan side chair with raws bindings at", "Tight seat and back mesh caned back", "Caned outback tal, Matte Mineral"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: 600, seatHeight: 900, seatDepth: null, armWidth: null, armHeight: 23, exposedLegHeight: 23.5, volume: 25, weight: 24.5, fabricReq: 35.5, leatherReq: 33.75 }),
+  fabric: fab([20, 21.5, 19, 19, 18.25, 18, 19, 19, null, null, 24.25, null, null, null, 12, 12]),
+  leather: leather([17.5, 17, 2, 2.25], 34),
+  finishTiers: { tier1: 4011, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2348", name: "Knot Side Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Gunmetal, Matte Mineral", frameMaterial: null, basePrice: 4311,
+  specs: ["Rattan arm chair with rawhide bindings", "Tight seat and back", "Caned outback"],
+  dims: dims({ width: 23.5, depth: 24.5, height: 33.75, widthInside: 21.5, seatHeight: 18, seatDepth: 19, armWidth: null, armHeight: 24.75, exposedLegHeight: null, volume: 12, weight: 18, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([4353, 4374, 4395, 4437, 4479, 4521, 4563, 4605, 4647, 4689, 4731, 4773, 4815, 4857, 4899, 4941]),
+  leather: leather([4899, 5109, 5277, 5445], 42),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2355", name: "Mesa Accent Table", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: "Woven cane matte Clear Coat, Matte Gunmetal", frameMaterial: null, basePrice: 2991,
+  specs: [],
+  dims: dims({ width: 18, depth: 14, height: 19, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 15, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2359", name: "Moya Accent Table", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: "Woven cane matte Clear Coat, Matte Gunmetal", frameMaterial: null, basePrice: 2991,
+  specs: [],
+  dims: dims({ width: 17, depth: 17, height: 19, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 13, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2361", name: "Comal Accent Table", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: "Gunmetal Danish CordC", frameMaterial: null, basePrice: 2091,
+  specs: ["Danish Cord accent table", "A Non-standard finish ships in 20-24 weeks Dune Danish Cord, Matte"],
+  dims: dims({ width: 15, depth: 15, height: 19, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 17.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2362", name: "Cypress Accent Table", collection: "McGuire Originals", category: "tables", limited: false,
+  standardFinish: "Clear Coat, Matte Gunmetal", frameMaterial: null, basePrice: 2601,
+  specs: ["Abaca accent table"],
+  dims: dims({ width: 22, depth: 22, height: 24, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 22, weight: 32.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA2378", name: "Hye Counter Stool", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "180 retuDune Danish CordDune Da", frameMaterial: null, basePrice: 4305,
+  specs: ["M Counter Stool with Danish Cord", "Barstool back, tight upholstered seat and tight uphmetal base base", "Base options available in Blackened", "Base optiSteel and Polished Stainless Steel Steel, Po Blackened Steel base and Bras Polished Stainless Steel base", "Blackene Non-standard finish ships in 20-24", "Polished weeks", "Brass ba 180 return swivel", "Non-stanweeks"],
+  dims: dims({ width: 21.5, depth: 21, height: 38, widthInside: 17.5, seatHeight: 28.25, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: 24.25, volume: 10, weight: 30, fabricReq: 1.25, leatherReq: 21 }),
+  fabric: fab([4329, 4341, 4353, 4377, 4401, 4425, 4449, 4473, 4497, 4521, 4545, 4569, 4593, 4617, 4641, 4665]),
+  leather: leather([4641, 4761, 4857, 4953], 24),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2379", name: "Hye Barstool", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "d Stainless Steel basease +", frameMaterial: null, basePrice: 900,
+  specs: ["MCA2540 Aransas Chair McGuire Original with Danish Cord back,", "Rattan frame holstered seat and metal", "Tight seat and back tions available in Blackened olished Stainless Steel, ss ed Steel base"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: 600, armHeight: 0, exposedLegHeight: 600, volume: 450, weight: null, fabricReq: 3600, leatherReq: 21.5 }),
+  fabric: fab([24, 21, 26, 43, 34, 17.5, 21, 18, 19, 33.25, 18, 18, 0, null, null, null]),
+  leather: leather([25, 29.25, null, 12], 11),
+  finishTiers: { tier1: 0, tier2: 0, tier3: 0, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2540", name: "Aransas Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Oyster", frameMaterial: null, basePrice: 3066,
+  specs: ["Rattan frame with stained, woven Danish cord seat and back", "1” thick upholstered knife edge seat cushion", "Danish cord finished to match frame", "Non-standard finish ships in 20-24 weeks"],
+  dims: dims({ width: 22, depth: 24, height: 34, widthInside: null, seatHeight: 19.5, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 17, weight: 28, fabricReq: 1.5, leatherReq: 26 }),
+  fabric: fab([3093, 3108, 3120, 3147, 3174, 3201, 3228, 3255, 3282, 3309, 3336, 3363, 3390, 3417, 3444, 3471]),
+  leather: leather([3444, 3579, 3687, 3795], 27),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2542", name: "Carmen Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Madeira", frameMaterial: null, basePrice: 3066,
+  specs: ["Rattan frame with stained, woven Danish cord seat and back", "1” thick upholstered knife edge seat cushion", "Danish cord finished to match frame", "Non-standard finish ships in 20-24 weeks"],
+  dims: dims({ width: 22, depth: 24, height: 34, widthInside: null, seatHeight: 19.5, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 17, weight: 28, fabricReq: 1.5, leatherReq: 26 }),
+  fabric: fab([3093, 3108, 3120, 3147, 3174, 3201, 3228, 3255, 3282, 3309, 3336, 3363, 3390, 3417, 3444, 3471]),
+  leather: leather([3444, 3579, 3687, 3795], 27),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCA2616B", name: "Sway Bench", collection: "Thomas Pheasant", category: "ottomans", limited: false,
+  standardFinish: "Straw", frameMaterial: null, basePrice: 3087,
+  specs: ["n", "Tight seat", "Quartered oak veneer and square mesh caned base 24"],
+  dims: dims({ width: 30, depth: 16.5, height: 19, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 41, weight: 20, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([3120, 3138, 3153, 3186, 3219, 3252, 3285, 3318, 3351, 3384, 3417, 3450, 3483, 3516, 3549, 3582]),
+  leather: leather([3549, 3714, 3846, 3978], 33),
+  finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA3020CK", name: "Sublime California King Bed", collection: "Barbara Barry", category: "beds", limited: false,
+  standardFinish: "b-A", frameMaterial: null, basePrice: 16905,
+  specs: ["Walnut solids and quartered", "Wfigured Walnut veneer fi Upholstered headboard, footboard", "Uand rails a Large bolster pillow", "L Measurement from the top of the", "Mslats to the top of the side rail is s10.25” 1 Recommended: 5” low profile", "Rboxspring and 10” mattress height"],
+  dims: dims({ width: 77, depth: 99, height: 49.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 74, weight: 360, fabricReq: 13, leatherReq: 221 }),
+  fabric: fab([17139, 17256, 17373, 17607, 17841, 18075, 18309, 18543, 18777, 19011, 19245, 19479, 19713, 19947, 20181, 20415]),
+  leather: leather([20181, 21351, 22287, 23223], 234),
+  finishTiers: { tier1: 0, tier2: 2925, tier3: 4725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA3020K", name: "Sublime King Bed", collection: "Barbara Barry", category: "beds", limited: false,
+  standardFinish: "Almond", frameMaterial: null, basePrice: 13920,
+  specs: ["Walnut solids and quartered figured Walnut veneer Upholstered headboard, footboard and rails Large bolster pillow Measurement from the top of the slats to the top of the side rail is 10.25” Recommended: 5” low profile boxspring and 10” mattress height"],
+  dims: dims({ width: 81, depth: 95, height: 49.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 74, weight: 360, fabricReq: 13, leatherReq: 221 }),
+  fabric: fab([14154, 14271, 14388, 14622, 14856, 15090, 15324, 15558, 15792, 16026, 16260, 16494, 16728, 16962, 17196, 17430]),
+  leather: leather([17196, 18366, 19302, 20238], 234),
+  finishTiers: { tier1: 3000, tier2: 5925, tier3: 7725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA3020Q", name: "Sublime Queen Bed", collection: "Barbara Barry", category: "beds", limited: false,
+  standardFinish: "boxspring and 10” mattress heighAlmond", frameMaterial: null, basePrice: 13509,
+  specs: ["Walnut solids and quartered figured Walnut veneer", "Upholstered headboard, footboarand rails", "Large bolster pillow", "Measurement from the top of the slats to the top of the side rail is 10.25”", "Recommended: 5” low profile"],
+  dims: dims({ width: 65, depth: 95, height: 49.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 74, weight: 360, fabricReq: 11, leatherReq: 187 }),
+  fabric: fab([13707, 13806, 13905, 14103, 14301, 14499, 14697, 14895, 15093, 15291, 15489, 15687, 15885, 16083, 16281, 16479]),
+  leather: leather([16281, 17271, 18063, 18855], 198),
+  finishTiers: { tier1: 3000, tier2: 5925, tier3: 7725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA3034", name: "Gondola 48” Round Dining Table", collection: "Gondola", category: "tables", limited: true,
+  standardFinish: "Dark Tobacco", frameMaterial: null, basePrice: 1491,
+  specs: ["48” Round Dining Table Gondola", "Base only", "Rattan round dining table with ard rawhide bindings", "Curved legs", "Base diameter: 26” e ht"],
+  dims: dims({ width: 48, depth: 48, height: 29.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 21, weight: 189, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA3044", name: "Gondola Side Counter Stool", collection: "Gondola", category: "chairs", limited: true,
+  standardFinish: "ODark TobaccoD", frameMaterial: null, basePrice: 2451,
+  specs: ["Side Counter Stool Gondola", "Standard Metal Kickplate", "SFinish(es): Antique Bronze, FBrushed Nickel B Loose seat cushion", "L Rattan stool with rawhide bindings", "R One kick plate standard"],
+  dims: dims({ width: 18, depth: 21.25, height: 38, widthInside: null, seatHeight: 24, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 10, weight: 16, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
+  leather: leather([2703, 2793, 2865, 2937], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA3045", name: "Gondola Arm Counter Stool", collection: "Gondola", category: "chairs", limited: true,
+  standardFinish: "Dark Tobacco", frameMaterial: null, basePrice: 2151,
+  specs: ["Arm Counter Stool Gondola Standard Metal Kickplate Finish(es): Antique Bronze, Brushed Nickel Loose seat cushion Rattan stool with rawhide bindings One kick plate standard"],
+  dims: dims({ width: 22, depth: 21.25, height: 38, widthInside: null, seatHeight: 24, seatDepth: 19, armWidth: null, armHeight: 34, exposedLegHeight: null, volume: 15, weight: 25, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2169, 2178, 2187, 2205, 2223, 2241, 2259, 2277, 2295, 2313, 2331, 2349, 2367, 2385, 2403, 2421]),
+  leather: leather([2403, 2493, 2565, 2637], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 750, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "MCA3046", name: "Gondola Side Barstool", collection: "Gondola", category: "chairs", limited: true,
+  standardFinish: "Dark Tobacco", frameMaterial: null, basePrice: 2451,
+  specs: ["Side Barstool Gondola", "Standard Metal Kickplate Finish(es): Antique Bronze, Brushed Nickel", "Loose seat cushion", "Rattan stool with rawhide binding One kick plate standard"],
+  dims: dims({ width: 18, depth: 21.25, height: 43.75, widthInside: null, seatHeight: 30, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 29, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
+  leather: leather([2703, 2793, 2865, 2937], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA3047", name: "Gondola Arm Barstool", collection: "Gondola", category: "chairs", limited: true,
+  standardFinish: "Dark Tobacco", frameMaterial: null, basePrice: 2301,
+  specs: ["Arm Barstool Gondola", "Standard Metal Kickplate Finish(es): Antique Bronze, Brushed Nickel", "Loose seat cushion gs", "Rattan stool with rawhide bindings", "One kick plate standard"],
+  dims: dims({ width: 22, depth: 21.25, height: 43.75, widthInside: null, seatHeight: 30, seatDepth: 18, armWidth: null, armHeight: 40, exposedLegHeight: null, volume: 21, weight: 32, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2319, 2328, 2337, 2355, 2373, 2391, 2409, 2427, 2445, 2463, 2481, 2499, 2517, 2535, 2553, 2571]),
+  leather: leather([2553, 2643, 2715, 2787], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA3048", name: "Gondola Side Chair", collection: "Gondola", category: "chairs", limited: true,
+  standardFinish: "RbSalt MetallicN", frameMaterial: null, basePrice: 1851,
+  specs: ["Side Chair Gondola", "Loose seat cushion", "B Rattan side chair with rawhide bbindings", "A Psa"],
+  dims: dims({ width: 20, depth: 22.75, height: 33.5, widthInside: null, seatHeight: 18, seatDepth: 20.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 20, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([1869, 1878, 1887, 1905, 1923, 1941, 1959, 1977, 1995, 2013, 2031, 2049, 2067, 2085, 2103, 2121]),
+  leather: leather([2103, 2193, 2265, 2337], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA3720CK", name: "Moorea California King Bed", collection: "Baker Resort® for McGuire", category: "beds", limited: true,
+  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 19797,
+  specs: ["Beveled headboard frame in bronze Angular situated bronze feet Patterned panels with half round shape on headboard, footboard, and side rails Recommended: 5” low profile boxspring and 10” mattress height"],
+  dims: dims({ width: 76, depth: 90.5, height: 55, widthInside: 73.5, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 16, volume: 47, weight: 264, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA3720K", name: "Moorea King Bed", collection: "Baker Resort® for McGuire", category: "beds", limited: true,
+  standardFinish: "boxspring and 10” mattress heighNatural Bronze", frameMaterial: null, basePrice: 19797,
+  specs: ["Beveled headboard frame in bronze", "Angular situated bronze feet", "Patterned panels with half round shape on headboard, footboard and side rails", "Recommended: 5” low profile"],
+  dims: dims({ width: 80, depth: 86.5, height: 55, widthInside: 77.5, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 16, volume: 50, weight: 308, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA3721CK", name: "Tahiti California King Bed", collection: "Baker Resort® for McGuire", category: "beds", limited: true,
+  standardFinish: "Blackened Bronze", frameMaterial: null, basePrice: 19797,
+  specs: ["Beveled headboard frame in bronze", "Angular situated bronze feet", "Patterned panels with half round shape on headboard, footboard and side rails", "Recommended: 5” low profile ht boxspring and 10” mattress height"],
+  dims: dims({ width: 76, depth: 90.5, height: 55, widthInside: 73.5, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 16, volume: 47, weight: 264, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA3721K", name: "Tahiti King Bed", collection: "Baker Resort® for McGuire", category: "beds", limited: true,
+  standardFinish: "bBlackened BronzeB", frameMaterial: null, basePrice: 20217,
+  specs: ["Beveled headboard frame in", "Bbronze b Angular situated bronze feet", "A Patterned panels with half round", "Pshape on headboard, footboard sand side rails a Recommended: 5” low profile", "Rboxspring and 10” mattress height"],
+  dims: dims({ width: 80, depth: 86.5, height: 55, widthInside: 77.5, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 16, volume: 50, weight: 308, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA3721Q", name: "Tahiti Queen Bed", collection: "Baker Resort® for McGuire", category: "beds", limited: true,
+  standardFinish: "Blackened Bronze", frameMaterial: null, basePrice: 19797,
+  specs: ["Beveled headboard frame in bronze Angular situated bronze feet Patterned panels with half round shape on headboard, footboard and side rails Recommended: 5” low profile boxspring and 10” mattress height"],
+  dims: dims({ width: 64, depth: 86.5, height: 55, widthInside: 61.5, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 16, volume: 42, weight: 220, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA4000", name: "The Clouded Leopard’s Commode", collection: "Bill Bensley", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 10497,
+  specs: [],
+  dims: dims({ width: 47.25, depth: 23.5, height: 43.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 38, weight: 153, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 10500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCA4008", name: "The Serow’s Chevet", collection: "Bill Bensley", category: "chairs", limited: false,
+  standardFinish: "Char with Fossilized Brass", frameMaterial: null, basePrice: 4497,
+  specs: ["wer", "Oak case", "Metal legs and hardware", "Black leather drawer liner in"],
+  dims: dims({ width: 21, depth: 18.75, height: 26, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 11, weight: 71.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4012", name: "The Pangolin’s Mirror", collection: "Bill Bensley", category: "mirrors", limited: false,
+  standardFinish: "DMFossilized BrassBF", frameMaterial: null, basePrice: 5997,
+  specs: ["T Textured metal frame", "P Plain mirror glass", "M O"],
+  dims: dims({ width: 39.25, depth: 3, height: 39.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 8, weight: 47.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4033", name: "The Gibbon’s Feast Bistro Table", collection: "Bill Bensley", category: "tables", limited: false,
+  standardFinish: "Fossilized Brass", frameMaterial: null, basePrice: 10497,
+  specs: ["Petrified wood top Metal legs Optional metal corner accents Disclaimer: Please see Natural Materials page Black Petrified Wood with"],
+  dims: dims({ width: 39.5, depth: 39.5, height: 29.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 195, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4034", name: "The Gibbon’s Feast Dining Table", collection: "Bill Bensley", category: "tables", limited: false,
+  standardFinish: "Fossilized Brass", frameMaterial: null, basePrice: 20997,
+  specs: [],
+  dims: dims({ width: 88, depth: 43, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 575, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4035", name: "The Peccary’s Table", collection: "Bill Bensley", category: "tables", limited: false,
+  standardFinish: "Textured metal table Fossilized Brass", frameMaterial: null, basePrice: 8997,
+  specs: [],
+  dims: dims({ width: 33.5, depth: 33.5, height: 15.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 158, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4038", name: "The Terrapin’s Side Chair", collection: "Bill Bensley", category: "chairs", limited: false,
+  standardFinish: "UUmberU", frameMaterial: null, basePrice: 3942,
+  specs: ["Steam bent rattan frame with", "Srawhide bindings r Upholstered tight seat"],
+  dims: dims({ width: 24, depth: 23.5, height: 37, widthInside: null, seatHeight: 19, seatDepth: 20, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 23, fabricReq: 2.25, leatherReq: 39 }),
+  fabric: fab([3984, 4005, 4026, 4068, 4110, 4152, 4194, 4236, 4278, 4320, 4362, 4404, 4446, 4488, 4530, 4572]),
+  leather: leather([4530, 4740, 4908, 5076], 42),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+},
+
+{
+  sku: "MCA4039", name: "The Terrapin’s Arm Chair", collection: "Bill Bensley", category: "chairs", limited: false,
+  standardFinish: "Umber", frameMaterial: null, basePrice: 4056,
+  specs: ["Steam bent rattan frame with rawhide bindings Upholstered tight seat"],
+  dims: dims({ width: 29, depth: 23.5, height: 37, widthInside: 22, seatHeight: 19, seatDepth: 20, armWidth: null, armHeight: 23, exposedLegHeight: null, volume: 17, weight: 25, fabricReq: 2.25, leatherReq: 39 }),
+  fabric: fab([4098, 4119, 4140, 4182, 4224, 4266, 4308, 4350, 4392, 4434, 4476, 4518, 4560, 4602, 4644, 4686]),
+  leather: leather([4644, 4854, 5022, 5190], 42),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+},
+
+{
+  sku: "MCA4041", name: "The Peacock’s Throne Dining Chair", collection: "Bill Bensley", category: "chairs", limited: false,
+  standardFinish: "Clear Coat with Fossilized Brass", frameMaterial: null, basePrice: 8325,
+  specs: ["Textured metal frame", "Woven rattan peel back", "Upholstered tight seat", "Non-standard finish ships in 20-24 weeks"],
+  dims: dims({ width: 28, depth: 24.5, height: 41, widthInside: null, seatHeight: 19, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 23, weight: 57, fabricReq: 3.5, leatherReq: 60 }),
+  fabric: fab([8388, 8421, 8451, 8514, 8577, 8640, 8703, 8766, 8829, 8892, 8955, 9018, 9081, 9144, 9207, 9270]),
+  leather: leather([9207, 9522, 9774, 10026], 63),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCA4042", name: "The Douc’s Throne", collection: "Bill Bensley", category: "chairs", limited: false,
+  standardFinish: "Fossilized Brass", frameMaterial: null, basePrice: 6693,
+  specs: ["Steam bent rattan frame", "Woven pencil rattan outback", "Upholstered tight seat and back 24", "Brass legs and ferrules", "Outback only available in Clear Coat", "Non-standard finish out back ships in 20-24 weeks Clear Coat with Umber and"],
+  dims: dims({ width: 21.5, depth: 27, height: 40.5, widthInside: 20, seatHeight: 19, seatDepth: 20, armWidth: null, armHeight: 21, exposedLegHeight: null, volume: 13, weight: 35, fabricReq: 2.5, leatherReq: 43 }),
+  fabric: fab([6738, 6762, 6783, 6828, 6873, 6918, 6963, 7008, 7053, 7098, 7143, 7188, 7233, 7278, 7323, 7368]),
+  leather: leather([7323, 7548, 7728, 7908], 45),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCA4051", name: "The Wild Elephant’s Cocktail Table", collection: "Bill Bensley", category: "tables", limited: false,
+  standardFinish: "MChar with Crystal White AgateBF", frameMaterial: null, basePrice: 4497,
+  specs: ["Crystal agate top", "P Cast resin base", "M Disclaimer: Please see Natural", "DMaterials page"],
+  dims: dims({ width: 29, depth: 29, height: 18.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 47, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4054", name: "The Pangolin’s Cocktail Table", collection: "Bill Bensley", category: "tables", limited: false,
+  standardFinish: "Fossilized Brass", frameMaterial: null, basePrice: 11997,
+  specs: ["Petrified wood top Metal base Disclaimer: Please see Natural Materials page Brown Petrified Wood with"],
+  dims: dims({ width: 38.5, depth: 33.5, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 88, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4057", name: "The Tiny Serow", collection: "Bill Bensley", category: "chairs", limited: false,
+  standardFinish: "Fossilized Brass", frameMaterial: null, basePrice: 7200,
+  specs: ["Petrified wood tray top", "Brass base", "Disclaimer: Please see Natural Materials page Brown Petrified Wood with"],
+  dims: dims({ width: 18.25, depth: 15.75, height: 22.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 87.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4058", name: "The Wild Elephant’s Side Table", collection: "Bill Bensley", category: "tables", limited: false,
+  standardFinish: "Char with Crystal White Agate", frameMaterial: null, basePrice: 4497,
+  specs: ["Crystal agate top", "Cast resin base", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 26, depth: 26, height: 23.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 60, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4065", name: "The Gibbon’s Console", collection: "Bill Bensley", category: "tables", limited: false,
+  standardFinish: "Fossilized BrassBa", frameMaterial: null, basePrice: 8997,
+  specs: ["Petrified wood top", "P Metal legs o Optional metal corner accents", "O Disclaimer: Please see Natural", "TMaterials page ad M DMBlack Petrified Wood with"],
+  dims: dims({ width: 59.25, depth: 20, height: 29.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 285, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4067", name: "The Kouprey’s Credenza", collection: "Bill Bensley", category: "casegoods", limited: false,
+  standardFinish: "and Fossilized Brass", frameMaterial: null, basePrice: 19497,
+  specs: ["Petrified wood top with fixed tray on center Oak case Two (2) doors with four (4) drawers and one (1) adjustable shelf behind doors Metal accents Disclaimer: Please see Natural Materials page in price list. Black Petrified Wood with Char"],
+  dims: dims({ width: 79, depth: 22, height: 34, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 58, weight: 331.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4087", name: "The Serow’s Secretaire", collection: "Bill Bensley", category: "chairs", limited: false,
+  standardFinish: "and Fossilized Brass", frameMaterial: null, basePrice: 13497,
+  specs: ["Petrified wood top", "Oak case", "Metal legs and hardware", "Polyester top coat standard", "Disclaimer: Please see Natural Materials page in price list. Brown Petrified Wood with Char"],
+  dims: dims({ width: 59, depth: 29.5, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 224, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCA4096", name: "The Muntjac’s Library", collection: "Bill Bensley", category: "chairs", limited: false,
+  standardFinish: "Char with Fossilized Brass", frameMaterial: null, basePrice: 16497,
+  specs: ["Oak case", "Metal hardware and ferrules", "Open shelving with two (2) closed compartments", "Top closed compartment (16.5”D x 24”H), bottom closed compartment (16.5”D x 24”H)"],
+  dims: dims({ width: 43.5, depth: 20, height: 86.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 63, weight: 389, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCACC180", name: "Hoku Mirror", collection: "Nicole Hollis", category: "mirrors", limited: false,
+  standardFinish: "LampakanayH", frameMaterial: null, basePrice: 2847,
+  specs: ["Woven Lampakanay with Plain", "WMirror Glass a Suitable to be hung vertical or", "Rhorizontal g5 SNaturale Lampakanay, Nero"],
+  dims: dims({ width: 38, depth: 1, height: 59, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 75, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCAN30", name: "Outdoor Pedestal Table Base", collection: "Antalya", category: "tables", limited: false,
+  standardFinish: "Havana resin and frame", frameMaterial: null, basePrice: 1497,
+  specs: ["Woven resin over powder-coated aluminum Recommended Glass tops: Clear glass top 3/4” Circular 48”D or 54” D Suitable Outdoor Cover: MCCV14"],
+  dims: dims({ width: 19.5, depth: 19.5, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 21, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCAN44", name: "Outdoor Side Chair", collection: "Antalya", category: "chairs", limited: false,
+  standardFinish: "Driftwood resin and frame, Havanresin and frame", frameMaterial: null, basePrice: 2526,
+  specs: ["Woven resin over powder-coated aluminum", "Comes standard without cushion", "Optional loose, reversible knife- edge seat cushion +$150", "Cushion toggles provided with frame", "Suitable Outdoor Cover: MCCV39"],
+  dims: dims({ width: 22, depth: 24, height: 33.75, widthInside: null, seatHeight: 18, seatDepth: 17.25, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 71, fabricReq: 1, leatherReq: null }),
+  fabric: fab([2544, 2553, 2562, 2580, 2598, 2616, 2634, 2652, 2670, 2688, 2706, 2724, 2742, 2760, 2778, 2796]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCAN45", name: "Outdoor Arm Chair", collection: "Antalya", category: "chairs", limited: false,
+  standardFinish: "resin and frame", frameMaterial: null, basePrice: 2745,
+  specs: ["d", "Woven resin over powder-coated aluminum n", "Optional loose, reversible, knife- edge seat cushion +$150", "Specify single stitch or welted if desired", "Cushion toggles provided with 9 frame", "Suitable Outdoor Cover: MCCV39 na Driftwood resin and frame, Havana"],
+  dims: dims({ width: 23, depth: 24, height: 33.75, widthInside: null, seatHeight: 18, seatDepth: 17.25, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 10, weight: 30, fabricReq: 1, leatherReq: null }),
+  fabric: fab([2763, 2772, 2781, 2799, 2817, 2835, 2853, 2871, 2889, 2907, 2925, 2943, 2961, 2979, 2997, 3015]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCAO137", name: "Melek Accent Table", collection: "Nicole Hollis", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1851,
+  specs: ["Woven rattan and metal frame", "R Starphire Glass inset", "U Optional 1” upholstered seat", "Tpad +$600 Naturale, Nero"],
+  dims: dims({ width: 20, depth: 20, height: 15, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 8, weight: 57.5, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([1869, 1878, 1887, 1905, 1923, 1941, 1959, 1977, 1995, 2013, 2031, 2049, 2067, 2085, 2103, 2121]),
+  leather: leather([2103, 2193, 2265, 2337], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCAO68", name: "Cat’s Cradle Bench", collection: "Barbara Barry", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 3690,
+  specs: ["Rattan and rawhide frame Upholstered seat with base welt Top stitch and double stitch seams"],
+  dims: dims({ width: 54, depth: 22, height: 17.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 49, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([3726, 3744, 3762, 3798, 3834, 3870, 3906, 3942, 3978, 4014, 4050, 4086, 4122, 4158, 4194, 4230]),
+  leather: leather([4194, 4374, 4518, 4662], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCBA22", name: "Rectangular Dining Table in Black Bamboo", collection: "McGuire Originals", category: "tables", limited: false,
+  standardFinish: "Black Bamboo", frameMaterial: null, basePrice: 6597,
+  specs: ["Optional 8 Brass caps +$600", "Black Bamboo Table", "Recommended Glass top: MC3S72X42 Rectangular 72”x 42” (3/4” thick) +$2097", "Recommended Glass top: MC3S82X42 Rectangular 82” x 42(3/4” thick) +$2397", "Available as base only"],
+  dims: dims({ width: 46, depth: 21, height: 28.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 110, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCBA7T", name: "Console Table with Six Legs in Black Bamboo", collection: "McGuire Originals", category: "tables", limited: false,
+  standardFinish: "Black Bamboo", frameMaterial: null, basePrice: 6891,
+  specs: ["Optional 6 Brass caps +$600", "Available Base Only", "Recommended Glass: MC3S72X18 ” (72” x 18”, 3/4” thick) +$1197", "Black Bamboo Table 2”"],
+  dims: dims({ width: 60, depth: 16, height: 28.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 25, weight: 76, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER01", name: "31” X 33.5” Lounge Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 537,
+  specs: ["Suitable for MCAN10, MCJG100,", "SMCTP50, MCWK10, MCO3341C", "A All covers are available in a mmedium gray fabric and are eembroidered with the McGuire llogo -"],
+  dims: dims({ width: 31, depth: 33.5, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 2.2, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER02", name: "32” x 38” Slipper Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 597,
+  specs: ["Suitable for MCTP51 All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 32, depth: 38, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.25, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER03", name: "77.5” x 34.5” Sofa Cover", collection: "McGuire Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 837,
+  specs: ["Suitable for MCAN33, MCTP53, MCWK13", "All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 77.75, depth: 34.5, height: 27, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 3.75, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER05", name: "86” x 31” Chaise Lounge Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 777,
+  specs: ["Suitable for MCAN19, MCTP59", "All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 86, depth: 31, height: 24.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 3.2, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER08", name: "30.5” Square Ottoman Cover", collection: "McGuire Originals", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 477,
+  specs: ["Suitable for MCAN14", "S All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l-"],
+  dims: dims({ width: 30.5, depth: 30.5, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 1.85, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER09", name: "31” x 21” Ottoman Cover", collection: "McGuire Originals", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 477,
+  specs: ["Suitable for MCTP54, MCO3341O All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 31, depth: 21, height: 14, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 1.6, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER14", name: "80” Round Dining Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1197,
+  specs: ["Suitable for MCAN30", "All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 80, depth: 80, height: 28, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 5.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER15", name: "120” x 50” Rectangular Dining Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1197,
+  specs: ["Suitable for MCJG106", "All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 120, depth: 50, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 6.4, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER18", name: "24.5” x 24.5” Side Table Cover - Short", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 441,
+  specs: ["2 Suitable for MCBB208", "S All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l-"],
+  dims: dims({ width: 24.5, depth: 24.5, height: 14, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5.6, weight: 1.4, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER19", name: "24” x 24” Side Table Cover - Tall", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 597,
+  specs: ["Suitable for MC876 All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 24, depth: 24, height: 21, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 1.55, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER20", name: "18.5” x 18.5” Spot Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 387,
+  specs: [],
+  dims: dims({ width: 18.5, depth: 18.5, height: 17, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 1.2, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER23", name: "30.5” x 30.5” Slipper Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 537,
+  specs: ["6", "Suitable for MCAN12", "All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 30.5, depth: 30.5, height: 25.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER24", name: "33” x 33” Corner Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 837,
+  specs: ["4 Suitable for MCAN15", "S All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l-"],
+  dims: dims({ width: 33, depth: 33, height: 26, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.8, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER25", name: "49” x 32” Cocktail Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 837,
+  specs: ["Suitable for MCTP532 All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 49, depth: 32, height: 12, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.7, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER27", name: "26.5” x 34” Slipper Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 837,
+  specs: [],
+  dims: dims({ width: 26.5, depth: 34, height: 25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.1, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER28", name: "48” Round Cocktail Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 837,
+  specs: ["Suitable for MC351, MCO3352", "All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 48, depth: 47, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.4, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER29", name: "34” x 37.5” Lounge Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1047,
+  specs: ["All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l Suitable for MCBB20", "S-"],
+  dims: dims({ width: 34, depth: 37.5, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.6, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER30", name: "33” x 24” Ottoman Cover", collection: "McGuire Originals", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 597,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo Suitable for MCBB21, MCO3503O"],
+  dims: dims({ width: 33, depth: 24, height: 16.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 1.75, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER31", name: "30.5” x 37.5” Slipper Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 897,
+  specs: [],
+  dims: dims({ width: 30.5, depth: 37.5, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.4, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER32", name: "36” x 36” Lounge Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 837,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo", "Suitable for MCBB24, MCO3502CC"],
+  dims: dims({ width: 36, depth: 36, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.75, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER33", name: "62” x 37” Armless Sofa Cover", collection: "McGuire Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 897,
+  specs: ["67 All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l Suitable for MCBB22, MCBB25L,", "SMCBB25R -"],
+  dims: dims({ width: 62, depth: 37, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 3.65, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER34", name: "67.5” x 36” Chaise Lounge Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 897,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo Suitable for MCBB26"],
+  dims: dims({ width: 67.5, depth: 36, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 3.3, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER35", name: "31” X 32” Lounge Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 597,
+  specs: [],
+  dims: dims({ width: 31, depth: 32, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.1, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER36", name: "26” Round Side Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 657,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo", "Suitable for MCBB205, MCO3458"],
+  dims: dims({ width: 26, depth: 26, height: 20, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 1.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER37", name: "93.5” x 44.5” Rectangular Dining Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1197,
+  specs: ["2 All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l Suitable for MCO3035", "SM-"],
+  dims: dims({ width: 93.5, depth: 44.5, height: 28.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 5.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER39", name: "26” x 27.5” Dining Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 597,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo Suitable for MCTP520, MCTP521, MCJG100, MCO184, and MCO3340"],
+  dims: dims({ width: 26, depth: 27.5, height: 31.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 1.8, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER40", name: "27” x 25.5” Dining Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 897,
+  specs: [],
+  dims: dims({ width: 27, depth: 25.5, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.2, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER41", name: "77” x 37.5” Sofa Cover", collection: "McGuire Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 897,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo", "Suitable for MCBB28"],
+  dims: dims({ width: 77, depth: 37.5, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 4.3, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER42", name: "60” x 21” Console Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 897,
+  specs: ["All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l-"],
+  dims: dims({ width: 60, depth: 21, height: 32, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 3.2, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER43", name: "38” Round Bistro Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 897,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 38, depth: 38, height: 39, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 2.75, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER44", name: "24.5” x 26” Bar/Counter Stool Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 837,
+  specs: ["Suitable for MCBB321,MCO3044, MCO3045, MOC3046, and MCO3047", "All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 24.5, depth: 26, height: 39.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: 1.95, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER45", name: "62” Round Dining Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1347,
+  specs: [",", "Suitable for MC350, MCO3034, and MCO3036", "All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 62, depth: 62, height: 28.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5.6, weight: 4, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER46", name: "50” Round Counter Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1437,
+  specs: ["Suitable for MCO3037, MCO3338", "S All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l-"],
+  dims: dims({ width: 50, depth: 50, height: 36.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 3.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER47", name: "62” x 26” Settee Cover", collection: "McGuire Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1197,
+  specs: ["Suitable for MCO3011L All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 62, depth: 26.25, height: 33.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 3.35, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER48", name: "38.5” x 38.5” Corner Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1437,
+  specs: [],
+  dims: dims({ width: 38.5, depth: 38.5, height: 31, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 2.8, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER49", name: "38.5” x 36” Slipper Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1287,
+  specs: ["Suitable for MCO3361CA", "All covers are available in a medium gray fabric and are embroidered with the McGuire logo"],
+  dims: dims({ width: 38.5, depth: 36, height: 31, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 2.65, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER50", name: "36” Square Ottoman Cover", collection: "McGuire Originals", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 897,
+  specs: ["2 Suitable for MCO3361O", "A All covers are available in a mmedium gray fabric and are eembroidered with the McGuire llogo", "S-"],
+  dims: dims({ width: 36, depth: 36, height: 17, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 2.3, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER51", name: "25” x 34.5” Slipper Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 591,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo Suitable for: MCO3211C"],
+  dims: dims({ width: 25, depth: 34.75, height: 33, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER52", name: "76.5” x 31” Chaise Lounge Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 891,
+  specs: [],
+  dims: dims({ width: 31.25, depth: 76.5, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER53", name: "25” Square Ottoman Cover", collection: "McGuire Originals", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 441,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo", "Suitable for: MCO3211O"],
+  dims: dims({ width: 25, depth: 25, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER54", name: "92” x 34” Sofa Cover", collection: "McGuire Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 891,
+  specs: ["30 All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l Suitable for: MCO3211S", "S-"],
+  dims: dims({ width: 92, depth: 34, height: 29.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER55", name: "30.5” X 30.5” Lounge Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 591,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo Suitable for: MCO3212C"],
+  dims: dims({ width: 30.5, depth: 30.5, height: 35, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER56", name: "38” Square Dining Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 741,
+  specs: [],
+  dims: dims({ width: 38.25, depth: 38.25, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER57", name: "86” x 40” Rectangular Dining Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1041,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo", "Suitable for: MCO3235"],
+  dims: dims({ width: 86.25, depth: 40.25, height: 30.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER58", name: "28” Round Bar/Counter Height Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 591,
+  specs: ["All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l Suitable for: MCO3237", "S-"],
+  dims: dims({ width: 28, depth: 28, height: 36.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER59", name: "21” x 26” Dining Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 591,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo Suitable for: MCO3244"],
+  dims: dims({ width: 21, depth: 26, height: 32.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER60", name: "20.5” x 20.5” Counter Stool Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 441,
+  specs: [],
+  dims: dims({ width: 20.75, depth: 20.5, height: 25.25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER61", name: "20.5” x 20.5” Barstool Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 441,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo", "Suitable for: MCO3246"],
+  dims: dims({ width: 20.5, depth: 20.5, height: 30.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER62", name: "26” x 20” Oval Side Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 441,
+  specs: ["All covers are available in a", "Amedium gray fabric and are membroidered with the McGuire elogo l Suitable for: MCO3261", "S-"],
+  dims: dims({ width: 26, depth: 20, height: 22.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER63", name: "22” Square Side Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 441,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo Suitable For: MCO3262"],
+  dims: dims({ width: 22, depth: 22, height: 17.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER64", name: "16” Round Spot Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 291,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo", "Suitable for: MCO3278"],
+  dims: dims({ width: 16, depth: 16, height: 19.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER65", name: "32” x 35” Armless Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 747,
+  specs: ["All covers are available in a medium gray fabric and are embroidered with the McGuire logo", "Suitable for: MCO3214CA, MCO3502CA, MCO3504C"],
+  dims: dims({ width: 35.25, depth: 35.25, height: 30.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER66", name: "35” x 35” Corner Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 441,
+  specs: ["5 All covers are available in a", "Amedium gray fabric and are oembroidered with the McGuire alogo M Suitable for: MCO3214CC", "S-"],
+  dims: dims({ width: 35.25, depth: 35.25, height: 30.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER67", name: "50” Square Dining Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 741,
+  specs: ["All covers are available in an outdoor grade medium gray fabric and are embroidered with the McGuire logo Suitable for MCO3436"],
+  dims: dims({ width: 50, depth: 50, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER68", name: "56” Round Dining Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 741,
+  specs: [],
+  dims: dims({ width: 56, depth: 56, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER69", name: "98” x 50” Rectangular Dining Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1191,
+  specs: ["All covers are available in an ric outdoor grade medium gray fabric and are embroidered with the McGuire logo", "Suitable for MCO3438"],
+  dims: dims({ width: 98, depth: 50, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER70", name: "44” Round Bar/Counter Height Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1047,
+  specs: ["All covers are available in an", "Aoutdoor grade medium gray fabric oand are embroidered with the aMcGuire logo M Suitable for MCO3439", "S-"],
+  dims: dims({ width: 44, depth: 44, height: 38, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER71", name: "27” x 27” Dining Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 501,
+  specs: ["All covers are available in an outdoor grade medium gray fabric and are embroidered with the McGuire logo Suitable for MCO3440, MCO3441"],
+  dims: dims({ width: 27, depth: 27, height: 34.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER72", name: "25” x 26” Bar/Counter Stool Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 531,
+  specs: ["All covers are available in an outdoor grade medium gray fabriand are embroidered with the McGuire logo", "Suitable for MCO3448, MCO3449"],
+  dims: dims({ width: 25, depth: 26, height: 40, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER73", name: "62” x 38” Cocktail Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 591,
+  specs: ["All covers are available in an ric outdoor grade medium gray fabric and are embroidered with the McGuire logo 9", "Suitable for MCO3450"],
+  dims: dims({ width: 62, depth: 38, height: 17, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER74", name: "26” Square Side Table Cover - Tall", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 441,
+  specs: ["7 All covers are available in an", "Aoutdoor grade medium gray fabric oand are embroidered with the aMcGuire logo M Suitable for MCO3459", "S-"],
+  dims: dims({ width: 26, depth: 26, height: 23.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER75", name: "74” x 20” Console Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 741,
+  specs: ["All covers are available in an outdoor grade medium gray fabric and are embroidered with the McGuire logo Suitable for MCO3463"],
+  dims: dims({ width: 74, depth: 20, height: 30.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER76", name: "62” x 22” Bench Cover", collection: "McGuire Originals", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 741,
+  specs: ["All covers are available in an outdoor grade medium gray fabriand are embroidered with the McGuire logo", "Suitable for MCO3500B"],
+  dims: dims({ width: 62, depth: 22, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER77", name: "94” x 32” Chaise Lounge Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 741,
+  specs: ["All covers are available in an ric outdoor grade medium gray fabric and are embroidered with the McGuire logo", "Suitable for MCO3500CS"],
+  dims: dims({ width: 32, depth: 94, height: 16.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER78", name: "56” x 42” Large Ottoman Cover", collection: "McGuire Originals", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 741,
+  specs: ["All covers are available in an", "Aoutdoor grade medium gray fabric oand are embroidered with the aMcGuire logo M Suitable for MCO3502O", "S-"],
+  dims: dims({ width: 56, depth: 42, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER79", name: "62” x 27” Settee Cover", collection: "McGuire Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 741,
+  specs: ["All covers are available in an outdoor grade medium gray fabric and are embroidered with the McGuire logo Suitable for MCO3507L"],
+  dims: dims({ width: 62, depth: 27, height: 34.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER80", name: "50” x 44” Ottoman Cover", collection: "McGuire Originals", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1227,
+  specs: ["All covers are available in an outdoor grade medium gray fabriand are embroidered with the McGuire logo", "Suitable for MCO3553O"],
+  dims: dims({ width: 50, depth: 44, height: 16.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER81", name: "97” x 35” Sofa Cover", collection: "McGuire Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1947,
+  specs: ["All covers are available in an ric outdoor grade medium gray fabric and are embroidered with the McGuire logo", "Suitable for MCO3553S"],
+  dims: dims({ width: 97, depth: 35, height: 32, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER82", name: "110” X 54” Rectangular Dining Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 2457,
+  specs: ["All covers are available in an", "Aoutdoor grade medium gray fabric oand are embroidered with the aMcGuire logo M Suitable for MCO3634, MCO3636", "SMO-"],
+  dims: dims({ width: 110, depth: 54, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER83", name: "35” x 35” Lounge Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 927,
+  specs: ["All covers are available in an outdoor grade medium gray fabric and are embroidered with the McGuire logo Suitable for MCO3500C, MCO3500CL, MCO3500CR, MC O3503C"],
+  dims: dims({ width: 35, depth: 35, height: 31.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER84", name: "27” x 29” Dining Chair Cover", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 807,
+  specs: ["All covers are available in an outdoor grade medium gray fabriand are embroidered with the McGuire logo", "Suitable for MCO3641, MCO3643"],
+  dims: dims({ width: 27, depth: 29, height: 32.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER85", name: "56” x 38” Cocktail Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1257,
+  specs: ["All covers are available in an ric outdoor grade medium gray fabric and are embroidered with the McGuire logo 3", "Suitable for MCO3650"],
+  dims: dims({ width: 56, depth: 38, height: 16.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER86", name: "54” Round Cocktail Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1317,
+  specs: ["5 All covers are available in an", "Aoutdoor grade medium gray fabric oand are embroidered with the aMcGuire logo M Suitable for MCO3652, MCO3659,", "SMCO3665 -"],
+  dims: dims({ width: 54, depth: 54, height: 16.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER87", name: "50” Round Dining Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1317,
+  specs: ["All covers are available in an outdoor grade medium gray fabric and are embroidered with the McGuire logo Suitable for MCO3653, MCO3655"],
+  dims: dims({ width: 50, depth: 50, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER88", name: "80” x 20” Console Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 1317,
+  specs: [],
+  dims: dims({ width: 80, depth: 20, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCCOVER89", name: "26” x 26” Square Side Table Cover", collection: "McGuire Originals", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 807,
+  specs: ["All covers are available in an ric outdoor grade medium gray fabric and are embroidered with the McGuire logo", "Suitable for MCO3651"],
+  dims: dims({ width: 26, depth: 26, height: 20, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCJSC151", name: "Balboa Side Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "LDark Tobacco, PecanP", frameMaterial: null, basePrice: 2751,
+  specs: ["Rattan frame with woven rawide", "Rbinding b Loose seat cushion"],
+  dims: dims({ width: 19.5, depth: 22.5, height: 34.5, widthInside: null, seatHeight: 19, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 25, weight: 29, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2769, 2778, 2787, 2805, 2823, 2841, 2859, 2877, 2895, 2913, 2931, 2949, 2967, 2985, 3003, 3021]),
+  leather: leather([3003, 3093, 3165, 3237], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCJSC152", name: "Balboa Arm Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Pecan", frameMaterial: null, basePrice: 3045,
+  specs: ["Rattan frame with woven rawhide binding Loose seat cushion"],
+  dims: dims({ width: 22, depth: 22.5, height: 34.5, widthInside: null, seatHeight: 19, seatDepth: 18, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 25, weight: 29, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3063, 3072, 3081, 3099, 3117, 3135, 3153, 3171, 3189, 3207, 3225, 3243, 3261, 3279, 3297, 3315]),
+  leather: leather([3297, 3387, 3459, 3531], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCJSC300", name: "Cohen Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Slate", frameMaterial: null, basePrice: 2451,
+  specs: ["Rattan frame with square mesh caning on arm and back panels", "Loose seat cushion"],
+  dims: dims({ width: 24.25, depth: 23, height: 30.25, widthInside: null, seatHeight: 18, seatDepth: 18, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 30, weight: 31, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
+  leather: leather([2703, 2793, 2865, 2937], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCLM44", name: "Antalya Laced Rawhide Armless Chair", collection: "Antalya", category: "chairs", limited: false,
+  standardFinish: "Dark Tobacco, Pecan", frameMaterial: null, basePrice: 3234,
+  specs: ["Laced Rawhide Armless Chair Antalya", "Woven seat", "Loose seat cushion is optional +$150", "Non-standard finish ships in 20-24 weeks", "Custom rawhide program available in 1 tone, 2 tone, and 3 tones +$600", "If choosing non-standard finish and custom rawhide, only one upcharge is applied."],
+  dims: dims({ width: 22, depth: 23.5, height: 34, widthInside: null, seatHeight: 17, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 27, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3252, 3261, 3270, 3288, 3306, 3324, 3342, 3360, 3378, 3396, 3414, 3432, 3450, 3468, 3486, 3504]),
+  leather: leather([3486, 3576, 3648, 3720], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCLM45", name: "Antalya Laced Rawhide Arm Chair", collection: "Antalya", category: "chairs", limited: false,
+  standardFinish: "Dark Tobacco, PecanD", frameMaterial: null, basePrice: 3282,
+  specs: ["Laced Rawhide Arm Chair Antalya", "Woven seat", "W Optional Loose seat", "Ocushion +$150 c Non-standard finish ships in 20-24 weeks", "Custom rawhide program available in 1 tone, 2 tone, and 3 tones +$600", "If choosing non-standard finish and custom rawhide, only one upcharge is applied."],
+  dims: dims({ width: 23, depth: 24, height: 34, widthInside: null, seatHeight: 17, seatDepth: 19, armWidth: null, armHeight: 25.5, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3300, 3309, 3318, 3336, 3354, 3372, 3390, 3408, 3426, 3444, 3462, 3480, 3498, 3516, 3534, 3552]),
+  leather: leather([3534, 3624, 3696, 3768], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCLM72", name: "Arm Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Dark Tobacco", frameMaterial: null, basePrice: 2451,
+  specs: ["Woven seat Optional Loose seat cushion +$150"],
+  dims: dims({ width: 23, depth: 23.5, height: 39.5, widthInside: null, seatHeight: 20, seatDepth: 18, armWidth: null, armHeight: 26, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
+  leather: leather([2703, 2793, 2865, 2937], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCLO143", name: "Exalt Counter Stool", collection: "Nicole Hollis", category: "chairs", limited: false,
+  standardFinish: "Naturale, Nero", frameMaterial: null, basePrice: 2451,
+  specs: ["Rattan and metal frame", "Rawhide weave", "One Bronze Kickplate", "Loose upholstered seat cushion", "Non-standard finish ships in 20-24 weeks", "Custom rawhide program available in 1 tone, 2 tone, and 3 tones +$600", "If choosing non-standard finish and custom rawhide, only one upcharge is applied."],
+  dims: dims({ width: 21.25, depth: 22.25, height: 35, widthInside: null, seatHeight: 25, seatDepth: 18.25, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 13, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
+  leather: leather([2703, 2793, 2865, 2937], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCLO143T", name: "Exalt Barstool", collection: "Nicole Hollis", category: "chairs", limited: false,
+  standardFinish: "Naturale, Nero", frameMaterial: null, basePrice: 2922,
+  specs: ["Rattan and metal frame", "Rawhide weave", "One Bronze kickplate", "Loose upholstered seat cushion 24", "Non-standard finish ships in 20-24 weeks"],
+  dims: dims({ width: 21.25, depth: 22.25, height: 40, widthInside: null, seatHeight: 30, seatDepth: 18.25, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 15, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2940, 2949, 2958, 2976, 2994, 3012, 3030, 3048, 3066, 3084, 3102, 3120, 3138, 3156, 3174, 3192]),
+  leather: leather([3174, 3264, 3336, 3408], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCLO311", name: "Antalya Backless Barstool", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "wDark TobaccoD", frameMaterial: null, basePrice: 3051,
+  specs: ["Backless Barstool McGuire Originals A Woven seat with tight seat cushion", "W Comes standard with rawhide", "Cfoot rail f Specify Polished Brass, Antique", "SBronze, or Brushed Nickel covered Bfoot rail if desired f If choosing metal foot rail this", "Ifcomes with one c Non-standard finish ships in 20-24", "Nweeks"],
+  dims: dims({ width: 17, depth: 17, height: 29, widthInside: null, seatHeight: 29, seatDepth: 15, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 29, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3069, 3078, 3087, 3105, 3123, 3141, 3159, 3177, 3195, 3213, 3231, 3249, 3267, 3285, 3303, 3321]),
+  leather: leather([3303, 3393, 3465, 3537], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCLO311-v2", name: "Antalya Backless Counter Stool", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Dark Tobacco", frameMaterial: null, basePrice: 2751,
+  specs: ["Backless Counter Stool McGuire Originals Woven seat with tight seat cushion Comes standard with rawhide foot rail. Specify Polished Brass, Antique Bronze, or Brushed Nickel covered foot rail if desired If choosing metal foot rail this comes with one Non-standard finish ships in 20-24 weeks"],
+  dims: dims({ width: 17, depth: 17, height: 25, widthInside: null, seatHeight: 25, seatDepth: 15, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 29, fabricReq: 1, leatherReq: 15 }),
+  fabric: fab([2769, 2778, 2787, 2805, 2823, 2841, 2859, 2877, 2895, 2913, 2931, 2949, 2967, 2985, 3003, 3021]),
+  leather: leather([3003, 3093, 3165, 3237], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCM130C", name: "Caned Toboggan Arm Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3954,
+  specs: ["CanedUM Optional Antique finished", "Optionalcasters +$255 casters Rattan Frame", "Rattan Fr Loose seat", "Tight up Specify metal for carpeted floors back or rubber-treated for hard-surface", "Loose sefloors", "Specify mor rubbefloors -"],
+  dims: dims({ width: 24.5, depth: 26.5, height: 33, widthInside: null, seatHeight: 18, seatDepth: 20, armWidth: null, armHeight: 24.5, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([3990, 4008, 4026, 4062, 4098, 4134, 4170, 4206, 4242, 4278, 4314, 4350, 4386, 4422, 4458, 4494]),
+  leather: leather([4458, 4638, 4782, 4926], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM130CB", name: "Caned Toboggan Arm Chair - Upholstered Back", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Rattan frame+", frameMaterial: null, basePrice: 255,
+  specs: ["MCM131 Butterfly Chair McGuire Originaal Antique finished"],
+  dims: dims({ width: null, depth: 4305, height: 5151, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 0, fabricReq: 0, leatherReq: 300 }),
+  fabric: fab([300, null, 12885, 24.5, 32.5, 26.5, 21, 33, 35, null, null, null, null, 18, 18, 19.5]),
+  leather: leather([14, null, null, 24.5], null),
+  finishTiers: { tier1: 0, tier2: 0, tier3: 0, tier4: 0, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCM131", name: "Butterfly Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Naturale, Nero", frameMaterial: null, basePrice: 5451,
+  specs: ["Rattan Frame with rawhide weave", "Loose upholstered seat cushion"],
+  dims: dims({ width: 31.5, depth: 28.25, height: 52.25, widthInside: null, seatHeight: 18.5, seatDepth: 21, armWidth: null, armHeight: 24.75, exposedLegHeight: null, volume: 32, weight: 24.25, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([5469, 5478, 5487, 5505, 5523, 5541, 5559, 5577, 5595, 5613, 5631, 5649, 5667, 5685, 5703, 5721]),
+  leather: leather([5703, 5793, 5865, 5937], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCM147", name: "Hokulele Side Table", collection: "Nicole Hollis", category: "tables", limited: false,
+  standardFinish: "Lampakanay", frameMaterial: null, basePrice: 1491,
+  specs: ["Wrapped Lampakanay", "Lampakanay Fringe Naturale Lampakanay, Nero"],
+  dims: dims({ width: 12, depth: 12, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 15, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCM150", name: "Tresser Dining Chair (Fully Upholstered)", collection: "Nicole Hollis", category: "chairs", limited: false,
+  standardFinish: "Quercia Bianca, Quercia Nera", frameMaterial: null, basePrice: 2376,
+  specs: ["White Oak Frame", "Fully upholstered outside back", "Tight upholstered back and seat cushion"],
+  dims: dims({ width: 21.5, depth: 25.25, height: 32, widthInside: null, seatHeight: 18.5, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: null, fabricReq: 2.5, leatherReq: 43 }),
+  fabric: fab([2421, 2445, 2466, 2511, 2556, 2601, 2646, 2691, 2736, 2781, 2826, 2871, 2916, 2961, 3006, 3051]),
+  leather: leather([3006, 3231, 3411, 3591], 45),
+  finishTiers: null,
+},
+
+{
+  sku: "MCM150-v2", name: "Tresser Dining Chair (with Woven Leather)", collection: "Nicole Hollis", category: "chairs", limited: false,
+  standardFinish: "Quercia Bianca, Quercia NeraD", frameMaterial: null, basePrice: 2676,
+  specs: ["White Oak Frame", "R Woven leather outside back", "T Tight upholstered back and seat cushion"],
+  dims: dims({ width: 21.5, depth: 25.25, height: 32, widthInside: null, seatHeight: 18.5, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: null, fabricReq: 1.5, leatherReq: 26 }),
+  fabric: fab([2703, 2718, 2730, 2757, 2784, 2811, 2838, 2865, 2892, 2919, 2946, 2973, 3000, 3027, 3054, 3081]),
+  leather: leather([3054, 3189, 3297, 3405], 27),
+  finishTiers: null,
+},
+
+{
+  sku: "MCM184", name: "McGuire Gondola Chair", collection: "Gondola", category: "chairs", limited: true,
+  standardFinish: "Dark Tobacco, Salt Metallic", frameMaterial: null, basePrice: 2445,
+  specs: ["Rattan frame Tight seat Cushion"],
+  dims: dims({ width: 23, depth: 22.5, height: 31.75, widthInside: null, seatHeight: 18.5, seatDepth: 18, armWidth: null, armHeight: 28, exposedLegHeight: null, volume: 25, weight: null, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2463, 2472, 2481, 2499, 2517, 2535, 2553, 2571, 2589, 2607, 2625, 2643, 2661, 2679, 2697, 2715]),
+  leather: leather([2697, 2787, 2859, 2931], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCM261", name: "Petite Caned Arm Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3651,
+  specs: ["C Rattan frame with square mesh", "Rattan frcaned arms and back caned ar Tight upholstered seat with base", "Tight upwelt", "Tight upwelt -"],
+  dims: dims({ width: 23, depth: 23.5, height: 35, widthInside: null, seatHeight: 18, seatDepth: 17.5, armWidth: null, armHeight: 18.5, exposedLegHeight: null, volume: 26, weight: 31, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3669, 3678, 3687, 3705, 3723, 3741, 3759, 3777, 3795, 3813, 3831, 3849, 3867, 3885, 3903, 3921]),
+  leather: leather([3903, 3993, 4065, 4137], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM262", name: "Caned Arm Chair", collection: "Barbara Barry", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 4551,
+  specs: ["MCM264 Classic Curve Arm CBarbara Barry frame with square mesh", "Rattan Frame with square rms and back caned back pholstered seat", "Tight Upholstered seat hapholstered seat has base welt"],
+  dims: dims({ width: null, depth: null, height: 0, widthInside: 0, seatHeight: 300, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: 25, volume: 25, weight: 23.5, fabricReq: 39.5, leatherReq: 34.5 }),
+  fabric: fab([null, null, null, null, 18, 18, 19, 18.5, null, null, 18.5, 18, null, null, 26, 26]),
+  leather: leather([31, 30, 1, 1], 17),
+  finishTiers: { tier1: 3051, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCM264", name: "Classic Curve Arm Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3696,
+  specs: ["Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes +$2085 Rattan Frame Tight Upholstered seat and back Seat has base welt"],
+  dims: dims({ width: 24, depth: 24.25, height: 38, widthInside: null, seatHeight: 18, seatDepth: 19, armWidth: null, armHeight: 24.25, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([3732, 3750, 3768, 3804, 3840, 3876, 3912, 3948, 3984, 4020, 4056, 4092, 4128, 4164, 4200, 4236]),
+  leather: leather([4200, 4380, 4524, 4668], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2085 },
+},
+
+{
+  sku: "MCM294", name: "Crescent Dining Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 3960,
+  specs: ["MCM321 Hayes Dining Arm Chair McGuire Originals", "Leather Cord wrapped rattan", "Rattan Frame with caning on inside frame and seat back", "Rawhide bindings", "Loose seat cushion", "Loose seat cushion Matte Natural Brown, Matte Slate"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: 0, seatHeight: 300, seatDepth: null, armWidth: null, armHeight: 24.25, exposedLegHeight: 23.5, volume: 23, weight: 24, fabricReq: 32.25, leatherReq: 35 }),
+  fabric: fab([null, null, null, null, 19, 18.5, 17.25, 18.75, null, null, 20, 24.75, null, null, 27, 15]),
+  leather: leather([35, 30, 1.25, 1], 21),
+  finishTiers: { tier1: 3759, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCM321", name: "Hayes Dining Arm Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "available in 1 tone, 2 tone, and 3tones +", frameMaterial: null, basePrice: 600,
+  specs: ["MCM331 Alameda Dining Arm Chair McGuire Originals Rattan frame with caning on the", "Rattan frame with 3/16” rawhide inside seat and back binding on seat back. Loose seat cushion", "Non-standard finish ships in 20-24 weeks", "Custom rawhide program"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: 3351, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: 0 }),
+  fabric: fab([600, 300, 600, null, null, 23.5, 23, 24, 24, 35, 33, null, null, null, null, 18.5]),
+  leather: leather([18.5, 18.75, null, null], null),
+  finishTiers: { tier1: 0, tier2: 0, tier3: 0, tier4: 0, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCM332", name: "Alameda Dining Side Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Dark Tobacco, Pecan", frameMaterial: null, basePrice: 2901,
+  specs: ["Rattan frame with rawhide", "Attached box cushion with bottom welt", "Non-standard finish ships in 20-24 weeks", "Custom rawhide program available in 1 tone, 2 tone, and 3 tones +$600", "If choosing non-standard finish and custom rawhide, only one upcharge is applied."],
+  dims: dims({ width: 21.25, depth: 24, height: 33, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([2937, 2955, 2973, 3009, 3045, 3081, 3117, 3153, 3189, 3225, 3261, 3297, 3333, 3369, 3405, 3441]),
+  leather: leather([3405, 3585, 3729, 3873], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCM334", name: "Bercut Dining Side Chair (w/ Back Cushion)", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Matte Natural Brown, Slate", frameMaterial: null, basePrice: 3513,
+  specs: ["Standard Leather Panel(s): m Chocolate, Camel, Pebble, Ivory, Black 24", "Rattan frame with leather panels on seat back", "Panel has two metal buckles and 1/4” foam insert", "Loose seat and back cushion"],
+  dims: dims({ width: 23.5, depth: 25, height: 35, widthInside: null, seatHeight: 17.75, seatDepth: 23, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 28, fabricReq: 2.75, leatherReq: 47 }),
+  fabric: fab([3564, 3591, 3615, 3666, 3717, 3768, 3819, 3870, 3921, 3972, 4023, 4074, 4125, 4176, 4227, 4278]),
+  leather: leather([4227, 4482, 4686, 4890], 51),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCM334-v2", name: "Bercut Dining Side Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "LMatte Natural Brown, SlateM", frameMaterial: null, basePrice: 3213,
+  specs: ["Be Standard Leather Panel(s):", "SChocolate, Camel, Pebble, Ivory, CBlack B Rattan frame with leather panels", "Ron seat back o Panel has two metal buckles and", "P1/4” foam insert 1"],
+  dims: dims({ width: 23.5, depth: 25, height: 35, widthInside: null, seatHeight: 17.75, seatDepth: 23, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 28, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([3249, 3267, 3285, 3321, 3357, 3393, 3429, 3465, 3501, 3537, 3573, 3609, 3645, 3681, 3717, 3753]),
+  leather: leather([3717, 3897, 4041, 4185], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCM335", name: "Bercut Dining Arm Chair (w/ Back Cushion)", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Matte Natural Brown, Slate", frameMaterial: null, basePrice: 3798,
+  specs: ["Standard Leather Panel(s): Chocolate, Camel, Pebble, Ivory, Black Rattan frame with leather panels on seat back Panel has two metal buckles and 1/4” foam insert Loose seat and back cushion"],
+  dims: dims({ width: 23.5, depth: 25, height: 35, widthInside: null, seatHeight: 17.75, seatDepth: 20.25, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 2.75, leatherReq: 47 }),
+  fabric: fab([3849, 3876, 3900, 3951, 4002, 4053, 4104, 4155, 4206, 4257, 4308, 4359, 4410, 4461, 4512, 4563]),
+  leather: leather([4512, 4767, 4971, 5175], 51),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+},
+
+{
+  sku: "MCM335-v2", name: "Bercut Dining Arm Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Matte Natural Brown, Slate", frameMaterial: null, basePrice: 3498,
+  specs: ["Standard Leather Panel(s): Chocolate, Camel, Pebble, Ivory, Black", "Rattan frame with leather panels on seat back", "Panel has two metal buckles and 1/4” foam insert"],
+  dims: dims({ width: 23.5, depth: 25, height: 35, widthInside: null, seatHeight: 17.75, seatDepth: 20.25, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([3534, 3552, 3570, 3606, 3642, 3678, 3714, 3750, 3786, 3822, 3858, 3894, 3930, 3966, 4002, 4038]),
+  leather: leather([4002, 4182, 4326, 4470], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+},
+
+{
+  sku: "MCM408", name: "Swivel Dining Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Steel base", frameMaterial: null, basePrice: 2577,
+  specs: ["Optional Finish(es): Brass base +$1200", "Available walnut seat options: s Satin Walnut Blackened Steel, Polished Stainless"],
+  dims: dims({ width: 20, depth: 23.5, height: 21.75, widthInside: null, seatHeight: 21.75, seatDepth: 14, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 30, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 150, specialtyRattan: null },
+},
+
+{
+  sku: "MCM416", name: "Cocoon Side Chair", collection: "Bill Sofield", category: "chairs", limited: true,
+  standardFinish: "cord woven seatB", frameMaterial: null, basePrice: 5451,
+  specs: ["S Walnut frame", "R Stained woven Danish Cord", "H Loose, knife-edge seat cushion o Stitch detail sewn on top cover", "Lpanel Satin Walnut finish with Danish"],
+  dims: dims({ width: 18.5, depth: 26.25, height: 39.5, widthInside: null, seatHeight: 19.25, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 29, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([5469, 5478, 5487, 5505, 5523, 5541, 5559, 5577, 5595, 5613, 5631, 5649, 5667, 5685, 5703, 5721]),
+  leather: leather([5703, 5793, 5865, 5937], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCM420", name: "Square Back Caned Side Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Black Bamboo Tobacco", frameMaterial: null, basePrice: 2151,
+  specs: ["Rattan frame Honeycomb cane on inside and outside back Loose seat cushion"],
+  dims: dims({ width: 19.5, depth: 22.25, height: 34, widthInside: null, seatHeight: 18.5, seatDepth: 18.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 10, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2169, 2178, 2187, 2205, 2223, 2241, 2259, 2277, 2295, 2313, 2331, 2349, 2367, 2385, 2403, 2421]),
+  leather: leather([2403, 2493, 2565, 2637], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCM423", name: "Caned Barrel Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Black Bamboo TobaccoPacific G", frameMaterial: null, basePrice: 2751,
+  specs: ["M Rattan frame with honeycomb", "Ash framcaned sides, back, and seat rest", "Caning is on the inside of frame", "Attached Loose seat cushion", "Not recommended for seating without cushion", "Non-standard finish ships in 20-24 weeks"],
+  dims: dims({ width: 24, depth: 23.25, height: 31.5, widthInside: null, seatHeight: 18.5, seatDepth: 19, armWidth: null, armHeight: 22.5, exposedLegHeight: null, volume: 16, weight: 11, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2769, 2778, 2787, 2805, 2823, 2841, 2859, 2877, 2895, 2913, 2931, 2949, 2967, 2985, 3003, 3021]),
+  leather: leather([3003, 3093, 3165, 3237], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCM424", name: "Fino Side Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Blackened Steel Frame. SWalnut Base. Black DanisGreyTea-Stained, Black Danish", frameMaterial: null, basePrice: 2601,
+  specs: ["MCM426 Danish Cord Swivel DiniMcGuire Originame with woven cane back", "Danish cord swivel chair", "Polished Stainless Steel Frd seat cushion Satin Walnut Base. Tea-StDanish Cord"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 19.75, exposedLegHeight: 20, volume: 21.5, weight: 20, fabricReq: 34, leatherReq: 27 }),
+  fabric: fab([null, null, null, null, 18, 18.5, 18, null, null, null, null, null, null, null, 11, 7]),
+  leather: leather([35, 25, 1, null], 17),
+  finishTiers: { tier1: 4227, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "MCM426", name: "Danish Cord Swivel Dining Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4053,
+  specs: ["Rattan frame with cane webbing on back Upholstered interior on back and seat Attached seat cushion with welt along the base and inside back"],
+  dims: dims({ width: 23, depth: 24, height: 35, widthInside: 20, seatHeight: 18.5, seatDepth: 19, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 26, weight: 45, fabricReq: 2.25, leatherReq: 39 }),
+  fabric: fab([4095, 4116, 4137, 4179, 4221, 4263, 4305, 4347, 4389, 4431, 4473, 4515, 4557, 4599, 4641, 4683]),
+  leather: leather([4641, 4851, 5019, 5187], 42),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM430", name: "Passage Side Chair", collection: "Laura Kirar", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 3672,
+  specs: ["Rattan frame with cane webbing on back", "Upholstered interior on back and seat", "Attached seat cushion with welt along the base of cushion and inside back"],
+  dims: dims({ width: 23, depth: 24, height: 35, widthInside: 20, seatHeight: 18.5, seatDepth: 19, armWidth: null, armHeight: 18, exposedLegHeight: null, volume: 26, weight: 45, fabricReq: 2.25, leatherReq: 39 }),
+  fabric: fab([3714, 3735, 3756, 3798, 3840, 3882, 3924, 3966, 4008, 4050, 4092, 4134, 4176, 4218, 4260, 4302]),
+  leather: leather([4260, 4470, 4638, 4806], 42),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM431", name: "Maketto Arm Chair", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3651,
+  specs: ["Rattan frame with cane on back and seat d", "Loose, double stitched seat cushion on top seams", "Single stitch on side seams", "1” long tab on the bottom of cushion snaps to seat deck"],
+  dims: dims({ width: 23, depth: 23.25, height: 33, widthInside: null, seatHeight: 19.5, seatDepth: 18, armWidth: null, armHeight: 23.75, exposedLegHeight: null, volume: 14, weight: 12, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3669, 3678, 3687, 3705, 3723, 3741, 3759, 3777, 3795, 3813, 3831, 3849, 3867, 3885, 3903, 3921]),
+  leather: leather([3903, 3993, 4065, 4137], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM432", name: "Maketto Side Chair", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: "Ifau-M", frameMaterial: null, basePrice: 3351,
+  specs: ["Rattan frame with cane on the", "Rback and seat a Loose seat cushion (double stitch", "Bon top, single stitch on side o 1” long tab on the bottom of", "Ncushion snaps to seat deck w Cat"],
+  dims: dims({ width: 23, depth: 23.25, height: 33, widthInside: null, seatHeight: 19.5, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 34, weight: 11, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3369, 3378, 3387, 3405, 3423, 3441, 3459, 3477, 3495, 3513, 3531, 3549, 3567, 3585, 3603, 3621]),
+  leather: leather([3603, 3693, 3765, 3837], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM434", name: "Crin Dining Side Chair", collection: "Steven Volpe", category: "chairs", limited: false,
+  standardFinish: "Matte Slate", frameMaterial: null, basePrice: 2547,
+  specs: ["Rattan frame with rawhide straps and bindings on seat and back Burnished brass nailhead detailing on back comes standard Non-standard finish ships in 20-24 weeks Custom rawhide program available in 1 tone, 2 tone, and 3 tones +$600 If choosing non-standard finish and custom rawhide, only one upcharge is applied."],
+  dims: dims({ width: 24.25, depth: 24, height: 29.75, widthInside: null, seatHeight: 18, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 31, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCM435", name: "Crin Dining Arm Chair", collection: "Steven Volpe", category: "chairs", limited: false,
+  standardFinish: "Matte Umber", frameMaterial: null, basePrice: 2847,
+  specs: ["Rattan frame with rawhide straps and bindings on seat and back", "Burnished brass nailhead detailing on back comes standard", "Non-standard finish ships in 20-24 weeks", "Custom rawhide program available in 1 tone, 2 tone, and 3 tones +$600", "If choosing non-standard finish and custom rawhide, only one upcharge is applied."],
+  dims: dims({ width: 24.25, depth: 24, height: 29.75, widthInside: null, seatHeight: 18, seatDepth: 19, armWidth: null, armHeight: 26, exposedLegHeight: null, volume: 26, weight: 31, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCM436A", name: "Canyon Swivel Dining Chair", collection: "Barbara Barry", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 4872,
+  specs: ["s", "Rattan and caning barrel seat with upholstered seat back and cushion ng", "Comes standard with a 360 degree swivel on a pedestal with antique 24 brass finish", "Double stitch tight upholstered seat has base welt"],
+  dims: dims({ width: 23.5, depth: 24.25, height: 30.5, widthInside: 19.5, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 1.5, leatherReq: 26 }),
+  fabric: fab([4899, 4914, 4926, 4953, 4980, 5007, 5034, 5061, 5088, 5115, 5142, 5169, 5196, 5223, 5250, 5277]),
+  leather: leather([5250, 5385, 5493, 5601], 27),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM437", name: "Ojai Dining Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: "-M", frameMaterial: null, basePrice: 4146,
+  specs: ["Rattan and caning, upholstered", "Dloose back cushion and attached fseat, rawhide bindings on arm and", "Dleg stretcher", "L Tight Upholstered seat has base welt"],
+  dims: dims({ width: 24.5, depth: 27.5, height: 31, widthInside: 19, seatHeight: 19, seatDepth: 22, armWidth: null, armHeight: 26, exposedLegHeight: null, volume: 26, weight: 25, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([4182, 4200, 4218, 4254, 4290, 4326, 4362, 4398, 4434, 4470, 4506, 4542, 4578, 4614, 4650, 4686]),
+  leather: leather([4650, 4830, 4974, 5118], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM442", name: "Tenan Anywhere Dining Chair", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Matte Natural Brown", frameMaterial: null, basePrice: 2301,
+  specs: ["Dining Chair with bend rattan frame Double honeycomb caning Loose seat cushion on sika deck"],
+  dims: dims({ width: 29.25, depth: 25.25, height: 29.75, widthInside: null, seatHeight: 19, seatDepth: 19, armWidth: null, armHeight: 25.25, exposedLegHeight: null, volume: 22, weight: 25, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([2319, 2328, 2337, 2355, 2373, 2391, 2409, 2427, 2445, 2463, 2481, 2499, 2517, 2535, 2553, 2571]),
+  leather: leather([2553, 2643, 2715, 2787], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCM59", name: "Rattan Target Arm Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3951,
+  specs: ["Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes. One ring, no rawhide +$585", "Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes. Two rings, same color, no rawhide +$885", "Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes. Two rings, differencolor, no rawhide +$1185", "Optional Antique finished Casters +$255", "Loose seat", "Specify metal for carpeted floors or rubber-treaded for hard-surfacfloors"],
+  dims: dims({ width: 24, depth: 22, height: 36, widthInside: null, seatHeight: 19, seatDepth: 17, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3969, 3978, 3987, 4005, 4023, 4041, 4059, 4077, 4095, 4113, 4131, 4149, 4167, 4185, 4203, 4221]),
+  leather: leather([4203, 4293, 4365, 4437], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM59B", name: "Rattan Target(R) Arm Chair, (Upholstered Back)", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5487,
+  specs: ["Optional Contrasting Ring y Finish(es): Type 1, 2 and Specialty rattan finishes. One ring, no rawhide +$585", "Optional Contrasting Ring y Finish(es): Type 1, 2 and Specialty rattan finishes. Two rings, same color, no rawhide +$885", "Optional Contrasting Ring y Finish(es): Type 1, 2 and Specialty nt rattan finishes. Two rings, different color, no rawhide +$1185", "Optional Antique finished Casters +$255", "Tight Back, Loose seat cushion", "Specify metal for carpeted floors ce or rubber-treaded for hard-surface floors"],
+  dims: dims({ width: 24, depth: 22, height: 36, widthInside: null, seatHeight: 19, seatDepth: 17, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([5523, 5541, 5559, 5595, 5631, 5667, 5703, 5739, 5775, 5811, 5847, 5883, 5919, 5955, 5991, 6027]),
+  leather: leather([5991, 6171, 6315, 6459], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM59UB", name: "Rattan Target Arm Chair (Tight Seat and Back)", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4797,
+  specs: ["Optional Contrasting Ring", "OFinish(es): Type I, II and Specialty Fprogram finishes: One ring, no rrawhide +$585 r Optional Contrasting Ring", "OFinish(es): Type I, II and Specialty Fprogram finishes: Two rings, same rcolor, no rawhide +$885 c Optional Contrasting Ring", "OFinish(es): Type I, II and FSpecialty program finishes: rTwo rings, different color, no crawhide+$1185+$1185", "O Optional Antique finished cCasters +$255", "R Tight seat and back", "S Specify metal for carpeted floors oor rubber-treaded for hard-surface flfloors -"],
+  dims: dims({ width: 24, depth: 22, height: 36, widthInside: null, seatHeight: 19, seatDepth: 17, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([4830, 4848, 4863, 4896, 4929, 4962, 4995, 5028, 5061, 5094, 5127, 5160, 5193, 5226, 5259, 5292]),
+  leather: leather([5259, 5424, 5556, 5688], 33),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM60", name: "Rattan Target(R) Side Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3372,
+  specs: ["Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes. One ring, no rawhide +$585 Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes. Two rings, same color, no rawhide +$885 Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes. Two rings, different color, no rawhide +$1185 Optional Antique finished casters +$255 Rattan frame with loose seat Specify metal for carpeted floors or rubber-treaded for hard surface floors"],
+  dims: dims({ width: 20, depth: 22, height: 36, widthInside: null, seatHeight: 19, seatDepth: 17, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 28, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3390, 3399, 3408, 3426, 3444, 3462, 3480, 3498, 3516, 3534, 3552, 3570, 3588, 3606, 3624, 3642]),
+  leather: leather([3624, 3714, 3786, 3858], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM60B", name: "Rattan Target(R) Side Chair, (Upholstered Back)", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4296,
+  specs: ["Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes. One ring, no rawhide +$585", "Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes. Two rings, same color, no rawhide +$885", "Optional Contrasting Ring Finish(es): Type 1, 2 and Specialty rattan finishes. Two rings, differencolor, no rawhide +$1185", "Antique finished casters are optional +$255", "Rattan frame with loose seat and tight upholstered back", "Specify metal for carpeted floors or rubber-treaded for hard surfacfloors"],
+  dims: dims({ width: 20, depth: 22, height: 36, widthInside: null, seatHeight: 19, seatDepth: 17, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 28, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([4332, 4350, 4368, 4404, 4440, 4476, 4512, 4548, 4584, 4620, 4656, 4692, 4728, 4764, 4800, 4836]),
+  leather: leather([4800, 4980, 5124, 5268], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM60UB", name: "Rattan Target Side Chair, (Tight Seat and Back)", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4197,
+  specs: ["Optional Contrasting Ring y Finish(es):Type I, II and Specialty program finishes: One Ring, no rawhide +$585", "Optional Contrasting Ring y Finish(es): Type I, II and Specialty program finishes: Two rings, same color, no rawhide +$885", "Optional Contrasting Ring y Finish(es): Type I, II and nt Specialty program finishes: Two rings, different color, no rawhide+$1185+$1185", "Antique finished casters are d optional +$255", "Rattan frame with tight seat and tight back ce", "Specify metal for carpeted floors or rubber-treaded for hard surface floors"],
+  dims: dims({ width: 20, depth: 22, height: 36, widthInside: null, seatHeight: 19, seatDepth: 17, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 28, fabricReq: 2, leatherReq: 30 }),
+  fabric: fab([4233, 4251, 4269, 4305, 4341, 4377, 4413, 4449, 4485, 4521, 4557, 4593, 4629, 4665, 4701, 4737]),
+  leather: leather([4701, 4881, 5025, 5169], 36),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCM90", name: "Cracked Ice(TM) Chair", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Nw-N", frameMaterial: null, basePrice: 3501,
+  specs: ["Loose seat, caned deck B R O"],
+  dims: dims({ width: 22, depth: 24, height: 36, widthInside: null, seatHeight: 19, seatDepth: 17.5, armWidth: null, armHeight: 26, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3519, 3528, 3537, 3555, 3573, 3591, 3609, 3627, 3645, 3663, 3681, 3699, 3717, 3735, 3753, 3771]),
+  leather: leather([3753, 3843, 3915, 3987], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCO143", name: "Rollick Counter Stool", collection: "Nicole Hollis", category: "chairs", limited: true,
+  standardFinish: "Naturale, Nero", frameMaterial: null, basePrice: 1191,
+  specs: ["Backless woven rattan frame Rawhide weave One bronze kick plate Non-standard finish ships in 20-24 weeks"],
+  dims: dims({ width: 17.5, depth: 17.5, height: 24.75, widthInside: null, seatHeight: 24.75, seatDepth: 16.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 7, weight: 13, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
 ];
