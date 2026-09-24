@@ -8416,4 +8416,1514 @@ const PRODUCTS = [
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
 },
 
+{
+  sku: "BAA3449", name: "Dijon Barstool", collection: "Milling Road Originals", category: "chairs", limited: true,
+  standardFinish: "BlackeneBronze", frameMaterial: null, basePrice: 5841,
+  specs: ["CMil Scoop back barstool", "Six-leg br Oak legs with Blackened Bronze", "Honed Cring", "Base ava 180 degree swivel or Sculpt DisclaimMaterialJute"],
+  dims: dims({ width: 21.75, depth: 23.75, height: 38.5, widthInside: 18, seatHeight: 30, seatDepth: 17.5, armWidth: null, armHeight: null, exposedLegHeight: 24.75, volume: 12, weight: 33, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([5895, 5922, 5949, 6003, 6057, 6111, 6165, 6219, 6273, 6327, 6381, 6435, 6489, 6543, 6597, 6651]),
+  leather: leather([6597, 6867, 7083, 7299], 54),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3451", name: "Classico End Table", collection: "Milling Road Originals", category: "tables", limited: true,
+  standardFinish: "-+", frameMaterial: null, basePrice: 300,
+  specs: [],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: 28, seatDepth: 52, armWidth: 28, armHeight: 30.75, exposedLegHeight: 25.75, volume: 13.75, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, 28, 14, 126, 134.5, null]),
+  leather: leather(null, null),
+  finishTiers: { tier1: null, tier2: 450, tier3: null, tier4: 600, type1Rattan: null, type2Rattan: 2100, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3456", name: "Malta Cocktail Table", collection: "Milling Road Originals", category: "tables", limited: false,
+  standardFinish: "Jute", frameMaterial: null, basePrice: 3891,
+  specs: ["White oak veneer serpentine end table Inset plinth base"],
+  dims: dims({ width: 20, depth: 20, height: 22.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 60, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3458", name: "Huxley Cocktail Table", collection: "Baker Luxe", category: "tables", limited: false,
+  standardFinish: "Ecru", frameMaterial: null, basePrice: 4821,
+  specs: ["Quartered oak veneer and oak solids"],
+  dims: dims({ width: 30, depth: 30, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 82, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 225, tier2: 375, tier3: 525, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3462", name: "Huxley End Table", collection: "Baker Luxe", category: "tables", limited: false,
+  standardFinish: "Ecru", frameMaterial: null, basePrice: 2541,
+  specs: ["Quartered oak veneer and oak solids"],
+  dims: dims({ width: 18, depth: 18, height: 24, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 61.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3482", name: "Huxley Pedestal", collection: "Baker Luxe", category: "chairs", limited: false,
+  standardFinish: "EcruN", frameMaterial: null, basePrice: 3141,
+  specs: ["Quartered oak veneer and oak", "Qsolids"],
+  dims: dims({ width: 18, depth: 18, height: 42, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 8, weight: 75, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3750", name: "Budding Cocktail Table", collection: "Barbara Barry", category: "tables", limited: false,
+  standardFinish: "Nougat", frameMaterial: null, basePrice: 2991,
+  specs: ["Quartered figured walnut veneer"],
+  dims: dims({ width: 18, depth: 24, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 8, weight: 31, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3753", name: "Como Cocktail Table", collection: "Barbara Barry", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 13941,
+  specs: ["Honed Cream Karaman top with Natural Bronze base", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 54, depth: 38, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 38, weight: 239, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3758", name: "Como End Table", collection: "Barbara Barry", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 8091,
+  specs: ["Honed Cream Karaman top with Natural Bronze base", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 28, depth: 28, height: 26, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 22, weight: 123, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3760", name: "Gemstone Table", collection: "Barbara Barry", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 9297,
+  specs: ["Transparent Murano glass", "T Disclaimer: Please see Natural", "DMaterials page M-"],
+  dims: dims({ width: 13, depth: 9.5, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 4, weight: 37.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3761", name: "Waistline Small Spot Table", collection: "Barbara Barry", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5697,
+  specs: ["Transparent Murano glass Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 9, depth: 9, height: 20.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 4, weight: 20, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3762", name: "Waistline Large Spot Table", collection: "Barbara Barry", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 6897,
+  specs: ["Transparent Murano glass", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 13.25, depth: 13.25, height: 22, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 28.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3778", name: "Shanghai Occasional Table", collection: "Barbara Barry", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 11091,
+  specs: ["Honed Cream Karaman top with Blackened Bronze base", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 30, depth: 30, height: 26, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 134, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3904", name: "Marais Cabinet", collection: "Thomas Pheasant", category: "casegoods", limited: true,
+  standardFinish: "TiObsidian with BronzinoO", frameMaterial: null, basePrice: 14997,
+  specs: ["Wirebrushed quartered oak veneer", "W Bronze ferrules and door pulls", "Bf"],
+  dims: dims({ width: 78, depth: 20, height: 32, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 44, weight: 200, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3908", name: "Quadro Night Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 8991,
+  specs: ["Wirebrushed quartered oak veneer Brass accents and cast brass fluted feet Two (2) drawers with leather liner in top drawer"],
+  dims: dims({ width: 30, depth: 18, height: 26, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 14, weight: 162.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3912", name: "Verona Mirror", collection: "Thomas Pheasant", category: "mirrors", limited: false,
+  standardFinish: "Bronzino", frameMaterial: null, basePrice: 18597,
+  specs: ["Etched and frosted Murano glass inserts", "Bronze frame", "Convex mirror 17.75” DIA", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 34, depth: 34, height: 3, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 80, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3914", name: "Murano Saturn Mirror", collection: "Thomas Pheasant", category: "mirrors", limited: true,
+  standardFinish: "Transparent Murano Glass", frameMaterial: null, basePrice: 6591,
+  specs: ["s", "Concave blown Murano glass frame with inset convex mirror 14” DIA", "Brass clasps", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 23, depth: 3.75, height: 23, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 8, weight: 24, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3922CK", name: "Strap California King Bed", collection: "Thomas Pheasant", category: "beds", limited: false,
+  standardFinish: "eBronzinoB", frameMaterial: null, basePrice: 11625,
+  specs: ["Fully upholstered bed", "F Bronze feet", "B Recommended boxspring and", "Rmattress overall height: not to mexceed 13.5”"],
+  dims: dims({ width: 79, depth: 100, height: 36, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: 14, leatherReq: 238 }),
+  fabric: fab([11877, 12003, 12129, 12381, 12633, 12885, 13137, 13389, 13641, 13893, 14145, 14397, 14649, 14901, 15153, 15405]),
+  leather: leather([15153, 16413, 17421, 18429], 252),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3922K", name: "Strap King Bed", collection: "Thomas Pheasant", category: "beds", limited: false,
+  standardFinish: "Bronzino", frameMaterial: null, basePrice: 11631,
+  specs: ["Fully upholstered bed Bronze feet Recommended boxspring and mattress overall height: not to exceed 13.5”"],
+  dims: dims({ width: 83, depth: 96, height: 36, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 4, volume: null, weight: 225, fabricReq: 14, leatherReq: 238 }),
+  fabric: fab([11883, 12009, 12135, 12387, 12639, 12891, 13143, 13395, 13647, 13899, 14151, 14403, 14655, 14907, 15159, 15411]),
+  leather: leather([15159, 16419, 17427, 18435], 252),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3922Q", name: "Strap Queen Bed", collection: "Thomas Pheasant", category: "beds", limited: false,
+  standardFinish: "Bronzino", frameMaterial: null, basePrice: 11256,
+  specs: ["Fully upholstered bed", "Bronze feet", "Recommended boxspring and mattress overall height: not to exceed 13.5”"],
+  dims: dims({ width: 67, depth: 96, height: 36, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: 12.5, leatherReq: 213 }),
+  fabric: fab([11481, 11595, 11706, 11931, 12156, 12381, 12606, 12831, 13056, 13281, 13506, 13731, 13956, 14181, 14406, 14631]),
+  leather: leather([14406, 15531, 16431, 17331], 225),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3935", name: "Oblique Dining Table", collection: "Thomas Pheasant", category: "tables", limited: false,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 10491,
+  specs: ["Wirebrushed quartered oak veneer", "Starburst veneer pattern on top", "Bronze accents"],
+  dims: dims({ width: 60, depth: 60, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 41, weight: 195, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3936", name: "Trocadero Game Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "SObsidian with BronzinoO", frameMaterial: null, basePrice: 6891,
+  specs: ["Wirebrushed quartered oak veneer", "W Bronze accents", "B"],
+  dims: dims({ width: 42, depth: 42, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 127, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1050, tier2: 1200, tier3: 1350, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3938", name: "Piazza Dining Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 12447,
+  specs: ["Wirebrushed quartered oak veneer Bronze accents Starburst veneer pattern on top"],
+  dims: dims({ width: 60, depth: 60, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 23, weight: 300, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3939", name: "Forum Dining Table", collection: "Thomas Pheasant", category: "tables", limited: false,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 13947,
+  specs: ["Wirebrushed quartered oak vene Bronze accents"],
+  dims: dims({ width: 108, depth: 44, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 29, weight: 342, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3942", name: "Rialto Side Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4896,
+  specs: ["eer", "Fully upholstered seat and back with oak legs", "Bronzino ferrules"],
+  dims: dims({ width: 20, depth: 25, height: 31, widthInside: null, seatHeight: 18.75, seatDepth: 17.5, armWidth: null, armHeight: null, exposedLegHeight: 15.5, volume: 35, weight: 16, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([4932, 4950, 4968, 5004, 5040, 5076, 5112, 5148, 5184, 5220, 5256, 5292, 5328, 5364, 5400, 5436]),
+  leather: leather([5400, 5580, 5724, 5868], 36),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3943", name: "Rialto Arm Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5271,
+  specs: ["Fully upholstered seat and back", "Fwith oak legs", "U Bronzino ferrules e O-"],
+  dims: dims({ width: 26, depth: 25, height: 31, widthInside: 21.5, seatHeight: 18.75, seatDepth: 25, armWidth: null, armHeight: 23, exposedLegHeight: 15.5, volume: 39, weight: 26, fabricReq: 3.5, leatherReq: 60 }),
+  fabric: fab([5334, 5367, 5397, 5460, 5523, 5586, 5649, 5712, 5775, 5838, 5901, 5964, 6027, 6090, 6153, 6216]),
+  leather: leather([6153, 6468, 6720, 6972], 63),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3946", name: "Milano Side Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 6696,
+  specs: ["Fully upholstered seat Upholstered channels on back with exposed oak veneer Oak legs"],
+  dims: dims({ width: 22, depth: 25, height: 34.5, widthInside: null, seatHeight: 19, seatDepth: 19.5, armWidth: null, armHeight: null, exposedLegHeight: 15, volume: 35, weight: null, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([6732, 6750, 6768, 6804, 6840, 6876, 6912, 6948, 6984, 7020, 7056, 7092, 7128, 7164, 7200, 7236]),
+  leather: leather([7200, 7380, 7524, 7668], 36),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3947", name: "Milano Arm Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7932,
+  specs: ["Fully upholstered seat", "Upholstered channels on back witexposed oak veneer", "Oak legs"],
+  dims: dims({ width: 25, depth: 25, height: 34.5, widthInside: 20, seatHeight: 19, seatDepth: 18.5, armWidth: null, armHeight: 23, exposedLegHeight: 15, volume: 39, weight: 26, fabricReq: 2.75, leatherReq: 47 }),
+  fabric: fab([7983, 8010, 8034, 8085, 8136, 8187, 8238, 8289, 8340, 8391, 8442, 8493, 8544, 8595, 8646, 8697]),
+  leather: leather([8646, 8901, 9105, 9309], 51),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3950", name: "Scultura Cocktail Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "Blackened Bronze", frameMaterial: null, basePrice: 11091,
+  specs: ["Bronze base ith", "48 3/4” Starphire glass top"],
+  dims: dims({ width: 48, depth: 48, height: 14.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 18, weight: 169, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3952", name: "Discus Cocktail Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "BaObsidian with Blackened BronzeO", frameMaterial: null, basePrice: 9891,
+  specs: ["Bronze base", "W Wirebrushed quartered oak veneer", "Stop"],
+  dims: dims({ width: 48, depth: 48, height: 15, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 108.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3954", name: "Trilogy Cocktail Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 6291,
+  specs: ["Wirebrushed quartered oak veneer Starburst pattern on top Bronze accents between legs and top"],
+  dims: dims({ width: 48, depth: 48, height: 14, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3956", name: "Prato Cocktail Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "Obsidian with Blackened Bronze", frameMaterial: null, basePrice: 12291,
+  specs: ["Wirebrushed quartered oak vene Bronze accents"],
+  dims: dims({ width: 66.25, depth: 18.25, height: 13, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 20, weight: 91.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3958", name: "Zigzag Cocktail Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 8991,
+  specs: ["eer", "Wirebrushed quartered oak veneer with brass inlay"],
+  dims: dims({ width: 60, depth: 30, height: 14, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 25, weight: 92.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3960", name: "Cirque Cocktail Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 13947,
+  specs: ["Wirebrushed quartered oak veneer", "W Bronze accents l Inset Honed Calacatta Gold marble", "Htop with etched details w Disclaimer: Please see Natural", "DMaterials page MObsidian with Bronzino"],
+  dims: dims({ width: 47, depth: 47, height: 14, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 17, weight: 335, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3962", name: "Orbit End Table", collection: "Thomas Pheasant", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 10191,
+  specs: ["Wirebrushed quartered oak veneer legs Honed Calacatta Gold marble top with brass frame Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 29.5, depth: 21, height: 22, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 66, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3973", name: "Bastille Cabinet", collection: "Thomas Pheasant", category: "casegoods", limited: false,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 10827,
+  specs: ["Wirebrushed quartered oak venewith brass accents", "Brass feet"],
+  dims: dims({ width: 48, depth: 17, height: 32, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 24, weight: 85, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1500, tier2: 1950, tier3: 2400, tier4: 5700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3975", name: "Brera Cabinet", collection: "Thomas Pheasant", category: "casegoods", limited: false,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 12447,
+  specs: ["eer", "Wirebrushed quartered oak veneer weave pattern on door fronts", "Brass accents", "Honed Claros Grey marble top", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 48, depth: 16, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 29, weight: 179, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1500, tier2: 1950, tier3: 2400, tier4: 5700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3977", name: "Rome Credenza", collection: "Thomas Pheasant", category: "casegoods", limited: true,
+  standardFinish: "SxObsidian with BronzinoO", frameMaterial: null, basePrice: 13791,
+  specs: ["Wirebrushed quartered oak veneer", "W Brass accents on doors and feet", "B"],
+  dims: dims({ width: 79, depth: 18, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 44, weight: 228.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3978", name: "Ponte Nesting Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 3291,
+  specs: ["Wirebrushed quartered oak veneer Brass strap on base Small: 22” x 16” x 19.5”; Large: 27” x 16” x 22”"],
+  dims: dims({ width: 27, depth: 16, height: 22, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 73, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3982", name: "Delphi Side Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 4491,
+  specs: ["Honed Claros Grey Marble", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 12, depth: 12, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 7, weight: 108.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA3984", name: "Slice Side Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "Obsidian with Bronzino", frameMaterial: null, basePrice: 3291,
+  specs: ["Wirebrushed quartered oak veneer", "Brass accents"],
+  dims: dims({ width: 14, depth: 8, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 4, weight: 34, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3985", name: "Cylinder Side Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "TsObsidian with BronzinoO", frameMaterial: null, basePrice: 3891,
+  specs: ["Wirebrushed quartered oak veneer", "W Brass accents v Pp B"],
+  dims: dims({ width: 13.25, depth: 13.25, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 4, weight: 30, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA3992", name: "Odeon Cabinet", collection: "Thomas Pheasant", category: "casegoods", limited: false,
+  standardFinish: "Obsidian with Cloud and Bronzino", frameMaterial: null, basePrice: 17391,
+  specs: ["Wirebrushed quartered oak veneers and solids Painted textured doors and side panels Brass accents and ferrules Textured door and side panels standard in Cloud finish"],
+  dims: dims({ width: 54, depth: 16, height: 60, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 47, weight: 429.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1800, tier2: 1950, tier3: 2100, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4303", name: "Rosa Chest", collection: "Baker Luxe", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 8997,
+  specs: ["Italian dyed figured English sycamore veneer", "Four (4) drawers with brass band between top and second bank of drawers", "Veneered drawer interiors", "Polished brass hardware"],
+  dims: dims({ width: 42, depth: 19, height: 50, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 32, weight: 285, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4311", name: "Summer Solstice Mirror", collection: "Baker Luxe", category: "mirrors", limited: true,
+  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 7497,
+  specs: ["Bronze frame with clear mirror f"],
+  dims: dims({ width: 48, depth: 3, height: 48, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 102.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4312", name: "Winter Solstice Mirror", collection: "Baker Luxe", category: "mirrors", limited: true,
+  standardFinish: "cNickel Plated BrassL", frameMaterial: null, basePrice: 8397,
+  specs: ["Nickel plated brass frame with", "Tclear mirror"],
+  dims: dims({ width: 48, depth: 3, height: 48, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 102.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4314", name: "Fret Mirror", collection: "Baker Luxe", category: "mirrors", limited: false,
+  standardFinish: "Liquid Bronze", frameMaterial: null, basePrice: 4497,
+  specs: ["Textured cast bronze frame with clear mirror"],
+  dims: dims({ width: 42, depth: 2.25, height: 42, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 11, weight: 56, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4315", name: "Corset Mirror", collection: "Baker Luxe", category: "mirrors", limited: true,
+  standardFinish: "Ecru", frameMaterial: null, basePrice: 3897,
+  specs: ["Solid oak frame", "Clear mirror with 1” bevel"],
+  dims: dims({ width: 33, depth: 1.5, height: 54, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 8, weight: 54, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4316", name: "Crew Mirror", collection: "Baker Luxe", category: "mirrors", limited: false,
+  standardFinish: "Bronze frame with clear mirror Natural Bronze", frameMaterial: null, basePrice: 7497,
+  specs: [],
+  dims: dims({ width: 40, depth: 2, height: 90, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 110, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4317", name: "Glow Mirror", collection: "Baker Luxe", category: "mirrors", limited: true,
+  standardFinish: "cNatural BronzeP", frameMaterial: null, basePrice: 7497,
+  specs: ["Circular bronze frame with clear", "Cmirror"],
+  dims: dims({ width: 46, depth: 3.75, height: 46, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 11, weight: 108.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4318", name: "Gleam Mirror", collection: "Baker Luxe", category: "mirrors", limited: true,
+  standardFinish: "Polished Stainless Steel", frameMaterial: null, basePrice: 5997,
+  specs: ["Circular stainless steel frame with clear mirror"],
+  dims: dims({ width: 46, depth: 3.75, height: 46, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 11, weight: 108.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4320CK", name: "Tailor California King Bed", collection: "Baker Luxe", category: "beds", limited: false,
+  standardFinish: "boxspring and 10” mattress heigh-", frameMaterial: null, basePrice: 9036,
+  specs: ["Fully upholstered bed", "Recommended: 5” low profile"],
+  dims: dims({ width: 78, depth: 94, height: 64, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 49, weight: null, fabricReq: 13, leatherReq: 221 }),
+  fabric: fab([9270, 9387, 9504, 9738, 9972, 10206, 10440, 10674, 10908, 11142, 11376, 11610, 11844, 12078, 12312, 12546]),
+  leather: leather([12312, 13482, 14418, 15354], 234),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4320K", name: "Tailor King Bed", collection: "Baker Luxe", category: "beds", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 8331,
+  specs: ["Fully upholstered bed", "Recommended: 5” low profile ht boxspring and 10” mattress height"],
+  dims: dims({ width: 82.5, depth: 91, height: 64, widthInside: 78, seatHeight: null, seatDepth: 84, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 47, weight: 70.5, fabricReq: 17, leatherReq: 289 }),
+  fabric: fab([8637, 8790, 8943, 9249, 9555, 9861, 10167, 10473, 10779, 11085, 11391, 11697, 12003, 12309, 12615, 12921]),
+  leather: leather([12615, 14145, 15369, 16593], 306),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4320Q", name: "Tailor Queen Bed", collection: "Baker Luxe", category: "beds", limited: false,
+  standardFinish: "B-E", frameMaterial: null, basePrice: 7782,
+  specs: ["Fully upholstered bed", "Q Recommended: 5” low profile wboxspring and 10” mattress height"],
+  dims: dims({ width: 66, depth: 91, height: 64, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 47, weight: null, fabricReq: 12, leatherReq: 204 }),
+  fabric: fab([7998, 8106, 8214, 8430, 8646, 8862, 9078, 9294, 9510, 9726, 9942, 10158, 10374, 10590, 10806, 11022]),
+  leather: leather([10806, 11886, 12750, 13614], 216),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4337", name: "Link Round Dining Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "Ecru with Natural Bronze", frameMaterial: null, basePrice: 8391,
+  specs: ["Quartered oak veneer round top with starburst pattern Bronze base"],
+  dims: dims({ width: 60, depth: 60, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 43, weight: 200.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 360, tier2: 600, tier3: 900, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4338", name: "Link Oval Dining Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "$9291+", frameMaterial: null, basePrice: 600,
+  specs: ["BAA4339 Conform Table Baker Luxe", "Quartered oak veneer oval top", "Quartered oak veneer top with", "Bronze base textured bronze base Ecru with Natural Bronze Lustre with Liquid Bronze $9591"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: 90, armWidth: 90, armHeight: 54, exposedLegHeight: 44, volume: 30, weight: 29, fabricReq: null, leatherReq: null }),
+  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, 58, 58, 247.5, 200]),
+  leather: leather(null, null),
+  finishTiers: { tier1: 600, tier2: 750, tier3: 750, tier4: 900, type1Rattan: 900, type2Rattan: 3600, specialtyRattan: 3600 },
+},
+
+{
+  sku: "BAA4339", name: "Conform Table", collection: "Baker Luxe", category: "tables", limited: false,
+  standardFinish: "$4026", frameMaterial: null, basePrice: 4665,
+  specs: ["BAA4342 Filigree Chair Baker Luxe Tight upholstered seat and back", "Fully upholstered frame with Liquid Exposed beech legs Bronze textured back plate - -"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: 20, armHeight: 22, exposedLegHeight: 26, volume: 24, weight: 38, fabricReq: 33, leatherReq: null }),
+  fabric: fab([null, 18.5, 18, 19, 19, 18.5, 18, null, null, null, null, 15.75, null, 30, 30, 14]),
+  leather: leather([22.5, 2.5, 3.5, 43], 60),
+  finishTiers: { tier1: 0, tier2: null, tier3: 495, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: 1050 },
+},
+
+{
+  sku: "BAA4343", name: "Freda Chair", collection: "Baker Luxe", category: "chairs", limited: false,
+  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 4047,
+  specs: ["BAA4344 Collar Chair Baker Luxe", "Fully upholstered frame Bronze frame with tight upholstered seat and back -"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: 24, volume: 24, weight: 23, fabricReq: 33, leatherReq: 29 }),
+  fabric: fab([null, 19, 18, 18, 19, 19, 18, 18, null, null, null, 28, null, null, 30, 30]),
+  leather: leather([16, 36.5, 3, 2], 51),
+  finishTiers: { tier1: 6627, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4344", name: "Collar Chair", collection: "Baker Luxe", category: "chairs", limited: false,
+  standardFinish: "$4743", frameMaterial: null, basePrice: 4485,
+  specs: ["BAA4348 Maximalist Counter Stool Baker Luxe Tight upholstered seat and back", "Tight upholstered seat Exposed beech legs", "Tight seat includes a memory foam Natural Bronze kick plate and topper stretchers", "Bronze frame", "Standard swivel 360", "Stationary option is available - Natural Bronze"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: 20, armHeight: 18.5, exposedLegHeight: 26, volume: 18.5, weight: 38.5, fabricReq: 27.25, leatherReq: null }),
+  fabric: fab([null, 18.5, null, 25, 27.25, 18.5, null, null, null, null, null, 21.75, null, 30, 20, 19]),
+  leather: leather([33, 2.5, 1, 43], 17),
+  finishTiers: { tier1: 0, tier2: null, tier3: 495, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: 1050 },
+},
+
+{
+  sku: "BAA4349", name: "Maximalist Barstool", collection: "Baker Luxe", category: "chairs", limited: true,
+  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 4251,
+  specs: ["Tight upholstered seat", "Tight seat includes a memory foatopper", "Bronze frame", "Standard swivel 360", "Stationary option is available"],
+  dims: dims({ width: 18.5, depth: 18.5, height: 31, widthInside: null, seatHeight: 31, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 20, weight: 34, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([4269, 4278, 4287, 4305, 4323, 4341, 4359, 4377, 4395, 4413, 4431, 4449, 4467, 4485, 4503, 4521]),
+  leather: leather([4503, 4593, 4665, 4737], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4354", name: "Clasp Cocktail Table", collection: "Baker Luxe", category: "tables", limited: false,
+  standardFinish: "Onyx", frameMaterial: null, basePrice: 13491,
+  specs: ["Bronze base with natural onyx top am", "Disclaimer: Please see Natural Materials page Natural Bronze with White Bubble"],
+  dims: dims({ width: 50.75, depth: 50.75, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 40, weight: 372, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4355", name: "Marlo Cocktail Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "BPolished Brass and CrystalL", frameMaterial: null, basePrice: 11997,
+  specs: ["Polished brass top and base with", "Qcrystal colonnades t Disclaimer: Please see Natural .Materials page"],
+  dims: dims({ width: 24, depth: 24, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 17, weight: 195, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4356", name: "Zen Cocktail Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "Lustre with Natural Bronze", frameMaterial: null, basePrice: 7491,
+  specs: ["Quartered oak veneer cocktail table with inset Starphire glass top .375” thick Brass ring and ferrules"],
+  dims: dims({ width: 50, depth: 50, height: 14, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 32, weight: 136, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4357", name: "Clasp Side Table", collection: "Baker Luxe", category: "tables", limited: false,
+  standardFinish: "Onyx", frameMaterial: null, basePrice: 10497,
+  specs: ["Bronze base with natural onyx top", "Disclaimer: Please see Natural Materials page Natural Bronze with White Bubble"],
+  dims: dims({ width: 28.5, depth: 28.5, height: 26, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 126.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4358", name: "Mae Spot Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 3891,
+  specs: ["p", "Bronze spot table le"],
+  dims: dims({ width: 12, depth: 12, height: 21, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 3, weight: 36.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4360", name: "Charm Chat Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "Blown Murano Glass with BrassN", frameMaterial: null, basePrice: 11991,
+  specs: ["Blown Murano glass table", "B Brass base ring", "Clear exterior Murano glass with grey interior Murano glass", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 16, depth: 16, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 48, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4364", name: "Prosecco Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 5991,
+  specs: ["Bronze table"],
+  dims: dims({ width: 18, depth: 18, height: 24, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 7, weight: 50.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4365", name: "Bubbly Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "Stainless steel table Polished Stainless Steel", frameMaterial: null, basePrice: 4497,
+  specs: [],
+  dims: dims({ width: 18, depth: 18, height: 24, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 7, weight: 50.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4368", name: "Filigree Counter Stool", collection: "Baker Luxe", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5916,
+  specs: ["Fully upholstered frame with Liquid Bronze textured back plate", "Natural Bronze kick plate and stretchers"],
+  dims: dims({ width: 22, depth: 23, height: 39.75, widthInside: null, seatHeight: 26, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 30, weight: 27.5, fabricReq: 4.5, leatherReq: 77 }),
+  fabric: fab([5997, 6039, 6078, 6159, 6240, 6321, 6402, 6483, 6564, 6645, 6726, 6807, 6888, 6969, 7050, 7131]),
+  leather: leather([7050, 7455, 7779, 8103], 81),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4373", name: "Couture Chest", collection: "Baker Luxe", category: "casegoods", limited: false,
+  standardFinish: "EcruNO", frameMaterial: null, basePrice: 5997,
+  specs: ["Quartered oak veneer case", "B Four (4) eglomise drawers, made", "Dto look like 20 drawers with a Mgrooved technique", "Natural Bronze hardware"],
+  dims: dims({ width: 43, depth: 20, height: 38, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 33, weight: 237.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4378", name: "Jase Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "Onyx", frameMaterial: null, basePrice: 7491,
+  specs: ["Bronze top with natural onyx base Disclaimer: Please see Natural Materials page Natural Bronze with White Bubble"],
+  dims: dims({ width: 13, depth: 13, height: 22, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 30, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4379", name: "Chase Spot Table", collection: "Baker Luxe", category: "tables", limited: false,
+  standardFinish: "Onyx", frameMaterial: null, basePrice: 8997,
+  specs: ["Bronze top with natural onyx base", "Disclaimer: Please see Natural Materials page Natural Bronze with White Bubble"],
+  dims: dims({ width: 18, depth: 18, height: 20, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 50.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4380", name: "Luxor Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "Ecru", frameMaterial: null, basePrice: 1941,
+  specs: ["se", "Quartered oak veneer table le"],
+  dims: dims({ width: 14, depth: 13, height: 20, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 14, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4381", name: "Freda Counter Stool", collection: "Baker Luxe", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5322,
+  specs: ["Fully upholstered frame", "F Natural Bronze kick plate and", "Nstretchers s-"],
+  dims: dims({ width: 22, depth: 23, height: 39.75, widthInside: null, seatHeight: 26, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 30, weight: 21, fabricReq: 4.5, leatherReq: 77 }),
+  fabric: fab([5403, 5445, 5484, 5565, 5646, 5727, 5808, 5889, 5970, 6051, 6132, 6213, 6294, 6375, 6456, 6537]),
+  leather: leather([6456, 6861, 7185, 7509], 81),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4382", name: "Freda Barstool", collection: "Baker Luxe", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 5622,
+  specs: ["Fully upholstered frame Natural Bronze kick plate and stretchers"],
+  dims: dims({ width: 22, depth: 23, height: 44, widthInside: null, seatHeight: 29.5, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 30, weight: 22, fabricReq: 4.5, leatherReq: 77 }),
+  fabric: fab([5703, 5745, 5784, 5865, 5946, 6027, 6108, 6189, 6270, 6351, 6432, 6513, 6594, 6675, 6756, 6837]),
+  leather: leather([6756, 7161, 7485, 7809], 81),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4387", name: "Freeform Writing Table", collection: "Baker Luxe", category: "tables", limited: false,
+  standardFinish: "Bronze bEcruLustre w", frameMaterial: null, basePrice: 5997,
+  specs: ["Quartered oak veneer top", "Quartere Cast resin legs starburst"],
+  dims: dims({ width: 60, depth: 36, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 28, weight: 118, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4397", name: "Miley Table", collection: "Baker Luxe", category: "tables", limited: true,
+  standardFinish: "$9291+", frameMaterial: null, basePrice: 255,
+  specs: ["BAA4398 Monroe Table Baker Luxe red oak veneer top with", "Quartered oak veneer topst pattern starburst pattern base", "Bronze base with Natural Bronze Lustre with Natural Bronze $8391"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: 48, armWidth: 60, armHeight: 48, exposedLegHeight: 60, volume: 30, weight: 30, fabricReq: null, leatherReq: null }),
+  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, 23, 28, 143.5, 165]),
+  leather: leather(null, null),
+  finishTiers: { tier1: 360, tier2: 510, tier3: 600, tier4: 675, type1Rattan: 900, type2Rattan: 3600, specialtyRattan: 3600 },
+},
+
+{
+  sku: "BAA4398", name: "Monroe Table", collection: "Baker Luxe", category: "tables", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 4227,
+  specs: ["Product Design Consultant Gensler", "Bronze glass top .5” thick", "Italian dyed figured English sycamore veneer", "Bronze plinth base and hardware", "One (1) box drawer", "One (1) file drawer", "Hidden casters"],
+  dims: dims({ width: 20, depth: 18, height: 21, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 10, weight: 68, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4563", name: "38” Wide 6 Drawer Credenza", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 12357,
+  specs: ["Product Design Consultant Gensle Top options: Polished Calacatta Gold Marble, Polished Nero Marquina Marble", "Italian dyed figured English sycamore veneer", "Bronze plinth base and hardware", "Four (4) box drawers", "Two (2) file drawers", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 38, depth: 18, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 27, weight: 181, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4564", name: "Product Design Consultant Gensler 38” Wide 2 Door Credenza", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 10737,
+  specs: ["Product Design Consultant Gensler", "Top options: Polished Calacatta Gold Marble, Polished Nero Marquina Marble", "Italian dyed figured English sycamore veneer e", "Bronze plinth base and hardware", "Two (2) box drawers", "Two (2) doors with one (1) adjustable shelf behind each door", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 38, depth: 18, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 27, weight: 181, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4565", name: "Product Design Consultant Gensler 72” Wide Multi-Storage Credenza", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural BronzeS", frameMaterial: null, basePrice: 19467,
+  specs: ["Product Design Consultant Gensler P Top options: Polished Calacatta", "TGold Marble, Polished Nero GMarquina Marble M Italian dyed figured English", "Itsycamore veneer s Bronze plinth base and hardware", "B Four (4) box drawers", "F Two (2) file drawers", "F Two (2) doors with two (2) aadjustable shelves behind each", "Ddoor M Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 72, depth: 18, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 56, weight: 346, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4566", name: "Product Design Consultant Gensler 72” Wide 4 Door Credenza", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 17877,
+  specs: ["Product Design Consultant Gensler Top options: Polished Calacatta Gold Marble, Polished Nero Marquina Marble Italian dyed figured English sycamore veneer Bronze plinth base and hardware Four (4) box drawers Four (4) doors with one (1) adjustable shelf behind each door Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 72, depth: 18, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 56, weight: 321, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4586", name: "Fixed Height Desk with Wood Top", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 17907,
+  specs: [],
+  dims: dims({ width: 72, depth: 30, height: 29.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 70, weight: 347, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4587", name: "Product Design Consultant Gensler Fixed Height Desk with Marble Top", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 26757,
+  specs: ["Product Design Consultant Gensler", "Top options: Polished Calacatta Gold Marble, Polished Nero Marquina Marble", "Italian dyed figured English e sycamore veneer", "Bronze plinth base and hardware", "Bronze glass subtop ets,", "One (1) file drawer", "One (1) box drawer", "Integrated electrical unit (3 outlets, 2 dual USB ports)", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 72, depth: 30, height: 29.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 86, weight: 410, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4588", name: "Product Design Consultant Gensler Sit/Stand Desk", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural BronzeS", frameMaterial: null, basePrice: 22857,
+  specs: ["Product Design Consultant Gensler P Italian dyed figured English", "Bsycamore veneer s Catalyzed topcoat", "It Bronze glass subtop s Bronze plinth base and hardware", "Oin Natural Bronze finish s One (1) box drawer", "B One (1) file drawer", "Electronic desktop height adjustment control (adjustable height range – 30” to 42”", "Low noise level motor with anti- collision technology", "Integrated electrical unit (3 outlets, 2 dual USB ports"],
+  dims: dims({ width: 72, depth: 30, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 70, weight: 375, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4590", name: "Product Design Consultant Gensler 36” Wide Low Bookcase", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 4497,
+  specs: ["Product Design Consultant Gensler Bronze glass top .5” thick (can support up to 100 lbs) Italian dyed figured English sycamore veneer One (1) bronze glass adjustable shelf (can support up to 100 lbs) Bronze plinth base"],
+  dims: dims({ width: 36, depth: 18, height: 21, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 18, weight: 80, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4592", name: "Low Multi-Storage Bookcase", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 5397,
+  specs: ["Product Design Consultant Gensle Bronze glass top .5” thick (can support up to 100 lbs)", "Italian dyed figured English sycamore veneer", "One (1) bronze glass adjustable shelf (can support up to 100 lbs)", "Bronze plinth base and hardware", "One (1) box drawer", "One (1) file drawer"],
+  dims: dims({ width: 41, depth: 18, height: 21, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 18, weight: 136, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4593", name: "Product Design Consultant Gensler 36” Wide Low Etagere", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 8997,
+  specs: ["Product Design Consultant Gensler", "Bronze glass top .5” thick", "Italian dyed figured English sycamore veneer", "Starphire glass doors, sides and back framed in bronze", "Bronze plinth base e", "Bronze hardware integrated onto door frame", "One (1) bronze glass adjustable shelf behind doors (can support up to 100 lbs)"],
+  dims: dims({ width: 36, depth: 18, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 34, weight: 175, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4595", name: "Product Design Consultant Gensler 72” Wide Low Etagere", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural BronzeS", frameMaterial: null, basePrice: 14997,
+  specs: ["Product Design Consultant Gensler P Bronze glass top .5” thick", "It Italian dyed figured English ssycamore veneer", "B Starphire glass doors, sides and", "Fback framed in bronze s Bronze plinth base 1 Bronze hardware integrated onto door frame", "One (1) bronze glass adjustable shelf behind each set of doors (can support up to 100 lbs)"],
+  dims: dims({ width: 72, depth: 18, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 60, weight: 350, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4597", name: "Product Design Consultant Gensler 36” Wide High Bookcase", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "Sterling with Natural Bronze", frameMaterial: null, basePrice: 12957,
+  specs: ["Product Design Consultant Gensler Italian dyed figured English sycamore veneer Bronze plinth base Five (5) bronze glass adjustable shelves (each can support up to 100 lbs)"],
+  dims: dims({ width: 36, depth: 18, height: 85.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 78, weight: 210, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4598", name: "72” Wide High Bookcase", collection: "BXG Collection", category: "casegoods", limited: false,
+  standardFinish: "DisclaimMaterialSterling with Natural BronzeOyster w", frameMaterial: null, basePrice: 17817,
+  specs: ["Product Design Consultant Gensler Cor Italian dyed figured English", "Honed Lsycamore veneer sides, an Bronze plinth base", "One (1) q Ten (10) bronze glass adjustable drawer shelves (each can support up to", "Ivory lea100 lbs)"],
+  dims: dims({ width: 72, depth: 18, height: 85.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 128, weight: 370, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4608", name: "Product Design Consultant Gensler Coronado Nightstand", collection: "Baker Resort®", category: "casegoods", limited: true,
+  standardFinish: "$9807+", frameMaterial: null, basePrice: 450,
+  specs: ["BAA4609 Baja Nightstand Baker Resort® Lena Grey Marble top,", "Honed Lena Grey Marble tnd back sides, and back quartered oak veneer", "Two (2) quartered oak vendrawers ather drawer liner", "Ivory leather drawer liner mer: Please see Natural", "Disclaimer: Please see Natls page Materials page with Lena Grey Marble Oyster with Lena Grey Ma$8697"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: 32, armWidth: 36, armHeight: 19, exposedLegHeight: 19, volume: 26, weight: 26, fabricReq: null, leatherReq: null }),
+  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, 23, 26, 131, 225.5]),
+  leather: leather(null, null),
+  finishTiers: { tier1: 450, tier2: 600, tier3: 600, tier4: 975, type1Rattan: 975, type2Rattan: 1125, specialtyRattan: 2250 },
+},
+
+{
+  sku: "BAA4609", name: "Baja Nightstand", collection: "Baker Resort®", category: "casegoods", limited: false,
+  standardFinish: "Blackened Bronze", frameMaterial: null, basePrice: 6519,
+  specs: ["Tight upholstered seat", "Bronze frame", "Optional L2300 Tibetan Wool +$5700"],
+  dims: dims({ width: 60, depth: 19, height: 19, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 24, weight: 84, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([6552, 6570, 6585, 6618, 6651, 6684, 6717, 6750, 6783, 6816, 6849, 6882, 6915, 6948, 6981, 7014]),
+  leather: leather([6981, 7146, 7278, 7410], 33),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4617", name: "Positano Bench", collection: "Baker Resort®", category: "ottomans", limited: true,
+  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 5787,
+  specs: ["Tight upholstered seat", "Bronze frame", "Optional L2300 Tibetan Wool +$5700"],
+  dims: dims({ width: 60, depth: 19, height: 19, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 24, weight: 84, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([5820, 5838, 5853, 5886, 5919, 5952, 5985, 6018, 6051, 6084, 6117, 6150, 6183, 6216, 6249, 6282]),
+  leather: leather([6249, 6414, 6546, 6678], 33),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4620CK", name: "Montauk California King Bed", collection: "Baker Resort®", category: "beds", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 12711,
+  specs: ["Fully upholstered bed", "Recommended: 5” boxspring and 12” mattress height"],
+  dims: dims({ width: 80, depth: 94, height: 54.5, widthInside: 74, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 74, weight: 310, fabricReq: 14.5, leatherReq: 204 }),
+  fabric: fab([12972, 13104, 13233, 13494, 13755, 14016, 14277, 14538, 14799, 15060, 15321, 15582, 15843, 16104, 16365, 16626]),
+  leather: leather([16365, 17670, 18714, 19758], 261),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4620K", name: "Montauk King Bed", collection: "Baker Resort®", category: "beds", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 12717,
+  specs: ["Fully upholstered bed", "F Recommended: 5” boxspring and", "R12” mattress height 1-"],
+  dims: dims({ width: 84, depth: 90, height: 54.5, widthInside: 78, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 74, weight: 310, fabricReq: 14.75, leatherReq: 208 }),
+  fabric: fab([12984, 13119, 13251, 13518, 13785, 14052, 14319, 14586, 14853, 15120, 15387, 15654, 15921, 16188, 16455, 16722]),
+  leather: leather([16455, 17790, 18858, 19926], 267),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4620Q", name: "Montauk Queen Bed", collection: "Baker Resort®", category: "beds", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 12321,
+  specs: ["Fully upholstered bed Recommended: 5” boxspring and 12” mattress height"],
+  dims: dims({ width: 68, depth: 90, height: 54.5, widthInside: 62, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 65, weight: 285, fabricReq: 12.75, leatherReq: 191 }),
+  fabric: fab([12552, 12669, 12783, 13014, 13245, 13476, 13707, 13938, 14169, 14400, 14631, 14862, 15093, 15324, 15555, 15786]),
+  leather: leather([15555, 16710, 17634, 18558], 231),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4628", name: "Hampton Credenza", collection: "Baker Resort®", category: "casegoods", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 10494,
+  specs: ["Oak veneer", "Bronze base and hardware", "Two (2) adjustable shelves behind each set of doors", "Three (3) drawers", "Ivory leather drawer liner in centetop drawer"],
+  dims: dims({ width: 84, depth: 16, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 53, weight: 263, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 0, tier2: 150, tier3: 1800, tier4: 12300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4629", name: "Nantucket Credenza", collection: "Baker Resort®", category: "casegoods", limited: true,
+  standardFinish: "Oyster with Natural Bronze", frameMaterial: null, basePrice: 8997,
+  specs: ["Oak veneer", "Bronze base and hardware d", "Two (2) adjustable shelves behind each set of doors", "Three (3) drawers ter", "Ivory leather drawer liner in center top drawer"],
+  dims: dims({ width: 84, depth: 16, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 53, weight: 263, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 12300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4636", name: "Tarragona Dining Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "BOysterO", frameMaterial: null, basePrice: 6441,
+  specs: ["Oak veneer O"],
+  dims: dims({ width: 90, depth: 48, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 29, weight: 165, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1200, tier2: 1350, tier3: 1500, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4639", name: "Seychelles Dining Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "Oyster with Natural Bronze", frameMaterial: null, basePrice: 8997,
+  specs: ["Oak veneer Bronze accents"],
+  dims: dims({ width: 60, depth: 60, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 32, weight: 122, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4642", name: "Capri Dining Chair", collection: "Baker Resort®", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3111,
+  specs: ["Fully upholstered frame", "Tight seat and back"],
+  dims: dims({ width: 19, depth: 23, height: 32.5, widthInside: null, seatHeight: 19, seatDepth: 17.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 32.5, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([3153, 3174, 3195, 3237, 3279, 3321, 3363, 3405, 3447, 3489, 3531, 3573, 3615, 3657, 3699, 3741]),
+  leather: leather([3699, 3909, 4077, 4245], 42),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4643", name: "Morocco Dining Chair", collection: "Baker Resort®", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3507,
+  specs: ["Fully upholstered frame", "Tight seat and back"],
+  dims: dims({ width: 24, depth: 26.5, height: 32, widthInside: 18, seatHeight: 21, seatDepth: 17, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 26, weight: 53.5, fabricReq: 4.25, leatherReq: 72 }),
+  fabric: fab([3585, 3624, 3663, 3741, 3819, 3897, 3975, 4053, 4131, 4209, 4287, 4365, 4443, 4521, 4599, 4677]),
+  leather: leather([4599, 4989, 5301, 5613], 78),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4645", name: "Crest Occasional Chair", collection: "Baker Resort®", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 4455,
+  specs: ["Fully upholstered frame", "T Tight seat and back", "S-"],
+  dims: dims({ width: 25, depth: 28, height: 32, widthInside: 21, seatHeight: 19, seatDepth: 22.5, armWidth: null, armHeight: 28, exposedLegHeight: null, volume: 26, weight: 54, fabricReq: 5.25, leatherReq: 89 }),
+  fabric: fab([4551, 4599, 4647, 4743, 4839, 4935, 5031, 5127, 5223, 5319, 5415, 5511, 5607, 5703, 5799, 5895]),
+  leather: leather([5799, 6279, 6663, 7047], 96),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4647", name: "Milos Chair", collection: "Baker Resort®", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 4920,
+  specs: ["Tight upholstered seat and back Solid walnut frame"],
+  dims: dims({ width: 25, depth: 26.5, height: 28, widthInside: 19, seatHeight: 20.5, seatDepth: 21, armWidth: null, armHeight: 28, exposedLegHeight: 26.75, volume: 26, weight: 17.5, fabricReq: 2.5, leatherReq: 43 }),
+  fabric: fab([4965, 4989, 5010, 5055, 5100, 5145, 5190, 5235, 5280, 5325, 5370, 5415, 5460, 5505, 5550, 5595]),
+  leather: leather([5550, 5775, 5955, 6135], 45),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4648", name: "Summerlin Counter Stool", collection: "Baker Resort®", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4662,
+  specs: ["Fully upholstered frame", "Natural Bronze or Blackened Bronze stretchers and kick rail"],
+  dims: dims({ width: 23, depth: 24, height: 34, widthInside: 19, seatHeight: 28, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 27, fabricReq: 3.25, leatherReq: 55 }),
+  fabric: fab([4722, 4752, 4782, 4842, 4902, 4962, 5022, 5082, 5142, 5202, 5262, 5322, 5382, 5442, 5502, 5562]),
+  leather: leather([5502, 5802, 6042, 6282], 60),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4649", name: "Summerlin Barstool", collection: "Baker Resort®", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 4962,
+  specs: ["Fully upholstered frame", "Natural Bronze or Blackened Bronze stretchers and kick rail"],
+  dims: dims({ width: 23, depth: 24, height: 38, widthInside: 19, seatHeight: 32, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 28, fabricReq: 3.75, leatherReq: 64 }),
+  fabric: fab([5031, 5067, 5100, 5169, 5238, 5307, 5376, 5445, 5514, 5583, 5652, 5721, 5790, 5859, 5928, 5997]),
+  leather: leather([5928, 6273, 6549, 6825], 69),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4650", name: "Cayman Cocktail Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "DMOysterL", frameMaterial: null, basePrice: 4491,
+  specs: ["Oak veneer H"],
+  dims: dims({ width: 40, depth: 40, height: 16.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 27, weight: 58, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4651", name: "Island Cocktail Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "Lena Grey Marble", frameMaterial: null, basePrice: 3891,
+  specs: ["Honed Lena Grey Marble table Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 20, depth: 20, height: 12, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 7, weight: 143, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4652", name: "Baltic Cocktail Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "Lena Grey Marble", frameMaterial: null, basePrice: 8997,
+  specs: ["Honed Lena Grey Marble table", "Embedded casters", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 42, depth: 42, height: 15, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 29, weight: 216, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4653", name: "Cove Cocktail Table - Large", collection: "Baker Resort®", category: "tables", limited: false,
+  standardFinish: "Lena Grey Marble", frameMaterial: null, basePrice: 12867,
+  specs: ["Honed Lena Grey Marble table", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 60, depth: 60, height: 16.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 56, weight: 468, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4654", name: "Cove Cocktail Table - Small", collection: "Baker Resort®", category: "tables", limited: false,
+  standardFinish: "Lena Grey MarbleO", frameMaterial: null, basePrice: 7497,
+  specs: ["Honed Lena Grey Marble table", "O Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 36, depth: 36, height: 11.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 185, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4656", name: "Cape Spot Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "Oyster", frameMaterial: null, basePrice: 1941,
+  specs: ["Oak veneer"],
+  dims: dims({ width: 10, depth: 10, height: 19, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 3, weight: 16, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4657", name: "Aman Spot Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "Cast resiMatte PlasterMatte Pl", frameMaterial: null, basePrice: 2091,
+  specs: ["San Cast resin table"],
+  dims: dims({ width: 11, depth: 11, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 3, weight: 25.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4658", name: "Santorini Accent Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "Lena Grey Marble", frameMaterial: null, basePrice: 2991,
+  specs: ["BAA4659 Thera Accent TabBaker Resort® sin table Honed marble table", "Disclaimer: Please see NatMaterials page laster"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 20, volume: 20, weight: 20, fabricReq: 20, leatherReq: 20 }),
+  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 9, 9]),
+  leather: leather([58, 367, null, null], null),
+  finishTiers: { tier1: 7491, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4659", name: "Thera Accent Table", collection: "Baker Resort®", category: "tables", limited: false,
+  standardFinish: "Frosted Murano Glass", frameMaterial: null, basePrice: 7497,
+  specs: ["Frosted Murano glass table with battuto effect", "Brass accents in blackened finish", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 22, depth: 22, height: 22, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 64.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4661", name: "Paros Spot Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "Cast resin table Matte Plaster", frameMaterial: null, basePrice: 2091,
+  specs: [],
+  dims: dims({ width: 16, depth: 10, height: 20, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 4, weight: 33, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4662", name: "Cancun Spot Table", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "Oak veneer Oyster", frameMaterial: null, basePrice: 1941,
+  specs: [],
+  dims: dims({ width: 12, depth: 12, height: 22, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 4, weight: 18, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4663", name: "Shoreline Console", collection: "Baker Resort®", category: "tables", limited: true,
+  standardFinish: "Oyster with MadeiraO", frameMaterial: null, basePrice: 6897,
+  specs: ["Oak veneer", "O Two (2) drawers", "T May only choose one finish for", "Boptional finish choice", "O All 2 tone finish selections other than the standard will be priced as a custom"],
+  dims: dims({ width: 76, depth: 18, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 39, weight: 180, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4674", name: "Wailea Chest", collection: "Baker Resort®", category: "casegoods", limited: true,
+  standardFinish: "Oyster with Blackened Bronze", frameMaterial: null, basePrice: 11997,
+  specs: ["Oak veneer case Three (3) drawers Bronze base and hardware One (1) lower shelf"],
+  dims: dims({ width: 46, depth: 18.75, height: 34, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 37, weight: 237, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4675", name: "Molokai Chest", collection: "Baker Resort®", category: "casegoods", limited: false,
+  standardFinish: "Oyster with Natural Bronze", frameMaterial: null, basePrice: 11997,
+  specs: ["Oak veneer case", "Three (3) drawers", "Bronze base and hardware", "One (1) lower shelf"],
+  dims: dims({ width: 46, depth: 18.75, height: 34, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 37, weight: 237, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4676", name: "Rio Chest", collection: "Baker Resort®", category: "casegoods", limited: true,
+  standardFinish: "Lena Grey Marble", frameMaterial: null, basePrice: 11691,
+  specs: ["Honed Lena Grey Marble including fully finished marble back panel", "Oyster drawer interiors", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 45, depth: 18, height: 33, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 34, weight: 450, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4687", name: "Brighton Desk", collection: "Baker Resort®", category: "casegoods", limited: true,
+  standardFinish: "Oyster with Lena Grey MarbleO", frameMaterial: null, basePrice: 11997,
+  specs: ["One (1) quartered oak veneer", "Odrawer", "Honed Lena Grey Marble pedestals", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 60, depth: 30, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 28, weight: 342, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4695", name: "Bayside Etagere", collection: "Baker Resort®", category: "casegoods", limited: true,
+  standardFinish: "Oyster", frameMaterial: null, basePrice: 8991,
+  specs: ["Oak veneer"],
+  dims: dims({ width: 49.25, depth: 19.75, height: 82, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 81, weight: 488, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 2250, tier2: 2400, tier3: 2700, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4850", name: "Tirreno Cocktail Table", collection: "Paola Navone", category: "tables", limited: true,
+  standardFinish: "MaterialCarrara C Marble with AcrylicCarrara C", frameMaterial: null, basePrice: 5391,
+  specs: ["Io Honed marble top with acrylic legs", "Honed m Polished Stainless Steel accents", "Polished Disclaimer: Please see Natural", "DisclaimMaterials page"],
+  dims: dims({ width: 63, depth: 31.5, height: 9.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 24, weight: 280, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4851", name: "Ionio Cocktail Table", collection: "Paola Navone", category: "tables", limited: true,
+  standardFinish: "Cast Murano Glass with LuBronze", frameMaterial: null, basePrice: 4791,
+  specs: ["BAA4853 Trevi Cocktail Table - Paola Navone marble top with acrylic legs", "Cast Murano glass top (2 pd Stainless Steel accents .5” thick mer: Please see Natural", "Bronze base ls page", "Disclaimer: Please see NatMaterials page C Marble with Acrylic"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: 39.5, exposedLegHeight: 32.75, volume: 39.5, weight: 24.5, fabricReq: 11.75, leatherReq: 14 }),
+  fabric: fab([null, null, null, null, null, null, null, null, null, null, null, null, null, null, 20, 10]),
+  leather: leather([210.5, 50, null, null], null),
+  finishTiers: { tier1: 5991, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA4853", name: "Trevi Cocktail Table - Small", collection: "Paola Navone", category: "tables", limited: false,
+  standardFinish: "Bronze", frameMaterial: null, basePrice: 3477,
+  specs: ["Cast Murano glass top .5” thick", "Bronze base", "Disclaimer: Please see Natural Materials page Cast Murano Glass with Luna"],
+  dims: dims({ width: 14.5, depth: 14.5, height: 24, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 21, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4860", name: "Trevi Spot Table", collection: "Paola Navone", category: "tables", limited: true,
+  standardFinish: "Bronze", frameMaterial: null, basePrice: 2241,
+  specs: ["Cast Murano glass top .5” thick", "Bronze base", "Disclaimer: Please see Natural Materials page Cast Murano Glass with Luna"],
+  dims: dims({ width: 14.5, depth: 14.5, height: 20, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 19, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4879", name: "Sospiri Side Table - Small", collection: "Paola Navone", category: "tables", limited: true,
+  standardFinish: "Cast Murano Glass", frameMaterial: null, basePrice: 9987,
+  specs: ["Cast Murano glass table", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 12, depth: 12, height: 23, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 4, weight: 51, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA4880", name: "Sospiri Side Table - Large", collection: "Paola Navone", category: "tables", limited: true,
+  standardFinish: "Cast Murano GlassT", frameMaterial: null, basePrice: 10491,
+  specs: ["Cast Murano glass table", "Q Disclaimer: Please see Natural", "EMaterials page"],
+  dims: dims({ width: 12, depth: 12, height: 28, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 5, weight: 60, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA5128", name: "Oakley Round Dining Table", collection: "Baker Essentials Dining", category: "tables", limited: false,
+  standardFinish: "Toffee", frameMaterial: null, basePrice: 6537,
+  specs: ["Quartered oak veneer Extends to 84” with one 24” leaf"],
+  dims: dims({ width: 60, depth: 60, height: 29.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 47, weight: 250, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1800, tier2: 1950, tier3: 2250, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5129", name: "Oakley Rectangle Dining Table", collection: "Baker Essentials Dining", category: "tables", limited: false,
+  standardFinish: "Toffee", frameMaterial: null, basePrice: 7317,
+  specs: [],
+  dims: dims({ width: 80, depth: 40, height: 29.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 43, weight: 260, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5130", name: "Haven Dining Table", collection: "Baker Essentials Dining", category: "tables", limited: false,
+  standardFinish: "Chocolate Mink", frameMaterial: null, basePrice: 6591,
+  specs: ["Quartered oak veneer", "Extends to 120” with two 20” le aves"],
+  dims: dims({ width: 80, depth: 42, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 31, weight: 218, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: 900, tier2: 1050, tier3: 1200, tier4: 6600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5131", name: "Ashby Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 2397,
+  specs: ["Tight seat and back", "T Beech legs", "B Value fabric included in base price", "V Performance fabric available at", "PGrade 6 price G Optional: Baker Signature", "OSeating +$300 S-"],
+  dims: dims({ width: 21, depth: 25, height: 35.5, widthInside: null, seatHeight: 20, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: 14.5, volume: 26, weight: 15.5, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([2430, 2448, 2463, 2496, 2529, 2562, 2595, 2628, 2661, 2694, 2727, 2760, 2793, 2826, 2859, 2892]),
+  leather: leather([2859, 3024, 3156, 3288], 33),
+  finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5133", name: "Sophia Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back Beech legs Value fabric included in base price Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 24, widthInside: 24, seatHeight: 18.5, seatDepth: 17, armWidth: 20, armHeight: 17, exposedLegHeight: null, volume: 21, weight: 14.25, fabricReq: 26, leatherReq: 21.5 }),
+  fabric: fab([4, 68, 3069, 3105, 3141, 3213, 3285, 3357, 3429, 3501, 3573, 3645, 3717, 3789, 3861, 3933]),
+  leather: leather([4005, 4077, 4005, 4365], 4653),
+  finishTiers: { tier1: null, tier2: 2997, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5135", name: "Maeve Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Fully upholstered frame", "Tight seat and back", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 23.5, widthInside: 25.5, seatHeight: 20, seatDepth: 18, armWidth: 20, armHeight: 18, exposedLegHeight: null, volume: 24.75, weight: null, fabricReq: 26, leatherReq: 47.5 }),
+  fabric: fab([6.5, 111, 2214, 2274, 2331, 2448, 2565, 2682, 2799, 2916, 3033, 3150, 3267, 3384, 3501, 3618]),
+  leather: leather([3735, 3852, 3735, 4320], 4788),
+  finishTiers: { tier1: null, tier2: 2097, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5137", name: "Adler Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back", "Beech legs ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 24, widthInside: 25, seatHeight: 18.5, seatDepth: 19.5, armWidth: 20, armHeight: 19.5, exposedLegHeight: null, volume: 25, weight: 14.5, fabricReq: 26, leatherReq: 23 }),
+  fabric: fab([3.5, 60, 2910, 2943, 2973, 3036, 3099, 3162, 3225, 3288, 3351, 3414, 3477, 3540, 3603, 3666]),
+  leather: leather([3729, 3792, 3729, 4044], 4296),
+  finishTiers: { tier1: null, tier2: 2847, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5138", name: "Carson Side Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 2097,
+  specs: ["Tight seat and back", "T Beech legs", "B Value fabric included in base price", "V Performance fabric available at", "PGrade 6 price G Optional: Baker Signature", "OSeating +$300 S-"],
+  dims: dims({ width: 19.5, depth: 26, height: 31, widthInside: null, seatHeight: 20, seatDepth: 20, armWidth: null, armHeight: null, exposedLegHeight: 14.5, volume: 26, weight: 14, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([2130, 2148, 2163, 2196, 2229, 2262, 2295, 2328, 2361, 2394, 2427, 2460, 2493, 2526, 2559, 2592]),
+  leather: leather([2559, 2724, 2856, 2988], 33),
+  finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5139", name: "Carson Arm Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back Beech legs Value fabric included in base price Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 23, widthInside: 26, seatHeight: 16.5, seatDepth: 20, armWidth: 20, armHeight: 20, exposedLegHeight: null, volume: 24.5, weight: 14.5, fabricReq: 26, leatherReq: 19.5 }),
+  fabric: fab([3, 51, 2751, 2778, 2805, 2859, 2913, 2967, 3021, 3075, 3129, 3183, 3237, 3291, 3345, 3399]),
+  leather: leather([3453, 3507, 3453, 3723], 3939),
+  finishTiers: { tier1: null, tier2: 2697, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5140", name: "Kipton Side Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back", "Beech legs", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 21, widthInside: 25.5, seatHeight: null, seatDepth: 19.5, armWidth: 20, armHeight: 19.5, exposedLegHeight: null, volume: null, weight: 14.25, fabricReq: 26, leatherReq: 19 }),
+  fabric: fab([3, 51, 2601, 2628, 2655, 2709, 2763, 2817, 2871, 2925, 2979, 3033, 3087, 3141, 3195, 3249]),
+  leather: leather([3303, 3357, 3303, 3573], 3789),
+  finishTiers: { tier1: null, tier2: 2547, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5141", name: "Kipton Arm Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back", "Beech legs ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 26, widthInside: 25.5, seatHeight: 19, seatDepth: 18, armWidth: 20, armHeight: 18, exposedLegHeight: null, volume: 24, weight: 14.25, fabricReq: 26, leatherReq: 29.5 }),
+  fabric: fab([4.5, 77, 3078, 3120, 3159, 3240, 3321, 3402, 3483, 3564, 3645, 3726, 3807, 3888, 3969, 4050]),
+  leather: leather([4131, 4212, 4131, 4536], 4860),
+  finishTiers: { tier1: null, tier2: 2997, tier3: 0, tier4: 255, type1Rattan: null, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5142", name: "Zara Side Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "GBrushed Stainless SteelB", frameMaterial: null, basePrice: 2817,
+  specs: ["Tight seat and back", "T Stainless steel frame", "S Value fabric included in base price", "V Performance fabric available at", "PGrade 6 price"],
+  dims: dims({ width: 20.5, depth: 25, height: 31.5, widthInside: null, seatHeight: 20, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 23.5, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([2859, 2880, 2901, 2943, 2985, 3027, 3069, 3111, 3153, 3195, 3237, 3279, 3321, 3363, 3405, 3447]),
+  leather: leather([3405, 3615, 3783, 3951], 42),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA5143", name: "Zara Arm Chair", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Brushed Stainless Steel", frameMaterial: null, basePrice: 2487,
+  specs: ["Tight seat and back Stainless steel frame Value fabric included in base price Performance fabric available at Grade 6 price"],
+  dims: dims({ width: 23.5, depth: 26, height: 31.5, widthInside: 20, seatHeight: 20, seatDepth: 18.5, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 26, weight: 30.5, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([2529, 2550, 2571, 2613, 2655, 2697, 2739, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117]),
+  leather: leather([3075, 3285, 3453, 3621], 42),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA5144", name: "Sophia Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 24, widthInside: 22, seatHeight: 19.5, seatDepth: 17, armWidth: 25.5, armHeight: 17, exposedLegHeight: null, volume: 26.75, weight: 20, fabricReq: 26, leatherReq: 21.5 }),
+  fabric: fab([4, 68, 3369, 3405, 3441, 3513, 3585, 3657, 3729, 3801, 3873, 3945, 4017, 4089, 4161, 4233]),
+  leather: leather([4305, 4377, 4305, 4665], 4953),
+  finishTiers: { tier1: null, tier2: 3297, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5145", name: "Sophia Barstool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 24, widthInside: 22, seatHeight: 19.5, seatDepth: 17, armWidth: 31, armHeight: 17, exposedLegHeight: null, volume: 32, weight: 25, fabricReq: 26, leatherReq: 23 }),
+  fabric: fab([4, 68, 3369, 3405, 3441, 3513, 3585, 3657, 3729, 3801, 3873, 3945, 4017, 4089, 4161, 4233]),
+  leather: leather([4305, 4377, 4305, 4665], 4953),
+  finishTiers: { tier1: null, tier2: 3297, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5148", name: "Adler Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 2997,
+  specs: ["Tight seat and back", "T Beech legs", "B Brushed Antique Bronze or", "BBrushed Stainless Steel kickplate B Value fabric included in base price", "V Performance fabric available at", "PGrade 6 price G Optional: Baker Signature", "OSeating +$300 S-"],
+  dims: dims({ width: 25, depth: 25, height: 37, widthInside: 19, seatHeight: 26, seatDepth: 19, armWidth: null, armHeight: 30.5, exposedLegHeight: 21, volume: 26, weight: 27, fabricReq: 3.5, leatherReq: 60 }),
+  fabric: fab([3060, 3093, 3123, 3186, 3249, 3312, 3375, 3438, 3501, 3564, 3627, 3690, 3753, 3816, 3879, 3942]),
+  leather: leather([3879, 4194, 4446, 4698], 63),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5149", name: "Adler Barstool", collection: "Baker Essentials Dining", category: "chairs", limited: true,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back Beech legs Brushed Antique Bronze or Brushed Stainless Steel kickplate Value fabric included in base price Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 25, widthInside: 25, seatHeight: 18, seatDepth: 19, armWidth: 31, armHeight: 19, exposedLegHeight: null, volume: 35.5, weight: 26, fabricReq: 26, leatherReq: 28 }),
+  fabric: fab([3.5, 60, 3060, 3093, 3123, 3186, 3249, 3312, 3375, 3438, 3501, 3564, 3627, 3690, 3753, 3816]),
+  leather: leather([3879, 3942, 3879, 4194], 4446),
+  finishTiers: { tier1: null, tier2: 2997, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5150", name: "Carson Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 20, widthInside: 24, seatHeight: null, seatDepth: 17.5, armWidth: 26.5, armHeight: 17.5, exposedLegHeight: null, volume: null, weight: 20.5, fabricReq: 26, leatherReq: 18.5 }),
+  fabric: fab([2.25, 38, 2739, 2760, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117, 3159, 3201, 3243]),
+  leather: leather([3285, 3327, 3285, 3495], 3663),
+  finishTiers: { tier1: null, tier2: 2697, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5151", name: "Carson Barstool", collection: "Baker Essentials Dining", category: "chairs", limited: true,
+  standardFinish: "Optional: Baker SignatureSeating +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight seat and back", "Beech legs", "Brushed Antique Bronze or Brushed Stainless Steel kickplate ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: null, depth: null, height: 20, widthInside: 24, seatHeight: null, seatDepth: 17.5, armWidth: 31.5, armHeight: 17.5, exposedLegHeight: null, volume: null, weight: 25.5, fabricReq: 26, leatherReq: 19.5 }),
+  fabric: fab([2.25, 38, 2739, 2760, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117, 3159, 3201, 3243]),
+  leather: leather([3285, 3327, 3285, 3495], 3663),
+  finishTiers: { tier1: null, tier2: 2697, tier3: 0, tier4: 495, type1Rattan: null, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5152", name: "Kipton Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "-B", frameMaterial: null, basePrice: 2997,
+  specs: ["Tight seat and back", "T Beech legs", "S Brushed Antique Bronze or", "VBrushed Stainless Steel kickplate", "P Value fabric included in base price G Performance fabric available at Grade 6 price", "Optional: Baker Signature Seating +$300"],
+  dims: dims({ width: 20, depth: 25.5, height: 37.5, widthInside: null, seatHeight: 26, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: 20.5, volume: 26, weight: 21, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([3051, 3078, 3105, 3159, 3213, 3267, 3321, 3375, 3429, 3483, 3537, 3591, 3645, 3699, 3753, 3807]),
+  leather: leather([3753, 4023, 4239, 4455], 54),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA5154", name: "Zara Counter Stool", collection: "Baker Essentials Dining", category: "chairs", limited: false,
+  standardFinish: "Brushed Stainless Steel", frameMaterial: null, basePrice: 2757,
+  specs: ["Tight seat and back Stainless steel frame Value fabric included in base price Performance fabric available at Grade 6 price"],
+  dims: dims({ width: 23.5, depth: 23.25, height: 36, widthInside: 20, seatHeight: 26, seatDepth: 16.5, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: 26, weight: 34.5, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([2793, 2811, 2829, 2865, 2901, 2937, 2973, 3009, 3045, 3081, 3117, 3153, 3189, 3225, 3261, 3297]),
+  leather: leather([3261, 3441, 3585, 3729], 36),
+  finishTiers: null,
+},
+
 ];
