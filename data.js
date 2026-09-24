@@ -7258,6 +7258,26 @@ const PRODUCTS = [
 },
 
 {
+  sku: "BAA5806S-BTI-91-100", name: "Buoyant 91”-100” Sofa", collection: "Susan Ferrier", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7956,
+  specs: ["Fully upholstered frame", "One (1) Baker Comfort bench cushion", "Two (2) Baker Comfort back pillows"],
+  dims: dims({ width: 91, depth: 36.5, height: 32.5, widthInside: null, seatHeight: 18.5, seatDepth: 20, armWidth: null, armHeight: 22.5, exposedLegHeight: null, volume: 0, weight: 0, fabricReq: 15.5, leatherReq: 264 }),
+  fabric: fab([8235, 8376, 8514, 8793, 9072, 9351, 9630, 9909, 10188, 10467, 10746, 11025, 11304, 11583, 11862, 12141]),
+  leather: leather([11862, 13257, 14373, 15489], 279),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA5806S", name: "Buoyant Sofa", collection: "Susan Ferrier", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7956,
+  specs: ["Fully upholstered frame", "One (1) Baker Comfort bench cushion", "Two (2) Baker Comfort back pillows"],
+  dims: dims({ width: 97, depth: 36.5, height: 32.5, widthInside: 89, seatHeight: 18.5, seatDepth: 20, armWidth: null, armHeight: 22.5, exposedLegHeight: null, volume: 117, weight: 242, fabricReq: 15.5, leatherReq: 264 }),
+  fabric: fab([8235, 8376, 8514, 8793, 9072, 9351, 9630, 9909, 10188, 10467, 10746, 11025, 11304, 11583, 11862, 12141]),
+  leather: leather([11862, 13257, 14373, 15489], 279),
+  finishTiers: null,
+},
+
+{
   sku: "BA5370", name: "George III Oriental Lacquer Cabinet", collection: "Stately Homes", category: "casegoods", limited: false,
   standardFinish: null, frameMaterial: null, basePrice: 67995,
   specs: ["Standard Finish(es): Black Lacquer with Gilt Decoration", "Hardwood frame", "Two doors and two drawers with liner pads", "One adjustable glass shelf with cord exit", "Brass hardware"],
