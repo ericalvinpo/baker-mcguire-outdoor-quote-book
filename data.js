@@ -1877,4 +1877,1254 @@ const PRODUCTS = [
   finishTiers: null,
 },
 
+{
+  sku: "BA128S", name: "Madison Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 12876,
+  specs: ["Two (2) Baker Comfort cushions", "Two (2) Baker Comfort loose knife edge back pillows", "Two (2) Baker Comfort Plush loosknife edge throw pillows (16” x 23”)", "Welt trim standard", "Maple wood"],
+  dims: dims({ width: 85, depth: 36, height: 34, widthInside: 73, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: 6, volume: 1, weight: null, fabricReq: 18, leatherReq: 306 }),
+  fabric: fab([13200, 13362, 13524, 13848, 14172, 14496, 14820, 15144, 15468, 15792, 16116, 16440, 16764, 17088, 17412, 17736]),
+  leather: leather([17412, 19032, 20328, 21624], 324),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA128S-BTI-101-110", name: "Madison 101”-110” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 14097,
+  specs: ["Three (3) Baker Comfort cushions fe", "Three (3) Baker Comfort loose knife edge back pillows se", "Two (2) Baker Comfort Plush loose knife edge throw pillows (16” x 23”)", "Welt trim standard", "Maple wood"],
+  dims: dims({ width: null, depth: 36, height: 34, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: 6, volume: null, weight: null, fabricReq: 21, leatherReq: 357 }),
+  fabric: fab([14475, 14664, 14853, 15231, 15609, 15987, 16365, 16743, 17121, 17499, 17877, 18255, 18633, 19011, 19389, 19767]),
+  leather: leather([19389, 21279, 22791, 24303], 378),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA128S-BTI-111-120", name: "Madison 111”-120” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 14397,
+  specs: ["Three (3) Baker Comfort cushions", "O Three (3) Baker Comfort loose", "Tknife edge back pillows e Two (2) Baker Comfort Plush loose", "Tknife edge throw pillows (16” x k23”) 2 Welt trim standard", "W Maple wood", "M-"],
+  dims: dims({ width: null, depth: 36, height: 34, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: 6, volume: null, weight: null, fabricReq: 24, leatherReq: 408 }),
+  fabric: fab([14829, 15045, 15261, 15693, 16125, 16557, 16989, 17421, 17853, 18285, 18717, 19149, 19581, 20013, 20445, 20877]),
+  leather: leather([20445, 22605, 24333, 26061], 432),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA128S-BTI-60-70", name: "Madison 60”-70” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 11097,
+  specs: ["One (1) Baker Comfort cushion Two (2) Baker Comfort loose knife edge back pillows Two (2) Baker Comfort Plush loose knife edge throw pillows (16” x 23”) Welt trim standard Maple wood"],
+  dims: dims({ width: null, depth: 36, height: 34, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: 6, volume: null, weight: null, fabricReq: 13.75, leatherReq: 234 }),
+  fabric: fab([11346, 11472, 11595, 11844, 12093, 12342, 12591, 12840, 13089, 13338, 13587, 13836, 14085, 14334, 14583, 14832]),
+  leather: leather([14583, 15828, 16824, 17820], 249),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA128S-BTI-71-80", name: "Madison 71”-80” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 11697,
+  specs: ["BMa One (1) Baker Comfort cushion", "Two (2) B Two (2) Baker Comfort loose knife", "Two (2) Bedge back pillows edge bac Two (2) Baker Comfort Plush loose", "Two (2) Bknife edge throw pillows (16” x knife edg23”) 23”)", "Welt trim standard", "Welt trim Maple wood", "Maple w-"],
+  dims: dims({ width: null, depth: 36, height: 34, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: 6, volume: null, weight: null, fabricReq: 15, leatherReq: 255 }),
+  fabric: fab([11967, 12102, 12237, 12507, 12777, 13047, 13317, 13587, 13857, 14127, 14397, 14667, 14937, 15207, 15477, 15747]),
+  leather: leather([15477, 16827, 17907, 18987], 270),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA128S-BTI-91-100", name: "Madison 91”-100” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 9141,
+  specs: ["One (1) Baker Comfort seat", "One (1) Baker Comfort back pillow", "Exposed leg", "No nail trim option", "Available in leather"],
+  dims: dims({ width: 33, depth: 39, height: 36, widthInside: 19.5, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 23, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 9, leatherReq: 153 }),
+  fabric: fab([9303, 9384, 9465, 9627, 9789, 9951, 10113, 10275, 10437, 10599, 10761, 10923, 11085, 11247, 11409, 11571]),
+  leather: leather([11409, 12219, 12867, 13515], 162),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA416C", name: "Simmons Chair (Dressmaker Flounce)", collection: "Baker Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 9441,
+  specs: ["Kin One (1) Baker Comfort seat", "Tight sea One (1) Baker Comfort back pillow", "Tight bac Dressmaker Flounce", "Three (3 No nail trim option throw: O Not available in leather (2) (20”)", "Optional casters +$90", "Two (2) fstandard", "Carved M-"],
+  dims: dims({ width: 33, depth: 39, height: 36, widthInside: 19.5, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 23, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 9.5, leatherReq: null }),
+  fabric: fab([9612, 9699, 9783, 9954, 10125, 10296, 10467, 10638, 10809, 10980, 11151, 11322, 11493, 11664, 11835, 12006]),
+  leather: leather(null, 171),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6130C-1", name: "Max Tufted Club Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7521,
+  specs: ["One (1) Baker Comfort cushion", "One (1) Baker Comfort boxed back pillow (10” x 19”)", "Weltless base", "Exposed Maple wood", "Petite nails over top of legs, standard"],
+  dims: dims({ width: 29.75, depth: 37, height: 32, widthInside: 20.5, seatHeight: 17, seatDepth: null, armWidth: null, armHeight: 20.5, exposedLegHeight: 5, volume: 1, weight: null, fabricReq: 6.5, leatherReq: 111 }),
+  fabric: fab([7638, 7698, 7755, 7872, 7989, 8106, 8223, 8340, 8457, 8574, 8691, 8808, 8925, 9042, 9159, 9276]),
+  leather: leather([9159, 9744, 10212, 10680], 117),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6130L", name: "Max Loveseat", collection: "Thomas Pheasant", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 11325,
+  specs: ["Two (2) Baker Comfort cushions", "Two (2) Baker Comfort boxed bacpillows (10” x 30”)", "Weltless base", "Exposed Maple wood", "Petite nails over top of legs, standard"],
+  dims: dims({ width: 69.75, depth: 37, height: 32, widthInside: 60.5, seatHeight: 17, seatDepth: null, armWidth: null, armHeight: 20.5, exposedLegHeight: 5, volume: 1, weight: null, fabricReq: 17, leatherReq: 289 }),
+  fabric: fab([11631, 11784, 11937, 12243, 12549, 12855, 13161, 13467, 13773, 14079, 14385, 14691, 14997, 15303, 15609, 15915]),
+  leather: leather([15609, 17139, 18363, 19587], 306),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6130L-v2", name: "Max Tufted Loveseat", collection: "Thomas Pheasant", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 11391,
+  specs: ["(2) Baker Comfort cushions ck", "(2) Baker Comfort boxed back pillows (10” x 30”)", "Weltless base", "Exposed Wood - Maple", "Petite nails over top of legs, standard"],
+  dims: dims({ width: 69.75, depth: 37, height: 32, widthInside: 60.5, seatHeight: 17, seatDepth: null, armWidth: null, armHeight: 20.5, exposedLegHeight: 5, volume: 1, weight: null, fabricReq: 17, leatherReq: 289 }),
+  fabric: fab([11697, 11850, 12003, 12309, 12615, 12921, 13227, 13533, 13839, 14145, 14451, 14757, 15063, 15369, 15675, 15981]),
+  leather: leather([15675, 17205, 18429, 19653], 306),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6130S", name: "Max Sofa (Tight Back)", collection: "Thomas Pheasant", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 12972,
+  specs: ["Three (3) Baker Comfort cushions", "T Three (3) Baker Comfort boxed", "Tback pillows - Two (2) 10” x 29”, bOne (1) 10” x 30” O Weltless base", "W Exposed Maple wood", "E Petite nails over top of legs,", "Pstandard s-"],
+  dims: dims({ width: 98.75, depth: 37, height: 32, widthInside: 89.5, seatHeight: 17, seatDepth: null, armWidth: null, armHeight: 20.5, exposedLegHeight: 5, volume: 1, weight: null, fabricReq: 20, leatherReq: 340 }),
+  fabric: fab([13332, 13512, 13692, 14052, 14412, 14772, 15132, 15492, 15852, 16212, 16572, 16932, 17292, 17652, 18012, 18372]),
+  leather: leather([18012, 19812, 21252, 22692], 360),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6130S-v2", name: "Max Sofa (Tufted)", collection: "Thomas Pheasant", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 13572,
+  specs: ["Three (3) Baker Comfort cushions Three (3) Baker Comfort boxed back pillows - Two (2) 10” x 29”, One (1) 10” x 30” Weltless base Exposed Maple wood Petite nails over top of legs, standard"],
+  dims: dims({ width: 98.75, depth: 37, height: 32, widthInside: 89.5, seatHeight: 17, seatDepth: null, armWidth: null, armHeight: 20.5, exposedLegHeight: 5, volume: 1, weight: null, fabricReq: 23, leatherReq: 391 }),
+  fabric: fab([13986, 14193, 14400, 14814, 15228, 15642, 16056, 16470, 16884, 17298, 17712, 18126, 18540, 18954, 19368, 19782]),
+  leather: leather([19368, 21438, 23094, 24750], 414),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6132O", name: "Paris Ottoman (Modern Stitch)", collection: "Thomas Pheasant", category: "ottomans", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4092,
+  specs: [],
+  dims: dims({ width: 48, depth: 48, height: 13, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 4, leatherReq: 68 }),
+  fabric: fab([4164, 4200, 4236, 4308, 4380, 4452, 4524, 4596, 4668, 4740, 4812, 4884, 4956, 5028, 5100, 5172]),
+  leather: leather([5100, 5460, 5748, 6036], 72),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6132O-v2", name: "Paris Ottoman (Tufted)", collection: "Thomas Pheasant", category: "ottomans", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5142,
+  specs: ["Tufted", "Weltless construction", "Casters standard", "Double row nail trim optional", "Please reference loveseat pricing in g in chart for upcharges"],
+  dims: dims({ width: 48, depth: 48, height: 13, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 6, leatherReq: 102 }),
+  fabric: fab([5250, 5304, 5358, 5466, 5574, 5682, 5790, 5898, 6006, 6114, 6222, 6330, 6438, 6546, 6654, 6762]),
+  leather: leather([6654, 7194, 7626, 8058], 108),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6134C", name: "Athens Lounge Chair (Modern Stitch)", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7947,
+  specs: ["Modern stitch", "T Tight seat and back", "T Welt trim standard", "W Bright Bronze hardware", "B Exposed Beech wood", "E Nail trim not available", "N-"],
+  dims: dims({ width: 30.75, depth: 33, height: 29.75, widthInside: 25, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 21, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([8001, 8028, 8055, 8109, 8163, 8217, 8271, 8325, 8379, 8433, 8487, 8541, 8595, 8649, 8703, 8757]),
+  leather: leather([8703, 8973, 9189, 9405], 54),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6134C-v2", name: "Athens Lounge Chair (Tufted)", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 8247,
+  specs: ["Tufted Tight seat and back Welt trim standard Bright Bronze hardware Exposed Beech wood Nail trim not available"],
+  dims: dims({ width: 30.75, depth: 33, height: 29.75, widthInside: 25, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 21, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 3.25, leatherReq: 55 }),
+  fabric: fab([8307, 8337, 8367, 8427, 8487, 8547, 8607, 8667, 8727, 8787, 8847, 8907, 8967, 9027, 9087, 9147]),
+  leather: leather([9087, 9387, 9627, 9867], 60),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6179C", name: "Celestite Lounge Chair", collection: "Jean Louis Deniot", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 8691,
+  specs: ["Standard Metal Finish(es): AntiquBronze, Oil Rubbed Bronze", "One (1) Baker Comfort seat", "Tight back", "One (1) Baker Comfort back pad 9” x 19”", "Exposed maple frame, brass ferrules, and welt on base"],
+  dims: dims({ width: 37, depth: 35.5, height: 33, widthInside: 24, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 27, weight: 65, fabricReq: 6, leatherReq: 702 }),
+  fabric: fab([8799, 8853, 8907, 9015, 9123, 9231, 9339, 9447, 9555, 9663, 9771, 9879, 9987, 10095, 10203, 10311]),
+  leather: leather([10203, 10743, 11175, 11607], 108),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6179S", name: "Celestite Sofa", collection: "Jean Louis Deniot", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 15171,
+  specs: ["ue", "Metal Finish(es): Antique Bronze, Oil Rubbed Bronze", "(1) Baker Comfort bench cushion", "Tight back", "(5) Baker Comfort Plush KE TP: (2) 18” x 18”, (2) 16” x 22”, (1) 12” x 22”", "Exposed maple frame, brass ferrules, and welt on base"],
+  dims: dims({ width: 100, depth: 38.5, height: 33, widthInside: 85.5, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 71.5, weight: 150, fabricReq: 15.75, leatherReq: 268 }),
+  fabric: fab([15456, 15600, 15741, 16026, 16311, 16596, 16881, 17166, 17451, 17736, 18021, 18306, 18591, 18876, 19161, 19446]),
+  leather: leather([19161, 20586, 21726, 22866], 285),
+  finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6179S-BTI-101-110", name: "Celestite 101”-110” Sofa", collection: "Jean Louis Deniot", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 15597,
+  specs: ["Metal Finish(es): Antique, Oil", "MRubbed Bronze R (3) Baker Comfort seats", "( (3) Baker Comfort KE back pillows", "( (5) Baker Comfort Plush KE TP: (2)", "(18” x 18”, (2) 16” x 22”, (1) 12” 1x 22” x Exposed maple frame, brass", "Eferrules, and welt at base f-"],
+  dims: dims({ width: null, depth: 38.5, height: 33, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 71.5, weight: 150, fabricReq: 17, leatherReq: 289 }),
+  fabric: fab([15903, 16056, 16209, 16515, 16821, 17127, 17433, 17739, 18045, 18351, 18657, 18963, 19269, 19575, 19881, 20187]),
+  leather: leather([19881, 21411, 22635, 23859], 306),
+  finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6179S-BTI-111-120", name: "Celestite 111”-120” Sofa", collection: "Jean Louis Deniot", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 15897,
+  specs: ["Metal Finish(es): Antique, Oil Rubbed Bronze (3) Baker Comfort seats (3) Baker Comfort KE back pillows (5) Baker Comfort Plush KE TP: (2) 18” x 18”, (2) 16” x 22”, (1) 12” x 22” Exposed maple frame, brass ferrules, and welt at base"],
+  dims: dims({ width: null, depth: 38.5, height: 33, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 71.5, weight: 150, fabricReq: 19.5, leatherReq: 332 }),
+  fabric: fab([16248, 16425, 16599, 16950, 17301, 17652, 18003, 18354, 18705, 19056, 19407, 19758, 20109, 20460, 20811, 21162]),
+  leather: leather([20811, 22566, 23970, 25374], 351),
+  finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6179S-BTI-60-70", name: "Celestite 60”-70” Sofa", collection: "Jean Louis Deniot", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 11997,
+  specs: ["Metal Finish(es): Antique, Oil Rubbed Bronze", "(1) Baker Comfort bench cushion", "Tight back", "(5) Baker Comfort Plush KE TP: (2) 18” x 18”, (2) 16” x 22”, (1) 12” x 22”", "Exposed maple frame, brass ferrules, and welt at base"],
+  dims: dims({ width: null, depth: 38.5, height: 33, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 71.5, weight: 150, fabricReq: 11, leatherReq: 187 }),
+  fabric: fab([12195, 12294, 12393, 12591, 12789, 12987, 13185, 13383, 13581, 13779, 13977, 14175, 14373, 14571, 14769, 14967]),
+  leather: leather([14769, 15759, 16551, 17343], 198),
+  finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6179S-BTI-71-80", name: "Celestite 71”-80” Sofa", collection: "Jean Louis Deniot", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 12597,
+  specs: ["Metal Finish(es): Antique, Oil Rubbed Bronze n", "(1) Baker Comfort bench cushion", "Tight back 2)", "(5) Baker Comfort Plush KE TP: (2) 18” x 18”, (2) 16” x 22”, (1) 12” x 22”", "Exposed maple frame, brass ferrules, and welt at base"],
+  dims: dims({ width: null, depth: 38.5, height: 33, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 71.5, weight: 150, fabricReq: 12.75, leatherReq: 217 }),
+  fabric: fab([12828, 12945, 13059, 13290, 13521, 13752, 13983, 14214, 14445, 14676, 14907, 15138, 15369, 15600, 15831, 16062]),
+  leather: leather([15831, 16986, 17910, 18834], 231),
+  finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6179S-BTI-81-90", name: "Celestite 81”-90” Sofa", collection: "Jean Louis Deniot", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 13197,
+  specs: ["Metal Finish(es): Antique, Oil", "MRubbed Bronze R (1) Baker Comfort bench cushion", "( Tight back", "T (5) Baker Comfort Plush KE TP: (2)", "(18” x 18”, (2) 16” x 22”, (1) 12” 1x 22” x Exposed maple frame, brass", "Eferrules, and welt at base f-"],
+  dims: dims({ width: null, depth: 38.5, height: 33, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 71.5, weight: 150, fabricReq: 14.25, leatherReq: 242 }),
+  fabric: fab([13455, 13584, 13713, 13971, 14229, 14487, 14745, 15003, 15261, 15519, 15777, 16035, 16293, 16551, 16809, 17067]),
+  leather: leather([16809, 18099, 19131, 20163], 258),
+  finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6179S-BTI-91-100", name: "Celestite 91”-100” Sofa", collection: "Jean Louis Deniot", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 14097,
+  specs: ["Metal Finish(es): Antique, Oil Rubbed Bronze (1) Baker Comfort bench cushion Tight back (5) Baker Comfort Plush KE TP: (2) 18” x 18”, (2) 16” x 22”, (1) 12” x 22” Exposed maple frame, brass ferrules, and welt at base"],
+  dims: dims({ width: null, depth: 38.5, height: 33, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: null, volume: 71.5, weight: 150, fabricReq: 15.75, leatherReq: 268 }),
+  fabric: fab([14382, 14526, 14667, 14952, 15237, 15522, 15807, 16092, 16377, 16662, 16947, 17232, 17517, 17802, 18087, 18372]),
+  leather: leather([18087, 19512, 20652, 21792], 285),
+  finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6180C", name: "Carnelian Lounge Chair", collection: "Jean Louis Deniot", category: "chairs", limited: false,
+  standardFinish: "-Antique Oil Rubb", frameMaterial: null, basePrice: 8223,
+  specs: ["GaJ Standard Metal Finish(es): Antique", "One (1) Bronze, Oil Rubbed Bronze", "Tight bac One (1) Baker Comfort Welted", "Welted cCushion", "Brass ba Tight back", "Welted construction", "Exposed maple with brass ferrules"],
+  dims: dims({ width: 34, depth: 32, height: 31, widthInside: 24.5, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 22, exposedLegHeight: null, volume: 24, weight: 65, fabricReq: 6.5, leatherReq: 111 }),
+  fabric: fab([8340, 8400, 8457, 8574, 8691, 8808, 8925, 9042, 9159, 9276, 9393, 9510, 9627, 9744, 9861, 9978]),
+  leather: leather([9861, 10446, 10914, 11382], 117),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6234C", name: "Dima Chair", collection: "Baker Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7806,
+  specs: ["One (1) Baker Comfort seat cushion", "One (1) Baker Comfort Plush KE throw pillow 10” x 22”", "Tight back", "Bullion must be purchased", "Optional: Bullion/ 4.25 yards +$180", "Optional swivel"],
+  dims: dims({ width: 31.5, depth: 36, height: 31, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 6.25, leatherReq: 106.3 }),
+  fabric: fab([7920, 7977, 8034, 8148, 8262, 8376, 8490, 8604, 8718, 8832, 8946, 9060, 9174, 9288, 9402, 9516]),
+  leather: leather([9402, 9972, 10428, 10884], 114),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6283O", name: "Yves Ottoman", collection: "Baker Originals", category: "ottomans", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3420,
+  specs: ["Tight seat", "Bullion must be purchased", "Optional: Bullion/ 3.25 +$180", "Exposed oak leg"],
+  dims: dims({ width: 24, depth: 20, height: 16, widthInside: null, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 2.5, leatherReq: 42.5 }),
+  fabric: fab([3465, 3489, 3510, 3555, 3600, 3645, 3690, 3735, 3780, 3825, 3870, 3915, 3960, 4005, 4050, 4095]),
+  leather: leather([4050, 4275, 4455, 4635], 45),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6283S", name: "Yves Sofa", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 10746,
+  specs: ["(3) Baker Comfort seats", "Tight back", "(3) Baker Comfort back pillows (10”x26”)", "Optional: Bullion/ 7.75 Yards +$300", "Bullion must be purchased", "Exposed Oak leg"],
+  dims: dims({ width: 91, depth: 36, height: 31, widthInside: 78, seatHeight: 18, seatDepth: 21, armWidth: null, armHeight: 21.5, exposedLegHeight: null, volume: 1, weight: 173, fabricReq: 17.25, leatherReq: 293 }),
+  fabric: fab([11058, 11214, 11370, 11682, 11994, 12306, 12618, 12930, 13242, 13554, 13866, 14178, 14490, 14802, 15114, 15426]),
+  leather: leather([15114, 16674, 17922, 19170], 312),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6283S-BTI-101-110", name: "Yves 101”-110” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 11997,
+  specs: ["(3) Baker Comfort seat cushions", "( (3) Baker Comfort back pillows", "((10”x26”) ( Tight back", "T Exposed Oak Leg", "E Optional: Bullion/9 Yards +$300", "Od-"],
+  dims: dims({ width: null, depth: 36, height: 31, widthInside: null, seatHeight: 18, seatDepth: 21, armWidth: null, armHeight: 21.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 19, leatherReq: 323 }),
+  fabric: fab([12339, 12510, 12681, 13023, 13365, 13707, 14049, 14391, 14733, 15075, 15417, 15759, 16101, 16443, 16785, 17127]),
+  leather: leather([16785, 18495, 19863, 21231], 342),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6283S-BTI-111-120", name: "Yves 111”-120” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: "Optional: Bullion/9.5 Yards +", frameMaterial: null, basePrice: 300,
+  specs: ["(4) Baker Comfort seat cushions (4) Baker Comfort back pillows (10”x26”) Tight back Exposed Oak Leg"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: 36, seatHeight: 31, seatDepth: null, armWidth: 18, armHeight: 21, exposedLegHeight: null, volume: 21.5, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: fab([21, 357, 13275, 13464, 13653, 14031, 14409, 14787, 15165, 15543, 15921, 16299, 16677, 17055, 17433, 17811]),
+  leather: leather([18189, 18567, 18189, 20079], 21591),
+  finishTiers: { tier1: null, tier2: 12897, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BA6283S-BTI-60-70", name: "Yves 60”-70” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: "Optional: Bullion/ 6.5 Yards +", frameMaterial: null, basePrice: 300,
+  specs: ["(2) Baker Comfort seat cushions", "(2) Baker Comfort back pillows (10”x26”)", "Tight back", "Exposed Oak Leg"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: 36, seatHeight: 31, seatDepth: null, armWidth: 18, armHeight: 21, exposedLegHeight: null, volume: 21.5, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: fab([15, 255, 8967, 9102, 9237, 9507, 9777, 10047, 10317, 10587, 10857, 11127, 11397, 11667, 11937, 12207]),
+  leather: leather([12477, 12747, 12477, 13827], 14907),
+  finishTiers: { tier1: null, tier2: 8697, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BA6283S-BTI-71-80", name: "Yves 71”-80” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: "Optional: Bullion/7.25 Yards +", frameMaterial: null, basePrice: 300,
+  specs: ["(2) Baker Comfort seat cushions", "(2) Baker Comfort back pillows (10”x26”)", "Tight back", "Exposed Oak Leg"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: 36, seatHeight: 31, seatDepth: null, armWidth: 18, armHeight: 21, exposedLegHeight: null, volume: 21.5, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: fab([16, 272, 9885, 10029, 10173, 10461, 10749, 11037, 11325, 11613, 11901, 12189, 12477, 12765, 13053, 13341]),
+  leather: leather([13629, 13917, 13629, 15069], 16221),
+  finishTiers: { tier1: null, tier2: 9597, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BA6283S-BTI-81-90", name: "Yves 81”-90” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 10197,
+  specs: ["(2) Baker Comfort seat cushions", "( (2) Baker Comfort back pillows", "((10”x26”) ( Tight back", "T Exposed Oak Leg", "E Optional: Bullion/ 7.75 Yar", "Ods +$300 d-"],
+  dims: dims({ width: null, depth: 36, height: 31, widthInside: null, seatHeight: 18, seatDepth: 21, armWidth: null, armHeight: 21.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 17, leatherReq: 289 }),
+  fabric: fab([10503, 10656, 10809, 11115, 11421, 11727, 12033, 12339, 12645, 12951, 13257, 13563, 13869, 14175, 14481, 14787]),
+  leather: leather([14481, 16011, 17235, 18459], 306),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6283S-BTI-91-100", name: "Yves 91”-100” Sofa", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: "Optional: Bullion /8.25 Yards +", frameMaterial: null, basePrice: 300,
+  specs: ["(3) Baker Comfort seat cushions (3) Baker Comfort back pillows (10”x26”) Tight back Exposed Oak Leg"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: 36, seatHeight: 31, seatDepth: null, armWidth: 18, armHeight: 21, exposedLegHeight: null, volume: 21.5, weight: null, fabricReq: null, leatherReq: null }),
+  fabric: fab([18, 306, 11421, 11583, 11745, 12069, 12393, 12717, 13041, 13365, 13689, 14013, 14337, 14661, 14985, 15309]),
+  leather: leather([15633, 15957, 15633, 17253], 18549),
+  finishTiers: { tier1: null, tier2: 11097, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BA6286S-BTI-101-110", name: "Antoinette 101”-110” Sofa Lounge", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: "Oak solids and veneer frame & leg-", frameMaterial: null, basePrice: 14106,
+  specs: ["(3) Baker comfort seat cushions", "Upholstered Tight back with dressmaker flounce", "(4) 20” Baker Comfort Plush throw Not available in leather", "Oak solids and veneers"],
+  dims: dims({ width: 101, depth: 38.5, height: 32.5, widthInside: null, seatHeight: 18, seatDepth: 18, armWidth: null, armHeight: 26.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 18.5, leatherReq: null }),
+  fabric: fab([14439, 14607, 14772, 15105, 15438, 15771, 16104, 16437, 16770, 17103, 17436, 17769, 18102, 18435, 18768, 19101]),
+  leather: leather(null, 333),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6286S-BTI-111-120", name: "Antoinette 111”-120” Sofa Lounge", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 14526,
+  specs: ["(4) Baker comfort seat cushions", "Upholstered Tight back with dressmaker flounce ws", "(4) 20” Baker Comfort Plush throws", "Not available in leather", "Oak solids and veneers egs", "Oak solids and veneer frame & legs"],
+  dims: dims({ width: 111, depth: 38.5, height: 32.5, widthInside: null, seatHeight: 18, seatDepth: 18, armWidth: null, armHeight: 26.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 21, leatherReq: null }),
+  fabric: fab([14904, 15093, 15282, 15660, 16038, 16416, 16794, 17172, 17550, 17928, 18306, 18684, 19062, 19440, 19818, 20196]),
+  leather: leather(null, 378),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6286S-BTI-60-70", name: "Antoinette 60”-70” Sofa Lounge", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 12312,
+  specs: ["A (1) Baker Comfort seat with", "(dressmaker flounce d Tight upholstered back", "T (4) 20” Baker Comfort Plush throws", "( Not available in leather", "N Oak solids and veneers", "O Oak solids and veneer frame & legs", "O-"],
+  dims: dims({ width: 60, depth: 38.5, height: 32.5, widthInside: null, seatHeight: 18, seatDepth: 18, armWidth: null, armHeight: 26.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 12.5, leatherReq: null }),
+  fabric: fab([12537, 12651, 12762, 12987, 13212, 13437, 13662, 13887, 14112, 14337, 14562, 14787, 15012, 15237, 15462, 15687]),
+  leather: leather(null, 225),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6286S-BTI-71-80", name: "Antoinette 71”-80” Sofa Lounge", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 12657,
+  specs: ["(1) Baker Comfort seat with dressmaker flounce Tight upholstered back (4) 20” Baker Comfort Plush throws Not available in leather Oak solids and veneers Oak solids and veneer frame & legs"],
+  dims: dims({ width: 71, depth: 38.5, height: 32.5, widthInside: null, seatHeight: 18, seatDepth: 18, armWidth: null, armHeight: 26.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 13.5, leatherReq: null }),
+  fabric: fab([12900, 13023, 13143, 13386, 13629, 13872, 14115, 14358, 14601, 14844, 15087, 15330, 15573, 15816, 16059, 16302]),
+  leather: leather(null, 243),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6286S-BTI-81-90", name: "Antoinette 81”-90” Sofa Lounge", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: "Oak solids and veneer frame & leg-", frameMaterial: null, basePrice: 13011,
+  specs: [],
+  dims: dims({ width: 81, depth: 38.5, height: 32.5, widthInside: null, seatHeight: 18, seatDepth: 18, armWidth: null, armHeight: 26.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 14.5, leatherReq: null }),
+  fabric: fab([13272, 13404, 13533, 13794, 14055, 14316, 14577, 14838, 15099, 15360, 15621, 15882, 16143, 16404, 16665, 16926]),
+  leather: leather(null, 261),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6286S-BTI-91-100", name: "Antoinette 91”-100” Sofa Lounge", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 13356,
+  specs: ["(1) Baker Comfort seat dressmaker flounce", "Tight upholstered back ws", "(4) 20” Baker Comfort Plush throws", "Not available in leather", "Oak solids and veneers egs", "Oak solids and veneer frame & legs"],
+  dims: dims({ width: 91, depth: 38.5, height: 32.5, widthInside: null, seatHeight: 18, seatDepth: 18, armWidth: null, armHeight: 26.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 15.5, leatherReq: null }),
+  fabric: fab([13635, 13776, 13914, 14193, 14472, 14751, 15030, 15309, 15588, 15867, 16146, 16425, 16704, 16983, 17262, 17541]),
+  leather: leather(null, 279),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6286S", name: "Antoinette Sofa Lounge", collection: "Baker Originals", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 13656,
+  specs: ["(1) Baker Comfort seat", "( Tight back", "U (4) Baker Comfort Plush throws", "((20”) ( Dressmaker Flounce", "P Not available in Leather", "O Oak solids and veneer frame & legs -"],
+  dims: dims({ width: 100, depth: 38.5, height: 32.5, widthInside: 80, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 15.5, leatherReq: null }),
+  fabric: fab([13935, 14076, 14214, 14493, 14772, 15051, 15330, 15609, 15888, 16167, 16446, 16725, 17004, 17283, 17562, 17841]),
+  leather: leather(null, 279),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6287S", name: "Atlas Sofa Lounge", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 10821,
+  specs: ["(3) Baker Comfort Seat Cushions Upholstered Tight back (2) Baker Comfort Plush throws (20”) Petite option also available Oak solids and veneer frame"],
+  dims: dims({ width: 99, depth: 39.75, height: 33.5, widthInside: 76, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 33.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 15.75, leatherReq: 268 }),
+  fabric: fab([11106, 11250, 11391, 11676, 11961, 12246, 12531, 12816, 13101, 13386, 13671, 13956, 14241, 14526, 14811, 15096]),
+  leather: leather([14811, 16236, 17376, 18516], 285),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6287SP", name: "Atlas Petite Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 10407,
+  specs: ["(2) Baker Comfort seats", "Tight back", "(2) Baker Comfort Plush throws (20”)", "Oak solids and veneer frame"],
+  dims: dims({ width: 74, depth: 39.75, height: 33.5, widthInside: 51, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 33.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 13.5, leatherReq: 230 }),
+  fabric: fab([10650, 10773, 10893, 11136, 11379, 11622, 11865, 12108, 12351, 12594, 12837, 13080, 13323, 13566, 13809, 14052]),
+  leather: leather([13809, 15024, 15996, 16968], 243),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6288C", name: "Darcy Wingback Chair", collection: "Baker Originals", category: "chairs", limited: true,
+  standardFinish: "Moonlight", frameMaterial: null, basePrice: 6741,
+  specs: ["(1) Loose Baker Comfort Seat", "Upholstered Tight Back", "Oak Solids and Veneer Frame", "Contrasting welt +$120"],
+  dims: dims({ width: 27.5, depth: 37, height: 42.5, widthInside: 21.5, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 21, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 6, leatherReq: 102 }),
+  fabric: fab([6849, 6903, 6957, 7065, 7173, 7281, 7389, 7497, 7605, 7713, 7821, 7929, 8037, 8145, 8253, 8361]),
+  leather: leather([8253, 8793, 9225, 9657], 108),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6288O", name: "Darcy Ottoman", collection: "Baker Originals", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 3126,
+  specs: ["(1) Semi attached Baker Comfort", "Tseat", "W Oak solids base", "E Contrasting welt +$105", "SMoonlight"],
+  dims: dims({ width: 23.5, depth: 18.5, height: 17.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 2.5, leatherReq: 42.5 }),
+  fabric: fab([3171, 3195, 3216, 3261, 3306, 3351, 3396, 3441, 3486, 3531, 3576, 3621, 3666, 3711, 3756, 3801]),
+  leather: leather([3756, 3981, 4161, 4341], 45),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6312-11", name: "Tuileries Ottoman", collection: "Jacques Garcia", category: "ottomans", limited: true,
+  standardFinish: "Exposed Maple woodSmall nail trim +", frameMaterial: null, basePrice: 105,
+  specs: ["Tight top Welt trim standard"],
+  dims: dims({ width: null, depth: null, height: 30, widthInside: 22.5, seatHeight: 15, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: 1, leatherReq: null }),
+  fabric: fab([2.25, 38, 2853, 2874, 2895, 2937, 2979, 3021, 3063, 3105, 3147, 3189, 3231, 3273, 3315, 3357]),
+  leather: leather([3399, 3441, 3399, 3609], 3777),
+  finishTiers: { tier1: null, tier2: 2811, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BA6348", name: "Manor Wing Chair", collection: "Bill Sofield", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 8991,
+  specs: ["One (1) Baker Comfort seat", "One (1) Baker Comfort Plush back pillow 11” x 16”", "Tight back", "Welt trim standard (nail trim not available)", "Exposed Walnut wood"],
+  dims: dims({ width: 31.5, depth: 33.5, height: 41.5, widthInside: 22, seatHeight: 19.5, seatDepth: null, armWidth: null, armHeight: 24.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 7.5, leatherReq: 128 }),
+  fabric: fab([9126, 9195, 9261, 9396, 9531, 9666, 9801, 9936, 10071, 10206, 10341, 10476, 10611, 10746, 10881, 11016]),
+  leather: leather([10881, 11556, 12096, 12636], 135),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6354-87", name: "Wren Tufted Sofa", collection: "Bill Sofield", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 11631,
+  specs: ["Three (3) Baker Crown Support k seats", "Buttoned tight back", "Welt trim on base (nail trim not available)", "Burnished Bronze Brass finish on ferrules", "Exposed Maple wood"],
+  dims: dims({ width: 87.5, depth: 35.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 17, leatherReq: 289 }),
+  fabric: fab([11937, 12090, 12243, 12549, 12855, 13161, 13467, 13773, 14079, 14385, 14691, 14997, 15303, 15609, 15915, 16221]),
+  leather: leather([15915, 17445, 18669, 19893], 306),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6354S-BTI-101-110", name: "Wren 101”-110” Sofa Lounge", collection: "Bill Sofield", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 18297,
+  specs: ["(3) Baker Crown Support seats", "( buttoned tight back", "b Welt trim on base (Nail trim N/A)", "W Exposed wood-Maple", "E Burnished Bronze brass finish on", "Bferrules standard f-"],
+  dims: dims({ width: null, depth: 35.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: null, weight: null, fabricReq: 19.5, leatherReq: 332 }),
+  fabric: fab([18648, 18825, 18999, 19350, 19701, 20052, 20403, 20754, 21105, 21456, 21807, 22158, 22509, 22860, 23211, 23562]),
+  leather: leather([23211, 24966, 26370, 27774], 351),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6354S-BTI-111-120", name: "Wren 111”-120” Sofa Lounge", collection: "Bill Sofield", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 18597,
+  specs: ["(4) Baker Crown Support seats buttoned tight back Welt trim on base (Nail trim N/A) Exposed wood-Maple Burnished Bronze brass finish on ferrules standard"],
+  dims: dims({ width: null, depth: 35.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: null, weight: null, fabricReq: 20.75, leatherReq: 353 }),
+  fabric: fab([18972, 19161, 19347, 19722, 20097, 20472, 20847, 21222, 21597, 21972, 22347, 22722, 23097, 23472, 23847, 24222]),
+  leather: leather([23847, 25722, 27222, 28722], 375),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6354S-BTI-60-70", name: "Wren 60”-70” Sofa Lounge", collection: "Bill Sofield", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 14697,
+  specs: ["(2) Baker Crown Support seats", "buttoned tight back", "Welt trim on base (Nail trim N/A)", "Exposed wood-Maple", "Burnished Bronze brass finish on ferrules standard"],
+  dims: dims({ width: null, depth: 35.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: null, weight: null, fabricReq: 14.25, leatherReq: 242 }),
+  fabric: fab([14955, 15084, 15213, 15471, 15729, 15987, 16245, 16503, 16761, 17019, 17277, 17535, 17793, 18051, 18309, 18567]),
+  leather: leather([18309, 19599, 20631, 21663], 258),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6354S-BTI-71-80", name: "Wren 71”-80” Sofa Lounge", collection: "Bill Sofield", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 15297,
+  specs: ["(2) Baker Crown Support seats", "buttoned tight back )", "Welt trim on base (Nail trim N/A)", "Exposed wood-Maple", "Burnished Bronze brass finish on ferrules standard"],
+  dims: dims({ width: null, depth: 35.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: null, weight: null, fabricReq: 15.75, leatherReq: 268 }),
+  fabric: fab([15582, 15726, 15867, 16152, 16437, 16722, 17007, 17292, 17577, 17862, 18147, 18432, 18717, 19002, 19287, 19572]),
+  leather: leather([19287, 20712, 21852, 22992], 285),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6354S-BTI-81-90", name: "Wren 81”-90” Sofa Lounge", collection: "Bill Sofield", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 15897,
+  specs: ["(3) Baker Crown Support seats", "( buttoned tight back", "b Welt trim on base (Nail trim N/A)", "W Exposed wood-Maple", "E Burnished Bronze brass finish on", "Bferrules standard f-"],
+  dims: dims({ width: null, depth: 35.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: null, weight: null, fabricReq: 17, leatherReq: 289 }),
+  fabric: fab([16203, 16356, 16509, 16815, 17121, 17427, 17733, 18039, 18345, 18651, 18957, 19263, 19569, 19875, 20181, 20487]),
+  leather: leather([20181, 21711, 22935, 24159], 306),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6354S-BTI-91-100", name: "Wren 91”-100” Sofa Lounge", collection: "Bill Sofield", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 17097,
+  specs: ["(3) Baker Crown Support seats buttoned tight back Welt trim on base (Nail trim N/A) Exposed wood-Maple Burnished Bronze brass finish on ferrules standard"],
+  dims: dims({ width: null, depth: 35.5, height: 29, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: null, weight: null, fabricReq: 18.25, leatherReq: 310 }),
+  fabric: fab([17427, 17592, 17757, 18087, 18417, 18747, 19077, 19407, 19737, 20067, 20397, 20727, 21057, 21387, 21717, 22047]),
+  leather: leather([21717, 23367, 24687, 26007], 330),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6369-32", name: "Paris Club Chair (Modern Stitch)", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: "Nail trim for medium & large nails +", frameMaterial: null, basePrice: 525,
+  specs: [],
+  dims: dims({ width: null, depth: null, height: 32.5, widthInside: 34, seatHeight: 28.5, seatDepth: 20, armWidth: 17.5, armHeight: null, exposedLegHeight: null, volume: 28.5, weight: 2, fabricReq: 1, leatherReq: null }),
+  fabric: fab([6.75, 115, 7350, 7413, 7473, 7596, 7719, 7842, 7965, 8088, 8211, 8334, 8457, 8580, 8703, 8826]),
+  leather: leather([8949, 9072, 8949, 9564], 10056),
+  finishTiers: { tier1: null, tier2: 7227, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "BA6369-32-v2", name: "Paris Club Chair (Tufted)", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: "Nail trim for medium and large nails +", frameMaterial: null, basePrice: 525,
+  specs: ["Tufted", "Tufted seat and back", "Exposed Maple wood", "Weltless construction standard", "Nail trim for small nails optional +$375"],
+  dims: dims({ width: null, depth: null, height: 32.5, widthInside: 34, seatHeight: 28.5, seatDepth: 20, armWidth: 17.5, armHeight: null, exposedLegHeight: null, volume: 28.5, weight: 2, fabricReq: 1, leatherReq: null }),
+  fabric: fab([8, 136, 7971, 8043, 8115, 8259, 8403, 8547, 8691, 8835, 8979, 9123, 9267, 9411, 9555, 9699]),
+  leather: leather([9843, 9987, 9843, 10563], 11139),
+  finishTiers: { tier1: null, tier2: 7827, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "BA6369-84", name: "Paris Loveseat (Modern Stitch)", collection: "Thomas Pheasant", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 8877,
+  specs: ["Modern stitch", "T Tight seat and back", "T Exposed Maple wood", "E Weltless construction", "W Nail trim for small nails +$375", "N Nail trim for medium and large na", "Nils +$525 ls-"],
+  dims: dims({ width: 84.5, depth: 34, height: 28.5, widthInside: 72, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 28.5, exposedLegHeight: 2, volume: 1, weight: null, fabricReq: 9.75, leatherReq: 166 }),
+  fabric: fab([9054, 9144, 9231, 9408, 9585, 9762, 9939, 10116, 10293, 10470, 10647, 10824, 11001, 11178, 11355, 11532]),
+  leather: leather([11355, 12240, 12948, 13656], 177),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6369-84-v2", name: "Paris Loveseat (Tufted)", collection: "Thomas Pheasant", category: "sofas", limited: true,
+  standardFinish: "Nail trim for medium & large nails +", frameMaterial: null, basePrice: 525,
+  specs: ["Tufted Tufted seat and back Exposed Maple wood Weltless construction Nail trim for small nails +$375"],
+  dims: dims({ width: null, depth: null, height: 84.5, widthInside: 34, seatHeight: 28.5, seatDepth: 72, armWidth: 17.5, armHeight: null, exposedLegHeight: null, volume: 28.5, weight: 2, fabricReq: 1, leatherReq: null }),
+  fabric: fab([10, 170, 9657, 9747, 9837, 10017, 10197, 10377, 10557, 10737, 10917, 11097, 11277, 11457, 11637, 11817]),
+  leather: leather([11997, 12177, 11997, 12897], 13617),
+  finishTiers: { tier1: null, tier2: 9477, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BA6369-85", name: "Paris Chaise Lounge (Modern Stitch)", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: "Nail trim for medium and large nails +", frameMaterial: null, basePrice: 795,
+  specs: ["Tight seat", "Two (2) Baker Fiberlux bolsters (6” x 27”)", "Exposed Maple wood", "Weltless construction standard", "Nail trim for small nails +$600"],
+  dims: dims({ width: null, depth: null, height: 85, widthInside: 29, seatHeight: 22, seatDepth: 64, armWidth: 16.5, armHeight: null, exposedLegHeight: null, volume: 22, weight: 2, fabricReq: 1, leatherReq: null }),
+  fabric: fab([8.5, 145, 7770, 7848, 7923, 8076, 8229, 8382, 8535, 8688, 8841, 8994, 9147, 9300, 9453, 9606]),
+  leather: leather([9759, 9912, 9759, 10524], 11136),
+  finishTiers: { tier1: null, tier2: 7617, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BA6369-85-v2", name: "Paris Chaise Lounge (Tufted)", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: "Nail trim for medium & large nails +", frameMaterial: null, basePrice: 795,
+  specs: ["Tufted seat and back", "Two (2) Baker Fiberlux bolsters (6” x 27”)", "Exposed wood - Maple", "Weltless construction standard", "Nail trim for small nails +$600 a"],
+  dims: dims({ width: null, depth: null, height: 85, widthInside: 29, seatHeight: 22, seatDepth: 64, armWidth: 16.5, armHeight: null, exposedLegHeight: null, volume: 22, weight: 2, fabricReq: 1, leatherReq: null }),
+  fabric: fab([9, 153, 8379, 8460, 8541, 8703, 8865, 9027, 9189, 9351, 9513, 9675, 9837, 9999, 10161, 10323]),
+  leather: leather([10485, 10647, 10485, 11295], 11943),
+  finishTiers: { tier1: null, tier2: 8217, tier3: 0, tier4: 255, type1Rattan: 405, type2Rattan: 525, specialtyRattan: null },
+},
+
+{
+  sku: "BA6369-97", name: "Paris Sofa (Modern Stitch)", collection: "Thomas Pheasant", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 10962,
+  specs: ["Modern stitch", "T Tight seat", "T Exposed Maple wood", "E Weltless construction standard", "W Nail trim for small nails +$600", "N Nail trim for medium and large na", "Nils +$795 il-"],
+  dims: dims({ width: 97.5, depth: 34, height: 28.5, widthInside: 85, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 28.5, exposedLegHeight: 2, volume: 1, weight: null, fabricReq: 9.5, leatherReq: 162 }),
+  fabric: fab([11133, 11220, 11304, 11475, 11646, 11817, 11988, 12159, 12330, 12501, 12672, 12843, 13014, 13185, 13356, 13527]),
+  leather: leather([13356, 14211, 14895, 15579], 171),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6369-97-v2", name: "Paris Sofa (Tufted)", collection: "Thomas Pheasant", category: "sofas", limited: true,
+  standardFinish: "Nail trim for medium and large nails +", frameMaterial: null, basePrice: 795,
+  specs: ["Tufted Tufted seat and back Exposed Maple wood Weltless construction standard Nail trim for small nails +$600"],
+  dims: dims({ width: null, depth: null, height: 97.5, widthInside: 34, seatHeight: 28.5, seatDepth: 85, armWidth: 17.5, armHeight: null, exposedLegHeight: null, volume: 28.5, weight: 2, fabricReq: 1, leatherReq: null }),
+  fabric: fab([11.25, 191, 11766, 11868, 11970, 12174, 12378, 12582, 12786, 12990, 13194, 13398, 13602, 13806, 14010, 14214]),
+  leather: leather([14418, 14622, 14418, 15438], 16254),
+  finishTiers: { tier1: null, tier2: 11562, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "BA6372", name: "Wren Tufted Chair", collection: "Bill Sofield", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 8526,
+  specs: ["Baker Crown Support cushion", "Tufted back", "Welt trim standard", "Exposed Maple wood", "Burnished Bronze Brass ferrules standard"],
+  dims: dims({ width: 39.5, depth: 35, height: 32, widthInside: 23, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 27, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 8.75, leatherReq: 149 }),
+  fabric: fab([8685, 8766, 8844, 9003, 9162, 9321, 9480, 9639, 9798, 9957, 10116, 10275, 10434, 10593, 10752, 10911]),
+  leather: leather([10752, 11547, 12183, 12819], 159),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6386-80", name: "Camelback Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 11862,
+  specs: ["Two (2) Baker Comfort seats", "Tight back", "Two (2) Baker Comfort Plush bolsters 7” x 24”", "Welt trim only", "Not available in leather", "Exposed Maple wood"],
+  dims: dims({ width: 80, depth: 33, height: 33, widthInside: 71, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 12.5, leatherReq: null }),
+  fabric: fab([12087, 12201, 12312, 12537, 12762, 12987, 13212, 13437, 13662, 13887, 14112, 14337, 14562, 14787, 15012, 15237]),
+  leather: leather(null, 225),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6386S-BTI-101-110", name: "Camelback 101”-110” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 12747,
+  specs: ["(3) Baker Comfort cushion", "( Tight back", "T (2) Baker Comfort Plush bolsters", "((7” x 24”) ( Welt trim only", "W Exposed wood-Maple", "E Cushions and back pillow", "Nquantities change base on grids -"],
+  dims: dims({ width: null, depth: 33, height: 33, widthInside: null, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 18.5, leatherReq: null }),
+  fabric: fab([13080, 13248, 13413, 13746, 14079, 14412, 14745, 15078, 15411, 15744, 16077, 16410, 16743, 17076, 17409, 17742]),
+  leather: leather(null, 333),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6386S-BTI-111-120", name: "Camelback 111”-120” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 13047,
+  specs: ["(3) Baker Comfort cushion Tight back (2) Baker Comfort Plush bolsters (7” x 24”) Welt trim only Exposed wood-Maple Not available in Leather"],
+  dims: dims({ width: null, depth: 33, height: 33, widthInside: 51, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 22.5, leatherReq: null }),
+  fabric: fab([13452, 13656, 13857, 14262, 14667, 15072, 15477, 15882, 16287, 16692, 17097, 17502, 17907, 18312, 18717, 19122]),
+  leather: leather(null, 405),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6386S-BTI-60-70", name: "Camelback 60”-70” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 10347,
+  specs: ["(1) Baker Comfort cushion", "Tight back", "(2) Baker Comfort Plush bolsters (7” x 24”)", "Welt trim only", "Exposed wood-Maple", "Not available in Leather"],
+  dims: dims({ width: null, depth: 33, height: 33, widthInside: 51, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 11.25, leatherReq: null }),
+  fabric: fab([10551, 10653, 10755, 10959, 11163, 11367, 11571, 11775, 11979, 12183, 12387, 12591, 12795, 12999, 13203, 13407]),
+  leather: leather(null, 204),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6386S-BTI-71-80", name: "Camelback 71”-80” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 10647,
+  specs: ["(1) Baker Comfort cushion", "Tight back", "(2) Baker Comfort Plush bolsters (7” x 24”)", "Welt trim only", "Exposed wood-Maple", "Not available in Leather"],
+  dims: dims({ width: null, depth: 33, height: 33, widthInside: 51, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 12.5, leatherReq: null }),
+  fabric: fab([10872, 10986, 11097, 11322, 11547, 11772, 11997, 12222, 12447, 12672, 12897, 13122, 13347, 13572, 13797, 14022]),
+  leather: leather(null, 225),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6386S-BTI-81-90", name: "Camelback 81”-90” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 11247,
+  specs: ["(2) Baker Comfort cushion", "( Tight back", "T (2) Baker Comfort Plush bolsters", "((7” x 24”) ( Welt trim only", "W Exposed wood-Maple", "E Not available in Leather", "N-"],
+  dims: dims({ width: null, depth: 33, height: 33, widthInside: 51, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 14, leatherReq: null }),
+  fabric: fab([11499, 11625, 11751, 12003, 12255, 12507, 12759, 13011, 13263, 13515, 13767, 14019, 14271, 14523, 14775, 15027]),
+  leather: leather(null, 252),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6386S-BTI-91-100", name: "Camelback 91”-100” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 11847,
+  specs: ["(2) Baker Comfort cushion Tight back (2) Baker Comfort Plush bolsters (7” x 24”) Welt trim only Exposed wood-Maple Not available in Leather"],
+  dims: dims({ width: null, depth: 33, height: 33, widthInside: 51, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 16, leatherReq: null }),
+  fabric: fab([12135, 12279, 12423, 12711, 12999, 13287, 13575, 13863, 14151, 14439, 14727, 15015, 15303, 15591, 15879, 16167]),
+  leather: leather(null, 288),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6715C", name: "Signature Lounge Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: "Leafing on front arm posts +$73-", frameMaterial: null, basePrice: 9342,
+  specs: ["One (1) Baker Comfort cushion", "One (1) Baker Comfort boxed bacpillow 17”x22”", "Exposed Maple wood"],
+  dims: dims({ width: 32, depth: 36, height: 32, widthInside: 25, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: null, volume: 1, weight: 80, fabricReq: 7, leatherReq: 119 }),
+  fabric: fab([9468, 9531, 9594, 9720, 9846, 9972, 10098, 10224, 10350, 10476, 10602, 10728, 10854, 10980, 11106, 11232]),
+  leather: leather([11106, 11736, 12240, 12744], 126),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6726C", name: "Piedmont Lounge Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 6321,
+  specs: ["Tight seat, tight back ck", "Welt trim on outside only", "Exposed Beech wood", "Due to complex pattern of this 35 style, please include sketch when contrasting fabrics"],
+  dims: dims({ width: 30.5, depth: 30.5, height: 31.5, widthInside: 25, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 18, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 6.5, leatherReq: 111 }),
+  fabric: fab([6438, 6498, 6555, 6672, 6789, 6906, 7023, 7140, 7257, 7374, 7491, 7608, 7725, 7842, 7959, 8076]),
+  leather: leather([7959, 8544, 9012, 9480], 117),
+  finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6729S", name: "Presidio Sofa", collection: "Barbara Barry", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 12906,
+  specs: ["Baker Comfort seat", "B 2 Baker Comfort Plush boxed TPs", "T14” x 24” x 2.5” T 3 Baker Comfort Plush KE TPs (1)", "T11” x 25” (2) 19” x 19” K Brass ferrules on front 1legs +$300", "B Welt trim on base only l Exposed Beech wood", "E-"],
+  dims: dims({ width: 90, depth: 39.5, height: 34, widthInside: 80.5, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 32.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 18.5, leatherReq: 315 }),
+  fabric: fab([13239, 13407, 13572, 13905, 14238, 14571, 14904, 15237, 15570, 15903, 16236, 16569, 16902, 17235, 17568, 17901]),
+  leather: leather([17568, 19233, 20565, 21897], 333),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6729S-BTI-101-110", name: "Presidio 101”-110” Sofa", collection: "Barbara Barry", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 13497,
+  specs: ["Baker Comfort seat Two (2) Baker Comfort Plush boxed TPs 14” x 24” x 2.5” Three (3) Baker Comfort Plush KE TPs one (1) 11” x 25” two (2) 19” x 19” Brass ferrules on front legs +$300 Exposed Wood - Beech"],
+  dims: dims({ width: null, depth: 39.5, height: 34, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 32.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 20.75, leatherReq: 353 }),
+  fabric: fab([13872, 14061, 14247, 14622, 14997, 15372, 15747, 16122, 16497, 16872, 17247, 17622, 17997, 18372, 18747, 19122]),
+  leather: leather([18747, 20622, 22122, 23622], 375),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6729S-BTI-111-120", name: "Presidio 111”-120” Sofa", collection: "Barbara Barry", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 13797,
+  specs: ["Baker Comfort seat", "Two (2) Baker Comfort Plush boxeTPs 14” x 24” x 2.5”", "Three (3) Baker Comfort Plush KE TPs one (1) 11” x 25” two (2) 19” x 19”", "Brass ferrules on front legs +$300", "Exposed Wood - Beech"],
+  dims: dims({ width: null, depth: 39.5, height: 34, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 32.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 22, leatherReq: 374 }),
+  fabric: fab([14193, 14391, 14589, 14985, 15381, 15777, 16173, 16569, 16965, 17361, 17757, 18153, 18549, 18945, 19341, 19737]),
+  leather: leather([19341, 21321, 22905, 24489], 396),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6729S-BTI-60-70", name: "Presidio 60”-70” Sofa", collection: "Barbara Barry", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 10797,
+  specs: ["Baker Comfort seat ed", "Two (2) Baker Comfort Plush boxed TPs 14” x 24” x 2.5”", "Three (3) Baker Comfort Plush KE TPs one (1) 11” x 25” two (2) 19” x 19”", "Brass ferrules on front legs +$300", "Exposed Wood - Beech"],
+  dims: dims({ width: null, depth: 39.5, height: 34, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 32.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 15.5, leatherReq: 264 }),
+  fabric: fab([11076, 11217, 11355, 11634, 11913, 12192, 12471, 12750, 13029, 13308, 13587, 13866, 14145, 14424, 14703, 14982]),
+  leather: leather([14703, 16098, 17214, 18330], 279),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6729S-BTI-71-80", name: "Presidio 71”-80” Sofa", collection: "Barbara Barry", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 11397,
+  specs: ["Baker Comfort seat", "B Two (2) Baker Comfort Plush boxed", "TTPs 14” x 24” x 2.5” T Three (3) Baker Comfort Plush", "TKE TPs one (1) 11” x 25” two (2) K19” x 19” 1 Brass ferrules on front", "Blegs +$300 l Exposed Wood - Beech", "E-"],
+  dims: dims({ width: null, depth: 39.5, height: 34, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 32.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 17, leatherReq: 289 }),
+  fabric: fab([11703, 11856, 12009, 12315, 12621, 12927, 13233, 13539, 13845, 14151, 14457, 14763, 15069, 15375, 15681, 15987]),
+  leather: leather([15681, 17211, 18435, 19659], 306),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6729S-BTI-81-90", name: "Presidio 81”-90” Sofa", collection: "Barbara Barry", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 11997,
+  specs: ["Baker Comfort seat Two (2) Baker Comfort Plush boxed TPs 14” x 24” x 2.5” Three (3) Baker Comfort Plush KE TPs one (1) 11” x 25” two (2) 19” x 19” Brass ferrules on front legs +$300 Exposed Wood - Beech"],
+  dims: dims({ width: null, depth: 39.5, height: 34, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 32.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 18.5, leatherReq: 315 }),
+  fabric: fab([12330, 12498, 12663, 12996, 13329, 13662, 13995, 14328, 14661, 14994, 15327, 15660, 15993, 16326, 16659, 16992]),
+  leather: leather([16659, 18324, 19656, 20988], 333),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6729S-BTI-91-100", name: "Presidio 91”-100” Sofa", collection: "Barbara Barry", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 12597,
+  specs: ["Baker Comfort seat", "Two (2) Baker Comfort Plush boxeTPs 14” x 24” x 2.5”", "Three (3) Baker Comfort Plush KE TPs one (1) 11” x 25” two (2) 19” x 19”", "Brass ferrules on front legs +$300", "Exposed Wood - Beech"],
+  dims: dims({ width: null, depth: 39.5, height: 34, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 32.5, exposedLegHeight: null, volume: null, weight: null, fabricReq: 19.5, leatherReq: 332 }),
+  fabric: fab([12948, 13125, 13299, 13650, 14001, 14352, 14703, 15054, 15405, 15756, 16107, 16458, 16809, 17160, 17511, 17862]),
+  leather: leather([17511, 19266, 20670, 22074], 351),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6734LA", name: "Surround Armless Loveseat", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 8406,
+  specs: ["Two (2) Baker Comfort seat ed cushions", "Tight back", "Warm Bronze base", "Micro welt on cushions, pillows and body"],
+  dims: dims({ width: 51.5, depth: 34, height: 26.5, widthInside: 51.5, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 0, exposedLegHeight: 4, volume: 1, weight: 140, fabricReq: 9.25, leatherReq: 157.3 }),
+  fabric: fab([8574, 8658, 8742, 8910, 9078, 9246, 9414, 9582, 9750, 9918, 10086, 10254, 10422, 10590, 10758, 10926]),
+  leather: leather([10758, 11598, 12270, 12942], 168),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734LO", name: "Surround One Arm Loveseat", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Warm BronzeW", frameMaterial: null, basePrice: 10011,
+  specs: ["2 Baker Comfort seat cushions", "O Tight back C 3 Baker Comfort Plush throw", "Wpillows: (1) 20”x12” knife edge,", "M(1) 20”x14” knife edge, (1) boxed arm pillow", "Warm Bronze base", "Micro welt"],
+  dims: dims({ width: 59.75, depth: 34, height: 30.5, widthInside: 49.5, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: 4, volume: 1, weight: 150, fabricReq: 11.5, leatherReq: 195.5 }),
+  fabric: fab([10218, 10323, 10425, 10632, 10839, 11046, 11253, 11460, 11667, 11874, 12081, 12288, 12495, 12702, 12909, 13116]),
+  leather: leather([12909, 13944, 14772, 15600], 207),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734O", name: "Surround Ottoman", collection: "Barbara Barry", category: "ottomans", limited: true,
+  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 5217,
+  specs: ["One (1) Semi-attached Baker Comfort cushion Warm Bronze base Micro welt on cushions and body"],
+  dims: dims({ width: 34.5, depth: 34.5, height: 17.5, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 0, exposedLegHeight: 4, volume: 1, weight: 71, fabricReq: 5.5, leatherReq: 93.5 }),
+  fabric: fab([5316, 5367, 5415, 5514, 5613, 5712, 5811, 5910, 6009, 6108, 6207, 6306, 6405, 6504, 6603, 6702]),
+  leather: leather([6603, 7098, 7494, 7890], 99),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734S", name: "Surround Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 12177,
+  specs: ["3 Baker Comfort seat cushions", "Tight back", "6 Baker Comfort Plush throw pillows: (2) 20” x 12” KE, (2) 20” x 14” KE, (2) boxed arm pillows", "Warm Bronze base", "Micro welt"],
+  dims: dims({ width: 93, depth: 34, height: 30.5, widthInside: 71.5, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: 4, volume: 1, weight: 210, fabricReq: 16, leatherReq: 272 }),
+  fabric: fab([12465, 12609, 12753, 13041, 13329, 13617, 13905, 14193, 14481, 14769, 15057, 15345, 15633, 15921, 16209, 16497]),
+  leather: leather([16209, 17649, 18801, 19953], 288),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734S-BTI-101-110", name: "Surround 101”-110” Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 12897,
+  specs: ["(3) Baker comfort seat cushions", "Tight back", "(6)Baker Comfort Plush throws: (2) x (20” x 14”) KE, (2) (20” x 14”) KE and (2) boxed arm pillows", "Warm Bronze Base", "Micro welt"],
+  dims: dims({ width: null, depth: 34, height: 30.5, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 18, leatherReq: 306 }),
+  fabric: fab([13221, 13383, 13545, 13869, 14193, 14517, 14841, 15165, 15489, 15813, 16137, 16461, 16785, 17109, 17433, 17757]),
+  leather: leather([17433, 19053, 20349, 21645], 324),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734S-BTI-111-120", name: "Surround 111”-120” Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "MWarm BronzeW", frameMaterial: null, basePrice: 13197,
+  specs: ["(4) Baker comfort seat cushions", "( Tight back", "T (6)Baker Comfort Plush throws: (2)", "((20” x 14”) KE, (2) (20” x 14”) KE (and (2) boxed arm pillows a Warm Bronze Base", "W Micro welt"],
+  dims: dims({ width: null, depth: 34, height: 30.5, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 21, leatherReq: 357 }),
+  fabric: fab([13575, 13764, 13953, 14331, 14709, 15087, 15465, 15843, 16221, 16599, 16977, 17355, 17733, 18111, 18489, 18867]),
+  leather: leather([18489, 20379, 21891, 23403], 378),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734S-BTI-60-70", name: "Surround 60”-70” Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 9897,
+  specs: ["(2) Baker comfort seat cushions Tight back (4) Baker Comfort Plush throws, (2) (20” x 14”) knife edge, (2) boxed arm pillows Warm Bronze Base Micro welt"],
+  dims: dims({ width: null, depth: 34, height: 30.5, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 12.75, leatherReq: 217 }),
+  fabric: fab([10128, 10245, 10359, 10590, 10821, 11052, 11283, 11514, 11745, 11976, 12207, 12438, 12669, 12900, 13131, 13362]),
+  leather: leather([13131, 14286, 15210, 16134], 231),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734S-BTI-71-80", name: "Surround 71”-80” Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 10497,
+  specs: ["(2) Baker comfort seat cushions", "Tight back", "(4) Baker Comfort Plush throws, (2) (20” x 14”) KE, (2) boxed arm pillows", "Warm Bronze Base", "Micro welt"],
+  dims: dims({ width: null, depth: 34, height: 30.5, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 13.5, leatherReq: 230 }),
+  fabric: fab([10740, 10863, 10983, 11226, 11469, 11712, 11955, 12198, 12441, 12684, 12927, 13170, 13413, 13656, 13899, 14142]),
+  leather: leather([13899, 15114, 16086, 17058], 243),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734S-BTI-81-90", name: "Surround 81”-90” Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 11097,
+  specs: ["(3) Baker comfort seat cushions", "Tight back", "(6) Baker Comfort Plush throws, (2) (20” x 14”) KE, (2) 20”x12”) & (2) boxed arm pillows", "Warm Bronze Base", "Micro welt"],
+  dims: dims({ width: null, depth: 34, height: 30.5, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 14.5, leatherReq: 247 }),
+  fabric: fab([11358, 11490, 11619, 11880, 12141, 12402, 12663, 12924, 13185, 13446, 13707, 13968, 14229, 14490, 14751, 15012]),
+  leather: leather([14751, 16056, 17100, 18144], 261),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734S-BTI-91-100", name: "Surround91”-100” Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "MWarm BronzeW", frameMaterial: null, basePrice: 11697,
+  specs: ["(3) Baker comfort seat cushions", "T Tight back c (6)Baker Comfort Plush throws: (2)", "T(20” x 14”) KE, (2)(20” x 12”) & (2)", "(boxed arm pillows O Warm Bronze Base ( Micro welt t W"],
+  dims: dims({ width: null, depth: 34, height: 30.5, widthInside: null, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 16, leatherReq: 272 }),
+  fabric: fab([11985, 12129, 12273, 12561, 12849, 13137, 13425, 13713, 14001, 14289, 14577, 14865, 15153, 15441, 15729, 16017]),
+  leather: leather([15729, 17169, 18321, 19473], 288),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734SA", name: "Surround Armless Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 12012,
+  specs: ["Three (3) Baker Comfort seat cushions Tight back (3) Baker Comfort Plush throws: One (1)(20”x12”) KE, One (1) (20”x14”), One (1) boxed arm throw Warm Bronze base Micro welt"],
+  dims: dims({ width: 77.25, depth: 34, height: 26.5, widthInside: 77.25, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 0, exposedLegHeight: 4, volume: 1, weight: 180, fabricReq: 12.5, leatherReq: 212.5 }),
+  fabric: fab([12237, 12351, 12462, 12687, 12912, 13137, 13362, 13587, 13812, 14037, 14262, 14487, 14712, 14937, 15162, 15387]),
+  leather: leather([15162, 16287, 17187, 18087], 225),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734SC", name: "Surround Corner Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Micro wWarm BronzeWarm Br", frameMaterial: null, basePrice: 12477,
+  specs: ["Surr Three (3) Baker Comfort seat", "Three (3cushions cushions", "Tight back", "Tight bac (5) Baker Comfort Plush throws: (2)", "(3) Baker(20”x12”) KE, (2)(20”x14”) KE, One One (1)((1) boxed arm pillow (20”x14” Warm Bronze base pillow", "Micro welt", "Warm Br"],
+  dims: dims({ width: 92.5, depth: 34, height: 30.5, widthInside: 75.5, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 26.5, exposedLegHeight: 4, volume: 1, weight: 200, fabricReq: 16, leatherReq: 272 }),
+  fabric: fab([12765, 12909, 13053, 13341, 13629, 13917, 14205, 14493, 14781, 15069, 15357, 15645, 15933, 16221, 16509, 16797]),
+  leather: leather([16509, 17949, 19101, 20253], 288),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6734SO", name: "Surround One Arm Sofa", collection: "Barbara Barry", category: "sofas", limited: true,
+  standardFinish: "Warm Bronze", frameMaterial: null, basePrice: 11382,
+  specs: ["BA6741C Verve Lounge ChBarbara Barry 3) Baker Comfort seat", "One (1) Baker Comfort seas", "One (1) Baker Comfort KE ack pillow (14”x20”) er Comfort Plush throws:", "Optional swivel base (20”x12”) KE, One (1)", "Brass base ”) KE, One (1) boxed arm Bronze base elt Bronze"],
+  dims: dims({ width: null, depth: null, height: null, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 85.5, volume: 31.5, weight: 34, fabricReq: 37, leatherReq: 30.5 }),
+  fabric: fab([30.5, 75.5, 26, 17.5, 18.5, null, null, null, null, 26.5, null, 4, null, 1, 1, 190]),
+  leather: leather([75, 15, 5.5, 255], 93.5),
+  finishTiers: { tier1: 8394, tier2: null, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6741C", name: "Verve Lounge Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: "•Warm Bronze base +", frameMaterial: null, basePrice: 300,
+  specs: ["Tight upholstery with Walnut Base"],
+  dims: dims({ width: null, depth: null, height: 20, widthInside: 20, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: null, fabricReq: 15, leatherReq: 46 }),
+  fabric: fab([1.25, 21, 3390, 3402, 3414, 3438, 3462, 3486, 3510, 3534, 3558, 3582, 3606, 3630, 3654, 3678]),
+  leather: leather([3702, 3726, 3702, 3822], 3918),
+  finishTiers: { tier1: null, tier2: 3366, tier3: 0, tier4: 495, type1Rattan: 795, type2Rattan: 1050, specialtyRattan: null },
+},
+
+{
+  sku: "BA6841C", name: "Ellipse Lounge Chair", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 6867,
+  specs: ["Fully upholstered chair with oak feet", "One (1) Baker Comfort Cushion", "Tight back"],
+  dims: dims({ width: 44, depth: 37, height: 29.5, widthInside: 29, seatHeight: 17, seatDepth: 25.5, armWidth: null, armHeight: 19.5, exposedLegHeight: 4, volume: 45, weight: 68, fabricReq: 5.5, leatherReq: 94 }),
+  fabric: fab([6966, 7017, 7065, 7164, 7263, 7362, 7461, 7560, 7659, 7758, 7857, 7956, 8055, 8154, 8253, 8352]),
+  leather: leather([8253, 8748, 9144, 9540], 99),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6841CS", name: "Ellipse Chaise", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 9561,
+  specs: ["Three (3) Baker Comfort seat cushions", "Tight back", "Fabric with repeat not recommended"],
+  dims: dims({ width: 96, depth: 31, height: 19, widthInside: 82, seatHeight: 16.5, seatDepth: null, armWidth: null, armHeight: 19, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 11.5, leatherReq: 196 }),
+  fabric: fab([9768, 9873, 9975, 10182, 10389, 10596, 10803, 11010, 11217, 11424, 11631, 11838, 12045, 12252, 12459, 12666]),
+  leather: leather([12459, 13494, 14322, 15150], 207),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6842C", name: "Diamond Lounge", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 8061,
+  specs: ["One (1) Baker Comfort seat", "T Tight back", "P Plain stitch", "E Exposed Mahogany frame -"],
+  dims: dims({ width: 47.5, depth: 33, height: 30, widthInside: 35, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 20.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 5.5, leatherReq: 94 }),
+  fabric: fab([8160, 8211, 8259, 8358, 8457, 8556, 8655, 8754, 8853, 8952, 9051, 9150, 9249, 9348, 9447, 9546]),
+  leather: leather([9447, 9942, 10338, 10734], 99),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6842CS", name: "Diamond Chaise", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 10281,
+  specs: ["Three (3) Baker Comfort seats Plain stitch Exposed Mahogany frame"],
+  dims: dims({ width: 101, depth: 26, height: 20.75, widthInside: 88, seatHeight: 17.5, seatDepth: null, armWidth: null, armHeight: 20.75, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 8, leatherReq: 136 }),
+  fabric: fab([10425, 10497, 10569, 10713, 10857, 11001, 11145, 11289, 11433, 11577, 11721, 11865, 12009, 12153, 12297, 12441]),
+  leather: leather([12297, 13017, 13593, 14169], 144),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6844C", name: "Sling Lounge Chair", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 8220,
+  specs: ["Tight seat with tight back", "Exposed Mahogany frame with brass accents"],
+  dims: dims({ width: 23.75, depth: 31.25, height: 28.75, widthInside: null, seatHeight: 16, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 2.5, leatherReq: 43 }),
+  fabric: fab([8265, 8289, 8310, 8355, 8400, 8445, 8490, 8535, 8580, 8625, 8670, 8715, 8760, 8805, 8850, 8895]),
+  leather: leather([8850, 9075, 9255, 9435], 45),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6845C", name: "Wedge Slipper Chair", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 6120,
+  specs: ["Tight seat with tight back", "Exposed Mahogany frame with brass accents"],
+  dims: dims({ width: 21.5, depth: 29.25, height: 27, widthInside: null, seatHeight: 15, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 2.5, leatherReq: 43 }),
+  fabric: fab([6165, 6189, 6210, 6255, 6300, 6345, 6390, 6435, 6480, 6525, 6570, 6615, 6660, 6705, 6750, 6795]),
+  leather: leather([6750, 6975, 7155, 7335], 45),
+  finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6846O", name: "Blade Ottoman", collection: "Thomas Pheasant", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 5547,
+  specs: ["Tight back", "O Brass base", "O Plain stitch Bright Bronze"],
+  dims: dims({ width: 48, depth: 48, height: 14, widthInside: null, seatHeight: 14, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 3, leatherReq: 51 }),
+  fabric: fab([5601, 5628, 5655, 5709, 5763, 5817, 5871, 5925, 5979, 6033, 6087, 6141, 6195, 6249, 6303, 6357]),
+  leather: leather([6303, 6573, 6789, 7005], 54),
+  finishTiers: null,
+},
+
+{
+  sku: "BA6923C", name: "Track Arm Lounge Chair", collection: "Baker Originals", category: "chairs", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 5217,
+  specs: ["One (1) Baker Comfort cushion One (1) Backer Comfort back pillow"],
+  dims: dims({ width: 34.5, depth: 38.5, height: 35.5, widthInside: 23, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: 4, volume: 1, weight: null, fabricReq: 8.5, leatherReq: 145 }),
+  fabric: fab([5370, 5448, 5523, 5676, 5829, 5982, 6135, 6288, 6441, 6594, 6747, 6900, 7053, 7206, 7359, 7512]),
+  leather: leather([7359, 8124, 8736, 9348], 153),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6923L", name: "Track Arm Loveseat", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 7107,
+  specs: ["Two (2) Baker Comfort seat cushions", "Two (2) Baker Comfort back pillow Two (2) Baker Comfort Plush throws 18” (not available in leather)"],
+  dims: dims({ width: 59.5, depth: 38.5, height: 35.5, widthInside: 53, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: 4, volume: 1, weight: null, fabricReq: 16.5, leatherReq: 281 }),
+  fabric: fab([7404, 7554, 7701, 7998, 8295, 8592, 8889, 9186, 9483, 9780, 10077, 10374, 10671, 10968, 11265, 11562]),
+  leather: leather([11265, 12750, 13938, 15126], 297),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6923S", name: "Track Arm Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 7791,
+  specs: ["Two (2) Baker Comfort cushions", "Two (2) Baker Comfort back pillows ws", "Two (2) 18” Baker Comfort Plush throw pillows (not available in leather)"],
+  dims: dims({ width: 82, depth: 38.5, height: 35.5, widthInside: 69, seatHeight: 20, seatDepth: null, armWidth: null, armHeight: 24, exposedLegHeight: 4, volume: 1, weight: null, fabricReq: 18.25, leatherReq: 306 }),
+  fabric: fab([8121, 8286, 8451, 8781, 9111, 9441, 9771, 10101, 10431, 10761, 11091, 11421, 11751, 12081, 12411, 12741]),
+  leather: leather([12411, 14061, 15381, 16701], 330),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6923S-BTI-101-110", name: "Track Arm 101”-110” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 8097,
+  specs: ["(3) Baker Comfort seat cushion", "( (3) Baker Comfort back pillow", "( (2) Baker Comfort Plush throws", "((18”) p-"],
+  dims: dims({ width: null, depth: 38.5, height: 35.5, widthInside: null, seatHeight: 24, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 22, leatherReq: 374 }),
+  fabric: fab([8493, 8691, 8889, 9285, 9681, 10077, 10473, 10869, 11265, 11661, 12057, 12453, 12849, 13245, 13641, 14037]),
+  leather: leather([13641, 15621, 17205, 18789], 396),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6923S-BTI-111-120", name: "Track Arm 111”-120” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 8097,
+  specs: ["(3) Baker Comfort seat cushion (3) Baker Comfort back pillow (2) Baker Comfort Plush throw pillows (18”)"],
+  dims: dims({ width: null, depth: 38.5, height: 35.5, widthInside: null, seatHeight: 24, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 25, leatherReq: 425 }),
+  fabric: fab([8547, 8772, 8997, 9447, 9897, 10347, 10797, 11247, 11697, 12147, 12597, 13047, 13497, 13947, 14397, 14847]),
+  leather: leather([14397, 16647, 18447, 20247], 450),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6923S-BTI-60-70", name: "Track Arm 60”-70” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 6297,
+  specs: ["(2) Baker Comfort cushions", "(2) Baker Comfort back pillows", "(2) Baker Comfort Plush throw pillows (18”)"],
+  dims: dims({ width: null, depth: 38.5, height: 35.5, widthInside: null, seatHeight: 24, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 15.5, leatherReq: 264 }),
+  fabric: fab([6576, 6717, 6855, 7134, 7413, 7692, 7971, 8250, 8529, 8808, 9087, 9366, 9645, 9924, 10203, 10482]),
+  leather: leather([10203, 11598, 12714, 13830], 279),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6923S-BTI-71-80", name: "Track Arm 71”-80” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 6597,
+  specs: ["(2) Baker Comfort cushions", "(2) Baker Comfort back pillows", "(2) Baker Comfort Plush throw pillows (18”)"],
+  dims: dims({ width: null, depth: 38.5, height: 35.5, widthInside: null, seatHeight: 24, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 16.5, leatherReq: 281 }),
+  fabric: fab([6894, 7044, 7191, 7488, 7785, 8082, 8379, 8676, 8973, 9270, 9567, 9864, 10161, 10458, 10755, 11052]),
+  leather: leather([10755, 12240, 13428, 14616], 297),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6923S-BTI-81-90", name: "Track Arm 81”-90” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 6897,
+  specs: ["(2) Baker Comfort seat cushion", "( (2) Baker Comfort back pillow", "( (2) Baker Comfort Plush throw", "(pillows (18”) p-"],
+  dims: dims({ width: null, depth: 38.5, height: 35.5, widthInside: null, seatHeight: 24, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 18, leatherReq: 306 }),
+  fabric: fab([7221, 7383, 7545, 7869, 8193, 8517, 8841, 9165, 9489, 9813, 10137, 10461, 10785, 11109, 11433, 11757]),
+  leather: leather([11433, 13053, 14349, 15645], 324),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA6923S-BTI-91-100", name: "Track Arm 91”-100” Sofa", collection: "Baker Originals", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 7497,
+  specs: ["(2) Baker Comfort seat cushion (2) Baker Comfort back pillow (2) Baker Comfort Plush throw pillows (18”)"],
+  dims: dims({ width: null, depth: 38.5, height: 35.5, widthInside: null, seatHeight: 24, seatDepth: null, armWidth: null, armHeight: 20, exposedLegHeight: 4, volume: null, weight: null, fabricReq: 19.5, leatherReq: 332 }),
+  fabric: fab([7848, 8025, 8199, 8550, 8901, 9252, 9603, 9954, 10305, 10656, 11007, 11358, 11709, 12060, 12411, 12762]),
+  leather: leather([12411, 14166, 15570, 16974], 351),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA857-11", name: "Ottoman", collection: "Barbara Barry", category: "ottomans", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 4575,
+  specs: ["Attached Baker Comfort cushion top", "Exposed Maple wood", "Weltless cushion"],
+  dims: dims({ width: 36, depth: 36, height: 17, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 0, exposedLegHeight: null, volume: null, weight: null, fabricReq: 4.75, leatherReq: 81 }),
+  fabric: fab([4662, 4707, 4749, 4836, 4923, 5010, 5097, 5184, 5271, 5358, 5445, 5532, 5619, 5706, 5793, 5880]),
+  leather: leather([5793, 6228, 6576, 6924], 87),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA857-36", name: "Armless Tuxedo Section", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7902,
+  specs: ["One (1) Baker Comfort cushion", "One (1) Baker Comfort back pillow", "Exposed Maple wood", "Weltless cushions and back pillow"],
+  dims: dims({ width: 36, depth: 38.5, height: 31, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 0, exposedLegHeight: null, volume: null, weight: null, fabricReq: 8.25, leatherReq: 141 }),
+  fabric: fab([8052, 8127, 8202, 8352, 8502, 8652, 8802, 8952, 9102, 9252, 9402, 9552, 9702, 9852, 10002, 10152]),
+  leather: leather([10002, 10752, 11352, 11952], 150),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA857-38", name: "Corner Tuxedo Section", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 10086,
+  specs: ["One (1) Baker Comfort cushion", "M Two (2) Baker Comfort back pillows N Exposed Maple wood", "T Weltless cushions and back pillow t D E N N-"],
+  dims: dims({ width: 38.5, depth: 38.5, height: 31, widthInside: 25, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: 29, exposedLegHeight: null, volume: null, weight: null, fabricReq: 10, leatherReq: 170 }),
+  fabric: fab([10266, 10356, 10446, 10626, 10806, 10986, 11166, 11346, 11526, 11706, 11886, 12066, 12246, 12426, 12606, 12786]),
+  leather: leather([12606, 13506, 14226, 14946], 180),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BA863S", name: "Chatsworth Sofa", collection: "Stately Homes", category: "sofas", limited: true,
+  standardFinish: null, frameMaterial: null, basePrice: 13521,
+  specs: ["Metal Finish(es): Bright Brass (LTD), Nickel Two (2) Baker Comfort Plush throws 24” Double welt trim only on fabric Exposed Beech wood Nail trim on leather only Not available with large nail trim"],
+  dims: dims({ width: 104, depth: 36, height: 36, widthInside: null, seatHeight: 18.5, seatDepth: null, armWidth: null, armHeight: 32.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 15.75, leatherReq: 268 }),
+  fabric: fab([13806, 13950, 14091, 14376, 14661, 14946, 15231, 15516, 15801, 16086, 16371, 16656, 16941, 17226, 17511, 17796]),
+  leather: leather([17511, 18936, 20076, 21216], 285),
+  finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2324O", name: "Colette Ottoman", collection: "Barbara Barry", category: "ottomans", limited: false,
+  standardFinish: "Natural Bronze", frameMaterial: null, basePrice: 4083,
+  specs: ["Tight upholstered round pouf", "Bronze base"],
+  dims: dims({ width: 20, depth: 20, height: 16, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 20, fabricReq: 1.25, leatherReq: 21 }),
+  fabric: fab([4107, 4119, 4131, 4155, 4179, 4203, 4227, 4251, 4275, 4299, 4323, 4347, 4371, 4395, 4419, 4443]),
+  leather: leather([4419, 4539, 4635, 4731], 24),
+  finishTiers: null,
+},
+
+{
+  sku: "BAA2800C", name: "Ensley Chair", collection: "Baker Essentials Upholstery", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3987,
+  specs: ["One (1) Baker Essential loose seat cushion", "One (1) Baker Essential loose back pillow", "Beech legs", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: 34, depth: 37, height: 37, widthInside: 27, seatHeight: 20, seatDepth: 22, armWidth: null, armHeight: 23.5, exposedLegHeight: 7, volume: 45, weight: 86, fabricReq: 8, leatherReq: 136 }),
+  fabric: fab([4131, 4203, 4275, 4419, 4563, 4707, 4851, 4995, 5139, 5283, 5427, 5571, 5715, 5859, 6003, 6147]),
+  leather: leather([6003, 6723, 7299, 7875], 144),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2800L", name: "Ensley Loveseat", collection: "Baker Essentials Upholstery", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5757,
+  specs: ["Two (2) Baker Essential loose seat", "Tcushions c Two (2) Baker Essential loose back", "Tpillows p Beech legs", "B Value fabric included in base price", "V Performance fabric available at", "PGrade 6 price G-"],
+  dims: dims({ width: 65, depth: 37, height: 37, widthInside: 57, seatHeight: 20, seatDepth: 22, armWidth: null, armHeight: 23.5, exposedLegHeight: 7, volume: 77, weight: 144, fabricReq: 13.5, leatherReq: 230 }),
+  fabric: fab([6000, 6123, 6243, 6486, 6729, 6972, 7215, 7458, 7701, 7944, 8187, 8430, 8673, 8916, 9159, 9402]),
+  leather: leather([9159, 10374, 11346, 12318], 243),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2800LL", name: "Ensley Left Arm Loveseat", collection: "Baker Essentials Upholstery", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5457,
+  specs: ["Two (2) Baker Essential loose seat cushions Two (2) Baker Essential loose back pillows Beech legs Value fabric included in base price Performance fabric available at Grade 6 price"],
+  dims: dims({ width: 58, depth: 37, height: 37, widthInside: 61, seatHeight: 20, seatDepth: 22, armWidth: null, armHeight: 23.5, exposedLegHeight: 7, volume: 77, weight: 120, fabricReq: 13.5, leatherReq: 230 }),
+  fabric: fab([5700, 5823, 5943, 6186, 6429, 6672, 6915, 7158, 7401, 7644, 7887, 8130, 8373, 8616, 8859, 9102]),
+  leather: leather([8859, 10074, 11046, 12018], 243),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2800LR", name: "Ensley Right Arm Loveseat", collection: "Baker Essentials Upholstery", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5457,
+  specs: ["Two (2) Baker Essential loose seat cushions", "Two (2) Baker Essential loose back pillows", "Beech legs", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: 58, depth: 37, height: 37, widthInside: 61, seatHeight: 20, seatDepth: 22, armWidth: null, armHeight: 23.5, exposedLegHeight: 7, volume: 77, weight: 120, fabricReq: 13.5, leatherReq: 230 }),
+  fabric: fab([5700, 5823, 5943, 6186, 6429, 6672, 6915, 7158, 7401, 7644, 7887, 8130, 8373, 8616, 8859, 9102]),
+  leather: leather([8859, 10074, 11046, 12018], 243),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2800O", name: "Ensley Ottoman", collection: "Baker Essentials Upholstery", category: "ottomans", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 2232,
+  specs: ["t", "Tight upholstered seat", "Beech legs ck", "Value fabric included in base price", "Performance fabric available at Grade 6 price ce"],
+  dims: dims({ width: 27, depth: 23, height: 19, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: 7, volume: 21, weight: 34, fabricReq: 2.75, leatherReq: 47 }),
+  fabric: fab([2283, 2310, 2334, 2385, 2436, 2487, 2538, 2589, 2640, 2691, 2742, 2793, 2844, 2895, 2946, 2997]),
+  leather: leather([2946, 3201, 3405, 3609], 51),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2800S", name: "Ensley Sofa", collection: "Baker Essentials Upholstery", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 6711,
+  specs: ["Two (2) Baker Essential loose seat", "Tcushions c Two (2) Baker Essential loose back", "Fpillows p Beech legs", "B Value fabric included in base price", "V Performance fabric available at", "PGrade 6 price G-"],
+  dims: dims({ width: 90, depth: 37, height: 37, widthInside: 83, seatHeight: 20, seatDepth: 22, armWidth: null, armHeight: 23.5, exposedLegHeight: 7, volume: 97, weight: 168, fabricReq: 14.5, leatherReq: 247 }),
+  fabric: fab([6972, 7104, 7233, 7494, 7755, 8016, 8277, 8538, 8799, 9060, 9321, 9582, 9843, 10104, 10365, 10626]),
+  leather: leather([10365, 11670, 12714, 13758], 261),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2800SCL", name: "Ensley Left Arm Corner Sofa", collection: "Baker Essentials Upholstery", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7902,
+  specs: ["Three (3) Baker Essential loose seat cushions Four (4) Baker Essential loose back pillows Beech legs Value fabric included in base price Performance fabric available at Grade 6 price"],
+  dims: dims({ width: 98, depth: 37, height: 37, widthInside: 88, seatHeight: 20, seatDepth: 22, armWidth: null, armHeight: 23.5, exposedLegHeight: 7, volume: 117, weight: 196, fabricReq: 20.5, leatherReq: 349 }),
+  fabric: fab([8271, 8457, 8640, 9009, 9378, 9747, 10116, 10485, 10854, 11223, 11592, 11961, 12330, 12699, 13068, 13437]),
+  leather: leather([13068, 14913, 16389, 17865], 369),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2800SCR", name: "Ensley Right Arm Corner Sofa", collection: "Baker Essentials Upholstery", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7902,
+  specs: ["Three (3) Baker Essential loose secushions", "Four (4) Baker Essential loose bacpillows", "Beech legs", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: 98, depth: 37, height: 37, widthInside: 88, seatHeight: 20, seatDepth: 22, armWidth: null, armHeight: 23.5, exposedLegHeight: 7, volume: 117, weight: 196, fabricReq: 20.5, leatherReq: 349 }),
+  fabric: fab([8271, 8457, 8640, 9009, 9378, 9747, 10116, 10485, 10854, 11223, 11592, 11961, 12330, 12699, 13068, 13437]),
+  leather: leather([13068, 14913, 16389, 17865], 369),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2800SL", name: "Ensley Left Arm Sofa", collection: "Baker Essentials Upholstery", category: "sofas", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 6972,
+  specs: ["eat", "Three (3) Baker Essential loose seat cushions ck", "Three (3) Baker Essential loose back pillows", "Beech legs ce", "Value fabric included in base price", "Performance fabric available at Grade 6 price"],
+  dims: dims({ width: 90, depth: 37, height: 37, widthInside: 86.5, seatHeight: 20, seatDepth: 22, armWidth: null, armHeight: 23.5, exposedLegHeight: 7, volume: 97, weight: 154, fabricReq: 20, leatherReq: 340 }),
+  fabric: fab([7332, 7512, 7692, 8052, 8412, 8772, 9132, 9492, 9852, 10212, 10572, 10932, 11292, 11652, 12012, 12372]),
+  leather: leather([12012, 13812, 15252, 16692], 360),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2800SR", name: "Ensley Right Arm Sofa", collection: "Baker Essentials Upholstery", category: "sofas", limited: false,
+  standardFinish: "G-BS", frameMaterial: null, basePrice: 6972,
+  specs: ["Three (3) Baker Essential loose seat", "Ocushions c Three (3) Baker Essential loose", "Oback pillows p Beech legs", "M Value fabric included in base price", "V Performance fabric available at", "PGrade 6 price"],
+  dims: dims({ width: 90, depth: 37, height: 37, widthInside: 86.5, seatHeight: 20, seatDepth: 22, armWidth: null, armHeight: 23.5, exposedLegHeight: 7, volume: 97, weight: 154, fabricReq: 20, leatherReq: 340 }),
+  fabric: fab([7332, 7512, 7692, 8052, 8412, 8772, 9132, 9492, 9852, 10212, 10572, 10932, 11292, 11652, 12012, 12372]),
+  leather: leather([12012, 13812, 15252, 16692], 360),
+  finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+},
+
+{
+  sku: "BAA2801C", name: "Austin Chair", collection: "Baker Essentials Upholstery", category: "chairs", limited: false,
+  standardFinish: "Stainless Steel", frameMaterial: null, basePrice: 4368,
+  specs: ["One (1) Baker Essential loose seat cushion One (1) Baker Essential loose back pillow Metal legs Value fabric included in base price Performance fabric available at Grade 6 price Brushed Antique Bronze, Polished"],
+  dims: dims({ width: 40, depth: 38, height: 34, widthInside: 30, seatHeight: 19, seatDepth: 23, armWidth: null, armHeight: 24, exposedLegHeight: 5, volume: 48, weight: 113, fabricReq: 8.25, leatherReq: 140 }),
+  fabric: fab([4518, 4593, 4668, 4818, 4968, 5118, 5268, 5418, 5568, 5718, 5868, 6018, 6168, 6318, 6468, 6618]),
+  leather: leather([6468, 7218, 7818, 8418], 150),
+  finishTiers: null,
+},
+
 ];
