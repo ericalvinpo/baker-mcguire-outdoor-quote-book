@@ -458,13 +458,16 @@ table.schedule-table th { color: var(--muted-2); font-weight: 500; font-size: 11
 <script>
 /* Baker McGuire Outdoor — source price list data
    Extracted and cross-checked from Baker's complete retail price list ("BAKER price-list-retail-9-22-26.pdf"),
-   McGuire Outdoor section (main block), updated 09/22/26. This is Stage 1a of a larger catalog rebuild —
-   additional outdoor product clusters and other Baker/McGuire collections are added in later stages.
+   updated 09/22/26. Covers the McGuire Outdoor collection: lounge seating (Stage 1a) plus dining/occasional
+   furniture — tables, barstools, counter stools (Stage 1b). Other Baker/McGuire collections are added in
+   later stages of the catalog rebuild.
    All monetary values below are RAW SOURCE PRICES IN USD. Conversion to PHP (x70) and VAT (12%)
    are applied at render time in pricing.js — this file must never contain PHP or VAT-adjusted values.
    A value of null means the source PDF shows a dash ("-") — i.e. NOT AVAILABLE. Never treat null as free/zero.
    Note: a handful of standardFinish / specs text fields may carry minor extraction artifacts from column
-   text parsing (word-boundary noise) — pricing, dimensions, and grade data are verified exact.
+   text parsing (word-boundary noise) — pricing, dimensions, and grade data are verified exact. A very small
+   number of products with ambiguous source formatting (embedded upcharge text breaking the parser's anchor)
+   were excluded rather than risk shipping wrong prices; see extraction notes.
 */
 
 const SOURCE_DATE = "09/22/26";
@@ -1022,6 +1025,685 @@ const PRODUCTS = [
   fabric: fab([5136, 5181, 5226, 5316, 5406, 5496, 5586, 5676, 5766, 5856, 5946, 6036, 6126, 6216, 6306, 6396]),
   leather: leather([6306, 6756, 7116, 7476], 90),
 },
+{
+  sku: "MCO143T", name: "Rollick Barstool", collection: "Nicole Hollis", category: "chairs", limited: true,
+  standardFinish: "Naturale, Nero", frameMaterial: null, basePrice: 1497,
+  specs: ["Backless woven rattan frame", "Rawhide weave", "One Bronze Kickplate"],
+  dims: dims({ width: 17.5, depth: 17.5, height: 29.75, widthInside: null, seatHeight: 29.75, seatDepth: 16.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 8, weight: 13, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO184", name: "Gondola Outdoor Chair", collection: "Gondola", category: "chairs", limited: true,
+  standardFinish: "Moonstone", frameMaterial: null, basePrice: 2145,
+  specs: ["Outdoor Chair Gondola", "Powder-coated aluminum frame", "Loose seat cushion", "Suitable Outdoor Cover: MCCV39"],
+  dims: dims({ width: 23, depth: 23, height: 32.5, widthInside: null, seatHeight: 19, seatDepth: 20.5, armWidth: null, armHeight: 28, exposedLegHeight: null, volume: 14, weight: 21, fabricReq: 1, leatherReq: null }),
+  fabric: fab([2163, 2172, 2181, 2199, 2217, 2235, 2253, 2271, 2289, 2307, 2325, 2343, 2361, 2379, 2397, 2415]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3034", name: "Gondola Outdoor 48” Round Dining Table", collection: "Gondola", category: "tables", limited: false,
+  standardFinish: "AMoonstoneM", frameMaterial: null, basePrice: 891,
+  specs: ["Outdoor 48” Round Dining Table Gondola G Powder-coated aluminum frame", "Pjoined by a series of stretchers and jx-braces x Suitable Outdoor Cover: MCCV45", "O Base only t S"],
+  dims: dims({ width: 48, depth: 48, height: 29.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 29, weight: 272, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3037", name: "Gondola Outdoor Round Counter Height Dining Table", collection: "Gondola", category: "tables", limited: false,
+  standardFinish: "Moonstone", frameMaterial: null, basePrice: 1491,
+  specs: ["Outdoor Round CountHeight Dining Table Gondola", "Powder-coated aluminum frame joined by a series of stretchers anx-braces", "Optional top: 48” diameter, 3/4” thick Starphire glass top +$179 Optional top: 60” diameter, 3/4” thick Starphire glass top +$269 Available as base only", "Suitable Outdoor Cover: MCCV46"],
+  dims: dims({ width: 48, depth: 48, height: 35.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 33, weight: 200, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3044", name: "Gondola Outdoor Side Counter Stool", collection: "Gondola", category: "chairs", limited: false,
+  standardFinish: "Moonstone", frameMaterial: null, basePrice: 1545,
+  specs: ["Outdoor Side Counter Stool Gondola", "Powder-coated aluminum frame nd", "Loose seat cushion", "Suitable Outdoor Cover: MCCV44 91 91 6"],
+  dims: dims({ width: 18, depth: 21.25, height: 38, widthInside: null, seatHeight: 24, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 10, weight: 16, fabricReq: 1, leatherReq: null }),
+  fabric: fab([1563, 1572, 1581, 1599, 1617, 1635, 1653, 1671, 1689, 1707, 1725, 1743, 1761, 1779, 1797, 1815]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3045", name: "Gondola Outdoor Arm Counter Stool", collection: "Gondola", category: "chairs", limited: false,
+  standardFinish: "SMoonstoneM", frameMaterial: null, basePrice: 1845,
+  specs: ["Outdoor Arm Counter Stool Gondola G Powder-coated aluminum frame", "P Loose seat cushion", "L Suitable Outdoor Cover: MCCV44"],
+  dims: dims({ width: 22, depth: 21.25, height: 38, widthInside: null, seatHeight: 24, seatDepth: 19, armWidth: null, armHeight: 34, exposedLegHeight: null, volume: 16, weight: 22, fabricReq: 1, leatherReq: null }),
+  fabric: fab([1863, 1872, 1881, 1899, 1917, 1935, 1953, 1971, 1989, 2007, 2025, 2043, 2061, 2079, 2097, 2115]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3046", name: "Gondola Outdoor Side Barstool", collection: "Gondola", category: "chairs", limited: false,
+  standardFinish: "Moonstone", frameMaterial: null, basePrice: 1845,
+  specs: ["Outdoor Side Barstool Gondola Powder-coated aluminum frame Loose seat cushion Suitable Outdoor Cover: MCCV44"],
+  dims: dims({ width: 18, depth: 21.25, height: 43.75, widthInside: null, seatHeight: 30, seatDepth: 19, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 25, fabricReq: 1, leatherReq: null }),
+  fabric: fab([1863, 1872, 1881, 1899, 1917, 1935, 1953, 1971, 1989, 2007, 2025, 2043, 2061, 2079, 2097, 2115]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3047", name: "Gondola Outdoor Arm Barstool", collection: "Gondola", category: "chairs", limited: false,
+  standardFinish: "Moonstone", frameMaterial: null, basePrice: 2145,
+  specs: ["Outdoor Arm BarstoGondola", "Powder coated aluminum frame", "Loose seat cushion", "Suitable Outdoor Cover: MCCV44"],
+  dims: dims({ width: 22, depth: 21.25, height: 43.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 21, weight: 26, fabricReq: 1, leatherReq: null }),
+  fabric: fab([2163, 2172, 2181, 2199, 2217, 2235, 2253, 2271, 2289, 2307, 2325, 2343, 2361, 2379, 2397, 2415]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3048", name: "Gondola Outdoor Side Chair", collection: "Gondola", category: "chairs", limited: false,
+  standardFinish: "Moonstone", frameMaterial: null, basePrice: 1545,
+  specs: ["Outdoor Side Chair Gondola", "Powder-coated aluminum frame", "Loose seat cushion 4", "Suitable Outdoor Cover: MCCV39"],
+  dims: dims({ width: 23, depth: 22.75, height: 33.5, widthInside: null, seatHeight: 18, seatDepth: 20.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 20, fabricReq: 1, leatherReq: null }),
+  fabric: fab([1563, 1572, 1581, 1599, 1617, 1635, 1653, 1671, 1689, 1707, 1725, 1743, 1761, 1779, 1797, 1815]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO323", name: "Hayes Swivel Counter/Barstool", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "-A", frameMaterial: null, basePrice: 4218,
+  specs: ["Base options: Rattan or blackened", "Asteel base a Optional foot rail for Rattan Base:", "EOil Rubbed Bronze, Polished Brass, lBrushed Nickel", "S Optional height: Barstool 40”H,", "DCounter Stool 34.5”H M Rattan with caning on the inside seat back", "Barstool", "30” Seat Height for Barstool", "Counter Stool is not available in Blackened Steel Base"],
+  dims: dims({ width: 19, depth: 19.5, height: 34.5, widthInside: null, seatHeight: 25, seatDepth: 14.75, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 30, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([4236, 4245, 4254, 4272, 4290, 4308, 4326, 4344, 4362, 4380, 4398, 4416, 4434, 4452, 4470, 4488]),
+  leather: leather([4470, 4560, 4632, 4704], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCO3234", name: "Cuerda Square Dining Table", collection: "Laura Kirar", category: "tables", limited: false,
+  standardFinish: "Avana Dune with Bark Weave", frameMaterial: null, basePrice: 5691,
+  specs: ["Aluminum frame wrapped with acrylic rope Engineered stone top with leathered finish Suitable Outdoor Cover: MCCV56 Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 36, depth: 36, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 125, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3235", name: "Cuerda Rectangle Dining Table", collection: "Laura Kirar", category: "tables", limited: false,
+  standardFinish: "Avana Dune with Bark Weave", frameMaterial: null, basePrice: 11991,
+  specs: [],
+  dims: dims({ width: 84, depth: 38, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 200, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3237", name: "Cuerda Counter Table", collection: "Laura Kirar", category: "tables", limited: false,
+  standardFinish: "Avana Dune with Bark Weave", frameMaterial: null, basePrice: 3291,
+  specs: ["Aluminum frame wrapped with acrylic rope", "Engineered stone top and shelf with leathered finish 7", "Suitable Outdoor Cover: MCCV58", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 26, depth: 26, height: 36, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 34.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3244", name: "Cuerda Dining Chair", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: "SBark WeaveB", frameMaterial: null, basePrice: 2745,
+  specs: ["Aluminum frame wrapped with", "Aacrylic rope a Loose seat cushion", "T Suitable Outdoor Cover: MCCV59"],
+  dims: dims({ width: 19, depth: 24, height: 32.25, widthInside: null, seatHeight: 18.5, seatDepth: 18.25, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 30, weight: 13.5, fabricReq: 1, leatherReq: null }),
+  fabric: fab([2763, 2772, 2781, 2799, 2817, 2835, 2853, 2871, 2889, 2907, 2925, 2943, 2961, 2979, 2997, 3015]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3245", name: "Cuerda Counter Stool", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: "Bark Weave", frameMaterial: null, basePrice: 2445,
+  specs: ["Aluminum frame wrapped with acrylic rope Tight upholstered seat Suitable Outdoor Cover: MCCV60"],
+  dims: dims({ width: 18.5, depth: 18.5, height: 25.5, widthInside: null, seatHeight: 24, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 13, fabricReq: 1, leatherReq: null }),
+  fabric: fab([2463, 2472, 2481, 2499, 2517, 2535, 2553, 2571, 2589, 2607, 2625, 2643, 2661, 2679, 2697, 2715]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3246", name: "Cuerda Barstool", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: "Bark Weave", frameMaterial: null, basePrice: 2745,
+  specs: ["Aluminum frame wrapped with acrylic rope", "Tight upholstered seat", "Suitable Outdoor Cover: MCCV61"],
+  dims: dims({ width: 18.5, depth: 18.5, height: 31, widthInside: null, seatHeight: 29.5, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 14.5, fabricReq: 1, leatherReq: null }),
+  fabric: fab([2763, 2772, 2781, 2799, 2817, 2835, 2853, 2871, 2889, 2907, 2925, 2943, 2961, 2979, 2997, 3015]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3261", name: "Cuerda Oval End Table", collection: "Laura Kirar", category: "tables", limited: false,
+  standardFinish: "Avana Dune with Bark Weave", frameMaterial: null, basePrice: 2991,
+  specs: ["Aluminum base wrapped with acrylic rope", "Engineered stone top with 1 leathered finish", "Suitable Outdoor Cover: MCCV62", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 24, depth: 18, height: 22, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 36, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3262", name: "Cuerda Square End Table", collection: "Laura Kirar", category: "tables", limited: false,
+  standardFinish: "MAvana Dune with Bark WeaveA", frameMaterial: null, basePrice: 2691,
+  specs: ["Aluminum base wrapped with", "Aacrylic rope a Engineered stone top with", "Eleathered finish l Suitable Outdoor Cover: MCCV63", "S Disclaimer: Please see Natural", "DMaterials page"],
+  dims: dims({ width: 20, depth: 20, height: 17, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 36.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3278", name: "Cuerda Spot Table", collection: "Laura Kirar", category: "tables", limited: false,
+  standardFinish: "Avana Dune with Bark Weave", frameMaterial: null, basePrice: 2691,
+  specs: ["Aluminum base wrapped with acrylic rope Engineered stone top with leathered finish Suitable Outdoor Cover: MCCV64 Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 14, depth: 14, height: 19, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: null, weight: 18, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3316B", name: "Bow Outdoor Bench", collection: "Barbara Barry", category: "ottomans", limited: false,
+  standardFinish: "with Bark Weave", frameMaterial: null, basePrice: 1491,
+  specs: ["Powder coated cast aluminum bench with flat, woven acrylic rop Suitable Outdoor Cover: MCCV12 Gravel with Stone Weave, Gravel"],
+  dims: dims({ width: 49.75, depth: 19.5, height: 17, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 21, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO333", name: "Alameda Swivel Counter/Barstool", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Matte Natural Brown, Matte Pecan", frameMaterial: null, basePrice: 4968,
+  specs: ["Rattan base pe", "Optional foot rail: Oil Rubbed 2 Bronze, Polished Brass, Brushed Nickel", "Optional height: Barstool 37”H/28” seat height, Counter Stool 34”H/25” seat height", "Rattan seat with woven rawhide back rest", "Tight upholstered seat", "Non-standard finish ships in 20-24 weeks l"],
+  dims: dims({ width: 18.5, depth: 20.5, height: 33.75, widthInside: null, seatHeight: 25, seatDepth: 15.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 30, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([4986, 4995, 5004, 5022, 5040, 5058, 5076, 5094, 5112, 5130, 5148, 5166, 5184, 5202, 5220, 5238]),
+  leather: leather([5220, 5310, 5382, 5454], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCO3336", name: "Spin Outdoor Dining Table", collection: "Barbara Barry", category: "tables", limited: false,
+  standardFinish: "SGravelG", frameMaterial: null, basePrice: 4491,
+  specs: ["Powder coated cast aluminum", "Cdining table top p Suitable Outdoor Cover: MCCV87"],
+  dims: dims({ width: 48, depth: 48, height: 29, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 92, weight: 143, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3337", name: "Arrow Outdoor Dining Table", collection: "Barbara Barry", category: "tables", limited: false,
+  standardFinish: "Gravel Base with Shadow Top", frameMaterial: null, basePrice: 5091,
+  specs: ["Cast aluminum base with teak plank top Suitable Outdoor Cover: MCCV69"],
+  dims: dims({ width: 88, depth: 44, height: 29.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 52, weight: 94, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3338", name: "Arrow Outdoor Counter Height Table", collection: "Barbara Barry", category: "tables", limited: false,
+  standardFinish: "Gravel Base with Shadow Top", frameMaterial: null, basePrice: 3291,
+  specs: ["Cast aluminum base with teak plank top", "Suitable outdoor cover: MCCV46"],
+  dims: dims({ width: 48, depth: 48, height: 36.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 85, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO334", name: "Bercut Swivel Counter/Barstool", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4797,
+  specs: ["Rattan Base", "Optional foot rail for Rattan base: Oil Rubbed Bronze, Polished Brass, Brushed Nickel", "Leather panels available in: Chocolate, Camel, Pebble, Ivory, and Black", "Optional height: Barstool 39”H, Counter Stool 35.5”H", "Rattan seat with leather panels", "Tight upholstered seat", "Barstool+$300+$300"],
+  dims: dims({ width: 18.5, depth: 21.5, height: 35.5, widthInside: null, seatHeight: 25, seatDepth: 15.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 30, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([4815, 4824, 4833, 4851, 4869, 4887, 4905, 4923, 4941, 4959, 4977, 4995, 5013, 5031, 5049, 5067]),
+  leather: leather([5049, 5139, 5211, 5283], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCO3340", name: "Bow Outdoor Dining Chair", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: "with Stone WeaveGw", frameMaterial: null, basePrice: 2691,
+  specs: ["Cast aluminum dining chair with", "Cflat woven acrylic rope fl Suitable Outdoor Cover: MCCV39 Gravel with Bark Weave, Gravel"],
+  dims: dims({ width: 24, depth: 24, height: 33.5, widthInside: null, seatHeight: 18, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 14, weight: 16, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3346", name: "Bow Outdoor Counter Stool", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: "with Stone Weave", frameMaterial: null, basePrice: 1191,
+  specs: ["Cast aluminum counter stool with flat, woven acrylic rope Gravel with Bark Weave, Gravel"],
+  dims: dims({ width: 22, depth: 15.5, height: 25, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 7, weight: 16, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3347", name: "Bow Outdoor Barstool", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: "with Stone Weave", frameMaterial: null, basePrice: 1491,
+  specs: ["Cast aluminum barstool with flat, woven acrylic rope Gravel with Bark Weave, Gravel"],
+  dims: dims({ width: 22, depth: 15.5, height: 31, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 16, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3350", name: "Spin Outdoor Accent Table", collection: "Barbara Barry", category: "tables", limited: false,
+  standardFinish: "Gravel", frameMaterial: null, basePrice: 2097,
+  specs: [",", "Powder coated cast aluminum accent table", "Suitable outdoor cover: MCCV36"],
+  dims: dims({ width: 24, depth: 24, height: 20, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 15, weight: 49, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3352", name: "Spin Outdoor Cocktail Table", collection: "Barbara Barry", category: "tables", limited: false,
+  standardFinish: "DMGarden, GravelB", frameMaterial: null, basePrice: 3597,
+  specs: ["Powder coated cast aluminum", "Pcocktail table base a Suitable outdoor cover: MCCV28", "S S"],
+  dims: dims({ width: 42, depth: 42, height: 17, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 34, weight: 112, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3436", name: "Lanikai Square Dining Table", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: "Bianco Vittoria with Sea Salt", frameMaterial: null, basePrice: 8397,
+  specs: ["Powder-coated cast and extruded aluminum base Stone top Suitable Outdoor Cover: MCCV67 Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 48, depth: 48, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 233, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3437", name: "Lanikai Round Dining Table", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: "Bianco Vittoria with Sea Salt", frameMaterial: null, basePrice: 8397,
+  specs: ["Powder-coated cast and extruded aluminum base", "Stone top", "Suitable Outdoor Cover: MCCV68", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 54, depth: 54, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 200, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3438", name: "Lanikai Rectangle Dining Table", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: "Bianco Vittoria with Sea Salt", frameMaterial: null, basePrice: 14997,
+  specs: ["d", "Powder-coated cast and extruded aluminum base", "Stone top 8", "Suitable Outdoor Cover: MCCV69", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 96, depth: 48, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 37, weight: 461, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3439", name: "Laucala Counter Height Table", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: "SBianco Vittoria with Sea SaltS", frameMaterial: null, basePrice: 6597,
+  specs: ["Powder-coated cast and extruded", "Paluminum base a Stone top", "O Suitable Outdoor Cover: MCCV70", "L Disclaimer: Please see Natural rMaterials page"],
+  dims: dims({ width: 38.5, depth: 38.5, height: 36, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 30, weight: 120, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3440", name: "Phuket Side Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+  standardFinish: "Sea Salt", frameMaterial: null, basePrice: 3711,
+  specs: ["Powder-coated cast and extruded aluminum frame Outdoor grade strapping Loose seat and back cushion (non- reversible) Suitable Outdoor Cover: MCCV71"],
+  dims: dims({ width: 20, depth: 25, height: 35, widthInside: null, seatHeight: 21, seatDepth: 17, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 25, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([3753, 3774, 3795, 3837, 3879, 3921, 3963, 4005, 4047, 4089, 4131, 4173, 4215, 4257, 4299, 4341]),
+  leather: leather([4299, 4509, 4677, 4845], 42),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3441", name: "Phuket Arm Chair", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+  standardFinish: "Sea Salt", frameMaterial: null, basePrice: 4011,
+  specs: ["Powder-coated cast and extruded aluminum frame", "Outdoor grade strapping", "Loose seat and back cushion (nonreversible)", "Suitable Outdoor Cover: MCCV71"],
+  dims: dims({ width: 25, depth: 25, height: 35, widthInside: 22, seatHeight: 21, seatDepth: 17, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 16, weight: 35.5, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([4053, 4074, 4095, 4137, 4179, 4221, 4263, 4305, 4347, 4389, 4431, 4473, 4515, 4557, 4599, 4641]),
+  leather: leather([4599, 4809, 4977, 5145], 42),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3448", name: "Phuket Counter Stool", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+  standardFinish: "Sea Salt", frameMaterial: null, basePrice: 3411,
+  specs: ["d", "Powder-coated cast and extruded aluminum frame", "Outdoor grade strapping n-", "Loose seat and back cushion (non- reversible) 1", "Brushed Stainless Steel kickplate", "Suitable Outdoor Cover: MCCV72"],
+  dims: dims({ width: 20, depth: 24.5, height: 41, widthInside: null, seatHeight: 27, seatDepth: 16, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 14, weight: 34, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([3453, 3474, 3495, 3537, 3579, 3621, 3663, 3705, 3747, 3789, 3831, 3873, 3915, 3957, 3999, 4041]),
+  leather: leather([3999, 4209, 4377, 4545], 42),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3449", name: "Phuket Barstool", collection: "Baker Resort® for McGuire", category: "chairs", limited: false,
+  standardFinish: "Sea SaltB", frameMaterial: null, basePrice: 3711,
+  specs: ["Powder-coated cast and extruded", "Paluminum frame a Outdoor grade strapping", "S Loose seat and back cushion (non-", "Sreversible)", "D Brushed Stainless Steel kickplate M Suitable Outdoor Cover: MCCV72"],
+  dims: dims({ width: 20, depth: 24.5, height: 46, widthInside: null, seatHeight: 32, seatDepth: 16, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 36, fabricReq: 2.25, leatherReq: 38 }),
+  fabric: fab([3753, 3774, 3795, 3837, 3879, 3921, 3963, 4005, 4047, 4089, 4131, 4173, 4215, 4257, 4299, 4341]),
+  leather: leather([4299, 4509, 4677, 4845], 42),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3450", name: "Bondi Cocktail Table", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: "Bianco Vittoria with Sea Salt", frameMaterial: null, basePrice: 6897,
+  specs: ["Powder-coated cast and extruded aluminum base Stone top Suitable Outdoor Cover: MCCV73 Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 60, depth: 36, height: 17, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 32, weight: 186, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3456", name: "Condado Spot Table", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: "Bianco Vittoria with Sea Salt", frameMaterial: null, basePrice: 2997,
+  specs: ["Powder-coated cast and extruded aluminum base", "Stone top", "Suitable Outdoor Cover: MCCV20", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 16, depth: 16, height: 17.75, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 6, weight: 63.5, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3458", name: "Bondi Round Side Table", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: "Bianco Vittoria with Sea Salt", frameMaterial: null, basePrice: 3597,
+  specs: ["d", "Powder-coated cast and extruded aluminum base", "Stone top 0", "Suitable Outdoor Cover: MCCV36", "Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 24, depth: 24, height: 22, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 8, weight: 37, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3459", name: "Bondi Square Side Table", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: "DMBianco Vittoria with Sea SaltB", frameMaterial: null, basePrice: 3597,
+  specs: ["Powder-coated cast and extruded", "Paluminum base a Stone top", "S Suitable Outdoor Cover: MCCV74", "S Disclaimer: Please see Natural sMaterials page", "S"],
+  dims: dims({ width: 24, depth: 24, height: 22, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 10, weight: 40, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3463", name: "Bondi Console", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: "Bianco Vittoria with Sea Salt", frameMaterial: null, basePrice: 8397,
+  specs: ["Powder-coated cast and extruded aluminum base Stone top Stone shelf divided into three (3) sections Suitable Outdoor Cover: MCCV75 Disclaimer: Please see Natural Materials page"],
+  dims: dims({ width: 72, depth: 18, height: 31.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 35, weight: 167, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO362", name: "Caned Barstool", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4251,
+  specs: ["Optional foot rail for Rattan Base: Antique Bronze, Polished Brass, Brushed Nickel", "Framed with square mesh caned arms and back", "Tight upholstered seat cushion", "Standard cushion has base welt"],
+  dims: dims({ width: 23.5, depth: 23.5, height: 41.5, widthInside: null, seatHeight: 28.5, seatDepth: 17.5, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: 26, weight: 34, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([4269, 4278, 4287, 4305, 4323, 4341, 4359, 4377, 4395, 4413, 4431, 4449, 4467, 4485, 4503, 4521]),
+  leather: leather([4503, 4593, 4665, 4737], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCO362N", name: "Caned Counter Stool", collection: "Barbara Barry", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3951,
+  specs: [":", "Optional foot rail for Rattan Base: Antique Bronze, Polished Brass, Brushed Nickel", "Framed with square mesh caned arms and back", "Tight upholstered seat", "Standard seat cushion has base welt"],
+  dims: dims({ width: 23.5, depth: 23.5, height: 41.5, widthInside: null, seatHeight: 25, seatDepth: null, armWidth: null, armHeight: 29.5, exposedLegHeight: null, volume: 1, weight: null, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3969, 3978, 3987, 4005, 4023, 4041, 4059, 4077, 4095, 4113, 4131, 4149, 4167, 4185, 4203, 4221]),
+  leather: leather([4203, 4293, 4365, 4437], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCO3660", name: "Ketch Spot Table", collection: "Baker Resort® for McGuire", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5487,
+  specs: ["Travertine table", "C Suitable Outdoor Cover: MCCV63", "B Disclaimer: Please see Natural", "CMaterials page", "Tp S DMBrown Travertine"],
+  dims: dims({ width: 18, depth: 18, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 16, weight: 99, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3735", name: "Naxos Round Dining Table", collection: "Thomas Pheasant", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 11250,
+  specs: ["Classico Roman travertine top Blackened Stainless Steel base Comfortably seats 4-6 Top includes a light PU sealer to protect the stone Suitable Outdoor Cover: MCCV87 Disclaimer: Please see Natural Materials page in price list"],
+  dims: dims({ width: 48, depth: 48, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 73, weight: 269, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3737", name: "Naxos Rectangle Dining Table", collection: "Thomas Pheasant", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 21900,
+  specs: ["Classico Roman travertine top", "Blackened Stainless Steel base", "Comfortably seats 6-8", "Top includes a light PU sealer to protect the stone", "Suitable Outdoor Cover: MCCV69", "Disclaimer: Please see Natural Materials page in price list"],
+  dims: dims({ width: 96, depth: 48, height: 30, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 160, weight: 591, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3740", name: "Naxos Side Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3900,
+  specs: ["Loose seat and back (non- reversible)", "Blackened Stainless Steel frame", "Suitable Outdoor Cover: MCCV59 9"],
+  dims: dims({ width: 19, depth: 24.5, height: 32, widthInside: null, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 9, weight: 30, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([3933, 3951, 3966, 3999, 4032, 4065, 4098, 4131, 4164, 4197, 4230, 4263, 4296, 4329, 4362, 4395]),
+  leather: leather([4362, 4527, 4659, 4791], 33),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3741", name: "Naxos Arm Chair", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4050,
+  specs: ["Loose seat and back (non-", "Lreversible) r Blackened Stainless Steel frame", "R Suitable Outdoor Cover: MCCV39", "B S-"],
+  dims: dims({ width: 22, depth: 24.5, height: 32, widthInside: 21.5, seatHeight: 19, seatDepth: null, armWidth: null, armHeight: 25, exposedLegHeight: null, volume: 10, weight: 35, fabricReq: 2, leatherReq: 34 }),
+  fabric: fab([4086, 4104, 4122, 4158, 4194, 4230, 4266, 4302, 4338, 4374, 4410, 4446, 4482, 4518, 4554, 4590]),
+  leather: leather([4554, 4734, 4878, 5022], 36),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3746", name: "Naxos Counter Stool", collection: "Thomas Pheasant", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3300,
+  specs: ["Loose seat cushion (non- reversible) Round bolster black pillow Blackened Stainless Steel frame Suitable Outdoor Cover: MCCV44"],
+  dims: dims({ width: 17, depth: 20, height: 35, widthInside: null, seatHeight: 25, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 23.5, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3318, 3327, 3336, 3354, 3372, 3390, 3408, 3426, 3444, 3462, 3480, 3498, 3516, 3534, 3552, 3570]),
+  leather: leather([3552, 3642, 3714, 3786], 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3750", name: "Naxos Rectangle Cocktail Table", collection: "Thomas Pheasant", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 7050,
+  specs: [],
+  dims: dims({ width: 48, depth: 30, height: 17, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 44, weight: 250, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3752", name: "Naxos Round Cocktail Table", collection: "Thomas Pheasant", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 9150,
+  specs: ["ith", "Classico Roman travertine top with half bull-nose edge", "Blackened Stainless Steel base", "Top includes a light PU sealer to protect the stone", "Suitable Outdoor Cover: MCCV86 5", "Disclaimer: See Natural Materials s Page in price list"],
+  dims: dims({ width: 52.5, depth: 52.5, height: 15, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 66, weight: 292, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3756", name: "Naxos Side Table", collection: "Thomas Pheasant", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3750,
+  specs: ["Tiered-shelf side table", "C Classico Roman travertine top", "Band shelf", "T Blackened Stainless Steel base Y Top and shelf include a light PU", "Tsealer to protect the stone p Disclaimer: See Natural Materials", "Dpage in price list p-"],
+  dims: dims({ width: 16, depth: 29, height: 22.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 19, weight: 141, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO3758", name: "Naxos Spot Table", collection: "Thomas Pheasant", category: "tables", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 2400,
+  specs: ["Classico Roman travertine top Blackened Stainless Steel base Three (3) legs connected by Y-shaped stretcher Top includes a light PU sealer to protect the stone Disclaimer: See Natural Materials page in price list"],
+  dims: dims({ width: 18, depth: 18, height: 22.5, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 13, weight: 83, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO401", name: "Curved Walnut Counter Stool", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Satin Walnut", frameMaterial: null, basePrice: 2997,
+  specs: [],
+  dims: dims({ width: 18.5, depth: 13.5, height: 26, widthInside: null, seatHeight: 25, seatDepth: 13, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 22, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO420", name: "Seido Counter Stool", collection: "McGuire Originals", category: "chairs", limited: true,
+  standardFinish: "Satin Walnut", frameMaterial: null, basePrice: 3297,
+  specs: ["Walnut solid and veneer frame", "Danish cord woven seat", "Natural variations in Walnut color will occur"],
+  dims: dims({ width: 19.25, depth: 21.25, height: 36.5, widthInside: null, seatHeight: 25, seatDepth: 15.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 12, weight: 20, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO424N", name: "Passage Swivel Counter Stool", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5172,
+  specs: [],
+  dims: dims({ width: 21.5, depth: 22, height: 37, widthInside: null, seatHeight: 25, seatDepth: 18, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 35, fabricReq: 1.5, leatherReq: 26 }),
+  fabric: fab([5199, 5214, 5226, 5253, 5280, 5307, 5334, 5361, 5388, 5415, 5442, 5469, 5496, 5523, 5550, 5577]),
+  leather: leather([5550, 5685, 5793, 5901], 27),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCO426", name: "Danish Cord Swivel Counter Stool", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: "Black, Tea-stained Danish cord", frameMaterial: null, basePrice: 4977,
+  specs: [",", "The frame is handcrafted with natural materials and variations in tone or grain can occur k", "Blackened steel or polished d stainless steel base"],
+  dims: dims({ width: 20, depth: 20, height: 33.25, widthInside: null, seatHeight: 25, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 30, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO426T", name: "Danish Cord Swivel Barstool", collection: "McGuire Originals", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 5277,
+  specs: ["The frame is handcrafted with", "Onatural materials and variations in Atone or grain can occur N Blackened steel or polished", "Rstainless steel base", "Ta UBlack, Tea-stained Danish cord"],
+  dims: dims({ width: 20, depth: 20, height: 38.75, widthInside: null, seatHeight: 30, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 36, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCO530", name: "Passage Barstool", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4272,
+  specs: ["Optional foot rail: Polished Brass, Antique Bronze, and Brushed Nickel Rattan frame with caned back Tight Upholstered interior back and seat Upholstered seat has bottom welt"],
+  dims: dims({ width: 22, depth: 21.5, height: 41, widthInside: null, seatHeight: 29, seatDepth: 17, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 48, fabricReq: 1.5, leatherReq: 26 }),
+  fabric: fab([4299, 4314, 4326, 4353, 4380, 4407, 4434, 4461, 4488, 4515, 4542, 4569, 4596, 4623, 4650, 4677]),
+  leather: leather([4650, 4785, 4893, 5001], 27),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCO530N", name: "Passage Counter Stool", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 3972,
+  specs: ["Optional foot rail: Polished Brass, Antique Bronze, and Brushed Nickel", "Rattan frame with caned back", "Tight Upholstered interior back and seat", "Upholstered seat has bottom welt"],
+  dims: dims({ width: 22, depth: 21.5, height: 37, widthInside: null, seatHeight: 25, seatDepth: 17, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 48, fabricReq: 1.5, leatherReq: 26 }),
+  fabric: fab([3999, 4014, 4026, 4053, 4080, 4107, 4134, 4161, 4188, 4215, 4242, 4269, 4296, 4323, 4350, 4377]),
+  leather: leather([4350, 4485, 4593, 4701], 27),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCO531", name: "Maketto Barstool", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: null, frameMaterial: null, basePrice: 4251,
+  specs: [",", "Optional foot rail: Polished Brass, Antique Bronze, and Brushed Nickel", "Rattan frame with can webbing on the back and seat", "Loose upholstered seat cushion lt", "Standard stitching on top seams is double stitch, single stitch on side seams", "1” long tab on the bottom of cushion"],
+  dims: dims({ width: 23, depth: 22.25, height: 40.5, widthInside: null, seatHeight: 29, seatDepth: 17.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 13, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([4269, 4278, 4287, 4305, 4323, 4341, 4359, 4377, 4395, 4413, 4431, 4449, 4467, 4485, 4503, 4521]),
+  leather: leather([4503, 4593, 4665, 4737], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCO531N", name: "Maketto Counter Stool", collection: "Laura Kirar", category: "chairs", limited: false,
+  standardFinish: "-M", frameMaterial: null, basePrice: 3951,
+  specs: ["Optional foot rail: Polished Brass,", "RAntique Bronze, and Brushed aNickel", "B Rattan frame with can webbing on othe back and seat", "N Loose upholstered seat cushion w Standard stitching on top seams is double stitch, single stitch on side seams", "1” long tab on the bottom of cushion"],
+  dims: dims({ width: 23, depth: 22.25, height: 36.5, widthInside: null, seatHeight: 25, seatDepth: 17.5, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 13, fabricReq: 1, leatherReq: 17 }),
+  fabric: fab([3969, 3978, 3987, 4005, 4023, 4041, 4059, 4077, 4095, 4113, 4131, 4149, 4167, 4185, 4203, 4221]),
+  leather: leather([4203, 4293, 4365, 4437], 18),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+},
+
+{
+  sku: "MCO532", name: "Crin Counter Stool", collection: "Steven Volpe", category: "chairs", limited: false,
+  standardFinish: "Matte Slate, Matte Umber", frameMaterial: null, basePrice: 3237,
+  specs: ["Rattan frame with rawhide straps and bindings on seat and back Burnished brass nailhead detailing on back comes standard Non-standard finish ships in 20-24 weeks"],
+  dims: dims({ width: 17.5, depth: 20.5, height: 32.75, widthInside: null, seatHeight: 26, seatDepth: 15, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 26, weight: 36, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+},
+
+{
+  sku: "MCTP520", name: "Outdoor Dining Arm Chair", collection: "Thomas Pheasant", category: "chairs", limited: true,
+  standardFinish: "Java resin with Bronze frame", frameMaterial: null, basePrice: 2451,
+  specs: ["Woven resin over powder-coated aluminum frame", "Loose seat cushion", "Shown with optional Kidney Pillow (KP-917) available at additional cost", "Suitable Outdoor Cover: MCCV39"],
+  dims: dims({ width: 23, depth: 26, height: 36.25, widthInside: null, seatHeight: 18.25, seatDepth: 18, armWidth: null, armHeight: 24.5, exposedLegHeight: null, volume: 17, weight: 33, fabricReq: 1, leatherReq: null }),
+  fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
+  leather: leather(null, 18),
+  finishTiers: null,
+},
+
+{
+  sku: "MCTP532", name: "Outdoor Cocktail Table", collection: "Thomas Pheasant", category: "tables", limited: true,
+  standardFinish: "Java Bronze", frameMaterial: null, basePrice: 1791,
+  specs: ["d", "Powder-coated aluminum frame with glass top and shelf", "1/2” clear tempered glass w", "Optional 2” umbrella hole in glass", "Suitable Outdoor Cover: MCCV25 9"],
+  dims: dims({ width: 48, depth: 30.75, height: 15, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 20, weight: 116, fabricReq: null, leatherReq: null }),
+  fabric: null,
+  leather: leather(null, null),
+  finishTiers: null,
+},
+
+{
+  sku: "MCU1056", name: "Lakepoint End Table", collection: "Barbara Barry", category: "tables", limited: false,
+  standardFinish: "-B", frameMaterial: null, basePrice: 3087,
+  specs: ["Fully upholstered leather end table", "M Double stitching", "U Trefoil shape design"],
+  dims: dims({ width: 22, depth: 20.75, height: 18, widthInside: null, seatHeight: null, seatDepth: null, armWidth: null, armHeight: null, exposedLegHeight: null, volume: 14, weight: 20, fabricReq: 1.75, leatherReq: 30 }),
+  fabric: fab([3120, 3138, 3153, 3186, 3219, 3252, 3285, 3318, 3351, 3384, 3417, 3450, 3483, 3516, 3549, 3582]),
+  leather: leather([3549, 3714, 3846, 3978], 33),
+  finishTiers: null,
+},
 
 ];
 
@@ -1066,6 +1748,25 @@ function fabricGradeAvailable(product, grade) {
 
 function grade16PlusAvailable(product) {
   return !!(product.fabric && product.leather && product.leather.riser != null);
+}
+
+// Returns [{ key, label, usd }] for every finish tier/rattan option this product has a real price for.
+function availableFinishOptions(product) {
+  const ft = product.finishTiers;
+  if (!ft) return [];
+  const defs = [
+    ["tier1", "Tier 1"], ["tier2", "Tier 2"], ["tier3", "Tier 3"], ["tier4", "Tier 4"],
+    ["type1Rattan", "Type 1 Rattan"], ["type2Rattan", "Type 2 Rattan"], ["specialtyRattan", "Specialty Rattan"],
+  ];
+  return defs
+    .filter(([key]) => ft[key] != null)
+    .map(([key, label]) => ({ key, label, usd: ft[key] }));
+}
+function finishSurchargeUsd(product, finishKey) {
+  if (!finishKey || finishKey === "standard") return 0;
+  const ft = product.finishTiers;
+  if (!ft || ft[finishKey] == null) return 0;
+  return ft[finishKey];
 }
 
 /**
@@ -1135,13 +1836,22 @@ function computeCoveringCentavos(product, config) {
   return { ok: false, error: "Select a covering." };
 }
 
-// No finish tiers or optional upgrades are priced anywhere in this catalogue (verified against source).
-// These remain as explicit zero/"Included" line items so the summary structure matches the spec.
+// Optional upgrades (seat cushion/back pillow/throw pillow/swivel) are not priced anywhere in this
+// catalogue's outdoor collection (verified against source), so extrasCentavos stays 0 for now.
 function computeUnitBreakdown(product, config) {
   const covering = computeCoveringCentavos(product, config);
   if (!covering.ok) return covering;
 
-  const finishSurchargeCentavos = 0; // no product in this catalogue has a priced finish tier
+  const finishOptions = availableFinishOptions(product);
+  let finishKey = config.finishKey || "standard";
+  let finishLabel = "Standard finish";
+  let finishSurchargeCentavos = 0;
+  if (finishKey !== "standard") {
+    const opt = finishOptions.find((o) => o.key === finishKey);
+    if (!opt) return { ok: false, error: "Select a valid frame finish option." };
+    finishLabel = opt.label;
+    finishSurchargeCentavos = usdToPhpCentavos(opt.usd);
+  }
   const extrasCentavos = 0; // no product in this catalogue has priced optional upgrades
 
   const subtotalCentavos = covering.coveringCentavos + finishSurchargeCentavos + extrasCentavos;
@@ -1152,6 +1862,7 @@ function computeUnitBreakdown(product, config) {
     ok: true,
     coveringCentavos: covering.coveringCentavos,
     coveringLabel: covering.coveringLabel,
+    finishLabel,
     finishSurchargeCentavos,
     extrasCentavos,
     subtotalCentavos,
@@ -1328,7 +2039,7 @@ function generateQuotationPdf(quotation, lines, totals) {
 <script>
 /* Baker McGuire Outdoor — The Quote Book. Client-only SPA, no build step. */
 
-const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches" };
+const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches", tables: "Tables & Consoles" };
 
 function escapeHtml(str) {
   if (str == null) return "";
@@ -1394,7 +2105,7 @@ function updateThemeIcons() {
 
 // ---------------- Category counts / filtering ----------------
 function categoryCounts() {
-  const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0 };
+  const counts = { all: state.products.length, chairs: 0, sofas: 0, ottomans: 0, tables: 0 };
   state.products.forEach((p) => { counts[p.category]++; });
   return counts;
 }
@@ -1476,7 +2187,7 @@ function renderProductList() {
 function defaultConfigForProduct(product) {
   const coverings = availableCoverings(product);
   const type = coverings[0];
-  const cfg = { coveringType: type, fabricGrade: 1, fabricGradeCustom: 16, leatherGrade: null, comCustomPricePhp: null, fabricRef: "", quantity: 1 };
+  const cfg = { coveringType: type, fabricGrade: 1, fabricGradeCustom: 16, leatherGrade: null, comCustomPricePhp: null, fabricRef: "", quantity: 1, finishKey: "standard" };
   if (type === "fabric") cfg.fabricGrade = 1;
   if (type === "leather") {
     const grades = Object.keys(product.leather.grades).filter((g) => product.leather.grades[g] != null);
@@ -1573,11 +2284,23 @@ function renderConfigurator() {
   }
 
   const finishName = product.standardFinish || product.frameMaterial || "Standard";
-  const finishHtml = `
-    <div class="finish-box">
-      <span class="ff-name">${escapeHtml(finishName)}</span>
-      <p class="ff-note">Standard finish is included. No additional finish tiers are listed for this model in the source price list.</p>
-    </div>`;
+  const finishOptions = availableFinishOptions(product);
+  let finishHtml;
+  if (finishOptions.length === 0) {
+    finishHtml = `
+      <div class="finish-box">
+        <span class="ff-name">${escapeHtml(finishName)}</span>
+        <p class="ff-note">Standard finish is included. No additional finish tiers are listed for this model in the source price list.</p>
+      </div>`;
+  } else {
+    const standardPriceRow = `<label class="radio-row"><input type="radio" name="finishKey" value="standard" ${cfg.finishKey === "standard" ? "checked" : ""}> ${escapeHtml(finishName)} <span class="helper-text">&mdash; included</span></label>`;
+    const optionRows = finishOptions.map((o) => {
+      const surchargePhp = formatPHP(Math.round(usdToPhpCentavos(o.usd) * (1 + VAT_RATE)));
+      const label = o.usd === 0 ? "included" : `+${surchargePhp} incl. VAT`;
+      return `<label class="radio-row"><input type="radio" name="finishKey" value="${o.key}" ${cfg.finishKey === o.key ? "checked" : ""}> ${escapeHtml(o.label)} <span class="helper-text">&mdash; ${label}</span></label>`;
+    }).join("");
+    finishHtml = `<div class="finish-box">${standardPriceRow}${optionRows}</div>`;
+  }
 
   const breakdown = computeUnitBreakdown(product, cfg);
   const qty = cfg.quantity || 1;
@@ -1588,7 +2311,7 @@ function renderConfigurator() {
     summaryHtml = `
       <div class="summary-box">
         <div class="summary-row"><span>${escapeHtml(breakdown.coveringLabel)}</span><span>${formatPHP(breakdown.coveringCentavos)}</span></div>
-        <div class="summary-row"><span>Finish surcharge</span><span>Included</span></div>
+        <div class="summary-row"><span>Finish surcharge${breakdown.finishSurchargeCentavos > 0 ? " (" + escapeHtml(breakdown.finishLabel) + ")" : ""}</span><span>${breakdown.finishSurchargeCentavos > 0 ? formatPHP(breakdown.finishSurchargeCentavos) : "Included"}</span></div>
         <div class="summary-row"><span>VAT (12%)</span><span>${formatPHP(breakdown.vatCentavos)}</span></div>
         <div class="summary-row total"><span>Unit price, incl. VAT</span><span>${formatPHP(breakdown.unitInclVatCentavos)}</span></div>
         <div class="qty-row">
@@ -1614,6 +2337,7 @@ function renderConfigurator() {
     ? Object.entries(product.leather.grades).filter(([, v]) => v != null).map(([g, usd]) => `<tr><td>Leather Grade ${g}</td><td>${formatPHP(usdToPhpCentavos(usd))}</td></tr>`).join("")
     : "";
   const riserRow = product.leather && product.leather.riser != null ? `<tr><td>Grade riser (grade 16+)</td><td>${formatPHP(usdToPhpCentavos(product.leather.riser))}</td></tr>` : "";
+  const finishRows = availableFinishOptions(product).map((o) => `<tr><td>${escapeHtml(o.label)} surcharge</td><td>${formatPHP(usdToPhpCentavos(o.usd))}</td></tr>`).join("");
 
   const d = product.dims;
   const dimsRows = [
@@ -1655,7 +2379,7 @@ function renderConfigurator() {
           <div class="expand-body schedule-table-wrap">
             <table class="schedule-table">
               <thead><tr><th>Covering</th><th>Price</th></tr></thead>
-              <tbody>${scheduleRows}${leatherRows}${riserRow}</tbody>
+              <tbody>${scheduleRows}${leatherRows}${riserRow}${finishRows}</tbody>
             </table>
           </div>
         </details>
@@ -1718,6 +2442,10 @@ function bindConfiguratorEvents(product) {
     if (fabricRefInput) fabricRefInput.addEventListener("input", () => { state.config.fabricRef = fabricRefInput.value; });
   }
 
+  el.querySelectorAll('input[name="finishKey"]').forEach((radio) => {
+    radio.addEventListener("change", () => { state.config.finishKey = radio.value; renderConfigurator(); });
+  });
+
   const qtyInput = document.getElementById("qtyInput");
   if (qtyInput) {
     qtyInput.addEventListener("change", () => {
@@ -1737,7 +2465,7 @@ function bindConfiguratorEvents(product) {
 
 // ---------------- Cart / Quotation ----------------
 function configSignature(sku, cfg, breakdown) {
-  return [sku, cfg.coveringType, cfg.fabricGrade, cfg.fabricGradeCustom, cfg.leatherGrade, cfg.comCustomPricePhp, (cfg.fabricRef || "").trim().toLowerCase(), breakdown.coveringCentavos].join("|");
+  return [sku, cfg.coveringType, cfg.fabricGrade, cfg.fabricGradeCustom, cfg.leatherGrade, cfg.comCustomPricePhp, (cfg.fabricRef || "").trim().toLowerCase(), breakdown.coveringCentavos, cfg.finishKey || "standard"].join("|");
 }
 
 function addToQuotation(product) {
@@ -1758,7 +2486,9 @@ function addToQuotation(product) {
       collection: product.collection,
       coveringLabel: breakdown.coveringLabel,
       fabricRef: cfg.fabricRef || "",
-      finishLabel: product.standardFinish || product.frameMaterial || "Standard",
+      finishLabel: breakdown.finishSurchargeCentavos > 0
+        ? `${product.standardFinish || product.frameMaterial || "Standard"} + ${breakdown.finishLabel} (+${formatPHP(breakdown.finishSurchargeCentavos)})`
+        : (product.standardFinish || product.frameMaterial || "Standard"),
       dimsText: dimsSummary(product.dims),
       quantity: qty,
       unitPriceBeforeVatCentavos: breakdown.subtotalCentavos,
