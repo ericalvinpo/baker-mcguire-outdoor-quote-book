@@ -71,6 +71,7 @@ function generateQuotationPdf(quotation, lines, totals) {
     const configParts = [line.coveringLabel];
     if (line.fabricRef) configParts.push(`Ref: ${line.fabricRef}`);
     if (line.finishLabel) configParts.push(`Finish: ${line.finishLabel}`);
+    if (line.addonsText) configParts.push(`Add-ons: ${line.addonsText}`);
     const dimStr = line.dimsText || "";
     return [
       `${line.name}\n${line.sku}`,
