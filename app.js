@@ -177,10 +177,23 @@ function renderProductDetail() {
 }
 
 // ---------------- Configurator ----------------
+function defaultAddonConfig(product) {
+  const groups = availableAddonGroups(product);
+  const cfg = { seat: null, back: null, throwFill: null, throwQty: 0, swivel: null, selfDecking: null, contrastWelt: null, toggles: {} };
+  if (!groups) return cfg;
+  if (groups.seat.length) cfg.seat = groups.seat[0].key;
+  if (groups.back.length) cfg.back = groups.back[0].key;
+  if (groups.throwFill.length) cfg.throwFill = groups.throwFill[0].key;
+  if (groups.swivel.length) cfg.swivel = groups.swivel[0].key;
+  if (groups.selfDecking.length) cfg.selfDecking = groups.selfDecking[0].key;
+  if (groups.contrastWelt.length) cfg.contrastWelt = groups.contrastWelt[0].key;
+  return cfg;
+}
+
 function defaultConfigForProduct(product) {
   const coverings = availableCoverings(product);
   const type = coverings[0];
-  const cfg = { coveringType: type, fabricGrade: 1, fabricGradeCustom: 16, leatherGrade: null, comCustomPricePhp: null, fabricRef: "", quantity: 1, finishKey: "standard" };
+  const cfg = { coveringType: type, fabricGrade: 1, fabricGradeCustom: 16, leatherGrade: null, comCustomPricePhp: null, fabricRef: "", quantity: 1, finishKey: "standard", addons: defaultAddonConfig(product) };
   if (type === "fabric") {
     const firstAvailable = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].find((g) => product.fabric["g" + g] != null);
     cfg.fabricGrade = firstAvailable || 1;
@@ -203,6 +216,7 @@ function selectProduct(sku) {
   document.getElementById("scheduleWrap").hidden = false;
   renderCoveringPanel();
   renderFinishPanel();
+  renderAddonsPanel();
   renderSchedulePanel();
   renderSummary();
 }
@@ -333,6 +347,85 @@ function renderFinishPanel() {
   });
 }
 
+// ---- Optional add-ons ----
+function addonSelectRow(label, sub, options, selectedKey, onChange) {
+  if (!options.length) return "";
+  const id = "addonSel_" + label.replace(/\W+/g, "");
+  const opts = options.map((o) => {
+    const price = usdToPhpCentavos(o.usd) === 0 ? "included" : "+" + formatPHP(Math.round(usdToPhpCentavos(o.usd) * (1 + VAT_RATE)));
+    return `<option value="${o.key}" ${selectedKey === o.key ? "selected" : ""}>${escapeHtml(o.label)} (${price})</option>`;
+  }).join("");
+  return { html: `<div class="addon-row"><div><div class="addon-label">${label}</div>${sub ? `<div class="addon-sub">${sub}</div>` : ""}</div><select id="${id}">${opts}</select></div>`, id, onChange };
+}
+
+function renderAddonsPanel() {
+  const product = currentProduct();
+  const wrap = document.getElementById("addonsWrap");
+  const groups = availableAddonGroups(product);
+  if (!groups) { wrap.hidden = true; return; }
+  wrap.hidden = false;
+  const cfg = state.config.addons;
+  const body = document.getElementById("addonsBody");
+  const rows = [];
+  const binders = [];
+
+  if (groups.seat.length) {
+    const r = addonSelectRow("Seat cushion fill", "Baker Comfort standard unless noted", groups.seat, cfg.seat);
+    rows.push(r.html); binders.push([r.id, (v) => { cfg.seat = v; }]);
+  }
+  if (groups.back.length) {
+    const r = addonSelectRow("Back pillow fill", "Baker Comfort standard unless noted", groups.back, cfg.back);
+    rows.push(r.html); binders.push([r.id, (v) => { cfg.back = v; }]);
+  }
+  if (groups.throwFill.length) {
+    const opts = groups.throwFill.map((o) => {
+      const price = formatPHP(Math.round(usdToPhpCentavos(o.usd) * (1 + VAT_RATE)));
+      return `<option value="${o.key}" ${cfg.throwFill === o.key ? "selected" : ""}>${escapeHtml(o.label)} (${price} ea.)</option>`;
+    }).join("");
+    rows.push(`<div class="addon-row">
+      <div><div class="addon-label">Throw pillow(s)</div><div class="addon-sub">Priced per pillow, added on top</div></div>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+        <select id="addonThrowFill">${opts}</select>
+        <div class="stepper"><button type="button" id="throwMinus">&minus;</button><span id="throwQtyDisplay">${cfg.throwQty}</span><button type="button" id="throwPlus">+</button></div>
+      </div>
+    </div>`);
+  }
+  if (groups.swivel.length) {
+    const r = addonSelectRow("Swivel base", "Hidden base, stationary or rotating", groups.swivel, cfg.swivel);
+    rows.push(r.html); binders.push([r.id, (v) => { cfg.swivel = v; }]);
+  }
+  if (groups.selfDecking.length) {
+    const r = addonSelectRow("Self decking", "Covers the underside of the piece", groups.selfDecking, cfg.selfDecking);
+    rows.push(r.html); binders.push([r.id, (v) => { cfg.selfDecking = v; }]);
+  }
+  if (groups.contrastWelt.length) {
+    const r = addonSelectRow("Contrast welt", "Accent trim in a contrasting material", groups.contrastWelt, cfg.contrastWelt);
+    rows.push(r.html); binders.push([r.id, (v) => { cfg.contrastWelt = v; }]);
+  }
+  groups.toggles.forEach((o) => {
+    const price = usdToPhpCentavos(o.usd) === 0 ? "included" : "+" + formatPHP(Math.round(usdToPhpCentavos(o.usd) * (1 + VAT_RATE)));
+    const id = "addonToggle_" + o.key;
+    rows.push(`<div class="addon-row"><div class="addon-label">${escapeHtml(o.label)}</div><label class="addon-toggle"><input type="checkbox" id="${id}" ${cfg.toggles[o.key] ? "checked" : ""}/> <span class="addon-sub">${price}</span></label></div>`);
+  });
+
+  body.innerHTML = rows.length ? rows.join("") : `<span class="addon-sub">No optional upgrades are listed for this model.</span>`;
+
+  binders.forEach(([id, setter]) => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener("change", () => { setter(el.value); renderSummary(); });
+  });
+  const throwFillSel = document.getElementById("addonThrowFill");
+  if (throwFillSel) throwFillSel.addEventListener("change", () => { cfg.throwFill = throwFillSel.value; renderSummary(); });
+  const throwMinus = document.getElementById("throwMinus");
+  const throwPlus = document.getElementById("throwPlus");
+  if (throwMinus) throwMinus.addEventListener("click", () => { cfg.throwQty = Math.max(0, cfg.throwQty - 1); renderAddonsPanel(); renderSummary(); });
+  if (throwPlus) throwPlus.addEventListener("click", () => { cfg.throwQty = Math.min(6, cfg.throwQty + 1); renderAddonsPanel(); renderSummary(); });
+  groups.toggles.forEach((o) => {
+    const el = document.getElementById("addonToggle_" + o.key);
+    if (el) el.addEventListener("change", () => { cfg.toggles[o.key] = el.checked; renderSummary(); });
+  });
+}
+
 // ---- Price schedule ----
 function renderSchedulePanel() {
   const product = currentProduct();
@@ -393,6 +486,7 @@ function renderSummary() {
     { label: breakdown.coveringLabel, value: breakdown.coveringCentavos },
     { label: breakdown.finishSurchargeCentavos > 0 ? `Finish — ${breakdown.finishLabel}` : "Frame finish", value: breakdown.finishSurchargeCentavos, muted: breakdown.finishSurchargeCentavos === 0 },
   ];
+  (breakdown.addonLines || []).forEach((l) => lines.push({ label: l.label, value: l.centavos, muted: l.muted }));
   document.getElementById("lineItems").innerHTML = lines.map((l) =>
     `<div class="line-item${l.muted ? " muted" : ""}"><span class="li-label">${escapeHtml(l.label)}</span><span class="li-val">${l.muted ? "Included" : formatPHP(l.value)}</span></div>`
   ).join("");
@@ -414,8 +508,13 @@ function bindQtyStepper() {
 }
 
 // ---------------- Cart / Quotation ----------------
+function addonSignature(addons) {
+  if (!addons) return "";
+  const t = addons.toggles || {};
+  return [addons.seat, addons.back, addons.throwFill, addons.throwQty, addons.swivel, addons.selfDecking, addons.contrastWelt, Object.keys(t).filter((k) => t[k]).sort().join(",")].join("|");
+}
 function configSignature(sku, cfg, breakdown) {
-  return [sku, cfg.coveringType, cfg.fabricGrade, cfg.fabricGradeCustom, cfg.leatherGrade, cfg.comCustomPricePhp, (cfg.fabricRef || "").trim().toLowerCase(), breakdown.coveringCentavos, cfg.finishKey || "standard"].join("|");
+  return [sku, cfg.coveringType, cfg.fabricGrade, cfg.fabricGradeCustom, cfg.leatherGrade, cfg.comCustomPricePhp, (cfg.fabricRef || "").trim().toLowerCase(), breakdown.coveringCentavos, cfg.finishKey || "standard", addonSignature(cfg.addons)].join("|");
 }
 
 function addToQuotation() {
@@ -441,6 +540,7 @@ function addToQuotation() {
       finishLabel: breakdown.finishSurchargeCentavos > 0
         ? `${product.standardFinish || product.frameMaterial || "Standard"} + ${breakdown.finishLabel} (+${formatPHP(breakdown.finishSurchargeCentavos)})`
         : (product.standardFinish || product.frameMaterial || "Standard"),
+      addonsText: (breakdown.addonLines || []).filter((l) => !l.muted).map((l) => `${l.label} (+${formatPHP(l.centavos)})`).join("; "),
       dimsText: dimsSummary(product.dims),
       quantity: qty,
       unitPriceBeforeVatCentavos: breakdown.subtotalCentavos,
@@ -497,6 +597,7 @@ function renderCheckout() {
         <div class="cart-item-config">
           ${escapeHtml(l.coveringLabel)}${l.fabricRef ? " &mdash; " + escapeHtml(l.fabricRef) : ""}<br/>
           Finish: ${escapeHtml(l.finishLabel)}${l.dimsText ? " · " + escapeHtml(l.dimsText) : ""}
+          ${l.addonsText ? "<br/>Add-ons: " + escapeHtml(l.addonsText) : ""}
         </div>
         <div class="cart-item-bottom">
           <div class="stepper">
