@@ -125,8 +125,88 @@ function computeCoveringCentavos(product, config) {
   return { ok: false, error: "Select a covering." };
 }
 
-// Optional upgrades (seat cushion/back pillow/throw pillow/swivel) are not priced anywhere in this
-// catalogue's outdoor collection (verified against source), so extrasCentavos stays 0 for now.
+// ---------------- Optional add-ons ----------------
+// Only ~39% of the catalogue (mainly Baker Originals-family upholstery collections and
+// Bespoke Seating) lists priced construction/cushion-fill add-ons in the source PDF;
+// product.addons is null for everything else, and availableAddonGroups reflects that.
+const SEAT_FILL_DEFS = [
+  ["seatComfort", "Baker Comfort"], ["seatComfortPlush", "Baker Comfort Plush"],
+  ["seatFiberlux", "Baker Fiberlux"], ["seatFirmSpringDown", "Baker Firm Spring Down"],
+  ["seatCrown", "Baker Crown"], ["seatCrownSupport", "Baker Crown Support"],
+];
+const BACK_FILL_DEFS = [
+  ["backComfort", "Baker Comfort"], ["backComfortPlush", "Baker Comfort Plush"],
+  ["backComfortUltraplush", "Baker Comfort Ultraplush"], ["backFiberlux", "Baker Fiberlux"],
+];
+const THROW_FILL_DEFS = [
+  ["throwComfortPlush", "Baker Comfort Plush"], ["throwComfortUltraplush", "Baker Comfort Ultraplush"],
+  ["throwFiberlux", "Baker Fiberlux"],
+];
+const SWIVEL_DEFS = [["swivel180", "180° Swivel"], ["swivel360", "360° Swivel"]];
+const SELF_DECKING_DEFS = [["selfDeckingFabric", "Fabric"], ["selfDeckingCom", "COM"]];
+const CONTRAST_WELT_DEFS = [["contrastWeltFabric", "Fabric"], ["contrastWeltLeather", "Leather"]];
+const TOGGLE_DEFS = [
+  ["topStitching", "Top Stitching"], ["buttonedOption", "Buttoned Option"],
+  ["tallTaperedFoot", "Tall Tapered Foot"], ["blockFoot", "Block Foot"],
+  ["casterLeg", "Caster Leg"], ["plinthBase", "Plinth Base"],
+];
+
+function availableAddonGroups(product) {
+  const a = product.addons;
+  if (!a) return null;
+  const filt = (defs) => defs.filter(([k]) => a[k] != null).map(([key, label]) => ({ key, label, usd: a[key] }));
+  const groups = {
+    seat: filt(SEAT_FILL_DEFS), back: filt(BACK_FILL_DEFS), throwFill: filt(THROW_FILL_DEFS),
+    swivel: filt(SWIVEL_DEFS), selfDecking: filt(SELF_DECKING_DEFS), contrastWelt: filt(CONTRAST_WELT_DEFS),
+    toggles: filt(TOGGLE_DEFS),
+  };
+  const hasAny = Object.values(groups).some((g) => g.length > 0);
+  return hasAny ? groups : null;
+}
+
+/**
+ * addonConfig = {
+ *   seat: key|null, back: key|null,
+ *   throwFill: key|null, throwQty: integer >=0,
+ *   swivel: key|null, selfDecking: key|null, contrastWelt: key|null,
+ *   toggles: { [key]: boolean },
+ * }
+ */
+function computeAddonsBreakdown(product, addonConfig) {
+  const groups = availableAddonGroups(product);
+  if (!groups) return { lines: [], totalCentavos: 0 };
+  const cfg = addonConfig || {};
+  const lines = [];
+
+  const pickSingle = (groupList, selectedKey, labelPrefix) => {
+    if (!groupList.length) return;
+    const opt = groupList.find((o) => o.key === selectedKey) || groupList[0];
+    const centavos = usdToPhpCentavos(opt.usd);
+    lines.push({ label: `${labelPrefix} — ${opt.label}`, key: opt.key, centavos, muted: centavos === 0 });
+  };
+
+  pickSingle(groups.seat, cfg.seat, "Seat cushion");
+  pickSingle(groups.back, cfg.back, "Back pillow");
+  if (groups.throwFill.length && (cfg.throwQty || 0) > 0) {
+    const opt = groups.throwFill.find((o) => o.key === cfg.throwFill) || groups.throwFill[0];
+    const qty = cfg.throwQty || 0;
+    const centavos = usdToPhpCentavos(opt.usd) * qty;
+    lines.push({ label: `Throw pillow ×${qty} — ${opt.label}`, key: opt.key, centavos, muted: centavos === 0 });
+  }
+  pickSingle(groups.swivel, cfg.swivel, "Swivel base");
+  pickSingle(groups.selfDecking, cfg.selfDecking, "Self decking");
+  pickSingle(groups.contrastWelt, cfg.contrastWelt, "Contrast welt");
+  groups.toggles.forEach((opt) => {
+    if (cfg.toggles && cfg.toggles[opt.key]) {
+      const centavos = usdToPhpCentavos(opt.usd);
+      lines.push({ label: opt.label, key: opt.key, centavos, muted: centavos === 0 });
+    }
+  });
+
+  const totalCentavos = lines.reduce((s, l) => s + l.centavos, 0);
+  return { lines, totalCentavos };
+}
+
 function computeUnitBreakdown(product, config) {
   const covering = computeCoveringCentavos(product, config);
   if (!covering.ok) return covering;
@@ -141,7 +221,9 @@ function computeUnitBreakdown(product, config) {
     finishLabel = opt.label;
     finishSurchargeCentavos = usdToPhpCentavos(opt.usd);
   }
-  const extrasCentavos = 0; // no product in this catalogue has priced optional upgrades
+
+  const addonsBreakdown = computeAddonsBreakdown(product, config.addons);
+  const extrasCentavos = addonsBreakdown.totalCentavos;
 
   const subtotalCentavos = covering.coveringCentavos + finishSurchargeCentavos + extrasCentavos;
   const vatCentavos = Math.round(subtotalCentavos * VAT_RATE);
@@ -153,6 +235,7 @@ function computeUnitBreakdown(product, config) {
     coveringLabel: covering.coveringLabel,
     finishLabel,
     finishSurchargeCentavos,
+    addonLines: addonsBreakdown.lines,
     extrasCentavos,
     subtotalCentavos,
     vatCentavos,
