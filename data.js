@@ -35,6 +35,7 @@ const PRODUCTS = [
   fabric: fab([10860, 10929, 10995, 11130, 11265, 11400, 11535, 11670, 11805, 11940, 12075, 12210, 12345, 12480, 12615, 12750]),
   leather: leather([12615, 13290, 13830, 14370], 135),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -45,6 +46,7 @@ const PRODUCTS = [
   fabric: fab([4197, 4239, 4278, 4359, 4440, 4521, 4602, 4683, 4764, 4845, 4926, 5007, 5088, 5169, 5250, 5331]),
   leather: leather(null, 81),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -55,6 +57,7 @@ const PRODUCTS = [
   fabric: fab([3120, 3138, 3153, 3186, 3219, 3252, 3285, 3318, 3351, 3384, 3417, 3450, 3483, 3516, 3549, 3582]),
   leather: leather(null, 33),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -65,6 +68,7 @@ const PRODUCTS = [
   fabric: fab([3222, 3252, 3282, 3342, 3402, 3462, 3522, 3582, 3642, 3702, 3762, 3822, 3882, 3942, 4002, 4062]),
   leather: leather(null, 60),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -75,6 +79,7 @@ const PRODUCTS = [
   fabric: fab([1953, 1974, 1995, 2037, 2079, 2121, 2163, 2205, 2247, 2289, 2331, 2373, 2415, 2457, 2499, 2541]),
   leather: leather(null, 42),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -85,6 +90,7 @@ const PRODUCTS = [
   fabric: fab([4218, 4263, 4305, 4392, 4479, 4566, 4653, 4740, 4827, 4914, 5001, 5088, 5175, 5262, 5349, 5436]),
   leather: leather(null, 87),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -95,6 +101,7 @@ const PRODUCTS = [
   fabric: fab([4866, 4917, 4965, 5064, 5163, 5262, 5361, 5460, 5559, 5658, 5757, 5856, 5955, 6054, 6153, 6252]),
   leather: leather(null, 99),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -105,6 +112,7 @@ const PRODUCTS = [
   fabric: fab([5064, 5142, 5217, 5370, 5523, 5676, 5829, 5982, 6135, 6288, 6441, 6594, 6747, 6900, 7053, 7206]),
   leather: leather(null, 153),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -115,6 +123,7 @@ const PRODUCTS = [
   fabric: fab([4320, 4347, 4371, 4422, 4473, 4524, 4575, 4626, 4677, 4728, 4779, 4830, 4881, 4932, 4983, 5034]),
   leather: leather([4983, 5238, 5442, 5646], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -125,6 +134,7 @@ const PRODUCTS = [
   fabric: fab([4362, 4380, 4398, 4434, 4470, 4506, 4542, 4578, 4614, 4650, 4686, 4722, 4758, 4794, 4830, 4866]),
   leather: leather([4830, 5010, 5154, 5298], 36),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -135,6 +145,7 @@ const PRODUCTS = [
   fabric: fab([6801, 6870, 6936, 7071, 7206, 7341, 7476, 7611, 7746, 7881, 8016, 8151, 8286, 8421, 8556, 8691]),
   leather: leather(null, 135),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -145,6 +156,7 @@ const PRODUCTS = [
   fabric: fab([2616, 2667, 2715, 2814, 2913, 3012, 3111, 3210, 3309, 3408, 3507, 3606, 3705, 3804, 3903, 4002]),
   leather: leather(null, 99),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -155,6 +167,7 @@ const PRODUCTS = [
   fabric: fab([7101, 7170, 7236, 7371, 7506, 7641, 7776, 7911, 8046, 8181, 8316, 8451, 8586, 8721, 8856, 8991]),
   leather: leather(null, 135),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -165,6 +178,7 @@ const PRODUCTS = [
   fabric: fab([7101, 7170, 7236, 7371, 7506, 7641, 7776, 7911, 8046, 8181, 8316, 8451, 8586, 8721, 8856, 8991]),
   leather: leather(null, 135),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -175,6 +189,7 @@ const PRODUCTS = [
   fabric: fab([8001, 8070, 8136, 8271, 8406, 8541, 8676, 8811, 8946, 9081, 9216, 9351, 9486, 9621, 9756, 9891]),
   leather: leather(null, 135),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -185,6 +200,7 @@ const PRODUCTS = [
   fabric: fab([11262, 11445, 11628, 11994, 12360, 12726, 13092, 13458, 13824, 14190, 14556, 14922, 15288, 15654, 16020, 16386]),
   leather: leather([16020, 17850, 19314, 20778], 366),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -195,6 +211,7 @@ const PRODUCTS = [
   fabric: fab([12198, 12399, 12600, 13002, 13404, 13806, 14208, 14610, 15012, 15414, 15816, 16218, 16620, 17022, 17424, 17826]),
   leather: leather([17424, 19434, 21042, 22650], 402),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -205,6 +222,7 @@ const PRODUCTS = [
   fabric: fab([13152, 13239, 13323, 13494, 13665, 13836, 14007, 14178, 14349, 14520, 14691, 14862, 15033, 15204, 15375, 15546]),
   leather: leather([15375, 16230, 16914, 17598], 171),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -215,6 +233,7 @@ const PRODUCTS = [
   fabric: fab([10083, 10209, 10335, 10587, 10839, 11091, 11343, 11595, 11847, 12099, 12351, 12603, 12855, 13107, 13359, 13611]),
   leather: leather([13359, 14619, 15627, 16635], 252),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -225,6 +244,7 @@ const PRODUCTS = [
   fabric: fab([16872, 16959, 17043, 17214, 17385, 17556, 17727, 17898, 18069, 18240, 18411, 18582, 18753, 18924, 19095, 19266]),
   leather: leather([19095, 19950, 20634, 21318], 171),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -235,6 +255,7 @@ const PRODUCTS = [
   fabric: fab([10683, 10809, 10935, 11187, 11439, 11691, 11943, 12195, 12447, 12699, 12951, 13203, 13455, 13707, 13959, 14211]),
   leather: leather([13959, 15219, 16227, 17235], 252),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -245,6 +266,7 @@ const PRODUCTS = [
   fabric: fab([19005, 19128, 19248, 19491, 19734, 19977, 20220, 20463, 20706, 20949, 21192, 21435, 21678, 21921, 22164, 22407]),
   leather: leather([22164, 23379, 24351, 25323], 243),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -255,6 +277,7 @@ const PRODUCTS = [
   fabric: fab([15063, 15240, 15414, 15765, 16116, 16467, 16818, 17169, 17520, 17871, 18222, 18573, 18924, 19275, 19626, 19977]),
   leather: leather([19626, 21381, 22785, 24189], 351),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -265,6 +288,7 @@ const PRODUCTS = [
   fabric: fab([3984, 4017, 4047, 4110, 4173, 4236, 4299, 4362, 4425, 4488, 4551, 4614, 4677, 4740, 4803, 4866]),
   leather: leather([4803, 5118, 5370, 5622], 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -275,6 +299,7 @@ const PRODUCTS = [
   fabric: fab([4101, 4128, 4155, 4209, 4263, 4317, 4371, 4425, 4479, 4533, 4587, 4641, 4695, 4749, 4803, 4857]),
   leather: leather([4803, 5073, 5289, 5505], 54),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -285,6 +310,7 @@ const PRODUCTS = [
   fabric: fab([3381, 3435, 3486, 3591, 3696, 3801, 3906, 4011, 4116, 4221, 4326, 4431, 4536, 4641, 4746, 4851]),
   leather: leather(null, 105),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -295,6 +321,7 @@ const PRODUCTS = [
   fabric: fab([5595, 5622, 5649, 5703, 5757, 5811, 5865, 5919, 5973, 6027, 6081, 6135, 6189, 6243, 6297, 6351]),
   leather: leather(null, 54),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -305,6 +332,7 @@ const PRODUCTS = [
   fabric: fab([8862, 8925, 8988, 9114, 9240, 9366, 9492, 9618, 9744, 9870, 9996, 10122, 10248, 10374, 10500, 10626]),
   leather: leather(null, 126),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -315,6 +343,7 @@ const PRODUCTS = [
   fabric: fab([2826, 2844, 2862, 2898, 2934, 2970, 3006, 3042, 3078, 3114, 3150, 3186, 3222, 3258, 3294, 3330]),
   leather: leather(null, 36),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -325,6 +354,7 @@ const PRODUCTS = [
   fabric: fab([11664, 11742, 11817, 11970, 12123, 12276, 12429, 12582, 12735, 12888, 13041, 13194, 13347, 13500, 13653, 13806]),
   leather: leather(null, 153),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -335,6 +365,7 @@ const PRODUCTS = [
   fabric: fab([6195, 6222, 6249, 6303, 6357, 6411, 6465, 6519, 6573, 6627, 6681, 6735, 6789, 6843, 6897, 6951]),
   leather: leather(null, 54),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -345,6 +376,7 @@ const PRODUCTS = [
   fabric: fab([6312, 6357, 6399, 6486, 6573, 6660, 6747, 6834, 6921, 7008, 7095, 7182, 7269, 7356, 7443, 7530]),
   leather: leather(null, 87),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -355,6 +387,7 @@ const PRODUCTS = [
   fabric: fab([7851, 7899, 7947, 8043, 8139, 8235, 8331, 8427, 8523, 8619, 8715, 8811, 8907, 9003, 9099, 9195]),
   leather: leather(null, 96),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -365,6 +398,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -375,6 +409,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -385,6 +420,7 @@ const PRODUCTS = [
   fabric: fab([4053, 4074, 4095, 4137, 4179, 4221, 4263, 4305, 4347, 4389, 4431, 4473, 4515, 4557, 4599, 4641]),
   leather: leather([4599, 4809, 4977, 5145], 42),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -395,6 +431,7 @@ const PRODUCTS = [
   fabric: fab([7485, 7566, 7644, 7803, 7962, 8121, 8280, 8439, 8598, 8757, 8916, 9075, 9234, 9393, 9552, 9711]),
   leather: leather([9552, 10347, 10983, 11619], 159),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -405,6 +442,7 @@ const PRODUCTS = [
   fabric: fab([4734, 4767, 4797, 4860, 4923, 4986, 5049, 5112, 5175, 5238, 5301, 5364, 5427, 5490, 5553, 5616]),
   leather: leather([5553, 5868, 6120, 6372], 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -415,6 +453,7 @@ const PRODUCTS = [
   fabric: fab([5736, 5781, 5826, 5916, 6006, 6096, 6186, 6276, 6366, 6456, 6546, 6636, 6726, 6816, 6906, 6996]),
   leather: leather([6906, 7356, 7716, 8076], 90),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -425,6 +464,7 @@ const PRODUCTS = [
   fabric: fab([5034, 5067, 5097, 5160, 5223, 5286, 5349, 5412, 5475, 5538, 5601, 5664, 5727, 5790, 5853, 5916]),
   leather: leather([5853, 6168, 6420, 6672], 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -435,6 +475,7 @@ const PRODUCTS = [
   fabric: fab([5034, 5067, 5097, 5160, 5223, 5286, 5349, 5412, 5475, 5538, 5601, 5664, 5727, 5790, 5853, 5916]),
   leather: leather([5853, 6168, 6420, 6672], 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -445,6 +486,7 @@ const PRODUCTS = [
   fabric: fab([5685, 5724, 5763, 5841, 5919, 5997, 6075, 6153, 6231, 6309, 6387, 6465, 6543, 6621, 6699, 6777]),
   leather: leather([6699, 7089, 7401, 7713], 78),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -455,6 +497,7 @@ const PRODUCTS = [
   fabric: fab([6834, 6867, 6897, 6960, 7023, 7086, 7149, 7212, 7275, 7338, 7401, 7464, 7527, 7590, 7653, 7716]),
   leather: leather([7653, 7968, 8220, 8472], 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -465,6 +508,7 @@ const PRODUCTS = [
   fabric: fab([3453, 3474, 3495, 3537, 3579, 3621, 3663, 3705, 3747, 3789, 3831, 3873, 3915, 3957, 3999, 4041]),
   leather: leather([3999, 4209, 4377, 4545], 42),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -475,6 +519,7 @@ const PRODUCTS = [
   fabric: fab([6234, 6267, 6297, 6360, 6423, 6486, 6549, 6612, 6675, 6738, 6801, 6864, 6927, 6990, 7053, 7116]),
   leather: leather([7053, 7368, 7620, 7872], 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -485,6 +530,7 @@ const PRODUCTS = [
   fabric: fab([6318, 6363, 6405, 6492, 6579, 6666, 6753, 6840, 6927, 7014, 7101, 7188, 7275, 7362, 7449, 7536]),
   leather: leather([7449, 7884, 8232, 8580], 87),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -495,6 +541,7 @@ const PRODUCTS = [
   fabric: fab([7632, 7698, 7764, 7896, 8028, 8160, 8292, 8424, 8556, 8688, 8820, 8952, 9084, 9216, 9348, 9480]),
   leather: leather([9348, 10008, 10536, 11064], 132),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -505,6 +552,7 @@ const PRODUCTS = [
   fabric: fab([5181, 5223, 5262, 5343, 5424, 5505, 5586, 5667, 5748, 5829, 5910, 5991, 6072, 6153, 6234, 6315]),
   leather: leather([6234, 6639, 6963, 7287], 81),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -515,6 +563,7 @@ const PRODUCTS = [
   fabric: fab([2883, 2901, 2916, 2949, 2982, 3015, 3048, 3081, 3114, 3147, 3180, 3213, 3246, 3279, 3312, 3345]),
   leather: leather([3312, 3477, 3609, 3741], 33),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -525,6 +574,7 @@ const PRODUCTS = [
   fabric: fab([9762, 9843, 9924, 10086, 10248, 10410, 10572, 10734, 10896, 11058, 11220, 11382, 11544, 11706, 11868, 12030]),
   leather: leather([11868, 12678, 13326, 13974], 162),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -535,6 +585,7 @@ const PRODUCTS = [
   fabric: fab([14790, 14910, 15030, 15270, 15510, 15750, 15990, 16230, 16470, 16710, 16950, 17190, 17430, 17670, 17910, 18150]),
   leather: leather([17910, 19110, 20070, 21030], 240),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -545,6 +596,7 @@ const PRODUCTS = [
   fabric: fab([7596, 7644, 7692, 7788, 7884, 7980, 8076, 8172, 8268, 8364, 8460, 8556, 8652, 8748, 8844, 8940]),
   leather: leather([8844, 9324, 9708, 10092], 96),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -555,6 +607,7 @@ const PRODUCTS = [
   fabric: fab([4101, 4128, 4152, 4203, 4254, 4305, 4356, 4407, 4458, 4509, 4560, 4611, 4662, 4713, 4764, 4815]),
   leather: leather([4764, 5019, 5223, 5427], 51),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -565,6 +618,7 @@ const PRODUCTS = [
   fabric: fab([8841, 8913, 8982, 9123, 9264, 9405, 9546, 9687, 9828, 9969, 10110, 10251, 10392, 10533, 10674, 10815]),
   leather: leather([10674, 11379, 11943, 12507], 141),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -575,6 +629,7 @@ const PRODUCTS = [
   fabric: fab([3027, 3042, 3054, 3081, 3108, 3135, 3162, 3189, 3216, 3243, 3270, 3297, 3324, 3351, 3378, 3405]),
   leather: leather([3378, 3513, 3621, 3729], 27),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -585,6 +640,7 @@ const PRODUCTS = [
   fabric: fab([3024, 3036, 3048, 3072, 3096, 3120, 3144, 3168, 3192, 3216, 3240, 3264, 3288, 3312, 3336, 3360]),
   leather: leather([3336, 3456, 3552, 3648], 24),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -595,6 +651,7 @@ const PRODUCTS = [
   fabric: fab([3228, 3261, 3291, 3354, 3417, 3480, 3543, 3606, 3669, 3732, 3795, 3858, 3921, 3984, 4047, 4110]),
   leather: leather(null, 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -605,6 +662,7 @@ const PRODUCTS = [
   fabric: fab([10431, 10503, 10575, 10719, 10863, 11007, 11151, 11295, 11439, 11583, 11727, 11871, 12015, 12159, 12303, 12447]),
   leather: leather(null, 144),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -615,6 +673,7 @@ const PRODUCTS = [
   fabric: fab([5862, 5925, 5988, 6114, 6240, 6366, 6492, 6618, 6744, 6870, 6996, 7122, 7248, 7374, 7500, 7626]),
   leather: leather(null, 126),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -625,6 +684,7 @@ const PRODUCTS = [
   fabric: fab([5136, 5181, 5226, 5316, 5406, 5496, 5586, 5676, 5766, 5856, 5946, 6036, 6126, 6216, 6306, 6396]),
   leather: leather([6306, 6756, 7116, 7476], 90),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -635,6 +695,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -645,6 +706,7 @@ const PRODUCTS = [
   fabric: fab([2163, 2172, 2181, 2199, 2217, 2235, 2253, 2271, 2289, 2307, 2325, 2343, 2361, 2379, 2397, 2415]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -655,6 +717,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -665,6 +728,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -675,6 +739,7 @@ const PRODUCTS = [
   fabric: fab([1563, 1572, 1581, 1599, 1617, 1635, 1653, 1671, 1689, 1707, 1725, 1743, 1761, 1779, 1797, 1815]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -685,6 +750,7 @@ const PRODUCTS = [
   fabric: fab([1863, 1872, 1881, 1899, 1917, 1935, 1953, 1971, 1989, 2007, 2025, 2043, 2061, 2079, 2097, 2115]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -695,6 +761,7 @@ const PRODUCTS = [
   fabric: fab([1863, 1872, 1881, 1899, 1917, 1935, 1953, 1971, 1989, 2007, 2025, 2043, 2061, 2079, 2097, 2115]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -705,6 +772,7 @@ const PRODUCTS = [
   fabric: fab([2163, 2172, 2181, 2199, 2217, 2235, 2253, 2271, 2289, 2307, 2325, 2343, 2361, 2379, 2397, 2415]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -715,6 +783,7 @@ const PRODUCTS = [
   fabric: fab([1563, 1572, 1581, 1599, 1617, 1635, 1653, 1671, 1689, 1707, 1725, 1743, 1761, 1779, 1797, 1815]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -725,6 +794,7 @@ const PRODUCTS = [
   fabric: fab([4236, 4245, 4254, 4272, 4290, 4308, 4326, 4344, 4362, 4380, 4398, 4416, 4434, 4452, 4470, 4488]),
   leather: leather([4470, 4560, 4632, 4704], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -735,6 +805,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -745,6 +816,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -755,6 +827,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -765,6 +838,7 @@ const PRODUCTS = [
   fabric: fab([2763, 2772, 2781, 2799, 2817, 2835, 2853, 2871, 2889, 2907, 2925, 2943, 2961, 2979, 2997, 3015]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -775,6 +849,7 @@ const PRODUCTS = [
   fabric: fab([2463, 2472, 2481, 2499, 2517, 2535, 2553, 2571, 2589, 2607, 2625, 2643, 2661, 2679, 2697, 2715]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -785,6 +860,7 @@ const PRODUCTS = [
   fabric: fab([2763, 2772, 2781, 2799, 2817, 2835, 2853, 2871, 2889, 2907, 2925, 2943, 2961, 2979, 2997, 3015]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -795,6 +871,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -805,6 +882,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -815,6 +893,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -825,6 +904,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -835,6 +915,7 @@ const PRODUCTS = [
   fabric: fab([4986, 4995, 5004, 5022, 5040, 5058, 5076, 5094, 5112, 5130, 5148, 5166, 5184, 5202, 5220, 5238]),
   leather: leather([5220, 5310, 5382, 5454], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -845,6 +926,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -855,6 +937,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -865,6 +948,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -875,6 +959,7 @@ const PRODUCTS = [
   fabric: fab([4815, 4824, 4833, 4851, 4869, 4887, 4905, 4923, 4941, 4959, 4977, 4995, 5013, 5031, 5049, 5067]),
   leather: leather([5049, 5139, 5211, 5283], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -885,6 +970,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -895,6 +981,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -905,6 +992,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -915,6 +1003,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -925,6 +1014,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -935,6 +1025,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -945,6 +1036,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -955,6 +1047,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -965,6 +1058,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -975,6 +1069,7 @@ const PRODUCTS = [
   fabric: fab([3753, 3774, 3795, 3837, 3879, 3921, 3963, 4005, 4047, 4089, 4131, 4173, 4215, 4257, 4299, 4341]),
   leather: leather([4299, 4509, 4677, 4845], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -985,6 +1080,7 @@ const PRODUCTS = [
   fabric: fab([4053, 4074, 4095, 4137, 4179, 4221, 4263, 4305, 4347, 4389, 4431, 4473, 4515, 4557, 4599, 4641]),
   leather: leather([4599, 4809, 4977, 5145], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -995,6 +1091,7 @@ const PRODUCTS = [
   fabric: fab([3453, 3474, 3495, 3537, 3579, 3621, 3663, 3705, 3747, 3789, 3831, 3873, 3915, 3957, 3999, 4041]),
   leather: leather([3999, 4209, 4377, 4545], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1005,6 +1102,7 @@ const PRODUCTS = [
   fabric: fab([3753, 3774, 3795, 3837, 3879, 3921, 3963, 4005, 4047, 4089, 4131, 4173, 4215, 4257, 4299, 4341]),
   leather: leather([4299, 4509, 4677, 4845], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1015,6 +1113,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1025,6 +1124,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1035,6 +1135,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1045,6 +1146,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1055,6 +1157,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1065,6 +1168,7 @@ const PRODUCTS = [
   fabric: fab([4269, 4278, 4287, 4305, 4323, 4341, 4359, 4377, 4395, 4413, 4431, 4449, 4467, 4485, 4503, 4521]),
   leather: leather([4503, 4593, 4665, 4737], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1075,6 +1179,7 @@ const PRODUCTS = [
   fabric: fab([3969, 3978, 3987, 4005, 4023, 4041, 4059, 4077, 4095, 4113, 4131, 4149, 4167, 4185, 4203, 4221]),
   leather: leather([4203, 4293, 4365, 4437], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1085,6 +1190,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1095,6 +1201,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1105,6 +1212,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1115,6 +1223,7 @@ const PRODUCTS = [
   fabric: fab([3933, 3951, 3966, 3999, 4032, 4065, 4098, 4131, 4164, 4197, 4230, 4263, 4296, 4329, 4362, 4395]),
   leather: leather([4362, 4527, 4659, 4791], 33),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1125,6 +1234,7 @@ const PRODUCTS = [
   fabric: fab([4086, 4104, 4122, 4158, 4194, 4230, 4266, 4302, 4338, 4374, 4410, 4446, 4482, 4518, 4554, 4590]),
   leather: leather([4554, 4734, 4878, 5022], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1135,6 +1245,7 @@ const PRODUCTS = [
   fabric: fab([3318, 3327, 3336, 3354, 3372, 3390, 3408, 3426, 3444, 3462, 3480, 3498, 3516, 3534, 3552, 3570]),
   leather: leather([3552, 3642, 3714, 3786], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1145,6 +1256,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1155,6 +1267,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1165,6 +1278,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1175,6 +1289,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1185,6 +1300,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1195,6 +1311,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1205,6 +1322,7 @@ const PRODUCTS = [
   fabric: fab([5199, 5214, 5226, 5253, 5280, 5307, 5334, 5361, 5388, 5415, 5442, 5469, 5496, 5523, 5550, 5577]),
   leather: leather([5550, 5685, 5793, 5901], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1215,6 +1333,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1225,6 +1344,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1235,6 +1355,7 @@ const PRODUCTS = [
   fabric: fab([4299, 4314, 4326, 4353, 4380, 4407, 4434, 4461, 4488, 4515, 4542, 4569, 4596, 4623, 4650, 4677]),
   leather: leather([4650, 4785, 4893, 5001], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1245,6 +1366,7 @@ const PRODUCTS = [
   fabric: fab([3999, 4014, 4026, 4053, 4080, 4107, 4134, 4161, 4188, 4215, 4242, 4269, 4296, 4323, 4350, 4377]),
   leather: leather([4350, 4485, 4593, 4701], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1255,6 +1377,7 @@ const PRODUCTS = [
   fabric: fab([4269, 4278, 4287, 4305, 4323, 4341, 4359, 4377, 4395, 4413, 4431, 4449, 4467, 4485, 4503, 4521]),
   leather: leather([4503, 4593, 4665, 4737], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1265,6 +1388,7 @@ const PRODUCTS = [
   fabric: fab([3969, 3978, 3987, 4005, 4023, 4041, 4059, 4077, 4095, 4113, 4131, 4149, 4167, 4185, 4203, 4221]),
   leather: leather([4203, 4293, 4365, 4437], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1275,6 +1399,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1285,6 +1410,7 @@ const PRODUCTS = [
   fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1295,6 +1421,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1305,6 +1432,7 @@ const PRODUCTS = [
   fabric: fab([3120, 3138, 3153, 3186, 3219, 3252, 3285, 3318, 3351, 3384, 3417, 3450, 3483, 3516, 3549, 3582]),
   leather: leather([3549, 3714, 3846, 3978], 33),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1315,6 +1443,7 @@ const PRODUCTS = [
   fabric: fab([3099, 3114, 3126, 3153, 3180, 3207, 3234, 3261, 3288, 3315, 3342, 3369, 3396, 3423, 3450, 3477]),
   leather: leather([3450, 3585, 3693, 3801], 27),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1325,6 +1454,7 @@ const PRODUCTS = [
   fabric: fab([3360, 3369, 3375, 3390, 3405, 3420, 3435, 3450, 3465, 3480, 3495, 3510, 3525, 3540, 3555, 3570]),
   leather: leather([3555, 3630, 3690, 3750], 15),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1335,6 +1465,7 @@ const PRODUCTS = [
   fabric: fab([2601, 2610, 2616, 2631, 2646, 2661, 2676, 2691, 2706, 2721, 2736, 2751, 2766, 2781, 2796, 2811]),
   leather: leather([2796, 2871, 2931, 2991], 15),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1345,6 +1476,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1355,6 +1487,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1365,6 +1498,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1375,6 +1509,7 @@ const PRODUCTS = [
   fabric: fab([3783, 3810, 3834, 3885, 3936, 3987, 4038, 4089, 4140, 4191, 4242, 4293, 4344, 4395, 4446, 4497]),
   leather: leather([4446, 4701, 4905, 5109], 51),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1385,6 +1520,7 @@ const PRODUCTS = [
   fabric: fab([4314, 4350, 4386, 4458, 4530, 4602, 4674, 4746, 4818, 4890, 4962, 5034, 5106, 5178, 5250, 5322]),
   leather: leather([5250, 5610, 5898, 6186], 72),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1395,6 +1531,7 @@ const PRODUCTS = [
   fabric: fab([8667, 8766, 8862, 9057, 9252, 9447, 9642, 9837, 10032, 10227, 10422, 10617, 10812, 11007, 11202, 11397]),
   leather: leather([11202, 12177, 12957, 13737], 195),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1405,6 +1542,7 @@ const PRODUCTS = [
   fabric: fab([8067, 8166, 8262, 8457, 8652, 8847, 9042, 9237, 9432, 9627, 9822, 10017, 10212, 10407, 10602, 10797]),
   leather: leather([10602, 11577, 12357, 13137], 195),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1415,6 +1553,7 @@ const PRODUCTS = [
   fabric: fab([7704, 7794, 7881, 8058, 8235, 8412, 8589, 8766, 8943, 9120, 9297, 9474, 9651, 9828, 10005, 10182]),
   leather: leather([10005, 10890, 11598, 12306], 177),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1425,6 +1564,7 @@ const PRODUCTS = [
   fabric: fab([8835, 8934, 9033, 9231, 9429, 9627, 9825, 10023, 10221, 10419, 10617, 10815, 11013, 11211, 11409, 11607]),
   leather: leather([11409, 12399, 13191, 13983], 198),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1435,6 +1575,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1445,6 +1586,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1455,6 +1597,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1465,6 +1608,7 @@ const PRODUCTS = [
   fabric: fab([2871, 2895, 2916, 2961, 3006, 3051, 3096, 3141, 3186, 3231, 3276, 3321, 3366, 3411, 3456, 3501]),
   leather: leather([3456, 3681, 3861, 4041], 45),
   finishTiers: { tier1: 300, tier2: 795, tier3: 1095, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1475,6 +1619,7 @@ const PRODUCTS = [
   fabric: fab([3171, 3195, 3216, 3261, 3306, 3351, 3396, 3441, 3486, 3531, 3576, 3621, 3666, 3711, 3756, 3801]),
   leather: leather([3756, 3981, 4161, 4341], 45),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1485,6 +1630,7 @@ const PRODUCTS = [
   fabric: fab([3201, 3228, 3255, 3309, 3363, 3417, 3471, 3525, 3579, 3633, 3687, 3741, 3795, 3849, 3903, 3957]),
   leather: leather([3903, 4173, 4389, 4605], 54),
   finishTiers: { tier1: 0, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1495,6 +1641,7 @@ const PRODUCTS = [
   fabric: fab([3333, 3360, 3384, 3435, 3486, 3537, 3588, 3639, 3690, 3741, 3792, 3843, 3894, 3945, 3996, 4047]),
   leather: leather([3996, 4251, 4455, 4659], 51),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1505,6 +1652,7 @@ const PRODUCTS = [
   fabric: fab([2895, 2922, 2949, 3003, 3057, 3111, 3165, 3219, 3273, 3327, 3381, 3435, 3489, 3543, 3597, 3651]),
   leather: leather([3597, 3867, 4083, 4299], 54),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1515,6 +1663,7 @@ const PRODUCTS = [
   fabric: fab([3201, 3228, 3255, 3309, 3363, 3417, 3471, 3525, 3579, 3633, 3687, 3741, 3795, 3849, 3903, 3957]),
   leather: leather([3903, 4173, 4389, 4605], 54),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1525,6 +1674,7 @@ const PRODUCTS = [
   fabric: fab([3783, 3810, 3834, 3885, 3936, 3987, 4038, 4089, 4140, 4191, 4242, 4293, 4344, 4395, 4446, 4497]),
   leather: leather([4446, 4701, 4905, 5109], 51),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1535,6 +1685,7 @@ const PRODUCTS = [
   fabric: fab([3783, 3810, 3834, 3885, 3936, 3987, 4038, 4089, 4140, 4191, 4242, 4293, 4344, 4395, 4446, 4497]),
   leather: leather([4446, 4701, 4905, 5109], 51),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1545,6 +1696,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 2850, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1555,6 +1707,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1565,6 +1718,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1575,6 +1729,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 4350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1585,6 +1740,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1595,6 +1751,7 @@ const PRODUCTS = [
   fabric: fab([3132, 3150, 3168, 3204, 3240, 3276, 3312, 3348, 3384, 3420, 3456, 3492, 3528, 3564, 3600, 3636]),
   leather: leather([3600, 3780, 3924, 4068], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1605,6 +1762,7 @@ const PRODUCTS = [
   fabric: fab([2982, 3000, 3018, 3054, 3090, 3126, 3162, 3198, 3234, 3270, 3306, 3342, 3378, 3414, 3450, 3486]),
   leather: leather([3450, 3630, 3774, 3918], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1615,6 +1773,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1625,6 +1784,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1635,6 +1795,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1645,6 +1806,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1655,6 +1817,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1665,6 +1828,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1675,6 +1839,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1685,6 +1850,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1695,6 +1861,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1705,6 +1872,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1715,6 +1883,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1725,6 +1894,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1735,6 +1905,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1745,6 +1916,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1755,6 +1927,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1765,6 +1938,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1775,6 +1949,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1785,6 +1960,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1795,6 +1971,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1805,6 +1982,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1815,6 +1993,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1825,6 +2004,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1835,6 +2015,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1845,6 +2026,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1855,6 +2037,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1865,6 +2048,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1875,6 +2059,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1885,6 +2070,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1895,6 +2081,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1905,6 +2092,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1915,6 +2103,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -1925,6 +2114,7 @@ const PRODUCTS = [
   fabric: fab([13200, 13362, 13524, 13848, 14172, 14496, 14820, 15144, 15468, 15792, 16116, 16440, 16764, 17088, 17412, 17736]),
   leather: leather([17412, 19032, 20328, 21624], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -1935,6 +2125,7 @@ const PRODUCTS = [
   fabric: fab([14475, 14664, 14853, 15231, 15609, 15987, 16365, 16743, 17121, 17499, 17877, 18255, 18633, 19011, 19389, 19767]),
   leather: leather([19389, 21279, 22791, 24303], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -1945,6 +2136,7 @@ const PRODUCTS = [
   fabric: fab([14829, 15045, 15261, 15693, 16125, 16557, 16989, 17421, 17853, 18285, 18717, 19149, 19581, 20013, 20445, 20877]),
   leather: leather([20445, 22605, 24333, 26061], 432),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -1955,6 +2147,7 @@ const PRODUCTS = [
   fabric: fab([11346, 11472, 11595, 11844, 12093, 12342, 12591, 12840, 13089, 13338, 13587, 13836, 14085, 14334, 14583, 14832]),
   leather: leather([14583, 15828, 16824, 17820], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -1965,6 +2158,7 @@ const PRODUCTS = [
   fabric: fab([11967, 12102, 12237, 12507, 12777, 13047, 13317, 13587, 13857, 14127, 14397, 14667, 14937, 15207, 15477, 15747]),
   leather: leather([15477, 16827, 17907, 18987], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1975,6 +2169,7 @@ const PRODUCTS = [
   fabric: fab([9303, 9384, 9465, 9627, 9789, 9951, 10113, 10275, 10437, 10599, 10761, 10923, 11085, 11247, 11409, 11571]),
   leather: leather([11409, 12219, 12867, 13515], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1985,6 +2180,7 @@ const PRODUCTS = [
   fabric: fab([9612, 9699, 9783, 9954, 10125, 10296, 10467, 10638, 10809, 10980, 11151, 11322, 11493, 11664, 11835, 12006]),
   leather: leather(null, 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -1995,6 +2191,7 @@ const PRODUCTS = [
   fabric: fab([7638, 7698, 7755, 7872, 7989, 8106, 8223, 8340, 8457, 8574, 8691, 8808, 8925, 9042, 9159, 9276]),
   leather: leather([9159, 9744, 10212, 10680], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2005,6 +2202,7 @@ const PRODUCTS = [
   fabric: fab([11631, 11784, 11937, 12243, 12549, 12855, 13161, 13467, 13773, 14079, 14385, 14691, 14997, 15303, 15609, 15915]),
   leather: leather([15609, 17139, 18363, 19587], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2015,6 +2213,7 @@ const PRODUCTS = [
   fabric: fab([11697, 11850, 12003, 12309, 12615, 12921, 13227, 13533, 13839, 14145, 14451, 14757, 15063, 15369, 15675, 15981]),
   leather: leather([15675, 17205, 18429, 19653], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2025,6 +2224,7 @@ const PRODUCTS = [
   fabric: fab([13332, 13512, 13692, 14052, 14412, 14772, 15132, 15492, 15852, 16212, 16572, 16932, 17292, 17652, 18012, 18372]),
   leather: leather([18012, 19812, 21252, 22692], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2035,6 +2235,7 @@ const PRODUCTS = [
   fabric: fab([13986, 14193, 14400, 14814, 15228, 15642, 16056, 16470, 16884, 17298, 17712, 18126, 18540, 18954, 19368, 19782]),
   leather: leather([19368, 21438, 23094, 24750], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2045,6 +2246,7 @@ const PRODUCTS = [
   fabric: fab([4164, 4200, 4236, 4308, 4380, 4452, 4524, 4596, 4668, 4740, 4812, 4884, 4956, 5028, 5100, 5172]),
   leather: leather([5100, 5460, 5748, 6036], 72),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2055,6 +2257,7 @@ const PRODUCTS = [
   fabric: fab([5250, 5304, 5358, 5466, 5574, 5682, 5790, 5898, 6006, 6114, 6222, 6330, 6438, 6546, 6654, 6762]),
   leather: leather([6654, 7194, 7626, 8058], 108),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2065,6 +2268,7 @@ const PRODUCTS = [
   fabric: fab([8001, 8028, 8055, 8109, 8163, 8217, 8271, 8325, 8379, 8433, 8487, 8541, 8595, 8649, 8703, 8757]),
   leather: leather([8703, 8973, 9189, 9405], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2075,6 +2279,7 @@ const PRODUCTS = [
   fabric: fab([8307, 8337, 8367, 8427, 8487, 8547, 8607, 8667, 8727, 8787, 8847, 8907, 8967, 9027, 9087, 9147]),
   leather: leather([9087, 9387, 9627, 9867], 60),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2085,6 +2290,7 @@ const PRODUCTS = [
   fabric: fab([8799, 8853, 8907, 9015, 9123, 9231, 9339, 9447, 9555, 9663, 9771, 9879, 9987, 10095, 10203, 10311]),
   leather: leather([10203, 10743, 11175, 11607], 108),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2095,6 +2301,7 @@ const PRODUCTS = [
   fabric: fab([15456, 15600, 15741, 16026, 16311, 16596, 16881, 17166, 17451, 17736, 18021, 18306, 18591, 18876, 19161, 19446]),
   leather: leather([19161, 20586, 21726, 22866], 285),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2105,6 +2312,7 @@ const PRODUCTS = [
   fabric: fab([15903, 16056, 16209, 16515, 16821, 17127, 17433, 17739, 18045, 18351, 18657, 18963, 19269, 19575, 19881, 20187]),
   leather: leather([19881, 21411, 22635, 23859], 306),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2115,6 +2323,7 @@ const PRODUCTS = [
   fabric: fab([16248, 16425, 16599, 16950, 17301, 17652, 18003, 18354, 18705, 19056, 19407, 19758, 20109, 20460, 20811, 21162]),
   leather: leather([20811, 22566, 23970, 25374], 351),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2125,6 +2334,7 @@ const PRODUCTS = [
   fabric: fab([12195, 12294, 12393, 12591, 12789, 12987, 13185, 13383, 13581, 13779, 13977, 14175, 14373, 14571, 14769, 14967]),
   leather: leather([14769, 15759, 16551, 17343], 198),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2135,6 +2345,7 @@ const PRODUCTS = [
   fabric: fab([12828, 12945, 13059, 13290, 13521, 13752, 13983, 14214, 14445, 14676, 14907, 15138, 15369, 15600, 15831, 16062]),
   leather: leather([15831, 16986, 17910, 18834], 231),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2145,6 +2356,7 @@ const PRODUCTS = [
   fabric: fab([13455, 13584, 13713, 13971, 14229, 14487, 14745, 15003, 15261, 15519, 15777, 16035, 16293, 16551, 16809, 17067]),
   leather: leather([16809, 18099, 19131, 20163], 258),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2155,6 +2367,7 @@ const PRODUCTS = [
   fabric: fab([14382, 14526, 14667, 14952, 15237, 15522, 15807, 16092, 16377, 16662, 16947, 17232, 17517, 17802, 18087, 18372]),
   leather: leather([18087, 19512, 20652, 21792], 285),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2165,6 +2378,7 @@ const PRODUCTS = [
   fabric: fab([8340, 8400, 8457, 8574, 8691, 8808, 8925, 9042, 9159, 9276, 9393, 9510, 9627, 9744, 9861, 9978]),
   leather: leather([9861, 10446, 10914, 11382], 117),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -2175,6 +2389,7 @@ const PRODUCTS = [
   fabric: fab([7920, 7977, 8034, 8148, 8262, 8376, 8490, 8604, 8718, 8832, 8946, 9060, 9174, 9288, 9402, 9516]),
   leather: leather([9402, 9972, 10428, 10884], 114),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -2185,6 +2400,7 @@ const PRODUCTS = [
   fabric: fab([3465, 3489, 3510, 3555, 3600, 3645, 3690, 3735, 3780, 3825, 3870, 3915, 3960, 4005, 4050, 4095]),
   leather: leather([4050, 4275, 4455, 4635], 45),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2195,6 +2411,7 @@ const PRODUCTS = [
   fabric: fab([11058, 11214, 11370, 11682, 11994, 12306, 12618, 12930, 13242, 13554, 13866, 14178, 14490, 14802, 15114, 15426]),
   leather: leather([15114, 16674, 17922, 19170], 312),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2205,6 +2422,7 @@ const PRODUCTS = [
   fabric: fab([12339, 12510, 12681, 13023, 13365, 13707, 14049, 14391, 14733, 15075, 15417, 15759, 16101, 16443, 16785, 17127]),
   leather: leather([16785, 18495, 19863, 21231], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2215,6 +2433,7 @@ const PRODUCTS = [
   fabric: fab([13275, 13464, 13653, 14031, 14409, 14787, 15165, 15543, 15921, 16299, 16677, 17055, 17433, 17811, 18189, 18567]),
   leather: leather([18189, 20079, 21591, 23103], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2225,6 +2444,7 @@ const PRODUCTS = [
   fabric: fab([8967, 9102, 9237, 9507, 9777, 10047, 10317, 10587, 10857, 11127, 11397, 11667, 11937, 12207, 12477, 12747]),
   leather: leather([12477, 13827, 14907, 15987], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2235,6 +2455,7 @@ const PRODUCTS = [
   fabric: fab([9885, 10029, 10173, 10461, 10749, 11037, 11325, 11613, 11901, 12189, 12477, 12765, 13053, 13341, 13629, 13917]),
   leather: leather([13629, 15069, 16221, 17373], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2245,6 +2466,7 @@ const PRODUCTS = [
   fabric: fab([10503, 10656, 10809, 11115, 11421, 11727, 12033, 12339, 12645, 12951, 13257, 13563, 13869, 14175, 14481, 14787]),
   leather: leather([14481, 16011, 17235, 18459], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2255,6 +2477,7 @@ const PRODUCTS = [
   fabric: fab([11421, 11583, 11745, 12069, 12393, 12717, 13041, 13365, 13689, 14013, 14337, 14661, 14985, 15309, 15633, 15957]),
   leather: leather([15633, 17253, 18549, 19845], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2265,6 +2488,7 @@ const PRODUCTS = [
   fabric: fab([14439, 14607, 14772, 15105, 15438, 15771, 16104, 16437, 16770, 17103, 17436, 17769, 18102, 18435, 18768, 19101]),
   leather: leather(null, 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2275,6 +2499,7 @@ const PRODUCTS = [
   fabric: fab([14904, 15093, 15282, 15660, 16038, 16416, 16794, 17172, 17550, 17928, 18306, 18684, 19062, 19440, 19818, 20196]),
   leather: leather(null, 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2285,6 +2510,7 @@ const PRODUCTS = [
   fabric: fab([12537, 12651, 12762, 12987, 13212, 13437, 13662, 13887, 14112, 14337, 14562, 14787, 15012, 15237, 15462, 15687]),
   leather: leather(null, 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2295,6 +2521,7 @@ const PRODUCTS = [
   fabric: fab([12900, 13023, 13143, 13386, 13629, 13872, 14115, 14358, 14601, 14844, 15087, 15330, 15573, 15816, 16059, 16302]),
   leather: leather(null, 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2305,6 +2532,7 @@ const PRODUCTS = [
   fabric: fab([13272, 13404, 13533, 13794, 14055, 14316, 14577, 14838, 15099, 15360, 15621, 15882, 16143, 16404, 16665, 16926]),
   leather: leather(null, 261),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2315,6 +2543,7 @@ const PRODUCTS = [
   fabric: fab([13635, 13776, 13914, 14193, 14472, 14751, 15030, 15309, 15588, 15867, 16146, 16425, 16704, 16983, 17262, 17541]),
   leather: leather(null, 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2325,6 +2554,7 @@ const PRODUCTS = [
   fabric: fab([13935, 14076, 14214, 14493, 14772, 15051, 15330, 15609, 15888, 16167, 16446, 16725, 17004, 17283, 17562, 17841]),
   leather: leather(null, 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2335,6 +2565,7 @@ const PRODUCTS = [
   fabric: fab([11106, 11250, 11391, 11676, 11961, 12246, 12531, 12816, 13101, 13386, 13671, 13956, 14241, 14526, 14811, 15096]),
   leather: leather([14811, 16236, 17376, 18516], 285),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2345,6 +2576,7 @@ const PRODUCTS = [
   fabric: fab([10650, 10773, 10893, 11136, 11379, 11622, 11865, 12108, 12351, 12594, 12837, 13080, 13323, 13566, 13809, 14052]),
   leather: leather([13809, 15024, 15996, 16968], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2355,6 +2587,7 @@ const PRODUCTS = [
   fabric: fab([6849, 6903, 6957, 7065, 7173, 7281, 7389, 7497, 7605, 7713, 7821, 7929, 8037, 8145, 8253, 8361]),
   leather: leather([8253, 8793, 9225, 9657], 108),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2365,6 +2598,7 @@ const PRODUCTS = [
   fabric: fab([3171, 3195, 3216, 3261, 3306, 3351, 3396, 3441, 3486, 3531, 3576, 3621, 3666, 3711, 3756, 3801]),
   leather: leather([3756, 3981, 4161, 4341], 45),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 105, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2375,6 +2609,7 @@ const PRODUCTS = [
   fabric: fab([2853, 2874, 2895, 2937, 2979, 3021, 3063, 3105, 3147, 3189, 3231, 3273, 3315, 3357, 3399, 3441]),
   leather: leather([3399, 3609, 3777, 3945], 42),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 105, contrastWeltLeather: 165, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2385,6 +2620,7 @@ const PRODUCTS = [
   fabric: fab([9126, 9195, 9261, 9396, 9531, 9666, 9801, 9936, 10071, 10206, 10341, 10476, 10611, 10746, 10881, 11016]),
   leather: leather([10881, 11556, 12096, 12636], 135),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 75, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2395,6 +2631,7 @@ const PRODUCTS = [
   fabric: fab([11937, 12090, 12243, 12549, 12855, 13161, 13467, 13773, 14079, 14385, 14691, 14997, 15303, 15609, 15915, 16221]),
   leather: leather([15915, 17445, 18669, 19893], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2405,6 +2642,7 @@ const PRODUCTS = [
   fabric: fab([18648, 18825, 18999, 19350, 19701, 20052, 20403, 20754, 21105, 21456, 21807, 22158, 22509, 22860, 23211, 23562]),
   leather: leather([23211, 24966, 26370, 27774], 351),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -2415,6 +2653,7 @@ const PRODUCTS = [
   fabric: fab([18972, 19161, 19347, 19722, 20097, 20472, 20847, 21222, 21597, 21972, 22347, 22722, 23097, 23472, 23847, 24222]),
   leather: leather([23847, 25722, 27222, 28722], 375),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2425,6 +2664,7 @@ const PRODUCTS = [
   fabric: fab([14955, 15084, 15213, 15471, 15729, 15987, 16245, 16503, 16761, 17019, 17277, 17535, 17793, 18051, 18309, 18567]),
   leather: leather([18309, 19599, 20631, 21663], 258),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -2435,6 +2675,7 @@ const PRODUCTS = [
   fabric: fab([15582, 15726, 15867, 16152, 16437, 16722, 17007, 17292, 17577, 17862, 18147, 18432, 18717, 19002, 19287, 19572]),
   leather: leather([19287, 20712, 21852, 22992], 285),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2445,6 +2686,7 @@ const PRODUCTS = [
   fabric: fab([16203, 16356, 16509, 16815, 17121, 17427, 17733, 18039, 18345, 18651, 18957, 19263, 19569, 19875, 20181, 20487]),
   leather: leather([20181, 21711, 22935, 24159], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -2455,6 +2697,7 @@ const PRODUCTS = [
   fabric: fab([17427, 17592, 17757, 18087, 18417, 18747, 19077, 19407, 19737, 20067, 20397, 20727, 21057, 21387, 21717, 22047]),
   leather: leather([21717, 23367, 24687, 26007], 330),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2465,6 +2708,7 @@ const PRODUCTS = [
   fabric: fab([7350, 7413, 7473, 7596, 7719, 7842, 7965, 8088, 8211, 8334, 8457, 8580, 8703, 8826, 8949, 9072]),
   leather: leather([8949, 9564, 10056, 10548], 123),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2475,6 +2719,7 @@ const PRODUCTS = [
   fabric: fab([7971, 8043, 8115, 8259, 8403, 8547, 8691, 8835, 8979, 9123, 9267, 9411, 9555, 9699, 9843, 9987]),
   leather: leather([9843, 10563, 11139, 11715], 144),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2485,6 +2730,7 @@ const PRODUCTS = [
   fabric: fab([9054, 9144, 9231, 9408, 9585, 9762, 9939, 10116, 10293, 10470, 10647, 10824, 11001, 11178, 11355, 11532]),
   leather: leather([11355, 12240, 12948, 13656], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2495,6 +2741,7 @@ const PRODUCTS = [
   fabric: fab([9657, 9747, 9837, 10017, 10197, 10377, 10557, 10737, 10917, 11097, 11277, 11457, 11637, 11817, 11997, 12177]),
   leather: leather([11997, 12897, 13617, 14337], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2505,6 +2752,7 @@ const PRODUCTS = [
   fabric: fab([7770, 7848, 7923, 8076, 8229, 8382, 8535, 8688, 8841, 8994, 9147, 9300, 9453, 9606, 9759, 9912]),
   leather: leather([9759, 10524, 11136, 11748], 153),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 120, throwFiberlux: 0 },
 },
 
 {
@@ -2515,6 +2763,7 @@ const PRODUCTS = [
   fabric: fab([8379, 8460, 8541, 8703, 8865, 9027, 9189, 9351, 9513, 9675, 9837, 9999, 10161, 10323, 10485, 10647]),
   leather: leather([10485, 11295, 11943, 12591], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 120, throwFiberlux: 0 },
 },
 
 {
@@ -2525,6 +2774,7 @@ const PRODUCTS = [
   fabric: fab([11133, 11220, 11304, 11475, 11646, 11817, 11988, 12159, 12330, 12501, 12672, 12843, 13014, 13185, 13356, 13527]),
   leather: leather([13356, 14211, 14895, 15579], 171),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2535,6 +2785,7 @@ const PRODUCTS = [
   fabric: fab([11766, 11868, 11970, 12174, 12378, 12582, 12786, 12990, 13194, 13398, 13602, 13806, 14010, 14214, 14418, 14622]),
   leather: leather([14418, 15438, 16254, 17070], 204),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2545,6 +2796,7 @@ const PRODUCTS = [
   fabric: fab([8685, 8766, 8844, 9003, 9162, 9321, 9480, 9639, 9798, 9957, 10116, 10275, 10434, 10593, 10752, 10911]),
   leather: leather([10752, 11547, 12183, 12819], 159),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -2555,6 +2807,7 @@ const PRODUCTS = [
   fabric: fab([12087, 12201, 12312, 12537, 12762, 12987, 13212, 13437, 13662, 13887, 14112, 14337, 14562, 14787, 15012, 15237]),
   leather: leather(null, 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2565,6 +2818,7 @@ const PRODUCTS = [
   fabric: fab([13080, 13248, 13413, 13746, 14079, 14412, 14745, 15078, 15411, 15744, 16077, 16410, 16743, 17076, 17409, 17742]),
   leather: leather(null, 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2575,6 +2829,7 @@ const PRODUCTS = [
   fabric: fab([13452, 13656, 13857, 14262, 14667, 15072, 15477, 15882, 16287, 16692, 17097, 17502, 17907, 18312, 18717, 19122]),
   leather: leather(null, 405),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2585,6 +2840,7 @@ const PRODUCTS = [
   fabric: fab([10551, 10653, 10755, 10959, 11163, 11367, 11571, 11775, 11979, 12183, 12387, 12591, 12795, 12999, 13203, 13407]),
   leather: leather(null, 204),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2595,6 +2851,7 @@ const PRODUCTS = [
   fabric: fab([10872, 10986, 11097, 11322, 11547, 11772, 11997, 12222, 12447, 12672, 12897, 13122, 13347, 13572, 13797, 14022]),
   leather: leather(null, 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2605,6 +2862,7 @@ const PRODUCTS = [
   fabric: fab([11499, 11625, 11751, 12003, 12255, 12507, 12759, 13011, 13263, 13515, 13767, 14019, 14271, 14523, 14775, 15027]),
   leather: leather(null, 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2615,6 +2873,7 @@ const PRODUCTS = [
   fabric: fab([12135, 12279, 12423, 12711, 12999, 13287, 13575, 13863, 14151, 14439, 14727, 15015, 15303, 15591, 15879, 16167]),
   leather: leather(null, 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2625,6 +2884,7 @@ const PRODUCTS = [
   fabric: fab([9468, 9531, 9594, 9720, 9846, 9972, 10098, 10224, 10350, 10476, 10602, 10728, 10854, 10980, 11106, 11232]),
   leather: leather([11106, 11736, 12240, 12744], 126),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -2635,6 +2895,7 @@ const PRODUCTS = [
   fabric: fab([6438, 6498, 6555, 6672, 6789, 6906, 7023, 7140, 7257, 7374, 7491, 7608, 7725, 7842, 7959, 8076]),
   leather: leather([7959, 8544, 9012, 9480], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2645,6 +2906,7 @@ const PRODUCTS = [
   fabric: fab([13239, 13407, 13572, 13905, 14238, 14571, 14904, 15237, 15570, 15903, 16236, 16569, 16902, 17235, 17568, 17901]),
   leather: leather([17568, 19233, 20565, 21897], 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2655,6 +2917,7 @@ const PRODUCTS = [
   fabric: fab([13872, 14061, 14247, 14622, 14997, 15372, 15747, 16122, 16497, 16872, 17247, 17622, 17997, 18372, 18747, 19122]),
   leather: leather([18747, 20622, 22122, 23622], 375),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2665,6 +2928,7 @@ const PRODUCTS = [
   fabric: fab([14193, 14391, 14589, 14985, 15381, 15777, 16173, 16569, 16965, 17361, 17757, 18153, 18549, 18945, 19341, 19737]),
   leather: leather([19341, 21321, 22905, 24489], 396),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2675,6 +2939,7 @@ const PRODUCTS = [
   fabric: fab([11076, 11217, 11355, 11634, 11913, 12192, 12471, 12750, 13029, 13308, 13587, 13866, 14145, 14424, 14703, 14982]),
   leather: leather([14703, 16098, 17214, 18330], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2685,6 +2950,7 @@ const PRODUCTS = [
   fabric: fab([11703, 11856, 12009, 12315, 12621, 12927, 13233, 13539, 13845, 14151, 14457, 14763, 15069, 15375, 15681, 15987]),
   leather: leather([15681, 17211, 18435, 19659], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2695,6 +2961,7 @@ const PRODUCTS = [
   fabric: fab([12330, 12498, 12663, 12996, 13329, 13662, 13995, 14328, 14661, 14994, 15327, 15660, 15993, 16326, 16659, 16992]),
   leather: leather([16659, 18324, 19656, 20988], 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2705,6 +2972,7 @@ const PRODUCTS = [
   fabric: fab([12948, 13125, 13299, 13650, 14001, 14352, 14703, 15054, 15405, 15756, 16107, 16458, 16809, 17160, 17511, 17862]),
   leather: leather([17511, 19266, 20670, 22074], 351),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2715,6 +2983,7 @@ const PRODUCTS = [
   fabric: fab([8574, 8658, 8742, 8910, 9078, 9246, 9414, 9582, 9750, 9918, 10086, 10254, 10422, 10590, 10758, 10926]),
   leather: leather([10758, 11598, 12270, 12942], 168),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2725,6 +2994,7 @@ const PRODUCTS = [
   fabric: fab([10218, 10323, 10425, 10632, 10839, 11046, 11253, 11460, 11667, 11874, 12081, 12288, 12495, 12702, 12909, 13116]),
   leather: leather([12909, 13944, 14772, 15600], 207),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2735,6 +3005,7 @@ const PRODUCTS = [
   fabric: fab([5316, 5367, 5415, 5514, 5613, 5712, 5811, 5910, 6009, 6108, 6207, 6306, 6405, 6504, 6603, 6702]),
   leather: leather([6603, 7098, 7494, 7890], 99),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2745,6 +3016,7 @@ const PRODUCTS = [
   fabric: fab([12465, 12609, 12753, 13041, 13329, 13617, 13905, 14193, 14481, 14769, 15057, 15345, 15633, 15921, 16209, 16497]),
   leather: leather([16209, 17649, 18801, 19953], 288),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2755,6 +3027,7 @@ const PRODUCTS = [
   fabric: fab([13221, 13383, 13545, 13869, 14193, 14517, 14841, 15165, 15489, 15813, 16137, 16461, 16785, 17109, 17433, 17757]),
   leather: leather([17433, 19053, 20349, 21645], 324),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2765,6 +3038,7 @@ const PRODUCTS = [
   fabric: fab([13575, 13764, 13953, 14331, 14709, 15087, 15465, 15843, 16221, 16599, 16977, 17355, 17733, 18111, 18489, 18867]),
   leather: leather([18489, 20379, 21891, 23403], 378),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2775,6 +3049,7 @@ const PRODUCTS = [
   fabric: fab([10128, 10245, 10359, 10590, 10821, 11052, 11283, 11514, 11745, 11976, 12207, 12438, 12669, 12900, 13131, 13362]),
   leather: leather([13131, 14286, 15210, 16134], 231),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2785,6 +3060,7 @@ const PRODUCTS = [
   fabric: fab([10740, 10863, 10983, 11226, 11469, 11712, 11955, 12198, 12441, 12684, 12927, 13170, 13413, 13656, 13899, 14142]),
   leather: leather([13899, 15114, 16086, 17058], 243),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2795,6 +3071,7 @@ const PRODUCTS = [
   fabric: fab([11358, 11490, 11619, 11880, 12141, 12402, 12663, 12924, 13185, 13446, 13707, 13968, 14229, 14490, 14751, 15012]),
   leather: leather([14751, 16056, 17100, 18144], 261),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2805,6 +3082,7 @@ const PRODUCTS = [
   fabric: fab([11985, 12129, 12273, 12561, 12849, 13137, 13425, 13713, 14001, 14289, 14577, 14865, 15153, 15441, 15729, 16017]),
   leather: leather([15729, 17169, 18321, 19473], 288),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2815,6 +3093,7 @@ const PRODUCTS = [
   fabric: fab([12237, 12351, 12462, 12687, 12912, 13137, 13362, 13587, 13812, 14037, 14262, 14487, 14712, 14937, 15162, 15387]),
   leather: leather([15162, 16287, 17187, 18087], 225),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2825,6 +3104,7 @@ const PRODUCTS = [
   fabric: fab([12765, 12909, 13053, 13341, 13629, 13917, 14205, 14493, 14781, 15069, 15357, 15645, 15933, 16221, 16509, 16797]),
   leather: leather([16509, 17949, 19101, 20253], 288),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -2835,6 +3115,7 @@ const PRODUCTS = [
   fabric: fab([3390, 3402, 3414, 3438, 3462, 3486, 3510, 3534, 3558, 3582, 3606, 3630, 3654, 3678, 3702, 3726]),
   leather: leather([3702, 3822, 3918, 4014], 24),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2845,6 +3126,7 @@ const PRODUCTS = [
   fabric: fab([6966, 7017, 7065, 7164, 7263, 7362, 7461, 7560, 7659, 7758, 7857, 7956, 8055, 8154, 8253, 8352]),
   leather: leather([8253, 8748, 9144, 9540], 99),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2855,6 +3137,7 @@ const PRODUCTS = [
   fabric: fab([9768, 9873, 9975, 10182, 10389, 10596, 10803, 11010, 11217, 11424, 11631, 11838, 12045, 12252, 12459, 12666]),
   leather: leather([12459, 13494, 14322, 15150], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2865,6 +3148,7 @@ const PRODUCTS = [
   fabric: fab([8160, 8211, 8259, 8358, 8457, 8556, 8655, 8754, 8853, 8952, 9051, 9150, 9249, 9348, 9447, 9546]),
   leather: leather([9447, 9942, 10338, 10734], 99),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2875,6 +3159,7 @@ const PRODUCTS = [
   fabric: fab([10425, 10497, 10569, 10713, 10857, 11001, 11145, 11289, 11433, 11577, 11721, 11865, 12009, 12153, 12297, 12441]),
   leather: leather([12297, 13017, 13593, 14169], 144),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2885,6 +3170,7 @@ const PRODUCTS = [
   fabric: fab([8265, 8289, 8310, 8355, 8400, 8445, 8490, 8535, 8580, 8625, 8670, 8715, 8760, 8805, 8850, 8895]),
   leather: leather([8850, 9075, 9255, 9435], 45),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2895,6 +3181,7 @@ const PRODUCTS = [
   fabric: fab([6165, 6189, 6210, 6255, 6300, 6345, 6390, 6435, 6480, 6525, 6570, 6615, 6660, 6705, 6750, 6795]),
   leather: leather([6750, 6975, 7155, 7335], 45),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2905,6 +3192,7 @@ const PRODUCTS = [
   fabric: fab([5601, 5628, 5655, 5709, 5763, 5817, 5871, 5925, 5979, 6033, 6087, 6141, 6195, 6249, 6303, 6357]),
   leather: leather([6303, 6573, 6789, 7005], 54),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2915,6 +3203,7 @@ const PRODUCTS = [
   fabric: fab([5370, 5448, 5523, 5676, 5829, 5982, 6135, 6288, 6441, 6594, 6747, 6900, 7053, 7206, 7359, 7512]),
   leather: leather([7359, 8124, 8736, 9348], 153),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2925,6 +3214,7 @@ const PRODUCTS = [
   fabric: fab([7404, 7554, 7701, 7998, 8295, 8592, 8889, 9186, 9483, 9780, 10077, 10374, 10671, 10968, 11265, 11562]),
   leather: leather([11265, 12750, 13938, 15126], 297),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 285, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2935,6 +3225,7 @@ const PRODUCTS = [
   fabric: fab([8121, 8286, 8451, 8781, 9111, 9441, 9771, 10101, 10431, 10761, 11091, 11421, 11751, 12081, 12411, 12741]),
   leather: leather([12411, 14061, 15381, 16701], 330),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2945,6 +3236,7 @@ const PRODUCTS = [
   fabric: fab([8493, 8691, 8889, 9285, 9681, 10077, 10473, 10869, 11265, 11661, 12057, 12453, 12849, 13245, 13641, 14037]),
   leather: leather([13641, 15621, 17205, 18789], 396),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2955,6 +3247,7 @@ const PRODUCTS = [
   fabric: fab([8547, 8772, 8997, 9447, 9897, 10347, 10797, 11247, 11697, 12147, 12597, 13047, 13497, 13947, 14397, 14847]),
   leather: leather([14397, 16647, 18447, 20247], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2965,6 +3258,7 @@ const PRODUCTS = [
   fabric: fab([6576, 6717, 6855, 7134, 7413, 7692, 7971, 8250, 8529, 8808, 9087, 9366, 9645, 9924, 10203, 10482]),
   leather: leather([10203, 11598, 12714, 13830], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2975,6 +3269,7 @@ const PRODUCTS = [
   fabric: fab([6894, 7044, 7191, 7488, 7785, 8082, 8379, 8676, 8973, 9270, 9567, 9864, 10161, 10458, 10755, 11052]),
   leather: leather([10755, 12240, 13428, 14616], 297),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2985,6 +3280,7 @@ const PRODUCTS = [
   fabric: fab([7221, 7383, 7545, 7869, 8193, 8517, 8841, 9165, 9489, 9813, 10137, 10461, 10785, 11109, 11433, 11757]),
   leather: leather([11433, 13053, 14349, 15645], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -2995,6 +3291,7 @@ const PRODUCTS = [
   fabric: fab([7848, 8025, 8199, 8550, 8901, 9252, 9603, 9954, 10305, 10656, 11007, 11358, 11709, 12060, 12411, 12762]),
   leather: leather([12411, 14166, 15570, 16974], 351),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3005,6 +3302,7 @@ const PRODUCTS = [
   fabric: fab([4662, 4707, 4749, 4836, 4923, 5010, 5097, 5184, 5271, 5358, 5445, 5532, 5619, 5706, 5793, 5880]),
   leather: leather([5793, 6228, 6576, 6924], 87),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3015,6 +3313,7 @@ const PRODUCTS = [
   fabric: fab([8052, 8127, 8202, 8352, 8502, 8652, 8802, 8952, 9102, 9252, 9402, 9552, 9702, 9852, 10002, 10152]),
   leather: leather([10002, 10752, 11352, 11952], 150),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: 180, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3025,6 +3324,7 @@ const PRODUCTS = [
   fabric: fab([10266, 10356, 10446, 10626, 10806, 10986, 11166, 11346, 11526, 11706, 11886, 12066, 12246, 12426, 12606, 12786]),
   leather: leather([12606, 13506, 14226, 14946], 180),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: 180, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3035,6 +3335,7 @@ const PRODUCTS = [
   fabric: fab([13806, 13950, 14091, 14376, 14661, 14946, 15231, 15516, 15801, 16086, 16371, 16656, 16941, 17226, 17511, 17796]),
   leather: leather([17511, 18936, 20076, 21216], 285),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -3045,6 +3346,7 @@ const PRODUCTS = [
   fabric: fab([4107, 4119, 4131, 4155, 4179, 4203, 4227, 4251, 4275, 4299, 4323, 4347, 4371, 4395, 4419, 4443]),
   leather: leather([4419, 4539, 4635, 4731], 24),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3055,6 +3357,7 @@ const PRODUCTS = [
   fabric: fab([4131, 4203, 4275, 4419, 4563, 4707, 4851, 4995, 5139, 5283, 5427, 5571, 5715, 5859, 6003, 6147]),
   leather: leather([6003, 6723, 7299, 7875], 144),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3065,6 +3368,7 @@ const PRODUCTS = [
   fabric: fab([6000, 6123, 6243, 6486, 6729, 6972, 7215, 7458, 7701, 7944, 8187, 8430, 8673, 8916, 9159, 9402]),
   leather: leather([9159, 10374, 11346, 12318], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3075,6 +3379,7 @@ const PRODUCTS = [
   fabric: fab([5700, 5823, 5943, 6186, 6429, 6672, 6915, 7158, 7401, 7644, 7887, 8130, 8373, 8616, 8859, 9102]),
   leather: leather([8859, 10074, 11046, 12018], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3085,6 +3390,7 @@ const PRODUCTS = [
   fabric: fab([5700, 5823, 5943, 6186, 6429, 6672, 6915, 7158, 7401, 7644, 7887, 8130, 8373, 8616, 8859, 9102]),
   leather: leather([8859, 10074, 11046, 12018], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3095,6 +3401,7 @@ const PRODUCTS = [
   fabric: fab([2283, 2310, 2334, 2385, 2436, 2487, 2538, 2589, 2640, 2691, 2742, 2793, 2844, 2895, 2946, 2997]),
   leather: leather([2946, 3201, 3405, 3609], 51),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3105,6 +3412,7 @@ const PRODUCTS = [
   fabric: fab([6972, 7104, 7233, 7494, 7755, 8016, 8277, 8538, 8799, 9060, 9321, 9582, 9843, 10104, 10365, 10626]),
   leather: leather([10365, 11670, 12714, 13758], 261),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3115,6 +3423,7 @@ const PRODUCTS = [
   fabric: fab([8271, 8457, 8640, 9009, 9378, 9747, 10116, 10485, 10854, 11223, 11592, 11961, 12330, 12699, 13068, 13437]),
   leather: leather([13068, 14913, 16389, 17865], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3125,6 +3434,7 @@ const PRODUCTS = [
   fabric: fab([8271, 8457, 8640, 9009, 9378, 9747, 10116, 10485, 10854, 11223, 11592, 11961, 12330, 12699, 13068, 13437]),
   leather: leather([13068, 14913, 16389, 17865], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3135,6 +3445,7 @@ const PRODUCTS = [
   fabric: fab([7332, 7512, 7692, 8052, 8412, 8772, 9132, 9492, 9852, 10212, 10572, 10932, 11292, 11652, 12012, 12372]),
   leather: leather([12012, 13812, 15252, 16692], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3145,6 +3456,7 @@ const PRODUCTS = [
   fabric: fab([7332, 7512, 7692, 8052, 8412, 8772, 9132, 9492, 9852, 10212, 10572, 10932, 11292, 11652, 12012, 12372]),
   leather: leather([12012, 13812, 15252, 16692], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3155,6 +3467,7 @@ const PRODUCTS = [
   fabric: fab([4518, 4593, 4668, 4818, 4968, 5118, 5268, 5418, 5568, 5718, 5868, 6018, 6168, 6318, 6468, 6618]),
   leather: leather([6468, 7218, 7818, 8418], 150),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3165,6 +3478,7 @@ const PRODUCTS = [
   fabric: fab([6318, 6435, 6549, 6780, 7011, 7242, 7473, 7704, 7935, 8166, 8397, 8628, 8859, 9090, 9321, 9552]),
   leather: leather([9321, 10476, 11400, 12324], 231),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3175,6 +3489,7 @@ const PRODUCTS = [
   fabric: fab([5937, 6051, 6162, 6387, 6612, 6837, 7062, 7287, 7512, 7737, 7962, 8187, 8412, 8637, 8862, 9087]),
   leather: leather([8862, 9987, 10887, 11787], 225),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3185,6 +3500,7 @@ const PRODUCTS = [
   fabric: fab([5937, 6051, 6162, 6387, 6612, 6837, 7062, 7287, 7512, 7737, 7962, 8187, 8412, 8637, 8862, 9087]),
   leather: leather([8862, 9987, 10887, 11787], 225),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3195,6 +3511,7 @@ const PRODUCTS = [
   fabric: fab([2667, 2694, 2721, 2775, 2829, 2883, 2937, 2991, 3045, 3099, 3153, 3207, 3261, 3315, 3369, 3423]),
   leather: leather([3369, 3639, 3855, 4071], 54),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3205,6 +3522,7 @@ const PRODUCTS = [
   fabric: fab([6687, 6813, 6936, 7185, 7434, 7683, 7932, 8181, 8430, 8679, 8928, 9177, 9426, 9675, 9924, 10173]),
   leather: leather([9924, 11169, 12165, 13161], 249),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3215,6 +3533,7 @@ const PRODUCTS = [
   fabric: fab([7287, 7413, 7536, 7785, 8034, 8283, 8532, 8781, 9030, 9279, 9528, 9777, 10026, 10275, 10524, 10773]),
   leather: leather([10524, 11769, 12765, 13761], 249),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3225,6 +3544,7 @@ const PRODUCTS = [
   fabric: fab([8523, 8703, 8880, 9237, 9594, 9951, 10308, 10665, 11022, 11379, 11736, 12093, 12450, 12807, 13164, 13521]),
   leather: leather([13164, 14949, 16377, 17805], 357),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3235,6 +3555,7 @@ const PRODUCTS = [
   fabric: fab([8523, 8703, 8880, 9237, 9594, 9951, 10308, 10665, 11022, 11379, 11736, 12093, 12450, 12807, 13164, 13521]),
   leather: leather([13164, 14949, 16377, 17805], 357),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3245,6 +3566,7 @@ const PRODUCTS = [
   fabric: fab([7188, 7350, 7509, 7830, 8151, 8472, 8793, 9114, 9435, 9756, 10077, 10398, 10719, 11040, 11361, 11682]),
   leather: leather([11361, 12966, 14250, 15534], 321),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3255,6 +3577,7 @@ const PRODUCTS = [
   fabric: fab([7188, 7350, 7509, 7830, 8151, 8472, 8793, 9114, 9435, 9756, 10077, 10398, 10719, 11040, 11361, 11682]),
   leather: leather([11361, 12966, 14250, 15534], 321),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3265,6 +3588,7 @@ const PRODUCTS = [
   fabric: fab([4533, 4620, 4704, 4875, 5046, 5217, 5388, 5559, 5730, 5901, 6072, 6243, 6414, 6585, 6756, 6927]),
   leather: leather([6756, 7611, 8295, 8979], 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3275,6 +3599,7 @@ const PRODUCTS = [
   fabric: fab([6384, 6519, 6651, 6918, 7185, 7452, 7719, 7986, 8253, 8520, 8787, 9054, 9321, 9588, 9855, 10122]),
   leather: leather([9855, 11190, 12258, 13326], 267),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3285,6 +3610,7 @@ const PRODUCTS = [
   fabric: fab([6000, 6123, 6243, 6486, 6729, 6972, 7215, 7458, 7701, 7944, 8187, 8430, 8673, 8916, 9159, 9402]),
   leather: leather([9159, 10374, 11346, 12318], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3295,6 +3621,7 @@ const PRODUCTS = [
   fabric: fab([6000, 6123, 6243, 6486, 6729, 6972, 7215, 7458, 7701, 7944, 8187, 8430, 8673, 8916, 9159, 9402]),
   leather: leather([9159, 10374, 11346, 12318], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3305,6 +3632,7 @@ const PRODUCTS = [
   fabric: fab([2355, 2391, 2424, 2493, 2562, 2631, 2700, 2769, 2838, 2907, 2976, 3045, 3114, 3183, 3252, 3321]),
   leather: leather([3252, 3597, 3873, 4149], 69),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3315,6 +3643,7 @@ const PRODUCTS = [
   fabric: fab([7065, 7209, 7353, 7641, 7929, 8217, 8505, 8793, 9081, 9369, 9657, 9945, 10233, 10521, 10809, 11097]),
   leather: leather([10809, 12249, 13401, 14553], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3325,6 +3654,7 @@ const PRODUCTS = [
   fabric: fab([8634, 8829, 9021, 9408, 9795, 10182, 10569, 10956, 11343, 11730, 12117, 12504, 12891, 13278, 13665, 14052]),
   leather: leather([13665, 15600, 17148, 18696], 387),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3335,6 +3665,7 @@ const PRODUCTS = [
   fabric: fab([8634, 8829, 9021, 9408, 9795, 10182, 10569, 10956, 11343, 11730, 12117, 12504, 12891, 13278, 13665, 14052]),
   leather: leather([13665, 15600, 17148, 18696], 387),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3345,6 +3676,7 @@ const PRODUCTS = [
   fabric: fab([7221, 7386, 7551, 7881, 8211, 8541, 8871, 9201, 9531, 9861, 10191, 10521, 10851, 11181, 11511, 11841]),
   leather: leather([11511, 13161, 14481, 15801], 330),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3355,6 +3687,7 @@ const PRODUCTS = [
   fabric: fab([7221, 7386, 7551, 7881, 8211, 8541, 8871, 9201, 9531, 9861, 10191, 10521, 10851, 11181, 11511, 11841]),
   leather: leather([11511, 13161, 14481, 15801], 330),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3365,6 +3698,7 @@ const PRODUCTS = [
   fabric: fab([4533, 4620, 4704, 4875, 5046, 5217, 5388, 5559, 5730, 5901, 6072, 6243, 6414, 6585, 6756, 6927]),
   leather: leather([6756, 7611, 8295, 8979], 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3375,6 +3709,7 @@ const PRODUCTS = [
   fabric: fab([6456, 6600, 6741, 7026, 7311, 7596, 7881, 8166, 8451, 8736, 9021, 9306, 9591, 9876, 10161, 10446]),
   leather: leather([10161, 11586, 12726, 13866], 285),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3385,6 +3720,7 @@ const PRODUCTS = [
   fabric: fab([6123, 6261, 6399, 6675, 6951, 7227, 7503, 7779, 8055, 8331, 8607, 8883, 9159, 9435, 9711, 9987]),
   leather: leather([9711, 11091, 12195, 13299], 276),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3395,6 +3731,7 @@ const PRODUCTS = [
   fabric: fab([6123, 6261, 6399, 6675, 6951, 7227, 7503, 7779, 8055, 8331, 8607, 8883, 9159, 9435, 9711, 9987]),
   leather: leather([9711, 11091, 12195, 13299], 276),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3405,6 +3742,7 @@ const PRODUCTS = [
   fabric: fab([2301, 2328, 2355, 2409, 2463, 2517, 2571, 2625, 2679, 2733, 2787, 2841, 2895, 2949, 3003, 3057]),
   leather: leather([3003, 3273, 3489, 3705], 54),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3415,6 +3753,7 @@ const PRODUCTS = [
   fabric: fab([7419, 7572, 7722, 8025, 8328, 8631, 8934, 9237, 9540, 9843, 10146, 10449, 10752, 11055, 11358, 11661]),
   leather: leather([11358, 12873, 14085, 15297], 303),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3425,6 +3764,7 @@ const PRODUCTS = [
   fabric: fab([8988, 9189, 9390, 9792, 10194, 10596, 10998, 11400, 11802, 12204, 12606, 13008, 13410, 13812, 14214, 14616]),
   leather: leather([14214, 16224, 17832, 19440], 402),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3435,6 +3775,7 @@ const PRODUCTS = [
   fabric: fab([8988, 9189, 9390, 9792, 10194, 10596, 10998, 11400, 11802, 12204, 12606, 13008, 13410, 13812, 14214, 14616]),
   leather: leather([14214, 16224, 17832, 19440], 402),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3445,6 +3786,7 @@ const PRODUCTS = [
   fabric: fab([7671, 7857, 8040, 8409, 8778, 9147, 9516, 9885, 10254, 10623, 10992, 11361, 11730, 12099, 12468, 12837]),
   leather: leather([12468, 14313, 15789, 17265], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3455,6 +3797,7 @@ const PRODUCTS = [
   fabric: fab([7671, 7857, 8040, 8409, 8778, 9147, 9516, 9885, 10254, 10623, 10992, 11361, 11730, 12099, 12468, 12837]),
   leather: leather([12468, 14313, 15789, 17265], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3465,6 +3808,7 @@ const PRODUCTS = [
   fabric: fab([4566, 4656, 4746, 4926, 5106, 5286, 5466, 5646, 5826, 6006, 6186, 6366, 6546, 6726, 6906, 7086]),
   leather: leather([6906, 7806, 8526, 9246], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3475,6 +3819,7 @@ const PRODUCTS = [
   fabric: fab([6372, 6504, 6633, 6894, 7155, 7416, 7677, 7938, 8199, 8460, 8721, 8982, 9243, 9504, 9765, 10026]),
   leather: leather([9765, 11070, 12114, 13158], 261),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3485,6 +3830,7 @@ const PRODUCTS = [
   fabric: fab([5952, 6069, 6183, 6414, 6645, 6876, 7107, 7338, 7569, 7800, 8031, 8262, 8493, 8724, 8955, 9186]),
   leather: leather([8955, 10110, 11034, 11958], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3495,6 +3841,7 @@ const PRODUCTS = [
   fabric: fab([5952, 6069, 6183, 6414, 6645, 6876, 7107, 7338, 7569, 7800, 8031, 8262, 8493, 8724, 8955, 9186]),
   leather: leather([8955, 10110, 11034, 11958], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3505,6 +3852,7 @@ const PRODUCTS = [
   fabric: fab([2283, 2310, 2334, 2385, 2436, 2487, 2538, 2589, 2640, 2691, 2742, 2793, 2844, 2895, 2946, 2997]),
   leather: leather([2946, 3201, 3405, 3609], 51),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3515,6 +3863,7 @@ const PRODUCTS = [
   fabric: fab([7023, 7161, 7299, 7575, 7851, 8127, 8403, 8679, 8955, 9231, 9507, 9783, 10059, 10335, 10611, 10887]),
   leather: leather([10611, 11991, 13095, 14199], 276),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3525,6 +3874,7 @@ const PRODUCTS = [
   fabric: fab([7635, 7776, 7914, 8193, 8472, 8751, 9030, 9309, 9588, 9867, 10146, 10425, 10704, 10983, 11262, 11541]),
   leather: leather([11262, 12657, 13773, 14889], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3535,6 +3885,7 @@ const PRODUCTS = [
   fabric: fab([8532, 8712, 8892, 9252, 9612, 9972, 10332, 10692, 11052, 11412, 11772, 12132, 12492, 12852, 13212, 13572]),
   leather: leather([13212, 15012, 16452, 17892], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3545,6 +3896,7 @@ const PRODUCTS = [
   fabric: fab([8532, 8712, 8892, 9252, 9612, 9972, 10332, 10692, 11052, 11412, 11772, 12132, 12492, 12852, 13212, 13572]),
   leather: leather([13212, 15012, 16452, 17892], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3555,6 +3907,7 @@ const PRODUCTS = [
   fabric: fab([7500, 7662, 7824, 8148, 8472, 8796, 9120, 9444, 9768, 10092, 10416, 10740, 11064, 11388, 11712, 12036]),
   leather: leather([11712, 13332, 14628, 15924], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3565,6 +3918,7 @@ const PRODUCTS = [
   fabric: fab([7500, 7662, 7824, 8148, 8472, 8796, 9120, 9444, 9768, 10092, 10416, 10740, 11064, 11388, 11712, 12036]),
   leather: leather([11712, 13332, 14628, 15924], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3575,6 +3929,7 @@ const PRODUCTS = [
   fabric: fab([3387, 3441, 3492, 3597, 3702, 3807, 3912, 4017, 4122, 4227, 4332, 4437, 4542, 4647, 4752, 4857]),
   leather: leather([4752, 5277, 5697, 6117], 105),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -3585,6 +3940,7 @@ const PRODUCTS = [
   fabric: fab([4149, 4185, 4218, 4287, 4356, 4425, 4494, 4563, 4632, 4701, 4770, 4839, 4908, 4977, 5046, 5115]),
   leather: leather([5046, 5391, 5667, 5943], 69),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3595,6 +3951,7 @@ const PRODUCTS = [
   fabric: fab([4149, 4185, 4218, 4287, 4356, 4425, 4494, 4563, 4632, 4701, 4770, 4839, 4908, 4977, 5046, 5115]),
   leather: leather([5046, 5391, 5667, 5943], 69),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3605,6 +3962,7 @@ const PRODUCTS = [
   fabric: fab([13248, 13377, 13506, 13764, 14022, 14280, 14538, 14796, 15054, 15312, 15570, 15828, 16086, 16344, 16602, 16860]),
   leather: leather([16602, 17892, 18924, 19956], 258),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3615,6 +3973,7 @@ const PRODUCTS = [
   fabric: fab([14298, 14448, 14595, 14892, 15189, 15486, 15783, 16080, 16377, 16674, 16971, 17268, 17565, 17862, 18159, 18456]),
   leather: leather([18159, 19644, 20832, 22020], 297),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3625,6 +3984,7 @@ const PRODUCTS = [
   fabric: fab([11148, 11238, 11325, 11502, 11679, 11856, 12033, 12210, 12387, 12564, 12741, 12918, 13095, 13272, 13449, 13626]),
   leather: leather([13449, 14334, 15042, 15750], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3635,6 +3995,7 @@ const PRODUCTS = [
   fabric: fab([11811, 11910, 12006, 12201, 12396, 12591, 12786, 12981, 13176, 13371, 13566, 13761, 13956, 14151, 14346, 14541]),
   leather: leather([14346, 15321, 16101, 16881], 195),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3645,6 +4006,7 @@ const PRODUCTS = [
   fabric: fab([12513, 12624, 12735, 12957, 13179, 13401, 13623, 13845, 14067, 14289, 14511, 14733, 14955, 15177, 15399, 15621]),
   leather: leather([15399, 16509, 17397, 18285], 222),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3655,6 +4017,7 @@ const PRODUCTS = [
   fabric: fab([8634, 8667, 8697, 8760, 8823, 8886, 8949, 9012, 9075, 9138, 9201, 9264, 9327, 9390, 9453, 9516]),
   leather: leather([9453, 9768, 10020, 10272], 63),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: 0, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 315, seatFiberlux: 0, seatFirmSpringDown: 315, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3665,6 +4028,7 @@ const PRODUCTS = [
   fabric: fab([16137, 16230, 16323, 16509, 16695, 16881, 17067, 17253, 17439, 17625, 17811, 17997, 18183, 18369, 18555, 18741]),
   leather: leather([18555, 19485, 20229, 20973], 186),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3675,6 +4039,7 @@ const PRODUCTS = [
   fabric: fab([6462, 6525, 6588, 6714, 6840, 6966, 7092, 7218, 7344, 7470, 7596, 7722, 7848, 7974, 8100, 8226]),
   leather: leather(null, 126),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3685,6 +4050,7 @@ const PRODUCTS = [
   fabric: fab([8427, 8514, 8598, 8769, 8940, 9111, 9282, 9453, 9624, 9795, 9966, 10137, 10308, 10479, 10650, 10821]),
   leather: leather(null, 171),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3695,6 +4061,7 @@ const PRODUCTS = [
   fabric: fab([11613, 11724, 11835, 12057, 12279, 12501, 12723, 12945, 13167, 13389, 13611, 13833, 14055, 14277, 14499, 14721]),
   leather: leather(null, 222),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3705,6 +4072,7 @@ const PRODUCTS = [
   fabric: fab([12417, 12555, 12693, 12969, 13245, 13521, 13797, 14073, 14349, 14625, 14901, 15177, 15453, 15729, 16005, 16281]),
   leather: leather(null, 276),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3715,6 +4083,7 @@ const PRODUCTS = [
   fabric: fab([8916, 8988, 9057, 9198, 9339, 9480, 9621, 9762, 9903, 10044, 10185, 10326, 10467, 10608, 10749, 10890]),
   leather: leather(null, 141),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3725,6 +4094,7 @@ const PRODUCTS = [
   fabric: fab([9579, 9660, 9738, 9897, 10056, 10215, 10374, 10533, 10692, 10851, 11010, 11169, 11328, 11487, 11646, 11805]),
   leather: leather(null, 159),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3735,6 +4105,7 @@ const PRODUCTS = [
   fabric: fab([10248, 10338, 10425, 10602, 10779, 10956, 11133, 11310, 11487, 11664, 11841, 12018, 12195, 12372, 12549, 12726]),
   leather: leather(null, 177),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3745,6 +4116,7 @@ const PRODUCTS = [
   fabric: fab([10950, 11052, 11154, 11358, 11562, 11766, 11970, 12174, 12378, 12582, 12786, 12990, 13194, 13398, 13602, 13806]),
   leather: leather(null, 204),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3755,6 +4127,7 @@ const PRODUCTS = [
   fabric: fab([10800, 10902, 11004, 11208, 11412, 11616, 11820, 12024, 12228, 12432, 12636, 12840, 13044, 13248, 13452, 13656]),
   leather: leather(null, 204),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3765,6 +4138,7 @@ const PRODUCTS = [
   fabric: fab([5658, 5694, 5730, 5802, 5874, 5946, 6018, 6090, 6162, 6234, 6306, 6378, 6450, 6522, 6594, 6666]),
   leather: leather(null, 72),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -3775,6 +4149,7 @@ const PRODUCTS = [
   fabric: fab([6216, 6246, 6276, 6336, 6396, 6456, 6516, 6576, 6636, 6696, 6756, 6816, 6876, 6936, 6996, 7056]),
   leather: leather([6996, 7296, 7536, 7776], 60),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3785,6 +4160,7 @@ const PRODUCTS = [
   fabric: fab([4395, 4464, 4530, 4665, 4800, 4935, 5070, 5205, 5340, 5475, 5610, 5745, 5880, 6015, 6150, 6285]),
   leather: leather([6150, 6825, 7365, 7905], 135),
   finishTiers: { tier1: 0, tier2: 225, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: 600, swivel360: 600, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
 },
 
 {
@@ -3795,6 +4171,7 @@ const PRODUCTS = [
   fabric: fab([6336, 6381, 6426, 6516, 6606, 6696, 6786, 6876, 6966, 7056, 7146, 7236, 7326, 7416, 7506, 7596]),
   leather: leather([7506, 7956, 8316, 8676], 90),
   finishTiers: { tier1: 600, tier2: 1575, tier3: 2175, tier4: 2700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3805,6 +4182,7 @@ const PRODUCTS = [
   fabric: fab([3231, 3246, 3258, 3285, 3312, 3339, 3366, 3393, 3420, 3447, 3474, 3501, 3528, 3555, 3582, 3609]),
   leather: leather([3582, 3717, 3825, 3933], 27),
   finishTiers: { tier1: 600, tier2: 855, tier3: 1005, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3815,6 +4193,7 @@ const PRODUCTS = [
   fabric: fab([4728, 4761, 4791, 4854, 4917, 4980, 5043, 5106, 5169, 5232, 5295, 5358, 5421, 5484, 5547, 5610]),
   leather: leather(null, 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 105, contrastWeltLeather: 165, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3825,6 +4204,7 @@ const PRODUCTS = [
   fabric: fab([4128, 4161, 4191, 4254, 4317, 4380, 4443, 4506, 4569, 4632, 4695, 4758, 4821, 4884, 4947, 5010]),
   leather: leather([4947, 5262, 5514, 5766], 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 105, contrastWeltLeather: 165, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3835,6 +4215,7 @@ const PRODUCTS = [
   fabric: fab([8157, 8205, 8253, 8349, 8445, 8541, 8637, 8733, 8829, 8925, 9021, 9117, 9213, 9309, 9405, 9501]),
   leather: leather([9405, 9885, 10269, 10653], 96),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 0, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -3845,6 +4226,7 @@ const PRODUCTS = [
   fabric: fab([8214, 8271, 8328, 8442, 8556, 8670, 8784, 8898, 9012, 9126, 9240, 9354, 9468, 9582, 9696, 9810]),
   leather: leather([9696, 10266, 10722, 11178], 114),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -3855,6 +4237,7 @@ const PRODUCTS = [
   fabric: fab([11379, 11460, 11538, 11697, 11856, 12015, 12174, 12333, 12492, 12651, 12810, 12969, 13128, 13287, 13446, 13605]),
   leather: leather([13446, 14241, 14877, 15513], 159),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -3865,6 +4248,7 @@ const PRODUCTS = [
   fabric: fab([11379, 11460, 11538, 11697, 11856, 12015, 12174, 12333, 12492, 12651, 12810, 12969, 13128, 13287, 13446, 13605]),
   leather: leather([13446, 14241, 14877, 15513], 159),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -3875,6 +4259,7 @@ const PRODUCTS = [
   fabric: fab([12399, 12495, 12588, 12777, 12966, 13155, 13344, 13533, 13722, 13911, 14100, 14289, 14478, 14667, 14856, 15045]),
   leather: leather([14856, 15801, 16557, 17313], 189),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3885,6 +4270,7 @@ const PRODUCTS = [
   fabric: fab([13566, 13698, 13827, 14088, 14349, 14610, 14871, 15132, 15393, 15654, 15915, 16176, 16437, 16698, 16959, 17220]),
   leather: leather([16959, 18264, 19308, 20352], 261),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3895,6 +4281,7 @@ const PRODUCTS = [
   fabric: fab([8895, 8964, 9030, 9165, 9300, 9435, 9570, 9705, 9840, 9975, 10110, 10245, 10380, 10515, 10650, 10785]),
   leather: leather([10650, 11325, 11865, 12405], 135),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3905,6 +4292,7 @@ const PRODUCTS = [
   fabric: fab([10095, 10164, 10230, 10365, 10500, 10635, 10770, 10905, 11040, 11175, 11310, 11445, 11580, 11715, 11850, 11985]),
   leather: leather([11850, 12525, 13065, 13605], 135),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3915,6 +4303,7 @@ const PRODUCTS = [
   fabric: fab([10899, 10995, 11088, 11277, 11466, 11655, 11844, 12033, 12222, 12411, 12600, 12789, 12978, 13167, 13356, 13545]),
   leather: leather([13356, 14301, 15057, 15813], 189),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3925,6 +4314,7 @@ const PRODUCTS = [
   fabric: fab([11499, 11595, 11688, 11877, 12066, 12255, 12444, 12633, 12822, 13011, 13200, 13389, 13578, 13767, 13956, 14145]),
   leather: leather([13956, 14901, 15657, 16413], 189),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3935,6 +4325,7 @@ const PRODUCTS = [
   fabric: fab([9495, 9564, 9630, 9765, 9900, 10035, 10170, 10305, 10440, 10575, 10710, 10845, 10980, 11115, 11250, 11385]),
   leather: leather([11250, 11925, 12465, 13005], 135),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3945,6 +4336,7 @@ const PRODUCTS = [
   fabric: fab([8358, 8394, 8430, 8502, 8574, 8646, 8718, 8790, 8862, 8934, 9006, 9078, 9150, 9222, 9294, 9366]),
   leather: leather([9294, 9654, 9942, 10230], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3955,6 +4347,7 @@ const PRODUCTS = [
   fabric: fab([9336, 9381, 9426, 9516, 9606, 9696, 9786, 9876, 9966, 10056, 10146, 10236, 10326, 10416, 10506, 10596]),
   leather: leather([10506, 10956, 11316, 11676], 90),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3965,6 +4358,7 @@ const PRODUCTS = [
   fabric: fab([6195, 6222, 6249, 6303, 6357, 6411, 6465, 6519, 6573, 6627, 6681, 6735, 6789, 6843, 6897, 6951]),
   leather: leather([6897, 7167, 7383, 7599], 54),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3975,6 +4369,7 @@ const PRODUCTS = [
   fabric: fab([6195, 6222, 6249, 6303, 6357, 6411, 6465, 6519, 6573, 6627, 6681, 6735, 6789, 6843, 6897, 6951]),
   leather: leather([6897, 7167, 7383, 7599], 54),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3985,6 +4380,7 @@ const PRODUCTS = [
   fabric: fab([10101, 10170, 10236, 10371, 10506, 10641, 10776, 10911, 11046, 11181, 11316, 11451, 11586, 11721, 11856, 11991]),
   leather: leather([11856, 12531, 13071, 13611], 135),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -3995,6 +4391,7 @@ const PRODUCTS = [
   fabric: fab([8121, 8172, 8220, 8319, 8418, 8517, 8616, 8715, 8814, 8913, 9012, 9111, 9210, 9309, 9408, 9507]),
   leather: leather([9408, 9903, 10299, 10695], 99),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -4005,6 +4402,7 @@ const PRODUCTS = [
   fabric: fab([7503, 7545, 7584, 7665, 7746, 7827, 7908, 7989, 8070, 8151, 8232, 8313, 8394, 8475, 8556, 8637]),
   leather: leather([8556, 8961, 9285, 9609], 81),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -4015,6 +4413,7 @@ const PRODUCTS = [
   fabric: fab([10245, 10380, 10515, 10785, 11055, 11325, 11595, 11865, 12135, 12405, 12675, 12945, 13215, 13485, 13755, 14025]),
   leather: leather([13755, 15105, 16185, 17265], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4025,6 +4424,7 @@ const PRODUCTS = [
   fabric: fab([8916, 8988, 9057, 9198, 9339, 9480, 9621, 9762, 9903, 10044, 10185, 10326, 10467, 10608, 10749, 10890]),
   leather: leather([10749, 11454, 12018, 12582], 141),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4035,6 +4435,7 @@ const PRODUCTS = [
   fabric: fab([8448, 8502, 8556, 8664, 8772, 8880, 8988, 9096, 9204, 9312, 9420, 9528, 9636, 9744, 9852, 9960]),
   leather: leather([9852, 10392, 10824, 11256], 108),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4045,6 +4446,7 @@ const PRODUCTS = [
   fabric: fab([7830, 7875, 7920, 8010, 8100, 8190, 8280, 8370, 8460, 8550, 8640, 8730, 8820, 8910, 9000, 9090]),
   leather: leather([9000, 9450, 9810, 10170], 90),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4055,6 +4457,7 @@ const PRODUCTS = [
   fabric: fab([6294, 6339, 6381, 6468, 6555, 6642, 6729, 6816, 6903, 6990, 7077, 7164, 7251, 7338, 7425, 7512]),
   leather: leather([7425, 7860, 8208, 8556], 87),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4065,6 +4468,7 @@ const PRODUCTS = [
   fabric: fab([5685, 5724, 5763, 5841, 5919, 5997, 6075, 6153, 6231, 6309, 6387, 6465, 6543, 6621, 6699, 6777]),
   leather: leather([6699, 7089, 7401, 7713], 78),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4075,6 +4479,7 @@ const PRODUCTS = [
   fabric: fab([7533, 7578, 7620, 7707, 7794, 7881, 7968, 8055, 8142, 8229, 8316, 8403, 8490, 8577, 8664, 8751]),
   leather: leather([8664, 9099, 9447, 9795], 87),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4085,6 +4490,7 @@ const PRODUCTS = [
   fabric: fab([6936, 6981, 7026, 7116, 7206, 7296, 7386, 7476, 7566, 7656, 7746, 7836, 7926, 8016, 8106, 8196]),
   leather: leather([8106, 8556, 8916, 9276], 90),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4095,6 +4501,7 @@ const PRODUCTS = [
   fabric: fab([7503, 7545, 7584, 7665, 7746, 7827, 7908, 7989, 8070, 8151, 8232, 8313, 8394, 8475, 8556, 8637]),
   leather: leather([8556, 8961, 9285, 9609], 81),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4105,6 +4512,7 @@ const PRODUCTS = [
   fabric: fab([8121, 8172, 8220, 8319, 8418, 8517, 8616, 8715, 8814, 8913, 9012, 9111, 9210, 9309, 9408, 9507]),
   leather: leather([9408, 9903, 10299, 10695], 99),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4115,6 +4523,7 @@ const PRODUCTS = [
   fabric: fab([8121, 8172, 8220, 8319, 8418, 8517, 8616, 8715, 8814, 8913, 9012, 9111, 9210, 9309, 9408, 9507]),
   leather: leather([9408, 9903, 10299, 10695], 99),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4125,6 +4534,7 @@ const PRODUCTS = [
   fabric: fab([7503, 7545, 7584, 7665, 7746, 7827, 7908, 7989, 8070, 8151, 8232, 8313, 8394, 8475, 8556, 8637]),
   leather: leather([8556, 8961, 9285, 9609], 81),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4135,6 +4545,7 @@ const PRODUCTS = [
   fabric: fab([15735, 15852, 15969, 16203, 16437, 16671, 16905, 17139, 17373, 17607, 17841, 18075, 18309, 18543, 18777, 19011]),
   leather: leather([18777, 19947, 20883, 21819], 234),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4145,6 +4556,7 @@ const PRODUCTS = [
   fabric: fab([14487, 14580, 14673, 14859, 15045, 15231, 15417, 15603, 15789, 15975, 16161, 16347, 16533, 16719, 16905, 17091]),
   leather: leather([16905, 17835, 18579, 19323], 186),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4155,6 +4567,7 @@ const PRODUCTS = [
   fabric: fab([6678, 6738, 6795, 6912, 7029, 7146, 7263, 7380, 7497, 7614, 7731, 7848, 7965, 8082, 8199, 8316]),
   leather: leather([8199, 8784, 9252, 9720], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4165,6 +4578,7 @@ const PRODUCTS = [
   fabric: fab([6060, 6111, 6159, 6258, 6357, 6456, 6555, 6654, 6753, 6852, 6951, 7050, 7149, 7248, 7347, 7446]),
   leather: leather([7347, 7842, 8238, 8634], 99),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4175,6 +4589,7 @@ const PRODUCTS = [
   fabric: fab([9846, 9963, 10077, 10308, 10539, 10770, 11001, 11232, 11463, 11694, 11925, 12156, 12387, 12618, 12849, 13080]),
   leather: leather([12849, 14004, 14928, 15852], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4185,6 +4600,7 @@ const PRODUCTS = [
   fabric: fab([11085, 11220, 11355, 11625, 11895, 12165, 12435, 12705, 12975, 13245, 13515, 13785, 14055, 14325, 14595, 14865]),
   leather: leather([14595, 15945, 17025, 18105], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4195,6 +4611,7 @@ const PRODUCTS = [
   fabric: fab([10950, 11094, 11235, 11520, 11805, 12090, 12375, 12660, 12945, 13230, 13515, 13800, 14085, 14370, 14655, 14940]),
   leather: leather([14655, 16080, 17220, 18360], 285),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4205,6 +4622,7 @@ const PRODUCTS = [
   fabric: fab([12162, 12312, 12459, 12756, 13053, 13350, 13647, 13944, 14241, 14538, 14835, 15132, 15429, 15726, 16023, 16320]),
   leather: leather([16023, 17508, 18696, 19884], 297),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4215,6 +4633,7 @@ const PRODUCTS = [
   fabric: fab([6444, 6507, 6567, 6690, 6813, 6936, 7059, 7182, 7305, 7428, 7551, 7674, 7797, 7920, 8043, 8166]),
   leather: leather([8043, 8658, 9150, 9642], 123),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4225,6 +4644,7 @@ const PRODUCTS = [
   fabric: fab([7683, 7764, 7845, 8007, 8169, 8331, 8493, 8655, 8817, 8979, 9141, 9303, 9465, 9627, 9789, 9951]),
   leather: leather([9789, 10599, 11247, 11895], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4235,6 +4655,7 @@ const PRODUCTS = [
   fabric: fab([7095, 7164, 7230, 7365, 7500, 7635, 7770, 7905, 8040, 8175, 8310, 8445, 8580, 8715, 8850, 8985]),
   leather: leather([8850, 9525, 10065, 10605], 135),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4245,6 +4666,7 @@ const PRODUCTS = [
   fabric: fab([8349, 8445, 8538, 8727, 8916, 9105, 9294, 9483, 9672, 9861, 10050, 10239, 10428, 10617, 10806, 10995]),
   leather: leather([10806, 11751, 12507, 13263], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 0, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4255,6 +4677,7 @@ const PRODUCTS = [
   fabric: fab([7764, 7842, 7917, 8070, 8223, 8376, 8529, 8682, 8835, 8988, 9141, 9294, 9447, 9600, 9753, 9906]),
   leather: leather([9753, 10518, 11130, 11742], 153),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4265,6 +4688,7 @@ const PRODUCTS = [
   fabric: fab([9027, 9135, 9243, 9459, 9675, 9891, 10107, 10323, 10539, 10755, 10971, 11187, 11403, 11619, 11835, 12051]),
   leather: leather([11835, 12915, 13779, 14643], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4275,6 +4699,7 @@ const PRODUCTS = [
   fabric: fab([8799, 8895, 8988, 9177, 9366, 9555, 9744, 9933, 10122, 10311, 10500, 10689, 10878, 11067, 11256, 11445]),
   leather: leather([11256, 12201, 12957, 13713], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4285,6 +4710,7 @@ const PRODUCTS = [
   fabric: fab([10053, 10176, 10296, 10539, 10782, 11025, 11268, 11511, 11754, 11997, 12240, 12483, 12726, 12969, 13212, 13455]),
   leather: leather([13212, 14427, 15399, 16371], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4295,6 +4721,7 @@ const PRODUCTS = [
   fabric: fab([8460, 8550, 8640, 8820, 9000, 9180, 9360, 9540, 9720, 9900, 10080, 10260, 10440, 10620, 10800, 10980]),
   leather: leather([10800, 11700, 12420, 13140], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4305,6 +4732,7 @@ const PRODUCTS = [
   fabric: fab([9723, 9846, 9966, 10209, 10452, 10695, 10938, 11181, 11424, 11667, 11910, 12153, 12396, 12639, 12882, 13125]),
   leather: leather([12882, 14097, 15069, 16041], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4315,6 +4743,7 @@ const PRODUCTS = [
   fabric: fab([6903, 6945, 6984, 7065, 7146, 7227, 7308, 7389, 7470, 7551, 7632, 7713, 7794, 7875, 7956, 8037]),
   leather: leather([7956, 8361, 8685, 9009], 81),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -4325,6 +4754,7 @@ const PRODUCTS = [
   fabric: fab([6120, 6177, 6234, 6348, 6462, 6576, 6690, 6804, 6918, 7032, 7146, 7260, 7374, 7488, 7602, 7716]),
   leather: leather([7602, 8172, 8628, 9084], 114),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4335,6 +4765,7 @@ const PRODUCTS = [
   fabric: fab([5832, 5892, 5949, 6066, 6183, 6300, 6417, 6534, 6651, 6768, 6885, 7002, 7119, 7236, 7353, 7470]),
   leather: leather([7353, 7938, 8406, 8874], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -4345,6 +4776,7 @@ const PRODUCTS = [
   fabric: fab([9033, 9120, 9204, 9375, 9546, 9717, 9888, 10059, 10230, 10401, 10572, 10743, 10914, 11085, 11256, 11427]),
   leather: leather([11256, 12111, 12795, 13479], 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4355,6 +4787,7 @@ const PRODUCTS = [
   fabric: fab([11391, 11511, 11631, 11871, 12111, 12351, 12591, 12831, 13071, 13311, 13551, 13791, 14031, 14271, 14511, 14751]),
   leather: leather([14511, 15711, 16671, 17631], 240),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4365,6 +4798,7 @@ const PRODUCTS = [
   fabric: fab([12054, 12183, 12312, 12570, 12828, 13086, 13344, 13602, 13860, 14118, 14376, 14634, 14892, 15150, 15408, 15666]),
   leather: leather([15408, 16698, 17730, 18762], 258),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4375,6 +4809,7 @@ const PRODUCTS = [
   fabric: fab([8466, 8556, 8646, 8826, 9006, 9186, 9366, 9546, 9726, 9906, 10086, 10266, 10446, 10626, 10806, 10986]),
   leather: leather([10806, 11706, 12426, 13146], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4385,6 +4820,7 @@ const PRODUCTS = [
   fabric: fab([9117, 9216, 9312, 9507, 9702, 9897, 10092, 10287, 10482, 10677, 10872, 11067, 11262, 11457, 11652, 11847]),
   leather: leather([11652, 12627, 13407, 14187], 195),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4395,6 +4831,7 @@ const PRODUCTS = [
   fabric: fab([9768, 9873, 9975, 10182, 10389, 10596, 10803, 11010, 11217, 11424, 11631, 11838, 12045, 12252, 12459, 12666]),
   leather: leather([12459, 13494, 14322, 15150], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4405,6 +4842,7 @@ const PRODUCTS = [
   fabric: fab([10419, 10530, 10641, 10863, 11085, 11307, 11529, 11751, 11973, 12195, 12417, 12639, 12861, 13083, 13305, 13527]),
   leather: leather([13305, 14415, 15303, 16191], 222),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4415,6 +4853,7 @@ const PRODUCTS = [
   fabric: fab([9768, 9873, 9975, 10182, 10389, 10596, 10803, 11010, 11217, 11424, 11631, 11838, 12045, 12252, 12459, 12666]),
   leather: leather([12459, 13494, 14322, 15150], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4425,6 +4864,7 @@ const PRODUCTS = [
   fabric: fab([10836, 10881, 10926, 11016, 11106, 11196, 11286, 11376, 11466, 11556, 11646, 11736, 11826, 11916, 12006, 12096]),
   leather: leather([12006, 12456, 12816, 13176], 90),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4435,6 +4875,7 @@ const PRODUCTS = [
   fabric: fab([12891, 13011, 13131, 13371, 13611, 13851, 14091, 14331, 14571, 14811, 15051, 15291, 15531, 15771, 16011, 16251]),
   leather: leather([16011, 17211, 18171, 19131], 240),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4445,6 +4886,7 @@ const PRODUCTS = [
   fabric: fab([13554, 13683, 13812, 14070, 14328, 14586, 14844, 15102, 15360, 15618, 15876, 16134, 16392, 16650, 16908, 17166]),
   leather: leather([16908, 18198, 19230, 20262], 258),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4455,6 +4897,7 @@ const PRODUCTS = [
   fabric: fab([9654, 9744, 9831, 10008, 10185, 10362, 10539, 10716, 10893, 11070, 11247, 11424, 11601, 11778, 11955, 12132]),
   leather: leather([11955, 12840, 13548, 14256], 177),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4465,6 +4908,7 @@ const PRODUCTS = [
   fabric: fab([10305, 10401, 10494, 10683, 10872, 11061, 11250, 11439, 11628, 11817, 12006, 12195, 12384, 12573, 12762, 12951]),
   leather: leather([12762, 13707, 14463, 15219], 189),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4475,6 +4919,7 @@ const PRODUCTS = [
   fabric: fab([10956, 11058, 11160, 11364, 11568, 11772, 11976, 12180, 12384, 12588, 12792, 12996, 13200, 13404, 13608, 13812]),
   leather: leather([13608, 14628, 15444, 16260], 204),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4485,6 +4930,7 @@ const PRODUCTS = [
   fabric: fab([11889, 11997, 12102, 12315, 12528, 12741, 12954, 13167, 13380, 13593, 13806, 14019, 14232, 14445, 14658, 14871]),
   leather: leather([14658, 15723, 16575, 17427], 213),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4495,6 +4941,7 @@ const PRODUCTS = [
   fabric: fab([10656, 10758, 10860, 11064, 11268, 11472, 11676, 11880, 12084, 12288, 12492, 12696, 12900, 13104, 13308, 13512]),
   leather: leather([13308, 14328, 15144, 15960], 204),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4505,6 +4952,7 @@ const PRODUCTS = [
   fabric: fab([5670, 5700, 5730, 5790, 5850, 5910, 5970, 6030, 6090, 6150, 6210, 6270, 6330, 6390, 6450, 6510]),
   leather: leather([6450, 6750, 6990, 7230], 60),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4515,6 +4963,7 @@ const PRODUCTS = [
   fabric: fab([6312, 6348, 6384, 6456, 6528, 6600, 6672, 6744, 6816, 6888, 6960, 7032, 7104, 7176, 7248, 7320]),
   leather: leather([7248, 7608, 7896, 8184], 72),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4525,6 +4974,7 @@ const PRODUCTS = [
   fabric: fab([6966, 7011, 7053, 7140, 7227, 7314, 7401, 7488, 7575, 7662, 7749, 7836, 7923, 8010, 8097, 8184]),
   leather: leather([8097, 8532, 8880, 9228], 87),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4535,6 +4985,7 @@ const PRODUCTS = [
   fabric: fab([6270, 6300, 6330, 6390, 6450, 6510, 6570, 6630, 6690, 6750, 6810, 6870, 6930, 6990, 7050, 7110]),
   leather: leather([7050, 7350, 7590, 7830], 60),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4545,6 +4996,7 @@ const PRODUCTS = [
   fabric: fab([3816, 3846, 3876, 3936, 3996, 4056, 4116, 4176, 4236, 4296, 4356, 4416, 4476, 4536, 4596, 4656]),
   leather: leather([4596, 4896, 5136, 5376], 60),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4555,6 +5007,7 @@ const PRODUCTS = [
   fabric: fab([6264, 6300, 6336, 6408, 6480, 6552, 6624, 6696, 6768, 6840, 6912, 6984, 7056, 7128, 7200, 7272]),
   leather: leather([7200, 7560, 7848, 8136], 72),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -4565,6 +5018,7 @@ const PRODUCTS = [
   fabric: fab([4338, 4398, 4455, 4572, 4689, 4806, 4923, 5040, 5157, 5274, 5391, 5508, 5625, 5742, 5859, 5976]),
   leather: leather([5859, 6444, 6912, 7380], 117),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4575,6 +5029,7 @@ const PRODUCTS = [
   fabric: fab([4899, 4953, 5007, 5115, 5223, 5331, 5439, 5547, 5655, 5763, 5871, 5979, 6087, 6195, 6303, 6411]),
   leather: leather([6303, 6843, 7275, 7707], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4585,6 +5040,7 @@ const PRODUCTS = [
   fabric: fab([5568, 5631, 5694, 5820, 5946, 6072, 6198, 6324, 6450, 6576, 6702, 6828, 6954, 7080, 7206, 7332]),
   leather: leather([7206, 7836, 8340, 8844], 126),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4595,6 +5051,7 @@ const PRODUCTS = [
   fabric: fab([6201, 6270, 6336, 6471, 6606, 6741, 6876, 7011, 7146, 7281, 7416, 7551, 7686, 7821, 7956, 8091]),
   leather: leather([7956, 8631, 9171, 9711], 135),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4605,6 +5062,7 @@ const PRODUCTS = [
   fabric: fab([6201, 6270, 6336, 6471, 6606, 6741, 6876, 7011, 7146, 7281, 7416, 7551, 7686, 7821, 7956, 8091]),
   leather: leather([7956, 8631, 9171, 9711], 135),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4615,6 +5073,7 @@ const PRODUCTS = [
   fabric: fab([3222, 3252, 3282, 3342, 3402, 3462, 3522, 3582, 3642, 3702, 3762, 3822, 3882, 3942, 4002, 4062]),
   leather: leather([4002, 4302, 4542, 4782], 60),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: 0, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4625,6 +5084,7 @@ const PRODUCTS = [
   fabric: fab([9321, 9447, 9570, 9819, 10068, 10317, 10566, 10815, 11064, 11313, 11562, 11811, 12060, 12309, 12558, 12807]),
   leather: leather([12558, 13803, 14799, 15795], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4635,6 +5095,7 @@ const PRODUCTS = [
   fabric: fab([9933, 10059, 10185, 10437, 10689, 10941, 11193, 11445, 11697, 11949, 12201, 12453, 12705, 12957, 13209, 13461]),
   leather: leather([13209, 14469, 15477, 16485], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4645,6 +5106,7 @@ const PRODUCTS = [
   fabric: fab([6603, 6684, 6765, 6927, 7089, 7251, 7413, 7575, 7737, 7899, 8061, 8223, 8385, 8547, 8709, 8871]),
   leather: leather([8709, 9519, 10167, 10815], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4655,6 +5117,7 @@ const PRODUCTS = [
   fabric: fab([7389, 7497, 7602, 7815, 8028, 8241, 8454, 8667, 8880, 9093, 9306, 9519, 9732, 9945, 10158, 10371]),
   leather: leather([10158, 11223, 12075, 12927], 213),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4665,6 +5128,7 @@ const PRODUCTS = [
   fabric: fab([7998, 8106, 8214, 8430, 8646, 8862, 9078, 9294, 9510, 9726, 9942, 10158, 10374, 10590, 10806, 11022]),
   leather: leather([10806, 11886, 12750, 13614], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4675,6 +5139,7 @@ const PRODUCTS = [
   fabric: fab([8700, 8823, 8943, 9186, 9429, 9672, 9915, 10158, 10401, 10644, 10887, 11130, 11373, 11616, 11859, 12102]),
   leather: leather([11859, 13074, 14046, 15018], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4685,6 +5150,7 @@ const PRODUCTS = [
   fabric: fab([8733, 8859, 8985, 9237, 9489, 9741, 9993, 10245, 10497, 10749, 11001, 11253, 11505, 11757, 12009, 12261]),
   leather: leather([12009, 13269, 14277, 15285], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4695,6 +5161,7 @@ const PRODUCTS = [
   fabric: fab([7968, 8073, 8175, 8382, 8589, 8796, 9003, 9210, 9417, 9624, 9831, 10038, 10245, 10452, 10659, 10866]),
   leather: leather([10659, 11694, 12522, 13350], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4705,6 +5172,7 @@ const PRODUCTS = [
   fabric: fab([7260, 7311, 7359, 7458, 7557, 7656, 7755, 7854, 7953, 8052, 8151, 8250, 8349, 8448, 8547, 8646]),
   leather: leather([8547, 9042, 9438, 9834], 99),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -4715,6 +5183,7 @@ const PRODUCTS = [
   fabric: fab([6432, 6492, 6549, 6666, 6783, 6900, 7017, 7134, 7251, 7368, 7485, 7602, 7719, 7836, 7953, 8070]),
   leather: leather([7953, 8538, 9006, 9474], 117),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 210, contrastWeltLeather: 630, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4725,6 +5194,7 @@ const PRODUCTS = [
   fabric: fab([8448, 8538, 8625, 8802, 8979, 9156, 9333, 9510, 9687, 9864, 10041, 10218, 10395, 10572, 10749, 10926]),
   leather: leather([10749, 11634, 12342, 13050], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 240, contrastWeltLeather: 720, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4735,6 +5205,7 @@ const PRODUCTS = [
   fabric: fab([9762, 9867, 9969, 10176, 10383, 10590, 10797, 11004, 11211, 11418, 11625, 11832, 12039, 12246, 12453, 12660]),
   leather: leather([12453, 13488, 14316, 15144], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 270, contrastWeltLeather: 810, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4745,6 +5216,7 @@ const PRODUCTS = [
   fabric: fab([6393, 6447, 6501, 6609, 6717, 6825, 6933, 7041, 7149, 7257, 7365, 7473, 7581, 7689, 7797, 7905]),
   leather: leather([7797, 8337, 8769, 9201], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4755,6 +5227,7 @@ const PRODUCTS = [
   fabric: fab([8850, 8952, 9054, 9258, 9462, 9666, 9870, 10074, 10278, 10482, 10686, 10890, 11094, 11298, 11502, 11706]),
   leather: leather([11502, 12522, 13338, 14154], 204),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4765,6 +5238,7 @@ const PRODUCTS = [
   fabric: fab([11064, 11181, 11298, 11532, 11766, 12000, 12234, 12468, 12702, 12936, 13170, 13404, 13638, 13872, 14106, 14340]),
   leather: leather([14106, 15276, 16212, 17148], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4775,6 +5249,7 @@ const PRODUCTS = [
   fabric: fab([9636, 9729, 9822, 10008, 10194, 10380, 10566, 10752, 10938, 11124, 11310, 11496, 11682, 11868, 12054, 12240]),
   leather: leather([12054, 12984, 13728, 14472], 186),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4785,6 +5260,7 @@ const PRODUCTS = [
   fabric: fab([9360, 9486, 9609, 9858, 10107, 10356, 10605, 10854, 11103, 11352, 11601, 11850, 12099, 12348, 12597, 12846]),
   leather: leather([12597, 13842, 14838, 15834], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4795,6 +5271,7 @@ const PRODUCTS = [
   fabric: fab([6582, 6642, 6699, 6816, 6933, 7050, 7167, 7284, 7401, 7518, 7635, 7752, 7869, 7986, 8103, 8220]),
   leather: leather([8103, 8688, 9156, 9624], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -4805,6 +5282,7 @@ const PRODUCTS = [
   fabric: fab([4938, 4998, 5055, 5172, 5289, 5406, 5523, 5640, 5757, 5874, 5991, 6108, 6225, 6342, 6459, 6576]),
   leather: leather([6459, 7044, 7512, 7980], 117),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -4815,6 +5293,7 @@ const PRODUCTS = [
   fabric: fab([6717, 6816, 6912, 7107, 7302, 7497, 7692, 7887, 8082, 8277, 8472, 8667, 8862, 9057, 9252, 9447]),
   leather: leather([9252, 10227, 11007, 11787], 195),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4825,6 +5304,7 @@ const PRODUCTS = [
   fabric: fab([7335, 7434, 7533, 7731, 7929, 8127, 8325, 8523, 8721, 8919, 9117, 9315, 9513, 9711, 9909, 10107]),
   leather: leather([9909, 10899, 11691, 12483], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -4835,6 +5315,7 @@ const PRODUCTS = [
   fabric: fab([5589, 5655, 5721, 5853, 5985, 6117, 6249, 6381, 6513, 6645, 6777, 6909, 7041, 7173, 7305, 7437]),
   leather: leather([7305, 7965, 8493, 9021], 132),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4845,6 +5326,7 @@ const PRODUCTS = [
   fabric: fab([9138, 9246, 9354, 9570, 9786, 10002, 10218, 10434, 10650, 10866, 11082, 11298, 11514, 11730, 11946, 12162]),
   leather: leather([11946, 13026, 13890, 14754], 216),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: 0 },
 },
 
 {
@@ -4855,6 +5337,7 @@ const PRODUCTS = [
   fabric: fab([6294, 6330, 6366, 6438, 6510, 6582, 6654, 6726, 6798, 6870, 6942, 7014, 7086, 7158, 7230, 7302]),
   leather: leather([7230, 7590, 7878, 8166], 72),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4865,6 +5348,7 @@ const PRODUCTS = [
   fabric: fab([4938, 4998, 5055, 5172, 5289, 5406, 5523, 5640, 5757, 5874, 5991, 6108, 6225, 6342, 6459, 6576]),
   leather: leather([6459, 7044, 7512, 7980], 117),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4875,6 +5359,7 @@ const PRODUCTS = [
   fabric: fab([5655, 5691, 5724, 5793, 5862, 5931, 6000, 6069, 6138, 6207, 6276, 6345, 6414, 6483, 6552, 6621]),
   leather: leather([6552, 6897, 7173, 7449], 69),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4885,6 +5370,7 @@ const PRODUCTS = [
   fabric: fab([4899, 4953, 5007, 5115, 5223, 5331, 5439, 5547, 5655, 5763, 5871, 5979, 6087, 6195, 6303, 6411]),
   leather: leather([6303, 6843, 7275, 7707], 108),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -4895,6 +5381,7 @@ const PRODUCTS = [
   fabric: fab([5700, 5751, 5799, 5898, 5997, 6096, 6195, 6294, 6393, 6492, 6591, 6690, 6789, 6888, 6987, 7086]),
   leather: leather([6987, 7482, 7878, 8274], 99),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -4905,6 +5392,7 @@ const PRODUCTS = [
   fabric: fab([6240, 6276, 6312, 6384, 6456, 6528, 6600, 6672, 6744, 6816, 6888, 6960, 7032, 7104, 7176, 7248]),
   leather: leather([7176, 7536, 7824, 8112], 72),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4915,6 +5403,7 @@ const PRODUCTS = [
   fabric: fab([6204, 6240, 6273, 6342, 6411, 6480, 6549, 6618, 6687, 6756, 6825, 6894, 6963, 7032, 7101, 7170]),
   leather: leather([7101, 7446, 7722, 7998], 69),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4925,6 +5414,7 @@ const PRODUCTS = [
   fabric: fab([3783, 3807, 3828, 3873, 3918, 3963, 4008, 4053, 4098, 4143, 4188, 4233, 4278, 4323, 4368, 4413]),
   leather: leather([4368, 4593, 4773, 4953], 45),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4935,6 +5425,7 @@ const PRODUCTS = [
   fabric: fab([4866, 4956, 5046, 5226, 5406, 5586, 5766, 5946, 6126, 6306, 6486, 6666, 6846, 7026, 7206, 7386]),
   leather: leather([7206, 8106, 8826, 9546], 180),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4945,6 +5436,7 @@ const PRODUCTS = [
   fabric: fab([8403, 8481, 8556, 8709, 8862, 9015, 9168, 9321, 9474, 9627, 9780, 9933, 10086, 10239, 10392, 10545]),
   leather: leather([10392, 11157, 11769, 12381], 153),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -4955,6 +5447,7 @@ const PRODUCTS = [
   fabric: fab([8076, 8139, 8202, 8328, 8454, 8580, 8706, 8832, 8958, 9084, 9210, 9336, 9462, 9588, 9714, 9840]),
   leather: leather([9714, 10344, 10848, 11352], 126),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -4965,6 +5458,7 @@ const PRODUCTS = [
   fabric: fab([9177, 9246, 9312, 9447, 9582, 9717, 9852, 9987, 10122, 10257, 10392, 10527, 10662, 10797, 10932, 11067]),
   leather: leather([10932, 11607, 12147, 12687], 135),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -4975,6 +5469,7 @@ const PRODUCTS = [
   fabric: fab([7755, 7827, 7899, 8043, 8187, 8331, 8475, 8619, 8763, 8907, 9051, 9195, 9339, 9483, 9627, 9771]),
   leather: leather([9627, 10347, 10923, 11499], 144),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4985,6 +5480,7 @@ const PRODUCTS = [
   fabric: fab([8247, 8271, 8292, 8337, 8382, 8427, 8472, 8517, 8562, 8607, 8652, 8697, 8742, 8787, 8832, 8877]),
   leather: leather([8832, 9057, 9237, 9417], 45),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -4995,6 +5491,7 @@ const PRODUCTS = [
   fabric: fab([8247, 8271, 8292, 8337, 8382, 8427, 8472, 8517, 8562, 8607, 8652, 8697, 8742, 8787, 8832, 8877]),
   leather: leather([8832, 9057, 9237, 9417], 45),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5005,6 +5502,7 @@ const PRODUCTS = [
   fabric: fab([8973, 8994, 9015, 9057, 9099, 9141, 9183, 9225, 9267, 9309, 9351, 9393, 9435, 9477, 9519, 9561]),
   leather: leather([9519, 9729, 9897, 10065], 42),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5015,6 +5513,7 @@ const PRODUCTS = [
   fabric: fab([8973, 8994, 9015, 9057, 9099, 9141, 9183, 9225, 9267, 9309, 9351, 9393, 9435, 9477, 9519, 9561]),
   leather: leather([9519, 9729, 9897, 10065], 42),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5025,6 +5524,7 @@ const PRODUCTS = [
   fabric: fab([6438, 6459, 6480, 6522, 6564, 6606, 6648, 6690, 6732, 6774, 6816, 6858, 6900, 6942, 6984, 7026]),
   leather: leather([6984, 7194, 7362, 7530], 42),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5035,6 +5535,7 @@ const PRODUCTS = [
   fabric: fab([6438, 6459, 6480, 6522, 6564, 6606, 6648, 6690, 6732, 6774, 6816, 6858, 6900, 6942, 6984, 7026]),
   leather: leather([6984, 7194, 7362, 7530], 42),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5045,6 +5546,7 @@ const PRODUCTS = [
   fabric: fab([5325, 5430, 5532, 5739, 5946, 6153, 6360, 6567, 6774, 6981, 7188, 7395, 7602, 7809, 8016, 8223]),
   leather: leather([8016, 9051, 9879, 10707], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5055,6 +5557,7 @@ const PRODUCTS = [
   fabric: fab([9771, 9957, 10140, 10509, 10878, 11247, 11616, 11985, 12354, 12723, 13092, 13461, 13830, 14199, 14568, 14937]),
   leather: leather([14568, 16413, 17889, 19365], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5065,6 +5568,7 @@ const PRODUCTS = [
   fabric: fab([12027, 12258, 12486, 12945, 13404, 13863, 14322, 14781, 15240, 15699, 16158, 16617, 17076, 17535, 17994, 18453]),
   leather: leather([17994, 20289, 22125, 23961], 459),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5075,6 +5579,7 @@ const PRODUCTS = [
   fabric: fab([12795, 13038, 13281, 13767, 14253, 14739, 15225, 15711, 16197, 16683, 17169, 17655, 18141, 18627, 19113, 19599]),
   leather: leather([19113, 21543, 23487, 25431], 486),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5085,6 +5590,7 @@ const PRODUCTS = [
   fabric: fab([9105, 9264, 9420, 9735, 10050, 10365, 10680, 10995, 11310, 11625, 11940, 12255, 12570, 12885, 13200, 13515]),
   leather: leather([13200, 14775, 16035, 17295], 315),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5095,6 +5601,7 @@ const PRODUCTS = [
   fabric: fab([9684, 9852, 10017, 10350, 10683, 11016, 11349, 11682, 12015, 12348, 12681, 13014, 13347, 13680, 14013, 14346]),
   leather: leather([14013, 15678, 17010, 18342], 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5105,6 +5612,7 @@ const PRODUCTS = [
   fabric: fab([10533, 10740, 10947, 11361, 11775, 12189, 12603, 13017, 13431, 13845, 14259, 14673, 15087, 15501, 15915, 16329]),
   leather: leather([15915, 17985, 19641, 21297], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 279, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5115,6 +5623,7 @@ const PRODUCTS = [
   fabric: fab([11097, 11313, 11529, 11961, 12393, 12825, 13257, 13689, 14121, 14553, 14985, 15417, 15849, 16281, 16713, 17145]),
   leather: leather([16713, 18873, 20601, 22329], 432),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5125,6 +5634,7 @@ const PRODUCTS = [
   fabric: fab([5502, 5589, 5673, 5844, 6015, 6186, 6357, 6528, 6699, 6870, 7041, 7212, 7383, 7554, 7725, 7896]),
   leather: leather([7725, 8580, 9264, 9948], 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5135,6 +5645,7 @@ const PRODUCTS = [
   fabric: fab([9540, 9699, 9855, 10170, 10485, 10800, 11115, 11430, 11745, 12060, 12375, 12690, 13005, 13320, 13635, 13950]),
   leather: leather([13635, 15210, 16470, 17730], 315),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5145,6 +5656,7 @@ const PRODUCTS = [
   fabric: fab([10599, 10824, 11049, 11499, 11949, 12399, 12849, 13299, 13749, 14199, 14649, 15099, 15549, 15999, 16449, 16899]),
   leather: leather([16449, 18699, 20499, 22299], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5155,6 +5667,7 @@ const PRODUCTS = [
   fabric: fab([10854, 11106, 11358, 11862, 12366, 12870, 13374, 13878, 14382, 14886, 15390, 15894, 16398, 16902, 17406, 17910]),
   leather: leather([17406, 19926, 21942, 23958], 504),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5165,6 +5678,7 @@ const PRODUCTS = [
   fabric: fab([7944, 8079, 8214, 8484, 8754, 9024, 9294, 9564, 9834, 10104, 10374, 10644, 10914, 11184, 11454, 11724]),
   leather: leather([11454, 12804, 13884, 14964], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 276, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5175,6 +5689,7 @@ const PRODUCTS = [
   fabric: fab([8421, 8565, 8709, 8997, 9285, 9573, 9861, 10149, 10437, 10725, 11013, 11301, 11589, 11877, 12165, 12453]),
   leather: leather([12165, 13605, 14757, 15909], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5185,6 +5700,7 @@ const PRODUCTS = [
   fabric: fab([8922, 9075, 9228, 9534, 9840, 10146, 10452, 10758, 11064, 11370, 11676, 11982, 12288, 12594, 12900, 13206]),
   leather: leather([12900, 14430, 15654, 16878], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5195,6 +5711,7 @@ const PRODUCTS = [
   fabric: fab([9549, 9711, 9873, 10197, 10521, 10845, 11169, 11493, 11817, 12141, 12465, 12789, 13113, 13437, 13761, 14085]),
   leather: leather([13761, 15381, 16677, 17973], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5205,6 +5722,7 @@ const PRODUCTS = [
   fabric: fab([12039, 12192, 12345, 12651, 12957, 13263, 13569, 13875, 14181, 14487, 14793, 15099, 15405, 15711, 16017, 16323]),
   leather: leather([16017, 17547, 18771, 19995], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5215,6 +5733,7 @@ const PRODUCTS = [
   fabric: fab([6384, 6477, 6570, 6756, 6942, 7128, 7314, 7500, 7686, 7872, 8058, 8244, 8430, 8616, 8802, 8988]),
   leather: leather([8802, 9732, 10476, 11220], 186),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: 0, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5225,6 +5744,7 @@ const PRODUCTS = [
   fabric: fab([6192, 6246, 6300, 6408, 6516, 6624, 6732, 6840, 6948, 7056, 7164, 7272, 7380, 7488, 7596, 7704]),
   leather: leather([7596, 8136, 8568, 9000], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5235,6 +5755,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather([4488, 4698, 4866, 5034], 42),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5245,6 +5766,7 @@ const PRODUCTS = [
   fabric: fab([6708, 6753, 6795, 6882, 6969, 7056, 7143, 7230, 7317, 7404, 7491, 7578, 7665, 7752, 7839, 7926]),
   leather: leather([7839, 8274, 8622, 8970], 87),
   finishTiers: { tier1: 0, tier2: 600, tier3: 900, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5255,6 +5777,7 @@ const PRODUCTS = [
   fabric: fab([6381, 6408, 6435, 6489, 6543, 6597, 6651, 6705, 6759, 6813, 6867, 6921, 6975, 7029, 7083, 7137]),
   leather: leather([7083, 7353, 7569, 7785], 54),
   finishTiers: { tier1: 0, tier2: 600, tier3: 900, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5265,6 +5788,7 @@ const PRODUCTS = [
   fabric: fab([4911, 4944, 4974, 5037, 5100, 5163, 5226, 5289, 5352, 5415, 5478, 5541, 5604, 5667, 5730, 5793]),
   leather: leather([5730, 6045, 6297, 6549], 63),
   finishTiers: { tier1: 0, tier2: 600, tier3: null, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -5275,6 +5799,7 @@ const PRODUCTS = [
   fabric: fab([6576, 6639, 6702, 6828, 6954, 7080, 7206, 7332, 7458, 7584, 7710, 7836, 7962, 8088, 8214, 8340]),
   leather: leather([8214, 8844, 9348, 9852], 126),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5285,6 +5810,7 @@ const PRODUCTS = [
   fabric: fab([11211, 11343, 11472, 11733, 11994, 12255, 12516, 12777, 13038, 13299, 13560, 13821, 14082, 14343, 14604, 14865]),
   leather: leather([14604, 15909, 16953, 17997], 261),
   finishTiers: { tier1: 0, tier2: 300, tier3: 600, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -5295,6 +5821,7 @@ const PRODUCTS = [
   fabric: fab([4782, 4848, 4914, 5046, 5178, 5310, 5442, 5574, 5706, 5838, 5970, 6102, 6234, 6366, 6498, 6630]),
   leather: leather([6498, 7158, 7686, 8214], 132),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5305,6 +5832,7 @@ const PRODUCTS = [
   fabric: fab([7416, 7524, 7632, 7848, 8064, 8280, 8496, 8712, 8928, 9144, 9360, 9576, 9792, 10008, 10224, 10440]),
   leather: leather([10224, 11304, 12168, 13032], 216),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5315,6 +5843,7 @@ const PRODUCTS = [
   fabric: fab([6027, 6117, 6204, 6381, 6558, 6735, 6912, 7089, 7266, 7443, 7620, 7797, 7974, 8151, 8328, 8505]),
   leather: leather([8328, 9213, 9921, 10629], 177),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5325,6 +5854,7 @@ const PRODUCTS = [
   fabric: fab([5412, 5493, 5574, 5736, 5898, 6060, 6222, 6384, 6546, 6708, 6870, 7032, 7194, 7356, 7518, 7680]),
   leather: leather([7518, 8328, 8976, 9624], 162),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5335,6 +5865,7 @@ const PRODUCTS = [
   fabric: fab([8619, 8805, 8988, 9357, 9726, 10095, 10464, 10833, 11202, 11571, 11940, 12309, 12678, 13047, 13416, 13785]),
   leather: leather([13416, 15261, 16737, 18213], 369),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5345,6 +5876,7 @@ const PRODUCTS = [
   fabric: fab([7989, 8160, 8328, 8667, 9006, 9345, 9684, 10023, 10362, 10701, 11040, 11379, 11718, 12057, 12396, 12735]),
   leather: leather([12396, 14091, 15447, 16803], 339),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5355,6 +5887,7 @@ const PRODUCTS = [
   fabric: fab([5586, 5679, 5772, 5958, 6144, 6330, 6516, 6702, 6888, 7074, 7260, 7446, 7632, 7818, 8004, 8190]),
   leather: leather([8004, 8934, 9678, 10422], 186),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5365,6 +5898,7 @@ const PRODUCTS = [
   fabric: fab([7104, 7206, 7308, 7512, 7716, 7920, 8124, 8328, 8532, 8736, 8940, 9144, 9348, 9552, 9756, 9960]),
   leather: leather([9756, 10776, 11592, 12408], 204),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5375,6 +5909,7 @@ const PRODUCTS = [
   fabric: fab([8940, 9060, 9180, 9420, 9660, 9900, 10140, 10380, 10620, 10860, 11100, 11340, 11580, 11820, 12060, 12300]),
   leather: leather([12060, 13260, 14220, 15180], 240),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5385,6 +5920,7 @@ const PRODUCTS = [
   fabric: fab([5664, 5721, 5778, 5892, 6006, 6120, 6234, 6348, 6462, 6576, 6690, 6804, 6918, 7032, 7146, 7260]),
   leather: leather([7146, 7716, 8172, 8628], 114),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5395,6 +5931,7 @@ const PRODUCTS = [
   fabric: fab([12474, 12636, 12798, 13122, 13446, 13770, 14094, 14418, 14742, 15066, 15390, 15714, 16038, 16362, 16686, 17010]),
   leather: leather([16686, 18306, 19602, 20898], 324),
   finishTiers: { tier1: 0, tier2: 300, tier3: 600, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5405,6 +5942,7 @@ const PRODUCTS = [
   fabric: fab([10293, 10416, 10536, 10779, 11022, 11265, 11508, 11751, 11994, 12237, 12480, 12723, 12966, 13209, 13452, 13695]),
   leather: leather([13452, 14667, 15639, 16611], 243),
   finishTiers: { tier1: 0, tier2: 225, tier3: 450, tier4: 2250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5415,6 +5953,7 @@ const PRODUCTS = [
   fabric: fab([4941, 5013, 5082, 5223, 5364, 5505, 5646, 5787, 5928, 6069, 6210, 6351, 6492, 6633, 6774, 6915]),
   leather: leather([6774, 7479, 8043, 8607], 141),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5425,6 +5964,7 @@ const PRODUCTS = [
   fabric: fab([5262, 5343, 5424, 5586, 5748, 5910, 6072, 6234, 6396, 6558, 6720, 6882, 7044, 7206, 7368, 7530]),
   leather: leather([7368, 8178, 8826, 9474], 162),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5435,6 +5975,7 @@ const PRODUCTS = [
   fabric: fab([2535, 2565, 2595, 2655, 2715, 2775, 2835, 2895, 2955, 3015, 3075, 3135, 3195, 3255, 3315, 3375]),
   leather: leather([3315, 3615, 3855, 4095], 60),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5445,6 +5986,7 @@ const PRODUCTS = [
   fabric: fab([8742, 8913, 9084, 9426, 9768, 10110, 10452, 10794, 11136, 11478, 11820, 12162, 12504, 12846, 13188, 13530]),
   leather: leather([13188, 14898, 16266, 17634], 342),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5455,6 +5997,7 @@ const PRODUCTS = [
   fabric: fab([10623, 10836, 11046, 11469, 11892, 12315, 12738, 13161, 13584, 14007, 14430, 14853, 15276, 15699, 16122, 16545]),
   leather: leather([16122, 18237, 19929, 21621], 423),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5465,6 +6008,7 @@ const PRODUCTS = [
   fabric: fab([5523, 5586, 5646, 5769, 5892, 6015, 6138, 6261, 6384, 6507, 6630, 6753, 6876, 6999, 7122, 7245]),
   leather: leather([7122, 7737, 8229, 8721], 123),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5475,6 +6019,7 @@ const PRODUCTS = [
   fabric: fab([2436, 2454, 2472, 2508, 2544, 2580, 2616, 2652, 2688, 2724, 2760, 2796, 2832, 2868, 2904, 2940]),
   leather: leather([2904, 3084, 3228, 3372], 36),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5485,6 +6030,7 @@ const PRODUCTS = [
   fabric: fab([8004, 8106, 8208, 8412, 8616, 8820, 9024, 9228, 9432, 9636, 9840, 10044, 10248, 10452, 10656, 10860]),
   leather: leather([10656, 11676, 12492, 13308], 204),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5495,6 +6041,7 @@ const PRODUCTS = [
   fabric: fab([6144, 6216, 6288, 6432, 6576, 6720, 6864, 7008, 7152, 7296, 7440, 7584, 7728, 7872, 8016, 8160]),
   leather: leather([8016, 8736, 9312, 9888], 144),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5505,6 +6052,7 @@ const PRODUCTS = [
   fabric: fab([6282, 6348, 6414, 6546, 6678, 6810, 6942, 7074, 7206, 7338, 7470, 7602, 7734, 7866, 7998, 8130]),
   leather: leather([7998, 8658, 9186, 9714], 132),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5515,6 +6063,7 @@ const PRODUCTS = [
   fabric: fab([5550, 5625, 5700, 5850, 6000, 6150, 6300, 6450, 6600, 6750, 6900, 7050, 7200, 7350, 7500, 7650]),
   leather: leather([7500, 8250, 8850, 9450], 150),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5525,6 +6074,7 @@ const PRODUCTS = [
   fabric: fab([5853, 5931, 6006, 6159, 6312, 6465, 6618, 6771, 6924, 7077, 7230, 7383, 7536, 7689, 7842, 7995]),
   leather: leather([7842, 8607, 9219, 9831], 153),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5535,6 +6085,7 @@ const PRODUCTS = [
   fabric: fab([5226, 5289, 5352, 5478, 5604, 5730, 5856, 5982, 6108, 6234, 6360, 6486, 6612, 6738, 6864, 6990]),
   leather: leather([6864, 7494, 7998, 8502], 126),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5545,6 +6096,7 @@ const PRODUCTS = [
   fabric: fab([6372, 6408, 6444, 6516, 6588, 6660, 6732, 6804, 6876, 6948, 7020, 7092, 7164, 7236, 7308, 7380]),
   leather: leather([7308, 7668, 7956, 8244], 72),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 315, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5555,6 +6107,7 @@ const PRODUCTS = [
   fabric: fab([6354, 6381, 6408, 6462, 6516, 6570, 6624, 6678, 6732, 6786, 6840, 6894, 6948, 7002, 7056, 7110]),
   leather: leather([7056, 7326, 7542, 7758], 54),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5565,6 +6118,7 @@ const PRODUCTS = [
   fabric: fab([8835, 8904, 8970, 9105, 9240, 9375, 9510, 9645, 9780, 9915, 10050, 10185, 10320, 10455, 10590, 10725]),
   leather: leather([10590, 11265, 11805, 12345], 135),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5575,6 +6129,7 @@ const PRODUCTS = [
   fabric: fab([5985, 6054, 6120, 6255, 6390, 6525, 6660, 6795, 6930, 7065, 7200, 7335, 7470, 7605, 7740, 7875]),
   leather: leather([7740, 8415, 8955, 9495], 135),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5585,6 +6140,7 @@ const PRODUCTS = [
   fabric: fab([8067, 8127, 8184, 8301, 8418, 8535, 8652, 8769, 8886, 9003, 9120, 9237, 9354, 9471, 9588, 9705]),
   leather: leather([9588, 10173, 10641, 11109], 117),
   finishTiers: null,
+  addons: { swivel180: 0, swivel360: 600, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5595,6 +6151,7 @@ const PRODUCTS = [
   fabric: fab([5499, 5550, 5598, 5697, 5796, 5895, 5994, 6093, 6192, 6291, 6390, 6489, 6588, 6687, 6786, 6885]),
   leather: leather([6786, 7281, 7677, 8073], 99),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5605,6 +6162,7 @@ const PRODUCTS = [
   fabric: fab([6078, 6117, 6156, 6234, 6312, 6390, 6468, 6546, 6624, 6702, 6780, 6858, 6936, 7014, 7092, 7170]),
   leather: leather([7092, 7482, 7794, 8106], 78),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5615,6 +6173,7 @@ const PRODUCTS = [
   fabric: fab([9834, 9969, 10101, 10368, 10635, 10902, 11169, 11436, 11703, 11970, 12237, 12504, 12771, 13038, 13305, 13572]),
   leather: leather([13305, 14640, 15708, 16776], 267),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5625,6 +6184,7 @@ const PRODUCTS = [
   fabric: fab([4599, 4653, 4707, 4815, 4923, 5031, 5139, 5247, 5355, 5463, 5571, 5679, 5787, 5895, 6003, 6111]),
   leather: leather([6003, 6543, 6975, 7407], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5635,6 +6195,7 @@ const PRODUCTS = [
   fabric: fab([7158, 7194, 7230, 7302, 7374, 7446, 7518, 7590, 7662, 7734, 7806, 7878, 7950, 8022, 8094, 8166]),
   leather: leather([8094, 8454, 8742, 9030], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5645,6 +6206,7 @@ const PRODUCTS = [
   fabric: fab([12870, 12987, 13104, 13338, 13572, 13806, 14040, 14274, 14508, 14742, 14976, 15210, 15444, 15678, 15912, 16146]),
   leather: leather([15912, 17082, 18018, 18954], 234),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5655,6 +6217,7 @@ const PRODUCTS = [
   fabric: fab([13158, 13290, 13419, 13680, 13941, 14202, 14463, 14724, 14985, 15246, 15507, 15768, 16029, 16290, 16551, 16812]),
   leather: leather([16551, 17856, 18900, 19944], 261),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5665,6 +6228,7 @@ const PRODUCTS = [
   fabric: fab([13764, 13899, 14031, 14298, 14565, 14832, 15099, 15366, 15633, 15900, 16167, 16434, 16701, 16968, 17235, 17502]),
   leather: leather([17235, 18570, 19638, 20706], 267),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5675,6 +6239,7 @@ const PRODUCTS = [
   fabric: fab([10113, 10221, 10329, 10545, 10761, 10977, 11193, 11409, 11625, 11841, 12057, 12273, 12489, 12705, 12921, 13137]),
   leather: leather([12921, 14001, 14865, 15729], 216),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5685,6 +6250,7 @@ const PRODUCTS = [
   fabric: fab([10722, 10836, 10947, 11172, 11397, 11622, 11847, 12072, 12297, 12522, 12747, 12972, 13197, 13422, 13647, 13872]),
   leather: leather([13647, 14772, 15672, 16572], 225),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5695,6 +6261,7 @@ const PRODUCTS = [
   fabric: fab([11331, 11448, 11565, 11799, 12033, 12267, 12501, 12735, 12969, 13203, 13437, 13671, 13905, 14139, 14373, 14607]),
   leather: leather([14373, 15543, 16479, 17415], 234),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5705,6 +6272,7 @@ const PRODUCTS = [
   fabric: fab([12240, 12363, 12483, 12726, 12969, 13212, 13455, 13698, 13941, 14184, 14427, 14670, 14913, 15156, 15399, 15642]),
   leather: leather([15399, 16614, 17586, 18558], 243),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5715,6 +6283,7 @@ const PRODUCTS = [
   fabric: fab([14484, 14619, 14751, 15018, 15285, 15552, 15819, 16086, 16353, 16620, 16887, 17154, 17421, 17688, 17955, 18222]),
   leather: leather([17955, 19290, 20358, 21426], 267),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
 },
 
 {
@@ -5725,6 +6294,7 @@ const PRODUCTS = [
   fabric: fab([4164, 4200, 4236, 4308, 4380, 4452, 4524, 4596, 4668, 4740, 4812, 4884, 4956, 5028, 5100, 5172]),
   leather: leather([5100, 5460, 5748, 6036], 72),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5735,6 +6305,7 @@ const PRODUCTS = [
   fabric: fab([6312, 6357, 6399, 6486, 6573, 6660, 6747, 6834, 6921, 7008, 7095, 7182, 7269, 7356, 7443, 7530]),
   leather: leather([7443, 7878, 8226, 8574], 87),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5745,6 +6316,7 @@ const PRODUCTS = [
   fabric: fab([3165, 3189, 3210, 3255, 3300, 3345, 3390, 3435, 3480, 3525, 3570, 3615, 3660, 3705, 3750, 3795]),
   leather: leather([3750, 3975, 4155, 4335], 45),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5755,6 +6327,7 @@ const PRODUCTS = [
   fabric: fab([9624, 9708, 9792, 9960, 10128, 10296, 10464, 10632, 10800, 10968, 11136, 11304, 11472, 11640, 11808, 11976]),
   leather: leather([11808, 12648, 13320, 13992], 168),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
 },
 
 {
@@ -5765,6 +6338,7 @@ const PRODUCTS = [
   fabric: fab([11487, 11580, 11673, 11859, 12045, 12231, 12417, 12603, 12789, 12975, 13161, 13347, 13533, 13719, 13905, 14091]),
   leather: leather([13905, 14835, 15579, 16323], 186),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
 },
 
 {
@@ -5775,6 +6349,7 @@ const PRODUCTS = [
   fabric: fab([11481, 11598, 11715, 11949, 12183, 12417, 12651, 12885, 13119, 13353, 13587, 13821, 14055, 14289, 14523, 14757]),
   leather: leather([14523, 15693, 16629, 17565], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
 },
 
 {
@@ -5785,6 +6360,7 @@ const PRODUCTS = [
   fabric: fab([12099, 12225, 12351, 12603, 12855, 13107, 13359, 13611, 13863, 14115, 14367, 14619, 14871, 15123, 15375, 15627]),
   leather: leather([15375, 16635, 17643, 18651], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
 },
 
 {
@@ -5795,6 +6371,7 @@ const PRODUCTS = [
   fabric: fab([8706, 8787, 8865, 9024, 9183, 9342, 9501, 9660, 9819, 9978, 10137, 10296, 10455, 10614, 10773, 10932]),
   leather: leather([10773, 11568, 12204, 12840], 159),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
 },
 
 {
@@ -5805,6 +6382,7 @@ const PRODUCTS = [
   fabric: fab([9315, 9399, 9483, 9651, 9819, 9987, 10155, 10323, 10491, 10659, 10827, 10995, 11163, 11331, 11499, 11667]),
   leather: leather([11499, 12339, 13011, 13683], 168),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
 },
 
 {
@@ -5815,6 +6393,7 @@ const PRODUCTS = [
   fabric: fab([9924, 10014, 10101, 10278, 10455, 10632, 10809, 10986, 11163, 11340, 11517, 11694, 11871, 12048, 12225, 12402]),
   leather: leather([12225, 13110, 13818, 14526], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
 },
 
 {
@@ -5825,6 +6404,7 @@ const PRODUCTS = [
   fabric: fab([10836, 10932, 11025, 11214, 11403, 11592, 11781, 11970, 12159, 12348, 12537, 12726, 12915, 13104, 13293, 13482]),
   leather: leather([13293, 14238, 14994, 15750], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
 },
 
 {
@@ -5835,6 +6415,7 @@ const PRODUCTS = [
   fabric: fab([6720, 6777, 6834, 6948, 7062, 7176, 7290, 7404, 7518, 7632, 7746, 7860, 7974, 8088, 8202, 8316]),
   leather: leather([8202, 8772, 9228, 9684], 114),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5845,6 +6426,7 @@ const PRODUCTS = [
   fabric: fab([14856, 15000, 15141, 15426, 15711, 15996, 16281, 16566, 16851, 17136, 17421, 17706, 17991, 18276, 18561, 18846]),
   leather: leather([18561, 19986, 21126, 22266], 285),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
 },
 
 {
@@ -5855,6 +6437,7 @@ const PRODUCTS = [
   fabric: fab([15621, 15783, 15945, 16269, 16593, 16917, 17241, 17565, 17889, 18213, 18537, 18861, 19185, 19509, 19833, 20157]),
   leather: leather([19833, 21453, 22749, 24045], 324),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5865,6 +6448,7 @@ const PRODUCTS = [
   fabric: fab([16275, 16464, 16653, 17031, 17409, 17787, 18165, 18543, 18921, 19299, 19677, 20055, 20433, 20811, 21189, 21567]),
   leather: leather([21189, 23079, 24591, 26103], 378),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5875,6 +6459,7 @@ const PRODUCTS = [
   fabric: fab([11913, 12021, 12129, 12345, 12561, 12777, 12993, 13209, 13425, 13641, 13857, 14073, 14289, 14505, 14721, 14937]),
   leather: leather([14721, 15801, 16665, 17529], 216),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5885,6 +6470,7 @@ const PRODUCTS = [
   fabric: fab([12540, 12663, 12783, 13026, 13269, 13512, 13755, 13998, 14241, 14484, 14727, 14970, 15213, 15456, 15699, 15942]),
   leather: leather([15699, 16914, 17886, 18858], 243),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5895,6 +6481,7 @@ const PRODUCTS = [
   fabric: fab([13167, 13302, 13437, 13707, 13977, 14247, 14517, 14787, 15057, 15327, 15597, 15867, 16137, 16407, 16677, 16947]),
   leather: leather([16677, 18027, 19107, 20187], 270),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5905,6 +6492,7 @@ const PRODUCTS = [
   fabric: fab([14085, 14229, 14373, 14661, 14949, 15237, 15525, 15813, 16101, 16389, 16677, 16965, 17253, 17541, 17829, 18117]),
   leather: leather([17829, 19269, 20421, 21573], 288),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5915,6 +6503,7 @@ const PRODUCTS = [
   fabric: fab([3921, 3945, 3966, 4011, 4056, 4101, 4146, 4191, 4236, 4281, 4326, 4371, 4416, 4461, 4506, 4551]),
   leather: leather([4506, 4731, 4911, 5091], 45),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5925,6 +6514,7 @@ const PRODUCTS = [
   fabric: fab([6426, 6453, 6480, 6534, 6588, 6642, 6696, 6750, 6804, 6858, 6912, 6966, 7020, 7074, 7128, 7182]),
   leather: leather([7128, 7398, 7614, 7830], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5935,6 +6525,7 @@ const PRODUCTS = [
   fabric: fab([5181, 5208, 5235, 5289, 5343, 5397, 5451, 5505, 5559, 5613, 5667, 5721, 5775, 5829, 5883, 5937]),
   leather: leather([5883, 6153, 6369, 6585], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 2100, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5945,6 +6536,7 @@ const PRODUCTS = [
   fabric: fab([7167, 7194, 7221, 7275, 7329, 7383, 7437, 7491, 7545, 7599, 7653, 7707, 7761, 7815, 7869, 7923]),
   leather: leather([7869, 8139, 8355, 8571], 54),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5955,6 +6547,7 @@ const PRODUCTS = [
   fabric: fab([4614, 4641, 4668, 4722, 4776, 4830, 4884, 4938, 4992, 5046, 5100, 5154, 5208, 5262, 5316, 5370]),
   leather: leather([5316, 5586, 5802, 6018], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5965,6 +6558,7 @@ const PRODUCTS = [
   fabric: fab([24393, 24447, 24501, 24609, 24717, 24825, 24933, 25041, 25149, 25257, 25365, 25473, 25581, 25689, 25797, 25905]),
   leather: leather([25797, 26337, 26769, 27201], 108),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5975,6 +6569,7 @@ const PRODUCTS = [
   fabric: fab([9807, 9861, 9915, 10023, 10131, 10239, 10347, 10455, 10563, 10671, 10779, 10887, 10995, 11103, 11211, 11319]),
   leather: leather([11211, 11751, 12183, 12615], 108),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5985,6 +6580,7 @@ const PRODUCTS = [
   fabric: fab([7704, 7776, 7848, 7992, 8136, 8280, 8424, 8568, 8712, 8856, 9000, 9144, 9288, 9432, 9576, 9720]),
   leather: leather([9576, 10296, 10872, 11448], 144),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -5995,6 +6591,7 @@ const PRODUCTS = [
   fabric: fab([6183, 6210, 6234, 6285, 6336, 6387, 6438, 6489, 6540, 6591, 6642, 6693, 6744, 6795, 6846, 6897]),
   leather: leather([6846, 7101, 7305, 7509], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6005,6 +6602,7 @@ const PRODUCTS = [
   fabric: fab([6372, 6399, 6426, 6480, 6534, 6588, 6642, 6696, 6750, 6804, 6858, 6912, 6966, 7020, 7074, 7128]),
   leather: leather([7074, 7344, 7560, 7776], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6015,6 +6613,7 @@ const PRODUCTS = [
   fabric: fab([5034, 5067, 5097, 5160, 5223, 5286, 5349, 5412, 5475, 5538, 5601, 5664, 5727, 5790, 5853, 5916]),
   leather: leather([5853, 6168, 6420, 6672], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6025,6 +6624,7 @@ const PRODUCTS = [
   fabric: fab([4926, 4944, 4962, 4998, 5034, 5070, 5106, 5142, 5178, 5214, 5250, 5286, 5322, 5358, 5394, 5430]),
   leather: leather([5394, 5574, 5718, 5862], 36),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6035,6 +6635,7 @@ const PRODUCTS = [
   fabric: fab([5529, 5568, 5607, 5685, 5763, 5841, 5919, 5997, 6075, 6153, 6231, 6309, 6387, 6465, 6543, 6621]),
   leather: leather([6543, 6933, 7245, 7557], 78),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6045,6 +6646,7 @@ const PRODUCTS = [
   fabric: fab([5790, 5823, 5853, 5916, 5979, 6042, 6105, 6168, 6231, 6294, 6357, 6420, 6483, 6546, 6609, 6672]),
   leather: leather([6609, 6924, 7176, 7428], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6055,6 +6657,7 @@ const PRODUCTS = [
   fabric: fab([6927, 6972, 7017, 7107, 7197, 7287, 7377, 7467, 7557, 7647, 7737, 7827, 7917, 8007, 8097, 8187]),
   leather: leather([8097, 8547, 8907, 9267], 90),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6065,6 +6668,7 @@ const PRODUCTS = [
   fabric: fab([5331, 5403, 5475, 5619, 5763, 5907, 6051, 6195, 6339, 6483, 6627, 6771, 6915, 7059, 7203, 7347]),
   leather: leather([7203, 7923, 8499, 9075], 144),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6075,6 +6679,7 @@ const PRODUCTS = [
   fabric: fab([15360, 15411, 15459, 15558, 15657, 15756, 15855, 15954, 16053, 16152, 16251, 16350, 16449, 16548, 16647, 16746]),
   leather: leather([16647, 17142, 17538, 17934], 99),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6085,6 +6690,7 @@ const PRODUCTS = [
   fabric: fab([18450, 18513, 18573, 18696, 18819, 18942, 19065, 19188, 19311, 19434, 19557, 19680, 19803, 19926, 20049, 20172]),
   leather: leather([20049, 20664, 21156, 21648], 123),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6095,6 +6701,7 @@ const PRODUCTS = [
   fabric: fab([21531, 21603, 21675, 21819, 21963, 22107, 22251, 22395, 22539, 22683, 22827, 22971, 23115, 23259, 23403, 23547]),
   leather: leather([23403, 24123, 24699, 25275], 144),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6105,6 +6712,7 @@ const PRODUCTS = [
   fabric: fab([6192, 6219, 6246, 6300, 6354, 6408, 6462, 6516, 6570, 6624, 6678, 6732, 6786, 6840, 6894, 6948]),
   leather: leather([6894, 7164, 7380, 7596], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6115,6 +6723,7 @@ const PRODUCTS = [
   fabric: fab([5658, 5694, 5730, 5802, 5874, 5946, 6018, 6090, 6162, 6234, 6306, 6378, 6450, 6522, 6594, 6666]),
   leather: leather([6594, 6954, 7242, 7530], 72),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6125,6 +6734,7 @@ const PRODUCTS = [
   fabric: fab([6465, 6489, 6510, 6555, 6600, 6645, 6690, 6735, 6780, 6825, 6870, 6915, 6960, 7005, 7050, 7095]),
   leather: leather([7050, 7275, 7455, 7635], 45),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6135,6 +6745,7 @@ const PRODUCTS = [
   fabric: fab([7449, 7485, 7518, 7587, 7656, 7725, 7794, 7863, 7932, 8001, 8070, 8139, 8208, 8277, 8346, 8415]),
   leather: leather([8346, 8691, 8967, 9243], 69),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6145,6 +6756,7 @@ const PRODUCTS = [
   fabric: fab([5016, 5046, 5076, 5136, 5196, 5256, 5316, 5376, 5436, 5496, 5556, 5616, 5676, 5736, 5796, 5856]),
   leather: leather([5796, 6096, 6336, 6576], 60),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6155,6 +6767,7 @@ const PRODUCTS = [
   fabric: fab([6558, 6594, 6630, 6702, 6774, 6846, 6918, 6990, 7062, 7134, 7206, 7278, 7350, 7422, 7494, 7566]),
   leather: leather([7494, 7854, 8142, 8430], 72),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: 1650 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6165,6 +6778,7 @@ const PRODUCTS = [
   fabric: fab([6828, 6861, 6891, 6954, 7017, 7080, 7143, 7206, 7269, 7332, 7395, 7458, 7521, 7584, 7647, 7710]),
   leather: leather([7647, 7962, 8214, 8466], 63),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6175,6 +6789,7 @@ const PRODUCTS = [
   fabric: fab([21555, 21651, 21744, 21933, 22122, 22311, 22500, 22689, 22878, 23067, 23256, 23445, 23634, 23823, 24012, 24201]),
   leather: leather([24012, 24957, 25713, 26469], 189),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6185,6 +6800,7 @@ const PRODUCTS = [
   fabric: fab([12444, 12507, 12567, 12690, 12813, 12936, 13059, 13182, 13305, 13428, 13551, 13674, 13797, 13920, 14043, 14166]),
   leather: leather([14043, 14658, 15150, 15642], 123),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6195,6 +6811,7 @@ const PRODUCTS = [
   fabric: fab([6501, 6528, 6555, 6609, 6663, 6717, 6771, 6825, 6879, 6933, 6987, 7041, 7095, 7149, 7203, 7257]),
   leather: leather([7203, 7473, 7689, 7905], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6205,6 +6822,7 @@ const PRODUCTS = [
   fabric: fab([8109, 8154, 8199, 8289, 8379, 8469, 8559, 8649, 8739, 8829, 8919, 9009, 9099, 9189, 9279, 9369]),
   leather: leather([9279, 9729, 10089, 10449], 90),
   finishTiers: { tier1: 1500, tier2: 1995, tier3: 2295, tier4: 2550, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6215,6 +6833,7 @@ const PRODUCTS = [
   fabric: fab([14070, 14127, 14184, 14298, 14412, 14526, 14640, 14754, 14868, 14982, 15096, 15210, 15324, 15438, 15552, 15666]),
   leather: leather([15552, 16122, 16578, 17034], 114),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6225,6 +6844,7 @@ const PRODUCTS = [
   fabric: fab([18180, 18270, 18357, 18534, 18711, 18888, 19065, 19242, 19419, 19596, 19773, 19950, 20127, 20304, 20481, 20658]),
   leather: leather([20481, 21366, 22074, 22782], 177),
   finishTiers: { tier1: 3000, tier2: 3975, tier3: 4575, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6235,6 +6855,7 @@ const PRODUCTS = [
   fabric: fab([5832, 5859, 5886, 5940, 5994, 6048, 6102, 6156, 6210, 6264, 6318, 6372, 6426, 6480, 6534, 6588]),
   leather: leather([6534, 6804, 7020, 7236], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: 2400 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6245,6 +6866,7 @@ const PRODUCTS = [
   fabric: fab([5862, 5907, 5949, 6036, 6123, 6210, 6297, 6384, 6471, 6558, 6645, 6732, 6819, 6906, 6993, 7080]),
   leather: leather([6993, 7428, 7776, 8124], 87),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6255,6 +6877,7 @@ const PRODUCTS = [
   fabric: fab([12192, 12300, 12408, 12624, 12840, 13056, 13272, 13488, 13704, 13920, 14136, 14352, 14568, 14784, 15000, 15216]),
   leather: leather([15000, 16080, 16944, 17808], 216),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6265,6 +6888,7 @@ const PRODUCTS = [
   fabric: fab([12864, 12981, 13098, 13332, 13566, 13800, 14034, 14268, 14502, 14736, 14970, 15204, 15438, 15672, 15906, 16140]),
   leather: leather([15906, 17076, 18012, 18948], 234),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6275,6 +6899,7 @@ const PRODUCTS = [
   fabric: fab([8946, 9021, 9096, 9246, 9396, 9546, 9696, 9846, 9996, 10146, 10296, 10446, 10596, 10746, 10896, 11046]),
   leather: leather([10896, 11646, 12246, 12846], 150),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6285,6 +6910,7 @@ const PRODUCTS = [
   fabric: fab([9579, 9660, 9738, 9897, 10056, 10215, 10374, 10533, 10692, 10851, 11010, 11169, 11328, 11487, 11646, 11805]),
   leather: leather([11646, 12441, 13077, 13713], 159),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6295,6 +6921,7 @@ const PRODUCTS = [
   fabric: fab([10227, 10314, 10398, 10569, 10740, 10911, 11082, 11253, 11424, 11595, 11766, 11937, 12108, 12279, 12450, 12621]),
   leather: leather([12450, 13305, 13989, 14673], 171),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6305,6 +6932,7 @@ const PRODUCTS = [
   fabric: fab([10911, 11010, 11106, 11301, 11496, 11691, 11886, 12081, 12276, 12471, 12666, 12861, 13056, 13251, 13446, 13641]),
   leather: leather([13446, 14421, 15201, 15981], 195),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6315,6 +6943,7 @@ const PRODUCTS = [
   fabric: fab([8979, 9060, 9138, 9297, 9456, 9615, 9774, 9933, 10092, 10251, 10410, 10569, 10728, 10887, 11046, 11205]),
   leather: leather([11046, 11841, 12477, 13113], 159),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6325,6 +6954,7 @@ const PRODUCTS = [
   fabric: fab([5979, 6018, 6057, 6135, 6213, 6291, 6369, 6447, 6525, 6603, 6681, 6759, 6837, 6915, 6993, 7071]),
   leather: leather([6993, 7383, 7695, 8007], 78),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: 2400 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6335,6 +6965,7 @@ const PRODUCTS = [
   fabric: fab([6177, 6204, 6228, 6279, 6330, 6381, 6432, 6483, 6534, 6585, 6636, 6687, 6738, 6789, 6840, 6891]),
   leather: leather([6840, 7095, 7299, 7503], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6345,6 +6976,7 @@ const PRODUCTS = [
   fabric: fab([6777, 6804, 6828, 6879, 6930, 6981, 7032, 7083, 7134, 7185, 7236, 7287, 7338, 7389, 7440, 7491]),
   leather: leather([7440, 7695, 7899, 8103], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6355,6 +6987,7 @@ const PRODUCTS = [
   fabric: fab([5028, 5061, 5091, 5154, 5217, 5280, 5343, 5406, 5469, 5532, 5595, 5658, 5721, 5784, 5847, 5910]),
   leather: leather([5847, 6162, 6414, 6666], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6365,6 +6998,7 @@ const PRODUCTS = [
   fabric: fab([3858, 3894, 3930, 4002, 4074, 4146, 4218, 4290, 4362, 4434, 4506, 4578, 4650, 4722, 4794, 4866]),
   leather: leather([4794, 5154, 5442, 5730], 72),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: 3000 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6375,6 +7009,7 @@ const PRODUCTS = [
   fabric: fab([6114, 6171, 6228, 6342, 6456, 6570, 6684, 6798, 6912, 7026, 7140, 7254, 7368, 7482, 7596, 7710]),
   leather: leather([7596, 8166, 8622, 9078], 114),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 450, specialtyRattan: 2700 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6385,6 +7020,7 @@ const PRODUCTS = [
   fabric: fab([9495, 9564, 9630, 9765, 9900, 10035, 10170, 10305, 10440, 10575, 10710, 10845, 10980, 11115, 11250, 11385]),
   leather: leather([11250, 11925, 12465, 13005], 135),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6395,6 +7031,7 @@ const PRODUCTS = [
   fabric: fab([14211, 14310, 14406, 14601, 14796, 14991, 15186, 15381, 15576, 15771, 15966, 16161, 16356, 16551, 16746, 16941]),
   leather: leather([16746, 17721, 18501, 19281], 195),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6405,6 +7042,7 @@ const PRODUCTS = [
   fabric: fab([14883, 14991, 15096, 15309, 15522, 15735, 15948, 16161, 16374, 16587, 16800, 17013, 17226, 17439, 17652, 17865]),
   leather: leather([17652, 18717, 19569, 20421], 213),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6415,6 +7053,7 @@ const PRODUCTS = [
   fabric: fab([10395, 10464, 10530, 10665, 10800, 10935, 11070, 11205, 11340, 11475, 11610, 11745, 11880, 12015, 12150, 12285]),
   leather: leather([12150, 12825, 13365, 13905], 135),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6425,6 +7064,7 @@ const PRODUCTS = [
   fabric: fab([11025, 11097, 11169, 11313, 11457, 11601, 11745, 11889, 12033, 12177, 12321, 12465, 12609, 12753, 12897, 13041]),
   leather: leather([12897, 13617, 14193, 14769], 144),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6435,6 +7075,7 @@ const PRODUCTS = [
   fabric: fab([11979, 12060, 12138, 12297, 12456, 12615, 12774, 12933, 13092, 13251, 13410, 13569, 13728, 13887, 14046, 14205]),
   leather: leather([14046, 14841, 15477, 16113], 159),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6445,6 +7086,7 @@ const PRODUCTS = [
   fabric: fab([12927, 13014, 13098, 13269, 13440, 13611, 13782, 13953, 14124, 14295, 14466, 14637, 14808, 14979, 15150, 15321]),
   leather: leather([15150, 16005, 16689, 17373], 171),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6455,6 +7097,7 @@ const PRODUCTS = [
   fabric: fab([5697, 5739, 5778, 5859, 5940, 6021, 6102, 6183, 6264, 6345, 6426, 6507, 6588, 6669, 6750, 6831]),
   leather: leather([6750, 7155, 7479, 7803], 81),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 450, specialtyRattan: 2100 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6465,6 +7108,7 @@ const PRODUCTS = [
   fabric: fab([4158, 4194, 4230, 4302, 4374, 4446, 4518, 4590, 4662, 4734, 4806, 4878, 4950, 5022, 5094, 5166]),
   leather: leather([5094, 5454, 5742, 6030], 72),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6475,6 +7119,7 @@ const PRODUCTS = [
   fabric: fab([4395, 4422, 4449, 4503, 4557, 4611, 4665, 4719, 4773, 4827, 4881, 4935, 4989, 5043, 5097, 5151]),
   leather: leather([5097, 5367, 5583, 5799], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 900, type2Rattan: 1050, specialtyRattan: 3600 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6485,6 +7130,7 @@ const PRODUCTS = [
   fabric: fab([8097, 8139, 8178, 8259, 8340, 8421, 8502, 8583, 8664, 8745, 8826, 8907, 8988, 9069, 9150, 9231]),
   leather: leather([9150, 9555, 9879, 10203], 81),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6495,6 +7141,7 @@ const PRODUCTS = [
   fabric: fab([8103, 8145, 8184, 8265, 8346, 8427, 8508, 8589, 8670, 8751, 8832, 8913, 8994, 9075, 9156, 9237]),
   leather: leather([9156, 9561, 9885, 10209], 81),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6505,6 +7152,7 @@ const PRODUCTS = [
   fabric: fab([11385, 11505, 11625, 11865, 12105, 12345, 12585, 12825, 13065, 13305, 13545, 13785, 14025, 14265, 14505, 14745]),
   leather: leather([14505, 15705, 16665, 17625], 240),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 900, type2Rattan: 1800, specialtyRattan: 4500 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6515,6 +7163,7 @@ const PRODUCTS = [
   fabric: fab([5616, 5646, 5676, 5736, 5796, 5856, 5916, 5976, 6036, 6096, 6156, 6216, 6276, 6336, 6396, 6456]),
   leather: leather([6396, 6696, 6936, 7176], 60),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 1050, specialtyRattan: 4200 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6525,6 +7174,7 @@ const PRODUCTS = [
   fabric: fab([10122, 10152, 10182, 10242, 10302, 10362, 10422, 10482, 10542, 10602, 10662, 10722, 10782, 10842, 10902, 10962]),
   leather: leather([10902, 11202, 11442, 11682], 60),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -6535,6 +7185,7 @@ const PRODUCTS = [
   fabric: fab([10635, 10665, 10695, 10755, 10815, 10875, 10935, 10995, 11055, 11115, 11175, 11235, 11295, 11355, 11415, 11475]),
   leather: leather([11415, 11715, 11955, 12195], 60),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -6545,6 +7196,7 @@ const PRODUCTS = [
   fabric: fab([3090, 3102, 3114, 3138, 3162, 3186, 3210, 3234, 3258, 3282, 3306, 3330, 3354, 3378, 3402, 3426]),
   leather: leather([3402, 3522, 3618, 3714], 24),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6555,6 +7207,7 @@ const PRODUCTS = [
   fabric: fab([5001, 5028, 5055, 5109, 5163, 5217, 5271, 5325, 5379, 5433, 5487, 5541, 5595, 5649, 5703, 5757]),
   leather: leather([5703, 5973, 6189, 6405], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 900, type2Rattan: 1800, specialtyRattan: 3000 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6565,6 +7218,7 @@ const PRODUCTS = [
   fabric: fab([7170, 7203, 7233, 7296, 7359, 7422, 7485, 7548, 7611, 7674, 7737, 7800, 7863, 7926, 7989, 8052]),
   leather: leather([7989, 8304, 8556, 8808], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1635, specialtyRattan: 4200 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6575,6 +7229,7 @@ const PRODUCTS = [
   fabric: fab([14715, 14778, 14841, 14967, 15093, 15219, 15345, 15471, 15597, 15723, 15849, 15975, 16101, 16227, 16353, 16479]),
   leather: leather([16353, 16983, 17487, 17991], 126),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3840, specialtyRattan: 5700 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6585,6 +7240,7 @@ const PRODUCTS = [
   fabric: fab([5763, 5784, 5805, 5847, 5889, 5931, 5973, 6015, 6057, 6099, 6141, 6183, 6225, 6267, 6309, 6351]),
   leather: leather([6309, 6519, 6687, 6855], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 1500, specialtyRattan: 4500 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6595,6 +7251,7 @@ const PRODUCTS = [
   fabric: fab([4866, 4890, 4911, 4956, 5001, 5046, 5091, 5136, 5181, 5226, 5271, 5316, 5361, 5406, 5451, 5496]),
   leather: leather([5451, 5676, 5856, 6036], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1650, specialtyRattan: 4200 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6605,6 +7262,7 @@ const PRODUCTS = [
   fabric: fab([5271, 5295, 5316, 5361, 5406, 5451, 5496, 5541, 5586, 5631, 5676, 5721, 5766, 5811, 5856, 5901]),
   leather: leather([5856, 6081, 6261, 6441], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1650, specialtyRattan: 4800 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6615,6 +7273,7 @@ const PRODUCTS = [
   fabric: fab([8166, 8208, 8247, 8328, 8409, 8490, 8571, 8652, 8733, 8814, 8895, 8976, 9057, 9138, 9219, 9300]),
   leather: leather([9219, 9624, 9948, 10272], 81),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 2100, type2Rattan: 2550, specialtyRattan: 3300 },
+  addons: null,
 },
 
 {
@@ -6625,6 +7284,7 @@ const PRODUCTS = [
   fabric: fab([13011, 13074, 13137, 13263, 13389, 13515, 13641, 13767, 13893, 14019, 14145, 14271, 14397, 14523, 14649, 14775]),
   leather: leather([14649, 15279, 15783, 16287], 126),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3900, specialtyRattan: 5700 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6635,6 +7295,7 @@ const PRODUCTS = [
   fabric: fab([7899, 7953, 8007, 8115, 8223, 8331, 8439, 8547, 8655, 8763, 8871, 8979, 9087, 9195, 9303, 9411]),
   leather: leather([9303, 9843, 10275, 10707], 108),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1950, specialtyRattan: 2100 },
+  addons: null,
 },
 
 {
@@ -6645,6 +7306,7 @@ const PRODUCTS = [
   fabric: fab([12870, 12987, 13104, 13338, 13572, 13806, 14040, 14274, 14508, 14742, 14976, 15210, 15444, 15678, 15912, 16146]),
   leather: leather([15912, 17082, 18018, 18954], 234),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 2400, type2Rattan: 3300, specialtyRattan: 3600 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6655,6 +7317,7 @@ const PRODUCTS = [
   fabric: fab([5586, 5613, 5640, 5694, 5748, 5802, 5856, 5910, 5964, 6018, 6072, 6126, 6180, 6234, 6288, 6342]),
   leather: leather([6288, 6558, 6774, 6990], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6665,6 +7328,7 @@ const PRODUCTS = [
   fabric: fab([5184, 5238, 5292, 5400, 5508, 5616, 5724, 5832, 5940, 6048, 6156, 6264, 6372, 6480, 6588, 6696]),
   leather: leather([6588, 7128, 7560, 7992], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6675,6 +7339,7 @@ const PRODUCTS = [
   fabric: fab([7125, 7209, 7293, 7461, 7629, 7797, 7965, 8133, 8301, 8469, 8637, 8805, 8973, 9141, 9309, 9477]),
   leather: leather([9309, 10149, 10821, 11493], 168),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6685,6 +7350,7 @@ const PRODUCTS = [
   fabric: fab([8643, 8751, 8859, 9075, 9291, 9507, 9723, 9939, 10155, 10371, 10587, 10803, 11019, 11235, 11451, 11667]),
   leather: leather([11451, 12531, 13395, 14259], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6695,6 +7361,7 @@ const PRODUCTS = [
   fabric: fab([3684, 3705, 3726, 3768, 3810, 3852, 3894, 3936, 3978, 4020, 4062, 4104, 4146, 4188, 4230, 4272]),
   leather: leather([4230, 4440, 4608, 4776], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 450, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6705,6 +7372,7 @@ const PRODUCTS = [
   fabric: fab([10740, 10761, 10782, 10824, 10866, 10908, 10950, 10992, 11034, 11076, 11118, 11160, 11202, 11244, 11286, 11328]),
   leather: leather([11286, 11496, 11664, 11832], 42),
   finishTiers: { tier1: 600, tier2: 750, tier3: 900, tier4: 1800, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6715,6 +7383,7 @@ const PRODUCTS = [
   fabric: fab([7632, 7692, 7749, 7866, 7983, 8100, 8217, 8334, 8451, 8568, 8685, 8802, 8919, 9036, 9153, 9270]),
   leather: leather([9153, 9738, 10206, 10674], 117),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -6725,6 +7394,7 @@ const PRODUCTS = [
   fabric: fab([8382, 8427, 8469, 8556, 8643, 8730, 8817, 8904, 8991, 9078, 9165, 9252, 9339, 9426, 9513, 9600]),
   leather: leather([9513, 9948, 10296, 10644], 87),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6735,6 +7405,7 @@ const PRODUCTS = [
   fabric: fab([10479, 10503, 10524, 10569, 10614, 10659, 10704, 10749, 10794, 10839, 10884, 10929, 10974, 11019, 11064, 11109]),
   leather: leather([11064, 11289, 11469, 11649], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6745,6 +7416,7 @@ const PRODUCTS = [
   fabric: fab([6657, 6720, 6783, 6909, 7035, 7161, 7287, 7413, 7539, 7665, 7791, 7917, 8043, 8169, 8295, 8421]),
   leather: leather([8295, 8925, 9429, 9933], 126),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 13485 },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6755,6 +7427,7 @@ const PRODUCTS = [
   fabric: fab([7062, 7125, 7188, 7314, 7440, 7566, 7692, 7818, 7944, 8070, 8196, 8322, 8448, 8574, 8700, 8826]),
   leather: leather([8700, 9330, 9834, 10338], 126),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6765,6 +7438,7 @@ const PRODUCTS = [
   fabric: fab([5631, 5703, 5775, 5919, 6063, 6207, 6351, 6495, 6639, 6783, 6927, 7071, 7215, 7359, 7503, 7647]),
   leather: leather([7503, 8223, 8799, 9375], 144),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6775,6 +7449,7 @@ const PRODUCTS = [
   fabric: fab([5160, 5211, 5259, 5358, 5457, 5556, 5655, 5754, 5853, 5952, 6051, 6150, 6249, 6348, 6447, 6546]),
   leather: leather([6447, 6942, 7338, 7734], 99),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 750, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6785,6 +7460,7 @@ const PRODUCTS = [
   fabric: fab([6531, 6603, 6675, 6819, 6963, 7107, 7251, 7395, 7539, 7683, 7827, 7971, 8115, 8259, 8403, 8547]),
   leather: leather([8403, 9123, 9699, 10275], 144),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1350, type2Rattan: 1650, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6795,6 +7471,7 @@ const PRODUCTS = [
   fabric: fab([7368, 7473, 7575, 7782, 7989, 8196, 8403, 8610, 8817, 9024, 9231, 9438, 9645, 9852, 10059, 10266]),
   leather: leather([10059, 11094, 11922, 12750], 207),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1350, type2Rattan: 1650, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6805,6 +7482,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6815,6 +7493,7 @@ const PRODUCTS = [
   fabric: fab([3864, 3900, 3936, 4008, 4080, 4152, 4224, 4296, 4368, 4440, 4512, 4584, 4656, 4728, 4800, 4872]),
   leather: leather([4800, 5160, 5448, 5736], 72),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6825,6 +7504,7 @@ const PRODUCTS = [
   fabric: fab([6501, 6570, 6636, 6771, 6906, 7041, 7176, 7311, 7446, 7581, 7716, 7851, 7986, 8121, 8256, 8391]),
   leather: leather([8256, 8931, 9471, 10011], 135),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6835,6 +7515,7 @@ const PRODUCTS = [
   fabric: fab([9936, 9981, 10026, 10116, 10206, 10296, 10386, 10476, 10566, 10656, 10746, 10836, 10926, 11016, 11106, 11196]),
   leather: leather([11106, 11556, 11916, 12276], 90),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6845,6 +7526,7 @@ const PRODUCTS = [
   fabric: fab([11433, 11460, 11484, 11535, 11586, 11637, 11688, 11739, 11790, 11841, 11892, 11943, 11994, 12045, 12096, 12147]),
   leather: leather([12096, 12351, 12555, 12759], 51),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6855,6 +7537,7 @@ const PRODUCTS = [
   fabric: fab([5136, 5181, 5226, 5316, 5406, 5496, 5586, 5676, 5766, 5856, 5946, 6036, 6126, 6216, 6306, 6396]),
   leather: leather([6306, 6756, 7116, 7476], 90),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6865,6 +7548,7 @@ const PRODUCTS = [
   fabric: fab([8112, 8157, 8199, 8286, 8373, 8460, 8547, 8634, 8721, 8808, 8895, 8982, 9069, 9156, 9243, 9330]),
   leather: leather([9243, 9678, 10026, 10374], 87),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6875,6 +7559,7 @@ const PRODUCTS = [
   fabric: fab([4587, 4641, 4692, 4797, 4902, 5007, 5112, 5217, 5322, 5427, 5532, 5637, 5742, 5847, 5952, 6057]),
   leather: leather([5952, 6477, 6897, 7317], 105),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6885,6 +7570,7 @@ const PRODUCTS = [
   fabric: fab([5001, 5043, 5082, 5163, 5244, 5325, 5406, 5487, 5568, 5649, 5730, 5811, 5892, 5973, 6054, 6135]),
   leather: leather([6054, 6459, 6783, 7107], 81),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6895,6 +7581,7 @@ const PRODUCTS = [
   fabric: fab([6366, 6429, 6492, 6618, 6744, 6870, 6996, 7122, 7248, 7374, 7500, 7626, 7752, 7878, 8004, 8130]),
   leather: leather([8004, 8634, 9138, 9642], 126),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6905,6 +7592,7 @@ const PRODUCTS = [
   fabric: fab([6477, 6567, 6657, 6837, 7017, 7197, 7377, 7557, 7737, 7917, 8097, 8277, 8457, 8637, 8817, 8997]),
   leather: leather([8817, 9717, 10437, 11157], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: null, throwFiberlux: 0 },
 },
 
 {
@@ -6915,6 +7603,7 @@ const PRODUCTS = [
   fabric: fab([2532, 2550, 2568, 2604, 2640, 2676, 2712, 2748, 2784, 2820, 2856, 2892, 2928, 2964, 3000, 3036]),
   leather: leather([3000, 3180, 3324, 3468], 36),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6925,6 +7614,7 @@ const PRODUCTS = [
   fabric: fab([4938, 4998, 5055, 5172, 5289, 5406, 5523, 5640, 5757, 5874, 5991, 6108, 6225, 6342, 6459, 6576]),
   leather: leather([6459, 7044, 7512, 7980], 117),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: null, throwFiberlux: 0 },
 },
 
 {
@@ -6935,6 +7625,7 @@ const PRODUCTS = [
   fabric: fab([3003, 3024, 3045, 3087, 3129, 3171, 3213, 3255, 3297, 3339, 3381, 3423, 3465, 3507, 3549, 3591]),
   leather: leather([3549, 3759, 3927, 4095], 42),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6945,6 +7636,7 @@ const PRODUCTS = [
   fabric: fab([8853, 9036, 9219, 9585, 9951, 10317, 10683, 11049, 11415, 11781, 12147, 12513, 12879, 13245, 13611, 13977]),
   leather: leather([13611, 15441, 16905, 18369], 366),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6955,6 +7647,7 @@ const PRODUCTS = [
   fabric: fab([7665, 7809, 7953, 8241, 8529, 8817, 9105, 9393, 9681, 9969, 10257, 10545, 10833, 11121, 11409, 11697]),
   leather: leather([11409, 12849, 14001, 15153], 288),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6965,6 +7658,7 @@ const PRODUCTS = [
   fabric: fab([6264, 6300, 6336, 6408, 6480, 6552, 6624, 6696, 6768, 6840, 6912, 6984, 7056, 7128, 7200, 7272]),
   leather: leather([7200, 7560, 7848, 8136], 72),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6975,6 +7669,7 @@ const PRODUCTS = [
   fabric: fab([9738, 9864, 9990, 10242, 10494, 10746, 10998, 11250, 11502, 11754, 12006, 12258, 12510, 12762, 13014, 13266]),
   leather: leather([13014, 14274, 15282, 16290], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6985,6 +7680,7 @@ const PRODUCTS = [
   fabric: fab([10401, 10545, 10689, 10977, 11265, 11553, 11841, 12129, 12417, 12705, 12993, 13281, 13569, 13857, 14145, 14433]),
   leather: leather([14145, 15585, 16737, 17889], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -6995,6 +7691,7 @@ const PRODUCTS = [
   fabric: fab([7371, 7479, 7587, 7803, 8019, 8235, 8451, 8667, 8883, 9099, 9315, 9531, 9747, 9963, 10179, 10395]),
   leather: leather([10179, 11259, 12123, 12987], 216),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7005,6 +7702,7 @@ const PRODUCTS = [
   fabric: fab([7725, 7842, 7956, 8187, 8418, 8649, 8880, 9111, 9342, 9573, 9804, 10035, 10266, 10497, 10728, 10959]),
   leather: leather([10728, 11883, 12807, 13731], 231),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7015,6 +7713,7 @@ const PRODUCTS = [
   fabric: fab([8094, 8220, 8343, 8592, 8841, 9090, 9339, 9588, 9837, 10086, 10335, 10584, 10833, 11082, 11331, 11580]),
   leather: leather([11331, 12576, 13572, 14568], 249),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7025,6 +7724,7 @@ const PRODUCTS = [
   fabric: fab([8796, 8976, 9153, 9510, 9867, 10224, 10581, 10938, 11295, 11652, 12009, 12366, 12723, 13080, 13437, 13794]),
   leather: leather([13437, 15222, 16650, 18078], 357),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7035,6 +7735,7 @@ const PRODUCTS = [
   fabric: fab([5241, 5304, 5367, 5493, 5619, 5745, 5871, 5997, 6123, 6249, 6375, 6501, 6627, 6753, 6879, 7005]),
   leather: leather([6879, 7509, 8013, 8517], 126),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7045,6 +7746,7 @@ const PRODUCTS = [
   fabric: fab([5541, 5604, 5667, 5793, 5919, 6045, 6171, 6297, 6423, 6549, 6675, 6801, 6927, 7053, 7179, 7305]),
   leather: leather([7179, 7809, 8313, 8817], 126),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7055,6 +7757,7 @@ const PRODUCTS = [
   fabric: fab([6243, 6321, 6396, 6549, 6702, 6855, 7008, 7161, 7314, 7467, 7620, 7773, 7926, 8079, 8232, 8385]),
   leather: leather([8232, 8997, 9609, 10221], 153),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7065,6 +7768,7 @@ const PRODUCTS = [
   fabric: fab([6576, 6657, 6738, 6900, 7062, 7224, 7386, 7548, 7710, 7872, 8034, 8196, 8358, 8520, 8682, 8844]),
   leather: leather([8682, 9492, 10140, 10788], 162),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7075,6 +7779,7 @@ const PRODUCTS = [
   fabric: fab([6978, 7074, 7167, 7356, 7545, 7734, 7923, 8112, 8301, 8490, 8679, 8868, 9057, 9246, 9435, 9624]),
   leather: leather([9435, 10380, 11136, 11892], 189),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7085,6 +7790,7 @@ const PRODUCTS = [
   fabric: fab([5895, 5967, 6036, 6177, 6318, 6459, 6600, 6741, 6882, 7023, 7164, 7305, 7446, 7587, 7728, 7869]),
   leather: leather([7728, 8433, 8997, 9561], 141),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7095,6 +7801,7 @@ const PRODUCTS = [
   fabric: fab([9567, 9726, 9882, 10197, 10512, 10827, 11142, 11457, 11772, 12087, 12402, 12717, 13032, 13347, 13662, 13977]),
   leather: leather([13662, 15237, 16497, 17757], 315),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7105,6 +7812,7 @@ const PRODUCTS = [
   fabric: fab([8967, 9126, 9282, 9597, 9912, 10227, 10542, 10857, 11172, 11487, 11802, 12117, 12432, 12747, 13062, 13377]),
   leather: leather([13062, 14637, 15897, 17157], 315),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7115,6 +7823,7 @@ const PRODUCTS = [
   fabric: fab([10323, 10503, 10680, 11037, 11394, 11751, 12108, 12465, 12822, 13179, 13536, 13893, 14250, 14607, 14964, 15321]),
   leather: leather([14964, 16749, 18177, 19605], 357),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7125,6 +7834,7 @@ const PRODUCTS = [
   fabric: fab([9723, 9903, 10080, 10437, 10794, 11151, 11508, 11865, 12222, 12579, 12936, 13293, 13650, 14007, 14364, 14721]),
   leather: leather([14364, 16149, 17577, 19005], 357),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7135,6 +7845,7 @@ const PRODUCTS = [
   fabric: fab([8484, 8619, 8751, 9018, 9285, 9552, 9819, 10086, 10353, 10620, 10887, 11154, 11421, 11688, 11955, 12222]),
   leather: leather([11955, 13290, 14358, 15426], 267),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7145,6 +7856,7 @@ const PRODUCTS = [
   fabric: fab([7884, 8019, 8151, 8418, 8685, 8952, 9219, 9486, 9753, 10020, 10287, 10554, 10821, 11088, 11355, 11622]),
   leather: leather([11355, 12690, 13758, 14826], 267),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7155,6 +7867,7 @@ const PRODUCTS = [
   fabric: fab([8856, 9000, 9141, 9426, 9711, 9996, 10281, 10566, 10851, 11136, 11421, 11706, 11991, 12276, 12561, 12846]),
   leather: leather([12561, 13986, 15126, 16266], 285),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7165,6 +7878,7 @@ const PRODUCTS = [
   fabric: fab([8256, 8400, 8541, 8826, 9111, 9396, 9681, 9966, 10251, 10536, 10821, 11106, 11391, 11676, 11961, 12246]),
   leather: leather([11961, 13386, 14526, 15666], 285),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7175,6 +7889,7 @@ const PRODUCTS = [
   fabric: fab([9219, 9372, 9522, 9825, 10128, 10431, 10734, 11037, 11340, 11643, 11946, 12249, 12552, 12855, 13158, 13461]),
   leather: leather([13158, 14673, 15885, 17097], 303),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7185,6 +7900,7 @@ const PRODUCTS = [
   fabric: fab([8619, 8772, 8922, 9225, 9528, 9831, 10134, 10437, 10740, 11043, 11346, 11649, 11952, 12255, 12558, 12861]),
   leather: leather([12558, 14073, 15285, 16497], 303),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7195,6 +7911,7 @@ const PRODUCTS = [
   fabric: fab([9351, 9522, 9690, 10029, 10368, 10707, 11046, 11385, 11724, 12063, 12402, 12741, 13080, 13419, 13758, 14097]),
   leather: leather([13758, 15453, 16809, 18165], 339),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7205,6 +7922,7 @@ const PRODUCTS = [
   fabric: fab([9951, 10122, 10290, 10629, 10968, 11307, 11646, 11985, 12324, 12663, 13002, 13341, 13680, 14019, 14358, 14697]),
   leather: leather([14358, 16053, 17409, 18765], 339),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7215,6 +7933,7 @@ const PRODUCTS = [
   fabric: fab([8637, 8790, 8943, 9249, 9555, 9861, 10167, 10473, 10779, 11085, 11391, 11697, 12003, 12309, 12615, 12921]),
   leather: leather([12615, 14145, 15369, 16593], 306),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7225,6 +7944,7 @@ const PRODUCTS = [
   fabric: fab([9069, 9240, 9411, 9753, 10095, 10437, 10779, 11121, 11463, 11805, 12147, 12489, 12831, 13173, 13515, 13857]),
   leather: leather([13515, 15225, 16593, 17961], 342),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7235,6 +7955,7 @@ const PRODUCTS = [
   fabric: fab([7035, 7134, 7233, 7431, 7629, 7827, 8025, 8223, 8421, 8619, 8817, 9015, 9213, 9411, 9609, 9807]),
   leather: leather([9609, 10599, 11391, 12183], 198),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7245,6 +7966,7 @@ const PRODUCTS = [
   fabric: fab([7452, 7569, 7683, 7914, 8145, 8376, 8607, 8838, 9069, 9300, 9531, 9762, 9993, 10224, 10455, 10686]),
   leather: leather([10455, 11610, 12534, 13458], 231),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7255,6 +7977,7 @@ const PRODUCTS = [
   fabric: fab([7854, 7983, 8112, 8370, 8628, 8886, 9144, 9402, 9660, 9918, 10176, 10434, 10692, 10950, 11208, 11466]),
   leather: leather([11208, 12498, 13530, 14562], 258),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7265,6 +7988,7 @@ const PRODUCTS = [
   fabric: fab([8235, 8376, 8514, 8793, 9072, 9351, 9630, 9909, 10188, 10467, 10746, 11025, 11304, 11583, 11862, 12141]),
   leather: leather([11862, 13257, 14373, 15489], 279),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -7275,6 +7999,7 @@ const PRODUCTS = [
   fabric: fab([8235, 8376, 8514, 8793, 9072, 9351, 9630, 9909, 10188, 10467, 10746, 11025, 11304, 11583, 11862, 12141]),
   leather: leather([11862, 13257, 14373, 15489], 279),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -7285,6 +8010,7 @@ const PRODUCTS = [
   fabric: fab([7635, 7734, 7833, 8031, 8229, 8427, 8625, 8823, 9021, 9219, 9417, 9615, 9813, 10011, 10209, 10407]),
   leather: leather([10209, 11199, 11991, 12783], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7295,6 +8021,7 @@ const PRODUCTS = [
   fabric: fab([8565, 8709, 8853, 9141, 9429, 9717, 10005, 10293, 10581, 10869, 11157, 11445, 11733, 12021, 12309, 12597]),
   leather: leather([12309, 13749, 14901, 16053], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7305,6 +8032,7 @@ const PRODUCTS = [
   fabric: fab([5580, 5670, 5760, 5940, 6120, 6300, 6480, 6660, 6840, 7020, 7200, 7380, 7560, 7740, 7920, 8100]),
   leather: leather([7920, 8820, 9540, 10260], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: 600, swivel360: 600, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1350, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 90, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7315,6 +8043,7 @@ const PRODUCTS = [
   fabric: fab([6903, 6984, 7065, 7227, 7389, 7551, 7713, 7875, 8037, 8199, 8361, 8523, 8685, 8847, 9009, 9171]),
   leather: leather([9009, 9819, 10467, 11115], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7325,6 +8054,7 @@ const PRODUCTS = [
   fabric: fab([7566, 7656, 7746, 7926, 8106, 8286, 8466, 8646, 8826, 9006, 9186, 9366, 9546, 9726, 9906, 10086]),
   leather: leather([9906, 10806, 11526, 12246], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7335,6 +8065,7 @@ const PRODUCTS = [
   fabric: fab([6231, 6303, 6375, 6519, 6663, 6807, 6951, 7095, 7239, 7383, 7527, 7671, 7815, 7959, 8103, 8247]),
   leather: leather([8103, 8823, 9399, 9975], 144),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7345,6 +8076,7 @@ const PRODUCTS = [
   fabric: fab([8166, 8256, 8346, 8526, 8706, 8886, 9066, 9246, 9426, 9606, 9786, 9966, 10146, 10326, 10506, 10686]),
   leather: leather([10506, 11406, 12126, 12846], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 390, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7355,6 +8087,7 @@ const PRODUCTS = [
   fabric: fab([8166, 8256, 8346, 8526, 8706, 8886, 9066, 9246, 9426, 9606, 9786, 9966, 10146, 10326, 10506, 10686]),
   leather: leather([10506, 11406, 12126, 12846], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 390, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7365,6 +8098,7 @@ const PRODUCTS = [
   fabric: fab([8166, 8256, 8346, 8526, 8706, 8886, 9066, 9246, 9426, 9606, 9786, 9966, 10146, 10326, 10506, 10686]),
   leather: leather([10506, 11406, 12126, 12846], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 390, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7375,6 +8109,7 @@ const PRODUCTS = [
   fabric: fab([8235, 8334, 8433, 8631, 8829, 9027, 9225, 9423, 9621, 9819, 10017, 10215, 10413, 10611, 10809, 11007]),
   leather: leather([10809, 11799, 12591, 13383], 198),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 90, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7385,6 +8120,7 @@ const PRODUCTS = [
   fabric: fab([7566, 7656, 7746, 7926, 8106, 8286, 8466, 8646, 8826, 9006, 9186, 9366, 9546, 9726, 9906, 10086]),
   leather: leather([9906, 10806, 11526, 12246], 180),
   finishTiers: null,
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 90, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7395,6 +8131,7 @@ const PRODUCTS = [
   fabric: fab([8733, 8859, 8985, 9237, 9489, 9741, 9993, 10245, 10497, 10749, 11001, 11253, 11505, 11757, 12009, 12261]),
   leather: leather([12009, 13269, 14277, 15285], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 330, buttonedOption: 375, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 525, seatComfort: 0, seatComfortPlush: 150, seatFiberlux: 0, seatFirmSpringDown: 150, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 165, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7405,6 +8142,7 @@ const PRODUCTS = [
   fabric: fab([7335, 7434, 7533, 7731, 7929, 8127, 8325, 8523, 8721, 8919, 9117, 9315, 9513, 9711, 9909, 10107]),
   leather: leather([9909, 10899, 11691, 12483], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7415,6 +8153,7 @@ const PRODUCTS = [
   fabric: fab([7431, 7548, 7665, 7899, 8133, 8367, 8601, 8835, 9069, 9303, 9537, 9771, 10005, 10239, 10473, 10707]),
   leather: leather([10473, 11643, 12579, 13515], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7425,6 +8164,7 @@ const PRODUCTS = [
   fabric: fab([6666, 6756, 6846, 7026, 7206, 7386, 7566, 7746, 7926, 8106, 8286, 8466, 8646, 8826, 9006, 9186]),
   leather: leather([9006, 9906, 10626, 11346], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7435,6 +8175,7 @@ const PRODUCTS = [
   fabric: fab([7335, 7434, 7533, 7731, 7929, 8127, 8325, 8523, 8721, 8919, 9117, 9315, 9513, 9711, 9909, 10107]),
   leather: leather([9909, 10899, 11691, 12483], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7445,6 +8186,7 @@ const PRODUCTS = [
   fabric: fab([7431, 7548, 7665, 7899, 8133, 8367, 8601, 8835, 9069, 9303, 9537, 9771, 10005, 10239, 10473, 10707]),
   leather: leather([10473, 11643, 12579, 13515], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7455,6 +8197,7 @@ const PRODUCTS = [
   fabric: fab([6666, 6756, 6846, 7026, 7206, 7386, 7566, 7746, 7926, 8106, 8286, 8466, 8646, 8826, 9006, 9186]),
   leather: leather([9006, 9906, 10626, 11346], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7465,6 +8208,7 @@ const PRODUCTS = [
   fabric: fab([10302, 10437, 10572, 10842, 11112, 11382, 11652, 11922, 12192, 12462, 12732, 13002, 13272, 13542, 13812, 14082]),
   leather: leather([13812, 15162, 16242, 17322], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7475,6 +8219,7 @@ const PRODUCTS = [
   fabric: fab([11037, 11190, 11343, 11649, 11955, 12261, 12567, 12873, 13179, 13485, 13791, 14097, 14403, 14709, 15015, 15321]),
   leather: leather([15015, 16545, 17769, 18993], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 675, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7485,6 +8230,7 @@ const PRODUCTS = [
   fabric: fab([9633, 9759, 9885, 10137, 10389, 10641, 10893, 11145, 11397, 11649, 11901, 12153, 12405, 12657, 12909, 13161]),
   leather: leather([12909, 14169, 15177, 16185], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7495,6 +8241,7 @@ const PRODUCTS = [
   fabric: fab([9933, 10059, 10185, 10437, 10689, 10941, 11193, 11445, 11697, 11949, 12201, 12453, 12705, 12957, 13209, 13461]),
   leather: leather([13209, 14469, 15477, 16485], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 9, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7505,6 +8252,7 @@ const PRODUCTS = [
   fabric: fab([10602, 10737, 10872, 11142, 11412, 11682, 11952, 12222, 12492, 12762, 13032, 13302, 13572, 13842, 14112, 14382]),
   leather: leather([14112, 15462, 16542, 17622], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7515,6 +8263,7 @@ const PRODUCTS = [
   fabric: fab([9270, 9387, 9504, 9738, 9972, 10206, 10440, 10674, 10908, 11142, 11376, 11610, 11844, 12078, 12312, 12546]),
   leather: leather([12312, 13482, 14418, 15354], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 9, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7525,6 +8274,7 @@ const PRODUCTS = [
   fabric: fab([9933, 10059, 10185, 10437, 10689, 10941, 11193, 11445, 11697, 11949, 12201, 12453, 12705, 12957, 13209, 13461]),
   leather: leather([13209, 14469, 15477, 16485], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7535,6 +8285,7 @@ const PRODUCTS = [
   fabric: fab([10602, 10737, 10872, 11142, 11412, 11682, 11952, 12222, 12492, 12762, 13032, 13302, 13572, 13842, 14112, 14382]),
   leather: leather([14112, 15462, 16542, 17622], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7545,6 +8296,7 @@ const PRODUCTS = [
   fabric: fab([9270, 9387, 9504, 9738, 9972, 10206, 10440, 10674, 10908, 11142, 11376, 11610, 11844, 12078, 12312, 12546]),
   leather: leather([12312, 13482, 14418, 15354], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7555,6 +8307,7 @@ const PRODUCTS = [
   fabric: fab([9537, 9690, 9843, 10149, 10455, 10761, 11067, 11373, 11679, 11985, 12291, 12597, 12903, 13209, 13515, 13821]),
   leather: leather([13515, 15045, 16269, 17493], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: 240, buttonedOption: 450, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7565,6 +8318,7 @@ const PRODUCTS = [
   fabric: fab([11037, 11190, 11343, 11649, 11955, 12261, 12567, 12873, 13179, 13485, 13791, 14097, 14403, 14709, 15015, 15321]),
   leather: leather([15015, 16545, 17769, 18993], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7575,6 +8329,7 @@ const PRODUCTS = [
   fabric: fab([11700, 11862, 12024, 12348, 12672, 12996, 13320, 13644, 13968, 14292, 14616, 14940, 15264, 15588, 15912, 16236]),
   leather: leather([15912, 17532, 18828, 20124], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7585,6 +8340,7 @@ const PRODUCTS = [
   fabric: fab([10365, 10509, 10653, 10941, 11229, 11517, 11805, 12093, 12381, 12669, 12957, 13245, 13533, 13821, 14109, 14397]),
   leather: leather([14109, 15549, 16701, 17853], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7595,6 +8351,7 @@ const PRODUCTS = [
   fabric: fab([10365, 10509, 10653, 10941, 11229, 11517, 11805, 12093, 12381, 12669, 12957, 13245, 13533, 13821, 14109, 14397]),
   leather: leather([14109, 15549, 16701, 17853], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7605,6 +8362,7 @@ const PRODUCTS = [
   fabric: fab([11037, 11190, 11343, 11649, 11955, 12261, 12567, 12873, 13179, 13485, 13791, 14097, 14403, 14709, 15015, 15321]),
   leather: leather([15015, 16545, 17769, 18993], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7615,6 +8373,7 @@ const PRODUCTS = [
   fabric: fab([9498, 9606, 9714, 9930, 10146, 10362, 10578, 10794, 11010, 11226, 11442, 11658, 11874, 12090, 12306, 12522]),
   leather: leather([12306, 13386, 14250, 15114], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7625,6 +8384,7 @@ const PRODUCTS = [
   fabric: fab([10800, 10962, 11124, 11448, 11772, 12096, 12420, 12744, 13068, 13392, 13716, 14040, 14364, 14688, 15012, 15336]),
   leather: leather([15012, 16632, 17928, 19224], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7635,6 +8395,7 @@ const PRODUCTS = [
   fabric: fab([11469, 11640, 11811, 12153, 12495, 12837, 13179, 13521, 13863, 14205, 14547, 14889, 15231, 15573, 15915, 16257]),
   leather: leather([15915, 17625, 18993, 20361], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7645,6 +8406,7 @@ const PRODUCTS = [
   fabric: fab([10137, 10290, 10443, 10749, 11055, 11361, 11667, 11973, 12279, 12585, 12891, 13197, 13503, 13809, 14115, 14421]),
   leather: leather([14115, 15645, 16869, 18093], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7655,6 +8417,7 @@ const PRODUCTS = [
   fabric: fab([10800, 10962, 11124, 11448, 11772, 12096, 12420, 12744, 13068, 13392, 13716, 14040, 14364, 14688, 15012, 15336]),
   leather: leather([15012, 16632, 17928, 19224], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7665,6 +8428,7 @@ const PRODUCTS = [
   fabric: fab([11469, 11640, 11811, 12153, 12495, 12837, 13179, 13521, 13863, 14205, 14547, 14889, 15231, 15573, 15915, 16257]),
   leather: leather([15915, 17625, 18993, 20361], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -7675,6 +8439,7 @@ const PRODUCTS = [
   fabric: fab([10137, 10290, 10443, 10749, 11055, 11361, 11667, 11973, 12279, 12585, 12891, 13197, 13503, 13809, 14115, 14421]),
   leather: leather([14115, 15645, 16869, 18093], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7685,6 +8450,7 @@ const PRODUCTS = [
   fabric: fab([5418, 5481, 5544, 5670, 5796, 5922, 6048, 6174, 6300, 6426, 6552, 6678, 6804, 6930, 7056, 7182]),
   leather: leather([7056, 7686, 8190, 8694], 126),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 150, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7695,6 +8461,7 @@ const PRODUCTS = [
   fabric: fab([6081, 6153, 6225, 6369, 6513, 6657, 6801, 6945, 7089, 7233, 7377, 7521, 7665, 7809, 7953, 8097]),
   leather: leather([7953, 8673, 9249, 9825], 144),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 225, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7705,6 +8472,7 @@ const PRODUCTS = [
   fabric: fab([4749, 4803, 4857, 4965, 5073, 5181, 5289, 5397, 5505, 5613, 5721, 5829, 5937, 6045, 6153, 6261]),
   leather: leather([6153, 6693, 7125, 7557], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 150, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7715,6 +8483,7 @@ const PRODUCTS = [
   fabric: fab([4953, 5034, 5115, 5277, 5439, 5601, 5763, 5925, 6087, 6249, 6411, 6573, 6735, 6897, 7059, 7221]),
   leather: leather([7059, 7869, 8517, 9165], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7725,6 +8494,7 @@ const PRODUCTS = [
   fabric: fab([5616, 5706, 5796, 5976, 6156, 6336, 6516, 6696, 6876, 7056, 7236, 7416, 7596, 7776, 7956, 8136]),
   leather: leather([7956, 8856, 9576, 10296], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7735,6 +8505,7 @@ const PRODUCTS = [
   fabric: fab([3714, 3750, 3786, 3858, 3930, 4002, 4074, 4146, 4218, 4290, 4362, 4434, 4506, 4578, 4650, 4722]),
   leather: leather([4650, 5010, 5298, 5586], 72),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7745,6 +8516,7 @@ const PRODUCTS = [
   fabric: fab([12132, 12312, 12492, 12852, 13212, 13572, 13932, 14292, 14652, 15012, 15372, 15732, 16092, 16452, 16812, 17172]),
   leather: leather([16812, 18612, 20052, 21492], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7755,6 +8527,7 @@ const PRODUCTS = [
   fabric: fab([12804, 12993, 13182, 13560, 13938, 14316, 14694, 15072, 15450, 15828, 16206, 16584, 16962, 17340, 17718, 18096]),
   leather: leather([17718, 19608, 21120, 22632], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7765,6 +8538,7 @@ const PRODUCTS = [
   fabric: fab([9942, 10113, 10284, 10626, 10968, 11310, 11652, 11994, 12336, 12678, 13020, 13362, 13704, 14046, 14388, 14730]),
   leather: leather([14388, 16098, 17466, 18834], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 2550, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7775,6 +8549,7 @@ const PRODUCTS = [
   fabric: fab([13425, 13617, 13809, 14193, 14577, 14961, 15345, 15729, 16113, 16497, 16881, 17265, 17649, 18033, 18417, 18801]),
   leather: leather([18417, 20337, 21873, 23409], 384),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7785,6 +8560,7 @@ const PRODUCTS = [
   fabric: fab([11400, 11562, 11724, 12048, 12372, 12696, 13020, 13344, 13668, 13992, 14316, 14640, 14964, 15288, 15612, 15936]),
   leather: leather([15612, 17232, 18528, 19824], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7795,6 +8571,7 @@ const PRODUCTS = [
   fabric: fab([12132, 12312, 12492, 12852, 13212, 13572, 13932, 14292, 14652, 15012, 15372, 15732, 16092, 16452, 16812, 17172]),
   leather: leather([16812, 18612, 20052, 21492], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7805,6 +8582,7 @@ const PRODUCTS = [
   fabric: fab([12786, 12975, 13161, 13536, 13911, 14286, 14661, 15036, 15411, 15786, 16161, 16536, 16911, 17286, 17661, 18036]),
   leather: leather([17661, 19536, 21036, 22536], 375),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7815,6 +8593,7 @@ const PRODUCTS = [
   fabric: fab([10767, 10926, 11082, 11397, 11712, 12027, 12342, 12657, 12972, 13287, 13602, 13917, 14232, 14547, 14862, 15177]),
   leather: leather([14862, 16437, 17697, 18957], 315),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
 },
 
 {
@@ -7825,6 +8604,7 @@ const PRODUCTS = [
   fabric: fab([14184, 14418, 14652, 15120, 15588, 16056, 16524, 16992, 17460, 17928, 18396, 18864, 19332, 19800, 20268, 20736]),
   leather: leather([20268, 22608, 24480, 26352], 468),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7835,6 +8615,7 @@ const PRODUCTS = [
   fabric: fab([13521, 13746, 13971, 14421, 14871, 15321, 15771, 16221, 16671, 17121, 17571, 18021, 18471, 18921, 19371, 19821]),
   leather: leather([19371, 21621, 23421, 25221], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7845,6 +8626,7 @@ const PRODUCTS = [
   fabric: fab([12786, 12993, 13200, 13614, 14028, 14442, 14856, 15270, 15684, 16098, 16512, 16926, 17340, 17754, 18168, 18582]),
   leather: leather([18168, 20238, 21894, 23550], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7855,6 +8637,7 @@ const PRODUCTS = [
   fabric: fab([14184, 14418, 14652, 15120, 15588, 16056, 16524, 16992, 17460, 17928, 18396, 18864, 19332, 19800, 20268, 20736]),
   leather: leather([20268, 22608, 24480, 26352], 468),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7865,6 +8648,7 @@ const PRODUCTS = [
   fabric: fab([13521, 13746, 13971, 14421, 14871, 15321, 15771, 16221, 16671, 17121, 17571, 18021, 18471, 18921, 19371, 19821]),
   leather: leather([19371, 21621, 23421, 25221], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7875,6 +8659,7 @@ const PRODUCTS = [
   fabric: fab([12786, 12993, 13200, 13614, 14028, 14442, 14856, 15270, 15684, 16098, 16512, 16926, 17340, 17754, 18168, 18582]),
   leather: leather([18168, 20238, 21894, 23550], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7885,6 +8670,7 @@ const PRODUCTS = [
   fabric: fab([14586, 14793, 15000, 15414, 15828, 16242, 16656, 17070, 17484, 17898, 18312, 18726, 19140, 19554, 19968, 20382]),
   leather: leather([19968, 22038, 23694, 25350], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 405, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1050, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7895,6 +8681,7 @@ const PRODUCTS = [
   fabric: fab([13854, 14043, 14232, 14610, 14988, 15366, 15744, 16122, 16500, 16878, 17256, 17634, 18012, 18390, 18768, 19146]),
   leather: leather([18768, 20658, 22170, 23682], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 405, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1050, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7905,6 +8692,7 @@ const PRODUCTS = [
   fabric: fab([13854, 14043, 14232, 14610, 14988, 15366, 15744, 16122, 16500, 16878, 17256, 17634, 18012, 18390, 18768, 19146]),
   leather: leather([18768, 20658, 22170, 23682], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7915,6 +8703,7 @@ const PRODUCTS = [
   fabric: fab([11919, 12090, 12261, 12603, 12945, 13287, 13629, 13971, 14313, 14655, 14997, 15339, 15681, 16023, 16365, 16707]),
   leather: leather([16365, 18075, 19443, 20811], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7925,6 +8714,7 @@ const PRODUCTS = [
   fabric: fab([12582, 12762, 12942, 13302, 13662, 14022, 14382, 14742, 15102, 15462, 15822, 16182, 16542, 16902, 17262, 17622]),
   leather: leather([17262, 19062, 20502, 21942], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7935,6 +8725,7 @@ const PRODUCTS = [
   fabric: fab([13182, 13362, 13542, 13902, 14262, 14622, 14982, 15342, 15702, 16062, 16422, 16782, 17142, 17502, 17862, 18222]),
   leather: leather([17862, 19662, 21102, 22542], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7945,6 +8736,7 @@ const PRODUCTS = [
   fabric: fab([11250, 11412, 11574, 11898, 12222, 12546, 12870, 13194, 13518, 13842, 14166, 14490, 14814, 15138, 15462, 15786]),
   leather: leather([15462, 17082, 18378, 19674], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7955,6 +8747,7 @@ const PRODUCTS = [
   fabric: fab([13854, 14043, 14232, 14610, 14988, 15366, 15744, 16122, 16500, 16878, 17256, 17634, 18012, 18390, 18768, 19146]),
   leather: leather([18768, 20658, 22170, 23682], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7965,6 +8758,7 @@ const PRODUCTS = [
   fabric: fab([11919, 12090, 12261, 12603, 12945, 13287, 13629, 13971, 14313, 14655, 14997, 15339, 15681, 16023, 16365, 16707]),
   leather: leather([16365, 18075, 19443, 20811], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7975,6 +8769,7 @@ const PRODUCTS = [
   fabric: fab([12582, 12762, 12942, 13302, 13662, 14022, 14382, 14742, 15102, 15462, 15822, 16182, 16542, 16902, 17262, 17622]),
   leather: leather([17262, 19062, 20502, 21942], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7985,6 +8780,7 @@ const PRODUCTS = [
   fabric: fab([13182, 13362, 13542, 13902, 14262, 14622, 14982, 15342, 15702, 16062, 16422, 16782, 17142, 17502, 17862, 18222]),
   leather: leather([17862, 19662, 21102, 22542], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -7995,6 +8791,7 @@ const PRODUCTS = [
   fabric: fab([11250, 11412, 11574, 11898, 12222, 12546, 12870, 13194, 13518, 13842, 14166, 14490, 14814, 15138, 15462, 15786]),
   leather: leather([15462, 17082, 18378, 19674], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -8005,6 +8802,7 @@ const PRODUCTS = [
   fabric: fab([14049, 14265, 14481, 14913, 15345, 15777, 16209, 16641, 17073, 17505, 17937, 18369, 18801, 19233, 19665, 20097]),
   leather: leather([19665, 21825, 23553, 25281], 432),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 255, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 375, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1050, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -8015,6 +8813,7 @@ const PRODUCTS = [
   fabric: fab([13254, 13443, 13632, 14010, 14388, 14766, 15144, 15522, 15900, 16278, 16656, 17034, 17412, 17790, 18168, 18546]),
   leather: leather([18168, 20058, 21570, 23082], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: { swivel180: null, swivel360: null, selfDeckingFabric: 255, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 375, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1050, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
 },
 
 {
@@ -8025,6 +8824,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -8035,6 +8835,7 @@ const PRODUCTS = [
   fabric: fab([6780, 6870, 6960, 7140, 7320, 7500, 7680, 7860, 8040, 8220, 8400, 8580, 8760, 8940, 9120, 9300]),
   leather: leather([9120, 10020, 10740, 11460], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8045,6 +8846,7 @@ const PRODUCTS = [
   fabric: fab([4308, 4362, 4416, 4524, 4632, 4740, 4848, 4956, 5064, 5172, 5280, 5388, 5496, 5604, 5712, 5820]),
   leather: leather([5712, 6252, 6684, 7116], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8055,6 +8857,7 @@ const PRODUCTS = [
   fabric: fab([4830, 4920, 5010, 5190, 5370, 5550, 5730, 5910, 6090, 6270, 6450, 6630, 6810, 6990, 7170, 7350]),
   leather: leather([7170, 8070, 8790, 9510], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8065,6 +8868,7 @@ const PRODUCTS = [
   fabric: fab([6180, 6270, 6360, 6540, 6720, 6900, 7080, 7260, 7440, 7620, 7800, 7980, 8160, 8340, 8520, 8700]),
   leather: leather([8520, 9420, 10140, 10860], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8075,6 +8879,7 @@ const PRODUCTS = [
   fabric: fab([11544, 11691, 11838, 12132, 12426, 12720, 13014, 13308, 13602, 13896, 14190, 14484, 14778, 15072, 15366, 15660]),
   leather: leather([15366, 16836, 18012, 19188], 294),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8085,6 +8890,7 @@ const PRODUCTS = [
   fabric: fab([12366, 12549, 12732, 13098, 13464, 13830, 14196, 14562, 14928, 15294, 15660, 16026, 16392, 16758, 17124, 17490]),
   leather: leather([17124, 18954, 20418, 21882], 366),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8095,6 +8901,7 @@ const PRODUCTS = [
   fabric: fab([7668, 7752, 7836, 8004, 8172, 8340, 8508, 8676, 8844, 9012, 9180, 9348, 9516, 9684, 9852, 10020]),
   leather: leather([9852, 10692, 11364, 12036], 168),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8105,6 +8912,7 @@ const PRODUCTS = [
   fabric: fab([8499, 8625, 8748, 8997, 9246, 9495, 9744, 9993, 10242, 10491, 10740, 10989, 11238, 11487, 11736, 11985]),
   leather: leather([11736, 12981, 13977, 14973], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8115,6 +8923,7 @@ const PRODUCTS = [
   fabric: fab([9075, 9189, 9300, 9525, 9750, 9975, 10200, 10425, 10650, 10875, 11100, 11325, 11550, 11775, 12000, 12225]),
   leather: leather([12000, 13125, 14025, 14925], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8125,6 +8934,7 @@ const PRODUCTS = [
   fabric: fab([10071, 10233, 10392, 10713, 11034, 11355, 11676, 11997, 12318, 12639, 12960, 13281, 13602, 13923, 14244, 14565]),
   leather: leather([14244, 15849, 17133, 18417], 321),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8135,6 +8945,7 @@ const PRODUCTS = [
   fabric: fab([9075, 9189, 9300, 9525, 9750, 9975, 10200, 10425, 10650, 10875, 11100, 11325, 11550, 11775, 12000, 12225]),
   leather: leather([12000, 13125, 14025, 14925], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8145,6 +8956,7 @@ const PRODUCTS = [
   fabric: fab([10071, 10233, 10392, 10713, 11034, 11355, 11676, 11997, 12318, 12639, 12960, 13281, 13602, 13923, 14244, 14565]),
   leather: leather([14244, 15849, 17133, 18417], 321),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8155,6 +8967,7 @@ const PRODUCTS = [
   fabric: fab([6780, 6870, 6960, 7140, 7320, 7500, 7680, 7860, 8040, 8220, 8400, 8580, 8760, 8940, 9120, 9300]),
   leather: leather([9120, 10020, 10740, 11460], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8165,6 +8978,7 @@ const PRODUCTS = [
   fabric: fab([13989, 14160, 14328, 14667, 15006, 15345, 15684, 16023, 16362, 16701, 17040, 17379, 17718, 18057, 18396, 18735]),
   leather: leather([18396, 20091, 21447, 22803], 339),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8175,6 +8989,7 @@ const PRODUCTS = [
   fabric: fab([15300, 15525, 15750, 16200, 16650, 17100, 17550, 18000, 18450, 18900, 19350, 19800, 20250, 20700, 21150, 21600]),
   leather: leather([21150, 23400, 25200, 27000], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8185,6 +9000,7 @@ const PRODUCTS = [
   fabric: fab([13860, 14040, 14220, 14580, 14940, 15300, 15660, 16020, 16380, 16740, 17100, 17460, 17820, 18180, 18540, 18900]),
   leather: leather([18540, 20340, 21780, 23220], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8195,6 +9011,7 @@ const PRODUCTS = [
   fabric: fab([15009, 15240, 15468, 15927, 16386, 16845, 17304, 17763, 18222, 18681, 19140, 19599, 20058, 20517, 20976, 21435]),
   leather: leather([20976, 23271, 25107, 26943], 459),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8205,6 +9022,7 @@ const PRODUCTS = [
   fabric: fab([13860, 14040, 14220, 14580, 14940, 15300, 15660, 16020, 16380, 16740, 17100, 17460, 17820, 18180, 18540, 18900]),
   leather: leather([18540, 20340, 21780, 23220], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8215,6 +9033,7 @@ const PRODUCTS = [
   fabric: fab([15009, 15240, 15468, 15927, 16386, 16845, 17304, 17763, 18222, 18681, 19140, 19599, 20058, 20517, 20976, 21435]),
   leather: leather([20976, 23271, 25107, 26943], 459),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8225,6 +9044,7 @@ const PRODUCTS = [
   fabric: fab([17088, 17307, 17526, 17964, 18402, 18840, 19278, 19716, 20154, 20592, 21030, 21468, 21906, 22344, 22782, 23220]),
   leather: leather([22782, 24972, 26724, 28476], 438),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8235,6 +9055,7 @@ const PRODUCTS = [
   fabric: fab([18576, 18864, 19152, 19728, 20304, 20880, 21456, 22032, 22608, 23184, 23760, 24336, 24912, 25488, 26064, 26640]),
   leather: leather([26064, 28944, 31248, 33552], 576),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8245,6 +9066,7 @@ const PRODUCTS = [
   fabric: fab([11388, 11532, 11676, 11964, 12252, 12540, 12828, 13116, 13404, 13692, 13980, 14268, 14556, 14844, 15132, 15420]),
   leather: leather([15132, 16572, 17724, 18876], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8255,6 +9077,7 @@ const PRODUCTS = [
   fabric: fab([12870, 13080, 13290, 13710, 14130, 14550, 14970, 15390, 15810, 16230, 16650, 17070, 17490, 17910, 18330, 18750]),
   leather: leather([18330, 20430, 22110, 23790], 420),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8265,6 +9088,7 @@ const PRODUCTS = [
   fabric: fab([11388, 11532, 11676, 11964, 12252, 12540, 12828, 13116, 13404, 13692, 13980, 14268, 14556, 14844, 15132, 15420]),
   leather: leather([15132, 16572, 17724, 18876], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8275,6 +9099,7 @@ const PRODUCTS = [
   fabric: fab([12870, 13080, 13290, 13710, 14130, 14550, 14970, 15390, 15810, 16230, 16650, 17070, 17490, 17910, 18330, 18750]),
   leather: leather([18330, 20430, 22110, 23790], 420),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8285,6 +9110,7 @@ const PRODUCTS = [
   fabric: fab([6795, 6894, 6990, 7185, 7380, 7575, 7770, 7965, 8160, 8355, 8550, 8745, 8940, 9135, 9330, 9525]),
   leather: leather([9330, 10305, 11085, 11865], 195),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8295,6 +9121,7 @@ const PRODUCTS = [
   fabric: fab([6477, 6567, 6654, 6831, 7008, 7185, 7362, 7539, 7716, 7893, 8070, 8247, 8424, 8601, 8778, 8955]),
   leather: leather([8778, 9663, 10371, 11079], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8305,6 +9132,7 @@ const PRODUCTS = [
   fabric: fab([6477, 6567, 6654, 6831, 7008, 7185, 7362, 7539, 7716, 7893, 8070, 8247, 8424, 8601, 8778, 8955]),
   leather: leather([8778, 9663, 10371, 11079], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8315,6 +9143,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8325,6 +9154,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8335,6 +9165,7 @@ const PRODUCTS = [
   fabric: fab([7668, 7773, 7875, 8082, 8289, 8496, 8703, 8910, 9117, 9324, 9531, 9738, 9945, 10152, 10359, 10566]),
   leather: leather([10359, 11394, 12222, 13050], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8345,6 +9176,7 @@ const PRODUCTS = [
   fabric: fab([7668, 7773, 7875, 8082, 8289, 8496, 8703, 8910, 9117, 9324, 9531, 9738, 9945, 10152, 10359, 10566]),
   leather: leather([10359, 11394, 12222, 13050], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8355,6 +9187,7 @@ const PRODUCTS = [
   fabric: fab([7305, 7401, 7494, 7683, 7872, 8061, 8250, 8439, 8628, 8817, 9006, 9195, 9384, 9573, 9762, 9951]),
   leather: leather([9762, 10707, 11463, 12219], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8365,6 +9198,7 @@ const PRODUCTS = [
   fabric: fab([8898, 9006, 9114, 9330, 9546, 9762, 9978, 10194, 10410, 10626, 10842, 11058, 11274, 11490, 11706, 11922]),
   leather: leather([11706, 12786, 13650, 14514], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8375,6 +9209,7 @@ const PRODUCTS = [
   fabric: fab([8898, 9006, 9114, 9330, 9546, 9762, 9978, 10194, 10410, 10626, 10842, 11058, 11274, 11490, 11706, 11922]),
   leather: leather([11706, 12786, 13650, 14514], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8385,6 +9220,7 @@ const PRODUCTS = [
   fabric: fab([8535, 8634, 8733, 8931, 9129, 9327, 9525, 9723, 9921, 10119, 10317, 10515, 10713, 10911, 11109, 11307]),
   leather: leather([11109, 12099, 12891, 13683], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8395,6 +9231,7 @@ const PRODUCTS = [
   fabric: fab([7668, 7773, 7875, 8082, 8289, 8496, 8703, 8910, 9117, 9324, 9531, 9738, 9945, 10152, 10359, 10566]),
   leather: leather([10359, 11394, 12222, 13050], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8405,6 +9242,7 @@ const PRODUCTS = [
   fabric: fab([7668, 7773, 7875, 8082, 8289, 8496, 8703, 8910, 9117, 9324, 9531, 9738, 9945, 10152, 10359, 10566]),
   leather: leather([10359, 11394, 12222, 13050], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8415,6 +9253,7 @@ const PRODUCTS = [
   fabric: fab([7305, 7401, 7494, 7683, 7872, 8061, 8250, 8439, 8628, 8817, 9006, 9195, 9384, 9573, 9762, 9951]),
   leather: leather([9762, 10707, 11463, 12219], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8425,6 +9264,7 @@ const PRODUCTS = [
   fabric: fab([8898, 9006, 9114, 9330, 9546, 9762, 9978, 10194, 10410, 10626, 10842, 11058, 11274, 11490, 11706, 11922]),
   leather: leather([11706, 12786, 13650, 14514], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8435,6 +9275,7 @@ const PRODUCTS = [
   fabric: fab([8898, 9006, 9114, 9330, 9546, 9762, 9978, 10194, 10410, 10626, 10842, 11058, 11274, 11490, 11706, 11922]),
   leather: leather([11706, 12786, 13650, 14514], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8445,6 +9286,7 @@ const PRODUCTS = [
   fabric: fab([8535, 8634, 8733, 8931, 9129, 9327, 9525, 9723, 9921, 10119, 10317, 10515, 10713, 10911, 11109, 11307]),
   leather: leather([11109, 12099, 12891, 13683], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8455,6 +9297,7 @@ const PRODUCTS = [
   fabric: fab([9237, 9351, 9462, 9687, 9912, 10137, 10362, 10587, 10812, 11037, 11262, 11487, 11712, 11937, 12162, 12387]),
   leather: leather([12162, 13287, 14187, 15087], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8465,6 +9308,7 @@ const PRODUCTS = [
   fabric: fab([9237, 9351, 9462, 9687, 9912, 10137, 10362, 10587, 10812, 11037, 11262, 11487, 11712, 11937, 12162, 12387]),
   leather: leather([12162, 13287, 14187, 15087], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8475,6 +9319,7 @@ const PRODUCTS = [
   fabric: fab([8868, 8973, 9075, 9282, 9489, 9696, 9903, 10110, 10317, 10524, 10731, 10938, 11145, 11352, 11559, 11766]),
   leather: leather([11559, 12594, 13422, 14250], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8485,6 +9330,7 @@ const PRODUCTS = [
   fabric: fab([9552, 9669, 9783, 10014, 10245, 10476, 10707, 10938, 11169, 11400, 11631, 11862, 12093, 12324, 12555, 12786]),
   leather: leather([12555, 13710, 14634, 15558], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8495,6 +9341,7 @@ const PRODUCTS = [
   fabric: fab([9552, 9669, 9783, 10014, 10245, 10476, 10707, 10938, 11169, 11400, 11631, 11862, 12093, 12324, 12555, 12786]),
   leather: leather([12555, 13710, 14634, 15558], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8505,6 +9352,7 @@ const PRODUCTS = [
   fabric: fab([9168, 9273, 9375, 9582, 9789, 9996, 10203, 10410, 10617, 10824, 11031, 11238, 11445, 11652, 11859, 12066]),
   leather: leather([11859, 12894, 13722, 14550], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8515,6 +9363,7 @@ const PRODUCTS = [
   fabric: fab([9591, 9711, 9831, 10071, 10311, 10551, 10791, 11031, 11271, 11511, 11751, 11991, 12231, 12471, 12711, 12951]),
   leather: leather([12711, 13911, 14871, 15831], 240),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8525,6 +9374,7 @@ const PRODUCTS = [
   fabric: fab([9498, 9606, 9714, 9930, 10146, 10362, 10578, 10794, 11010, 11226, 11442, 11658, 11874, 12090, 12306, 12522]),
   leather: leather([12306, 13386, 14250, 15114], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8535,6 +9385,7 @@ const PRODUCTS = [
   fabric: fab([9135, 9234, 9333, 9531, 9729, 9927, 10125, 10323, 10521, 10719, 10917, 11115, 11313, 11511, 11709, 11907]),
   leather: leather([11709, 12699, 13491, 14283], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8545,6 +9396,7 @@ const PRODUCTS = [
   fabric: fab([7398, 7506, 7614, 7830, 8046, 8262, 8478, 8694, 8910, 9126, 9342, 9558, 9774, 9990, 10206, 10422]),
   leather: leather([10206, 11286, 12150, 13014], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8555,6 +9407,7 @@ const PRODUCTS = [
   fabric: fab([7398, 7506, 7614, 7830, 8046, 8262, 8478, 8694, 8910, 9126, 9342, 9558, 9774, 9990, 10206, 10422]),
   leather: leather([10206, 11286, 12150, 13014], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8565,6 +9418,7 @@ const PRODUCTS = [
   fabric: fab([7035, 7134, 7233, 7431, 7629, 7827, 8025, 8223, 8421, 8619, 8817, 9015, 9213, 9411, 9609, 9807]),
   leather: leather([9609, 10599, 11391, 12183], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8575,6 +9429,7 @@ const PRODUCTS = [
   fabric: fab([9102, 9237, 9372, 9642, 9912, 10182, 10452, 10722, 10992, 11262, 11532, 11802, 12072, 12342, 12612, 12882]),
   leather: leather([12612, 13962, 15042, 16122], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8585,6 +9440,7 @@ const PRODUCTS = [
   fabric: fab([9102, 9237, 9372, 9642, 9912, 10182, 10452, 10722, 10992, 11262, 11532, 11802, 12072, 12342, 12612, 12882]),
   leather: leather([12612, 13962, 15042, 16122], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8595,6 +9451,7 @@ const PRODUCTS = [
   fabric: fab([8754, 8883, 9012, 9270, 9528, 9786, 10044, 10302, 10560, 10818, 11076, 11334, 11592, 11850, 12108, 12366]),
   leather: leather([12108, 13398, 14430, 15462], 258),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8605,6 +9462,7 @@ const PRODUCTS = [
   fabric: fab([8121, 8247, 8370, 8619, 8868, 9117, 9366, 9615, 9864, 10113, 10362, 10611, 10860, 11109, 11358, 11607]),
   leather: leather([11358, 12603, 13599, 14595], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8615,6 +9473,7 @@ const PRODUCTS = [
   fabric: fab([8121, 8247, 8370, 8619, 8868, 9117, 9366, 9615, 9864, 10113, 10362, 10611, 10860, 11109, 11358, 11607]),
   leather: leather([11358, 12603, 13599, 14595], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8625,6 +9484,7 @@ const PRODUCTS = [
   fabric: fab([7737, 7851, 7962, 8187, 8412, 8637, 8862, 9087, 9312, 9537, 9762, 9987, 10212, 10437, 10662, 10887]),
   leather: leather([10662, 11787, 12687, 13587], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8635,6 +9495,7 @@ const PRODUCTS = [
   fabric: fab([10533, 10659, 10785, 11037, 11289, 11541, 11793, 12045, 12297, 12549, 12801, 13053, 13305, 13557, 13809, 14061]),
   leather: leather([13809, 15069, 16077, 17085], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8645,6 +9506,7 @@ const PRODUCTS = [
   fabric: fab([10533, 10659, 10785, 11037, 11289, 11541, 11793, 12045, 12297, 12549, 12801, 13053, 13305, 13557, 13809, 14061]),
   leather: leather([13809, 15069, 16077, 17085], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8655,6 +9517,7 @@ const PRODUCTS = [
   fabric: fab([10191, 10311, 10431, 10671, 10911, 11151, 11391, 11631, 11871, 12111, 12351, 12591, 12831, 13071, 13311, 13551]),
   leather: leather([13311, 14511, 15471, 16431], 240),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8665,6 +9528,7 @@ const PRODUCTS = [
   fabric: fab([7866, 7956, 8046, 8226, 8406, 8586, 8766, 8946, 9126, 9306, 9486, 9666, 9846, 10026, 10206, 10386]),
   leather: leather([10206, 11106, 11826, 12546], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8675,6 +9539,7 @@ const PRODUCTS = [
   fabric: fab([7866, 7956, 8046, 8226, 8406, 8586, 8766, 8946, 9126, 9306, 9486, 9666, 9846, 10026, 10206, 10386]),
   leather: leather([10206, 11106, 11826, 12546], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8685,6 +9550,7 @@ const PRODUCTS = [
   fabric: fab([7485, 7566, 7644, 7803, 7962, 8121, 8280, 8439, 8598, 8757, 8916, 9075, 9234, 9393, 9552, 9711]),
   leather: leather([9552, 10347, 10983, 11619], 159),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8695,6 +9561,7 @@ const PRODUCTS = [
   fabric: fab([9705, 9801, 9894, 10083, 10272, 10461, 10650, 10839, 11028, 11217, 11406, 11595, 11784, 11973, 12162, 12351]),
   leather: leather([12162, 13107, 13863, 14619], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8705,6 +9572,7 @@ const PRODUCTS = [
   fabric: fab([9705, 9801, 9894, 10083, 10272, 10461, 10650, 10839, 11028, 11217, 11406, 11595, 11784, 11973, 12162, 12351]),
   leather: leather([12162, 13107, 13863, 14619], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8715,6 +9583,7 @@ const PRODUCTS = [
   fabric: fab([9405, 9501, 9594, 9783, 9972, 10161, 10350, 10539, 10728, 10917, 11106, 11295, 11484, 11673, 11862, 12051]),
   leather: leather([11862, 12807, 13563, 14319], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8725,6 +9594,7 @@ const PRODUCTS = [
   fabric: fab([9702, 9837, 9972, 10242, 10512, 10782, 11052, 11322, 11592, 11862, 12132, 12402, 12672, 12942, 13212, 13482]),
   leather: leather([13212, 14562, 15642, 16722], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8735,6 +9605,7 @@ const PRODUCTS = [
   fabric: fab([9702, 9837, 9972, 10242, 10512, 10782, 11052, 11322, 11592, 11862, 12132, 12402, 12672, 12942, 13212, 13482]),
   leather: leather([13212, 14562, 15642, 16722], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8745,6 +9616,7 @@ const PRODUCTS = [
   fabric: fab([9333, 9459, 9585, 9837, 10089, 10341, 10593, 10845, 11097, 11349, 11601, 11853, 12105, 12357, 12609, 12861]),
   leather: leather([12609, 13869, 14877, 15885], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8755,6 +9627,7 @@ const PRODUCTS = [
   fabric: fab([11937, 12090, 12243, 12549, 12855, 13161, 13467, 13773, 14079, 14385, 14691, 14997, 15303, 15609, 15915, 16221]),
   leather: leather([15915, 17445, 18669, 19893], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8765,6 +9638,7 @@ const PRODUCTS = [
   fabric: fab([11937, 12090, 12243, 12549, 12855, 13161, 13467, 13773, 14079, 14385, 14691, 14997, 15303, 15609, 15915, 16221]),
   leather: leather([15915, 17445, 18669, 19893], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8775,6 +9649,7 @@ const PRODUCTS = [
   fabric: fab([11565, 11709, 11853, 12141, 12429, 12717, 13005, 13293, 13581, 13869, 14157, 14445, 14733, 15021, 15309, 15597]),
   leather: leather([15309, 16749, 17901, 19053], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8785,6 +9660,7 @@ const PRODUCTS = [
   fabric: fab([11535, 11676, 11814, 12093, 12372, 12651, 12930, 13209, 13488, 13767, 14046, 14325, 14604, 14883, 15162, 15441]),
   leather: leather([15162, 16557, 17673, 18789], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8795,6 +9671,7 @@ const PRODUCTS = [
   fabric: fab([11535, 11676, 11814, 12093, 12372, 12651, 12930, 13209, 13488, 13767, 14046, 14325, 14604, 14883, 15162, 15441]),
   leather: leather([15162, 16557, 17673, 18789], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8805,6 +9682,7 @@ const PRODUCTS = [
   fabric: fab([11202, 11337, 11472, 11742, 12012, 12282, 12552, 12822, 13092, 13362, 13632, 13902, 14172, 14442, 14712, 14982]),
   leather: leather([14712, 16062, 17142, 18222], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8815,6 +9693,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -8825,6 +9704,7 @@ const PRODUCTS = [
   fabric: fab([3801, 3828, 3855, 3909, 3963, 4017, 4071, 4125, 4179, 4233, 4287, 4341, 4395, 4449, 4503, 4557]),
   leather: leather([4503, 4773, 4989, 5205], 54),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -8835,6 +9715,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -8845,6 +9726,7 @@ const PRODUCTS = [
   fabric: fab([7905, 7923, 7941, 7977, 8013, 8049, 8085, 8121, 8157, 8193, 8229, 8265, 8301, 8337, 8373, 8409]),
   leather: leather([8373, 8553, 8697, 8841], 36),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8855,6 +9737,7 @@ const PRODUCTS = [
   fabric: fab([24102, 24219, 24333, 24564, 24795, 25026, 25257, 25488, 25719, 25950, 26181, 26412, 26643, 26874, 27105, 27336]),
   leather: leather([27105, 28260, 29184, 30108], 231),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8865,6 +9748,7 @@ const PRODUCTS = [
   fabric: fab([25623, 25749, 25875, 26127, 26379, 26631, 26883, 27135, 27387, 27639, 27891, 28143, 28395, 28647, 28899, 29151]),
   leather: leather([28899, 30159, 31167, 32175], 252),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8875,6 +9759,7 @@ const PRODUCTS = [
   fabric: fab([21825, 21921, 22014, 22203, 22392, 22581, 22770, 22959, 23148, 23337, 23526, 23715, 23904, 24093, 24282, 24471]),
   leather: leather([24282, 25227, 25983, 26739], 189),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8885,6 +9770,7 @@ const PRODUCTS = [
   fabric: fab([24861, 24975, 25086, 25311, 25536, 25761, 25986, 26211, 26436, 26661, 26886, 27111, 27336, 27561, 27786, 28011]),
   leather: leather([27786, 28911, 29811, 30711], 225),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8895,6 +9781,7 @@ const PRODUCTS = [
   fabric: fab([4515, 4542, 4569, 4623, 4677, 4731, 4785, 4839, 4893, 4947, 5001, 5055, 5109, 5163, 5217, 5271]),
   leather: leather([5217, 5487, 5703, 5919], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8905,6 +9792,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8915,6 +9803,7 @@ const PRODUCTS = [
   fabric: fab([4533, 4551, 4566, 4599, 4632, 4665, 4698, 4731, 4764, 4797, 4830, 4863, 4896, 4929, 4962, 4995]),
   leather: leather([4962, 5127, 5259, 5391], 33),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8925,6 +9814,7 @@ const PRODUCTS = [
   fabric: fab([5283, 5301, 5316, 5349, 5382, 5415, 5448, 5481, 5514, 5547, 5580, 5613, 5646, 5679, 5712, 5745]),
   leather: leather([5712, 5877, 6009, 6141], 33),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8935,6 +9825,7 @@ const PRODUCTS = [
   fabric: fab([3051, 3078, 3105, 3159, 3213, 3267, 3321, 3375, 3429, 3483, 3537, 3591, 3645, 3699, 3753, 3807]),
   leather: leather([3753, 4023, 4239, 4455], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8945,6 +9836,7 @@ const PRODUCTS = [
   fabric: fab([5535, 5571, 5604, 5673, 5742, 5811, 5880, 5949, 6018, 6087, 6156, 6225, 6294, 6363, 6432, 6501]),
   leather: leather([6432, 6777, 7053, 7329], 69),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8955,6 +9847,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -8965,6 +9858,7 @@ const PRODUCTS = [
   fabric: fab([23826, 23895, 23961, 24096, 24231, 24366, 24501, 24636, 24771, 24906, 25041, 25176, 25311, 25446, 25581, 25716]),
   leather: leather([25581, 26256, 26796, 27336], 135),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8975,6 +9869,7 @@ const PRODUCTS = [
   fabric: fab([21762, 21825, 21888, 22014, 22140, 22266, 22392, 22518, 22644, 22770, 22896, 23022, 23148, 23274, 23400, 23526]),
   leather: leather([23400, 24030, 24534, 25038], 126),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8985,6 +9880,7 @@ const PRODUCTS = [
   fabric: fab([22662, 22725, 22788, 22914, 23040, 23166, 23292, 23418, 23544, 23670, 23796, 23922, 24048, 24174, 24300, 24426]),
   leather: leather([24300, 24930, 25434, 25938], 126),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -8995,6 +9891,7 @@ const PRODUCTS = [
   fabric: fab([3912, 3939, 3966, 4020, 4074, 4128, 4182, 4236, 4290, 4344, 4398, 4452, 4506, 4560, 4614, 4668]),
   leather: leather([4614, 4884, 5100, 5316], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9005,6 +9902,7 @@ const PRODUCTS = [
   fabric: fab([4032, 4050, 4068, 4104, 4140, 4176, 4212, 4248, 4284, 4320, 4356, 4392, 4428, 4464, 4500, 4536]),
   leather: leather([4500, 4680, 4824, 4968], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9015,6 +9913,7 @@ const PRODUCTS = [
   fabric: fab([5382, 5400, 5418, 5454, 5490, 5526, 5562, 5598, 5634, 5670, 5706, 5742, 5778, 5814, 5850, 5886]),
   leather: leather([5850, 6030, 6174, 6318], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9025,6 +9924,7 @@ const PRODUCTS = [
   fabric: fab([5232, 5250, 5268, 5304, 5340, 5376, 5412, 5448, 5484, 5520, 5556, 5592, 5628, 5664, 5700, 5736]),
   leather: leather([5700, 5880, 6024, 6168], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9035,6 +9935,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9045,6 +9946,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9055,6 +9957,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9065,6 +9968,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 600, tier3: 750, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9075,6 +9979,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 450, tier3: 600, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9085,6 +9990,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 450, tier3: 600, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9095,6 +10001,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 900, tier3: 1050, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9105,6 +10012,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 900, tier3: 1050, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9115,6 +10023,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 900, tier3: 1050, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9125,6 +10034,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 600, tier3: 750, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9135,6 +10045,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 600, tier3: 750, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9145,6 +10056,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9155,6 +10067,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9165,6 +10078,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 450, tier3: 600, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9175,6 +10089,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 900, tier3: 1050, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9185,6 +10100,7 @@ const PRODUCTS = [
   fabric: fab([3249, 3264, 3276, 3303, 3330, 3357, 3384, 3411, 3438, 3465, 3492, 3519, 3546, 3573, 3600, 3627]),
   leather: leather([3600, 3735, 3843, 3951], 27),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9195,6 +10111,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9205,6 +10122,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9215,6 +10133,7 @@ const PRODUCTS = [
   fabric: fab([16653, 16734, 16815, 16977, 17139, 17301, 17463, 17625, 17787, 17949, 18111, 18273, 18435, 18597, 18759, 18921]),
   leather: leather([18759, 19569, 20217, 20865], 162),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9225,6 +10144,7 @@ const PRODUCTS = [
   fabric: fab([18132, 18213, 18294, 18456, 18618, 18780, 18942, 19104, 19266, 19428, 19590, 19752, 19914, 20076, 20238, 20400]),
   leather: leather([20238, 21048, 21696, 22344], 162),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9235,6 +10155,7 @@ const PRODUCTS = [
   fabric: fab([11871, 11958, 12042, 12213, 12384, 12555, 12726, 12897, 13068, 13239, 13410, 13581, 13752, 13923, 14094, 14265]),
   leather: leather([14094, 14949, 15633, 16317], 171),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9245,6 +10166,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9255,6 +10177,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 300, tier3: 600, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9265,6 +10188,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9275,6 +10199,7 @@ const PRODUCTS = [
   fabric: fab([4734, 4767, 4797, 4860, 4923, 4986, 5049, 5112, 5175, 5238, 5301, 5364, 5427, 5490, 5553, 5616]),
   leather: leather([5553, 5868, 6120, 6372], 63),
   finishTiers: { tier1: 300, tier2: 555, tier3: 705, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9285,6 +10210,7 @@ const PRODUCTS = [
   fabric: fab([6063, 6093, 6123, 6183, 6243, 6303, 6363, 6423, 6483, 6543, 6603, 6663, 6723, 6783, 6843, 6903]),
   leather: leather([6843, 7143, 7383, 7623], 60),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9295,6 +10221,7 @@ const PRODUCTS = [
   fabric: fab([17598, 17706, 17814, 18030, 18246, 18462, 18678, 18894, 19110, 19326, 19542, 19758, 19974, 20190, 20406, 20622]),
   leather: leather([20406, 21486, 22350, 23214], 216),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9305,6 +10232,7 @@ const PRODUCTS = [
   fabric: fab([17298, 17406, 17514, 17730, 17946, 18162, 18378, 18594, 18810, 19026, 19242, 19458, 19674, 19890, 20106, 20322]),
   leather: leather([20106, 21186, 22050, 22914], 216),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9315,6 +10243,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9325,6 +10254,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9335,6 +10265,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9345,6 +10276,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9355,6 +10287,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9365,6 +10298,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9375,6 +10309,7 @@ const PRODUCTS = [
   fabric: fab([4032, 4050, 4068, 4104, 4140, 4176, 4212, 4248, 4284, 4320, 4356, 4392, 4428, 4464, 4500, 4536]),
   leather: leather([4500, 4680, 4824, 4968], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9385,6 +10320,7 @@ const PRODUCTS = [
   fabric: fab([3933, 3951, 3969, 4005, 4041, 4077, 4113, 4149, 4185, 4221, 4257, 4293, 4329, 4365, 4401, 4437]),
   leather: leather([4401, 4581, 4725, 4869], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9395,6 +10331,7 @@ const PRODUCTS = [
   fabric: fab([4242, 4266, 4287, 4332, 4377, 4422, 4467, 4512, 4557, 4602, 4647, 4692, 4737, 4782, 4827, 4872]),
   leather: leather([4827, 5052, 5232, 5412], 45),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9405,6 +10342,7 @@ const PRODUCTS = [
   fabric: fab([4557, 4587, 4617, 4677, 4737, 4797, 4857, 4917, 4977, 5037, 5097, 5157, 5217, 5277, 5337, 5397]),
   leather: leather([5337, 5637, 5877, 6117], 60),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9415,6 +10353,7 @@ const PRODUCTS = [
   fabric: fab([13839, 13947, 14052, 14265, 14478, 14691, 14904, 15117, 15330, 15543, 15756, 15969, 16182, 16395, 16608, 16821]),
   leather: leather([16608, 17673, 18525, 19377], 213),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9425,6 +10364,7 @@ const PRODUCTS = [
   fabric: fab([13467, 13566, 13662, 13857, 14052, 14247, 14442, 14637, 14832, 15027, 15222, 15417, 15612, 15807, 16002, 16197]),
   leather: leather([16002, 16977, 17757, 18537], 195),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9435,6 +10375,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1755, tier2: 1950, tier3: 2100, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9445,6 +10386,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1755, tier2: 1950, tier3: 2100, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9455,6 +10397,7 @@ const PRODUCTS = [
   fabric: fab([4122, 4152, 4182, 4242, 4302, 4362, 4422, 4482, 4542, 4602, 4662, 4722, 4782, 4842, 4902, 4962]),
   leather: leather([4902, 5202, 5442, 5682], 60),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9465,6 +10408,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9475,6 +10419,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9485,6 +10430,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 5400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9495,6 +10441,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9505,6 +10452,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9515,6 +10463,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9525,6 +10474,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9535,6 +10485,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9545,6 +10496,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 900, tier3: 1200, tier4: 8250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9555,6 +10507,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 750, tier3: 1050, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9565,6 +10518,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9575,6 +10529,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9585,6 +10540,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 5445, tier3: 6945, tier4: 8250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9595,6 +10551,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 2445, tier3: 3945, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9605,6 +10562,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9615,6 +10573,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 2850, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9625,6 +10584,7 @@ const PRODUCTS = [
   fabric: fab([11022, 11052, 11082, 11142, 11202, 11262, 11322, 11382, 11442, 11502, 11562, 11622, 11682, 11742, 11802, 11862]),
   leather: leather([11802, 12102, 12342, 12582], 60),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9635,6 +10595,7 @@ const PRODUCTS = [
   fabric: fab([4620, 4638, 4653, 4686, 4719, 4752, 4785, 4818, 4851, 4884, 4917, 4950, 4983, 5016, 5049, 5082]),
   leather: leather([5049, 5214, 5346, 5478], 33),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9645,6 +10606,7 @@ const PRODUCTS = [
   fabric: fab([7347, 7368, 7389, 7431, 7473, 7515, 7557, 7599, 7641, 7683, 7725, 7767, 7809, 7851, 7893, 7935]),
   leather: leather([7893, 8103, 8271, 8439], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9655,6 +10617,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9665,6 +10628,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9675,6 +10639,7 @@ const PRODUCTS = [
   fabric: fab([18870, 18948, 19023, 19176, 19329, 19482, 19635, 19788, 19941, 20094, 20247, 20400, 20553, 20706, 20859, 21012]),
   leather: leather([20859, 21624, 22236, 22848], 153),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9685,6 +10650,7 @@ const PRODUCTS = [
   fabric: fab([18870, 18948, 19023, 19176, 19329, 19482, 19635, 19788, 19941, 20094, 20247, 20400, 20553, 20706, 20859, 21012]),
   leather: leather([20859, 21624, 22236, 22848], 153),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9695,6 +10661,7 @@ const PRODUCTS = [
   fabric: fab([18570, 18648, 18723, 18876, 19029, 19182, 19335, 19488, 19641, 19794, 19947, 20100, 20253, 20406, 20559, 20712]),
   leather: leather([20559, 21324, 21936, 22548], 153),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9705,6 +10672,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9715,6 +10683,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9725,6 +10694,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9735,6 +10705,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9745,6 +10716,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9755,6 +10727,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9765,6 +10738,7 @@ const PRODUCTS = [
   fabric: fab([3471, 3495, 3516, 3561, 3606, 3651, 3696, 3741, 3786, 3831, 3876, 3921, 3966, 4011, 4056, 4101]),
   leather: leather([4056, 4281, 4461, 4641], 45),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9775,6 +10749,7 @@ const PRODUCTS = [
   fabric: fab([4347, 4368, 4389, 4431, 4473, 4515, 4557, 4599, 4641, 4683, 4725, 4767, 4809, 4851, 4893, 4935]),
   leather: leather([4893, 5103, 5271, 5439], 42),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9785,6 +10760,7 @@ const PRODUCTS = [
   fabric: fab([4884, 4908, 4929, 4974, 5019, 5064, 5109, 5154, 5199, 5244, 5289, 5334, 5379, 5424, 5469, 5514]),
   leather: leather([5469, 5694, 5874, 6054], 45),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9795,6 +10771,7 @@ const PRODUCTS = [
   fabric: fab([5019, 5028, 5037, 5055, 5073, 5091, 5109, 5127, 5145, 5163, 5181, 5199, 5217, 5235, 5253, 5271]),
   leather: leather([5253, 5343, 5415, 5487], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9805,6 +10782,7 @@ const PRODUCTS = [
   fabric: fab([5319, 5328, 5337, 5355, 5373, 5391, 5409, 5427, 5445, 5463, 5481, 5499, 5517, 5535, 5553, 5571]),
   leather: leather([5553, 5643, 5715, 5787], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9815,6 +10793,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9825,6 +10804,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9835,6 +10815,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9845,6 +10826,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9855,6 +10837,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9865,6 +10848,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9875,6 +10859,7 @@ const PRODUCTS = [
   fabric: fab([10371, 10557, 10740, 11109, 11478, 11847, 12216, 12585, 12954, 13323, 13692, 14061, 14430, 14799, 15168, 15537]),
   leather: leather([15168, 17013, 18489, 19965], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9885,6 +10870,7 @@ const PRODUCTS = [
   fabric: fab([10323, 10503, 10680, 11037, 11394, 11751, 12108, 12465, 12822, 13179, 13536, 13893, 14250, 14607, 14964, 15321]),
   leather: leather([14964, 16749, 18177, 19605], 357),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9895,6 +10881,7 @@ const PRODUCTS = [
   fabric: fab([9672, 9804, 9933, 10194, 10455, 10716, 10977, 11238, 11499, 11760, 12021, 12282, 12543, 12804, 13065, 13326]),
   leather: leather([13065, 14370, 15414, 16458], 261),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9905,6 +10892,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 360, tier2: 600, tier3: 900, tier4: 2700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9915,6 +10903,7 @@ const PRODUCTS = [
   fabric: fab([5601, 5628, 5655, 5709, 5763, 5817, 5871, 5925, 5979, 6033, 6087, 6141, 6195, 6249, 6303, 6357]),
   leather: leather([6303, 6573, 6789, 7005], 54),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9925,6 +10914,7 @@ const PRODUCTS = [
   fabric: fab([5895, 5922, 5949, 6003, 6057, 6111, 6165, 6219, 6273, 6327, 6381, 6435, 6489, 6543, 6597, 6651]),
   leather: leather([6597, 6867, 7083, 7299], 54),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9935,6 +10925,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9945,6 +10936,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 225, tier2: 375, tier3: 525, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9955,6 +10947,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9965,6 +10958,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9975,6 +10969,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -9985,6 +10980,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -9995,6 +10991,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10005,6 +11002,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10015,6 +11013,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10025,6 +11024,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10035,6 +11035,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10045,6 +11046,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10055,6 +11057,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10065,6 +11068,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10075,6 +11079,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10085,6 +11090,7 @@ const PRODUCTS = [
   fabric: fab([11877, 12003, 12129, 12381, 12633, 12885, 13137, 13389, 13641, 13893, 14145, 14397, 14649, 14901, 15153, 15405]),
   leather: leather([15153, 16413, 17421, 18429], 252),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10095,6 +11101,7 @@ const PRODUCTS = [
   fabric: fab([11883, 12009, 12135, 12387, 12639, 12891, 13143, 13395, 13647, 13899, 14151, 14403, 14655, 14907, 15159, 15411]),
   leather: leather([15159, 16419, 17427, 18435], 252),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10105,6 +11112,7 @@ const PRODUCTS = [
   fabric: fab([11481, 11595, 11706, 11931, 12156, 12381, 12606, 12831, 13056, 13281, 13506, 13731, 13956, 14181, 14406, 14631]),
   leather: leather([14406, 15531, 16431, 17331], 225),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10115,6 +11123,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10125,6 +11134,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1050, tier2: 1200, tier3: 1350, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10135,6 +11145,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10145,6 +11156,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10155,6 +11167,7 @@ const PRODUCTS = [
   fabric: fab([4932, 4950, 4968, 5004, 5040, 5076, 5112, 5148, 5184, 5220, 5256, 5292, 5328, 5364, 5400, 5436]),
   leather: leather([5400, 5580, 5724, 5868], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10165,6 +11178,7 @@ const PRODUCTS = [
   fabric: fab([5334, 5367, 5397, 5460, 5523, 5586, 5649, 5712, 5775, 5838, 5901, 5964, 6027, 6090, 6153, 6216]),
   leather: leather([6153, 6468, 6720, 6972], 63),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10175,6 +11189,7 @@ const PRODUCTS = [
   fabric: fab([6732, 6750, 6768, 6804, 6840, 6876, 6912, 6948, 6984, 7020, 7056, 7092, 7128, 7164, 7200, 7236]),
   leather: leather([7200, 7380, 7524, 7668], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10185,6 +11200,7 @@ const PRODUCTS = [
   fabric: fab([7983, 8010, 8034, 8085, 8136, 8187, 8238, 8289, 8340, 8391, 8442, 8493, 8544, 8595, 8646, 8697]),
   leather: leather([8646, 8901, 9105, 9309], 51),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10195,6 +11211,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10205,6 +11222,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10215,6 +11233,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10225,6 +11244,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10235,6 +11255,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10245,6 +11266,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10255,6 +11277,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10265,6 +11288,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1950, tier3: 2400, tier4: 5700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10275,6 +11299,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1950, tier3: 2400, tier4: 5700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10285,6 +11310,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10295,6 +11321,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10305,6 +11332,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10315,6 +11343,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10325,6 +11354,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10335,6 +11365,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1800, tier2: 1950, tier3: 2100, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10345,6 +11376,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10355,6 +11387,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10365,6 +11398,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10375,6 +11409,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10385,6 +11420,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10395,6 +11431,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10405,6 +11442,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10415,6 +11453,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10425,6 +11464,7 @@ const PRODUCTS = [
   fabric: fab([9270, 9387, 9504, 9738, 9972, 10206, 10440, 10674, 10908, 11142, 11376, 11610, 11844, 12078, 12312, 12546]),
   leather: leather([12312, 13482, 14418, 15354], 234),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10435,6 +11475,7 @@ const PRODUCTS = [
   fabric: fab([8637, 8790, 8943, 9249, 9555, 9861, 10167, 10473, 10779, 11085, 11391, 11697, 12003, 12309, 12615, 12921]),
   leather: leather([12615, 14145, 15369, 16593], 306),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10445,6 +11486,7 @@ const PRODUCTS = [
   fabric: fab([7998, 8106, 8214, 8430, 8646, 8862, 9078, 9294, 9510, 9726, 9942, 10158, 10374, 10590, 10806, 11022]),
   leather: leather([10806, 11886, 12750, 13614], 216),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10455,6 +11497,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 360, tier2: 600, tier3: 900, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10465,6 +11508,7 @@ const PRODUCTS = [
   fabric: fab([4269, 4278, 4287, 4305, 4323, 4341, 4359, 4377, 4395, 4413, 4431, 4449, 4467, 4485, 4503, 4521]),
   leather: leather([4503, 4593, 4665, 4737], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10475,6 +11519,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10485,6 +11530,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10495,6 +11541,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10505,6 +11552,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10515,6 +11563,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10525,6 +11574,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10535,6 +11585,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10545,6 +11596,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10555,6 +11607,7 @@ const PRODUCTS = [
   fabric: fab([5997, 6039, 6078, 6159, 6240, 6321, 6402, 6483, 6564, 6645, 6726, 6807, 6888, 6969, 7050, 7131]),
   leather: leather([7050, 7455, 7779, 8103], 81),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10565,6 +11618,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10575,6 +11629,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10585,6 +11640,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10595,6 +11651,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10605,6 +11662,7 @@ const PRODUCTS = [
   fabric: fab([5403, 5445, 5484, 5565, 5646, 5727, 5808, 5889, 5970, 6051, 6132, 6213, 6294, 6375, 6456, 6537]),
   leather: leather([6456, 6861, 7185, 7509], 81),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10615,6 +11673,7 @@ const PRODUCTS = [
   fabric: fab([5703, 5745, 5784, 5865, 5946, 6027, 6108, 6189, 6270, 6351, 6432, 6513, 6594, 6675, 6756, 6837]),
   leather: leather([6756, 7161, 7485, 7809], 81),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10625,6 +11684,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10635,6 +11695,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10645,6 +11706,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10655,6 +11717,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10665,6 +11728,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10675,6 +11739,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10685,6 +11750,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10695,6 +11761,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10705,6 +11772,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10715,6 +11783,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10725,6 +11794,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10735,6 +11805,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10745,6 +11816,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10755,6 +11827,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10765,6 +11838,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10775,6 +11849,7 @@ const PRODUCTS = [
   fabric: fab([6552, 6570, 6585, 6618, 6651, 6684, 6717, 6750, 6783, 6816, 6849, 6882, 6915, 6948, 6981, 7014]),
   leather: leather([6981, 7146, 7278, 7410], 33),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10785,6 +11860,7 @@ const PRODUCTS = [
   fabric: fab([5820, 5838, 5853, 5886, 5919, 5952, 5985, 6018, 6051, 6084, 6117, 6150, 6183, 6216, 6249, 6282]),
   leather: leather([6249, 6414, 6546, 6678], 33),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10795,6 +11871,7 @@ const PRODUCTS = [
   fabric: fab([12972, 13104, 13233, 13494, 13755, 14016, 14277, 14538, 14799, 15060, 15321, 15582, 15843, 16104, 16365, 16626]),
   leather: leather([16365, 17670, 18714, 19758], 261),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10805,6 +11882,7 @@ const PRODUCTS = [
   fabric: fab([12984, 13119, 13251, 13518, 13785, 14052, 14319, 14586, 14853, 15120, 15387, 15654, 15921, 16188, 16455, 16722]),
   leather: leather([16455, 17790, 18858, 19926], 267),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10815,6 +11893,7 @@ const PRODUCTS = [
   fabric: fab([12552, 12669, 12783, 13014, 13245, 13476, 13707, 13938, 14169, 14400, 14631, 14862, 15093, 15324, 15555, 15786]),
   leather: leather([15555, 16710, 17634, 18558], 231),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10825,6 +11904,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 1800, tier4: 12300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10835,6 +11915,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 12300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10845,6 +11926,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1350, tier3: 1500, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10855,6 +11937,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10865,6 +11948,7 @@ const PRODUCTS = [
   fabric: fab([3153, 3174, 3195, 3237, 3279, 3321, 3363, 3405, 3447, 3489, 3531, 3573, 3615, 3657, 3699, 3741]),
   leather: leather([3699, 3909, 4077, 4245], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10875,6 +11959,7 @@ const PRODUCTS = [
   fabric: fab([3585, 3624, 3663, 3741, 3819, 3897, 3975, 4053, 4131, 4209, 4287, 4365, 4443, 4521, 4599, 4677]),
   leather: leather([4599, 4989, 5301, 5613], 78),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10885,6 +11970,7 @@ const PRODUCTS = [
   fabric: fab([4551, 4599, 4647, 4743, 4839, 4935, 5031, 5127, 5223, 5319, 5415, 5511, 5607, 5703, 5799, 5895]),
   leather: leather([5799, 6279, 6663, 7047], 96),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10895,6 +11981,7 @@ const PRODUCTS = [
   fabric: fab([4965, 4989, 5010, 5055, 5100, 5145, 5190, 5235, 5280, 5325, 5370, 5415, 5460, 5505, 5550, 5595]),
   leather: leather([5550, 5775, 5955, 6135], 45),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10905,6 +11992,7 @@ const PRODUCTS = [
   fabric: fab([4722, 4752, 4782, 4842, 4902, 4962, 5022, 5082, 5142, 5202, 5262, 5322, 5382, 5442, 5502, 5562]),
   leather: leather([5502, 5802, 6042, 6282], 60),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10915,6 +12003,7 @@ const PRODUCTS = [
   fabric: fab([5031, 5067, 5100, 5169, 5238, 5307, 5376, 5445, 5514, 5583, 5652, 5721, 5790, 5859, 5928, 5997]),
   leather: leather([5928, 6273, 6549, 6825], 69),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10925,6 +12014,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10935,6 +12025,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10945,6 +12036,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10955,6 +12047,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10965,6 +12058,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10975,6 +12069,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -10985,6 +12080,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -10995,6 +12091,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11005,6 +12102,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11015,6 +12113,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11025,6 +12124,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11035,6 +12135,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11045,6 +12146,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11055,6 +12157,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11065,6 +12168,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11075,6 +12179,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 2250, tier2: 2400, tier3: 2700, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11085,6 +12190,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11095,6 +12201,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11105,6 +12212,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11115,6 +12223,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11125,6 +12234,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11135,6 +12245,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1800, tier2: 1950, tier3: 2250, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11145,6 +12256,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11155,6 +12267,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 900, tier2: 1050, tier3: 1200, tier4: 6600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11165,6 +12278,7 @@ const PRODUCTS = [
   fabric: fab([2430, 2448, 2463, 2496, 2529, 2562, 2595, 2628, 2661, 2694, 2727, 2760, 2793, 2826, 2859, 2892]),
   leather: leather([2859, 3024, 3156, 3288], 33),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11175,6 +12289,7 @@ const PRODUCTS = [
   fabric: fab([3069, 3105, 3141, 3213, 3285, 3357, 3429, 3501, 3573, 3645, 3717, 3789, 3861, 3933, 4005, 4077]),
   leather: leather([4005, 4365, 4653, 4941], 72),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11185,6 +12300,7 @@ const PRODUCTS = [
   fabric: fab([2214, 2274, 2331, 2448, 2565, 2682, 2799, 2916, 3033, 3150, 3267, 3384, 3501, 3618, 3735, 3852]),
   leather: leather([3735, 4320, 4788, 5256], 117),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11195,6 +12311,7 @@ const PRODUCTS = [
   fabric: fab([2910, 2943, 2973, 3036, 3099, 3162, 3225, 3288, 3351, 3414, 3477, 3540, 3603, 3666, 3729, 3792]),
   leather: leather([3729, 4044, 4296, 4548], 63),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11205,6 +12322,7 @@ const PRODUCTS = [
   fabric: fab([2130, 2148, 2163, 2196, 2229, 2262, 2295, 2328, 2361, 2394, 2427, 2460, 2493, 2526, 2559, 2592]),
   leather: leather([2559, 2724, 2856, 2988], 33),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11215,6 +12333,7 @@ const PRODUCTS = [
   fabric: fab([2751, 2778, 2805, 2859, 2913, 2967, 3021, 3075, 3129, 3183, 3237, 3291, 3345, 3399, 3453, 3507]),
   leather: leather([3453, 3723, 3939, 4155], 54),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11225,6 +12344,7 @@ const PRODUCTS = [
   fabric: fab([2601, 2628, 2655, 2709, 2763, 2817, 2871, 2925, 2979, 3033, 3087, 3141, 3195, 3249, 3303, 3357]),
   leather: leather([3303, 3573, 3789, 4005], 54),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11235,6 +12355,7 @@ const PRODUCTS = [
   fabric: fab([3078, 3120, 3159, 3240, 3321, 3402, 3483, 3564, 3645, 3726, 3807, 3888, 3969, 4050, 4131, 4212]),
   leather: leather([4131, 4536, 4860, 5184], 81),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11245,6 +12366,7 @@ const PRODUCTS = [
   fabric: fab([2859, 2880, 2901, 2943, 2985, 3027, 3069, 3111, 3153, 3195, 3237, 3279, 3321, 3363, 3405, 3447]),
   leather: leather([3405, 3615, 3783, 3951], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11255,6 +12377,7 @@ const PRODUCTS = [
   fabric: fab([2529, 2550, 2571, 2613, 2655, 2697, 2739, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117]),
   leather: leather([3075, 3285, 3453, 3621], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11265,6 +12388,7 @@ const PRODUCTS = [
   fabric: fab([3369, 3405, 3441, 3513, 3585, 3657, 3729, 3801, 3873, 3945, 4017, 4089, 4161, 4233, 4305, 4377]),
   leather: leather([4305, 4665, 4953, 5241], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11275,6 +12399,7 @@ const PRODUCTS = [
   fabric: fab([3369, 3405, 3441, 3513, 3585, 3657, 3729, 3801, 3873, 3945, 4017, 4089, 4161, 4233, 4305, 4377]),
   leather: leather([4305, 4665, 4953, 5241], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11285,6 +12410,7 @@ const PRODUCTS = [
   fabric: fab([3060, 3093, 3123, 3186, 3249, 3312, 3375, 3438, 3501, 3564, 3627, 3690, 3753, 3816, 3879, 3942]),
   leather: leather([3879, 4194, 4446, 4698], 63),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11295,6 +12421,7 @@ const PRODUCTS = [
   fabric: fab([3060, 3093, 3123, 3186, 3249, 3312, 3375, 3438, 3501, 3564, 3627, 3690, 3753, 3816, 3879, 3942]),
   leather: leather([3879, 4194, 4446, 4698], 63),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11305,6 +12432,7 @@ const PRODUCTS = [
   fabric: fab([2739, 2760, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117, 3159, 3201, 3243, 3285, 3327]),
   leather: leather([3285, 3495, 3663, 3831], 42),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11315,6 +12443,7 @@ const PRODUCTS = [
   fabric: fab([2739, 2760, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117, 3159, 3201, 3243, 3285, 3327]),
   leather: leather([3285, 3495, 3663, 3831], 42),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11325,6 +12454,7 @@ const PRODUCTS = [
   fabric: fab([3051, 3078, 3105, 3159, 3213, 3267, 3321, 3375, 3429, 3483, 3537, 3591, 3645, 3699, 3753, 3807]),
   leather: leather([3753, 4023, 4239, 4455], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11335,6 +12465,7 @@ const PRODUCTS = [
   fabric: fab([2793, 2811, 2829, 2865, 2901, 2937, 2973, 3009, 3045, 3081, 3117, 3153, 3189, 3225, 3261, 3297]),
   leather: leather([3261, 3441, 3585, 3729], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11345,6 +12476,7 @@ const PRODUCTS = [
   fabric: fab([3063, 3081, 3099, 3135, 3171, 3207, 3243, 3279, 3315, 3351, 3387, 3423, 3459, 3495, 3531, 3567]),
   leather: leather([3531, 3711, 3855, 3999], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11355,6 +12487,7 @@ const PRODUCTS = [
   fabric: fab([2301, 2328, 2355, 2409, 2463, 2517, 2571, 2625, 2679, 2733, 2787, 2841, 2895, 2949, 3003, 3057]),
   leather: leather([3003, 3273, 3489, 3705], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11365,6 +12498,7 @@ const PRODUCTS = [
   fabric: fab([2601, 2628, 2655, 2709, 2763, 2817, 2871, 2925, 2979, 3033, 3087, 3141, 3195, 3249, 3303, 3357]),
   leather: leather([3303, 3573, 3789, 4005], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11375,6 +12509,7 @@ const PRODUCTS = [
   fabric: fab([2598, 2625, 2649, 2700, 2751, 2802, 2853, 2904, 2955, 3006, 3057, 3108, 3159, 3210, 3261, 3312]),
   leather: leather([3261, 3516, 3720, 3924], 51),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11385,6 +12520,7 @@ const PRODUCTS = [
   fabric: fab([2580, 2598, 2613, 2646, 2679, 2712, 2745, 2778, 2811, 2844, 2877, 2910, 2943, 2976, 3009, 3042]),
   leather: leather([3009, 3174, 3306, 3438], 33),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11395,6 +12531,7 @@ const PRODUCTS = [
   fabric: fab([2580, 2598, 2613, 2646, 2679, 2712, 2745, 2778, 2811, 2844, 2877, 2910, 2943, 2976, 3009, 3042]),
   leather: leather([3009, 3174, 3306, 3438], 33),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11405,6 +12542,7 @@ const PRODUCTS = [
   fabric: fab([2253, 2271, 2289, 2325, 2361, 2397, 2433, 2469, 2505, 2541, 2577, 2613, 2649, 2685, 2721, 2757]),
   leather: leather([2721, 2901, 3045, 3189], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11415,6 +12553,7 @@ const PRODUCTS = [
   fabric: fab([2529, 2550, 2571, 2613, 2655, 2697, 2739, 2781, 2823, 2865, 2907, 2949, 2991, 3033, 3075, 3117]),
   leather: leather([3075, 3285, 3453, 3621], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11425,6 +12564,7 @@ const PRODUCTS = [
   fabric: fab([2793, 2811, 2829, 2865, 2901, 2937, 2973, 3009, 3045, 3081, 3117, 3153, 3189, 3225, 3261, 3297]),
   leather: leather([3261, 3441, 3585, 3729], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11435,6 +12575,7 @@ const PRODUCTS = [
   fabric: fab([3063, 3081, 3099, 3135, 3171, 3207, 3243, 3279, 3315, 3351, 3387, 3423, 3459, 3495, 3531, 3567]),
   leather: leather([3531, 3711, 3855, 3999], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11445,6 +12586,7 @@ const PRODUCTS = [
   fabric: fab([4026, 4053, 4080, 4134, 4188, 4242, 4296, 4350, 4404, 4458, 4512, 4566, 4620, 4674, 4728, 4782]),
   leather: leather([4728, 4998, 5214, 5430], 54),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11455,6 +12597,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 1800, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11465,6 +12608,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11475,6 +12619,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11485,6 +12630,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11495,6 +12641,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11505,6 +12652,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11515,6 +12663,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 6900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11525,6 +12674,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 6900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11535,6 +12685,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11545,6 +12696,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 900, tier2: 1875, tier3: 2475, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11555,6 +12707,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11565,6 +12718,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 5445, tier3: 6945, tier4: 8250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11575,6 +12729,7 @@ const PRODUCTS = [
   fabric: fab([8337, 8451, 8562, 8787, 9012, 9237, 9462, 9687, 9912, 10137, 10362, 10587, 10812, 11037, 11262, 11487]),
   leather: leather([11262, 12387, 13287, 14187], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11585,6 +12740,7 @@ const PRODUCTS = [
   fabric: fab([8337, 8451, 8562, 8787, 9012, 9237, 9462, 9687, 9912, 10137, 10362, 10587, 10812, 11037, 11262, 11487]),
   leather: leather([11262, 12387, 13287, 14187], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11595,6 +12751,7 @@ const PRODUCTS = [
   fabric: fab([7968, 8073, 8175, 8382, 8589, 8796, 9003, 9210, 9417, 9624, 9831, 10038, 10245, 10452, 10659, 10866]),
   leather: leather([10659, 11694, 12522, 13350], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11605,6 +12762,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 8250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11615,6 +12773,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11625,6 +12784,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1050, tier2: 1200, tier3: 1350, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11635,6 +12795,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 900, tier2: 1050, tier3: 1200, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11645,6 +12806,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11655,6 +12817,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11665,6 +12828,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11675,6 +12839,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1350, tier3: 1500, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11685,6 +12850,7 @@ const PRODUCTS = [
   fabric: fab([4722, 4752, 4782, 4842, 4902, 4962, 5022, 5082, 5142, 5202, 5262, 5322, 5382, 5442, 5502, 5562]),
   leather: leather([5502, 5802, 6042, 6282], 60),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11695,6 +12861,7 @@ const PRODUCTS = [
   fabric: fab([4683, 4710, 4734, 4785, 4836, 4887, 4938, 4989, 5040, 5091, 5142, 5193, 5244, 5295, 5346, 5397]),
   leather: leather([5346, 5601, 5805, 6009], 51),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11705,6 +12872,7 @@ const PRODUCTS = [
   fabric: fab([5181, 5208, 5232, 5283, 5334, 5385, 5436, 5487, 5538, 5589, 5640, 5691, 5742, 5793, 5844, 5895]),
   leather: leather([5844, 6099, 6303, 6507], 51),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11715,6 +12883,7 @@ const PRODUCTS = [
   fabric: fab([4251, 4287, 4323, 4395, 4467, 4539, 4611, 4683, 4755, 4827, 4899, 4971, 5043, 5115, 5187, 5259]),
   leather: leather([5187, 5547, 5835, 6123], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11725,6 +12894,7 @@ const PRODUCTS = [
   fabric: fab([4971, 4995, 5016, 5061, 5106, 5151, 5196, 5241, 5286, 5331, 5376, 5421, 5466, 5511, 5556, 5601]),
   leather: leather([5556, 5781, 5961, 6141], 45),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11735,6 +12905,7 @@ const PRODUCTS = [
   fabric: fab([5271, 5295, 5316, 5361, 5406, 5451, 5496, 5541, 5586, 5631, 5676, 5721, 5766, 5811, 5856, 5901]),
   leather: leather([5856, 6081, 6261, 6441], 45),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11745,6 +12916,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11755,6 +12927,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11765,6 +12938,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11775,6 +12949,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11785,6 +12960,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11795,6 +12971,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11805,6 +12982,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11815,6 +12993,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11825,6 +13004,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11835,6 +13015,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11845,6 +13026,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11855,6 +13037,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11865,6 +13048,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1050, tier2: 1200, tier3: 1350, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11875,6 +13059,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 900, tier2: 1050, tier3: 1200, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11885,6 +13070,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11895,6 +13081,7 @@ const PRODUCTS = [
   fabric: fab([4971, 4995, 5016, 5061, 5106, 5151, 5196, 5241, 5286, 5331, 5376, 5421, 5466, 5511, 5556, 5601]),
   leather: leather([5556, 5781, 5961, 6141], 45),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11905,6 +13092,7 @@ const PRODUCTS = [
   fabric: fab([5271, 5295, 5316, 5361, 5406, 5451, 5496, 5541, 5586, 5631, 5676, 5721, 5766, 5811, 5856, 5901]),
   leather: leather([5856, 6081, 6261, 6441], 45),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11915,6 +13103,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11925,6 +13114,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11935,6 +13125,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11945,6 +13136,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -11955,6 +13147,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11965,6 +13158,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 3900, tier2: 6825, tier3: 8625, tier4: 10200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11975,6 +13169,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 2100, tier2: 3570, tier3: 4470, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11985,6 +13180,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 2100, tier2: 3570, tier3: 4470, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -11995,6 +13191,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12005,6 +13202,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12015,6 +13213,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12025,6 +13224,7 @@ const PRODUCTS = [
   fabric: fab([13902, 14037, 14172, 14442, 14712, 14982, 15252, 15522, 15792, 16062, 16332, 16602, 16872, 17142, 17412, 17682]),
   leather: leather([17412, 18762, 19842, 20922], 270),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12035,6 +13235,7 @@ const PRODUCTS = [
   fabric: fab([13608, 13746, 13884, 14160, 14436, 14712, 14988, 15264, 15540, 15816, 16092, 16368, 16644, 16920, 17196, 17472]),
   leather: leather([17196, 18576, 19680, 20784], 276),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12045,6 +13246,7 @@ const PRODUCTS = [
   fabric: fab([13245, 13362, 13479, 13713, 13947, 14181, 14415, 14649, 14883, 15117, 15351, 15585, 15819, 16053, 16287, 16521]),
   leather: leather([16287, 17457, 18393, 19329], 234),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12055,6 +13257,7 @@ const PRODUCTS = [
   fabric: fab([6819, 6930, 7041, 7263, 7485, 7707, 7929, 8151, 8373, 8595, 8817, 9039, 9261, 9483, 9705, 9927]),
   leather: leather(null, 222),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12065,6 +13268,7 @@ const PRODUCTS = [
   fabric: fab([6519, 6630, 6741, 6963, 7185, 7407, 7629, 7851, 8073, 8295, 8517, 8739, 8961, 9183, 9405, 9627]),
   leather: leather(null, 222),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12075,6 +13279,7 @@ const PRODUCTS = [
   fabric: fab([6156, 6258, 6360, 6564, 6768, 6972, 7176, 7380, 7584, 7788, 7992, 8196, 8400, 8604, 8808, 9012]),
   leather: leather(null, 204),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12085,6 +13290,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12095,6 +13301,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12105,6 +13312,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 3975, tier3: 4575, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12115,6 +13323,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 3975, tier3: 4575, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12125,6 +13334,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 2400, tier2: 4350, tier3: 5550, tier4: 6600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12135,6 +13345,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12145,6 +13356,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12155,6 +13367,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 4470, tier3: 5370, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12165,6 +13378,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 4470, tier3: 5370, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12175,6 +13389,7 @@ const PRODUCTS = [
   fabric: fab([3510, 3531, 3552, 3594, 3636, 3678, 3720, 3762, 3804, 3846, 3888, 3930, 3972, 4014, 4056, 4098]),
   leather: leather([4056, 4266, 4434, 4602], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12185,6 +13400,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12195,6 +13411,7 @@ const PRODUCTS = [
   fabric: fab([3510, 3531, 3552, 3594, 3636, 3678, 3720, 3762, 3804, 3846, 3888, 3930, 3972, 4014, 4056, 4098]),
   leather: leather([4056, 4266, 4434, 4602], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12205,6 +13422,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12215,6 +13433,7 @@ const PRODUCTS = [
   fabric: fab([4236, 4281, 4326, 4416, 4506, 4596, 4686, 4776, 4866, 4956, 5046, 5136, 5226, 5316, 5406, 5496]),
   leather: leather([5406, 5856, 6216, 6576], 90),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12225,6 +13444,7 @@ const PRODUCTS = [
   fabric: fab([5160, 5184, 5205, 5250, 5295, 5340, 5385, 5430, 5475, 5520, 5565, 5610, 5655, 5700, 5745, 5790]),
   leather: leather([5745, 5970, 6150, 6330], 45),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12235,6 +13455,7 @@ const PRODUCTS = [
   fabric: fab([4464, 4500, 4536, 4608, 4680, 4752, 4824, 4896, 4968, 5040, 5112, 5184, 5256, 5328, 5400, 5472]),
   leather: leather([5400, 5760, 6048, 6336], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12245,6 +13466,7 @@ const PRODUCTS = [
   fabric: fab([4245, 4266, 4287, 4329, 4371, 4413, 4455, 4497, 4539, 4581, 4623, 4665, 4707, 4749, 4791, 4833]),
   leather: leather([4791, 5001, 5169, 5337], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12255,6 +13477,7 @@ const PRODUCTS = [
   fabric: fab([4053, 4074, 4095, 4137, 4179, 4221, 4263, 4305, 4347, 4389, 4431, 4473, 4515, 4557, 4599, 4641]),
   leather: leather([4599, 4809, 4977, 5145], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12265,6 +13488,7 @@ const PRODUCTS = [
   fabric: fab([4245, 4266, 4287, 4329, 4371, 4413, 4455, 4497, 4539, 4581, 4623, 4665, 4707, 4749, 4791, 4833]),
   leather: leather([4791, 5001, 5169, 5337], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12275,6 +13499,7 @@ const PRODUCTS = [
   fabric: fab([4053, 4074, 4095, 4137, 4179, 4221, 4263, 4305, 4347, 4389, 4431, 4473, 4515, 4557, 4599, 4641]),
   leather: leather([4599, 4809, 4977, 5145], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12285,6 +13510,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12295,6 +13521,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 2700, tier2: 4650, tier3: 5850, tier4: 6900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12305,6 +13532,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12315,6 +13543,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12325,6 +13554,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12335,6 +13565,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12345,6 +13576,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12355,6 +13587,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12365,6 +13598,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12375,6 +13609,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12385,6 +13620,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12395,6 +13631,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12405,6 +13642,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12415,6 +13653,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12425,6 +13664,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12435,6 +13675,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12445,6 +13686,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12455,6 +13697,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 6000, tier2: 8925, tier3: 10725, tier4: 12300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12465,6 +13708,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 5925, tier3: 7725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12475,6 +13719,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12485,6 +13730,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12495,6 +13741,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 8400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12505,6 +13752,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 11400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12515,6 +13763,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12525,6 +13774,7 @@ const PRODUCTS = [
   fabric: fab([6198, 6216, 6234, 6270, 6306, 6342, 6378, 6414, 6450, 6486, 6522, 6558, 6594, 6630, 6666, 6702]),
   leather: leather([6666, 6846, 6990, 7134], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12535,6 +13785,7 @@ const PRODUCTS = [
   fabric: fab([6375, 6393, 6411, 6447, 6483, 6519, 6555, 6591, 6627, 6663, 6699, 6735, 6771, 6807, 6843, 6879]),
   leather: leather([6843, 7023, 7167, 7311], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12545,6 +13796,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 5400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12555,6 +13807,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: null, tier4: 900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12565,6 +13818,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 9000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12575,6 +13829,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12585,6 +13840,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12595,6 +13851,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12605,6 +13862,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 2400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12615,6 +13873,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12625,6 +13884,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1500, tier3: 1800, tier4: 5700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12635,6 +13895,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1350, tier2: 1650, tier3: 1950, tier4: 5850, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12645,6 +13906,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 750, tier2: 1050, tier3: 1200, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12655,6 +13917,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1500, tier3: 1650, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12665,6 +13928,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12675,6 +13939,7 @@ const PRODUCTS = [
   fabric: fab([10710, 10890, 11070, 11430, 11790, 12150, 12510, 12870, 13230, 13590, 13950, 14310, 14670, 15030, 15390, 15750]),
   leather: leather([15390, 17190, 18630, 20070], 360),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12685,6 +13950,7 @@ const PRODUCTS = [
   fabric: fab([7998, 8097, 8196, 8394, 8592, 8790, 8988, 9186, 9384, 9582, 9780, 9978, 10176, 10374, 10572, 10770]),
   leather: leather([10572, 11562, 12354, 13146], 198),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12695,6 +13961,7 @@ const PRODUCTS = [
   fabric: fab([6744, 6816, 6888, 7032, 7176, 7320, 7464, 7608, 7752, 7896, 8040, 8184, 8328, 8472, 8616, 8760]),
   leather: leather([8616, 9336, 9912, 10488], 144),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12705,6 +13972,7 @@ const PRODUCTS = [
   fabric: fab([9756, 9909, 10062, 10368, 10674, 10980, 11286, 11592, 11898, 12204, 12510, 12816, 13122, 13428, 13734, 14040]),
   leather: leather([13734, 15264, 16488, 17712], 306),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12715,6 +13983,7 @@ const PRODUCTS = [
   fabric: fab([10224, 10386, 10548, 10872, 11196, 11520, 11844, 12168, 12492, 12816, 13140, 13464, 13788, 14112, 14436, 14760]),
   leather: leather([14436, 16056, 17352, 18648], 324),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12725,6 +13994,7 @@ const PRODUCTS = [
   fabric: fab([7230, 7320, 7410, 7590, 7770, 7950, 8130, 8310, 8490, 8670, 8850, 9030, 9210, 9390, 9570, 9750]),
   leather: leather([9570, 10470, 11190, 11910], 180),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12735,6 +14005,7 @@ const PRODUCTS = [
   fabric: fab([10392, 10563, 10734, 11076, 11418, 11760, 12102, 12444, 12786, 13128, 13470, 13812, 14154, 14496, 14838, 15180]),
   leather: leather([14838, 16548, 17916, 19284], 342),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12745,6 +14016,7 @@ const PRODUCTS = [
   fabric: fab([7686, 7779, 7872, 8058, 8244, 8430, 8616, 8802, 8988, 9174, 9360, 9546, 9732, 9918, 10104, 10290]),
   leather: leather([10104, 11034, 11778, 12522], 186),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12755,6 +14027,7 @@ const PRODUCTS = [
   fabric: fab([6441, 6513, 6582, 6723, 6864, 7005, 7146, 7287, 7428, 7569, 7710, 7851, 7992, 8133, 8274, 8415]),
   leather: leather([8274, 8979, 9543, 10107], 141),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12765,6 +14038,7 @@ const PRODUCTS = [
   fabric: fab([9438, 9582, 9726, 10014, 10302, 10590, 10878, 11166, 11454, 11742, 12030, 12318, 12606, 12894, 13182, 13470]),
   leather: leather([13182, 14622, 15774, 16926], 288),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12775,6 +14049,7 @@ const PRODUCTS = [
   fabric: fab([6912, 6993, 7074, 7236, 7398, 7560, 7722, 7884, 8046, 8208, 8370, 8532, 8694, 8856, 9018, 9180]),
   leather: leather([9018, 9828, 10476, 11124], 162),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12785,6 +14060,7 @@ const PRODUCTS = [
   fabric: fab([9906, 10059, 10212, 10518, 10824, 11130, 11436, 11742, 12048, 12354, 12660, 12966, 13272, 13578, 13884, 14190]),
   leather: leather([13884, 15414, 16638, 17862], 306),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12795,6 +14071,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12805,6 +14082,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12815,6 +14093,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 2700, tier2: 2850, tier3: 3000, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12825,6 +14104,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 4500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12835,6 +14115,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 6000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12845,6 +14126,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1800, tier2: 1950, tier3: 2100, tier4: 7800, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12855,6 +14137,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12865,6 +14148,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 4500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12875,6 +14159,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: 0, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12885,6 +14170,7 @@ const PRODUCTS = [
   fabric: fab([3036, 3054, 3072, 3108, 3144, 3180, 3216, 3252, 3288, 3324, 3360, 3396, 3432, 3468, 3504, 3540]),
   leather: leather([3504, 3684, 3828, 3972], 36),
   finishTiers: { tier1: 300, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12895,6 +14181,7 @@ const PRODUCTS = [
   fabric: fab([3651, 3678, 3702, 3753, 3804, 3855, 3906, 3957, 4008, 4059, 4110, 4161, 4212, 4263, 4314, 4365]),
   leather: leather([4314, 4569, 4773, 4977], 51),
   finishTiers: { tier1: 300, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12905,6 +14192,7 @@ const PRODUCTS = [
   fabric: fab([2583, 2601, 2616, 2649, 2682, 2715, 2748, 2781, 2814, 2847, 2880, 2913, 2946, 2979, 3012, 3045]),
   leather: leather([3012, 3177, 3309, 3441], 33),
   finishTiers: { tier1: 0, tier2: 300, tier3: 450, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12915,6 +14203,7 @@ const PRODUCTS = [
   fabric: fab([4536, 4554, 4572, 4608, 4644, 4680, 4716, 4752, 4788, 4824, 4860, 4896, 4932, 4968, 5004, 5040]),
   leather: leather([5004, 5184, 5328, 5472], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12925,6 +14214,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 750, tier3: 900, tier4: 3450, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12935,6 +14225,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12945,6 +14236,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12955,6 +14247,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12965,6 +14258,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -12975,6 +14269,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12985,6 +14280,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -12995,6 +14291,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13005,6 +14302,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13015,6 +14313,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13025,6 +14324,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13035,6 +14335,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13045,6 +14346,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1050, tier2: 1200, tier3: 1350, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13055,6 +14357,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13065,6 +14368,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather([5736, 5856, 5952, 6048], 24),
   finishTiers: { tier1: 0, tier2: 300, tier3: 450, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13075,6 +14379,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather([5862, 6027, 6159, 6291], 33),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13085,6 +14390,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13095,6 +14401,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13105,6 +14412,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13115,6 +14423,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13125,6 +14434,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13135,6 +14445,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13145,6 +14456,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13155,6 +14467,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13165,6 +14478,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13175,6 +14489,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13185,6 +14500,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13195,6 +14511,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13205,6 +14522,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13215,6 +14533,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13225,6 +14544,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13235,6 +14555,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13245,6 +14566,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13255,6 +14577,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13265,6 +14588,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13275,6 +14599,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13285,6 +14610,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13295,6 +14621,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13305,6 +14632,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13315,6 +14643,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13325,6 +14654,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13335,6 +14665,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13345,6 +14676,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13355,6 +14687,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13365,6 +14698,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13375,6 +14709,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13385,6 +14720,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13395,6 +14731,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13405,6 +14742,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13415,6 +14753,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13425,6 +14764,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13435,6 +14775,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13445,6 +14786,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13455,6 +14797,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13465,6 +14808,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 600, tier3: 975, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13475,6 +14819,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 450, tier3: 600, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13485,6 +14830,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 300, tier3: 450, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13495,6 +14841,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13505,6 +14852,7 @@ const PRODUCTS = [
   fabric: fab([3069, 3078, 3087, 3105, 3123, 3141, 3159, 3177, 3195, 3213, 3231, 3249, 3267, 3285, 3303, 3321]),
   leather: leather([3303, 3393, 3465, 3537], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13515,6 +14863,7 @@ const PRODUCTS = [
   fabric: fab([2592, 2601, 2610, 2628, 2646, 2664, 2682, 2700, 2718, 2736, 2754, 2772, 2790, 2808, 2826, 2844]),
   leather: leather([2826, 2916, 2988, 3060], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13525,6 +14874,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13535,6 +14885,7 @@ const PRODUCTS = [
   fabric: fab([3093, 3108, 3120, 3147, 3174, 3201, 3228, 3255, 3282, 3309, 3336, 3363, 3390, 3417, 3444, 3471]),
   leather: leather([3444, 3579, 3687, 3795], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13545,6 +14896,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13555,6 +14907,7 @@ const PRODUCTS = [
   fabric: fab([2577, 2592, 2604, 2631, 2658, 2685, 2712, 2739, 2766, 2793, 2820, 2847, 2874, 2901, 2928, 2955]),
   leather: leather([2928, 3063, 3171, 3279], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: 1200 },
+  addons: null,
 },
 
 {
@@ -13565,6 +14918,7 @@ const PRODUCTS = [
   fabric: fab([2727, 2742, 2754, 2781, 2808, 2835, 2862, 2889, 2916, 2943, 2970, 2997, 3024, 3051, 3078, 3105]),
   leather: leather([3078, 3213, 3321, 3429], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 225, type2Rattan: 375, specialtyRattan: 1275 },
+  addons: null,
 },
 
 {
@@ -13575,6 +14929,7 @@ const PRODUCTS = [
   fabric: fab([6792, 6813, 6834, 6876, 6918, 6960, 7002, 7044, 7086, 7128, 7170, 7212, 7254, 7296, 7338, 7380]),
   leather: leather([7338, 7548, 7716, 7884], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13585,6 +14940,7 @@ const PRODUCTS = [
   fabric: fab([6942, 6963, 6984, 7026, 7068, 7110, 7152, 7194, 7236, 7278, 7320, 7362, 7404, 7446, 7488, 7530]),
   leather: leather([7488, 7698, 7866, 8034], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13595,6 +14951,7 @@ const PRODUCTS = [
   fabric: fab([6792, 6813, 6834, 6876, 6918, 6960, 7002, 7044, 7086, 7128, 7170, 7212, 7254, 7296, 7338, 7380]),
   leather: leather([7338, 7548, 7716, 7884], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13605,6 +14962,7 @@ const PRODUCTS = [
   fabric: fab([6942, 6963, 6984, 7026, 7068, 7110, 7152, 7194, 7236, 7278, 7320, 7362, 7404, 7446, 7488, 7530]),
   leather: leather([7488, 7698, 7866, 8034], 42),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13615,6 +14973,7 @@ const PRODUCTS = [
   fabric: fab([7563, 7572, 7581, 7599, 7617, 7635, 7653, 7671, 7689, 7707, 7725, 7743, 7761, 7779, 7797, 7815]),
   leather: leather([7797, 7887, 7959, 8031], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13625,6 +14984,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 900, tier3: 1200, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13635,6 +14995,7 @@ const PRODUCTS = [
   fabric: fab([13068, 13131, 13194, 13320, 13446, 13572, 13698, 13824, 13950, 14076, 14202, 14328, 14454, 14580, 14706, 14832]),
   leather: leather([14706, 15336, 15840, 16344], 126),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13645,6 +15006,7 @@ const PRODUCTS = [
   fabric: fab([13068, 13131, 13194, 13320, 13446, 13572, 13698, 13824, 13950, 14076, 14202, 14328, 14454, 14580, 14706, 14832]),
   leather: leather([14706, 15336, 15840, 16344], 126),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13655,6 +15017,7 @@ const PRODUCTS = [
   fabric: fab([14184, 14247, 14310, 14436, 14562, 14688, 14814, 14940, 15066, 15192, 15318, 15444, 15570, 15696, 15822, 15948]),
   leather: leather([15822, 16452, 16956, 17460], 126),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13665,6 +15028,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1350, tier3: 1500, tier4: 3900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13675,6 +15039,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13685,6 +15050,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13695,6 +15061,7 @@ const PRODUCTS = [
   fabric: fab([1893, 1908, 1920, 1947, 1974, 2001, 2028, 2055, 2082, 2109, 2136, 2163, 2190, 2217, 2244, 2271]),
   leather: leather([2244, 2379, 2487, 2595], 27),
   finishTiers: { tier1: 900, tier2: 1395, tier3: 1695, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13705,6 +15072,7 @@ const PRODUCTS = [
   fabric: fab([1890, 1902, 1914, 1938, 1962, 1986, 2010, 2034, 2058, 2082, 2106, 2130, 2154, 2178, 2202, 2226]),
   leather: leather([2202, 2322, 2418, 2514], 24),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13715,6 +15083,7 @@ const PRODUCTS = [
   fabric: fab([4818, 4833, 4845, 4872, 4899, 4926, 4953, 4980, 5007, 5034, 5061, 5088, 5115, 5142, 5169, 5196]),
   leather: leather([5169, 5304, 5412, 5520], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13725,6 +15094,7 @@ const PRODUCTS = [
   fabric: fab([4893, 4908, 4920, 4947, 4974, 5001, 5028, 5055, 5082, 5109, 5136, 5163, 5190, 5217, 5244, 5271]),
   leather: leather([5244, 5379, 5487, 5595], 27),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13735,6 +15105,7 @@ const PRODUCTS = [
   fabric: fab([1884, 1896, 1908, 1932, 1956, 1980, 2004, 2028, 2052, 2076, 2100, 2124, 2148, 2172, 2196, 2220]),
   leather: leather([2196, 2316, 2412, 2508], 24),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13745,6 +15116,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13755,6 +15127,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13765,6 +15138,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13775,6 +15149,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13785,6 +15160,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13795,6 +15171,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13805,6 +15182,7 @@ const PRODUCTS = [
   fabric: fab([3165, 3189, 3210, 3255, 3300, 3345, 3390, 3435, 3480, 3525, 3570, 3615, 3660, 3705, 3750, 3795]),
   leather: leather([3750, 3975, 4155, 4335], 45),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13815,6 +15193,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13825,6 +15204,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13835,6 +15215,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13845,6 +15226,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13855,6 +15237,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13865,6 +15248,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13875,6 +15259,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13885,6 +15270,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1650, tier3: 1800, tier4: 9300, type1Rattan: 0, type2Rattan: 150, specialtyRattan: 2700 },
+  addons: null,
 },
 
 {
@@ -13895,6 +15281,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13905,6 +15292,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 900, tier3: 1200, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13915,6 +15303,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13925,6 +15314,7 @@ const PRODUCTS = [
   fabric: fab([12756, 12858, 12960, 13164, 13368, 13572, 13776, 13980, 14184, 14388, 14592, 14796, 15000, 15204, 15408, 15612]),
   leather: leather([15408, 16428, 17244, 18060], 204),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 1800, specialtyRattan: 8700 },
+  addons: null,
 },
 
 {
@@ -13935,6 +15325,7 @@ const PRODUCTS = [
   fabric: fab([12756, 12858, 12960, 13164, 13368, 13572, 13776, 13980, 14184, 14388, 14592, 14796, 15000, 15204, 15408, 15612]),
   leather: leather([15408, 16428, 17244, 18060], 204),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 1800, specialtyRattan: 8700 },
+  addons: null,
 },
 
 {
@@ -13945,6 +15336,7 @@ const PRODUCTS = [
   fabric: fab([12366, 12456, 12546, 12726, 12906, 13086, 13266, 13446, 13626, 13806, 13986, 14166, 14346, 14526, 14706, 14886]),
   leather: leather([14706, 15606, 16326, 17046], 180),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 1800, specialtyRattan: 8700 },
+  addons: null,
 },
 
 {
@@ -13955,6 +15347,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13965,6 +15358,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13975,6 +15369,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 1755, tier2: 1950, tier3: 2100, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -13985,6 +15380,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -13995,6 +15391,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 360, tier2: 600, tier3: 900, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14005,6 +15402,7 @@ const PRODUCTS = [
   fabric: fab([3801, 3828, 3855, 3909, 3963, 4017, 4071, 4125, 4179, 4233, 4287, 4341, 4395, 4449, 4503, 4557]),
   leather: leather([4503, 4773, 4989, 5205], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 750, specialtyRattan: 3600 },
+  addons: null,
 },
 
 {
@@ -14015,6 +15413,7 @@ const PRODUCTS = [
   fabric: fab([12132, 12150, 12168, 12204, 12240, 12276, 12312, 12348, 12384, 12420, 12456, 12492, 12528, 12564, 12600, 12636]),
   leather: leather([12600, 12780, 12924, 13068], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14025,6 +15424,7 @@ const PRODUCTS = [
   fabric: fab([12132, 12150, 12168, 12204, 12240, 12276, 12312, 12348, 12384, 12420, 12456, 12492, 12528, 12564, 12600, 12636]),
   leather: leather([12600, 12780, 12924, 13068], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14035,6 +15435,7 @@ const PRODUCTS = [
   fabric: fab([3114, 3132, 3147, 3180, 3213, 3246, 3279, 3312, 3345, 3378, 3411, 3444, 3477, 3510, 3543, 3576]),
   leather: leather([3543, 3708, 3840, 3972], 33),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 1050, specialtyRattan: 2700 },
+  addons: null,
 },
 
 {
@@ -14045,6 +15446,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14055,6 +15457,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14065,6 +15468,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14075,6 +15479,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 75, tier2: 150, tier3: 225, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14085,6 +15490,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14095,6 +15501,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14105,6 +15512,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14115,6 +15523,7 @@ const PRODUCTS = [
   fabric: fab([3720, 3738, 3753, 3786, 3819, 3852, 3885, 3918, 3951, 3984, 4017, 4050, 4083, 4116, 4149, 4182]),
   leather: leather([4149, 4314, 4446, 4578], 33),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 750, specialtyRattan: 3000 },
+  addons: null,
 },
 
 {
@@ -14125,6 +15534,7 @@ const PRODUCTS = [
   fabric: fab([3720, 3738, 3753, 3786, 3819, 3852, 3885, 3918, 3951, 3984, 4017, 4050, 4083, 4116, 4149, 4182]),
   leather: leather([4149, 4314, 4446, 4578], 33),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 1050, specialtyRattan: 3300 },
+  addons: null,
 },
 
 {
@@ -14135,6 +15545,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14145,6 +15556,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14155,6 +15567,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14165,6 +15578,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14175,6 +15589,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14185,6 +15600,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 4500, type2Rattan: 5400, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14195,6 +15611,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 4500, type2Rattan: 5400, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14205,6 +15622,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 4500, type2Rattan: 5400, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14215,6 +15633,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3900, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14225,6 +15644,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3900, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14235,6 +15655,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3900, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14245,6 +15666,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 750, tier3: 900, tier4: 5100, type1Rattan: 150, type2Rattan: 300, specialtyRattan: 5700 },
+  addons: null,
 },
 
 {
@@ -14255,6 +15677,7 @@ const PRODUCTS = [
   fabric: fab([4242, 4263, 4284, 4326, 4368, 4410, 4452, 4494, 4536, 4578, 4620, 4662, 4704, 4746, 4788, 4830]),
   leather: leather([4788, 4998, 5166, 5334], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 2100, specialtyRattan: 5100 },
+  addons: null,
 },
 
 {
@@ -14265,6 +15688,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14275,6 +15699,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14285,6 +15710,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14295,6 +15721,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14305,6 +15732,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14315,6 +15743,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14325,6 +15754,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14335,6 +15765,7 @@ const PRODUCTS = [
   fabric: fab([4584, 4605, 4626, 4668, 4710, 4752, 4794, 4836, 4878, 4920, 4962, 5004, 5046, 5088, 5130, 5172]),
   leather: leather([5130, 5340, 5508, 5676], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1650, specialtyRattan: 5400 },
+  addons: null,
 },
 
 {
@@ -14345,6 +15776,7 @@ const PRODUCTS = [
   fabric: fab([4893, 4914, 4935, 4977, 5019, 5061, 5103, 5145, 5187, 5229, 5271, 5313, 5355, 5397, 5439, 5481]),
   leather: leather([5439, 5649, 5817, 5985], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1650, specialtyRattan: 5400 },
+  addons: null,
 },
 
 {
@@ -14355,6 +15787,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14365,6 +15798,7 @@ const PRODUCTS = [
   fabric: fab([2682, 2700, 2718, 2754, 2790, 2826, 2862, 2898, 2934, 2970, 3006, 3042, 3078, 3114, 3150, 3186]),
   leather: leather([3150, 3330, 3474, 3618], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14375,6 +15809,7 @@ const PRODUCTS = [
   fabric: fab([3132, 3150, 3168, 3204, 3240, 3276, 3312, 3348, 3384, 3420, 3456, 3492, 3528, 3564, 3600, 3636]),
   leather: leather([3600, 3780, 3924, 4068], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14385,6 +15820,7 @@ const PRODUCTS = [
   fabric: fab([2832, 2850, 2868, 2904, 2940, 2976, 3012, 3048, 3084, 3120, 3156, 3192, 3228, 3264, 3300, 3336]),
   leather: leather([3300, 3480, 3624, 3768], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14395,6 +15831,7 @@ const PRODUCTS = [
   fabric: fab([2982, 3000, 3018, 3054, 3090, 3126, 3162, 3198, 3234, 3270, 3306, 3342, 3378, 3414, 3450, 3486]),
   leather: leather([3450, 3630, 3774, 3918], 36),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14405,6 +15842,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14415,6 +15853,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14425,6 +15864,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14435,6 +15875,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14445,6 +15886,7 @@ const PRODUCTS = [
   fabric: fab([5640, 5652, 5664, 5688, 5712, 5736, 5760, 5784, 5808, 5832, 5856, 5880, 5904, 5928, 5952, 5976]),
   leather: leather([5952, 6072, 6168, 6264], 24),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14455,6 +15897,7 @@ const PRODUCTS = [
   fabric: fab([4899, 4914, 4926, 4953, 4980, 5007, 5034, 5061, 5088, 5115, 5142, 5169, 5196, 5223, 5250, 5277]),
   leather: leather([5250, 5385, 5493, 5601], 27),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14465,6 +15908,7 @@ const PRODUCTS = [
   fabric: fab([5199, 5214, 5226, 5253, 5280, 5307, 5334, 5361, 5388, 5415, 5442, 5469, 5496, 5523, 5550, 5577]),
   leather: leather([5550, 5685, 5793, 5901], 27),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14475,6 +15919,7 @@ const PRODUCTS = [
   fabric: fab([4893, 4908, 4920, 4947, 4974, 5001, 5028, 5055, 5082, 5109, 5136, 5163, 5190, 5217, 5244, 5271]),
   leather: leather([5244, 5379, 5487, 5595], 27),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14485,6 +15930,7 @@ const PRODUCTS = [
   fabric: fab([4182, 4200, 4218, 4254, 4290, 4326, 4362, 4398, 4434, 4470, 4506, 4542, 4578, 4614, 4650, 4686]),
   leather: leather([4650, 4830, 4974, 5118], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: 1650 },
+  addons: null,
 },
 
 {
@@ -14495,6 +15941,7 @@ const PRODUCTS = [
   fabric: fab([4665, 4689, 4710, 4755, 4800, 4845, 4890, 4935, 4980, 5025, 5070, 5115, 5160, 5205, 5250, 5295]),
   leather: leather([5250, 5475, 5655, 5835], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: 1650 },
+  addons: null,
 },
 
 {
@@ -14505,6 +15952,7 @@ const PRODUCTS = [
   fabric: fab([4089, 4107, 4125, 4161, 4197, 4233, 4269, 4305, 4341, 4377, 4413, 4449, 4485, 4521, 4557, 4593]),
   leather: leather([4557, 4737, 4881, 5025], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 450, type2Rattan: 750, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14515,6 +15963,7 @@ const PRODUCTS = [
   fabric: fab([4182, 4200, 4218, 4254, 4290, 4326, 4362, 4398, 4434, 4470, 4506, 4542, 4578, 4614, 4650, 4686]),
   leather: leather([4650, 4830, 4974, 5118], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 750, type2Rattan: 1050, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14525,6 +15974,7 @@ const PRODUCTS = [
   fabric: fab([3870, 3888, 3903, 3936, 3969, 4002, 4035, 4068, 4101, 4134, 4167, 4200, 4233, 4266, 4299, 4332]),
   leather: leather([4299, 4464, 4596, 4728], 33),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14535,6 +15985,7 @@ const PRODUCTS = [
   fabric: fab([4353, 4374, 4395, 4437, 4479, 4521, 4563, 4605, 4647, 4689, 4731, 4773, 4815, 4857, 4899, 4941]),
   leather: leather([4899, 5109, 5277, 5445], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14545,6 +15996,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14555,6 +16007,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14565,6 +16018,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14575,6 +16029,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14585,6 +16040,7 @@ const PRODUCTS = [
   fabric: fab([4329, 4341, 4353, 4377, 4401, 4425, 4449, 4473, 4497, 4521, 4545, 4569, 4593, 4617, 4641, 4665]),
   leather: leather([4641, 4761, 4857, 4953], 24),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14595,6 +16051,7 @@ const PRODUCTS = [
   fabric: fab([3093, 3108, 3120, 3147, 3174, 3201, 3228, 3255, 3282, 3309, 3336, 3363, 3390, 3417, 3444, 3471]),
   leather: leather([3444, 3579, 3687, 3795], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14605,6 +16062,7 @@ const PRODUCTS = [
   fabric: fab([3093, 3108, 3120, 3147, 3174, 3201, 3228, 3255, 3282, 3309, 3336, 3363, 3390, 3417, 3444, 3471]),
   leather: leather([3444, 3579, 3687, 3795], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14615,6 +16073,7 @@ const PRODUCTS = [
   fabric: fab([3120, 3138, 3153, 3186, 3219, 3252, 3285, 3318, 3351, 3384, 3417, 3450, 3483, 3516, 3549, 3582]),
   leather: leather([3549, 3714, 3846, 3978], 33),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14625,6 +16084,7 @@ const PRODUCTS = [
   fabric: fab([17139, 17256, 17373, 17607, 17841, 18075, 18309, 18543, 18777, 19011, 19245, 19479, 19713, 19947, 20181, 20415]),
   leather: leather([20181, 21351, 22287, 23223], 234),
   finishTiers: { tier1: 0, tier2: 2925, tier3: 4725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14635,6 +16095,7 @@ const PRODUCTS = [
   fabric: fab([14154, 14271, 14388, 14622, 14856, 15090, 15324, 15558, 15792, 16026, 16260, 16494, 16728, 16962, 17196, 17430]),
   leather: leather([17196, 18366, 19302, 20238], 234),
   finishTiers: { tier1: 3000, tier2: 5925, tier3: 7725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14645,6 +16106,7 @@ const PRODUCTS = [
   fabric: fab([13707, 13806, 13905, 14103, 14301, 14499, 14697, 14895, 15093, 15291, 15489, 15687, 15885, 16083, 16281, 16479]),
   leather: leather([16281, 17271, 18063, 18855], 198),
   finishTiers: { tier1: 3000, tier2: 5925, tier3: 7725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14655,6 +16117,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14665,6 +16128,7 @@ const PRODUCTS = [
   fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14675,6 +16139,7 @@ const PRODUCTS = [
   fabric: fab([2169, 2178, 2187, 2205, 2223, 2241, 2259, 2277, 2295, 2313, 2331, 2349, 2367, 2385, 2403, 2421]),
   leather: leather([2403, 2493, 2565, 2637], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 750, type2Rattan: 1050, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14685,6 +16150,7 @@ const PRODUCTS = [
   fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14695,6 +16161,7 @@ const PRODUCTS = [
   fabric: fab([2319, 2328, 2337, 2355, 2373, 2391, 2409, 2427, 2445, 2463, 2481, 2499, 2517, 2535, 2553, 2571]),
   leather: leather([2553, 2643, 2715, 2787], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14705,6 +16172,7 @@ const PRODUCTS = [
   fabric: fab([1869, 1878, 1887, 1905, 1923, 1941, 1959, 1977, 1995, 2013, 2031, 2049, 2067, 2085, 2103, 2121]),
   leather: leather([2103, 2193, 2265, 2337], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14715,6 +16183,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14725,6 +16194,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14735,6 +16205,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14745,6 +16216,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14755,6 +16227,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14765,6 +16238,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 10500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14775,6 +16249,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14785,6 +16260,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14795,6 +16271,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14805,6 +16282,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14815,6 +16293,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14825,6 +16304,7 @@ const PRODUCTS = [
   fabric: fab([3984, 4005, 4026, 4068, 4110, 4152, 4194, 4236, 4278, 4320, 4362, 4404, 4446, 4488, 4530, 4572]),
   leather: leather([4530, 4740, 4908, 5076], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14835,6 +16315,7 @@ const PRODUCTS = [
   fabric: fab([4098, 4119, 4140, 4182, 4224, 4266, 4308, 4350, 4392, 4434, 4476, 4518, 4560, 4602, 4644, 4686]),
   leather: leather([4644, 4854, 5022, 5190], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14845,6 +16326,7 @@ const PRODUCTS = [
   fabric: fab([8388, 8421, 8451, 8514, 8577, 8640, 8703, 8766, 8829, 8892, 8955, 9018, 9081, 9144, 9207, 9270]),
   leather: leather([9207, 9522, 9774, 10026], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14855,6 +16337,7 @@ const PRODUCTS = [
   fabric: fab([6738, 6762, 6783, 6828, 6873, 6918, 6963, 7008, 7053, 7098, 7143, 7188, 7233, 7278, 7323, 7368]),
   leather: leather([7323, 7548, 7728, 7908], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -14865,6 +16348,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14875,6 +16359,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14885,6 +16370,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14895,6 +16381,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14905,6 +16392,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14915,6 +16403,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14925,6 +16414,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14935,6 +16425,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14945,6 +16436,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14955,6 +16447,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14965,6 +16458,7 @@ const PRODUCTS = [
   fabric: fab([2544, 2553, 2562, 2580, 2598, 2616, 2634, 2652, 2670, 2688, 2706, 2724, 2742, 2760, 2778, 2796]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14975,6 +16469,7 @@ const PRODUCTS = [
   fabric: fab([2763, 2772, 2781, 2799, 2817, 2835, 2853, 2871, 2889, 2907, 2925, 2943, 2961, 2979, 2997, 3015]),
   leather: leather(null, 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14985,6 +16480,7 @@ const PRODUCTS = [
   fabric: fab([1869, 1878, 1887, 1905, 1923, 1941, 1959, 1977, 1995, 2013, 2031, 2049, 2067, 2085, 2103, 2121]),
   leather: leather([2103, 2193, 2265, 2337], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -14995,6 +16491,7 @@ const PRODUCTS = [
   fabric: fab([3726, 3744, 3762, 3798, 3834, 3870, 3906, 3942, 3978, 4014, 4050, 4086, 4122, 4158, 4194, 4230]),
   leather: leather([4194, 4374, 4518, 4662], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15005,6 +16502,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15015,6 +16513,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15025,6 +16524,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15035,6 +16535,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15045,6 +16546,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15055,6 +16557,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15065,6 +16568,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15075,6 +16579,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15085,6 +16590,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15095,6 +16601,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15105,6 +16612,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15115,6 +16623,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15125,6 +16634,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15135,6 +16645,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15145,6 +16656,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15155,6 +16667,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15165,6 +16678,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15175,6 +16689,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15185,6 +16700,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15195,6 +16711,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15205,6 +16722,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15215,6 +16733,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15225,6 +16744,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15235,6 +16755,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15245,6 +16766,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15255,6 +16777,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15265,6 +16788,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15275,6 +16799,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15285,6 +16810,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15295,6 +16821,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15305,6 +16832,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15315,6 +16843,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15325,6 +16854,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15335,6 +16865,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15345,6 +16876,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15355,6 +16887,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15365,6 +16898,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15375,6 +16909,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15385,6 +16920,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15395,6 +16931,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15405,6 +16942,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15415,6 +16953,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15425,6 +16964,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15435,6 +16975,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15445,6 +16986,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15455,6 +16997,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15465,6 +17008,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15475,6 +17019,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15485,6 +17030,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15495,6 +17041,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15505,6 +17052,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15515,6 +17063,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15525,6 +17074,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15535,6 +17085,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15545,6 +17096,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15555,6 +17107,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15565,6 +17118,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15575,6 +17129,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15585,6 +17140,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15595,6 +17151,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15605,6 +17162,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15615,6 +17173,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15625,6 +17184,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15635,6 +17195,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15645,6 +17206,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15655,6 +17217,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15665,6 +17228,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15675,6 +17239,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15685,6 +17250,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15695,6 +17261,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15705,6 +17272,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15715,6 +17283,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15725,6 +17294,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15735,6 +17305,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15745,6 +17316,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15755,6 +17327,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15765,6 +17338,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15775,6 +17349,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15785,6 +17360,7 @@ const PRODUCTS = [
   fabric: fab([2769, 2778, 2787, 2805, 2823, 2841, 2859, 2877, 2895, 2913, 2931, 2949, 2967, 2985, 3003, 3021]),
   leather: leather([3003, 3093, 3165, 3237], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15795,6 +17371,7 @@ const PRODUCTS = [
   fabric: fab([3063, 3072, 3081, 3099, 3117, 3135, 3153, 3171, 3189, 3207, 3225, 3243, 3261, 3279, 3297, 3315]),
   leather: leather([3297, 3387, 3459, 3531], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15805,6 +17382,7 @@ const PRODUCTS = [
   fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15815,6 +17393,7 @@ const PRODUCTS = [
   fabric: fab([3252, 3261, 3270, 3288, 3306, 3324, 3342, 3360, 3378, 3396, 3414, 3432, 3450, 3468, 3486, 3504]),
   leather: leather([3486, 3576, 3648, 3720], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15825,6 +17404,7 @@ const PRODUCTS = [
   fabric: fab([3300, 3309, 3318, 3336, 3354, 3372, 3390, 3408, 3426, 3444, 3462, 3480, 3498, 3516, 3534, 3552]),
   leather: leather([3534, 3624, 3696, 3768], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15835,6 +17415,7 @@ const PRODUCTS = [
   fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15845,6 +17426,7 @@ const PRODUCTS = [
   fabric: fab([2469, 2478, 2487, 2505, 2523, 2541, 2559, 2577, 2595, 2613, 2631, 2649, 2667, 2685, 2703, 2721]),
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15855,6 +17437,7 @@ const PRODUCTS = [
   fabric: fab([2940, 2949, 2958, 2976, 2994, 3012, 3030, 3048, 3066, 3084, 3102, 3120, 3138, 3156, 3174, 3192]),
   leather: leather([3174, 3264, 3336, 3408], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15865,6 +17448,7 @@ const PRODUCTS = [
   fabric: fab([3069, 3078, 3087, 3105, 3123, 3141, 3159, 3177, 3195, 3213, 3231, 3249, 3267, 3285, 3303, 3321]),
   leather: leather([3303, 3393, 3465, 3537], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15875,6 +17459,7 @@ const PRODUCTS = [
   fabric: fab([2769, 2778, 2787, 2805, 2823, 2841, 2859, 2877, 2895, 2913, 2931, 2949, 2967, 2985, 3003, 3021]),
   leather: leather([3003, 3093, 3165, 3237], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15885,6 +17470,7 @@ const PRODUCTS = [
   fabric: fab([3990, 4008, 4026, 4062, 4098, 4134, 4170, 4206, 4242, 4278, 4314, 4350, 4386, 4422, 4458, 4494]),
   leather: leather([4458, 4638, 4782, 4926], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15895,6 +17481,7 @@ const PRODUCTS = [
   fabric: fab([5469, 5478, 5487, 5505, 5523, 5541, 5559, 5577, 5595, 5613, 5631, 5649, 5667, 5685, 5703, 5721]),
   leather: leather([5703, 5793, 5865, 5937], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15905,6 +17492,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15915,6 +17503,7 @@ const PRODUCTS = [
   fabric: fab([2421, 2445, 2466, 2511, 2556, 2601, 2646, 2691, 2736, 2781, 2826, 2871, 2916, 2961, 3006, 3051]),
   leather: leather([3006, 3231, 3411, 3591], 45),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15925,6 +17514,7 @@ const PRODUCTS = [
   fabric: fab([2703, 2718, 2730, 2757, 2784, 2811, 2838, 2865, 2892, 2919, 2946, 2973, 3000, 3027, 3054, 3081]),
   leather: leather([3054, 3189, 3297, 3405], 27),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15935,6 +17525,7 @@ const PRODUCTS = [
   fabric: fab([2463, 2472, 2481, 2499, 2517, 2535, 2553, 2571, 2589, 2607, 2625, 2643, 2661, 2679, 2697, 2715]),
   leather: leather([2697, 2787, 2859, 2931], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -15945,6 +17536,7 @@ const PRODUCTS = [
   fabric: fab([3669, 3678, 3687, 3705, 3723, 3741, 3759, 3777, 3795, 3813, 3831, 3849, 3867, 3885, 3903, 3921]),
   leather: leather([3903, 3993, 4065, 4137], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15955,6 +17547,7 @@ const PRODUCTS = [
   fabric: fab([3732, 3750, 3768, 3804, 3840, 3876, 3912, 3948, 3984, 4020, 4056, 4092, 4128, 4164, 4200, 4236]),
   leather: leather([4200, 4380, 4524, 4668], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2085 },
+  addons: null,
 },
 
 {
@@ -15965,6 +17558,7 @@ const PRODUCTS = [
   fabric: fab([2937, 2955, 2973, 3009, 3045, 3081, 3117, 3153, 3189, 3225, 3261, 3297, 3333, 3369, 3405, 3441]),
   leather: leather([3405, 3585, 3729, 3873], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15975,6 +17569,7 @@ const PRODUCTS = [
   fabric: fab([3564, 3591, 3615, 3666, 3717, 3768, 3819, 3870, 3921, 3972, 4023, 4074, 4125, 4176, 4227, 4278]),
   leather: leather([4227, 4482, 4686, 4890], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15985,6 +17580,7 @@ const PRODUCTS = [
   fabric: fab([3249, 3267, 3285, 3321, 3357, 3393, 3429, 3465, 3501, 3537, 3573, 3609, 3645, 3681, 3717, 3753]),
   leather: leather([3717, 3897, 4041, 4185], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -15995,6 +17591,7 @@ const PRODUCTS = [
   fabric: fab([3849, 3876, 3900, 3951, 4002, 4053, 4104, 4155, 4206, 4257, 4308, 4359, 4410, 4461, 4512, 4563]),
   leather: leather([4512, 4767, 4971, 5175], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16005,6 +17602,7 @@ const PRODUCTS = [
   fabric: fab([3534, 3552, 3570, 3606, 3642, 3678, 3714, 3750, 3786, 3822, 3858, 3894, 3930, 3966, 4002, 4038]),
   leather: leather([4002, 4182, 4326, 4470], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16015,6 +17613,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 150, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16025,6 +17624,7 @@ const PRODUCTS = [
   fabric: fab([5469, 5478, 5487, 5505, 5523, 5541, 5559, 5577, 5595, 5613, 5631, 5649, 5667, 5685, 5703, 5721]),
   leather: leather([5703, 5793, 5865, 5937], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -16035,6 +17635,7 @@ const PRODUCTS = [
   fabric: fab([2169, 2178, 2187, 2205, 2223, 2241, 2259, 2277, 2295, 2313, 2331, 2349, 2367, 2385, 2403, 2421]),
   leather: leather([2403, 2493, 2565, 2637], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -16045,6 +17646,7 @@ const PRODUCTS = [
   fabric: fab([2769, 2778, 2787, 2805, 2823, 2841, 2859, 2877, 2895, 2913, 2931, 2949, 2967, 2985, 3003, 3021]),
   leather: leather([3003, 3093, 3165, 3237], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16055,6 +17657,7 @@ const PRODUCTS = [
   fabric: fab([4095, 4116, 4137, 4179, 4221, 4263, 4305, 4347, 4389, 4431, 4473, 4515, 4557, 4599, 4641, 4683]),
   leather: leather([4641, 4851, 5019, 5187], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16065,6 +17668,7 @@ const PRODUCTS = [
   fabric: fab([3714, 3735, 3756, 3798, 3840, 3882, 3924, 3966, 4008, 4050, 4092, 4134, 4176, 4218, 4260, 4302]),
   leather: leather([4260, 4470, 4638, 4806], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16075,6 +17679,7 @@ const PRODUCTS = [
   fabric: fab([3669, 3678, 3687, 3705, 3723, 3741, 3759, 3777, 3795, 3813, 3831, 3849, 3867, 3885, 3903, 3921]),
   leather: leather([3903, 3993, 4065, 4137], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16085,6 +17690,7 @@ const PRODUCTS = [
   fabric: fab([3369, 3378, 3387, 3405, 3423, 3441, 3459, 3477, 3495, 3513, 3531, 3549, 3567, 3585, 3603, 3621]),
   leather: leather([3603, 3693, 3765, 3837], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16095,6 +17701,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16105,6 +17712,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16115,6 +17723,7 @@ const PRODUCTS = [
   fabric: fab([4899, 4914, 4926, 4953, 4980, 5007, 5034, 5061, 5088, 5115, 5142, 5169, 5196, 5223, 5250, 5277]),
   leather: leather([5250, 5385, 5493, 5601], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16125,6 +17734,7 @@ const PRODUCTS = [
   fabric: fab([4182, 4200, 4218, 4254, 4290, 4326, 4362, 4398, 4434, 4470, 4506, 4542, 4578, 4614, 4650, 4686]),
   leather: leather([4650, 4830, 4974, 5118], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16135,6 +17745,7 @@ const PRODUCTS = [
   fabric: fab([2319, 2328, 2337, 2355, 2373, 2391, 2409, 2427, 2445, 2463, 2481, 2499, 2517, 2535, 2553, 2571]),
   leather: leather([2553, 2643, 2715, 2787], 18),
   finishTiers: null,
+  addons: null,
 },
 
 {
@@ -16145,6 +17756,7 @@ const PRODUCTS = [
   fabric: fab([3969, 3978, 3987, 4005, 4023, 4041, 4059, 4077, 4095, 4113, 4131, 4149, 4167, 4185, 4203, 4221]),
   leather: leather([4203, 4293, 4365, 4437], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16155,6 +17767,7 @@ const PRODUCTS = [
   fabric: fab([5523, 5541, 5559, 5595, 5631, 5667, 5703, 5739, 5775, 5811, 5847, 5883, 5919, 5955, 5991, 6027]),
   leather: leather([5991, 6171, 6315, 6459], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16165,6 +17778,7 @@ const PRODUCTS = [
   fabric: fab([4830, 4848, 4863, 4896, 4929, 4962, 4995, 5028, 5061, 5094, 5127, 5160, 5193, 5226, 5259, 5292]),
   leather: leather([5259, 5424, 5556, 5688], 33),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16175,6 +17789,7 @@ const PRODUCTS = [
   fabric: fab([3390, 3399, 3408, 3426, 3444, 3462, 3480, 3498, 3516, 3534, 3552, 3570, 3588, 3606, 3624, 3642]),
   leather: leather([3624, 3714, 3786, 3858], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16185,6 +17800,7 @@ const PRODUCTS = [
   fabric: fab([4332, 4350, 4368, 4404, 4440, 4476, 4512, 4548, 4584, 4620, 4656, 4692, 4728, 4764, 4800, 4836]),
   leather: leather([4800, 4980, 5124, 5268], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16195,6 +17811,7 @@ const PRODUCTS = [
   fabric: fab([4233, 4251, 4269, 4305, 4341, 4377, 4413, 4449, 4485, 4521, 4557, 4593, 4629, 4665, 4701, 4737]),
   leather: leather([4701, 4881, 5025, 5169], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16205,6 +17822,7 @@ const PRODUCTS = [
   fabric: fab([3519, 3528, 3537, 3555, 3573, 3591, 3609, 3627, 3645, 3663, 3681, 3699, 3717, 3735, 3753, 3771]),
   leather: leather([3753, 3843, 3915, 3987], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
+  addons: null,
 },
 
 {
@@ -16215,6 +17833,7 @@ const PRODUCTS = [
   fabric: null,
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
+  addons: null,
 },
 
 ];
