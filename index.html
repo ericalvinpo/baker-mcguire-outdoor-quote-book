@@ -19534,6 +19534,17 @@ function init() {
   window.addEventListener("beforeunload", (e) => {
     if (state.cart.length > 0) { e.preventDefault(); e.returnValue = ""; }
   });
+
+  // Every visit starts with an empty quotation cart — it is never saved to the
+  // browser, but a page restored from the back/forward cache keeps its old JS state,
+  // so explicitly reset on that path too rather than relying on a fresh script run.
+  window.addEventListener("pageshow", (e) => {
+    if (e.persisted && state.cart.length > 0) {
+      state.cart = [];
+      renderCartBadge();
+      if (state.view === "checkout") renderCheckout();
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", init);
