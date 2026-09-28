@@ -20495,6 +20495,14 @@ function generateQuotationPdf(quotation, lines, totals) {
 const CATEGORY_LABELS = { all: "All pieces", chairs: "Chairs", sofas: "Sofas & Settees", ottomans: "Ottomans & Benches", tables: "Tables & Consoles", casegoods: "Casegoods", beds: "Beds", lighting: "Lighting", mirrors: "Mirrors" };
 const COVERING_LABELS = { fabric: "Fabric", leather: "Leather", com: "COM / COL", standard: "Standard specification" };
 
+// Product photos are served from Baker's Scene7/Adobe Dynamic Media CDN, whose default
+// rendition (400px wide) reads as blurry once displayed at gallery size — request a
+// larger, higher-quality rendition of the same asset via its resize query params.
+function imgSize(url, width) {
+  if (!url) return url;
+  return `${url}?wid=${width}&fmt=jpg&qlt=90`;
+}
+
 function escapeHtml(str) {
   if (str == null) return "";
   return String(str).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -20636,7 +20644,7 @@ function renderProductList() {
   el.innerHTML = list.map((p) => {
     const { price, label } = displayPriceForProduct(p);
     const thumb = (p.images && p.images[0])
-      ? `<img class="mthumb" src="${p.images[0]}" alt="" loading="lazy" />`
+      ? `<img class="mthumb" src="${imgSize(p.images[0], 120)}" alt="" loading="lazy" />`
       : `<span class="mthumb mthumb-empty"></span>`;
     return `
       <button type="button" class="model-row" role="option" aria-pressed="${state.selectedSku === p.sku}" data-sku="${p.sku}">
@@ -20668,8 +20676,8 @@ function renderProductDetail() {
   const images = product.images || [];
   const galleryHtml = images.length ? `
     <div class="product-gallery">
-      <img class="gallery-main" id="galleryMain" src="${images[0]}" alt="${escapeHtml(product.name)}" loading="lazy" />
-      ${images.length > 1 ? `<div class="gallery-thumbs">${images.map((src, i) => `<img class="gallery-thumb${i === 0 ? " active" : ""}" data-src="${src}" src="${src}" alt="" loading="lazy" />`).join("")}</div>` : ""}
+      <img class="gallery-main" id="galleryMain" src="${imgSize(images[0], 1000)}" alt="${escapeHtml(product.name)}" loading="lazy" />
+      ${images.length > 1 ? `<div class="gallery-thumbs">${images.map((src, i) => `<img class="gallery-thumb${i === 0 ? " active" : ""}" data-src="${imgSize(src, 1000)}" src="${imgSize(src, 150)}" alt="" loading="lazy" />`).join("")}</div>` : ""}
     </div>` : `
     <div class="product-gallery product-gallery-empty">
       <span class="gallery-placeholder">No photo available</span>
