@@ -143,9 +143,13 @@ function renderProductList() {
   }
   el.innerHTML = list.map((p) => {
     const { price, label } = displayPriceForProduct(p);
+    const thumb = (p.images && p.images[0])
+      ? `<img class="mthumb" src="${p.images[0]}" alt="" loading="lazy" />`
+      : `<span class="mthumb mthumb-empty"></span>`;
     return `
       <button type="button" class="model-row" role="option" aria-pressed="${state.selectedSku === p.sku}" data-sku="${p.sku}">
-        <span>
+        ${thumb}
+        <span class="mrow-text">
           <span class="mname">${escapeHtml(p.name)}${p.limited ? " · Limited" : ""}</span><br/>
           <span class="msku">${p.sku}</span> &middot; <span class="mdesigner">${escapeHtml(p.collection)}</span>
         </span>
@@ -169,11 +173,30 @@ function renderProductDetail() {
     ["Weight", d.weight ? d.weight + " lb" : null], ["Fabric req.", d.fabricReq ? d.fabricReq + " yd" : null],
     ["Leather req.", d.leatherReq ? d.leatherReq + " ft²" : null],
   ].filter(([, v]) => v != null && v !== "");
+  const images = product.images || [];
+  const galleryHtml = images.length ? `
+    <div class="product-gallery">
+      <img class="gallery-main" id="galleryMain" src="${images[0]}" alt="${escapeHtml(product.name)}" loading="lazy" />
+      ${images.length > 1 ? `<div class="gallery-thumbs">${images.map((src, i) => `<img class="gallery-thumb${i === 0 ? " active" : ""}" data-src="${src}" src="${src}" alt="" loading="lazy" />`).join("")}</div>` : ""}
+    </div>` : `
+    <div class="product-gallery product-gallery-empty">
+      <span class="gallery-placeholder">No photo available</span>
+    </div>`;
+
   el.innerHTML = `
+    ${galleryHtml}
     <h2>${escapeHtml(product.name)}</h2>
     <div class="sku">${product.sku} &middot; ${escapeHtml(product.collection)}</div>
     <ul>${product.specs.map((s) => `<li>${escapeHtml(s)}</li>`).join("")}</ul>
     <div class="dims-grid">${dimEntries.map(([l, v]) => `<div class="dim"><span class="dl">${l}</span><span class="dv">${typeof v === "number" ? v + '"' : v}</span></div>`).join("")}</div>`;
+
+  const mainImg = document.getElementById("galleryMain");
+  el.querySelectorAll(".gallery-thumb").forEach((thumb) => {
+    thumb.addEventListener("click", () => {
+      if (mainImg) mainImg.src = thumb.dataset.src;
+      el.querySelectorAll(".gallery-thumb").forEach((t) => t.classList.toggle("active", t === thumb));
+    });
+  });
 }
 
 // ---------------- Configurator ----------------
