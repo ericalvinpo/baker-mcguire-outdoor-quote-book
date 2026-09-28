@@ -189,6 +189,9 @@ select {
 }
 .model-row:hover { background: var(--surface-2); }
 .model-row[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); }
+.mthumb { width: 40px; height: 40px; flex: none; object-fit: cover; border-radius: var(--radius-s); background: var(--surface-2); border: 1px solid var(--border); }
+.mthumb-empty { display: inline-block; }
+.mrow-text { flex: 1; min-width: 0; }
 .model-row .mname { font-weight: 600; font-size: 14px; }
 .model-row .msku { font-family: var(--mono); font-size: 11px; color: var(--muted-2); }
 .model-row .mdesigner { font-family: var(--sans); font-size: 11px; color: var(--muted-2); }
@@ -197,6 +200,23 @@ select {
 .empty-state { padding: 30px 10px; text-align: center; color: var(--muted-2); font-size: 13.5px; }
 
 .model-detail { margin-top: 16px; padding-top: 16px; border-top: 1px dashed var(--border); }
+.product-gallery { margin-bottom: 14px; }
+.gallery-main {
+  width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: var(--surface-2);
+  border: 1px solid var(--border); border-radius: var(--radius-m); display: block;
+}
+.gallery-thumbs { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.gallery-thumb {
+  width: 52px; height: 52px; object-fit: cover; border-radius: var(--radius-s);
+  border: 1px solid var(--border-strong); cursor: pointer; background: var(--surface-2); opacity: 0.7;
+}
+.gallery-thumb:hover { opacity: 1; }
+.gallery-thumb.active { border-color: var(--accent); opacity: 1; box-shadow: 0 0 0 1px var(--accent); }
+.product-gallery-empty {
+  aspect-ratio: 4 / 3; background: var(--surface-2); border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-m); display: flex; align-items: center; justify-content: center;
+}
+.gallery-placeholder { font-size: 12px; color: var(--muted-2); font-family: var(--mono); }
 .model-detail h2 { font-family: var(--serif); font-weight: 560; font-size: 20px; margin: 0 0 2px; }
 .model-detail .sku { font-family: var(--mono); font-size: 12px; color: var(--muted); }
 .model-detail ul { margin: 10px 0 0; padding-left: 18px; color: var(--muted); font-size: 13px; line-height: 1.55; }
