@@ -36,6 +36,7 @@ const PRODUCTS = [
   leather: leather([12615, 13290, 13830, 14370], 135),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -47,6 +48,7 @@ const PRODUCTS = [
   leather: leather(null, 81),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -58,6 +60,7 @@ const PRODUCTS = [
   leather: leather(null, 33),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -69,6 +72,7 @@ const PRODUCTS = [
   leather: leather(null, 60),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -80,6 +84,7 @@ const PRODUCTS = [
   leather: leather(null, 42),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -91,6 +96,7 @@ const PRODUCTS = [
   leather: leather(null, 87),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -102,6 +108,7 @@ const PRODUCTS = [
   leather: leather(null, 99),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -113,6 +120,7 @@ const PRODUCTS = [
   leather: leather(null, 153),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -124,6 +132,7 @@ const PRODUCTS = [
   leather: leather([4983, 5238, 5442, 5646], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -135,6 +144,7 @@ const PRODUCTS = [
   leather: leather([4830, 5010, 5154, 5298], 36),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -146,6 +156,7 @@ const PRODUCTS = [
   leather: leather(null, 135),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -157,6 +168,7 @@ const PRODUCTS = [
   leather: leather(null, 99),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -168,6 +180,7 @@ const PRODUCTS = [
   leather: leather(null, 135),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -179,6 +192,7 @@ const PRODUCTS = [
   leather: leather(null, 135),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -190,6 +204,7 @@ const PRODUCTS = [
   leather: leather(null, 135),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -201,6 +216,7 @@ const PRODUCTS = [
   leather: leather([16020, 17850, 19314, 20778], 366),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -212,6 +228,7 @@ const PRODUCTS = [
   leather: leather([17424, 19434, 21042, 22650], 402),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -223,6 +240,7 @@ const PRODUCTS = [
   leather: leather([15375, 16230, 16914, 17598], 171),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -234,6 +252,7 @@ const PRODUCTS = [
   leather: leather([13359, 14619, 15627, 16635], 252),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -245,6 +264,7 @@ const PRODUCTS = [
   leather: leather([19095, 19950, 20634, 21318], 171),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -256,6 +276,7 @@ const PRODUCTS = [
   leather: leather([13959, 15219, 16227, 17235], 252),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -267,6 +288,7 @@ const PRODUCTS = [
   leather: leather([22164, 23379, 24351, 25323], 243),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -278,6 +300,7 @@ const PRODUCTS = [
   leather: leather([19626, 21381, 22785, 24189], 351),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -289,6 +312,7 @@ const PRODUCTS = [
   leather: leather([4803, 5118, 5370, 5622], 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -300,6 +324,7 @@ const PRODUCTS = [
   leather: leather([4803, 5073, 5289, 5505], 54),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -311,6 +336,7 @@ const PRODUCTS = [
   leather: leather(null, 105),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3011L_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3011L_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3011L_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCCV47_Front_3Qrt"],
 },
 
 {
@@ -322,6 +348,7 @@ const PRODUCTS = [
   leather: leather(null, 54),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211C_Detail"],
 },
 
 {
@@ -333,6 +360,7 @@ const PRODUCTS = [
   leather: leather(null, 126),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211CS_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211CS_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211CS_Detail"],
 },
 
 {
@@ -344,6 +372,7 @@ const PRODUCTS = [
   leather: leather(null, 36),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211O_Detail"],
 },
 
 {
@@ -355,6 +384,7 @@ const PRODUCTS = [
   leather: leather(null, 153),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3211S_Detail"],
 },
 
 {
@@ -366,6 +396,7 @@ const PRODUCTS = [
   leather: leather(null, 54),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3212C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3212C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3212C_Detail"],
 },
 
 {
@@ -377,6 +408,7 @@ const PRODUCTS = [
   leather: leather(null, 87),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CA_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CA_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CC_MCO3214CA_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CC_MCO3214CA_Front"],
 },
 
 {
@@ -388,6 +420,7 @@ const PRODUCTS = [
   leather: leather(null, 96),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CC_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CC_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CC_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CC_MCO3214CA_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3214CC_MCO3214CA_Front"],
 },
 
 {
@@ -399,6 +432,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3341C_BARK_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3341C_BARK_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3341C_BARK_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3341C_STONE_BACK3QTR", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3341C_STONE_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3341C_STONE_BACK"],
 },
 
 {
@@ -410,6 +444,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3341O_BARK_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3341O_STONE_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3341O_STONE_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/zaa26623"],
 },
 
 {
@@ -421,6 +456,7 @@ const PRODUCTS = [
   leather: leather([4599, 4809, 4977, 5145], 42),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3500B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3500B_Detail_01"],
 },
 
 {
@@ -432,6 +468,7 @@ const PRODUCTS = [
   leather: leather([9552, 10347, 10983, 11619], 159),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3500CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3500CS_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3500CS_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3500CS_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3500CS_Detail_01"],
 },
 
 {
@@ -443,6 +480,7 @@ const PRODUCTS = [
   leather: leather([5553, 5868, 6120, 6372], 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CA_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Back_3Qrt"],
 },
 
 {
@@ -454,6 +492,7 @@ const PRODUCTS = [
   leather: leather([6906, 7356, 7716, 8076], 90),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Back_3Qrt"],
 },
 
 {
@@ -465,6 +504,7 @@ const PRODUCTS = [
   leather: leather([5853, 6168, 6420, 6672], 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CL_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Back_3Qrt"],
 },
 
 {
@@ -476,6 +516,7 @@ const PRODUCTS = [
   leather: leather([5853, 6168, 6420, 6672], 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CR_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CR_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Back_3Qrt"],
 },
 
 {
@@ -487,6 +528,7 @@ const PRODUCTS = [
   leather: leather([6699, 7089, 7401, 7713], 78),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502O_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3502CC_MCO3502CL_MCO3502CR_MCO3502CA_Front_3Qrt"],
 },
 
 {
@@ -498,6 +540,7 @@ const PRODUCTS = [
   leather: leather([7653, 7968, 8220, 8472], 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503C_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503C_MCO3503O_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503C_MCO3503O_Side"],
 },
 
 {
@@ -509,6 +552,7 @@ const PRODUCTS = [
   leather: leather([3999, 4209, 4377, 4545], 42),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503O_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503C_MCO3503O_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3503C_MCO3503O_Side"],
 },
 
 {
@@ -520,6 +564,7 @@ const PRODUCTS = [
   leather: leather([7053, 7368, 7620, 7872], 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3504C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3504C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3504C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3504C_Detail_01"],
 },
 
 {
@@ -531,6 +576,7 @@ const PRODUCTS = [
   leather: leather([7449, 7884, 8232, 8580], 87),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3507L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3507L_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3507L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3507L_Detail_01"],
 },
 
 {
@@ -542,6 +588,7 @@ const PRODUCTS = [
   leather: leather([9348, 10008, 10536, 11064], 132),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3702C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3702C_Back_3Qrt"],
 },
 
 {
@@ -553,6 +600,7 @@ const PRODUCTS = [
   leather: leather([6234, 6639, 6963, 7287], 81),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3704C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3704C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3704C_Detail_01"],
 },
 
 {
@@ -564,6 +612,7 @@ const PRODUCTS = [
   leather: leather([3312, 3477, 3609, 3741], 33),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3704O_Front"],
 },
 
 {
@@ -575,6 +624,7 @@ const PRODUCTS = [
   leather: leather([11868, 12678, 13326, 13974], 162),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3710L_Front"],
 },
 
 {
@@ -586,6 +636,7 @@ const PRODUCTS = [
   leather: leather([17910, 19110, 20070, 21030], 240),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3710S_Front"],
 },
 
 {
@@ -597,6 +648,7 @@ const PRODUCTS = [
   leather: leather([8844, 9324, 9708, 10092], 96),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3712CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3712CS_Detail_01"],
 },
 
 {
@@ -608,6 +660,7 @@ const PRODUCTS = [
   leather: leather([4764, 5019, 5223, 5427], 51),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3714CA_Front"],
 },
 
 {
@@ -619,6 +672,7 @@ const PRODUCTS = [
   leather: leather([10674, 11379, 11943, 12507], 141),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3716CS_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3716CS_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3716CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3716CS_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3716CS_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3716CS_Detail_01"],
 },
 
 {
@@ -630,6 +684,7 @@ const PRODUCTS = [
   leather: leather([3378, 3513, 3621, 3729], 27),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3718_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3718_Detail_01"],
 },
 
 {
@@ -641,6 +696,7 @@ const PRODUCTS = [
   leather: leather([3336, 3456, 3552, 3648], 24),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3720B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3720B_Detail_01"],
 },
 
 {
@@ -652,6 +708,7 @@ const PRODUCTS = [
   leather: leather(null, 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -663,6 +720,7 @@ const PRODUCTS = [
   leather: leather(null, 144),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -674,6 +732,7 @@ const PRODUCTS = [
   leather: leather(null, 126),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -685,6 +744,7 @@ const PRODUCTS = [
   leather: leather([6306, 6756, 7116, 7476], 90),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1000L_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1000L_DETAIL"],
 },
 
 {
@@ -696,6 +756,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -707,6 +768,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO184_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO184_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO184_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/zab15066"],
 },
 
 {
@@ -718,6 +780,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3034_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/CV-45"],
 },
 
 {
@@ -729,6 +792,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3037_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCCV46_Front_3Qrt"],
 },
 
 {
@@ -740,6 +804,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3044_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3044_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/CV-44"],
 },
 
 {
@@ -751,6 +816,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3045_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3045_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/CV-44"],
 },
 
 {
@@ -762,6 +828,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3044_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3044_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/CV-44"],
 },
 
 {
@@ -773,6 +840,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3045_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3045_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/CV-44"],
 },
 
 {
@@ -784,6 +852,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3048_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3048_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3048_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/zab15066"],
 },
 
 {
@@ -795,6 +864,7 @@ const PRODUCTS = [
   leather: leather([4470, 4560, 4632, 4704], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -806,6 +876,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3234_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3234_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3234_Detail_02"],
 },
 
 {
@@ -817,6 +888,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3235_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3235_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3235_Detail"],
 },
 
 {
@@ -828,6 +900,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3237_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3237_Detail"],
 },
 
 {
@@ -839,6 +912,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3244_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3244_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3244_Detail"],
 },
 
 {
@@ -850,6 +924,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3245_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3245_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3245_Detail_02"],
 },
 
 {
@@ -861,6 +936,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3246_Alt_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3246_Alt_Detail"],
 },
 
 {
@@ -872,6 +948,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3261_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3261_Detail"],
 },
 
 {
@@ -883,6 +960,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3262_Detail"],
 },
 
 {
@@ -894,6 +972,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3278_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3278_Detail"],
 },
 
 {
@@ -905,6 +984,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3316B_BARK_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3316B_STONE_FRONT"],
 },
 
 {
@@ -916,6 +996,7 @@ const PRODUCTS = [
   leather: leather([5220, 5310, 5382, 5454], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -927,6 +1008,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3336_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCCV87_lineart"],
 },
 
 {
@@ -938,6 +1020,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3337_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3337_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3337_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCCV69-98_lineart"],
 },
 
 {
@@ -949,6 +1032,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3338_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3338_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3338_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCCV46_Front_3Qrt"],
 },
 
 {
@@ -960,6 +1044,7 @@ const PRODUCTS = [
   leather: leather([5049, 5139, 5211, 5283], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -971,6 +1056,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3340_BARK_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3340_BARK_BACK3QTR", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3340_STONE_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3340_STONE_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/zab15066"],
 },
 
 {
@@ -982,6 +1068,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3346_BARK_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3346_STONE_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3346_STONE_DETAIL"],
 },
 
 {
@@ -993,6 +1080,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3347_STONE_FRONT"],
 },
 
 {
@@ -1004,6 +1092,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/zab15069"],
 },
 
 {
@@ -1015,6 +1104,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3352-GARDEN_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3352-GRAVEL_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3352-GRAVEL_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/CV-28"],
 },
 
 {
@@ -1026,6 +1116,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3436_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3436_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3436_Detail_01"],
 },
 
 {
@@ -1037,6 +1128,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3437_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3437_Top"],
 },
 
 {
@@ -1048,6 +1140,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3438_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3438_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3438_Detail_01"],
 },
 
 {
@@ -1059,6 +1152,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3439_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3439_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3439_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3439_Detail_01"],
 },
 
 {
@@ -1070,6 +1164,7 @@ const PRODUCTS = [
   leather: leather([4299, 4509, 4677, 4845], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3440_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3440_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3440_Detail_01"],
 },
 
 {
@@ -1081,6 +1176,7 @@ const PRODUCTS = [
   leather: leather([4599, 4809, 4977, 5145], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3441_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3441_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3441_Detail_01"],
 },
 
 {
@@ -1092,6 +1188,7 @@ const PRODUCTS = [
   leather: leather([3999, 4209, 4377, 4545], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3448_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3448_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3448_Detail_01"],
 },
 
 {
@@ -1103,6 +1200,7 @@ const PRODUCTS = [
   leather: leather([4299, 4509, 4677, 4845], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3449_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3449_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3449_Detail_01"],
 },
 
 {
@@ -1114,6 +1212,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3450_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3450_Detail_01"],
 },
 
 {
@@ -1125,6 +1224,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3456_Detail_01"],
 },
 
 {
@@ -1136,6 +1236,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3458_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3458_Detail_01"],
 },
 
 {
@@ -1147,6 +1248,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3459_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3459_Detail_01"],
 },
 
 {
@@ -1158,6 +1260,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3463_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3463_Detail_01"],
 },
 
 {
@@ -1169,6 +1272,7 @@ const PRODUCTS = [
   leather: leather([4503, 4593, 4665, 4737], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -1180,6 +1284,7 @@ const PRODUCTS = [
   leather: leather([4203, 4293, 4365, 4437], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -1191,6 +1296,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3660_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3660_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3660_Detail_01"],
 },
 
 {
@@ -1202,6 +1308,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3735_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3735_Detail_01"],
 },
 
 {
@@ -1213,6 +1320,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3737_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3737_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3737_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3737_Detail_02"],
 },
 
 {
@@ -1224,6 +1332,7 @@ const PRODUCTS = [
   leather: leather([4362, 4527, 4659, 4791], 33),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3740_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3740_Back_3Qrt"],
 },
 
 {
@@ -1235,6 +1344,7 @@ const PRODUCTS = [
   leather: leather([4554, 4734, 4878, 5022], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3741_Detail_01"],
 },
 
 {
@@ -1246,6 +1356,7 @@ const PRODUCTS = [
   leather: leather([3552, 3642, 3714, 3786], 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3746_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3746_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3746_Detail_01"],
 },
 
 {
@@ -1257,6 +1368,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3750_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3750_Detail_01"],
 },
 
 {
@@ -1268,6 +1380,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3752_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3752_Detail_01"],
 },
 
 {
@@ -1279,6 +1392,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3756_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3756_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3756_Detail_01"],
 },
 
 {
@@ -1290,6 +1404,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3758_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCO3758_Detail_01"],
 },
 
 {
@@ -1301,6 +1416,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1312,6 +1428,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1323,6 +1440,7 @@ const PRODUCTS = [
   leather: leather([5550, 5685, 5793, 5901], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -1334,6 +1452,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1345,6 +1464,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1356,6 +1476,7 @@ const PRODUCTS = [
   leather: leather([4650, 4785, 4893, 5001], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -1367,6 +1488,7 @@ const PRODUCTS = [
   leather: leather([4350, 4485, 4593, 4701], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -1378,6 +1500,7 @@ const PRODUCTS = [
   leather: leather([4503, 4593, 4665, 4737], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -1389,6 +1512,7 @@ const PRODUCTS = [
   leather: leather([4203, 4293, 4365, 4437], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -1400,6 +1524,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -1411,6 +1536,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1422,6 +1548,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1433,6 +1560,7 @@ const PRODUCTS = [
   leather: leather([3549, 3714, 3846, 3978], 33),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1056_FRONT"],
 },
 
 {
@@ -1444,6 +1572,7 @@ const PRODUCTS = [
   leather: leather([3450, 3585, 3693, 3801], 27),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR4548_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR4548_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR4548_BACK", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR4548_DETAIL1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR4548_DETAIL2"],
 },
 
 {
@@ -1455,6 +1584,7 @@ const PRODUCTS = [
   leather: leather([3555, 3630, 3690, 3750], 15),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7040_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7040_STRAIGHT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7040_Natural_Angle"],
 },
 
 {
@@ -1466,6 +1596,7 @@ const PRODUCTS = [
   leather: leather([2796, 2871, 2931, 2991], 15),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7148_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7148_BACK3QRTR", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7148_DET"],
 },
 
 {
@@ -1477,6 +1608,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8401_HEADON"],
 },
 
 {
@@ -1488,6 +1620,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8409_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8409_DETAIL"],
 },
 
 {
@@ -1499,6 +1632,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8414_DETAIL"],
 },
 
 {
@@ -1510,6 +1644,7 @@ const PRODUCTS = [
   leather: leather([4446, 4701, 4905, 5109], 51),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8416_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8416_DETAIL"],
 },
 
 {
@@ -1521,6 +1656,7 @@ const PRODUCTS = [
   leather: leather([5250, 5610, 5898, 6186], 72),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8417_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8417_DETAIL"],
 },
 
 {
@@ -1532,6 +1668,7 @@ const PRODUCTS = [
   leather: leather([11202, 12177, 12957, 13737], 195),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8421K_ALT_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8421K_ALT_DET"],
 },
 
 {
@@ -1543,6 +1680,7 @@ const PRODUCTS = [
   leather: leather([10602, 11577, 12357, 13137], 195),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8421K_ALT_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8421K_ALT_DET"],
 },
 
 {
@@ -1554,6 +1692,7 @@ const PRODUCTS = [
   leather: leather([10005, 10890, 11598, 12306], 177),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8421K_ALT_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8421K_ALT_DET"],
 },
 
 {
@@ -1565,6 +1704,7 @@ const PRODUCTS = [
   leather: leather([11409, 12399, 13191, 13983], 198),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8422K_HEADON"],
 },
 
 {
@@ -1576,6 +1716,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8429_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8429_DETAIL"],
 },
 
 {
@@ -1587,6 +1728,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8437_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8437_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8437_TOP"],
 },
 
 {
@@ -1598,6 +1740,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8438_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8438_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8438_DETAIL"],
 },
 
 {
@@ -1609,6 +1752,7 @@ const PRODUCTS = [
   leather: leather([3456, 3681, 3861, 4041], 45),
   finishTiers: { tier1: 300, tier2: 795, tier3: 1095, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8440_HEADON"],
 },
 
 {
@@ -1620,6 +1764,7 @@ const PRODUCTS = [
   leather: leather([3756, 3981, 4161, 4341], 45),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8441_HEADON"],
 },
 
 {
@@ -1631,6 +1776,7 @@ const PRODUCTS = [
   leather: leather([3903, 4173, 4389, 4605], 54),
   finishTiers: { tier1: 0, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8443_HEADON"],
 },
 
 {
@@ -1642,6 +1788,7 @@ const PRODUCTS = [
   leather: leather([3996, 4251, 4455, 4659], 51),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8444_HEADON"],
 },
 
 {
@@ -1653,6 +1800,7 @@ const PRODUCTS = [
   leather: leather([3597, 3867, 4083, 4299], 54),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8446_HEADON"],
 },
 
 {
@@ -1664,6 +1812,7 @@ const PRODUCTS = [
   leather: leather([3903, 4173, 4389, 4605], 54),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8447_HEADON"],
 },
 
 {
@@ -1675,6 +1824,7 @@ const PRODUCTS = [
   leather: leather([4446, 4701, 4905, 5109], 51),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8448_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8448_ALT"],
 },
 
 {
@@ -1686,6 +1836,7 @@ const PRODUCTS = [
   leather: leather([4446, 4701, 4905, 5109], 51),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8449_HEADON"],
 },
 
 {
@@ -1697,6 +1848,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 2850, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8463_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8463_DETAIL"],
 },
 
 {
@@ -1708,6 +1860,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8464_HEADON"],
 },
 
 {
@@ -1719,6 +1872,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8466_TEXTURED_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8466_SMOOTH_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8466_SMOOTH_HEADON"],
 },
 
 {
@@ -1730,6 +1884,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 4350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR-8475_HEADON"],
 },
 
 {
@@ -1741,6 +1896,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8488_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8488_DETAIL"],
 },
 
 {
@@ -1752,6 +1908,7 @@ const PRODUCTS = [
   leather: leather([3600, 3780, 3924, 4068], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8497_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8497_ALT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8497_ALT_DET"],
 },
 
 {
@@ -1763,6 +1920,7 @@ const PRODUCTS = [
   leather: leather([3450, 3630, 3774, 3918], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8498_HEADON", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8498_ALT"],
 },
 
 {
@@ -1774,6 +1932,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4611_Front"],
 },
 
 {
@@ -1785,6 +1944,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4612_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4612_Detail_01"],
 },
 
 {
@@ -1796,6 +1956,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4613_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4613_Detail_01"],
 },
 
 {
@@ -1807,6 +1968,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4614_Front"],
 },
 
 {
@@ -1818,6 +1980,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1829,6 +1992,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1840,6 +2004,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1851,6 +2016,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1862,6 +2028,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1873,6 +2040,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1884,6 +2052,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1895,6 +2064,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1906,6 +2076,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1917,6 +2088,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1928,6 +2100,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1939,6 +2112,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1950,6 +2124,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1961,6 +2136,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1972,6 +2148,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1983,6 +2160,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -1994,6 +2172,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -2005,6 +2184,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -2016,6 +2196,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -2027,6 +2208,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPN100_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPN100_Detail_01"],
 },
 
 {
@@ -2038,6 +2220,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -2049,6 +2232,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPN102_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPN102_Detail_01"],
 },
 
 {
@@ -2060,6 +2244,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -2071,6 +2256,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPN305_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPN305_Detail_01"],
 },
 
 {
@@ -2082,6 +2268,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPN306_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPN306_Detail_01"],
 },
 
 {
@@ -2093,6 +2280,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1712_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1712_Detail_01"],
 },
 
 {
@@ -2104,6 +2292,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1713_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1713_Detail_01"],
 },
 
 {
@@ -2115,6 +2304,7 @@ const PRODUCTS = [
   leather: leather([17412, 19032, 20328, 21624], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2126,6 +2316,7 @@ const PRODUCTS = [
   leather: leather([19389, 21279, 22791, 24303], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2137,6 +2328,7 @@ const PRODUCTS = [
   leather: leather([20445, 22605, 24333, 26061], 432),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2148,6 +2340,7 @@ const PRODUCTS = [
   leather: leather([14583, 15828, 16824, 17820], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2159,6 +2352,7 @@ const PRODUCTS = [
   leather: leather([15477, 16827, 17907, 18987], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2170,6 +2364,7 @@ const PRODUCTS = [
   leather: leather([11409, 12219, 12867, 13515], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2181,6 +2376,7 @@ const PRODUCTS = [
   leather: leather(null, 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2192,6 +2388,7 @@ const PRODUCTS = [
   leather: leather([9159, 9744, 10212, 10680], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2203,6 +2400,7 @@ const PRODUCTS = [
   leather: leather([15609, 17139, 18363, 19587], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2214,6 +2412,7 @@ const PRODUCTS = [
   leather: leather([15675, 17205, 18429, 19653], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2225,6 +2424,7 @@ const PRODUCTS = [
   leather: leather([18012, 19812, 21252, 22692], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2236,6 +2436,7 @@ const PRODUCTS = [
   leather: leather([19368, 21438, 23094, 24750], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2247,6 +2448,7 @@ const PRODUCTS = [
   leather: leather([5100, 5460, 5748, 6036], 72),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2258,6 +2460,7 @@ const PRODUCTS = [
   leather: leather([6654, 7194, 7626, 8058], 108),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2269,6 +2472,7 @@ const PRODUCTS = [
   leather: leather([8703, 8973, 9189, 9405], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2280,6 +2484,7 @@ const PRODUCTS = [
   leather: leather([9087, 9387, 9627, 9867], 60),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2291,6 +2496,7 @@ const PRODUCTS = [
   leather: leather([10203, 10743, 11175, 11607], 108),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2302,6 +2508,7 @@ const PRODUCTS = [
   leather: leather([19161, 20586, 21726, 22866], 285),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2313,6 +2520,7 @@ const PRODUCTS = [
   leather: leather([19881, 21411, 22635, 23859], 306),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2324,6 +2532,7 @@ const PRODUCTS = [
   leather: leather([20811, 22566, 23970, 25374], 351),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2335,6 +2544,7 @@ const PRODUCTS = [
   leather: leather([14769, 15759, 16551, 17343], 198),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2346,6 +2556,7 @@ const PRODUCTS = [
   leather: leather([15831, 16986, 17910, 18834], 231),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2357,6 +2568,7 @@ const PRODUCTS = [
   leather: leather([16809, 18099, 19131, 20163], 258),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2368,6 +2580,7 @@ const PRODUCTS = [
   leather: leather([18087, 19512, 20652, 21792], 285),
   finishTiers: { tier1: 0, tier2: 975, tier3: null, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2379,6 +2592,7 @@ const PRODUCTS = [
   leather: leather([9861, 10446, 10914, 11382], 117),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2390,6 +2604,7 @@ const PRODUCTS = [
   leather: leather([9402, 9972, 10428, 10884], 114),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2401,6 +2616,7 @@ const PRODUCTS = [
   leather: leather([4050, 4275, 4455, 4635], 45),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2412,6 +2628,7 @@ const PRODUCTS = [
   leather: leather([15114, 16674, 17922, 19170], 312),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2423,6 +2640,7 @@ const PRODUCTS = [
   leather: leather([16785, 18495, 19863, 21231], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2434,6 +2652,7 @@ const PRODUCTS = [
   leather: leather([18189, 20079, 21591, 23103], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2445,6 +2664,7 @@ const PRODUCTS = [
   leather: leather([12477, 13827, 14907, 15987], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2456,6 +2676,7 @@ const PRODUCTS = [
   leather: leather([13629, 15069, 16221, 17373], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2467,6 +2688,7 @@ const PRODUCTS = [
   leather: leather([14481, 16011, 17235, 18459], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2478,6 +2700,7 @@ const PRODUCTS = [
   leather: leather([15633, 17253, 18549, 19845], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 525, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2489,6 +2712,7 @@ const PRODUCTS = [
   leather: leather(null, 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2500,6 +2724,7 @@ const PRODUCTS = [
   leather: leather(null, 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2511,6 +2736,7 @@ const PRODUCTS = [
   leather: leather(null, 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2522,6 +2748,7 @@ const PRODUCTS = [
   leather: leather(null, 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2533,6 +2760,7 @@ const PRODUCTS = [
   leather: leather(null, 261),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2544,6 +2772,7 @@ const PRODUCTS = [
   leather: leather(null, 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2555,6 +2784,7 @@ const PRODUCTS = [
   leather: leather(null, 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2566,6 +2796,7 @@ const PRODUCTS = [
   leather: leather([14811, 16236, 17376, 18516], 285),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2577,6 +2808,7 @@ const PRODUCTS = [
   leather: leather([13809, 15024, 15996, 16968], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2588,6 +2820,7 @@ const PRODUCTS = [
   leather: leather([8253, 8793, 9225, 9657], 108),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2599,6 +2832,7 @@ const PRODUCTS = [
   leather: leather([3756, 3981, 4161, 4341], 45),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 105, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2610,6 +2844,7 @@ const PRODUCTS = [
   leather: leather([3399, 3609, 3777, 3945], 42),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 105, contrastWeltLeather: 165, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2621,6 +2856,7 @@ const PRODUCTS = [
   leather: leather([10881, 11556, 12096, 12636], 135),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 75, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2632,6 +2868,7 @@ const PRODUCTS = [
   leather: leather([15915, 17445, 18669, 19893], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2643,6 +2880,7 @@ const PRODUCTS = [
   leather: leather([23211, 24966, 26370, 27774], 351),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2654,6 +2892,7 @@ const PRODUCTS = [
   leather: leather([23847, 25722, 27222, 28722], 375),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2665,6 +2904,7 @@ const PRODUCTS = [
   leather: leather([18309, 19599, 20631, 21663], 258),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2676,6 +2916,7 @@ const PRODUCTS = [
   leather: leather([19287, 20712, 21852, 22992], 285),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2687,6 +2928,7 @@ const PRODUCTS = [
   leather: leather([20181, 21711, 22935, 24159], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2698,6 +2940,7 @@ const PRODUCTS = [
   leather: leather([21717, 23367, 24687, 26007], 330),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2709,6 +2952,7 @@ const PRODUCTS = [
   leather: leather([8949, 9564, 10056, 10548], 123),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2720,6 +2964,7 @@ const PRODUCTS = [
   leather: leather([9843, 10563, 11139, 11715], 144),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2731,6 +2976,7 @@ const PRODUCTS = [
   leather: leather([11355, 12240, 12948, 13656], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2742,6 +2988,7 @@ const PRODUCTS = [
   leather: leather([11997, 12897, 13617, 14337], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2753,6 +3000,7 @@ const PRODUCTS = [
   leather: leather([9759, 10524, 11136, 11748], 153),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 120, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2764,6 +3012,7 @@ const PRODUCTS = [
   leather: leather([10485, 11295, 11943, 12591], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 120, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2775,6 +3024,7 @@ const PRODUCTS = [
   leather: leather([13356, 14211, 14895, 15579], 171),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2786,6 +3036,7 @@ const PRODUCTS = [
   leather: leather([14418, 15438, 16254, 17070], 204),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2797,6 +3048,7 @@ const PRODUCTS = [
   leather: leather([10752, 11547, 12183, 12819], 159),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2808,6 +3060,7 @@ const PRODUCTS = [
   leather: leather(null, 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2819,6 +3072,7 @@ const PRODUCTS = [
   leather: leather(null, 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2830,6 +3084,7 @@ const PRODUCTS = [
   leather: leather(null, 405),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2841,6 +3096,7 @@ const PRODUCTS = [
   leather: leather(null, 204),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2852,6 +3108,7 @@ const PRODUCTS = [
   leather: leather(null, 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2863,6 +3120,7 @@ const PRODUCTS = [
   leather: leather(null, 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2874,6 +3132,7 @@ const PRODUCTS = [
   leather: leather(null, 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2885,6 +3144,7 @@ const PRODUCTS = [
   leather: leather([11106, 11736, 12240, 12744], 126),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -2896,6 +3156,7 @@ const PRODUCTS = [
   leather: leather([7959, 8544, 9012, 9480], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2907,6 +3168,7 @@ const PRODUCTS = [
   leather: leather([17568, 19233, 20565, 21897], 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2918,6 +3180,7 @@ const PRODUCTS = [
   leather: leather([18747, 20622, 22122, 23622], 375),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2929,6 +3192,7 @@ const PRODUCTS = [
   leather: leather([19341, 21321, 22905, 24489], 396),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2940,6 +3204,7 @@ const PRODUCTS = [
   leather: leather([14703, 16098, 17214, 18330], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2951,6 +3216,7 @@ const PRODUCTS = [
   leather: leather([15681, 17211, 18435, 19659], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2962,6 +3228,7 @@ const PRODUCTS = [
   leather: leather([16659, 18324, 19656, 20988], 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2973,6 +3240,7 @@ const PRODUCTS = [
   leather: leather([17511, 19266, 20670, 22074], 351),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -2984,6 +3252,7 @@ const PRODUCTS = [
   leather: leather([10758, 11598, 12270, 12942], 168),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -2995,6 +3264,7 @@ const PRODUCTS = [
   leather: leather([12909, 13944, 14772, 15600], 207),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3006,6 +3276,7 @@ const PRODUCTS = [
   leather: leather([6603, 7098, 7494, 7890], 99),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3017,6 +3288,7 @@ const PRODUCTS = [
   leather: leather([16209, 17649, 18801, 19953], 288),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3028,6 +3300,7 @@ const PRODUCTS = [
   leather: leather([17433, 19053, 20349, 21645], 324),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3039,6 +3312,7 @@ const PRODUCTS = [
   leather: leather([18489, 20379, 21891, 23403], 378),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3050,6 +3324,7 @@ const PRODUCTS = [
   leather: leather([13131, 14286, 15210, 16134], 231),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3061,6 +3336,7 @@ const PRODUCTS = [
   leather: leather([13899, 15114, 16086, 17058], 243),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3072,6 +3348,7 @@ const PRODUCTS = [
   leather: leather([14751, 16056, 17100, 18144], 261),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3083,6 +3360,7 @@ const PRODUCTS = [
   leather: leather([15729, 17169, 18321, 19473], 288),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3094,6 +3372,7 @@ const PRODUCTS = [
   leather: leather([15162, 16287, 17187, 18087], 225),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3105,6 +3384,7 @@ const PRODUCTS = [
   leather: leather([16509, 17949, 19101, 20253], 288),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3116,6 +3396,7 @@ const PRODUCTS = [
   leather: leather([3702, 3822, 3918, 4014], 24),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3127,6 +3408,7 @@ const PRODUCTS = [
   leather: leather([8253, 8748, 9144, 9540], 99),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BA6841C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BA6841C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BA6841C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BA6841C_Detail"],
 },
 
 {
@@ -3138,6 +3420,7 @@ const PRODUCTS = [
   leather: leather([12459, 13494, 14322, 15150], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3149,6 +3432,7 @@ const PRODUCTS = [
   leather: leather([9447, 9942, 10338, 10734], 99),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3160,6 +3444,7 @@ const PRODUCTS = [
   leather: leather([12297, 13017, 13593, 14169], 144),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3171,6 +3456,7 @@ const PRODUCTS = [
   leather: leather([8850, 9075, 9255, 9435], 45),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3182,6 +3468,7 @@ const PRODUCTS = [
   leather: leather([6750, 6975, 7155, 7335], 45),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3193,6 +3480,7 @@ const PRODUCTS = [
   leather: leather([6303, 6573, 6789, 7005], 54),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3204,6 +3492,7 @@ const PRODUCTS = [
   leather: leather([7359, 8124, 8736, 9348], 153),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3215,6 +3504,7 @@ const PRODUCTS = [
   leather: leather([11265, 12750, 13938, 15126], 297),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 285, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 675, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3226,6 +3516,7 @@ const PRODUCTS = [
   leather: leather([12411, 14061, 15381, 16701], 330),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3237,6 +3528,7 @@ const PRODUCTS = [
   leather: leather([13641, 15621, 17205, 18789], 396),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3248,6 +3540,7 @@ const PRODUCTS = [
   leather: leather([14397, 16647, 18447, 20247], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3259,6 +3552,7 @@ const PRODUCTS = [
   leather: leather([10203, 11598, 12714, 13830], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3270,6 +3564,7 @@ const PRODUCTS = [
   leather: leather([10755, 12240, 13428, 14616], 297),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3281,6 +3576,7 @@ const PRODUCTS = [
   leather: leather([11433, 13053, 14349, 15645], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3292,6 +3588,7 @@ const PRODUCTS = [
   leather: leather([12411, 14166, 15570, 16974], 351),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 330, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 765, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3303,6 +3600,7 @@ const PRODUCTS = [
   leather: leather([5793, 6228, 6576, 6924], 87),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3314,6 +3612,7 @@ const PRODUCTS = [
   leather: leather([10002, 10752, 11352, 11952], 150),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: 180, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3325,6 +3624,7 @@ const PRODUCTS = [
   leather: leather([12606, 13506, 14226, 14946], 180),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: 180, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3336,6 +3636,7 @@ const PRODUCTS = [
   leather: leather([17511, 18936, 20076, 21216], 285),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -3347,6 +3648,7 @@ const PRODUCTS = [
   leather: leather([4419, 4539, 4635, 4731], 24),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA23240_front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA23240_detail"],
 },
 
 {
@@ -3358,6 +3660,7 @@ const PRODUCTS = [
   leather: leather([6003, 6723, 7299, 7875], 144),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800C_Detail"],
 },
 
 {
@@ -3369,6 +3672,7 @@ const PRODUCTS = [
   leather: leather([9159, 10374, 11346, 12318], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800L_Back_3Qrt"],
 },
 
 {
@@ -3380,6 +3684,7 @@ const PRODUCTS = [
   leather: leather([8859, 10074, 11046, 12018], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800LL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800LL_Back_3Qrt"],
 },
 
 {
@@ -3391,6 +3696,7 @@ const PRODUCTS = [
   leather: leather([8859, 10074, 11046, 12018], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800LR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800LR_Back_3Qrt"],
 },
 
 {
@@ -3402,6 +3708,7 @@ const PRODUCTS = [
   leather: leather([2946, 3201, 3405, 3609], 51),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800O_Detail"],
 },
 
 {
@@ -3413,6 +3720,7 @@ const PRODUCTS = [
   leather: leather([10365, 11670, 12714, 13758], 261),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800S_Back_3Qrt"],
 },
 
 {
@@ -3424,6 +3732,7 @@ const PRODUCTS = [
   leather: leather([13068, 14913, 16389, 17865], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800SCL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800SCL_Back_3Qrt"],
 },
 
 {
@@ -3435,6 +3744,7 @@ const PRODUCTS = [
   leather: leather([13068, 14913, 16389, 17865], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800SCR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800SCR_Back_3Qrt"],
 },
 
 {
@@ -3446,6 +3756,7 @@ const PRODUCTS = [
   leather: leather([12012, 13812, 15252, 16692], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800SL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800SL_Back_3Qrt"],
 },
 
 {
@@ -3457,6 +3768,7 @@ const PRODUCTS = [
   leather: leather([12012, 13812, 15252, 16692], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800SR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2800SR_Back_3Qrt"],
 },
 
 {
@@ -3468,6 +3780,7 @@ const PRODUCTS = [
   leather: leather([6468, 7218, 7818, 8418], 150),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801C_Detail"],
 },
 
 {
@@ -3479,6 +3792,7 @@ const PRODUCTS = [
   leather: leather([9321, 10476, 11400, 12324], 231),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801L_Back_3Qrt"],
 },
 
 {
@@ -3490,6 +3804,7 @@ const PRODUCTS = [
   leather: leather([8862, 9987, 10887, 11787], 225),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801LL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801LL_Back_3Qrt"],
 },
 
 {
@@ -3501,6 +3816,7 @@ const PRODUCTS = [
   leather: leather([8862, 9987, 10887, 11787], 225),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801LR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801LR_Back_3Qrt"],
 },
 
 {
@@ -3512,6 +3828,7 @@ const PRODUCTS = [
   leather: leather([3369, 3639, 3855, 4071], 54),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801O_Detail"],
 },
 
 {
@@ -3523,6 +3840,7 @@ const PRODUCTS = [
   leather: leather([9924, 11169, 12165, 13161], 249),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3534,6 +3852,7 @@ const PRODUCTS = [
   leather: leather([10524, 11769, 12765, 13761], 249),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3545,6 +3864,7 @@ const PRODUCTS = [
   leather: leather([13164, 14949, 16377, 17805], 357),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801SCL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801SCL_Back_3Qrt"],
 },
 
 {
@@ -3556,6 +3876,7 @@ const PRODUCTS = [
   leather: leather([13164, 14949, 16377, 17805], 357),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801SCR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801SCR_Back_3Qrt"],
 },
 
 {
@@ -3567,6 +3888,7 @@ const PRODUCTS = [
   leather: leather([11361, 12966, 14250, 15534], 321),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801SL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801SL_Back_3Qrt"],
 },
 
 {
@@ -3578,6 +3900,7 @@ const PRODUCTS = [
   leather: leather([11361, 12966, 14250, 15534], 321),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801SR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2801SR_Back_3Qrt"],
 },
 
 {
@@ -3589,6 +3912,7 @@ const PRODUCTS = [
   leather: leather([6756, 7611, 8295, 8979], 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802C_Detail"],
 },
 
 {
@@ -3600,6 +3924,7 @@ const PRODUCTS = [
   leather: leather([9855, 11190, 12258, 13326], 267),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802L_Back_3Qrt"],
 },
 
 {
@@ -3611,6 +3936,7 @@ const PRODUCTS = [
   leather: leather([9159, 10374, 11346, 12318], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802LL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802LL_Back_3Qrt"],
 },
 
 {
@@ -3622,6 +3948,7 @@ const PRODUCTS = [
   leather: leather([9159, 10374, 11346, 12318], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802LR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802LR_Back_3Qrt"],
 },
 
 {
@@ -3633,6 +3960,7 @@ const PRODUCTS = [
   leather: leather([3252, 3597, 3873, 4149], 69),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802O_Detail"],
 },
 
 {
@@ -3644,6 +3972,7 @@ const PRODUCTS = [
   leather: leather([10809, 12249, 13401, 14553], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802S_Back_3Qrt"],
 },
 
 {
@@ -3655,6 +3984,7 @@ const PRODUCTS = [
   leather: leather([13665, 15600, 17148, 18696], 387),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802SCL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802SCL_Back_3Qrt"],
 },
 
 {
@@ -3666,6 +3996,7 @@ const PRODUCTS = [
   leather: leather([13665, 15600, 17148, 18696], 387),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802SCR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802SCR_Back_3Qrt"],
 },
 
 {
@@ -3677,6 +4008,7 @@ const PRODUCTS = [
   leather: leather([11511, 13161, 14481, 15801], 330),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802SL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802SL_Back_3Qrt"],
 },
 
 {
@@ -3688,6 +4020,7 @@ const PRODUCTS = [
   leather: leather([11511, 13161, 14481, 15801], 330),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802SR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2802SR_Back_3Qrt"],
 },
 
 {
@@ -3699,6 +4032,7 @@ const PRODUCTS = [
   leather: leather([6756, 7611, 8295, 8979], 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803C_Detail"],
 },
 
 {
@@ -3710,6 +4044,7 @@ const PRODUCTS = [
   leather: leather([10161, 11586, 12726, 13866], 285),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803L_Back_3Qrt"],
 },
 
 {
@@ -3721,6 +4056,7 @@ const PRODUCTS = [
   leather: leather([9711, 11091, 12195, 13299], 276),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803LL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803LL_Back_3Qrt"],
 },
 
 {
@@ -3732,6 +4068,7 @@ const PRODUCTS = [
   leather: leather([9711, 11091, 12195, 13299], 276),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803LR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803LR_Back_3Qrt"],
 },
 
 {
@@ -3743,6 +4080,7 @@ const PRODUCTS = [
   leather: leather([3003, 3273, 3489, 3705], 54),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803O_Detail"],
 },
 
 {
@@ -3754,6 +4092,7 @@ const PRODUCTS = [
   leather: leather([11358, 12873, 14085, 15297], 303),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803S_Back_3Qrt"],
 },
 
 {
@@ -3765,6 +4104,7 @@ const PRODUCTS = [
   leather: leather([14214, 16224, 17832, 19440], 402),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803SCL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803SCL_Back_3Qrt"],
 },
 
 {
@@ -3776,6 +4116,7 @@ const PRODUCTS = [
   leather: leather([14214, 16224, 17832, 19440], 402),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803SCR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803SCR_Back_3Qrt"],
 },
 
 {
@@ -3787,6 +4128,7 @@ const PRODUCTS = [
   leather: leather([12468, 14313, 15789, 17265], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803SL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803SL_Back_3Qrt"],
 },
 
 {
@@ -3798,6 +4140,7 @@ const PRODUCTS = [
   leather: leather([12468, 14313, 15789, 17265], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803SR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2803SR_Back_3Qrt"],
 },
 
 {
@@ -3809,6 +4152,7 @@ const PRODUCTS = [
   leather: leather([6906, 7806, 8526, 9246], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804C_Detail"],
 },
 
 {
@@ -3820,6 +4164,7 @@ const PRODUCTS = [
   leather: leather([9765, 11070, 12114, 13158], 261),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804L_Back_3Qrt"],
 },
 
 {
@@ -3831,6 +4176,7 @@ const PRODUCTS = [
   leather: leather([8955, 10110, 11034, 11958], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804LL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804LL_Back_3Qrt"],
 },
 
 {
@@ -3842,6 +4188,7 @@ const PRODUCTS = [
   leather: leather([8955, 10110, 11034, 11958], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804LR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804LR_Back_3Qrt"],
 },
 
 {
@@ -3853,6 +4200,7 @@ const PRODUCTS = [
   leather: leather([2946, 3201, 3405, 3609], 51),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804O_Detail"],
 },
 
 {
@@ -3864,6 +4212,7 @@ const PRODUCTS = [
   leather: leather([10611, 11991, 13095, 14199], 276),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3875,6 +4224,7 @@ const PRODUCTS = [
   leather: leather([11262, 12657, 13773, 14889], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -3886,6 +4236,7 @@ const PRODUCTS = [
   leather: leather([13212, 15012, 16452, 17892], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804SCL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804SCL_Back_3Qrt"],
 },
 
 {
@@ -3897,6 +4248,7 @@ const PRODUCTS = [
   leather: leather([13212, 15012, 16452, 17892], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804SCR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804SCR_Back_3Qrt"],
 },
 
 {
@@ -3908,6 +4260,7 @@ const PRODUCTS = [
   leather: leather([11712, 13332, 14628, 15924], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804SL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804SL_Back_3Qrt"],
 },
 
 {
@@ -3919,6 +4272,7 @@ const PRODUCTS = [
   leather: leather([11712, 13332, 14628, 15924], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804SR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2804SR_Back_3Qrt"],
 },
 
 {
@@ -3930,6 +4284,7 @@ const PRODUCTS = [
   leather: leather([4752, 5277, 5697, 6117], 105),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2805C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2805C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2805C_Detail"],
 },
 
 {
@@ -3941,6 +4296,7 @@ const PRODUCTS = [
   leather: leather([5046, 5391, 5667, 5943], 69),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2807C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2807C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2807C_Detail"],
 },
 
 {
@@ -3952,6 +4308,7 @@ const PRODUCTS = [
   leather: leather([5046, 5391, 5667, 5943], 69),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2808C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2808C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2808C_Detail"],
 },
 
 {
@@ -3963,6 +4320,7 @@ const PRODUCTS = [
   leather: leather([16602, 17892, 18924, 19956], 258),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Detail"],
 },
 
 {
@@ -3974,6 +4332,7 @@ const PRODUCTS = [
   leather: leather([18159, 19644, 20832, 22020], 297),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Detail"],
 },
 
 {
@@ -3985,6 +4344,7 @@ const PRODUCTS = [
   leather: leather([13449, 14334, 15042, 15750], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Detail"],
 },
 
 {
@@ -3996,6 +4356,7 @@ const PRODUCTS = [
   leather: leather([14346, 15321, 16101, 16881], 195),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Detail"],
 },
 
 {
@@ -4007,6 +4368,7 @@ const PRODUCTS = [
   leather: leather([15399, 16509, 17397, 18285], 222),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 375, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3500S_Detail"],
 },
 
 {
@@ -4018,6 +4380,7 @@ const PRODUCTS = [
   leather: leather([9453, 9768, 10020, 10272], 63),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: 0, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 315, seatFiberlux: 0, seatFirmSpringDown: 315, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3501C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3501C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3501C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3501C_Detail"],
 },
 
 {
@@ -4029,6 +4392,7 @@ const PRODUCTS = [
   leather: leather([18555, 19485, 20229, 20973], 186),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 855, seatFiberlux: 0, seatFirmSpringDown: 855, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3502S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3502S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3502S_Detail"],
 },
 
 {
@@ -4040,6 +4404,7 @@ const PRODUCTS = [
   leather: leather(null, 126),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504C_Detail"],
 },
 
 {
@@ -4051,6 +4416,7 @@ const PRODUCTS = [
   leather: leather(null, 171),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504L_Detail"],
 },
 
 {
@@ -4062,6 +4428,7 @@ const PRODUCTS = [
   leather: leather(null, 222),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Detail"],
 },
 
 {
@@ -4073,6 +4440,7 @@ const PRODUCTS = [
   leather: leather(null, 276),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Detail"],
 },
 
 {
@@ -4084,6 +4452,7 @@ const PRODUCTS = [
   leather: leather(null, 141),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Detail"],
 },
 
 {
@@ -4095,6 +4464,7 @@ const PRODUCTS = [
   leather: leather(null, 159),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Detail"],
 },
 
 {
@@ -4106,6 +4476,7 @@ const PRODUCTS = [
   leather: leather(null, 177),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Detail"],
 },
 
 {
@@ -4117,6 +4488,7 @@ const PRODUCTS = [
   leather: leather(null, 204),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Detail"],
 },
 
 {
@@ -4128,6 +4500,7 @@ const PRODUCTS = [
   leather: leather(null, 204),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 150, contrastWeltLeather: 825, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3504S_Detail"],
 },
 
 {
@@ -4139,6 +4512,7 @@ const PRODUCTS = [
   leather: leather(null, 72),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3505C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3505C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3505C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3505C_Detail"],
 },
 
 {
@@ -4150,6 +4524,7 @@ const PRODUCTS = [
   leather: leather([6996, 7296, 7536, 7776], 60),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3508C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3508C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3508C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3508C_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3508C_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3508C_Detail_Alt"],
 },
 
 {
@@ -4161,6 +4536,7 @@ const PRODUCTS = [
   leather: leather([6150, 6825, 7365, 7905], 135),
   finishTiers: { tier1: 0, tier2: 225, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: 600, swivel360: 600, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 225, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3509C_Bullion_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3509C_Bullion_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3509C_Bullion_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3509C_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3509C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3509C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3509C_Detail"],
 },
 
 {
@@ -4172,6 +4548,7 @@ const PRODUCTS = [
   leather: leather([7506, 7956, 8316, 8676], 90),
   finishTiers: { tier1: 600, tier2: 1575, tier3: 2175, tier4: 2700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3511B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3511B_Detail"],
 },
 
 {
@@ -4183,6 +4560,7 @@ const PRODUCTS = [
   leather: leather([3582, 3717, 3825, 3933], 27),
   finishTiers: { tier1: 600, tier2: 855, tier3: 1005, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3512O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3512O_Detail"],
 },
 
 {
@@ -4194,6 +4572,7 @@ const PRODUCTS = [
   leather: leather(null, 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 105, contrastWeltLeather: 165, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3514O_Detail"],
 },
 
 {
@@ -4205,6 +4584,7 @@ const PRODUCTS = [
   leather: leather([4947, 5262, 5514, 5766], 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 105, contrastWeltLeather: 165, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3515O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3515O_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3515O_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3515O_Front_3Qrt_Alt"],
 },
 
 {
@@ -4216,6 +4596,7 @@ const PRODUCTS = [
   leather: leather([9405, 9885, 10269, 10653], 96),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 0, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3800C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3800C_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3800C_Back_3Qrt"],
 },
 
 {
@@ -4227,6 +4608,7 @@ const PRODUCTS = [
   leather: leather([9696, 10266, 10722, 11178], 114),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CC_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CC_Detail"],
 },
 
 {
@@ -4238,6 +4620,7 @@ const PRODUCTS = [
   leather: leather([13446, 14241, 14877, 15513], 159),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CSL_Sidce", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CSL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CSL_WhiteBoucle_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CSL_BAA3805CSR_Detail"],
 },
 
 {
@@ -4249,6 +4632,7 @@ const PRODUCTS = [
   leather: leather([13446, 14241, 14877, 15513], 159),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CSR_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CSR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CSR_WhiteBoucle_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805CSL_BAA3805CSR_Detail"],
 },
 
 {
@@ -4260,6 +4644,7 @@ const PRODUCTS = [
   leather: leather([14856, 15801, 16557, 17313], 189),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Detail"],
 },
 
 {
@@ -4271,6 +4656,7 @@ const PRODUCTS = [
   leather: leather([16959, 18264, 19308, 20352], 261),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Detail"],
 },
 
 {
@@ -4282,6 +4668,7 @@ const PRODUCTS = [
   leather: leather([10650, 11325, 11865, 12405], 135),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Detail"],
 },
 
 {
@@ -4293,6 +4680,7 @@ const PRODUCTS = [
   leather: leather([11850, 12525, 13065, 13605], 135),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Detail"],
 },
 
 {
@@ -4304,6 +4692,7 @@ const PRODUCTS = [
   leather: leather([13356, 14301, 15057, 15813], 189),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Detail"],
 },
 
 {
@@ -4315,6 +4704,7 @@ const PRODUCTS = [
   leather: leather([13956, 14901, 15657, 16413], 189),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Detail"],
 },
 
 {
@@ -4326,6 +4716,7 @@ const PRODUCTS = [
   leather: leather([11250, 11925, 12465, 13005], 135),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3805LA_Detail"],
 },
 
 {
@@ -4337,6 +4728,7 @@ const PRODUCTS = [
   leather: leather([9294, 9654, 9942, 10230], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3945_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3945_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3945_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3945_Detail_01"],
 },
 
 {
@@ -4348,6 +4740,7 @@ const PRODUCTS = [
   leather: leather([10506, 10956, 11316, 11676], 90),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4001C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4001C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4001C_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4001C_Front_3Qrt_ALT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4001C_Front_ALT"],
 },
 
 {
@@ -4359,6 +4752,7 @@ const PRODUCTS = [
   leather: leather([6897, 7167, 7383, 7599], 54),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4005C_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4005C_FRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4005C_3QTR_BACK", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4005C_DET", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4005C_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4005C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4005C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4005C_Detail"],
 },
 
 {
@@ -4370,6 +4764,7 @@ const PRODUCTS = [
   leather: leather([6897, 7167, 7383, 7599], 54),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4011O_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4011O_Detail_01"],
 },
 
 {
@@ -4381,6 +4776,7 @@ const PRODUCTS = [
   leather: leather([11856, 12531, 13071, 13611], 135),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4011S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4011S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4011S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4011S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4011S_Detail_01"],
 },
 
 {
@@ -4392,6 +4788,7 @@ const PRODUCTS = [
   leather: leather([9408, 9903, 10299, 10695], 99),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015C_Detail"],
 },
 
 {
@@ -4403,6 +4800,7 @@ const PRODUCTS = [
   leather: leather([8556, 8961, 9285, 9609], 81),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015C_Detail"],
 },
 
 {
@@ -4414,6 +4812,7 @@ const PRODUCTS = [
   leather: leather([13755, 15105, 16185, 17265], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015S_Back_3Qrt"],
 },
 
 {
@@ -4425,6 +4824,7 @@ const PRODUCTS = [
   leather: leather([10749, 11454, 12018, 12582], 141),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4015S_Back_3Qrt"],
 },
 
 {
@@ -4436,6 +4836,7 @@ const PRODUCTS = [
   leather: leather([9852, 10392, 10824, 11256], 108),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017C_Detail"],
 },
 
 {
@@ -4447,6 +4848,7 @@ const PRODUCTS = [
   leather: leather([9000, 9450, 9810, 10170], 90),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017C_Detail"],
 },
 
 {
@@ -4458,6 +4860,7 @@ const PRODUCTS = [
   leather: leather([7425, 7860, 8208, 8556], 87),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_Alt"],
 },
 
 {
@@ -4469,6 +4872,7 @@ const PRODUCTS = [
   leather: leather([6699, 7089, 7401, 7713], 78),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_Alt"],
 },
 
 {
@@ -4480,6 +4884,7 @@ const PRODUCTS = [
   leather: leather([8664, 9099, 9447, 9795], 87),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CC_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_Alt"],
 },
 
 {
@@ -4491,6 +4896,7 @@ const PRODUCTS = [
   leather: leather([8106, 8556, 8916, 9276], 90),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CC_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_Alt"],
 },
 
 {
@@ -4502,6 +4908,7 @@ const PRODUCTS = [
   leather: leather([8556, 8961, 9285, 9609], 81),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CR_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_Alt"],
 },
 
 {
@@ -4513,6 +4920,7 @@ const PRODUCTS = [
   leather: leather([9408, 9903, 10299, 10695], 99),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CR_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_Alt"],
 },
 
 {
@@ -4524,6 +4932,7 @@ const PRODUCTS = [
   leather: leather([9408, 9903, 10299, 10695], 99),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_Alt"],
 },
 
 {
@@ -4535,6 +4944,7 @@ const PRODUCTS = [
   leather: leather([8556, 8961, 9285, 9609], 81),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017CA_CC_CL_CR_Front_Alt"],
 },
 
 {
@@ -4546,6 +4956,7 @@ const PRODUCTS = [
   leather: leather([18777, 19947, 20883, 21819], 234),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017S_Detail"],
 },
 
 {
@@ -4557,6 +4968,7 @@ const PRODUCTS = [
   leather: leather([16905, 17835, 18579, 19323], 186),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4017S_Detail"],
 },
 
 {
@@ -4568,6 +4980,7 @@ const PRODUCTS = [
   leather: leather([8199, 8784, 9252, 9720], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 105, seatCrownSupport: 105, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019C_Detail"],
 },
 
 {
@@ -4579,6 +4992,7 @@ const PRODUCTS = [
   leather: leather([7347, 7842, 8238, 8634], 99),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019C_Detail"],
 },
 
 {
@@ -4590,6 +5004,7 @@ const PRODUCTS = [
   leather: leather([12849, 14004, 14928, 15852], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4601,6 +5016,7 @@ const PRODUCTS = [
   leather: leather([14595, 15945, 17025, 18105], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4612,6 +5028,7 @@ const PRODUCTS = [
   leather: leather([14655, 16080, 17220, 18360], 285),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4623,6 +5040,7 @@ const PRODUCTS = [
   leather: leather([16023, 17508, 18696, 19884], 297),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4634,6 +5052,7 @@ const PRODUCTS = [
   leather: leather([8043, 8658, 9150, 9642], 123),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4645,6 +5064,7 @@ const PRODUCTS = [
   leather: leather([9789, 10599, 11247, 11895], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4656,6 +5076,7 @@ const PRODUCTS = [
   leather: leather([8850, 9525, 10065, 10605], 135),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4667,6 +5088,7 @@ const PRODUCTS = [
   leather: leather([10806, 11751, 12507, 13263], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 0, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4678,6 +5100,7 @@ const PRODUCTS = [
   leather: leather([9753, 10518, 11130, 11742], 153),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4689,6 +5112,7 @@ const PRODUCTS = [
   leather: leather([11835, 12915, 13779, 14643], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4700,6 +5124,7 @@ const PRODUCTS = [
   leather: leather([11256, 12201, 12957, 13713], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4711,6 +5136,7 @@ const PRODUCTS = [
   leather: leather([13212, 14427, 15399, 16371], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4722,6 +5148,7 @@ const PRODUCTS = [
   leather: leather([10800, 11700, 12420, 13140], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4733,6 +5160,7 @@ const PRODUCTS = [
   leather: leather([12882, 14097, 15069, 16041], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4019S_Detail_02"],
 },
 
 {
@@ -4744,6 +5172,7 @@ const PRODUCTS = [
   leather: leather([7956, 8361, 8685, 9009], 81),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4402C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4402C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4402C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4402C_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4402C_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4402C_Detail_Alt"],
 },
 
 {
@@ -4755,6 +5184,7 @@ const PRODUCTS = [
   leather: leather([7602, 8172, 8628, 9084], 114),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4404C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4404C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4404C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4404C_Detail"],
 },
 
 {
@@ -4766,6 +5196,7 @@ const PRODUCTS = [
   leather: leather([7353, 7938, 8406, 8874], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4406C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4406C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4406C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4406C_Detail"],
 },
 
 {
@@ -4777,6 +5208,7 @@ const PRODUCTS = [
   leather: leather([11256, 12111, 12795, 13479], 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4406L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4406L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4406L_Detail"],
 },
 
 {
@@ -4788,6 +5220,7 @@ const PRODUCTS = [
   leather: leather([14511, 15711, 16671, 17631], 240),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -4799,6 +5232,7 @@ const PRODUCTS = [
   leather: leather([15408, 16698, 17730, 18762], 258),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -4810,6 +5244,7 @@ const PRODUCTS = [
   leather: leather([10806, 11706, 12426, 13146], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -4821,6 +5256,7 @@ const PRODUCTS = [
   leather: leather([11652, 12627, 13407, 14187], 195),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -4832,6 +5268,7 @@ const PRODUCTS = [
   leather: leather([12459, 13494, 14322, 15150], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -4843,6 +5280,7 @@ const PRODUCTS = [
   leather: leather([13305, 14415, 15303, 16191], 222),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -4854,6 +5292,7 @@ const PRODUCTS = [
   leather: leather([12459, 13494, 14322, 15150], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -4865,6 +5304,7 @@ const PRODUCTS = [
   leather: leather([12006, 12456, 12816, 13176], 90),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4407C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4407C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4407C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4407C_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4407C_Detail_01"],
 },
 
 {
@@ -4876,6 +5316,7 @@ const PRODUCTS = [
   leather: leather([16011, 17211, 18171, 19131], 240),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Detail"],
 },
 
 {
@@ -4887,6 +5328,7 @@ const PRODUCTS = [
   leather: leather([16908, 18198, 19230, 20262], 258),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Detail"],
 },
 
 {
@@ -4898,6 +5340,7 @@ const PRODUCTS = [
   leather: leather([11955, 12840, 13548, 14256], 177),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Detail"],
 },
 
 {
@@ -4909,6 +5352,7 @@ const PRODUCTS = [
   leather: leather([12762, 13707, 14463, 15219], 189),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Detail"],
 },
 
 {
@@ -4920,6 +5364,7 @@ const PRODUCTS = [
   leather: leather([13608, 14628, 15444, 16260], 204),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Detail"],
 },
 
 {
@@ -4931,6 +5376,7 @@ const PRODUCTS = [
   leather: leather([14658, 15723, 16575, 17427], 213),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Detail"],
 },
 
 {
@@ -4942,6 +5388,7 @@ const PRODUCTS = [
   leather: leather([13308, 14328, 15144, 15960], 204),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4408S_Detail"],
 },
 
 {
@@ -4953,6 +5400,7 @@ const PRODUCTS = [
   leather: leather([6450, 6750, 6990, 7230], 60),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B-BTI-96_Front_3Qrt"],
 },
 
 {
@@ -4964,6 +5412,7 @@ const PRODUCTS = [
   leather: leather([7248, 7608, 7896, 8184], 72),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B-BTI-96_Front_3Qrt"],
 },
 
 {
@@ -4975,6 +5424,7 @@ const PRODUCTS = [
   leather: leather([8097, 8532, 8880, 9228], 87),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B-BTI-96_Front_3Qrt"],
 },
 
 {
@@ -4986,6 +5436,7 @@ const PRODUCTS = [
   leather: leather([7050, 7350, 7590, 7830], 60),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4410B-BTI-96_Front_3Qrt"],
 },
 
 {
@@ -4997,6 +5448,7 @@ const PRODUCTS = [
   leather: leather([4596, 4896, 5136, 5376], 60),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4641_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4641_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4641_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4641_Detail_01"],
 },
 
 {
@@ -5008,6 +5460,7 @@ const PRODUCTS = [
   leather: leather([7200, 7560, 7848, 8136], 72),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4700C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4700C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4700C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4700C_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4700C_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4700C_Front_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4700C_Detail_01_Alt"],
 },
 
 {
@@ -5019,6 +5472,7 @@ const PRODUCTS = [
   leather: leather([5859, 6444, 6912, 7380], 117),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4704C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4704C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4704C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4704C_Detail_01"],
 },
 
 {
@@ -5030,6 +5484,7 @@ const PRODUCTS = [
   leather: leather([6303, 6843, 7275, 7707], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CA_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CA_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706_Sectional_01_Front3Qrt_Alt"],
 },
 
 {
@@ -5041,6 +5496,7 @@ const PRODUCTS = [
   leather: leather([7206, 7836, 8340, 8844], 126),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CC_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CC_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706_Sectional_01_Front3Qrt_Alt"],
 },
 
 {
@@ -5052,6 +5508,7 @@ const PRODUCTS = [
   leather: leather([7956, 8631, 9171, 9711], 135),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CL_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CL_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706_Sectional_01_Front3Qrt_Alt"],
 },
 
 {
@@ -5063,6 +5520,7 @@ const PRODUCTS = [
   leather: leather([7956, 8631, 9171, 9711], 135),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CR_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CR_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706CR_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706_Sectional_01_Front3Qrt_Alt"],
 },
 
 {
@@ -5074,6 +5532,7 @@ const PRODUCTS = [
   leather: leather([4002, 4302, 4542, 4782], 60),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: 0, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706O_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706_Sectional_01_Front3Qrt_Alt"],
 },
 
 {
@@ -5085,6 +5544,7 @@ const PRODUCTS = [
   leather: leather([12558, 13803, 14799, 15795], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Detail_01"],
 },
 
 {
@@ -5096,6 +5556,7 @@ const PRODUCTS = [
   leather: leather([13209, 14469, 15477, 16485], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Detail_01"],
 },
 
 {
@@ -5107,6 +5568,7 @@ const PRODUCTS = [
   leather: leather([8709, 9519, 10167, 10815], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Detail_01"],
 },
 
 {
@@ -5118,6 +5580,7 @@ const PRODUCTS = [
   leather: leather([10158, 11223, 12075, 12927], 213),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Detail_01"],
 },
 
 {
@@ -5129,6 +5592,7 @@ const PRODUCTS = [
   leather: leather([10806, 11886, 12750, 13614], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Detail_01"],
 },
 
 {
@@ -5140,6 +5604,7 @@ const PRODUCTS = [
   leather: leather([11859, 13074, 14046, 15018], 243),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Detail_01"],
 },
 
 {
@@ -5151,6 +5616,7 @@ const PRODUCTS = [
   leather: leather([12009, 13269, 14277, 15285], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706S_Detail_01"],
 },
 
 {
@@ -5162,6 +5628,7 @@ const PRODUCTS = [
   leather: leather([10659, 11694, 12522, 13350], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706W_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4706W_Back_3Qrt"],
 },
 
 {
@@ -5173,6 +5640,7 @@ const PRODUCTS = [
   leather: leather([8547, 9042, 9438, 9834], 99),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4900C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4900C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4900C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4900C_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4900C_Front_3Qrt_WoodLeg", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4900C_Detail_01_WoodLeg"],
 },
 
 {
@@ -5184,6 +5652,7 @@ const PRODUCTS = [
   leather: leather([7953, 8538, 9006, 9474], 117),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 210, contrastWeltLeather: 630, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902C_Front_3Qrt_Alt01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902C_Front_3Qrt_Alt02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902C_Detail_01"],
 },
 
 {
@@ -5195,6 +5664,7 @@ const PRODUCTS = [
   leather: leather([10749, 11634, 12342, 13050], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 240, contrastWeltLeather: 720, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902L_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902L_Detail_01"],
 },
 
 {
@@ -5206,6 +5676,7 @@ const PRODUCTS = [
   leather: leather([12453, 13488, 14316, 15144], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 270, contrastWeltLeather: 810, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4902S_Detail_01"],
 },
 
 {
@@ -5217,6 +5688,7 @@ const PRODUCTS = [
   leather: leather([7797, 8337, 8769, 9201], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904C_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904C_Detail_01"],
 },
 
 {
@@ -5228,6 +5700,7 @@ const PRODUCTS = [
   leather: leather([11502, 12522, 13338, 14154], 204),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904L_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904L_Detail_01"],
 },
 
 {
@@ -5239,6 +5712,7 @@ const PRODUCTS = [
   leather: leather([14106, 15276, 16212, 17148], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4904S_Detail_01"],
 },
 
 {
@@ -5250,6 +5724,7 @@ const PRODUCTS = [
   leather: leather([12054, 12984, 13728, 14472], 186),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5300S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5300S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5300S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5300S_Detail_01"],
 },
 
 {
@@ -5261,6 +5736,7 @@ const PRODUCTS = [
   leather: leather([12597, 13842, 14838, 15834], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5304S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5304S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5304S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5304S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5304S_Mauve_Front_3Qrt"],
 },
 
 {
@@ -5272,6 +5748,7 @@ const PRODUCTS = [
   leather: leather([8103, 8688, 9156, 9624], 117),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5305C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5305C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5305C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5305C_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5305C_Detail_01"],
 },
 
 {
@@ -5283,6 +5760,7 @@ const PRODUCTS = [
   leather: leather([6459, 7044, 7512, 7980], 117),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5500C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5500C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5500C_Detail_01"],
 },
 
 {
@@ -5294,6 +5772,7 @@ const PRODUCTS = [
   leather: leather([9252, 10227, 11007, 11787], 195),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5500L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5500L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5500L_Detail_01"],
 },
 
 {
@@ -5305,6 +5784,7 @@ const PRODUCTS = [
   leather: leather([9909, 10899, 11691, 12483], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5500S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5500S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5500S_Detail_01"],
 },
 
 {
@@ -5316,6 +5796,7 @@ const PRODUCTS = [
   leather: leather([7305, 7965, 8493, 9021], 132),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502C_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502C_Nickel_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502C_Nickel_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502C_Nickel_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502C_Nickel_Detail_01"],
 },
 
 {
@@ -5327,6 +5808,7 @@ const PRODUCTS = [
   leather: leather([11946, 13026, 13890, 14754], 216),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502S_Nickel_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502S_Nickel_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502S_Nickel_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5502S_Nickel_Detail_01"],
 },
 
 {
@@ -5338,6 +5820,7 @@ const PRODUCTS = [
   leather: leather([7230, 7590, 7878, 8166], 72),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5504C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5504C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5504C_Detail_01"],
 },
 
 {
@@ -5349,6 +5832,7 @@ const PRODUCTS = [
   leather: leather([6459, 7044, 7512, 7980], 117),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5505C_Brass_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5505C_Nickel_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5505C_Nickel_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5505C_Nickel_Detail_01"],
 },
 
 {
@@ -5360,6 +5844,7 @@ const PRODUCTS = [
   leather: leather([6552, 6897, 7173, 7449], 69),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5506C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5506C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5506C_Detail_01"],
 },
 
 {
@@ -5371,6 +5856,7 @@ const PRODUCTS = [
   leather: leather([6303, 6843, 7275, 7707], 108),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5507C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5507C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5507C_Detail_01"],
 },
 
 {
@@ -5382,6 +5868,7 @@ const PRODUCTS = [
   leather: leather([6987, 7482, 7878, 8274], 99),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5508C_Brass_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5508C_Nickel_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5508C_Nickel_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5508C_Nickel_Detail_01"],
 },
 
 {
@@ -5393,6 +5880,7 @@ const PRODUCTS = [
   leather: leather([7176, 7536, 7824, 8112], 72),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5509C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5509C_Back_3Qrt"],
 },
 
 {
@@ -5404,6 +5892,7 @@ const PRODUCTS = [
   leather: leather([7101, 7446, 7722, 7998], 69),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5510C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5510C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5510C_Detail_01"],
 },
 
 {
@@ -5415,6 +5904,7 @@ const PRODUCTS = [
   leather: leather([4368, 4593, 4773, 4953], 45),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5800O_Detail_01"],
 },
 
 {
@@ -5426,6 +5916,7 @@ const PRODUCTS = [
   leather: leather([7206, 8106, 8826, 9546], 180),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801C_Detail_01"],
 },
 
 {
@@ -5437,6 +5928,7 @@ const PRODUCTS = [
   leather: leather([10392, 11157, 11769, 12381], 153),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5802C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5802C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5802C_Back_2Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5802C_Detail_01"],
 },
 
 {
@@ -5448,6 +5940,7 @@ const PRODUCTS = [
   leather: leather([9714, 10344, 10848, 11352], 126),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5803C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5803C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5803C_Detail_01"],
 },
 
 {
@@ -5459,6 +5952,7 @@ const PRODUCTS = [
   leather: leather([10932, 11607, 12147, 12687], 135),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5804C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5804C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5804C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5804C_Detail_01"],
 },
 
 {
@@ -5470,6 +5964,7 @@ const PRODUCTS = [
   leather: leather([9627, 10347, 10923, 11499], 144),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5805C_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5805C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5805C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5805C_Detail_01"],
 },
 
 {
@@ -5481,6 +5976,7 @@ const PRODUCTS = [
   leather: leather([8832, 9057, 9237, 9417], 45),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5810C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5810C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5810C_Detail_01"],
 },
 
 {
@@ -5492,6 +5988,7 @@ const PRODUCTS = [
   leather: leather([8832, 9057, 9237, 9417], 45),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5811C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5811C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5811C_Detail_01"],
 },
 
 {
@@ -5503,6 +6000,7 @@ const PRODUCTS = [
   leather: leather([9519, 9729, 9897, 10065], 42),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5812B_Anneal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5812B_Anneal_Detail_01"],
 },
 
 {
@@ -5514,6 +6012,7 @@ const PRODUCTS = [
   leather: leather([9519, 9729, 9897, 10065], 42),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5813B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5813B_Detail_01"],
 },
 
 {
@@ -5525,6 +6024,7 @@ const PRODUCTS = [
   leather: leather([6984, 7194, 7362, 7530], 42),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5814B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5814B_Detail_01"],
 },
 
 {
@@ -5536,6 +6036,7 @@ const PRODUCTS = [
   leather: leather([6984, 7194, 7362, 7530], 42),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5815B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5815B_Detail_01"],
 },
 
 {
@@ -5547,6 +6048,7 @@ const PRODUCTS = [
   leather: leather([8016, 9051, 9879, 10707], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA400C_LOOSE_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA400C_LOOSE_Detail_01"],
 },
 
 {
@@ -5558,6 +6060,7 @@ const PRODUCTS = [
   leather: leather([14568, 16413, 17889, 19365], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Detail_01"],
 },
 
 {
@@ -5569,6 +6072,7 @@ const PRODUCTS = [
   leather: leather([17994, 20289, 22125, 23961], 459),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Detail_01"],
 },
 
 {
@@ -5580,6 +6084,7 @@ const PRODUCTS = [
   leather: leather([19113, 21543, 23487, 25431], 486),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Detail_01"],
 },
 
 {
@@ -5591,6 +6096,7 @@ const PRODUCTS = [
   leather: leather([13200, 14775, 16035, 17295], 315),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Detail_01"],
 },
 
 {
@@ -5602,6 +6108,7 @@ const PRODUCTS = [
   leather: leather([14013, 15678, 17010, 18342], 333),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Detail_01"],
 },
 
 {
@@ -5613,6 +6120,7 @@ const PRODUCTS = [
   leather: leather([15915, 17985, 19641, 21297], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 279, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 0, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Detail_01"],
 },
 
 {
@@ -5624,6 +6132,7 @@ const PRODUCTS = [
   leather: leather([16713, 18873, 20601, 22329], 432),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4600S_Detail_01"],
 },
 
 {
@@ -5635,6 +6144,7 @@ const PRODUCTS = [
   leather: leather([7725, 8580, 9264, 9948], 171),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401C_Detail_01"],
 },
 
 {
@@ -5646,6 +6156,7 @@ const PRODUCTS = [
   leather: leather([13635, 15210, 16470, 17730], 315),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Detail_01"],
 },
 
 {
@@ -5657,6 +6168,7 @@ const PRODUCTS = [
   leather: leather([16449, 18699, 20499, 22299], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Detail_01"],
 },
 
 {
@@ -5668,6 +6180,7 @@ const PRODUCTS = [
   leather: leather([17406, 19926, 21942, 23958], 504),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Detail_01"],
 },
 
 {
@@ -5679,6 +6192,7 @@ const PRODUCTS = [
   leather: leather([11454, 12804, 13884, 14964], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 276, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Detail_01"],
 },
 
 {
@@ -5690,6 +6204,7 @@ const PRODUCTS = [
   leather: leather([12165, 13605, 14757, 15909], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Detail_01"],
 },
 
 {
@@ -5701,6 +6216,7 @@ const PRODUCTS = [
   leather: leather([12900, 14430, 15654, 16878], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Detail_01"],
 },
 
 {
@@ -5712,6 +6228,7 @@ const PRODUCTS = [
   leather: leather([13761, 15381, 16677, 17973], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6401S_Detail_01"],
 },
 
 {
@@ -5723,6 +6240,7 @@ const PRODUCTS = [
   leather: leather([16017, 17547, 18771, 19995], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6402S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6402S_Detail_01"],
 },
 
 {
@@ -5734,6 +6252,7 @@ const PRODUCTS = [
   leather: leather([8802, 9732, 10476, 11220], 186),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: 0, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6403C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6403C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6403C_Detail_01"],
 },
 
 {
@@ -5745,6 +6264,7 @@ const PRODUCTS = [
   leather: leather([7596, 8136, 8568, 9000], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6404C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6404C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6404C_Detail_01"],
 },
 
 {
@@ -5756,6 +6276,7 @@ const PRODUCTS = [
   leather: leather([4488, 4698, 4866, 5034], 42),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6405C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6405C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6405C_Detail_01"],
 },
 
 {
@@ -5767,6 +6288,7 @@ const PRODUCTS = [
   leather: leather([7839, 8274, 8622, 8970], 87),
   finishTiers: { tier1: 0, tier2: 600, tier3: 900, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6406C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6406C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6406C_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6406C_Detail_01"],
 },
 
 {
@@ -5778,6 +6300,7 @@ const PRODUCTS = [
   leather: leather([7083, 7353, 7569, 7785], 54),
   finishTiers: { tier1: 0, tier2: 600, tier3: 900, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6407C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6407C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6407C_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6407C_Detail_01"],
 },
 
 {
@@ -5789,6 +6312,7 @@ const PRODUCTS = [
   leather: leather([5730, 6045, 6297, 6549], 63),
   finishTiers: { tier1: 0, tier2: 600, tier3: null, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6408C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6408C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6408C_Detail_01"],
 },
 
 {
@@ -5800,6 +6324,7 @@ const PRODUCTS = [
   leather: leather([8214, 8844, 9348, 9852], 126),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 120, contrastWeltLeather: 360, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6600C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6600C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6600C_Detail_01"],
 },
 
 {
@@ -5811,6 +6336,7 @@ const PRODUCTS = [
   leather: leather([14604, 15909, 16953, 17997], 261),
   finishTiers: { tier1: 0, tier2: 300, tier3: 600, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6600S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6600S_Detail_01"],
 },
 
 {
@@ -5822,6 +6348,7 @@ const PRODUCTS = [
   leather: leather([6498, 7158, 7686, 8214], 132),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6601C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6601C_Detail_01"],
 },
 
 {
@@ -5833,6 +6360,7 @@ const PRODUCTS = [
   leather: leather([10224, 11304, 12168, 13032], 216),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6601S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6601S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6601S_Detail_01"],
 },
 
 {
@@ -5844,6 +6372,7 @@ const PRODUCTS = [
   leather: leather([8328, 9213, 9921, 10629], 177),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6602C-Slip_Back_3Qrt"],
 },
 
 {
@@ -5855,6 +6384,7 @@ const PRODUCTS = [
   leather: leather([7518, 8328, 8976, 9624], 162),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6602C-Slip_Back_3Qrt"],
 },
 
 {
@@ -5866,6 +6396,7 @@ const PRODUCTS = [
   leather: leather([13416, 15261, 16737, 18213], 369),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6602S_Silo_Back_3Qrt"],
 },
 
 {
@@ -5877,6 +6408,7 @@ const PRODUCTS = [
   leather: leather([12396, 14091, 15447, 16803], 339),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6602S_Silo_Back_3Qrt"],
 },
 
 {
@@ -5888,6 +6420,7 @@ const PRODUCTS = [
   leather: leather([8004, 8934, 9678, 10422], 186),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6603C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6603C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6603C_Detail_01"],
 },
 
 {
@@ -5899,6 +6432,7 @@ const PRODUCTS = [
   leather: leather([9756, 10776, 11592, 12408], 204),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6603L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6603L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6603L_Detail_01"],
 },
 
 {
@@ -5910,6 +6444,7 @@ const PRODUCTS = [
   leather: leather([12060, 13260, 14220, 15180], 240),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6603S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6603S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6603S_Detail_01"],
 },
 
 {
@@ -5921,6 +6456,7 @@ const PRODUCTS = [
   leather: leather([7146, 7716, 8172, 8628], 114),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6604C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6604C_Back_3Qrt"],
 },
 
 {
@@ -5932,6 +6468,7 @@ const PRODUCTS = [
   leather: leather([16686, 18306, 19602, 20898], 324),
   finishTiers: { tier1: 0, tier2: 300, tier3: 600, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -5943,6 +6480,7 @@ const PRODUCTS = [
   leather: leather([13452, 14667, 15639, 16611], 243),
   finishTiers: { tier1: 0, tier2: 225, tier3: 450, tier4: 2250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -5954,6 +6492,7 @@ const PRODUCTS = [
   leather: leather([6774, 7479, 8043, 8607], 141),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MAA6605C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MAA6605C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MAA6605C_Detail_01"],
 },
 
 {
@@ -5965,6 +6504,7 @@ const PRODUCTS = [
   leather: leather([7368, 8178, 8826, 9474], 162),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -5976,6 +6516,7 @@ const PRODUCTS = [
   leather: leather([3315, 3615, 3855, 4095], 60),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6605O_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6605O_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6605O_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6605O_Detail_01"],
 },
 
 {
@@ -5987,6 +6528,7 @@ const PRODUCTS = [
   leather: leather([13188, 14898, 16266, 17634], 342),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6605S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6605S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6605S_Detail_01"],
 },
 
 {
@@ -5998,6 +6540,7 @@ const PRODUCTS = [
   leather: leather([16122, 18237, 19929, 21621], 423),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6009,6 +6552,7 @@ const PRODUCTS = [
   leather: leather([7122, 7737, 8229, 8721], 123),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6606C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6606C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6606C_Detail_01"],
 },
 
 {
@@ -6020,6 +6564,7 @@ const PRODUCTS = [
   leather: leather([2904, 3084, 3228, 3372], 36),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6606O_Detail_01"],
 },
 
 {
@@ -6031,6 +6576,7 @@ const PRODUCTS = [
   leather: leather([10656, 11676, 12492, 13308], 204),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6607L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6607L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6607L_Detail_01"],
 },
 
 {
@@ -6042,6 +6588,7 @@ const PRODUCTS = [
   leather: leather([8016, 8736, 9312, 9888], 144),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6608C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6608C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6608C_Detail_01"],
 },
 
 {
@@ -6053,6 +6600,7 @@ const PRODUCTS = [
   leather: leather([7998, 8658, 9186, 9714], 132),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6610C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6610C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6610C_Detail_01"],
 },
 
 {
@@ -6064,6 +6612,7 @@ const PRODUCTS = [
   leather: leather([7500, 8250, 8850, 9450], 150),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6611C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6611C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6611C_Detail_01"],
 },
 
 {
@@ -6075,6 +6624,7 @@ const PRODUCTS = [
   leather: leather([7842, 8607, 9219, 9831], 153),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6611C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6611C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6611C_Detail_01"],
 },
 
 {
@@ -6086,6 +6636,7 @@ const PRODUCTS = [
   leather: leather([6864, 7494, 7998, 8502], 126),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 105, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6612C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6612C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6612C_Detail_01"],
 },
 
 {
@@ -6097,6 +6648,7 @@ const PRODUCTS = [
   leather: leather([7308, 7668, 7956, 8244], 72),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 315, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6613C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6613C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6613C_Detail_01"],
 },
 
 {
@@ -6108,6 +6660,7 @@ const PRODUCTS = [
   leather: leather([7056, 7326, 7542, 7758], 54),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6614C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6614C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6614C_Detail_01"],
 },
 
 {
@@ -6119,6 +6672,7 @@ const PRODUCTS = [
   leather: leather([10590, 11265, 11805, 12345], 135),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6615C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6615C_Back_3Qrt"],
 },
 
 {
@@ -6130,6 +6684,7 @@ const PRODUCTS = [
   leather: leather([7740, 8415, 8955, 9495], 135),
   finishTiers: { tier1: 0, tier2: 75, tier3: 150, tier4: 600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6616C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6616C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6616C_Detail_01"],
 },
 
 {
@@ -6141,6 +6696,7 @@ const PRODUCTS = [
   leather: leather([9588, 10173, 10641, 11109], 117),
   finishTiers: null,
   addons: { swivel180: 0, swivel360: 600, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6617C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6617C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6617C_Detail_01"],
 },
 
 {
@@ -6152,6 +6708,7 @@ const PRODUCTS = [
   leather: leather([6786, 7281, 7677, 8073], 99),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6618C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6618C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6618C_Detail_01"],
 },
 
 {
@@ -6163,6 +6720,7 @@ const PRODUCTS = [
   leather: leather([7092, 7482, 7794, 8106], 78),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6619C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6619C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6619C_Detail_01"],
 },
 
 {
@@ -6174,6 +6732,7 @@ const PRODUCTS = [
   leather: leather([13305, 14640, 15708, 16776], 267),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6620B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6620B_Detail_01"],
 },
 
 {
@@ -6185,6 +6744,7 @@ const PRODUCTS = [
   leather: leather([6003, 6543, 6975, 7407], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2006C_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2006C_DETAIL"],
 },
 
 {
@@ -6196,6 +6756,7 @@ const PRODUCTS = [
   leather: leather([8094, 8454, 8742, 9030], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6207,6 +6768,7 @@ const PRODUCTS = [
   leather: leather([15912, 17082, 18018, 18954], 234),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_BACK_3QRT"],
 },
 
 {
@@ -6218,6 +6780,7 @@ const PRODUCTS = [
   leather: leather([16551, 17856, 18900, 19944], 261),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_BACK_3QRT"],
 },
 
 {
@@ -6229,6 +6792,7 @@ const PRODUCTS = [
   leather: leather([17235, 18570, 19638, 20706], 267),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_BACK_3QRT"],
 },
 
 {
@@ -6240,6 +6804,7 @@ const PRODUCTS = [
   leather: leather([12921, 14001, 14865, 15729], 216),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_BACK_3QRT"],
 },
 
 {
@@ -6251,6 +6816,7 @@ const PRODUCTS = [
   leather: leather([13647, 14772, 15672, 16572], 225),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_BACK_3QRT"],
 },
 
 {
@@ -6262,6 +6828,7 @@ const PRODUCTS = [
   leather: leather([14373, 15543, 16479, 17415], 234),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_BACK_3QRT"],
 },
 
 {
@@ -6273,6 +6840,7 @@ const PRODUCTS = [
   leather: leather([15399, 16614, 17586, 18558], 243),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501S_BACK_3QRT"],
 },
 
 {
@@ -6284,6 +6852,7 @@ const PRODUCTS = [
   leather: leather([17955, 19290, 20358, 21426], 267),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 75, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU2501SE_FRONT"],
 },
 
 {
@@ -6295,6 +6864,7 @@ const PRODUCTS = [
   leather: leather([5100, 5460, 5748, 6036], 72),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3101c_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3101c_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3101c_DETAIL"],
 },
 
 {
@@ -6306,6 +6876,7 @@ const PRODUCTS = [
   leather: leather([7443, 7878, 8226, 8574], 87),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3102c_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3102c_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3102c_FRONT_3QRT_w_ottoman"],
 },
 
 {
@@ -6317,6 +6888,7 @@ const PRODUCTS = [
   leather: leather([3750, 3975, 4155, 4335], 45),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3102o_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3102o_DETAIL"],
 },
 
 {
@@ -6328,6 +6900,7 @@ const PRODUCTS = [
   leather: leather([11808, 12648, 13320, 13992], 168),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3104c_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3104c_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3104c_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3104C_Fur_Front3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3104C_Fur_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3104C_Fur_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3104C_Fur_Back3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3104C_Fur_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3104C_Fur_Detail_02"],
 },
 
 {
@@ -6339,6 +6912,7 @@ const PRODUCTS = [
   leather: leather([13905, 14835, 15579, 16323], 186),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_DETAIL"],
 },
 
 {
@@ -6350,6 +6924,7 @@ const PRODUCTS = [
   leather: leather([14523, 15693, 16629, 17565], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_DETAIL"],
 },
 
 {
@@ -6361,6 +6936,7 @@ const PRODUCTS = [
   leather: leather([15375, 16635, 17643, 18651], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_DETAIL"],
 },
 
 {
@@ -6372,6 +6948,7 @@ const PRODUCTS = [
   leather: leather([10773, 11568, 12204, 12840], 159),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_DETAIL"],
 },
 
 {
@@ -6383,6 +6960,7 @@ const PRODUCTS = [
   leather: leather([11499, 12339, 13011, 13683], 168),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_DETAIL"],
 },
 
 {
@@ -6394,6 +6972,7 @@ const PRODUCTS = [
   leather: leather([12225, 13110, 13818, 14526], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_DETAIL"],
 },
 
 {
@@ -6405,6 +6984,7 @@ const PRODUCTS = [
   leather: leather([13293, 14238, 14994, 15750], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3106S_DETAIL"],
 },
 
 {
@@ -6416,6 +6996,7 @@ const PRODUCTS = [
   leather: leather([8202, 8772, 9228, 9684], 114),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: 0, seatCrownSupport: 0, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3112c_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3112c_DETAIL"],
 },
 
 {
@@ -6427,6 +7008,7 @@ const PRODUCTS = [
   leather: leather([18561, 19986, 21126, 22266], 285),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 0, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_DETAIL"],
 },
 
 {
@@ -6438,6 +7020,7 @@ const PRODUCTS = [
   leather: leather([19833, 21453, 22749, 24045], 324),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_DETAIL"],
 },
 
 {
@@ -6449,6 +7032,7 @@ const PRODUCTS = [
   leather: leather([21189, 23079, 24591, 26103], 378),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_DETAIL"],
 },
 
 {
@@ -6460,6 +7044,7 @@ const PRODUCTS = [
   leather: leather([14721, 15801, 16665, 17529], 216),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_DETAIL"],
 },
 
 {
@@ -6471,6 +7056,7 @@ const PRODUCTS = [
   leather: leather([15699, 16914, 17886, 18858], 243),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_DETAIL"],
 },
 
 {
@@ -6482,6 +7068,7 @@ const PRODUCTS = [
   leather: leather([16677, 18027, 19107, 20187], 270),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_DETAIL"],
 },
 
 {
@@ -6493,6 +7080,7 @@ const PRODUCTS = [
   leather: leather([17829, 19269, 20421, 21573], 288),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3114s_DETAIL"],
 },
 
 {
@@ -6504,6 +7092,7 @@ const PRODUCTS = [
   leather: leather([4506, 4731, 4911, 5091], 45),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3306c_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3306c_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAU3306c_DETAIL"],
 },
 
 {
@@ -6515,6 +7104,7 @@ const PRODUCTS = [
   leather: leather([7128, 7398, 7614, 7830], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 600, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6526,6 +7116,7 @@ const PRODUCTS = [
   leather: leather([5883, 6153, 6369, 6585], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 2100, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6537,6 +7128,7 @@ const PRODUCTS = [
   leather: leather([7869, 8139, 8355, 8571], 54),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6548,6 +7140,7 @@ const PRODUCTS = [
   leather: leather([5316, 5586, 5802, 6018], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6559,6 +7152,7 @@ const PRODUCTS = [
   leather: leather([25797, 26337, 26769, 27201], 108),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6570,6 +7164,7 @@ const PRODUCTS = [
   leather: leather([11211, 11751, 12183, 12615], 108),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6581,6 +7176,7 @@ const PRODUCTS = [
   leather: leather([9576, 10296, 10872, 11448], 144),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6592,6 +7188,7 @@ const PRODUCTS = [
   leather: leather([6846, 7101, 7305, 7509], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6603,6 +7200,7 @@ const PRODUCTS = [
   leather: leather([7074, 7344, 7560, 7776], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6614,6 +7212,7 @@ const PRODUCTS = [
   leather: leather([5853, 6168, 6420, 6672], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6625,6 +7224,7 @@ const PRODUCTS = [
   leather: leather([5394, 5574, 5718, 5862], 36),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6636,6 +7236,7 @@ const PRODUCTS = [
   leather: leather([6543, 6933, 7245, 7557], 78),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6647,6 +7248,7 @@ const PRODUCTS = [
   leather: leather([6609, 6924, 7176, 7428], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6658,6 +7260,7 @@ const PRODUCTS = [
   leather: leather([8097, 8547, 8907, 9267], 90),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6669,6 +7272,7 @@ const PRODUCTS = [
   leather: leather([7203, 7923, 8499, 9075], 144),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -6680,6 +7284,7 @@ const PRODUCTS = [
   leather: leather([16647, 17142, 17538, 17934], 99),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807C_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807C_Detail"],
 },
 
 {
@@ -6691,6 +7296,7 @@ const PRODUCTS = [
   leather: leather([20049, 20664, 21156, 21648], 123),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807L_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807S_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807L_Detail_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807L_Detail"],
 },
 
 {
@@ -6702,6 +7308,7 @@ const PRODUCTS = [
   leather: leather([23403, 24123, 24699, 25275], 144),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807S_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807L_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1807L_Detail_Alt"],
 },
 
 {
@@ -6713,6 +7320,7 @@ const PRODUCTS = [
   leather: leather([6894, 7164, 7380, 7596], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2201C_Gunmetal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2201C_Gunmetal_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2201C_Gunmetal_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2201C_MatteMineral_Detail"],
 },
 
 {
@@ -6724,6 +7332,7 @@ const PRODUCTS = [
   leather: leather([6594, 6954, 7242, 7530], 72),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2301C_MatteMineral_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2301C_Gunmetal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2301C_Gunmetal_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2301C_Gunmetal_Detail"],
 },
 
 {
@@ -6735,6 +7344,7 @@ const PRODUCTS = [
   leather: leather([7050, 7275, 7455, 7635], 45),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2303C_MatteMineral_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2303C_Gunmetal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2303C_Gunmetal_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2303C_Gunmetal_Detail"],
 },
 
 {
@@ -6746,6 +7356,7 @@ const PRODUCTS = [
   leather: leather([8346, 8691, 8967, 9243], 69),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2390C_MatteMineral_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2390C_Gunmetal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2390C_Gunmetal_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2390C_Gunmetal_Back_3Qrt"],
 },
 
 {
@@ -6757,6 +7368,7 @@ const PRODUCTS = [
   leather: leather([5796, 6096, 6336, 6576], 60),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2393C_Mattemineral_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2393C_Gunmetal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2393C_Gunmetal_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2393C_Gunmetal_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2393C_Gunmetal_Detail"],
 },
 
 {
@@ -6768,6 +7380,7 @@ const PRODUCTS = [
   leather: leather([7494, 7854, 8142, 8430], 72),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: 1650 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2397C_MatteMineral_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2397C_Gunmetal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2397C_Gunmetal_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2397C_Gunmetal_Detail"],
 },
 
 {
@@ -6779,6 +7392,7 @@ const PRODUCTS = [
   leather: leather([7647, 7962, 8214, 8466], 63),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2399C_Gunmetal_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2399C_MatteMineral_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2399C_MatteMineral_Back_3Qrt"],
 },
 
 {
@@ -6790,6 +7404,7 @@ const PRODUCTS = [
   leather: leather([24012, 24957, 25713, 26469], 189),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2600S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2600S_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2600S_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2600S_DETAIL"],
 },
 
 {
@@ -6801,6 +7416,7 @@ const PRODUCTS = [
   leather: leather([14043, 14658, 15150, 15642], 123),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2601C_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2601C_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2601C_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2601C_DETAIL"],
 },
 
 {
@@ -6812,6 +7428,7 @@ const PRODUCTS = [
   leather: leather([7203, 7473, 7689, 7905], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2602C_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2602C_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2602C_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2602C_DETAIL"],
 },
 
 {
@@ -6823,6 +7440,7 @@ const PRODUCTS = [
   leather: leather([9279, 9729, 10089, 10449], 90),
   finishTiers: { tier1: 1500, tier2: 1995, tier3: 2295, tier4: 2550, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605C_STRAW_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605C_STRAW_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605C_STRAW_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605C_INK_FRONT_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605C_INK_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605C_INK_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605C_INK_DETAIL"],
 },
 
 {
@@ -6834,6 +7452,7 @@ const PRODUCTS = [
   leather: leather([15552, 16122, 16578, 17034], 114),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605CSL_NAMI_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605CSL_NAMI_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605CSL_NAMI_DETAIL1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605CSL_NAMI_DETAIL2"],
 },
 
 {
@@ -6845,6 +7464,7 @@ const PRODUCTS = [
   leather: leather([20481, 21366, 22074, 22782], 177),
   finishTiers: { tier1: 3000, tier2: 3975, tier3: 4575, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605S_BACK_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2605S_DETAIL"],
 },
 
 {
@@ -6856,6 +7476,7 @@ const PRODUCTS = [
   leather: leather([6534, 6804, 7020, 7236], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: 2400 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2800C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2800C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2800C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2800C_Detail"],
 },
 
 {
@@ -6867,6 +7488,7 @@ const PRODUCTS = [
   leather: leather([6993, 7428, 7776, 8124], 87),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802C_Detail"],
 },
 
 {
@@ -6878,6 +7500,7 @@ const PRODUCTS = [
   leather: leather([15000, 16080, 16944, 17808], 216),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Detail"],
 },
 
 {
@@ -6889,6 +7512,7 @@ const PRODUCTS = [
   leather: leather([15906, 17076, 18012, 18948], 234),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Detail"],
 },
 
 {
@@ -6900,6 +7524,7 @@ const PRODUCTS = [
   leather: leather([10896, 11646, 12246, 12846], 150),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Detail"],
 },
 
 {
@@ -6911,6 +7536,7 @@ const PRODUCTS = [
   leather: leather([11646, 12441, 13077, 13713], 159),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Detail"],
 },
 
 {
@@ -6922,6 +7548,7 @@ const PRODUCTS = [
   leather: leather([12450, 13305, 13989, 14673], 171),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Detail"],
 },
 
 {
@@ -6933,6 +7560,7 @@ const PRODUCTS = [
   leather: leather([13446, 14421, 15201, 15981], 195),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Detail"],
 },
 
 {
@@ -6944,6 +7572,7 @@ const PRODUCTS = [
   leather: leather([11046, 11841, 12477, 13113], 159),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2802S_Detail"],
 },
 
 {
@@ -6955,6 +7584,7 @@ const PRODUCTS = [
   leather: leather([6993, 7383, 7695, 8007], 78),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: 2400 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2804C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2804C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2804C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2804C_Detail"],
 },
 
 {
@@ -6966,6 +7596,7 @@ const PRODUCTS = [
   leather: leather([6840, 7095, 7299, 7503], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2805C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2805C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2805C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2805C_Detail"],
 },
 
 {
@@ -6977,6 +7608,7 @@ const PRODUCTS = [
   leather: leather([7440, 7695, 7899, 8103], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2806C_Front_RESHOOT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2806C_Side_RESHOOT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2806C_Back_3Qrt_RESHOOT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2806C_Detail_RESHOOT"],
 },
 
 {
@@ -6988,6 +7620,7 @@ const PRODUCTS = [
   leather: leather([5847, 6162, 6414, 6666], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2807C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2807C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2807C_Back_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2807C_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2807C_Front_3Qrt_Alt"],
 },
 
 {
@@ -6999,6 +7632,7 @@ const PRODUCTS = [
   leather: leather([4794, 5154, 5442, 5730], 72),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 750, specialtyRattan: 3000 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2809C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2809C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2809C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2809C_Detail"],
 },
 
 {
@@ -7010,6 +7644,7 @@ const PRODUCTS = [
   leather: leather([7596, 8166, 8622, 9078], 114),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 450, specialtyRattan: 2700 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810C_Detail"],
 },
 
 {
@@ -7021,6 +7656,7 @@ const PRODUCTS = [
   leather: leather([11250, 11925, 12465, 13005], 135),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front_3Qrt_Alt"],
 },
 
 {
@@ -7032,6 +7668,7 @@ const PRODUCTS = [
   leather: leather([16746, 17721, 18501, 19281], 195),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front_3Qrt_Alt"],
 },
 
 {
@@ -7043,6 +7680,7 @@ const PRODUCTS = [
   leather: leather([17652, 18717, 19569, 20421], 213),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front_3Qrt_Alt"],
 },
 
 {
@@ -7054,6 +7692,7 @@ const PRODUCTS = [
   leather: leather([12150, 12825, 13365, 13905], 135),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front_3Qrt_Alt"],
 },
 
 {
@@ -7065,6 +7704,7 @@ const PRODUCTS = [
   leather: leather([12897, 13617, 14193, 14769], 144),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front_3Qrt_Alt"],
 },
 
 {
@@ -7076,6 +7716,7 @@ const PRODUCTS = [
   leather: leather([14046, 14841, 15477, 16113], 159),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front_3Qrt_Alt"],
 },
 
 {
@@ -7087,6 +7728,7 @@ const PRODUCTS = [
   leather: leather([15150, 16005, 16689, 17373], 171),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1800, specialtyRattan: 3900 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2810S_Front_3Qrt_Alt"],
 },
 
 {
@@ -7098,6 +7740,7 @@ const PRODUCTS = [
   leather: leather([6750, 7155, 7479, 7803], 81),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 450, specialtyRattan: 2100 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2812C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2812C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2812C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2812C_Detail"],
 },
 
 {
@@ -7109,6 +7752,7 @@ const PRODUCTS = [
   leather: leather([5094, 5454, 5742, 6030], 72),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2813C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2813C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2813C_Detail"],
 },
 
 {
@@ -7120,6 +7764,7 @@ const PRODUCTS = [
   leather: leather([5097, 5367, 5583, 5799], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 900, type2Rattan: 1050, specialtyRattan: 3600 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2814C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2814C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2814C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2814C_Detail"],
 },
 
 {
@@ -7131,6 +7776,7 @@ const PRODUCTS = [
   leather: leather([9150, 9555, 9879, 10203], 81),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2900C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2900C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2900C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2900C_Detail_01"],
 },
 
 {
@@ -7142,6 +7788,7 @@ const PRODUCTS = [
   leather: leather([9156, 9561, 9885, 10209], 81),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2901C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2901C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2901C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2901C_Detail_01"],
 },
 
 {
@@ -7153,6 +7800,7 @@ const PRODUCTS = [
   leather: leather([14505, 15705, 16665, 17625], 240),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 900, type2Rattan: 1800, specialtyRattan: 4500 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2904SA_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2904SA_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2904SA_Detail_01"],
 },
 
 {
@@ -7164,6 +7812,7 @@ const PRODUCTS = [
   leather: leather([6396, 6696, 6936, 7176], 60),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 1050, specialtyRattan: 4200 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2908C_Front_Oyster", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2908C_Side_Oyster", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2908C_Back_3Qrt_Oyster", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2908C_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2908C_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2908C_Detail_01"],
 },
 
 {
@@ -7175,6 +7824,7 @@ const PRODUCTS = [
   leather: leather([10902, 11202, 11442, 11682], 60),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2910C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2910C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2910C_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2910C_Detail_01"],
 },
 
 {
@@ -7186,6 +7836,7 @@ const PRODUCTS = [
   leather: leather([11415, 11715, 11955, 12195], 60),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2911C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2911C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2911C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2911C_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2911C_Detail_02"],
 },
 
 {
@@ -7197,6 +7848,7 @@ const PRODUCTS = [
   leather: leather([3402, 3522, 3618, 3714], 24),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2912O_Front_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2912O_Front_Alt2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2912O_Detail_01_Alt"],
 },
 
 {
@@ -7208,6 +7860,7 @@ const PRODUCTS = [
   leather: leather([5703, 5973, 6189, 6405], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 900, type2Rattan: 1800, specialtyRattan: 3000 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2915_Front"],
 },
 
 {
@@ -7219,6 +7872,7 @@ const PRODUCTS = [
   leather: leather([7989, 8304, 8556, 8808], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1635, specialtyRattan: 4200 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3000C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3000C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3000C_Detail_01"],
 },
 
 {
@@ -7230,6 +7884,7 @@ const PRODUCTS = [
   leather: leather([16353, 16983, 17487, 17991], 126),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3840, specialtyRattan: 5700 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3000S_Front_3Qrt_Alt_RESHOOT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3000S_Front_RESHOOT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3000S_Back_3Qrt_RESHOOT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3000S_Detail_01_RESHOOT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3000S_Side_RESHOOT"],
 },
 
 {
@@ -7241,6 +7896,7 @@ const PRODUCTS = [
   leather: leather([6309, 6519, 6687, 6855], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 1500, specialtyRattan: 4500 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3004B_Detail_01"],
 },
 
 {
@@ -7252,6 +7908,7 @@ const PRODUCTS = [
   leather: leather([5451, 5676, 5856, 6036], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1650, specialtyRattan: 4200 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3004C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3004C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3004C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3004C_Detail_01"],
 },
 
 {
@@ -7263,6 +7920,7 @@ const PRODUCTS = [
   leather: leather([5856, 6081, 6261, 6441], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1650, specialtyRattan: 4800 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3006C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3006C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3006C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3006C_Detail_01"],
 },
 
 {
@@ -7274,6 +7932,7 @@ const PRODUCTS = [
   leather: leather([9219, 9624, 9948, 10272], 81),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 2100, type2Rattan: 2550, specialtyRattan: 3300 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3012C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3012C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3012C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3012C_Detail_01"],
 },
 
 {
@@ -7285,6 +7944,7 @@ const PRODUCTS = [
   leather: leather([14649, 15279, 15783, 16287], 126),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3900, specialtyRattan: 5700 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3012S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3012S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3012S_Detail_01"],
 },
 
 {
@@ -7296,6 +7956,7 @@ const PRODUCTS = [
   leather: leather([9303, 9843, 10275, 10707], 108),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1500, type2Rattan: 1950, specialtyRattan: 2100 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3013C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3013C_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3013C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3013C_Detail_01"],
 },
 
 {
@@ -7307,6 +7968,7 @@ const PRODUCTS = [
   leather: leather([15912, 17082, 18018, 18954], 234),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 2400, type2Rattan: 3300, specialtyRattan: 3600 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3013S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3013S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3013S_Detail_01"],
 },
 
 {
@@ -7318,6 +7980,7 @@ const PRODUCTS = [
   leather: leather([6288, 6558, 6774, 6990], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4102C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4102C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4102C_Detail_01"],
 },
 
 {
@@ -7329,6 +7992,7 @@ const PRODUCTS = [
   leather: leather([6588, 7128, 7560, 7992], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103C_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103C_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103C_Detail_01"],
 },
 
 {
@@ -7340,6 +8004,7 @@ const PRODUCTS = [
   leather: leather([9309, 10149, 10821, 11493], 168),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103L_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103L_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103L_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103L_Detail_01"],
 },
 
 {
@@ -7351,6 +8016,7 @@ const PRODUCTS = [
   leather: leather([11451, 12531, 13395, 14259], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4103S_Detail_01"],
 },
 
 {
@@ -7362,6 +8028,7 @@ const PRODUCTS = [
   leather: leather([4230, 4440, 4608, 4776], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 450, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4104O_Detail_01"],
 },
 
 {
@@ -7373,6 +8040,7 @@ const PRODUCTS = [
   leather: leather([11286, 11496, 11664, 11832], 42),
   finishTiers: { tier1: 600, tier2: 750, tier3: 900, tier4: 1800, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4105B_Front"],
 },
 
 {
@@ -7384,6 +8052,7 @@ const PRODUCTS = [
   leather: leather([9153, 9738, 10206, 10674], 117),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4111C_Front"],
 },
 
 {
@@ -7395,6 +8064,7 @@ const PRODUCTS = [
   leather: leather([9513, 9948, 10296, 10644], 87),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4112B_Front"],
 },
 
 {
@@ -7406,6 +8076,7 @@ const PRODUCTS = [
   leather: leather([11064, 11289, 11469, 11649], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4114C_Front"],
 },
 
 {
@@ -7417,6 +8088,7 @@ const PRODUCTS = [
   leather: leather([8295, 8925, 9429, 9933], 126),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 13485 },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -7428,6 +8100,7 @@ const PRODUCTS = [
   leather: leather([8700, 9330, 9834, 10338], 126),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -7439,6 +8112,7 @@ const PRODUCTS = [
   leather: leather([7503, 8223, 8799, 9375], 144),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1003CS_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1003CS_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1003CS_DETAIL"],
 },
 
 {
@@ -7450,6 +8124,7 @@ const PRODUCTS = [
   leather: leather([6447, 6942, 7338, 7734], 99),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 750, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1005C_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1005C_3QTR_BACK", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1005C_3QTR_DETAIL"],
 },
 
 {
@@ -7461,6 +8136,7 @@ const PRODUCTS = [
   leather: leather([8403, 9123, 9699, 10275], 144),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1350, type2Rattan: 1650, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1005L_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1005L_DETAIL"],
 },
 
 {
@@ -7472,6 +8148,7 @@ const PRODUCTS = [
   leather: leather([10059, 11094, 11922, 12750], 207),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1350, type2Rattan: 1650, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1005S_FRONT"],
 },
 
 {
@@ -7483,6 +8160,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1007C_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1007C_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1007C_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1007C_DETAIL"],
 },
 
 {
@@ -7494,6 +8172,7 @@ const PRODUCTS = [
   leather: leather([4800, 5160, 5448, 5736], 72),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1012S_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1012S_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1012S_DETAIL"],
 },
 
 {
@@ -7505,6 +8184,7 @@ const PRODUCTS = [
   leather: leather([8256, 8931, 9471, 10011], 135),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1800c_Char_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1800c_Char_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1800c_Char_Detail"],
 },
 
 {
@@ -7516,6 +8196,7 @@ const PRODUCTS = [
   leather: leather([11106, 11556, 11916, 12276], 90),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1805_Oyster_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1805_Oyster_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1805_Oyster_Detail"],
 },
 
 {
@@ -7527,6 +8208,7 @@ const PRODUCTS = [
   leather: leather([12096, 12351, 12555, 12759], 51),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1806c_Oyster_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1806c_Oyster_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1806c_Oyster_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1806c_Oyster_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1806c_Brown_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1806c_Brown_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1806c_Brown_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1806c_Brown_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1806c_Brown_Detail"],
 },
 
 {
@@ -7538,6 +8220,7 @@ const PRODUCTS = [
   leather: leather([6306, 6756, 7116, 7476], 90),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1810CS_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1810CS_Detail"],
 },
 
 {
@@ -7549,6 +8232,7 @@ const PRODUCTS = [
   leather: leather([9243, 9678, 10026, 10374], 87),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1811o_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU1811o_Detail"],
 },
 
 {
@@ -7560,6 +8244,7 @@ const PRODUCTS = [
   leather: leather([5952, 6477, 6897, 7317], 105),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU3011L_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU3011L_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCU3011L_DETAIL"],
 },
 
 {
@@ -7571,6 +8256,7 @@ const PRODUCTS = [
   leather: leather([6054, 6459, 6783, 7107], 81),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -7582,6 +8268,7 @@ const PRODUCTS = [
   leather: leather([8004, 8634, 9138, 9642], 126),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 225, selfDeckingCom: 0, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -7593,6 +8280,7 @@ const PRODUCTS = [
   leather: leather([8817, 9717, 10437, 11157], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: null, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -7604,6 +8292,7 @@ const PRODUCTS = [
   leather: leather([3000, 3180, 3324, 3468], 36),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR47040-Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR47040-Top"],
 },
 
 {
@@ -7615,6 +8304,7 @@ const PRODUCTS = [
   leather: leather([6459, 7044, 7512, 7980], 117),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: null, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202C_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202C_STRAIGHT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202C_BACK", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202C_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202C_MR7202O_3-4", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202C_MR7202O_Straight"],
 },
 
 {
@@ -7626,6 +8316,7 @@ const PRODUCTS = [
   leather: leather([3549, 3759, 3927, 4095], 42),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202O_Leg_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202O_Straight", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202C_MR7202O_3-4"],
 },
 
 {
@@ -7637,6 +8328,7 @@ const PRODUCTS = [
   leather: leather([13611, 15441, 16905, 18369], 366),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202S_STRAIGHT"],
 },
 
 {
@@ -7648,6 +8340,7 @@ const PRODUCTS = [
   leather: leather([11409, 12849, 14001, 15153], 288),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202SM_3QTR_STRAIGHT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202SM_BACK", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202SM_3QTR_BACK", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR7202SM_DETAIL"],
 },
 
 {
@@ -7659,6 +8352,7 @@ const PRODUCTS = [
   leather: leather([7200, 7560, 7848, 8136], 72),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8518C_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8518C_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MR8518C_DET"],
 },
 
 {
@@ -7670,6 +8364,7 @@ const PRODUCTS = [
   leather: leather([13014, 14274, 15282, 16290], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -7681,6 +8376,7 @@ const PRODUCTS = [
   leather: leather([14145, 15585, 16737, 17889], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 285, seatFiberlux: 0, seatFirmSpringDown: 285, seatCrown: 285, seatCrownSupport: 285, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -7692,6 +8388,7 @@ const PRODUCTS = [
   leather: leather([10179, 11259, 12123, 12987], 216),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7703,6 +8400,7 @@ const PRODUCTS = [
   leather: leather([10728, 11883, 12807, 13731], 231),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7714,6 +8412,7 @@ const PRODUCTS = [
   leather: leather([11331, 12576, 13572, 14568], 249),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: null, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7725,6 +8424,7 @@ const PRODUCTS = [
   leather: leather([13437, 15222, 16650, 18078], 357),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7736,6 +8436,7 @@ const PRODUCTS = [
   leather: leather([6879, 7509, 8013, 8517], 126),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7747,6 +8448,7 @@ const PRODUCTS = [
   leather: leather([7179, 7809, 8313, 8817], 126),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7758,6 +8460,7 @@ const PRODUCTS = [
   leather: leather([8232, 8997, 9609, 10221], 153),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7769,6 +8472,7 @@ const PRODUCTS = [
   leather: leather([8682, 9492, 10140, 10788], 162),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7780,6 +8484,7 @@ const PRODUCTS = [
   leather: leather([9435, 10380, 11136, 11892], 189),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7791,6 +8496,7 @@ const PRODUCTS = [
   leather: leather([7728, 8433, 8997, 9561], 141),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801CS-BTI"],
 },
 
 {
@@ -7802,6 +8508,7 @@ const PRODUCTS = [
   leather: leather([13662, 15237, 16497, 17757], 315),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7813,6 +8520,7 @@ const PRODUCTS = [
   leather: leather([13062, 14637, 15897, 17157], 315),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7824,6 +8532,7 @@ const PRODUCTS = [
   leather: leather([14964, 16749, 18177, 19605], 357),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7835,6 +8544,7 @@ const PRODUCTS = [
   leather: leather([14364, 16149, 17577, 19005], 357),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7846,6 +8556,7 @@ const PRODUCTS = [
   leather: leather([11955, 13290, 14358, 15426], 267),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7857,6 +8568,7 @@ const PRODUCTS = [
   leather: leather([11355, 12690, 13758, 14826], 267),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7868,6 +8580,7 @@ const PRODUCTS = [
   leather: leather([12561, 13986, 15126, 16266], 285),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7879,6 +8592,7 @@ const PRODUCTS = [
   leather: leather([11961, 13386, 14526, 15666], 285),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7890,6 +8604,7 @@ const PRODUCTS = [
   leather: leather([13158, 14673, 15885, 17097], 303),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7901,6 +8616,7 @@ const PRODUCTS = [
   leather: leather([12558, 14073, 15285, 16497], 303),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7912,6 +8628,7 @@ const PRODUCTS = [
   leather: leather([13758, 15453, 16809, 18165], 339),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 285, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7923,6 +8640,7 @@ const PRODUCTS = [
   leather: leather([14358, 16053, 17409, 18765], 339),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: null, seatFiberlux: null, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5801S_Front_3Qrt_NoBolster"],
 },
 
 {
@@ -7934,6 +8652,7 @@ const PRODUCTS = [
   leather: leather([12615, 14145, 15369, 16593], 306),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Detail_01"],
 },
 
 {
@@ -7945,6 +8664,7 @@ const PRODUCTS = [
   leather: leather([13515, 15225, 16593, 17961], 342),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Detail_01"],
 },
 
 {
@@ -7956,6 +8676,7 @@ const PRODUCTS = [
   leather: leather([9609, 10599, 11391, 12183], 198),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Detail_01"],
 },
 
 {
@@ -7967,6 +8688,7 @@ const PRODUCTS = [
   leather: leather([10455, 11610, 12534, 13458], 231),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Detail_01"],
 },
 
 {
@@ -7978,6 +8700,7 @@ const PRODUCTS = [
   leather: leather([11208, 12498, 13530, 14562], 258),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: null, contrastWeltLeather: null, topStitching: null, buttonedOption: null, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: 0, seatCrownSupport: 0, backComfort: 0, backComfortPlush: 0, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Detail_01"],
 },
 
 {
@@ -7989,6 +8712,7 @@ const PRODUCTS = [
   leather: leather([11862, 13257, 14373, 15489], 279),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Detail_01"],
 },
 
 {
@@ -8000,6 +8724,7 @@ const PRODUCTS = [
   leather: leather([11862, 13257, 14373, 15489], 279),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5806S_Detail_01"],
 },
 
 {
@@ -8011,6 +8736,7 @@ const PRODUCTS = [
   leather: leather([10209, 11199, 11991, 12783], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8022,6 +8748,7 @@ const PRODUCTS = [
   leather: leather([12309, 13749, 14901, 16053], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8033,6 +8760,7 @@ const PRODUCTS = [
   leather: leather([7920, 8820, 9540, 10260], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: 600, swivel360: 600, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1350, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 90, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8044,6 +8772,7 @@ const PRODUCTS = [
   leather: leather([9009, 9819, 10467, 11115], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8055,6 +8784,7 @@ const PRODUCTS = [
   leather: leather([9906, 10806, 11526, 12246], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8066,6 +8796,7 @@ const PRODUCTS = [
   leather: leather([8103, 8823, 9399, 9975], 144),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 105, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8077,6 +8808,7 @@ const PRODUCTS = [
   leather: leather([10506, 11406, 12126, 12846], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 390, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8088,6 +8820,7 @@ const PRODUCTS = [
   leather: leather([10506, 11406, 12126, 12846], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 390, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8099,6 +8832,7 @@ const PRODUCTS = [
   leather: leather([10506, 11406, 12126, 12846], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 390, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 120, seatFiberlux: 0, seatFirmSpringDown: 120, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8110,6 +8844,7 @@ const PRODUCTS = [
   leather: leather([10809, 11799, 12591, 13383], 198),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 90, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8121,6 +8856,7 @@ const PRODUCTS = [
   leather: leather([9906, 10806, 11526, 12246], 180),
   finishTiers: null,
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: null, blockFoot: null, casterLeg: null, plinthBase: null, seatComfort: 0, seatComfortPlush: 105, seatFiberlux: 0, seatFirmSpringDown: 90, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8132,6 +8868,7 @@ const PRODUCTS = [
   leather: leather([12009, 13269, 14277, 15285], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 330, buttonedOption: 375, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 525, seatComfort: 0, seatComfortPlush: 150, seatFiberlux: 0, seatFirmSpringDown: 150, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 165, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8143,6 +8880,7 @@ const PRODUCTS = [
   leather: leather([9909, 10899, 11691, 12483], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8154,6 +8892,7 @@ const PRODUCTS = [
   leather: leather([10473, 11643, 12579, 13515], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8165,6 +8904,7 @@ const PRODUCTS = [
   leather: leather([9006, 9906, 10626, 11346], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8176,6 +8916,7 @@ const PRODUCTS = [
   leather: leather([9909, 10899, 11691, 12483], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8187,6 +8928,7 @@ const PRODUCTS = [
   leather: leather([10473, 11643, 12579, 13515], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8198,6 +8940,7 @@ const PRODUCTS = [
   leather: leather([9006, 9906, 10626, 11346], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 240, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 240, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8209,6 +8952,7 @@ const PRODUCTS = [
   leather: leather([13812, 15162, 16242, 17322], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8220,6 +8964,7 @@ const PRODUCTS = [
   leather: leather([15015, 16545, 17769, 18993], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 675, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8231,6 +8976,7 @@ const PRODUCTS = [
   leather: leather([12909, 14169, 15177, 16185], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8242,6 +8988,7 @@ const PRODUCTS = [
   leather: leather([13209, 14469, 15477, 16485], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 9, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8253,6 +9000,7 @@ const PRODUCTS = [
   leather: leather([14112, 15462, 16542, 17622], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8264,6 +9012,7 @@ const PRODUCTS = [
   leather: leather([12312, 13482, 14418, 15354], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 9, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8275,6 +9024,7 @@ const PRODUCTS = [
   leather: leather([13209, 14469, 15477, 16485], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8286,6 +9036,7 @@ const PRODUCTS = [
   leather: leather([14112, 15462, 16542, 17622], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 120, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8297,6 +9048,7 @@ const PRODUCTS = [
   leather: leather([12312, 13482, 14418, 15354], 234),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8308,6 +9060,7 @@ const PRODUCTS = [
   leather: leather([13515, 15045, 16269, 17493], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 675, topStitching: 240, buttonedOption: 450, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 450, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8319,6 +9072,7 @@ const PRODUCTS = [
   leather: leather([15015, 16545, 17769, 18993], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8330,6 +9084,7 @@ const PRODUCTS = [
   leather: leather([15912, 17532, 18828, 20124], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8341,6 +9096,7 @@ const PRODUCTS = [
   leather: leather([14109, 15549, 16701, 17853], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 375, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8352,6 +9108,7 @@ const PRODUCTS = [
   leather: leather([14109, 15549, 16701, 17853], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8363,6 +9120,7 @@ const PRODUCTS = [
   leather: leather([15015, 16545, 17769, 18993], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8374,6 +9132,7 @@ const PRODUCTS = [
   leather: leather([12306, 13386, 14250, 15114], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 135, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8385,6 +9144,7 @@ const PRODUCTS = [
   leather: leather([15012, 16632, 17928, 19224], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8396,6 +9156,7 @@ const PRODUCTS = [
   leather: leather([15915, 17625, 18993, 20361], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8407,6 +9168,7 @@ const PRODUCTS = [
   leather: leather([14115, 15645, 16869, 18093], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8418,6 +9180,7 @@ const PRODUCTS = [
   leather: leather([15012, 16632, 17928, 19224], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8429,6 +9192,7 @@ const PRODUCTS = [
   leather: leather([15915, 17625, 18993, 20361], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8440,6 +9204,7 @@ const PRODUCTS = [
   leather: leather([14115, 15645, 16869, 18093], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 315, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 705, topStitching: 330, buttonedOption: 600, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 600, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8451,6 +9216,7 @@ const PRODUCTS = [
   leather: leather([7056, 7686, 8190, 8694], 126),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 150, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8462,6 +9228,7 @@ const PRODUCTS = [
   leather: leather([7953, 8673, 9249, 9825], 144),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 225, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8473,6 +9240,7 @@ const PRODUCTS = [
   leather: leather([6153, 6693, 7125, 7557], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 150, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8484,6 +9252,7 @@ const PRODUCTS = [
   leather: leather([7059, 7869, 8517, 9165], 162),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8495,6 +9264,7 @@ const PRODUCTS = [
   leather: leather([7956, 8856, 9576, 10296], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8506,6 +9276,7 @@ const PRODUCTS = [
   leather: leather([4650, 5010, 5298, 5586], 72),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: null, selfDeckingCom: null, contrastWeltFabric: 135, contrastWeltLeather: 180, topStitching: 150, buttonedOption: 300, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 375, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: null, seatCrown: null, seatCrownSupport: null, backComfort: null, backComfortPlush: null, backComfortUltraplush: null, backFiberlux: null, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8517,6 +9288,7 @@ const PRODUCTS = [
   leather: leather([16812, 18612, 20052, 21492], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8528,6 +9300,7 @@ const PRODUCTS = [
   leather: leather([17718, 19608, 21120, 22632], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8539,6 +9312,7 @@ const PRODUCTS = [
   leather: leather([14388, 16098, 17466, 18834], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 2550, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8550,6 +9324,7 @@ const PRODUCTS = [
   leather: leather([18417, 20337, 21873, 23409], 384),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8561,6 +9336,7 @@ const PRODUCTS = [
   leather: leather([15612, 17232, 18528, 19824], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8572,6 +9348,7 @@ const PRODUCTS = [
   leather: leather([16812, 18612, 20052, 21492], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8583,6 +9360,7 @@ const PRODUCTS = [
   leather: leather([17661, 19536, 21036, 22536], 375),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8594,6 +9372,7 @@ const PRODUCTS = [
   leather: leather([14862, 16437, 17697, 18957], 315),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: null, throwComfortUltraplush: null, throwFiberlux: null },
+  images: [],
 },
 
 {
@@ -8605,6 +9384,7 @@ const PRODUCTS = [
   leather: leather([20268, 22608, 24480, 26352], 468),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8616,6 +9396,7 @@ const PRODUCTS = [
   leather: leather([19371, 21621, 23421, 25221], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8627,6 +9408,7 @@ const PRODUCTS = [
   leather: leather([18168, 20238, 21894, 23550], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8638,6 +9420,7 @@ const PRODUCTS = [
   leather: leather([20268, 22608, 24480, 26352], 468),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8649,6 +9432,7 @@ const PRODUCTS = [
   leather: leather([19371, 21621, 23421, 25221], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8660,6 +9444,7 @@ const PRODUCTS = [
   leather: leather([18168, 20238, 21894, 23550], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8671,6 +9456,7 @@ const PRODUCTS = [
   leather: leather([19968, 22038, 23694, 25350], 414),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 405, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1050, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8682,6 +9468,7 @@ const PRODUCTS = [
   leather: leather([18768, 20658, 22170, 23682], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 405, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1050, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8693,6 +9480,7 @@ const PRODUCTS = [
   leather: leather([18768, 20658, 22170, 23682], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8704,6 +9492,7 @@ const PRODUCTS = [
   leather: leather([16365, 18075, 19443, 20811], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8715,6 +9504,7 @@ const PRODUCTS = [
   leather: leather([17262, 19062, 20502, 21942], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8726,6 +9516,7 @@ const PRODUCTS = [
   leather: leather([17862, 19662, 21102, 22542], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8737,6 +9528,7 @@ const PRODUCTS = [
   leather: leather([15462, 17082, 18378, 19674], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8748,6 +9540,7 @@ const PRODUCTS = [
   leather: leather([18768, 20658, 22170, 23682], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8759,6 +9552,7 @@ const PRODUCTS = [
   leather: leather([16365, 18075, 19443, 20811], 342),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8770,6 +9564,7 @@ const PRODUCTS = [
   leather: leather([17262, 19062, 20502, 21942], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8781,6 +9576,7 @@ const PRODUCTS = [
   leather: leather([17862, 19662, 21102, 22542], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8792,6 +9588,7 @@ const PRODUCTS = [
   leather: leather([15462, 17082, 18378, 19674], 324),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 390, selfDeckingCom: 0, contrastWeltFabric: 165, contrastWeltLeather: 855, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 750, seatComfort: 0, seatComfortPlush: 300, seatFiberlux: 0, seatFirmSpringDown: 300, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 300, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8803,6 +9600,7 @@ const PRODUCTS = [
   leather: leather([19665, 21825, 23553, 25281], 432),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 255, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 375, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1050, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8814,6 +9612,7 @@ const PRODUCTS = [
   leather: leather([18168, 20058, 21570, 23082], 378),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: { swivel180: null, swivel360: null, selfDeckingFabric: 255, selfDeckingCom: 0, contrastWeltFabric: 150, contrastWeltLeather: 375, topStitching: 450, buttonedOption: 1200, tallTaperedFoot: 300, blockFoot: 600, casterLeg: 240, plinthBase: 1050, seatComfort: 0, seatComfortPlush: 210, seatFiberlux: 0, seatFirmSpringDown: 210, seatCrown: null, seatCrownSupport: null, backComfort: 0, backComfortPlush: null, backComfortUltraplush: 210, backFiberlux: 0, throwComfortPlush: 0, throwComfortUltraplush: 90, throwFiberlux: 0 },
+  images: [],
 },
 
 {
@@ -8825,6 +9624,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -8836,6 +9636,7 @@ const PRODUCTS = [
   leather: leather([9120, 10020, 10740, 11460], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8847,6 +9648,7 @@ const PRODUCTS = [
   leather: leather([5712, 6252, 6684, 7116], 108),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8858,6 +9660,7 @@ const PRODUCTS = [
   leather: leather([7170, 8070, 8790, 9510], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8869,6 +9672,7 @@ const PRODUCTS = [
   leather: leather([8520, 9420, 10140, 10860], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8880,6 +9684,7 @@ const PRODUCTS = [
   leather: leather([15366, 16836, 18012, 19188], 294),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8891,6 +9696,7 @@ const PRODUCTS = [
   leather: leather([17124, 18954, 20418, 21882], 366),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8902,6 +9708,7 @@ const PRODUCTS = [
   leather: leather([9852, 10692, 11364, 12036], 168),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8913,6 +9720,7 @@ const PRODUCTS = [
   leather: leather([11736, 12981, 13977, 14973], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8924,6 +9732,7 @@ const PRODUCTS = [
   leather: leather([12000, 13125, 14025, 14925], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8935,6 +9744,7 @@ const PRODUCTS = [
   leather: leather([14244, 15849, 17133, 18417], 321),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8946,6 +9756,7 @@ const PRODUCTS = [
   leather: leather([12000, 13125, 14025, 14925], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8957,6 +9768,7 @@ const PRODUCTS = [
   leather: leather([14244, 15849, 17133, 18417], 321),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8968,6 +9780,7 @@ const PRODUCTS = [
   leather: leather([9120, 10020, 10740, 11460], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8979,6 +9792,7 @@ const PRODUCTS = [
   leather: leather([18396, 20091, 21447, 22803], 339),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -8990,6 +9804,7 @@ const PRODUCTS = [
   leather: leather([21150, 23400, 25200, 27000], 450),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9001,6 +9816,7 @@ const PRODUCTS = [
   leather: leather([18540, 20340, 21780, 23220], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9012,6 +9828,7 @@ const PRODUCTS = [
   leather: leather([20976, 23271, 25107, 26943], 459),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9023,6 +9840,7 @@ const PRODUCTS = [
   leather: leather([18540, 20340, 21780, 23220], 360),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9034,6 +9852,7 @@ const PRODUCTS = [
   leather: leather([20976, 23271, 25107, 26943], 459),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9045,6 +9864,7 @@ const PRODUCTS = [
   leather: leather([22782, 24972, 26724, 28476], 438),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9056,6 +9876,7 @@ const PRODUCTS = [
   leather: leather([26064, 28944, 31248, 33552], 576),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9067,6 +9888,7 @@ const PRODUCTS = [
   leather: leather([15132, 16572, 17724, 18876], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9078,6 +9900,7 @@ const PRODUCTS = [
   leather: leather([18330, 20430, 22110, 23790], 420),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9089,6 +9912,7 @@ const PRODUCTS = [
   leather: leather([15132, 16572, 17724, 18876], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9100,6 +9924,7 @@ const PRODUCTS = [
   leather: leather([18330, 20430, 22110, 23790], 420),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9111,6 +9936,7 @@ const PRODUCTS = [
   leather: leather([9330, 10305, 11085, 11865], 195),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9122,6 +9948,7 @@ const PRODUCTS = [
   leather: leather([8778, 9663, 10371, 11079], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9133,6 +9960,7 @@ const PRODUCTS = [
   leather: leather([8778, 9663, 10371, 11079], 177),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9144,6 +9972,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9155,6 +9984,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9166,6 +9996,7 @@ const PRODUCTS = [
   leather: leather([10359, 11394, 12222, 13050], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2900_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2900_Detail"],
 },
 
 {
@@ -9177,6 +10008,7 @@ const PRODUCTS = [
   leather: leather([10359, 11394, 12222, 13050], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2900_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2900_Detail"],
 },
 
 {
@@ -9188,6 +10020,7 @@ const PRODUCTS = [
   leather: leather([9762, 10707, 11463, 12219], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2900_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2900_Detail"],
 },
 
 {
@@ -9199,6 +10032,7 @@ const PRODUCTS = [
   leather: leather([11706, 12786, 13650, 14514], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2901_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2901_Detail"],
 },
 
 {
@@ -9210,6 +10044,7 @@ const PRODUCTS = [
   leather: leather([11706, 12786, 13650, 14514], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2901_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2901_Detail"],
 },
 
 {
@@ -9221,6 +10056,7 @@ const PRODUCTS = [
   leather: leather([11109, 12099, 12891, 13683], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2901_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2901_Detail"],
 },
 
 {
@@ -9232,6 +10068,7 @@ const PRODUCTS = [
   leather: leather([10359, 11394, 12222, 13050], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2902_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2902_Detail"],
 },
 
 {
@@ -9243,6 +10080,7 @@ const PRODUCTS = [
   leather: leather([10359, 11394, 12222, 13050], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2902_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2902_Detail"],
 },
 
 {
@@ -9254,6 +10092,7 @@ const PRODUCTS = [
   leather: leather([9762, 10707, 11463, 12219], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2902_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2902_Detail"],
 },
 
 {
@@ -9265,6 +10104,7 @@ const PRODUCTS = [
   leather: leather([11706, 12786, 13650, 14514], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2903_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2903_Detail"],
 },
 
 {
@@ -9276,6 +10116,7 @@ const PRODUCTS = [
   leather: leather([11706, 12786, 13650, 14514], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2903_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2903_Detail"],
 },
 
 {
@@ -9287,6 +10128,7 @@ const PRODUCTS = [
   leather: leather([11109, 12099, 12891, 13683], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2903_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2903_Detail"],
 },
 
 {
@@ -9298,6 +10140,7 @@ const PRODUCTS = [
   leather: leather([12162, 13287, 14187, 15087], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2905_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2905_Detail"],
 },
 
 {
@@ -9309,6 +10152,7 @@ const PRODUCTS = [
   leather: leather([12162, 13287, 14187, 15087], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2905_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2905_Detail"],
 },
 
 {
@@ -9320,6 +10164,7 @@ const PRODUCTS = [
   leather: leather([11559, 12594, 13422, 14250], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2905_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2905_Detail"],
 },
 
 {
@@ -9331,6 +10176,7 @@ const PRODUCTS = [
   leather: leather([12555, 13710, 14634, 15558], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2906_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2906_Detail"],
 },
 
 {
@@ -9342,6 +10188,7 @@ const PRODUCTS = [
   leather: leather([12555, 13710, 14634, 15558], 231),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2906_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2906_Detail"],
 },
 
 {
@@ -9353,6 +10200,7 @@ const PRODUCTS = [
   leather: leather([11859, 12894, 13722, 14550], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2906_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2906_Detail"],
 },
 
 {
@@ -9364,6 +10212,7 @@ const PRODUCTS = [
   leather: leather([12711, 13911, 14871, 15831], 240),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2908_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2908_Detail"],
 },
 
 {
@@ -9375,6 +10224,7 @@ const PRODUCTS = [
   leather: leather([12306, 13386, 14250, 15114], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2908_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2908_Detail"],
 },
 
 {
@@ -9386,6 +10236,7 @@ const PRODUCTS = [
   leather: leather([11709, 12699, 13491, 14283], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2908_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2908_Detail"],
 },
 
 {
@@ -9397,6 +10248,7 @@ const PRODUCTS = [
   leather: leather([10206, 11286, 12150, 13014], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2910_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2910_Detail"],
 },
 
 {
@@ -9408,6 +10260,7 @@ const PRODUCTS = [
   leather: leather([10206, 11286, 12150, 13014], 216),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2910_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2910_Detail"],
 },
 
 {
@@ -9419,6 +10272,7 @@ const PRODUCTS = [
   leather: leather([9609, 10599, 11391, 12183], 198),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2910_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2910_Detail"],
 },
 
 {
@@ -9430,6 +10284,7 @@ const PRODUCTS = [
   leather: leather([12612, 13962, 15042, 16122], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2911_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2911_Detail"],
 },
 
 {
@@ -9441,6 +10296,7 @@ const PRODUCTS = [
   leather: leather([12612, 13962, 15042, 16122], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2911_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2911_Detail"],
 },
 
 {
@@ -9452,6 +10308,7 @@ const PRODUCTS = [
   leather: leather([12108, 13398, 14430, 15462], 258),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2911_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2911_Detail"],
 },
 
 {
@@ -9463,6 +10320,7 @@ const PRODUCTS = [
   leather: leather([11358, 12603, 13599, 14595], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2914_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2914_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2914_Detail"],
 },
 
 {
@@ -9474,6 +10332,7 @@ const PRODUCTS = [
   leather: leather([11358, 12603, 13599, 14595], 249),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2914_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2914_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2914_Detail"],
 },
 
 {
@@ -9485,6 +10344,7 @@ const PRODUCTS = [
   leather: leather([10662, 11787, 12687, 13587], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2914_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2914_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2914_Detail"],
 },
 
 {
@@ -9496,6 +10356,7 @@ const PRODUCTS = [
   leather: leather([13809, 15069, 16077, 17085], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2915_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2915_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2915_Detail"],
 },
 
 {
@@ -9507,6 +10368,7 @@ const PRODUCTS = [
   leather: leather([13809, 15069, 16077, 17085], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2915_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2915_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2915_Detail"],
 },
 
 {
@@ -9518,6 +10380,7 @@ const PRODUCTS = [
   leather: leather([13311, 14511, 15471, 16431], 240),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2915_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2915_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2915_Detail"],
 },
 
 {
@@ -9529,6 +10392,7 @@ const PRODUCTS = [
   leather: leather([10206, 11106, 11826, 12546], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2918_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2918_Detail"],
 },
 
 {
@@ -9540,6 +10404,7 @@ const PRODUCTS = [
   leather: leather([10206, 11106, 11826, 12546], 180),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2918_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2918_Detail"],
 },
 
 {
@@ -9551,6 +10416,7 @@ const PRODUCTS = [
   leather: leather([9552, 10347, 10983, 11619], 159),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2918_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2918_Detail"],
 },
 
 {
@@ -9562,6 +10428,7 @@ const PRODUCTS = [
   leather: leather([12162, 13107, 13863, 14619], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2919_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2919_Detail"],
 },
 
 {
@@ -9573,6 +10440,7 @@ const PRODUCTS = [
   leather: leather([12162, 13107, 13863, 14619], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2919_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2919_Detail"],
 },
 
 {
@@ -9584,6 +10452,7 @@ const PRODUCTS = [
   leather: leather([11862, 12807, 13563, 14319], 189),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2919_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2919_Detail"],
 },
 
 {
@@ -9595,6 +10464,7 @@ const PRODUCTS = [
   leather: leather([13212, 14562, 15642, 16722], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2920_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2920_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2920_Detail"],
 },
 
 {
@@ -9606,6 +10476,7 @@ const PRODUCTS = [
   leather: leather([13212, 14562, 15642, 16722], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2920_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2920_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2920_Detail"],
 },
 
 {
@@ -9617,6 +10488,7 @@ const PRODUCTS = [
   leather: leather([12609, 13869, 14877, 15885], 252),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2920_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2920_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2920_Detail"],
 },
 
 {
@@ -9628,6 +10500,7 @@ const PRODUCTS = [
   leather: leather([15915, 17445, 18669, 19893], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2921_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2921_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2921_Detail"],
 },
 
 {
@@ -9639,6 +10512,7 @@ const PRODUCTS = [
   leather: leather([15915, 17445, 18669, 19893], 306),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2921_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2921_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2921_Detail"],
 },
 
 {
@@ -9650,6 +10524,7 @@ const PRODUCTS = [
   leather: leather([15309, 16749, 17901, 19053], 288),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2921_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2921_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2921_Detail"],
 },
 
 {
@@ -9661,6 +10536,7 @@ const PRODUCTS = [
   leather: leather([15162, 16557, 17673, 18789], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2922_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2922_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2922_Detail"],
 },
 
 {
@@ -9672,6 +10548,7 @@ const PRODUCTS = [
   leather: leather([15162, 16557, 17673, 18789], 279),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2922_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2922_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2922_Detail"],
 },
 
 {
@@ -9683,6 +10560,7 @@ const PRODUCTS = [
   leather: leather([14712, 16062, 17142, 18222], 270),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2922_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2922_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2922_Detail"],
 },
 
 {
@@ -9694,6 +10572,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -9705,6 +10584,7 @@ const PRODUCTS = [
   leather: leather([4503, 4773, 4989, 5205], 54),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -9716,6 +10596,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -9727,6 +10608,7 @@ const PRODUCTS = [
   leather: leather([8373, 8553, 8697, 8841], 36),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9738,6 +10620,7 @@ const PRODUCTS = [
   leather: leather([27105, 28260, 29184, 30108], 231),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9749,6 +10632,7 @@ const PRODUCTS = [
   leather: leather([28899, 30159, 31167, 32175], 252),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9760,6 +10644,7 @@ const PRODUCTS = [
   leather: leather([24282, 25227, 25983, 26739], 189),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9771,6 +10656,7 @@ const PRODUCTS = [
   leather: leather([27786, 28911, 29811, 30711], 225),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9782,6 +10668,7 @@ const PRODUCTS = [
   leather: leather([5217, 5487, 5703, 5919], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9793,6 +10680,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BA3353_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BA3353_Detail"],
 },
 
 {
@@ -9804,6 +10692,7 @@ const PRODUCTS = [
   leather: leather([4962, 5127, 5259, 5391], 33),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9815,6 +10704,7 @@ const PRODUCTS = [
   leather: leather([5712, 5877, 6009, 6141], 33),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9826,6 +10716,7 @@ const PRODUCTS = [
   leather: leather([3753, 4023, 4239, 4455], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9837,6 +10728,7 @@ const PRODUCTS = [
   leather: leather([6432, 6777, 7053, 7329], 69),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9848,6 +10740,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -9859,6 +10752,7 @@ const PRODUCTS = [
   leather: leather([25581, 26256, 26796, 27336], 135),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9870,6 +10764,7 @@ const PRODUCTS = [
   leather: leather([23400, 24030, 24534, 25038], 126),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9881,6 +10776,7 @@ const PRODUCTS = [
   leather: leather([24300, 24930, 25434, 25938], 126),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9892,6 +10788,7 @@ const PRODUCTS = [
   leather: leather([4614, 4884, 5100, 5316], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9903,6 +10800,7 @@ const PRODUCTS = [
   leather: leather([4500, 4680, 4824, 4968], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9914,6 +10812,7 @@ const PRODUCTS = [
   leather: leather([5850, 6030, 6174, 6318], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9925,6 +10824,7 @@ const PRODUCTS = [
   leather: leather([5700, 5880, 6024, 6168], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -9936,6 +10836,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -9947,6 +10848,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -9958,6 +10860,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -9969,6 +10872,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 600, tier3: 750, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1508_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1508_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1508_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1508_Detail_01"],
 },
 
 {
@@ -9980,6 +10884,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 450, tier3: 600, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1565_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1565_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1565_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1565_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1565_Front_3Qrt_Alt"],
 },
 
 {
@@ -9991,6 +10896,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 450, tier3: 600, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1566_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1566_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1566_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1566_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1566_Front_3Qrt_Alt"],
 },
 
 {
@@ -10002,6 +10908,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 900, tier3: 1050, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1586_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1586_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1586_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1586_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1586_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1586_Detail_03"],
 },
 
 {
@@ -10013,6 +10920,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 900, tier3: 1050, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1587_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1587_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1587_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1587_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1587_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1587_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1587_Detail_03"],
 },
 
 {
@@ -10024,6 +10932,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 900, tier3: 1050, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1588_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1588_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1588_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1588_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1588_Detail_01"],
 },
 
 {
@@ -10035,6 +10944,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 600, tier3: 750, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1590_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1590_Detail_01"],
 },
 
 {
@@ -10046,6 +10956,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 600, tier3: 750, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1592_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1592_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1592_Detail_01"],
 },
 
 {
@@ -10057,6 +10968,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1593_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1593_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1593_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1593_Detail_01"],
 },
 
 {
@@ -10068,6 +10980,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 975, tier3: 1575, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1595_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1595_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1595_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1595_Detail_01"],
 },
 
 {
@@ -10079,6 +10992,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 450, tier3: 600, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1597_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1597_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1597_Detail_01"],
 },
 
 {
@@ -10090,6 +11004,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 900, tier3: 1050, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1598_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1598_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA1598_Detail_01"],
 },
 
 {
@@ -10101,6 +11016,7 @@ const PRODUCTS = [
   leather: leather([3600, 3735, 3843, 3951], 27),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2043_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2043_DETAIL"],
 },
 
 {
@@ -10112,6 +11028,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2209", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2209_detail"],
 },
 
 {
@@ -10123,6 +11040,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/mirror_silo_QTR", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/mirror_detail"],
 },
 
 {
@@ -10134,6 +11052,7 @@ const PRODUCTS = [
   leather: leather([18759, 19569, 20217, 20865], 162),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2220_side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2220_detail"],
 },
 
 {
@@ -10145,6 +11064,7 @@ const PRODUCTS = [
   leather: leather([20238, 21048, 21696, 22344], 162),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2220_side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2220_detail"],
 },
 
 {
@@ -10156,6 +11076,7 @@ const PRODUCTS = [
   leather: leather([14094, 14949, 15633, 16317], 171),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2221QK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2221QK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2221QK_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2221QK_Detail_01"],
 },
 
 {
@@ -10167,6 +11088,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2229_front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2229_open"],
 },
 
 {
@@ -10178,6 +11100,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 300, tier3: 600, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2236_front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2236_detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2236_top"],
 },
 
 {
@@ -10189,6 +11112,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2238_detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2238_top"],
 },
 
 {
@@ -10200,6 +11124,7 @@ const PRODUCTS = [
   leather: leather([5553, 5868, 6120, 6372], 63),
   finishTiers: { tier1: 300, tier2: 555, tier3: 705, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2245_front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2245_side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2245_detail"],
 },
 
 {
@@ -10211,6 +11136,7 @@ const PRODUCTS = [
   leather: leather([6843, 7143, 7383, 7623], 60),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2247_front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2247_side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2247_detail_1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2247_detail_2"],
 },
 
 {
@@ -10222,6 +11148,7 @@ const PRODUCTS = [
   leather: leather([20406, 21486, 22350, 23214], 216),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2520K_FRONT"],
 },
 
 {
@@ -10233,6 +11160,7 @@ const PRODUCTS = [
   leather: leather([20106, 21186, 22050, 22914], 216),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2520K_FRONT"],
 },
 
 {
@@ -10244,6 +11172,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2537_DETAIL"],
 },
 
 {
@@ -10255,6 +11184,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2538_DETAIL"],
 },
 
 {
@@ -10266,6 +11196,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -10277,6 +11208,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2540_FRONT_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2540_DETAIL"],
 },
 
 {
@@ -10288,6 +11220,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2578_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA2578_DETAIL"],
 },
 
 {
@@ -10299,6 +11232,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3008_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3008_DETAIL"],
 },
 
 {
@@ -10310,6 +11244,7 @@ const PRODUCTS = [
   leather: leather([4500, 4680, 4824, 4968], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_WHITE_FRONT_3QRT"],
 },
 
 {
@@ -10321,6 +11256,7 @@ const PRODUCTS = [
   leather: leather([4401, 4581, 4725, 4869], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_WHITE_FRONT_3QRT"],
 },
 
 {
@@ -10332,6 +11268,7 @@ const PRODUCTS = [
   leather: leather([4827, 5052, 5232, 5412], 45),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_WHITE_FRONT_3QRT"],
 },
 
 {
@@ -10343,6 +11280,7 @@ const PRODUCTS = [
   leather: leather([5337, 5637, 5877, 6117], 60),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3016_WHITE_FRONT_3QRT"],
 },
 
 {
@@ -10354,6 +11292,7 @@ const PRODUCTS = [
   leather: leather([16608, 17673, 18525, 19377], 213),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3020_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3020_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3020_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3020_DETAIL"],
 },
 
 {
@@ -10365,6 +11304,7 @@ const PRODUCTS = [
   leather: leather([16002, 16977, 17757, 18537], 195),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3020_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3020_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3020_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3020_DETAIL"],
 },
 
 {
@@ -10376,6 +11316,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1755, tier2: 1950, tier3: 2100, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3036_OVAL_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3036_OVAL_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3036_RECT_DETAIL"],
 },
 
 {
@@ -10387,6 +11328,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1755, tier2: 1950, tier3: 2100, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3036_OVAL_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3036_OVAL_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3036_RECT_DETAIL"],
 },
 
 {
@@ -10398,6 +11340,7 @@ const PRODUCTS = [
   leather: leather([4902, 5202, 5442, 5682], 60),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -10409,6 +11352,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -10420,6 +11364,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3052_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3052_3QRT"],
 },
 
 {
@@ -10431,6 +11376,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 5400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3054_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3054_DETAIL"],
 },
 
 {
@@ -10442,6 +11388,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3064_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3064_OPEN", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3064_DETAIL"],
 },
 
 {
@@ -10453,6 +11400,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3065_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3065_DETAIL"],
 },
 
 {
@@ -10464,6 +11412,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3078_DETAIL"],
 },
 
 {
@@ -10475,6 +11424,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3096_FRONT"],
 },
 
 {
@@ -10486,6 +11436,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3098_FRONT"],
 },
 
 {
@@ -10497,6 +11448,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 900, tier3: 1200, tier4: 8250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3100_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3100_Front_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3100_Detail_01"],
 },
 
 {
@@ -10508,6 +11460,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 750, tier3: 1050, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3103_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3103_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3103_Detail_01"],
 },
 
 {
@@ -10519,6 +11472,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3108_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3108_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3108_Detail_01"],
 },
 
 {
@@ -10530,6 +11484,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3109_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3109_Detail_01"],
 },
 
 {
@@ -10541,6 +11496,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 5445, tier3: 6945, tier4: 8250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3120Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3120Q_K_CK_Detail_01"],
 },
 
 {
@@ -10552,6 +11508,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 2445, tier3: 3945, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3120Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3120Q_K_CK_Detail_01"],
 },
 
 {
@@ -10563,6 +11520,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3200_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3200_DETAIL"],
 },
 
 {
@@ -10574,6 +11532,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 2850, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3209_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3209_OPEN", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3209_DETAIL"],
 },
 
 {
@@ -10585,6 +11544,7 @@ const PRODUCTS = [
   leather: leather([11802, 12102, 12342, 12582], 60),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3216_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3216_DETAIL"],
 },
 
 {
@@ -10596,6 +11556,7 @@ const PRODUCTS = [
   leather: leather([5049, 5214, 5346, 5478], 33),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3218_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3219_DETAIL"],
 },
 
 {
@@ -10607,6 +11568,7 @@ const PRODUCTS = [
   leather: leather([7893, 8103, 8271, 8439], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3219_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3219_DETAIL"],
 },
 
 {
@@ -10618,6 +11580,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3220_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3220_DETAIL"],
 },
 
 {
@@ -10629,6 +11592,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3220_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3220_DETAIL"],
 },
 
 {
@@ -10640,6 +11604,7 @@ const PRODUCTS = [
   leather: leather([20859, 21624, 22236, 22848], 153),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3221_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3221_DETAIL"],
 },
 
 {
@@ -10651,6 +11616,7 @@ const PRODUCTS = [
   leather: leather([20859, 21624, 22236, 22848], 153),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3221_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3221_DETAIL"],
 },
 
 {
@@ -10662,6 +11628,7 @@ const PRODUCTS = [
   leather: leather([20559, 21324, 21936, 22548], 153),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3221_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3221_DETAIL"],
 },
 
 {
@@ -10673,6 +11640,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3229_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3229_OPEN", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3229_DETAIL"],
 },
 
 {
@@ -10684,6 +11652,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3231_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3231_OPEN", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3231_DETAIL"],
 },
 
 {
@@ -10695,6 +11664,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3237_DETAIL"],
 },
 
 {
@@ -10706,6 +11676,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3237_DETAIL"],
 },
 
 {
@@ -10717,6 +11688,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3238_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3238_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3238_DETAIL"],
 },
 
 {
@@ -10728,6 +11700,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3239_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3239_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3239_DETAIL"],
 },
 
 {
@@ -10739,6 +11712,7 @@ const PRODUCTS = [
   leather: leather([4056, 4281, 4461, 4641], 45),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3241_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3241_DETAIL"],
 },
 
 {
@@ -10750,6 +11724,7 @@ const PRODUCTS = [
   leather: leather([4893, 5103, 5271, 5439], 42),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3242_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3242_BACK", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3242_DETAIL"],
 },
 
 {
@@ -10761,6 +11736,7 @@ const PRODUCTS = [
   leather: leather([5469, 5694, 5874, 6054], 45),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3245_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3245_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3245_DETAIL"],
 },
 
 {
@@ -10772,6 +11748,7 @@ const PRODUCTS = [
   leather: leather([5253, 5343, 5415, 5487], 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3248_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3248_DETAIL"],
 },
 
 {
@@ -10783,6 +11760,7 @@ const PRODUCTS = [
   leather: leather([5553, 5643, 5715, 5787], 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3249_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3248_DETAIL"],
 },
 
 {
@@ -10794,6 +11772,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3253_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3253_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3253_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3253_DETAIL01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3253_DETAIL02"],
 },
 
 {
@@ -10805,6 +11784,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -10816,6 +11796,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3264_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3264_DETAIL"],
 },
 
 {
@@ -10827,6 +11808,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3274_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3274_Front_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3274_Detail"],
 },
 
 {
@@ -10838,6 +11820,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3275_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3275_OPEN", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3275_DETAIL"],
 },
 
 {
@@ -10849,6 +11832,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3408_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3408_Detail"],
 },
 
 {
@@ -10860,6 +11844,7 @@ const PRODUCTS = [
   leather: leather([15168, 17013, 18489, 19965], 369),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3420K_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3420K_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3420K_Detail_02"],
 },
 
 {
@@ -10871,6 +11856,7 @@ const PRODUCTS = [
   leather: leather([14964, 16749, 18177, 19605], 357),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3420K_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3420K_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3420K_Detail_02"],
 },
 
 {
@@ -10882,6 +11868,7 @@ const PRODUCTS = [
   leather: leather([13065, 14370, 15414, 16458], 261),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3420K_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3420K_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3420K_Detail_02"],
 },
 
 {
@@ -10893,6 +11880,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 360, tier2: 600, tier3: 900, tier4: 2700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3436_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3436_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3436_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3436_60inch_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3436_60inch_Top"],
 },
 
 {
@@ -10904,6 +11892,7 @@ const PRODUCTS = [
   leather: leather([6303, 6573, 6789, 7005], 54),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3446_SculpturalBronze_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3446_BlackenedBronze_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3446_SculpturalBronze_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3446_BlackenedBronze_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3446_SculpturalBronze_Detail"],
 },
 
 {
@@ -10915,6 +11904,7 @@ const PRODUCTS = [
   leather: leather([6597, 6867, 7083, 7299], 54),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3449_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3449_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3449_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3449_Detail"],
 },
 
 {
@@ -10926,6 +11916,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3456_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3456_Detail"],
 },
 
 {
@@ -10937,6 +11928,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 225, tier2: 375, tier3: 525, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3458_Detail_Alt"],
 },
 
 {
@@ -10948,6 +11940,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3462_Detail_Alt"],
 },
 
 {
@@ -10959,6 +11952,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -10970,6 +11964,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3750_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3750_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3750_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3750_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3750_Paired_1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3750_Paired_2"],
 },
 
 {
@@ -10981,6 +11976,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3753_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3758_Detail"],
 },
 
 {
@@ -10992,6 +11988,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3758_Front"],
 },
 
 {
@@ -11003,6 +12000,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3760_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3760_Detail"],
 },
 
 {
@@ -11014,6 +12012,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3761_Detail"],
 },
 
 {
@@ -11025,6 +12024,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3762_Detail"],
 },
 
 {
@@ -11036,6 +12036,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3778_Detail"],
 },
 
 {
@@ -11047,6 +12048,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3904_FRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3904_FRT_OPEN", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3904_DET"],
 },
 
 {
@@ -11058,6 +12060,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3908-OBS_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3908-OBS_Detail"],
 },
 
 {
@@ -11069,6 +12072,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3912_Front_3Qrt_Reshoot", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3912_Detail_Reshoot"],
 },
 
 {
@@ -11080,6 +12084,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3914_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3914_Detail"],
 },
 
 {
@@ -11091,6 +12096,7 @@ const PRODUCTS = [
   leather: leather([15153, 16413, 17421, 18429], 252),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3922Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3922Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3922Q_K_CK_Detail"],
 },
 
 {
@@ -11102,6 +12108,7 @@ const PRODUCTS = [
   leather: leather([15159, 16419, 17427, 18435], 252),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3922Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3922Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3922Q_K_CK_Detail"],
 },
 
 {
@@ -11113,6 +12120,7 @@ const PRODUCTS = [
   leather: leather([14406, 15531, 16431, 17331], 225),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3922Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3922Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3922Q_K_CK_Detail"],
 },
 
 {
@@ -11124,6 +12132,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3935_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3935_DET"],
 },
 
 {
@@ -11135,6 +12144,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1050, tier2: 1200, tier3: 1350, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3936-STW_DET", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3936-FRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3936-TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3936-OBS_DET"],
 },
 
 {
@@ -11146,6 +12156,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3938_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3938_DET"],
 },
 
 {
@@ -11157,6 +12168,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3939_TOP"],
 },
 
 {
@@ -11168,6 +12180,7 @@ const PRODUCTS = [
   leather: leather([5400, 5580, 5724, 5868], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3942-OBS_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3942-OBS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3942-OBS_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3942-OBS_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3942-OBS_Detail_01"],
 },
 
 {
@@ -11179,6 +12192,7 @@ const PRODUCTS = [
   leather: leather([6153, 6468, 6720, 6972], 63),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3943-OBS_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3943-OBS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3943-OBS_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3943-OBS_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3943-OBS_Detail_01"],
 },
 
 {
@@ -11190,6 +12204,7 @@ const PRODUCTS = [
   leather: leather([7200, 7380, 7524, 7668], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3946_Straw_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3946_Straw_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3946_Straw_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3946_Straw_Detail"],
 },
 
 {
@@ -11201,6 +12216,7 @@ const PRODUCTS = [
   leather: leather([8646, 8901, 9105, 9309], 51),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3947_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3947_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3947_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3947_Detail"],
 },
 
 {
@@ -11212,6 +12228,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3950_DET"],
 },
 
 {
@@ -11223,6 +12240,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3952_FRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3952_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3952_DET"],
 },
 
 {
@@ -11234,6 +12252,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3954-OBS_DET"],
 },
 
 {
@@ -11245,6 +12264,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3956_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3956_Detail"],
 },
 
 {
@@ -11256,6 +12276,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3958-Straw_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3958-Straw_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3958-OBS_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3958-OBS_Detail"],
 },
 
 {
@@ -11267,6 +12288,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3960_DET", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3960_DET2"],
 },
 
 {
@@ -11278,6 +12300,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3962-Straw_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3962-OBS_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3962-OBS_Detail"],
 },
 
 {
@@ -11289,6 +12312,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1950, tier3: 2400, tier4: 5700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3973_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3973_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3973_Detail"],
 },
 
 {
@@ -11300,6 +12324,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1950, tier3: 2400, tier4: 5700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3975_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3975-OBS_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3975-OBS_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3975-Straw_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3975-Straw_Side"],
 },
 
 {
@@ -11311,6 +12336,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3977-OBS_Open"],
 },
 
 {
@@ -11322,6 +12348,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3978-OBS_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3978-OBS_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3978-OBS_Detail"],
 },
 
 {
@@ -11333,6 +12360,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3982_Detail"],
 },
 
 {
@@ -11344,6 +12372,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3984_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3984_Detail"],
 },
 
 {
@@ -11355,6 +12384,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1125, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3985-Straw_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3985-OBS_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3985-OBS_Detail"],
 },
 
 {
@@ -11366,6 +12396,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1800, tier2: 1950, tier3: 2100, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3992-Straw_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3992-OBS_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3992_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA3992-Straw_Detail"],
 },
 
 {
@@ -11377,6 +12408,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4303_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4303_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4303_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4303_Detail"],
 },
 
 {
@@ -11388,6 +12420,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4311_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4311_Detail"],
 },
 
 {
@@ -11399,6 +12432,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4312_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4312_Detail"],
 },
 
 {
@@ -11410,6 +12444,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4314_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4314_Detail"],
 },
 
 {
@@ -11421,6 +12456,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4315_Detail"],
 },
 
 {
@@ -11432,6 +12468,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4316_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4316_Detail"],
 },
 
 {
@@ -11443,6 +12480,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4317_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4317_Detail"],
 },
 
 {
@@ -11454,6 +12492,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4318_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4318_Detail"],
 },
 
 {
@@ -11465,6 +12504,7 @@ const PRODUCTS = [
   leather: leather([12312, 13482, 14418, 15354], 234),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4320Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4320Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4320Q_K_CK_Detail"],
 },
 
 {
@@ -11476,6 +12516,7 @@ const PRODUCTS = [
   leather: leather([12615, 14145, 15369, 16593], 306),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4320Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4320Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4320Q_K_CK_Detail"],
 },
 
 {
@@ -11487,6 +12528,7 @@ const PRODUCTS = [
   leather: leather([10806, 11886, 12750, 13614], 216),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4320Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4320Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4320Q_K_CK_Detail"],
 },
 
 {
@@ -11498,6 +12540,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 360, tier2: 600, tier3: 900, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4337_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4338_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4337_Detail"],
 },
 
 {
@@ -11509,6 +12552,7 @@ const PRODUCTS = [
   leather: leather([4503, 4593, 4665, 4737], 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4349_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4349_Front"],
 },
 
 {
@@ -11520,6 +12564,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4354_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4354_Detail"],
 },
 
 {
@@ -11531,6 +12576,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4355_Detail"],
 },
 
 {
@@ -11542,6 +12588,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4356_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4356_Detail"],
 },
 
 {
@@ -11553,6 +12600,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4357_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4357_Detail"],
 },
 
 {
@@ -11564,6 +12612,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4358_Detail"],
 },
 
 {
@@ -11575,6 +12624,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4360_BAA4361_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4360_BAA4361_Detail_01"],
 },
 
 {
@@ -11586,6 +12636,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4364_Detail"],
 },
 
 {
@@ -11597,6 +12648,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4365_Detail"],
 },
 
 {
@@ -11608,6 +12660,7 @@ const PRODUCTS = [
   leather: leather([7050, 7455, 7779, 8103], 81),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4368_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4368_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4368_Detail"],
 },
 
 {
@@ -11619,6 +12672,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4373_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4373_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4373_Detail"],
 },
 
 {
@@ -11630,6 +12684,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4378_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4378_Detail"],
 },
 
 {
@@ -11641,6 +12696,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4379_Detail"],
 },
 
 {
@@ -11652,6 +12708,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA380_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4380_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4380_Detail"],
 },
 
 {
@@ -11663,6 +12720,7 @@ const PRODUCTS = [
   leather: leather([6456, 6861, 7185, 7509], 81),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4381_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4381_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4381_Detail"],
 },
 
 {
@@ -11674,6 +12732,7 @@ const PRODUCTS = [
   leather: leather([6756, 7161, 7485, 7809], 81),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4382_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4382_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4382_Detail"],
 },
 
 {
@@ -11685,6 +12744,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4387_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4387_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4387_Detail"],
 },
 
 {
@@ -11696,6 +12756,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4397_BAA4398_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4397_BAA4398_Detail_01"],
 },
 
 {
@@ -11707,6 +12768,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4563_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4563_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4563_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4563_Degtail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4563_Front_3Qrt_Alt"],
 },
 
 {
@@ -11718,6 +12780,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4564_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4564_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4564_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4564_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4564_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4564_Detail_02"],
 },
 
 {
@@ -11729,6 +12792,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4565_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4565_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4565_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4565_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4565_Front_3Qrt_Alt"],
 },
 
 {
@@ -11740,6 +12804,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4566_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4566_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4566_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4566_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4566_Front_3Qrt_Alt"],
 },
 
 {
@@ -11751,6 +12816,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4586_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4586_Back_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4586_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4586_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4586_BAA4588_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4586_BAA4588_Detail_02"],
 },
 
 {
@@ -11762,6 +12828,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4587_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4587_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4587_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4587_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4587_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4587_Detail_03", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4587_Front_3Qrt_Alt"],
 },
 
 {
@@ -11773,6 +12840,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4588_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4588_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4588_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4588_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4588_Detail_03", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4588_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4586_BAA4588_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4586_BAA4588_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4588_Detail_02"],
 },
 
 {
@@ -11784,6 +12852,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4590_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4590_Detail_01"],
 },
 
 {
@@ -11795,6 +12864,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4592_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4592_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4592_Detail_01"],
 },
 
 {
@@ -11806,6 +12876,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4593_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4593_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4593_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4593_Detail_01"],
 },
 
 {
@@ -11817,6 +12888,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4595_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4595_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4595_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4595_Detail_01"],
 },
 
 {
@@ -11828,6 +12900,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4597_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4597_Detail_01"],
 },
 
 {
@@ -11839,6 +12912,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4598_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4598_Detail_01"],
 },
 
 {
@@ -11850,6 +12924,7 @@ const PRODUCTS = [
   leather: leather([6981, 7146, 7278, 7410], 33),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4609_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4609_BACK", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4609_Front_Open_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4609_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4609_Detail_02"],
 },
 
 {
@@ -11861,6 +12936,7 @@ const PRODUCTS = [
   leather: leather([6249, 6414, 6546, 6678], 33),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4617_Front_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4617_Side_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4617_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4617_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4617_Detail_01_Alt"],
 },
 
 {
@@ -11872,6 +12948,7 @@ const PRODUCTS = [
   leather: leather([16365, 17670, 18714, 19758], 261),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Detail_02"],
 },
 
 {
@@ -11883,6 +12960,7 @@ const PRODUCTS = [
   leather: leather([16455, 17790, 18858, 19926], 267),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Detail_02"],
 },
 
 {
@@ -11894,6 +12972,7 @@ const PRODUCTS = [
   leather: leather([15555, 16710, 17634, 18558], 231),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4620Q_K_CK_Detail_02"],
 },
 
 {
@@ -11905,6 +12984,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 1800, tier4: 12300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4628_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4628_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4628_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4628_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4628_Detail_02"],
 },
 
 {
@@ -11916,6 +12996,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 12300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4629_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4629_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4629_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4629_Detail_01"],
 },
 
 {
@@ -11927,6 +13008,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1350, tier3: 1500, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4636_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4636_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4636_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4636_Detail_01"],
 },
 
 {
@@ -11938,6 +13020,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4639_Detail_01"],
 },
 
 {
@@ -11949,6 +13032,7 @@ const PRODUCTS = [
   leather: leather([3699, 3909, 4077, 4245], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4642_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4642_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4642_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4642_Detail_01"],
 },
 
 {
@@ -11960,6 +13044,7 @@ const PRODUCTS = [
   leather: leather([4599, 4989, 5301, 5613], 78),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4643_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4643_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4643_Detail_01"],
 },
 
 {
@@ -11971,6 +13056,7 @@ const PRODUCTS = [
   leather: leather([5799, 6279, 6663, 7047], 96),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4645_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4645_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4645_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4645_Detail_01"],
 },
 
 {
@@ -11982,6 +13068,7 @@ const PRODUCTS = [
   leather: leather([5550, 5775, 5955, 6135], 45),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4647_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4647_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4647_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4647_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4647_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4647_Back_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4647_Detail_01"],
 },
 
 {
@@ -11993,6 +13080,7 @@ const PRODUCTS = [
   leather: leather([5502, 5802, 6042, 6282], 60),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_Alt_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_Alt_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_Alt_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_Alt_Back_3Qrt"],
 },
 
 {
@@ -12004,6 +13092,7 @@ const PRODUCTS = [
   leather: leather([5928, 6273, 6549, 6825], 69),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4649_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4649_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4649_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_BAA4649_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_BAA4649_Detail1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4648_BAA4649_Detail3"],
 },
 
 {
@@ -12015,6 +13104,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4650_Detail_01"],
 },
 
 {
@@ -12026,6 +13116,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4651_DETAIL_01"],
 },
 
 {
@@ -12037,6 +13128,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4652_FRONT_3QRT_2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4652_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4652_DETAIL"],
 },
 
 {
@@ -12048,6 +13140,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4653_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4653_Top"],
 },
 
 {
@@ -12059,6 +13152,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4654_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4654_NESTED", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4654_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4654_NESTED_DETAIL"],
 },
 
 {
@@ -12070,6 +13164,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4656_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4656_Detail_01"],
 },
 
 {
@@ -12081,6 +13176,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4657_DETAIL"],
 },
 
 {
@@ -12092,6 +13188,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4659_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4659_DETAIL"],
 },
 
 {
@@ -12103,6 +13200,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4661_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4661_DETAIL_1"],
 },
 
 {
@@ -12114,6 +13212,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4662_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4662_Detail_01"],
 },
 
 {
@@ -12125,6 +13224,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4663_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4663_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4663_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4663_Detail_01_Open"],
 },
 
 {
@@ -12136,6 +13236,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4674_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4674_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4674_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4674_Detail_01"],
 },
 
 {
@@ -12147,6 +13248,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4675_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4675_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4675_FRONT_OPEN", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4675_DETAIL"],
 },
 
 {
@@ -12158,6 +13260,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4676_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4676_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4676_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4676_OPEN", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4676_DETAIL_01"],
 },
 
 {
@@ -12169,6 +13272,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4687_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4687_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4687_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4687_OPEN_1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4687_DETAIL_1"],
 },
 
 {
@@ -12180,6 +13284,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 2250, tier2: 2400, tier3: 2700, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4695_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4695_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4695_Detail_01"],
 },
 
 {
@@ -12191,6 +13296,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4850_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4850_Detail_01"],
 },
 
 {
@@ -12202,6 +13308,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4853_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4853_Detail_01"],
 },
 
 {
@@ -12213,6 +13320,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4860_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4860_Detail_01"],
 },
 
 {
@@ -12224,6 +13332,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4879_Detail_01"],
 },
 
 {
@@ -12235,6 +13344,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA4880_Detail_01"],
 },
 
 {
@@ -12246,6 +13356,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1800, tier2: 1950, tier3: 2250, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5128_Front_3Qrt_Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5128_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5128_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5128_Top_Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5128_Detail_01"],
 },
 
 {
@@ -12257,6 +13368,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5129_Front_3Qrt_1Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5129_Front_3Qrt_2Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5129_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5129_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5129_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5129_Top"],
 },
 
 {
@@ -12268,6 +13380,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 900, tier2: 1050, tier3: 1200, tier4: 6600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5130_Front_3Qrt_1Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5130_Front_3Qrt_2Leaves", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5130_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5130_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5130_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5130_Top"],
 },
 
 {
@@ -12279,6 +13392,7 @@ const PRODUCTS = [
   leather: leather([2859, 3024, 3156, 3288], 33),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5131_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5131_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5131_Detail_01"],
 },
 
 {
@@ -12290,6 +13404,7 @@ const PRODUCTS = [
   leather: leather([4005, 4365, 4653, 4941], 72),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5133_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5133_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5133_Detail_01"],
 },
 
 {
@@ -12301,6 +13416,7 @@ const PRODUCTS = [
   leather: leather([3735, 4320, 4788, 5256], 117),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5135_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5135_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5135_Detail_01"],
 },
 
 {
@@ -12312,6 +13428,7 @@ const PRODUCTS = [
   leather: leather([3729, 4044, 4296, 4548], 63),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5137_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5137_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5137_Detail_01"],
 },
 
 {
@@ -12323,6 +13440,7 @@ const PRODUCTS = [
   leather: leather([2559, 2724, 2856, 2988], 33),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5138_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5138_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5138_Detail_01"],
 },
 
 {
@@ -12334,6 +13452,7 @@ const PRODUCTS = [
   leather: leather([3453, 3723, 3939, 4155], 54),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5139_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5139_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5139_Detail_01"],
 },
 
 {
@@ -12345,6 +13464,7 @@ const PRODUCTS = [
   leather: leather([3303, 3573, 3789, 4005], 54),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5140_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5140_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5140_Side"],
 },
 
 {
@@ -12356,6 +13476,7 @@ const PRODUCTS = [
   leather: leather([4131, 4536, 4860, 5184], 81),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5141_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5141_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5141_Detail_01"],
 },
 
 {
@@ -12367,6 +13488,7 @@ const PRODUCTS = [
   leather: leather([3405, 3615, 3783, 3951], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5142_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5142_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5142_Detail_01"],
 },
 
 {
@@ -12378,6 +13500,7 @@ const PRODUCTS = [
   leather: leather([3075, 3285, 3453, 3621], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5143_Front"],
 },
 
 {
@@ -12389,6 +13512,7 @@ const PRODUCTS = [
   leather: leather([4305, 4665, 4953, 5241], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5144_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5144_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5144_Front_3Qrt_ALT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5144_Detail_01"],
 },
 
 {
@@ -12400,6 +13524,7 @@ const PRODUCTS = [
   leather: leather([4305, 4665, 4953, 5241], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -12411,6 +13536,7 @@ const PRODUCTS = [
   leather: leather([3879, 4194, 4446, 4698], 63),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5148_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5148_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5148_Front_3Qrt_ALT"],
 },
 
 {
@@ -12422,6 +13548,7 @@ const PRODUCTS = [
   leather: leather([3879, 4194, 4446, 4698], 63),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5149_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5149_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5149_Detail_01"],
 },
 
 {
@@ -12433,6 +13560,7 @@ const PRODUCTS = [
   leather: leather([3285, 3495, 3663, 3831], 42),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5150_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5150_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5150_Front_3Qrt_ALT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5150_Detail_01"],
 },
 
 {
@@ -12444,6 +13572,7 @@ const PRODUCTS = [
   leather: leather([3285, 3495, 3663, 3831], 42),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5151_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5151_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5151_Detail_01"],
 },
 
 {
@@ -12455,6 +13584,7 @@ const PRODUCTS = [
   leather: leather([3753, 4023, 4239, 4455], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5152_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5152_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5152_Front_3Qrt_ALT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5152_Detail_01"],
 },
 
 {
@@ -12466,6 +13596,7 @@ const PRODUCTS = [
   leather: leather([3261, 3441, 3585, 3729], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5154_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5154_Back_3Qrt"],
 },
 
 {
@@ -12477,6 +13608,7 @@ const PRODUCTS = [
   leather: leather([3531, 3711, 3855, 3999], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5155_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5155_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5155_Detail_01"],
 },
 
 {
@@ -12488,6 +13620,7 @@ const PRODUCTS = [
   leather: leather([3003, 3273, 3489, 3705], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5157_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5157_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5157_Detail_01"],
 },
 
 {
@@ -12499,6 +13632,7 @@ const PRODUCTS = [
   leather: leather([3303, 3573, 3789, 4005], 54),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5159_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5159_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5159_Back_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5159_Front_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5159_Detail_01"],
 },
 
 {
@@ -12510,6 +13644,7 @@ const PRODUCTS = [
   leather: leather([3261, 3516, 3720, 3924], 51),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5160_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5160_Back_3Qrt"],
 },
 
 {
@@ -12521,6 +13656,7 @@ const PRODUCTS = [
   leather: leather([3009, 3174, 3306, 3438], 33),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5161_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5161_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5161_Front_3Qrt_ALT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5161_Front_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5161_Back_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5161_Detail_01"],
 },
 
 {
@@ -12532,6 +13668,7 @@ const PRODUCTS = [
   leather: leather([3009, 3174, 3306, 3438], 33),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5162_Detail_01"],
 },
 
 {
@@ -12543,6 +13680,7 @@ const PRODUCTS = [
   leather: leather([2721, 2901, 3045, 3189], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5163_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5163_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5163_Detail_01"],
 },
 
 {
@@ -12554,6 +13692,7 @@ const PRODUCTS = [
   leather: leather([3075, 3285, 3453, 3621], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5164_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5164_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5164_Detail_01"],
 },
 
 {
@@ -12565,6 +13704,7 @@ const PRODUCTS = [
   leather: leather([3261, 3441, 3585, 3729], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5165_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5165_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5165_Detail_01"],
 },
 
 {
@@ -12576,6 +13716,7 @@ const PRODUCTS = [
   leather: leather([3531, 3711, 3855, 3999], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5166_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5166_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5166_Detail_01"],
 },
 
 {
@@ -12587,6 +13728,7 @@ const PRODUCTS = [
   leather: leather([4728, 4998, 5214, 5430], 54),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5241_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5241_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5241_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5241_Detail_01"],
 },
 
 {
@@ -12598,6 +13740,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 1800, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5250_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5250_Detail_01"],
 },
 
 {
@@ -12609,6 +13752,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5254_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5254_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5254_Detail_01"],
 },
 
 {
@@ -12620,6 +13764,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5258_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5258_Detail_01"],
 },
 
 {
@@ -12631,6 +13776,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5259_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5259_Detail_01"],
 },
 
 {
@@ -12642,6 +13788,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5263_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5263_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5263_Detail_01"],
 },
 
 {
@@ -12653,6 +13800,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5408_Venetia_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5408_Venetia_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5408_Venetia_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5408_Venetia_Nickel_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5408_Brunet_Front_3Qrt"],
 },
 
 {
@@ -12664,6 +13812,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 6900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5409_Brass_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5409_Brass_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5409_Brass_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5409_Nickel_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5409_Carob_Front_3Qrt"],
 },
 
 {
@@ -12675,6 +13824,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 6900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5410_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5410_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5410_Detail_01"],
 },
 
 {
@@ -12686,6 +13836,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5412_NickelPlated_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5412_NickelPlated_Detail_01"],
 },
 
 {
@@ -12697,6 +13848,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 900, tier2: 1875, tier3: 2475, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5413_Brunet_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5413_Brunet_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5413_Venetia_Front"],
 },
 
 {
@@ -12708,6 +13860,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5415_PrueBrass_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5415_PrueBrass_Detail_01"],
 },
 
 {
@@ -12719,6 +13872,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 5445, tier3: 6945, tier4: 8250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5418Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5418Q_K_CK_Detail_01"],
 },
 
 {
@@ -12730,6 +13884,7 @@ const PRODUCTS = [
   leather: leather([11262, 12387, 13287, 14187], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5418Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5418Q_K_CK_Detail_01"],
 },
 
 {
@@ -12741,6 +13896,7 @@ const PRODUCTS = [
   leather: leather([11262, 12387, 13287, 14187], 225),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5419Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5419Q_K_CK_Detail_01"],
 },
 
 {
@@ -12752,6 +13908,7 @@ const PRODUCTS = [
   leather: leather([10659, 11694, 12522, 13350], 207),
   finishTiers: { tier1: 0, tier2: 255, tier3: null, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5419Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5419Q_K_CK_Detail_01"],
 },
 
 {
@@ -12763,6 +13920,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 8250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5428_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5428_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5428_Detail_01"],
 },
 
 {
@@ -12774,6 +13932,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5430_Nickel_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5430_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5430_Nickel_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5430_Detail_01"],
 },
 
 {
@@ -12785,6 +13944,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1050, tier2: 1200, tier3: 1350, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5435_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5435_Detail_01"],
 },
 
 {
@@ -12796,6 +13956,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 900, tier2: 1050, tier3: 1200, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5435_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5435_Detail_01"],
 },
 
 {
@@ -12807,6 +13968,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5436_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5496_BAA5436_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5436_Detail_01"],
 },
 
 {
@@ -12818,6 +13980,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5437_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5437_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5437_Detail_01"],
 },
 
 {
@@ -12829,6 +13992,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1650, tier2: 1800, tier3: 1950, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5438_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5438_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5438_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5438_Brunet_Front"],
 },
 
 {
@@ -12840,6 +14004,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1350, tier3: 1500, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5439_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5439_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5439_Detail_01"],
 },
 
 {
@@ -12851,6 +14016,7 @@ const PRODUCTS = [
   leather: leather([5502, 5802, 6042, 6282], 60),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5440_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5440_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5440_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5440_Detail_01"],
 },
 
 {
@@ -12862,6 +14028,7 @@ const PRODUCTS = [
   leather: leather([5346, 5601, 5805, 6009], 51),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5441_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5441_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5441_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5441_Detail_01"],
 },
 
 {
@@ -12873,6 +14040,7 @@ const PRODUCTS = [
   leather: leather([5844, 6099, 6303, 6507], 51),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5442_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5442_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5442_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5442_Detail_01"],
 },
 
 {
@@ -12884,6 +14052,7 @@ const PRODUCTS = [
   leather: leather([5187, 5547, 5835, 6123], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5444_Vin_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5444_Vin_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5444_Vin_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5444_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5444_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5444_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5444_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5444_Front_3Qrt"],
 },
 
 {
@@ -12895,6 +14064,7 @@ const PRODUCTS = [
   leather: leather([5556, 5781, 5961, 6141], 45),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5448_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5448_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5448_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5448_Detail_01"],
 },
 
 {
@@ -12906,6 +14076,7 @@ const PRODUCTS = [
   leather: leather([5856, 6081, 6261, 6441], 45),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5449_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5449_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5449_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5449_Detail_01"],
 },
 
 {
@@ -12917,6 +14088,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5450_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5450_Detail_01"],
 },
 
 {
@@ -12928,6 +14100,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5451_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5451_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5451_Detail_01"],
 },
 
 {
@@ -12939,6 +14112,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5452_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5452_Detail_01"],
 },
 
 {
@@ -12950,6 +14124,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5456_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5456_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5456_Detail_01"],
 },
 
 {
@@ -12961,6 +14136,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5457_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5457_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5457_Detail_01"],
 },
 
 {
@@ -12972,6 +14148,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5458_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5458_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5458_Detail_01"],
 },
 
 {
@@ -12983,6 +14160,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5459_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5459_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5459_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5459_Carob"],
 },
 
 {
@@ -12994,6 +14172,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5460_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5460_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5460_Detail_01"],
 },
 
 {
@@ -13005,6 +14184,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5473_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5473_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5473_Detail_01"],
 },
 
 {
@@ -13016,6 +14196,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5475_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5475_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5475_Detail_01"],
 },
 
 {
@@ -13027,6 +14208,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5476_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5476_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5476_Detail_01"],
 },
 
 {
@@ -13038,6 +14220,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5487_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5487_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5487_Detail_01"],
 },
 
 {
@@ -13049,6 +14232,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1050, tier2: 1200, tier3: 1350, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5495_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5495_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5495_Detail_01"],
 },
 
 {
@@ -13060,6 +14244,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 900, tier2: 1050, tier3: 1200, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5495_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5495_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5495_Detail_01"],
 },
 
 {
@@ -13071,6 +14256,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5496_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5496_BAA5436_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5496_Detail_01"],
 },
 
 {
@@ -13082,6 +14268,7 @@ const PRODUCTS = [
   leather: leather([5556, 5781, 5961, 6141], 45),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5498_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5498_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5498_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5498_Detail_01"],
 },
 
 {
@@ -13093,6 +14280,7 @@ const PRODUCTS = [
   leather: leather([5856, 6081, 6261, 6441], 45),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5499_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5499_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5499_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5499_Detail_01"],
 },
 
 {
@@ -13104,6 +14292,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5650_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5650_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5650_Detail_01"],
 },
 
 {
@@ -13115,6 +14304,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5654_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5654_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5654_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5654_Detail_01"],
 },
 
 {
@@ -13126,6 +14316,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5656_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5656_Detail_01"],
 },
 
 {
@@ -13137,6 +14328,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5657_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5657_Detail_01"],
 },
 
 {
@@ -13148,6 +14340,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5662_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5662_Detail_01"],
 },
 
 {
@@ -13159,6 +14352,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 3900, tier2: 6825, tier3: 8625, tier4: 10200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5700_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5700_Detail_01_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5700_Detail_02"],
 },
 
 {
@@ -13170,6 +14364,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 2100, tier2: 3570, tier3: 4470, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5708_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5708_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5708_Detail_01_Open"],
 },
 
 {
@@ -13181,6 +14376,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 2100, tier2: 3570, tier3: 4470, tier4: 5250, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5709_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5709_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5709_Detail_01"],
 },
 
 {
@@ -13192,6 +14388,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5712_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5712_Detail_01"],
 },
 
 {
@@ -13203,6 +14400,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5713_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5713_Detail_01"],
 },
 
 {
@@ -13214,6 +14412,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5714_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5714_Detail_01"],
 },
 
 {
@@ -13225,6 +14424,7 @@ const PRODUCTS = [
   leather: leather([17412, 18762, 19842, 20922], 270),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5720_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5720_Detail_01"],
 },
 
 {
@@ -13236,6 +14436,7 @@ const PRODUCTS = [
   leather: leather([17196, 18576, 19680, 20784], 276),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5720_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5720_Detail_01"],
 },
 
 {
@@ -13247,6 +14448,7 @@ const PRODUCTS = [
   leather: leather([16287, 17457, 18393, 19329], 234),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5720_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5720_Detail_01"],
 },
 
 {
@@ -13258,6 +14460,7 @@ const PRODUCTS = [
   leather: leather(null, 222),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Detail_01"],
 },
 
 {
@@ -13269,6 +14472,7 @@ const PRODUCTS = [
   leather: leather(null, 222),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Detail_01"],
 },
 
 {
@@ -13280,6 +14484,7 @@ const PRODUCTS = [
   leather: leather(null, 204),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5721_Detail_01"],
 },
 
 {
@@ -13291,6 +14496,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5731_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5731_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5731_Top"],
 },
 
 {
@@ -13302,6 +14508,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5732_ALT_SMLD_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5732_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5732_Element_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5732_Element_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5732_Element_Top_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5732_Element_Detail_01"],
 },
 
 {
@@ -13313,6 +14520,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 3975, tier3: 4575, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5733_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5733_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5733_Detail_01"],
 },
 
 {
@@ -13324,6 +14532,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 3975, tier3: 4575, tier4: 5100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5734_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5734_Detail_01"],
 },
 
 {
@@ -13335,6 +14544,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 2400, tier2: 4350, tier3: 5550, tier4: 6600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5735_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5735_Detail_01"],
 },
 
 {
@@ -13346,6 +14556,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5736_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5736_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5736_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5736_Detail_02"],
 },
 
 {
@@ -13357,6 +14568,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5737_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5737_Detail_01"],
 },
 
 {
@@ -13368,6 +14580,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 4470, tier3: 5370, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5738_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5738_Detail_01"],
 },
 
 {
@@ -13379,6 +14592,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 4470, tier3: 5370, tier4: 6150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5739_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5739_Detail_01"],
 },
 
 {
@@ -13390,6 +14604,7 @@ const PRODUCTS = [
   leather: leather([4056, 4266, 4434, 4602], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5740_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5740_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5740_Detail_01"],
 },
 
 {
@@ -13401,6 +14616,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -13412,6 +14628,7 @@ const PRODUCTS = [
   leather: leather([4056, 4266, 4434, 4602], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5741_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5741_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5741_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5741_Detail_01"],
 },
 
 {
@@ -13423,6 +14640,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -13434,6 +14652,7 @@ const PRODUCTS = [
   leather: leather([5406, 5856, 6216, 6576], 90),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5743_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5743_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5743_Detail_01"],
 },
 
 {
@@ -13445,6 +14664,7 @@ const PRODUCTS = [
   leather: leather([5745, 5970, 6150, 6330], 45),
   finishTiers: { tier1: 0, tier2: 255, tier3: 405, tier4: 525, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5744_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5744_Detail_01"],
 },
 
 {
@@ -13456,6 +14676,7 @@ const PRODUCTS = [
   leather: leather([5400, 5760, 6048, 6336], 72),
   finishTiers: { tier1: 0, tier2: 495, tier3: null, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5745_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5745_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5745_Detail_01"],
 },
 
 {
@@ -13467,6 +14688,7 @@ const PRODUCTS = [
   leather: leather([4791, 5001, 5169, 5337], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5746_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5746_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5746_Detail_01"],
 },
 
 {
@@ -13478,6 +14700,7 @@ const PRODUCTS = [
   leather: leather([4599, 4809, 4977, 5145], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5747_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5747_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5747_Detail_01"],
 },
 
 {
@@ -13489,6 +14712,7 @@ const PRODUCTS = [
   leather: leather([4791, 5001, 5169, 5337], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5748_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5748_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5748_Detail_01"],
 },
 
 {
@@ -13500,6 +14724,7 @@ const PRODUCTS = [
   leather: leather([4599, 4809, 4977, 5145], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5749_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5749_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5749_Detail_01"],
 },
 
 {
@@ -13511,6 +14736,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5750_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5750_BAA5751_BAA5752_Front"],
 },
 
 {
@@ -13522,6 +14748,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 2700, tier2: 4650, tier3: 5850, tier4: 6900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5751_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5750_BAA5751_BAA5752_Front"],
 },
 
 {
@@ -13533,6 +14760,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5752_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5750_BAA5751_BAA5752_Front"],
 },
 
 {
@@ -13544,6 +14772,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5754_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5754_Detail_01"],
 },
 
 {
@@ -13555,6 +14784,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5755_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5755_Detail_01"],
 },
 
 {
@@ -13566,6 +14796,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5756_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5756_Detail_01"],
 },
 
 {
@@ -13577,6 +14808,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 2175, tier3: 2775, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5757_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5757_Detail_01"],
 },
 
 {
@@ -13588,6 +14820,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5758_Detail_01"],
 },
 
 {
@@ -13599,6 +14832,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5759_Detail_01"],
 },
 
 {
@@ -13610,6 +14844,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5760_Detail_01"],
 },
 
 {
@@ -13621,6 +14856,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5761_Detail_01"],
 },
 
 {
@@ -13632,6 +14868,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5762_Detail_01"],
 },
 
 {
@@ -13643,6 +14880,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5763_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5763_Detail_01"],
 },
 
 {
@@ -13654,6 +14892,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5764_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5764_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5764_Detail"],
 },
 
 {
@@ -13665,6 +14904,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5765_Detail_01"],
 },
 
 {
@@ -13676,6 +14916,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5766_Detail_01"],
 },
 
 {
@@ -13687,6 +14928,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5767_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5767_Detail_01"],
 },
 
 {
@@ -13698,6 +14940,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 6000, tier2: 8925, tier3: 10725, tier4: 12300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5787_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5787_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5787_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5787_Detail_01"],
 },
 
 {
@@ -13709,6 +14952,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 3000, tier2: 5925, tier3: 7725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5788_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5788_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5788_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5788_Detail_01"],
 },
 
 {
@@ -13720,6 +14964,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5795_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5795_Detail_01"],
 },
 
 {
@@ -13731,6 +14976,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 2475, tier3: 3075, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5796_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA5796_Detail_01"],
 },
 
 {
@@ -13742,6 +14988,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 8400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6331_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6331_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6331_Front_3Qrt_Nug", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6331_Detail_02"],
 },
 
 {
@@ -13753,6 +15000,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 11400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6332_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6332_1Leaf_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6332_2Leaf_Front_3Qrt"],
 },
 
 {
@@ -13764,6 +15012,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6333_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6333_Front_3QrtAlt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6333_Front_Alt"],
 },
 
 {
@@ -13775,6 +15024,7 @@ const PRODUCTS = [
   leather: leather([6666, 6846, 6990, 7134], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6337_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6337_Back_3Qrt Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6337_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6337_Back_3Qrt_Version2 Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6337_Back_3Qrt_Version2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6337_Detail_01"],
 },
 
 {
@@ -13786,6 +15036,7 @@ const PRODUCTS = [
   leather: leather([6843, 7023, 7167, 7311], 36),
   finishTiers: { tier1: 0, tier2: 495, tier3: 795, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6338_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6338_Back_3Qrt Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6338_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6338_Detail_01"],
 },
 
 {
@@ -13797,6 +15048,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 5400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6350_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6350_Detail_01"],
 },
 
 {
@@ -13808,6 +15060,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: null, tier4: 900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6360_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6360_Detail_01"],
 },
 
 {
@@ -13819,6 +15072,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 9000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6372_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6372_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6372_Ecru_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6372_Detail_01"],
 },
 
 {
@@ -13830,6 +15084,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6374_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6374_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6374_Detail_01"],
 },
 
 {
@@ -13841,6 +15096,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6375_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6375_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6375_Front_3Qrt_Open_Blue", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6375_Detail_01"],
 },
 
 {
@@ -13852,6 +15108,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6377_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6377_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6377_Detail_01"],
 },
 
 {
@@ -13863,6 +15120,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 2400, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6382_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6382_Detail_01"],
 },
 
 {
@@ -13874,6 +15132,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6383_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6383_Detail_01"],
 },
 
 {
@@ -13885,6 +15144,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1500, tier3: 1800, tier4: 5700, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6500_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6500_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6500_Detail_01"],
 },
 
 {
@@ -13896,6 +15156,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1350, tier2: 1650, tier3: 1950, tier4: 5850, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6501_Front"],
 },
 
 {
@@ -13907,6 +15168,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 750, tier2: 1050, tier3: 1200, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6508_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6508_Open"],
 },
 
 {
@@ -13918,6 +15180,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1500, tier3: 1650, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6509_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6509_Detail"],
 },
 
 {
@@ -13929,6 +15192,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6512_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6512_Detail_01"],
 },
 
 {
@@ -13940,6 +15204,7 @@ const PRODUCTS = [
   leather: leather([15390, 17190, 18630, 20070], 360),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Detail_01"],
 },
 
 {
@@ -13951,6 +15216,7 @@ const PRODUCTS = [
   leather: leather([10572, 11562, 12354, 13146], 198),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Detail_01"],
 },
 
 {
@@ -13962,6 +15228,7 @@ const PRODUCTS = [
   leather: leather([8616, 9336, 9912, 10488], 144),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Detail_01"],
 },
 
 {
@@ -13973,6 +15240,7 @@ const PRODUCTS = [
   leather: leather([13734, 15264, 16488, 17712], 306),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Detail_01"],
 },
 
 {
@@ -13984,6 +15252,7 @@ const PRODUCTS = [
   leather: leather([14436, 16056, 17352, 18648], 324),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Detail_01"],
 },
 
 {
@@ -13995,6 +15264,7 @@ const PRODUCTS = [
   leather: leather([9570, 10470, 11190, 11910], 180),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520K_47_Detail_01"],
 },
 
 {
@@ -14006,6 +15276,7 @@ const PRODUCTS = [
   leather: leather([14838, 16548, 17916, 19284], 342),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Detail_01"],
 },
 
 {
@@ -14017,6 +15288,7 @@ const PRODUCTS = [
   leather: leather([10104, 11034, 11778, 12522], 186),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Detail_01"],
 },
 
 {
@@ -14028,6 +15300,7 @@ const PRODUCTS = [
   leather: leather([8274, 8979, 9543, 10107], 141),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Detail_01"],
 },
 
 {
@@ -14039,6 +15312,7 @@ const PRODUCTS = [
   leather: leather([13182, 14622, 15774, 16926], 288),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Detail_01"],
 },
 
 {
@@ -14050,6 +15324,7 @@ const PRODUCTS = [
   leather: leather([9018, 9828, 10476, 11124], 162),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Detail_01"],
 },
 
 {
@@ -14061,6 +15336,7 @@ const PRODUCTS = [
   leather: leather([13884, 15414, 16638, 17862], 306),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6520QK_47_Detail_01"],
 },
 
 {
@@ -14072,6 +15348,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6521K_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6521K_Side"],
 },
 
 {
@@ -14083,6 +15360,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6521K_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6521K_Side"],
 },
 
 {
@@ -14094,6 +15372,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 2700, tier2: 2850, tier3: 3000, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6528_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6528_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6528_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6528_Front_3Qrt_Soren", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6528_Front_Soren"],
 },
 
 {
@@ -14105,6 +15384,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 4500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6529_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6529_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6529_Open"],
 },
 
 {
@@ -14116,6 +15396,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 6000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6530_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6530_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6530_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6530_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6530_Front_3Qrt_Mink", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6530_Front_Mink"],
 },
 
 {
@@ -14127,6 +15408,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1800, tier2: 1950, tier3: 2100, tier4: 7800, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6532_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6532_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6532_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6532_Front_3Qrt_1Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6532_Front_1Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6532_Top_1Leaf"],
 },
 
 {
@@ -14138,6 +15420,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6533_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6533_Detail_01"],
 },
 
 {
@@ -14149,6 +15432,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 4500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6533_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6533_Detail_01"],
 },
 
 {
@@ -14160,6 +15444,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: 0, tier3: null, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6534_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6534_Front_WindsorGreen", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6534_Detail_01_WindsorGreen"],
 },
 
 {
@@ -14171,6 +15456,7 @@ const PRODUCTS = [
   leather: leather([3504, 3684, 3828, 3972], 36),
   finishTiers: { tier1: 300, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6537_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6537_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6537_Detail_01"],
 },
 
 {
@@ -14182,6 +15468,7 @@ const PRODUCTS = [
   leather: leather([4314, 4569, 4773, 4977], 51),
   finishTiers: { tier1: 300, tier2: 600, tier3: 750, tier4: 1350, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6538_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6538_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6538_Detail_01"],
 },
 
 {
@@ -14193,6 +15480,7 @@ const PRODUCTS = [
   leather: leather([3012, 3177, 3309, 3441], 33),
   finishTiers: { tier1: 0, tier2: 300, tier3: 450, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6539_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6539_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6539_Detail_01"],
 },
 
 {
@@ -14204,6 +15492,7 @@ const PRODUCTS = [
   leather: leather([5004, 5184, 5328, 5472], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6542_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6542_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6542_Detail_01"],
 },
 
 {
@@ -14215,6 +15504,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 750, tier3: 900, tier4: 3450, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6550_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6550_Detail_01"],
 },
 
 {
@@ -14226,6 +15516,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6551_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6551_Detail_01"],
 },
 
 {
@@ -14237,6 +15528,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6552_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6552_Detail_01"],
 },
 
 {
@@ -14248,6 +15540,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6553_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6553_Detail_01"],
 },
 
 {
@@ -14259,6 +15552,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6556_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6556_Front_3Qrt_Porcini", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6556_Detail_01"],
 },
 
 {
@@ -14270,6 +15564,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6558_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6558_Detail_01"],
 },
 
 {
@@ -14281,6 +15576,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6559_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6559_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6559_Detail_01"],
 },
 
 {
@@ -14292,6 +15588,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6564_Front_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6564_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6564_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6564_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6564_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6564_Detail_01"],
 },
 
 {
@@ -14303,6 +15600,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Front_3Qrt_Mink", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Front_Mink"],
 },
 
 {
@@ -14314,6 +15612,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Front_3Qrt_Mink", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6566_Front_Mink"],
 },
 
 {
@@ -14325,6 +15624,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6567_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6567_Detail_01"],
 },
 
 {
@@ -14336,6 +15636,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6574_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6574_Front_alt_hardware", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6574_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6574_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6574_Detail_01"],
 },
 
 {
@@ -14347,6 +15648,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1050, tier2: 1200, tier3: 1350, tier4: null, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6575_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6575_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6575_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6575_Detail_01"],
 },
 
 {
@@ -14358,6 +15660,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3000, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6576_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6576_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6576_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6576_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6576_Front_3Qrt_Mink", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6576_Front_Mink", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6576_Front_Mink_HardwareOption"],
 },
 
 {
@@ -14369,6 +15672,7 @@ const PRODUCTS = [
   leather: leather([5736, 5856, 5952, 6048], 24),
   finishTiers: { tier1: 0, tier2: 300, tier3: 450, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6588_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6588_Detail_01"],
 },
 
 {
@@ -14380,6 +15684,7 @@ const PRODUCTS = [
   leather: leather([5862, 6027, 6159, 6291], 33),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 1050, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6621B_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6621B_Detail_01"],
 },
 
 {
@@ -14391,6 +15696,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6802_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6802_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6802_Detail_01"],
 },
 
 {
@@ -14402,6 +15708,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6810_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6810_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6810_Detail_01"],
 },
 
 {
@@ -14413,6 +15720,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6811_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6811_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6811_Detail_01"],
 },
 
 {
@@ -14424,6 +15732,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6835_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6835_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6835_Front_3Qrt_1Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6835_Top_1Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6835_Detail_01"],
 },
 
 {
@@ -14435,6 +15744,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6836_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6836_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6836_Front_3Qrt_1Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6836_Top_1Leaf", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6836_Detail_01"],
 },
 
 {
@@ -14446,6 +15756,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6853_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6853_Detail_01"],
 },
 
 {
@@ -14457,6 +15768,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6854_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6854_Detail_01"],
 },
 
 {
@@ -14468,6 +15780,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6861_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6861_Detail_01"],
 },
 
 {
@@ -14479,6 +15792,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6862_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6862_Detail_01"],
 },
 
 {
@@ -14490,6 +15804,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6865_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6865_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6865_Detail_01"],
 },
 
 {
@@ -14501,6 +15816,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6867_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6867_Detail_01"],
 },
 
 {
@@ -14512,6 +15828,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6868_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6868_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAA6868_Detail_01"],
 },
 
 {
@@ -14523,6 +15840,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB100_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB100_Detail_01"],
 },
 
 {
@@ -14534,6 +15852,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB101_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB101_Detail_01"],
 },
 
 {
@@ -14545,6 +15864,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB102_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB102_Detail_01"],
 },
 
 {
@@ -14556,6 +15876,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB103_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB103_Detail_01"],
 },
 
 {
@@ -14567,6 +15888,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB104_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABB104_Detail_01"],
 },
 
 {
@@ -14578,6 +15900,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABK312_Front"],
 },
 
 {
@@ -14589,6 +15912,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABK411_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABK411_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BABK411_Detail"],
 },
 
 {
@@ -14600,6 +15924,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH600_DET"],
 },
 
 {
@@ -14611,6 +15936,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH602_FRT2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH602_DET"],
 },
 
 {
@@ -14622,6 +15948,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH605_FRT2"],
 },
 
 {
@@ -14633,6 +15960,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH610_FRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH610_FRT2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH610_DET"],
 },
 
 {
@@ -14644,6 +15972,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH612_FRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH612_FRT2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH612_DET"],
 },
 
 {
@@ -14655,6 +15984,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH620_FRT2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BAPH620_DET"],
 },
 
 {
@@ -14666,6 +15996,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BASF100_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BASF100_Detail_01"],
 },
 
 {
@@ -14677,6 +16008,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BASF101_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BASF101_Detail_01"],
 },
 
 {
@@ -14688,6 +16020,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BASF102_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BASF102_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/BASF102_Detail_01"],
 },
 
 {
@@ -14699,6 +16032,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14710,6 +16044,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14721,6 +16056,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14732,6 +16068,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14743,6 +16080,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14754,6 +16092,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14765,6 +16104,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14776,6 +16116,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14787,6 +16128,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14798,6 +16140,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14809,6 +16152,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 600, tier3: 975, tier4: 2100, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1010_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1010_DETAIL"],
 },
 
 {
@@ -14820,6 +16164,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 450, tier3: 600, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1014_ALMOND_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1014_ALMOND_DETAIL"],
 },
 
 {
@@ -14831,6 +16176,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 300, tier3: 450, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1036_DETAIL"],
 },
 
 {
@@ -14842,6 +16188,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1037_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1037_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1037_DETAIL"],
 },
 
 {
@@ -14853,6 +16200,7 @@ const PRODUCTS = [
   leather: leather([3303, 3393, 3465, 3537], 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1045_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1045_DETAIL"],
 },
 
 {
@@ -14864,6 +16212,7 @@ const PRODUCTS = [
   leather: leather([2826, 2916, 2988, 3060], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1046_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1046_DETAIL"],
 },
 
 {
@@ -14875,6 +16224,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1050_DETAIL"],
 },
 
 {
@@ -14886,6 +16236,7 @@ const PRODUCTS = [
   leather: leather([3444, 3579, 3687, 3795], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1082_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1082_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1082_DETAIL"],
 },
 
 {
@@ -14897,6 +16248,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1087_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1087_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1087_DETAIL"],
 },
 
 {
@@ -14908,6 +16260,7 @@ const PRODUCTS = [
   leather: leather([2928, 3063, 3171, 3279], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: 1200 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1238_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1238_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1238_Detail_01"],
 },
 
 {
@@ -14919,6 +16272,7 @@ const PRODUCTS = [
   leather: leather([3078, 3213, 3321, 3429], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 225, type2Rattan: 375, specialtyRattan: 1275 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1239_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1239_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1239_Detail_01"],
 },
 
 {
@@ -14930,6 +16284,7 @@ const PRODUCTS = [
   leather: leather([7338, 7548, 7716, 7884], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1245_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1245_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1245_Detail_01"],
 },
 
 {
@@ -14941,6 +16296,7 @@ const PRODUCTS = [
   leather: leather([7488, 7698, 7866, 8034], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1246_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1246_Detail_01"],
 },
 
 {
@@ -14952,6 +16308,7 @@ const PRODUCTS = [
   leather: leather([7338, 7548, 7716, 7884], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1247_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1247_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1247_Detail_01"],
 },
 
 {
@@ -14963,6 +16320,7 @@ const PRODUCTS = [
   leather: leather([7488, 7698, 7866, 8034], 42),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1248_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1248_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1248_Detail_01"],
 },
 
 {
@@ -14974,6 +16332,7 @@ const PRODUCTS = [
   leather: leather([7797, 7887, 7959, 8031], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -14985,6 +16344,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 900, tier3: 1200, tier4: 4650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1500_Morel_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1500_Morel_Detail_2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1500_Morel_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1500_Char_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1500_Char_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1500_Char_Detail"],
 },
 
 {
@@ -14996,6 +16356,7 @@ const PRODUCTS = [
   leather: leather([14706, 15336, 15840, 16344], 126),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1520_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1520_Detail_1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1520_Detail_2"],
 },
 
 {
@@ -15007,6 +16368,7 @@ const PRODUCTS = [
   leather: leather([14706, 15336, 15840, 16344], 126),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1520_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1520_Detail_1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1520_Detail_2"],
 },
 
 {
@@ -15018,6 +16380,7 @@ const PRODUCTS = [
   leather: leather([15822, 16452, 16956, 17460], 126),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1520_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1520_Detail_1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1520_Detail_2"],
 },
 
 {
@@ -15029,6 +16392,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1200, tier2: 1350, tier3: 1500, tier4: 3900, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1536_Morel_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1536_Morel_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1536_Morel_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1536_Char_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1536_Char_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1536_Char_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1536_Char_Detail"],
 },
 
 {
@@ -15040,6 +16404,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1537_MatteMineral_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1537_MatteMineral_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1537_MatteMineral_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1537_MatteDarkTobacco_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1537_MatteDarkTobacco_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1537_MatteDarkTobacco_Detail"],
 },
 
 {
@@ -15051,6 +16416,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1539_Naturale_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1539_Naturale_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1539_Naturale_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1539_Naturale_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1539_Naturale_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1539_COFFEE_FRONT_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1539_COFFEE_BACK_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1539_COFFEE_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1539_COFFEE_DETAIL"],
 },
 
 {
@@ -15062,6 +16428,7 @@ const PRODUCTS = [
   leather: leather([2244, 2379, 2487, 2595], 27),
   finishTiers: { tier1: 900, tier2: 1395, tier3: 1695, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1541_Char_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1541_Char_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1541_Char_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1541_Char_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1541_Char_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1541_Morel_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1541_Morel_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1541_Morel_Detail"],
 },
 
 {
@@ -15073,6 +16440,7 @@ const PRODUCTS = [
   leather: leather([2202, 2322, 2418, 2514], 24),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1542_Naturale_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1542_Naturale_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1542_Black_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1542_Black_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1543_Black_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1542_Black_Detail"],
 },
 
 {
@@ -15084,6 +16452,7 @@ const PRODUCTS = [
   leather: leather([5169, 5304, 5412, 5520], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1544_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1544_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1544_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1544_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1544_Detail"],
 },
 
 {
@@ -15095,6 +16464,7 @@ const PRODUCTS = [
   leather: leather([5244, 5379, 5487, 5595], 27),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1545_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1545_Detail"],
 },
 
 {
@@ -15106,6 +16476,7 @@ const PRODUCTS = [
   leather: leather([2196, 2316, 2412, 2508], 24),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1547_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1547_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1547_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1547_Detail_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1547_Detail"],
 },
 
 {
@@ -15117,6 +16488,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1550_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1550_DETAIL"],
 },
 
 {
@@ -15128,6 +16500,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1556_DETAIL"],
 },
 
 {
@@ -15139,6 +16512,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 2025, tier4: 3150, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1573_Morel_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1573_Morel_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1573_Morel_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1573_Char_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1573_Char_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1573_Char_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1573_Char_Detail"],
 },
 
 {
@@ -15150,6 +16524,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1587_Morel_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1587_Morel_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1587_Char_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1587_Char_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1587_Char_Detail"],
 },
 
 {
@@ -15161,6 +16536,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1595_Black_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1595_Black_Detail_2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1595_Black_Detail_1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1595_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1595_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1595_Detail_2", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1595_Detail_1", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1595_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1595_Front_Detail_Alt"],
 },
 
 {
@@ -15172,6 +16548,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1597_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1597_Detail"],
 },
 
 {
@@ -15183,6 +16560,7 @@ const PRODUCTS = [
   leather: leather([3750, 3975, 4155, 4335], 45),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1641_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1641_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1641_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1641_Detail"],
 },
 
 {
@@ -15194,6 +16572,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 300, tier2: 450, tier3: 600, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1650_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1650_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1650_Detail"],
 },
 
 {
@@ -15205,6 +16584,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1652_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1652_Detail"],
 },
 
 {
@@ -15216,6 +16596,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1654_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1654_Detail"],
 },
 
 {
@@ -15227,6 +16608,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1656_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1656_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1656_Detail"],
 },
 
 {
@@ -15238,6 +16620,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1660_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1660_Detail"],
 },
 
 {
@@ -15249,6 +16632,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1661_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1661_Detail"],
 },
 
 {
@@ -15260,6 +16644,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1662_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1662_Detail"],
 },
 
 {
@@ -15271,6 +16656,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1650, tier3: 1800, tier4: 9300, type1Rattan: 0, type2Rattan: 150, specialtyRattan: 2700 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1663_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1663_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1663_Front_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1663_Detail"],
 },
 
 {
@@ -15282,6 +16668,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1664_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1664_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1664_Detail"],
 },
 
 {
@@ -15293,6 +16680,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 900, tier3: 1200, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1700_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1700_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1700_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1700_Detail_01"],
 },
 
 {
@@ -15304,6 +16692,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 975, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1708_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1708_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1708_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1708_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1708_Detail_02"],
 },
 
 {
@@ -15315,6 +16704,7 @@ const PRODUCTS = [
   leather: leather([15408, 16428, 17244, 18060], 204),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 1800, specialtyRattan: 8700 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Detail_02"],
 },
 
 {
@@ -15326,6 +16716,7 @@ const PRODUCTS = [
   leather: leather([15408, 16428, 17244, 18060], 204),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 1800, specialtyRattan: 8700 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Detail_02"],
 },
 
 {
@@ -15337,6 +16728,7 @@ const PRODUCTS = [
   leather: leather([14706, 15606, 16326, 17046], 180),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 1800, specialtyRattan: 8700 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1720Q_K_CK_Detail_02"],
 },
 
 {
@@ -15348,6 +16740,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1728_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1728_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1728_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1728_Detail_01"],
 },
 
 {
@@ -15359,6 +16752,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1500, tier2: 1650, tier3: 1800, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1730_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1730_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1730_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1730_Detail_01"],
 },
 
 {
@@ -15370,6 +16764,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 1755, tier2: 1950, tier3: 2100, tier4: 7200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1734_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1734_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1734_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1734_Detail_01"],
 },
 
 {
@@ -15381,6 +16776,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1736_Detail_01"],
 },
 
 {
@@ -15392,6 +16788,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 360, tier2: 600, tier3: 900, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1738_Top_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1736_Detail_01_Alt"],
 },
 
 {
@@ -15403,6 +16800,7 @@ const PRODUCTS = [
   leather: leather([4503, 4773, 4989, 5205], 54),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 750, specialtyRattan: 3600 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1740_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1740_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1740_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1740_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1740_Front_3Qrt_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1740_Detail_01"],
 },
 
 {
@@ -15414,6 +16812,7 @@ const PRODUCTS = [
   leather: leather([12600, 12780, 12924, 13068], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1741_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1741_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1741_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1741_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1741_Detail_01"],
 },
 
 {
@@ -15425,6 +16824,7 @@ const PRODUCTS = [
   leather: leather([12600, 12780, 12924, 13068], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1742_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1742_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1742_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1742_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1742_Detail_01"],
 },
 
 {
@@ -15436,6 +16836,7 @@ const PRODUCTS = [
   leather: leather([3543, 3708, 3840, 3972], 33),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 1050, specialtyRattan: 2700 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1743_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1743_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1743_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1743_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1743_Detail_01"],
 },
 
 {
@@ -15447,6 +16848,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1750_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1750_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1750_Front_3Qrt_AltTop", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1750_Front_AltTop", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1750_Detail_01_AltTop"],
 },
 
 {
@@ -15458,6 +16860,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1754_Detail_01"],
 },
 
 {
@@ -15469,6 +16872,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1755_Detail_01_Maderia"],
 },
 
 {
@@ -15480,6 +16884,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 75, tier2: 150, tier3: 225, tier4: 1950, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1757_Detail_01"],
 },
 
 {
@@ -15491,6 +16896,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1758_Front_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1758_Detail_01_Alt"],
 },
 
 {
@@ -15502,6 +16908,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1759_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1759_Detail_01"],
 },
 
 {
@@ -15513,6 +16920,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1760_DETAIL_01"],
 },
 
 {
@@ -15524,6 +16932,7 @@ const PRODUCTS = [
   leather: leather([4149, 4314, 4446, 4578], 33),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 750, specialtyRattan: 3000 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1778_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1778_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1778_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1778_Back", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1778_Detail_01"],
 },
 
 {
@@ -15535,6 +16944,7 @@ const PRODUCTS = [
   leather: leather([4149, 4314, 4446, 4578], 33),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 1050, specialtyRattan: 3300 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1779_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1779_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1779_Back_3Qrt"],
 },
 
 {
@@ -15546,6 +16956,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 3600, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1787_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1787_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1787_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1787_Detail_02"],
 },
 
 {
@@ -15557,6 +16968,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1795_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1795_Detail_01"],
 },
 
 {
@@ -15568,6 +16980,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1800_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1800_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1800_Detail_01"],
 },
 
 {
@@ -15579,6 +16992,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1808_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1808_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1808_Detail_01"],
 },
 
 {
@@ -15590,6 +17004,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1811_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1811_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1811_Detail_01"],
 },
 
 {
@@ -15601,6 +17016,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 4500, type2Rattan: 5400, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1820Q_K_CK_Front_Ret", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1820Q_K_CK_Detail_01_Ret"],
 },
 
 {
@@ -15612,6 +17028,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 4500, type2Rattan: 5400, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1820Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1820Q_K_CK_Detail_01"],
 },
 
 {
@@ -15623,6 +17040,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 4500, type2Rattan: 5400, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1820Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1820Q_K_CK_Detail_01"],
 },
 
 {
@@ -15634,6 +17052,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3900, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1822Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1822Q_K_CK_Detail_01"],
 },
 
 {
@@ -15645,6 +17064,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3900, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1822Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1822Q_K_CK_Detail_01"],
 },
 
 {
@@ -15656,6 +17076,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 3000, type2Rattan: 3900, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1822Q_K_CK_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1822Q_K_CK_Detail_01"],
 },
 
 {
@@ -15667,6 +17088,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 600, tier2: 750, tier3: 900, tier4: 5100, type1Rattan: 150, type2Rattan: 300, specialtyRattan: 5700 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1834_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1834_Top"],
 },
 
 {
@@ -15678,6 +17100,7 @@ const PRODUCTS = [
   leather: leather([4788, 4998, 5166, 5334], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 2100, specialtyRattan: 5100 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1842_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1842_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1842_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1842_Detail_01"],
 },
 
 {
@@ -15689,6 +17112,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1851_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1851_Detail_01"],
 },
 
 {
@@ -15700,6 +17124,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1852_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1852_Detail_01"],
 },
 
 {
@@ -15711,6 +17136,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1855_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1855_Detail_01"],
 },
 
 {
@@ -15722,6 +17148,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1856_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1856_Detail_01"],
 },
 
 {
@@ -15733,6 +17160,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1857_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1857_Detail_01"],
 },
 
 {
@@ -15744,6 +17172,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1859_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1859_Detail_01"],
 },
 
 {
@@ -15755,6 +17184,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1860_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1860_Detail_01"],
 },
 
 {
@@ -15766,6 +17196,7 @@ const PRODUCTS = [
   leather: leather([5130, 5340, 5508, 5676], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1650, specialtyRattan: 5400 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1878_Front_3Qrt"],
 },
 
 {
@@ -15777,6 +17208,7 @@ const PRODUCTS = [
   leather: leather([5439, 5649, 5817, 5985], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 1200, type2Rattan: 1650, specialtyRattan: 5400 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1879_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1879_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1879_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1879_Detail_01"],
 },
 
 {
@@ -15788,6 +17220,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1895_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA1895_Detail_01"],
 },
 
 {
@@ -15799,6 +17232,7 @@ const PRODUCTS = [
   leather: leather([3150, 3330, 3474, 3618], 36),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -15810,6 +17244,7 @@ const PRODUCTS = [
   leather: leather([3600, 3780, 3924, 4068], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2046_front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2046_Tobacco_QTR"],
 },
 
 {
@@ -15821,6 +17256,7 @@ const PRODUCTS = [
   leather: leather([3300, 3480, 3624, 3768], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2080_front"],
 },
 
 {
@@ -15832,6 +17268,7 @@ const PRODUCTS = [
   leather: leather([3450, 3630, 3774, 3918], 36),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2081_front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2081_detail"],
 },
 
 {
@@ -15843,6 +17280,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 150, tier3: 300, tier4: 3300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2151_HONEDWHITE_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2151_HONEDWHITE_TOP", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2151_HONEDNEGRO_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2151_HONEDNEGRO_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2151_HONEDNEGRO_TOP"],
 },
 
 {
@@ -15854,6 +17292,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2152_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2152_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2152_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2152_TOP"],
 },
 
 {
@@ -15865,6 +17304,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2153_ING_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2153_ING_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2153_CBN_FRONT_3QRT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2153_CBN_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2153_CBN_SIDE"],
 },
 
 {
@@ -15876,6 +17316,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2159_HONEDWHITE_DETAIL"],
 },
 
 {
@@ -15887,6 +17328,7 @@ const PRODUCTS = [
   leather: leather([5952, 6072, 6168, 6264], 24),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2164_NATBRONZE_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2164_NATBRONZE_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2164_NATBRONZE_DETAIL"],
 },
 
 {
@@ -15898,6 +17340,7 @@ const PRODUCTS = [
   leather: leather([5250, 5385, 5493, 5601], 27),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2278_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2279_Detail"],
 },
 
 {
@@ -15909,6 +17352,7 @@ const PRODUCTS = [
   leather: leather([5550, 5685, 5793, 5901], 27),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2279_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2279_Detail"],
 },
 
 {
@@ -15920,6 +17364,7 @@ const PRODUCTS = [
   leather: leather([5244, 5379, 5487, 5595], 27),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2338_STL_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2338_BLKSTL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2338_BLKSTL_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2338_BLKSTL_Detail_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2338_BLKSTL_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2338_STL_Detail_Alt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2338_STL_Detail"],
 },
 
 {
@@ -15931,6 +17376,7 @@ const PRODUCTS = [
   leather: leather([4650, 4830, 4974, 5118], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: 1650 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2340_Gunmetal_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2340_Gunmetal_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2340_MatteMineral_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2340_MatteMineral_Detail"],
 },
 
 {
@@ -15942,6 +17388,7 @@ const PRODUCTS = [
   leather: leather([5250, 5475, 5655, 5835], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: 1650 },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2341_MatteMineral_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2341_MatteMineral_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2341_Gunmetal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2341_Gunmetal_Detail"],
 },
 
 {
@@ -15953,6 +17400,7 @@ const PRODUCTS = [
   leather: leather([4557, 4737, 4881, 5025], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 450, type2Rattan: 750, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2344_MatteMineral_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2344_MatteMineral_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2344_Gunmetal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2344_Gunmetal_Detail"],
 },
 
 {
@@ -15964,6 +17412,7 @@ const PRODUCTS = [
   leather: leather([4650, 4830, 4974, 5118], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 750, type2Rattan: 1050, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2345_Gunmetal_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2345_Gunmetal_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2345_MatteMineral_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2345_MatteMineral_Detail"],
 },
 
 {
@@ -15975,6 +17424,7 @@ const PRODUCTS = [
   leather: leather([4299, 4464, 4596, 4728], 33),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2346_Gunmetal_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2346_Gunmetal_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2346_MatteMineral_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2346_MatteMineral_Detail"],
 },
 
 {
@@ -15986,6 +17436,7 @@ const PRODUCTS = [
   leather: leather([4899, 5109, 5277, 5445], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2348_MatteMineral_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2348_MatteMineral_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2348_Gunmetal_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2348_Gunmetal_Side"],
 },
 
 {
@@ -15997,6 +17448,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2355_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2355_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2355_Natural_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2355_Natural_Detail"],
 },
 
 {
@@ -16008,6 +17460,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 150, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2359_Natural_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2359_Natural_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2359_Front_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2359_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2359_Detail"],
 },
 
 {
@@ -16019,6 +17472,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2361_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2361_Natural_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2361_Natural_Detail"],
 },
 
 {
@@ -16030,6 +17484,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2362_Natural_Detail", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2362_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2362_Detail"],
 },
 
 {
@@ -16041,6 +17496,7 @@ const PRODUCTS = [
   leather: leather([4641, 4761, 4857, 4953], 24),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2378_STL_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2378_BLKSTL_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2378_BLKSTL_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2378_BLKSTL_Detail"],
 },
 
 {
@@ -16052,6 +17508,7 @@ const PRODUCTS = [
   leather: leather([3444, 3579, 3687, 3795], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2540_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2540_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2540_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2540_Detail_01"],
 },
 
 {
@@ -16063,6 +17520,7 @@ const PRODUCTS = [
   leather: leather([3444, 3579, 3687, 3795], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2542_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2542_Side", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2542_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2542_Detail_01"],
 },
 
 {
@@ -16074,6 +17532,7 @@ const PRODUCTS = [
   leather: leather([3549, 3714, 3846, 3978], 33),
   finishTiers: { tier1: 600, tier2: 1095, tier3: 1395, tier4: 1650, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2616B_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2616B_SIDE", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA2616B_DETAIL"],
 },
 
 {
@@ -16085,6 +17544,7 @@ const PRODUCTS = [
   leather: leather([20181, 21351, 22287, 23223], 234),
   finishTiers: { tier1: 0, tier2: 2925, tier3: 4725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3020K_BACK_DETAIL"],
 },
 
 {
@@ -16096,6 +17556,7 @@ const PRODUCTS = [
   leather: leather([17196, 18366, 19302, 20238], 234),
   finishTiers: { tier1: 3000, tier2: 5925, tier3: 7725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3020K_BACK_DETAIL"],
 },
 
 {
@@ -16107,6 +17568,7 @@ const PRODUCTS = [
   leather: leather([16281, 17271, 18063, 18855], 198),
   finishTiers: { tier1: 3000, tier2: 5925, tier3: 7725, tier4: 9300, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3020K_BACK_DETAIL"],
 },
 
 {
@@ -16118,6 +17580,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3034_DETAIL", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3034_TOP"],
 },
 
 {
@@ -16129,6 +17592,7 @@ const PRODUCTS = [
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3044_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3044_BACK_3QRT"],
 },
 
 {
@@ -16140,6 +17604,7 @@ const PRODUCTS = [
   leather: leather([2403, 2493, 2565, 2637], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 750, type2Rattan: 1050, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3045_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3045_BACK_3QRT"],
 },
 
 {
@@ -16151,6 +17616,7 @@ const PRODUCTS = [
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3046_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3046_BACK_3QRT"],
 },
 
 {
@@ -16162,6 +17628,7 @@ const PRODUCTS = [
   leather: leather([2553, 2643, 2715, 2787], 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3047_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3047_BACK_3QRT"],
 },
 
 {
@@ -16173,6 +17640,7 @@ const PRODUCTS = [
   leather: leather([2103, 2193, 2265, 2337], 18),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3048_FRONT", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3048_DETAIL"],
 },
 
 {
@@ -16184,6 +17652,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3720_Natural_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3720_Natural_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3720_Natural_Detail_01"],
 },
 
 {
@@ -16195,6 +17664,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3720_Natural_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3720_Natural_Detail_02", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA3720_Natural_Detail_01"],
 },
 
 {
@@ -16206,6 +17676,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -16217,6 +17688,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -16228,6 +17700,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 0, tier2: 1950, tier3: 3150, tier4: 4200, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -16239,6 +17712,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: 450, tier2: 600, tier3: 750, tier4: 10500, type1Rattan: null, type2Rattan: null, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4000_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4000_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4000_Detail_01"],
 },
 
 {
@@ -16250,6 +17724,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4008_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4008_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4008_Detail_02"],
 },
 
 {
@@ -16261,6 +17736,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4012_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4012_Detail_01"],
 },
 
 {
@@ -16272,6 +17748,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4033_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4033_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4033_Detail_01"],
 },
 
 {
@@ -16283,6 +17760,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4034_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4034_Top", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4034_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4034_Detail_02"],
 },
 
 {
@@ -16294,6 +17772,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4035_Detail_01"],
 },
 
 {
@@ -16305,6 +17784,7 @@ const PRODUCTS = [
   leather: leather([4530, 4740, 4908, 5076], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4038_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4038_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4038_Detail_01"],
 },
 
 {
@@ -16316,6 +17796,7 @@ const PRODUCTS = [
   leather: leather([4644, 4854, 5022, 5190], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4039_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4039_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4039_Detail_01"],
 },
 
 {
@@ -16327,6 +17808,7 @@ const PRODUCTS = [
   leather: leather([9207, 9522, 9774, 10026], 63),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4041_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4041_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4041_Detail_01"],
 },
 
 {
@@ -16338,6 +17820,7 @@ const PRODUCTS = [
   leather: leather([7323, 7548, 7728, 7908], 45),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4042_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4042_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4042_Detail_01"],
 },
 
 {
@@ -16349,6 +17832,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4051_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4051_Detail_01"],
 },
 
 {
@@ -16360,6 +17844,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCM4054_Front"],
 },
 
 {
@@ -16371,6 +17856,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4057_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4057_Detail_01"],
 },
 
 {
@@ -16382,6 +17868,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4058_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4058_Detail_01"],
 },
 
 {
@@ -16393,6 +17880,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4065_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4065_Detail_01"],
 },
 
 {
@@ -16404,6 +17892,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4067_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4067_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4067_Detail_01"],
 },
 
 {
@@ -16415,6 +17904,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4087_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4087_Back_3Qrt", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4087_Detail_01", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4087_Detail_02"],
 },
 
 {
@@ -16426,6 +17916,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: ["https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4096_Front", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4096_Front_3Qrt_Open", "https://s7d2.scene7.com/is/image/bakerinteriorsgroup/MCA4096_Detail_01"],
 },
 
 {
@@ -16437,6 +17928,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16448,6 +17940,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16459,6 +17952,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16470,6 +17964,7 @@ const PRODUCTS = [
   leather: leather(null, 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16481,6 +17976,7 @@ const PRODUCTS = [
   leather: leather([2103, 2193, 2265, 2337], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16492,6 +17988,7 @@ const PRODUCTS = [
   leather: leather([4194, 4374, 4518, 4662], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -16503,6 +18000,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16514,6 +18012,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16525,6 +18024,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16536,6 +18036,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16547,6 +18048,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16558,6 +18060,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16569,6 +18072,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16580,6 +18084,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16591,6 +18096,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16602,6 +18108,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16613,6 +18120,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16624,6 +18132,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16635,6 +18144,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16646,6 +18156,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16657,6 +18168,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16668,6 +18180,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16679,6 +18192,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16690,6 +18204,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16701,6 +18216,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16712,6 +18228,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16723,6 +18240,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16734,6 +18252,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16745,6 +18264,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16756,6 +18276,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16767,6 +18288,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16778,6 +18300,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16789,6 +18312,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16800,6 +18324,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16811,6 +18336,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16822,6 +18348,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16833,6 +18360,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16844,6 +18372,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16855,6 +18384,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16866,6 +18396,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16877,6 +18408,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16888,6 +18420,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16899,6 +18432,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16910,6 +18444,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16921,6 +18456,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16932,6 +18468,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16943,6 +18480,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16954,6 +18492,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16965,6 +18504,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16976,6 +18516,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16987,6 +18528,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -16998,6 +18540,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17009,6 +18552,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17020,6 +18564,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17031,6 +18576,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17042,6 +18588,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17053,6 +18600,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17064,6 +18612,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17075,6 +18624,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17086,6 +18636,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17097,6 +18648,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17108,6 +18660,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17119,6 +18672,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17130,6 +18684,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17141,6 +18696,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17152,6 +18708,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17163,6 +18720,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17174,6 +18732,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17185,6 +18744,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17196,6 +18756,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17207,6 +18768,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17218,6 +18780,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17229,6 +18792,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17240,6 +18804,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17251,6 +18816,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17262,6 +18828,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17273,6 +18840,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17284,6 +18852,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17295,6 +18864,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17306,6 +18876,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17317,6 +18888,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17328,6 +18900,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17339,6 +18912,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17350,6 +18924,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17361,6 +18936,7 @@ const PRODUCTS = [
   leather: leather([3003, 3093, 3165, 3237], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17372,6 +18948,7 @@ const PRODUCTS = [
   leather: leather([3297, 3387, 3459, 3531], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17383,6 +18960,7 @@ const PRODUCTS = [
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17394,6 +18972,7 @@ const PRODUCTS = [
   leather: leather([3486, 3576, 3648, 3720], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17405,6 +18984,7 @@ const PRODUCTS = [
   leather: leather([3534, 3624, 3696, 3768], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17416,6 +18996,7 @@ const PRODUCTS = [
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17427,6 +19008,7 @@ const PRODUCTS = [
   leather: leather([2703, 2793, 2865, 2937], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17438,6 +19020,7 @@ const PRODUCTS = [
   leather: leather([3174, 3264, 3336, 3408], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17449,6 +19032,7 @@ const PRODUCTS = [
   leather: leather([3303, 3393, 3465, 3537], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17460,6 +19044,7 @@ const PRODUCTS = [
   leather: leather([3003, 3093, 3165, 3237], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17471,6 +19056,7 @@ const PRODUCTS = [
   leather: leather([4458, 4638, 4782, 4926], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17482,6 +19068,7 @@ const PRODUCTS = [
   leather: leather([5703, 5793, 5865, 5937], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17493,6 +19080,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17504,6 +19092,7 @@ const PRODUCTS = [
   leather: leather([3006, 3231, 3411, 3591], 45),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17515,6 +19104,7 @@ const PRODUCTS = [
   leather: leather([3054, 3189, 3297, 3405], 27),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17526,6 +19116,7 @@ const PRODUCTS = [
   leather: leather([2697, 2787, 2859, 2931], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17537,6 +19128,7 @@ const PRODUCTS = [
   leather: leather([3903, 3993, 4065, 4137], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17548,6 +19140,7 @@ const PRODUCTS = [
   leather: leather([4200, 4380, 4524, 4668], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: 2085 },
   addons: null,
+  images: [],
 },
 
 {
@@ -17559,6 +19152,7 @@ const PRODUCTS = [
   leather: leather([3405, 3585, 3729, 3873], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17570,6 +19164,7 @@ const PRODUCTS = [
   leather: leather([4227, 4482, 4686, 4890], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17581,6 +19176,7 @@ const PRODUCTS = [
   leather: leather([3717, 3897, 4041, 4185], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 300, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17592,6 +19188,7 @@ const PRODUCTS = [
   leather: leather([4512, 4767, 4971, 5175], 51),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17603,6 +19200,7 @@ const PRODUCTS = [
   leather: leather([4002, 4182, 4326, 4470], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 900, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17614,6 +19212,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 150, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17625,6 +19224,7 @@ const PRODUCTS = [
   leather: leather([5703, 5793, 5865, 5937], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17636,6 +19236,7 @@ const PRODUCTS = [
   leather: leather([2403, 2493, 2565, 2637], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17647,6 +19248,7 @@ const PRODUCTS = [
   leather: leather([3003, 3093, 3165, 3237], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17658,6 +19260,7 @@ const PRODUCTS = [
   leather: leather([4641, 4851, 5019, 5187], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17669,6 +19272,7 @@ const PRODUCTS = [
   leather: leather([4260, 4470, 4638, 4806], 42),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17680,6 +19284,7 @@ const PRODUCTS = [
   leather: leather([3903, 3993, 4065, 4137], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17691,6 +19296,7 @@ const PRODUCTS = [
   leather: leather([3603, 3693, 3765, 3837], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17702,6 +19308,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17713,6 +19320,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17724,6 +19332,7 @@ const PRODUCTS = [
   leather: leather([5250, 5385, 5493, 5601], 27),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17735,6 +19344,7 @@ const PRODUCTS = [
   leather: leather([4650, 4830, 4974, 5118], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17746,6 +19356,7 @@ const PRODUCTS = [
   leather: leather([2553, 2643, 2715, 2787], 18),
   finishTiers: null,
   addons: null,
+  images: [],
 },
 
 {
@@ -17757,6 +19368,7 @@ const PRODUCTS = [
   leather: leather([4203, 4293, 4365, 4437], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17768,6 +19380,7 @@ const PRODUCTS = [
   leather: leather([5991, 6171, 6315, 6459], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17779,6 +19392,7 @@ const PRODUCTS = [
   leather: leather([5259, 5424, 5556, 5688], 33),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17790,6 +19404,7 @@ const PRODUCTS = [
   leather: leather([3624, 3714, 3786, 3858], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17801,6 +19416,7 @@ const PRODUCTS = [
   leather: leather([4800, 4980, 5124, 5268], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17812,6 +19428,7 @@ const PRODUCTS = [
   leather: leather([4701, 4881, 5025, 5169], 36),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17823,6 +19440,7 @@ const PRODUCTS = [
   leather: leather([3753, 3843, 3915, 3987], 18),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 0, type2Rattan: 300, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 {
@@ -17834,6 +19452,7 @@ const PRODUCTS = [
   leather: leather(null, null),
   finishTiers: { tier1: null, tier2: null, tier3: null, tier4: null, type1Rattan: 600, type2Rattan: 600, specialtyRattan: null },
   addons: null,
+  images: [],
 },
 
 ];
